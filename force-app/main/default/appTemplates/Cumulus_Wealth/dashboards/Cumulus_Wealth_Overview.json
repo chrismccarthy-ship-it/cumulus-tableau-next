@@ -1,0 +1,409 @@
+{
+  "name": "Cumulus_Wealth_Overview",
+  "label": "Cumulus Wealth Overview ${Variables.LabelSuffix}",
+  "description": "Cumulus Wealth \u2014 service and business KPIs for the Cumulus Financial Group demo.",
+  "customConfig": {
+    "queryCacheEnabled": true,
+    "queryCacheStaleness": "30min"
+  },
+  "layouts": [
+    {
+      "columnCount": 96,
+      "maxWidth": 1600,
+      "name": "default",
+      "pages": [
+        {
+          "label": "Overview",
+          "name": "overview",
+          "widgets": [
+            {
+              "name": "hdr",
+              "column": 0,
+              "row": 0,
+              "colspan": 96,
+              "rowspan": 6
+            },
+            {
+              "name": "w_WM_KPI_AUM",
+              "column": 0,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_WM_KPI_NNA",
+              "column": 24,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_WM_KPI_Households",
+              "column": 48,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_WM_KPI_Interactions",
+              "column": 72,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "x_kpi",
+              "column": 0,
+              "row": 15,
+              "colspan": 28,
+              "rowspan": 34
+            },
+            {
+              "name": "w_WM_Net_Flows_Trend",
+              "column": 28,
+              "row": 15,
+              "colspan": 68,
+              "rowspan": 34
+            },
+            {
+              "name": "w_WM_AUM_By_Advisor",
+              "column": 0,
+              "row": 49,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_WM_Interactions_Churn",
+              "column": 32,
+              "row": 49,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_WM_Allocation",
+              "column": 64,
+              "row": 49,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_WM_Goals_Status",
+              "column": 0,
+              "row": 77,
+              "colspan": 32,
+              "rowspan": 28
+            }
+          ]
+        }
+      ],
+      "rowHeight": 10,
+      "style": {
+        "backgroundColor": "#EEF2F7",
+        "cellSpacingX": 12,
+        "cellSpacingY": 12,
+        "gutterColor": "#EEF2F7"
+      }
+    }
+  ],
+  "style": {
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#D9E1EC",
+      "borderEdges": [],
+      "borderRadius": 12,
+      "borderWidth": 1
+    }
+  },
+  "widgets": {
+    "hdr": {
+      "actions": [],
+      "name": "hdr",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#032D60",
+              "size": "22px",
+              "bold": true
+            },
+            "insert": "Cumulus Wealth Overview",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#5C6B82",
+              "size": "13px"
+            },
+            "insert": "",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ]
+      }
+    },
+    "w_WM_KPI_AUM": {
+      "actions": [],
+      "name": "w_WM_KPI_AUM",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_KPI_AUM.Id}",
+        "name": "${App.Visualizations.WM_KPI_AUM.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_WM_KPI_NNA": {
+      "actions": [],
+      "name": "w_WM_KPI_NNA",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_KPI_NNA.Id}",
+        "name": "${App.Visualizations.WM_KPI_NNA.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_WM_KPI_Households": {
+      "actions": [],
+      "name": "w_WM_KPI_Households",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_KPI_Households.Id}",
+        "name": "${App.Visualizations.WM_KPI_Households.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_WM_KPI_Interactions": {
+      "actions": [],
+      "name": "w_WM_KPI_Interactions",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_KPI_Interactions.Id}",
+        "name": "${App.Visualizations.WM_KPI_Interactions.Name}"
+      },
+      "type": "visualization"
+    },
+    "x_kpi": {
+      "actions": [],
+      "name": "x_kpi",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Total_AUM",
+            "aggregation": "UserAgg",
+            "label": "Total AUM"
+          },
+          "title": "AUM vs Target",
+          "target": "1500000000",
+          "sentiment": "UpIsGood",
+          "format": "currency",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_WM_Net_Flows_Trend": {
+      "actions": [],
+      "name": "w_WM_Net_Flows_Trend",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_Net_Flows_Trend.Id}",
+        "name": "${App.Visualizations.WM_Net_Flows_Trend.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_WM_AUM_By_Advisor": {
+      "actions": [],
+      "name": "w_WM_AUM_By_Advisor",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_AUM_By_Advisor.Id}",
+        "name": "${App.Visualizations.WM_AUM_By_Advisor.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_WM_Interactions_Churn": {
+      "actions": [],
+      "name": "w_WM_Interactions_Churn",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_Interactions_Churn.Id}",
+        "name": "${App.Visualizations.WM_Interactions_Churn.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_WM_Allocation": {
+      "actions": [],
+      "name": "w_WM_Allocation",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_Allocation.Id}",
+        "name": "${App.Visualizations.WM_Allocation.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_WM_Goals_Status": {
+      "actions": [],
+      "name": "w_WM_Goals_Status",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_Goals_Status.Id}",
+        "name": "${App.Visualizations.WM_Goals_Status.Name}"
+      },
+      "type": "visualization"
+    }
+  },
+  "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Wealth_WS.Name}"
+}

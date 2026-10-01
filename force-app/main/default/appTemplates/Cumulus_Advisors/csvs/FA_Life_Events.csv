@@ -1,0 +1,586 @@
+LifeEventId,ClientHouseholdId,AdvisorId,EventType,EventDate,DetectedSource,FollowUpDate,FollowUpWithin14Days,OpportunityValue,HouseholdName,AdvisorName,LifeStage,AUM,Region
+FA-LE-000001,FA-HH-00002,E-0162,Retirement,2025-12-26,Agentforce Signal,2025-12-31,true,67772.5,Young Household,Owen Edwards,Retirement,484390.47,Mountain West
+FA-LE-000002,FA-HH-00004,E-0168,Marriage,2025-06-29,Transaction Pattern,2025-07-04,true,66725.22,Parker Household,Kenji Bailey,Pre-Retirement,231331.1,Midwest
+FA-LE-000003,FA-HH-00006,E-0165,Marriage,2026-08-22,Client Portal,2026-08-24,true,130177.31,Parker Household,Jamal Vaughn,Retirement,268694.93,Midwest
+FA-LE-000004,FA-HH-00007,E-0153,Job Change,2025-11-10,Advisor,2025-11-15,true,50478.69,White Household,Noah Baker,Accumulation,315159.31,Mountain West
+FA-LE-000005,FA-HH-00009,E-0170,Inheritance,2025-12-25,Agentforce Signal,2026-01-01,true,332650.56,King Household,Kenji Stewart,Accumulation,222653.17,Southeast
+FA-LE-000006,FA-HH-00014,E-0160,New Child,2026-04-22,Agentforce Signal,2026-06-09,false,65866.8,Turner Household,Diego Silva,Accumulation,56808.14,Midwest
+FA-LE-000007,FA-HH-00014,E-0160,New Child,2026-04-12,Advisor,2026-04-19,true,112964.22,Turner Household,Diego Silva,Accumulation,56808.14,Midwest
+FA-LE-000008,FA-HH-00015,E-0143,New Child,2026-04-06,Client Portal,2026-04-19,true,182034.6,Johnson Household,Naomi Allen,Accumulation,240187.64,Southeast
+FA-LE-000009,FA-HH-00020,E-0159,Job Change,2025-11-29,Advisor,2026-01-11,false,138592.24,Harris Household,Owen White,Retirement,164273.0,Mountain West
+FA-LE-000010,FA-HH-00023,E-0176,Inheritance,2025-07-20,Advisor,2025-07-24,true,180578.57,Adams Household,Hannah Davis,Pre-Retirement,163857.46,Northeast
+FA-LE-000011,FA-HH-00024,E-0173,Home Purchase,2026-08-16,Advisor,2026-08-25,true,29586.72,Young Household,Noah Phillips,Accumulation,222589.26,Mountain West
+FA-LE-000012,FA-HH-00025,E-0172,Inheritance,2026-07-12,Agentforce Signal,2026-07-22,true,147746.04,Scott Household,Priya Anderson,Pre-Retirement,1484325.37,Southeast
+FA-LE-000013,FA-HH-00028,E-0165,New Child,2025-09-06,Client Portal,2025-09-15,true,74021.03,Wilson Household,Jamal Vaughn,Retirement,169738.24,Midwest
+FA-LE-000014,FA-HH-00029,E-0167,Retirement,2025-08-06,Advisor,2025-08-15,true,421287.06,Green Household,Jamal Wilson,Accumulation,725771.52,Pacific
+FA-LE-000015,FA-HH-00030,E-0159,New Child,2025-10-27,Client Portal,2025-11-05,true,56362.87,Martinez Household,Owen White,Accumulation,37949.54,Mountain West
+FA-LE-000016,FA-HH-00032,E-0166,Marriage,2026-05-23,Advisor,2026-05-25,true,56701.01,Moore Household,Wei King,Legacy,141418.65,Southeast
+FA-LE-000017,FA-HH-00034,E-0156,Job Change,2026-07-10,Transaction Pattern,2026-07-21,true,29474.09,Green Household,Ava Ashford,Retirement,323067.53,Southeast
+FA-LE-000018,FA-HH-00035,E-0150,New Child,2025-09-23,Client Portal,,false,107614.33,Hall Household,Henry Parker,Accumulation,167865.73,Southeast
+FA-LE-000019,FA-HH-00036,E-0173,New Child,2026-07-14,Agentforce Signal,,false,13871.12,Mitchell Household,Noah Phillips,Pre-Retirement,433456.08,Mountain West
+FA-LE-000020,FA-HH-00037,E-0179,Home Purchase,2026-08-12,Advisor,,false,228957.28,Wilson Household,Sara Nelson,Retirement,1332334.59,Pacific
+FA-LE-000021,FA-HH-00039,E-0167,New Child,2026-08-26,Agentforce Signal,2026-09-08,true,33325.03,Thomas Household,Jamal Wilson,Legacy,216407.29,Pacific
+FA-LE-000022,FA-HH-00041,E-0144,Job Change,2025-06-04,Agentforce Signal,2025-06-08,true,95523.74,Bailey Household,Luis Stewart,Pre-Retirement,216863.2,Pacific
+FA-LE-000023,FA-HH-00043,E-0171,Inheritance,2026-04-13,Advisor,2026-04-14,true,57100.84,Lopez Household,Victor Evans,Accumulation,225167.77,Midwest
+FA-LE-000024,FA-HH-00044,E-0179,Home Purchase,2026-08-28,Advisor,2026-09-02,true,7100.7,Mitchell Household,Sara Nelson,Pre-Retirement,75027.18,Pacific
+FA-LE-000025,FA-HH-00045,E-0174,New Child,2025-11-27,Transaction Pattern,2025-11-28,true,77530.93,Miller Household,Kenji Scott,Pre-Retirement,89601.08,Southeast
+FA-LE-000026,FA-HH-00047,E-0169,Inheritance,2025-06-13,Client Portal,2025-06-16,true,366119.48,Green Household,Priya Martinez,Accumulation,348164.84,Mountain West
+FA-LE-000027,FA-HH-00049,E-0156,Home Purchase,2025-06-03,Advisor,2025-06-07,true,69692.55,Campbell Household,Ava Ashford,Pre-Retirement,279096.43,Southeast
+FA-LE-000028,FA-HH-00049,E-0156,Business Sale,2026-04-06,Advisor,,false,78833.61,Campbell Household,Ava Ashford,Pre-Retirement,279096.43,Southeast
+FA-LE-000029,FA-HH-00052,E-0172,Business Sale,2026-03-11,Agentforce Signal,,false,118650.33,Roberts Household,Priya Anderson,Accumulation,90715.43,Southeast
+FA-LE-000030,FA-HH-00057,E-0179,Marriage,2026-07-16,Advisor,2026-07-24,true,16795.66,Wright Household,Sara Nelson,Accumulation,963705.92,Pacific
+FA-LE-000031,FA-HH-00059,E-0180,Inheritance,2025-06-19,Advisor,2025-07-01,true,221215.09,Evans Household,Sofia Johnson,Retirement,183166.78,Southeast
+FA-LE-000032,FA-HH-00061,E-0158,New Child,2026-08-29,Advisor,,false,752506.24,Okafor Household,Lauren Lewis,Retirement,574190.22,Pacific
+FA-LE-000033,FA-HH-00064,E-0143,Job Change,2025-06-27,Advisor,2025-07-05,true,171117.25,Collins Household,Naomi Allen,Pre-Retirement,1114192.27,Southeast
+FA-LE-000034,FA-HH-00065,E-0149,Business Sale,2025-11-18,Advisor,,false,59482.92,Campbell Household,Amara Okafor,Retirement,103230.54,Mountain West
+FA-LE-000035,FA-HH-00068,E-0159,Inheritance,2026-04-03,Advisor,,false,402775.31,Edwards Household,Owen White,Accumulation,375819.27,Mountain West
+FA-LE-000036,FA-HH-00069,E-0173,New Child,2026-05-11,Advisor,2026-05-14,true,80918.0,Silva Household,Noah Phillips,Retirement,126559.41,Mountain West
+FA-LE-000037,FA-HH-00072,E-0157,New Child,2026-02-17,Client Portal,2026-03-01,true,7201.51,Phillips Household,Amara White,Accumulation,1859686.79,Northeast
+FA-LE-000038,FA-HH-00073,E-0151,New Child,2026-06-07,Agentforce Signal,2026-07-27,false,119364.46,Scott Household,Grace Carter,Retirement,149208.98,Mountain West
+FA-LE-000039,FA-HH-00074,E-0170,Inheritance,2026-03-26,Advisor,2026-04-08,true,163643.24,Nelson Household,Kenji Stewart,Accumulation,498236.04,Southeast
+FA-LE-000040,FA-HH-00075,E-0160,Job Change,2025-11-12,Agentforce Signal,2025-12-02,false,33797.38,Wilson Household,Diego Silva,Retirement,801594.82,Midwest
+FA-LE-000041,FA-HH-00077,E-0180,New Child,2025-07-15,Advisor,2025-07-22,true,266985.58,Ruiz Household,Sofia Johnson,Accumulation,108037.56,Southeast
+FA-LE-000042,FA-HH-00079,E-0149,Job Change,2026-02-06,Agentforce Signal,2026-02-18,true,123290.44,Collins Household,Amara Okafor,Retirement,771796.84,Mountain West
+FA-LE-000043,FA-HH-00080,E-0153,Marriage,2026-03-27,Advisor,2026-04-09,true,96327.31,Bailey Household,Noah Baker,Accumulation,168532.86,Mountain West
+FA-LE-000044,FA-HH-00081,E-0180,Retirement,2025-07-07,Agentforce Signal,2025-07-10,true,84315.58,Vaughn Household,Sofia Johnson,Accumulation,71159.24,Southeast
+FA-LE-000045,FA-HH-00082,E-0169,Inheritance,2026-06-11,Advisor,2026-06-22,true,96769.02,Patel Household,Priya Martinez,Accumulation,208954.87,Mountain West
+FA-LE-000046,FA-HH-00085,E-0170,Inheritance,2026-08-02,Client Portal,,false,180583.08,Davis Household,Kenji Stewart,Retirement,375741.73,Southeast
+FA-LE-000047,FA-HH-00094,E-0168,New Child,2026-01-17,Client Portal,2026-01-25,true,49127.81,Young Household,Kenji Bailey,Retirement,494731.46,Midwest
+FA-LE-000048,FA-HH-00094,E-0168,Marriage,2025-08-15,Advisor,2025-08-26,true,115135.4,Young Household,Kenji Bailey,Retirement,494731.46,Midwest
+FA-LE-000049,FA-HH-00097,E-0168,Job Change,2026-03-07,Client Portal,2026-03-12,true,118428.1,Brown Household,Kenji Bailey,Accumulation,542804.09,Midwest
+FA-LE-000050,FA-HH-00107,E-0152,Marriage,2025-08-24,Transaction Pattern,2025-08-26,true,172734.95,Roberts Household,Nina Brown,Accumulation,321085.39,Southeast
+FA-LE-000051,FA-HH-00107,E-0152,Marriage,2026-07-23,Advisor,2026-07-26,true,116450.41,Roberts Household,Nina Brown,Accumulation,321085.39,Southeast
+FA-LE-000052,FA-HH-00110,E-0174,Home Purchase,2025-12-11,Client Portal,2025-12-12,true,17092.96,Jackson Household,Kenji Scott,Legacy,138242.05,Southeast
+FA-LE-000053,FA-HH-00111,E-0174,New Child,2026-06-25,Advisor,2026-07-03,true,71719.09,Phillips Household,Kenji Scott,Pre-Retirement,228533.81,Southeast
+FA-LE-000054,FA-HH-00112,E-0170,Business Sale,2025-08-25,Client Portal,2025-08-31,true,256403.32,Patel Household,Kenji Stewart,Accumulation,277250.38,Southeast
+FA-LE-000055,FA-HH-00114,E-0178,Marriage,2026-07-05,Advisor,,false,31513.58,Miller Household,Carlos Miller,Pre-Retirement,221873.24,Mountain West
+FA-LE-000056,FA-HH-00115,E-0142,Marriage,2025-08-05,Client Portal,2025-08-12,true,100596.9,Adams Household,Wei Ruiz,Accumulation,433504.83,Southeast
+FA-LE-000057,FA-HH-00119,E-0155,Marriage,2026-05-14,Client Portal,2026-06-12,false,66787.56,Chen Household,Sofia Parker,Accumulation,154594.2,Pacific
+FA-LE-000058,FA-HH-00124,E-0156,New Child,2026-01-11,Client Portal,,false,23260.05,Baker Household,Ava Ashford,Legacy,349531.25,Southeast
+FA-LE-000059,FA-HH-00124,E-0156,Inheritance,2026-04-27,Advisor,2026-05-03,true,59407.57,Baker Household,Ava Ashford,Legacy,349531.25,Southeast
+FA-LE-000060,FA-HH-00129,E-0174,Retirement,2025-08-24,Advisor,2025-09-04,true,26387.33,Campbell Household,Kenji Scott,Pre-Retirement,81689.35,Southeast
+FA-LE-000061,FA-HH-00136,E-0141,Retirement,2025-09-30,Transaction Pattern,2025-10-10,true,39617.71,Roberts Household,Victor Walker,Retirement,68763.92,Northeast
+FA-LE-000062,FA-HH-00142,E-0159,Retirement,2026-03-12,Client Portal,2026-03-20,true,64624.92,Wright Household,Owen White,Pre-Retirement,184017.96,Mountain West
+FA-LE-000063,FA-HH-00145,E-0166,Inheritance,2026-08-11,Client Portal,2026-08-17,true,131268.22,Allen Household,Wei King,Accumulation,181212.6,Southeast
+FA-LE-000064,FA-HH-00149,E-0174,Marriage,2026-06-30,Transaction Pattern,2026-07-03,true,95673.49,Parker Household,Kenji Scott,Accumulation,161672.36,Southeast
+FA-LE-000065,FA-HH-00149,E-0174,Marriage,2025-09-14,Agentforce Signal,,false,11160.49,Parker Household,Kenji Scott,Accumulation,161672.36,Southeast
+FA-LE-000066,FA-HH-00152,E-0167,New Child,2025-11-14,Client Portal,2025-11-20,true,61274.81,Phillips Household,Jamal Wilson,Retirement,1715888.26,Pacific
+FA-LE-000067,FA-HH-00155,E-0166,Home Purchase,2026-02-25,Advisor,2026-03-10,true,35087.23,Phillips Household,Wei King,Accumulation,589619.47,Southeast
+FA-LE-000068,FA-HH-00157,E-0147,Business Sale,2025-10-03,Advisor,,false,735829.74,Silva Household,Yuki Vaughn,Pre-Retirement,204128.79,Southeast
+FA-LE-000069,FA-HH-00157,E-0147,Home Purchase,2026-03-24,Advisor,2026-05-18,false,198809.86,Silva Household,Yuki Vaughn,Pre-Retirement,204128.79,Southeast
+FA-LE-000070,FA-HH-00158,E-0158,Home Purchase,2026-04-04,Transaction Pattern,2026-04-16,true,24984.56,Adams Household,Lauren Lewis,Pre-Retirement,285704.68,Pacific
+FA-LE-000071,FA-HH-00160,E-0175,Business Sale,2026-06-06,Agentforce Signal,2026-06-19,true,74262.34,Vaughn Household,Chloe Parker,Accumulation,86745.46,Midwest
+FA-LE-000072,FA-HH-00165,E-0166,New Child,2025-07-14,Advisor,2025-07-23,true,72748.44,Harris Household,Wei King,Retirement,328691.03,Southeast
+FA-LE-000073,FA-HH-00168,E-0156,Marriage,2025-10-27,Advisor,2025-11-09,true,232038.02,Garcia Household,Ava Ashford,Pre-Retirement,881709.68,Southeast
+FA-LE-000074,FA-HH-00170,E-0179,Retirement,2025-06-23,Agentforce Signal,2025-08-10,false,112308.26,Walker Household,Sara Nelson,Accumulation,442802.61,Pacific
+FA-LE-000075,FA-HH-00172,E-0176,Home Purchase,2025-11-12,Agentforce Signal,,false,421355.45,Garcia Household,Hannah Davis,Legacy,122045.57,Northeast
+FA-LE-000076,FA-HH-00174,E-0159,Marriage,2025-06-04,Agentforce Signal,2025-06-23,false,166200.47,Martinez Household,Owen White,Pre-Retirement,836411.55,Mountain West
+FA-LE-000077,FA-HH-00174,E-0159,Business Sale,2026-06-04,Client Portal,2026-06-07,true,14047.3,Martinez Household,Owen White,Pre-Retirement,836411.55,Mountain West
+FA-LE-000078,FA-HH-00175,E-0143,New Child,2026-06-06,Transaction Pattern,2026-06-19,true,20204.53,Davis Household,Naomi Allen,Accumulation,443933.0,Southeast
+FA-LE-000079,FA-HH-00176,E-0170,Business Sale,2026-04-15,Transaction Pattern,2026-04-20,true,98599.97,Chen Household,Kenji Stewart,Pre-Retirement,86875.13,Southeast
+FA-LE-000080,FA-HH-00179,E-0171,Home Purchase,2026-01-15,Advisor,2026-01-25,true,65030.59,Chen Household,Victor Evans,Accumulation,235863.37,Midwest
+FA-LE-000081,FA-HH-00181,E-0147,Marriage,2026-04-03,Transaction Pattern,2026-04-16,true,74178.53,Vaughn Household,Yuki Vaughn,Legacy,284169.96,Southeast
+FA-LE-000082,FA-HH-00182,E-0180,Retirement,2025-10-23,Advisor,2025-11-12,false,29438.18,Martinez Household,Sofia Johnson,Retirement,218941.63,Southeast
+FA-LE-000083,FA-HH-00185,E-0148,Home Purchase,2025-11-09,Advisor,2025-11-12,true,10668.17,White Household,Julian Silva,Accumulation,139492.44,Southeast
+FA-LE-000084,FA-HH-00185,E-0148,Business Sale,2026-05-07,Agentforce Signal,2026-06-20,false,17713.66,White Household,Julian Silva,Accumulation,139492.44,Southeast
+FA-LE-000085,FA-HH-00196,E-0143,Inheritance,2025-07-07,Transaction Pattern,2025-07-12,true,11356.44,Campbell Household,Naomi Allen,Accumulation,1338422.59,Southeast
+FA-LE-000086,FA-HH-00197,E-0172,New Child,2025-11-30,Agentforce Signal,2025-12-31,false,61957.76,Parker Household,Priya Anderson,Accumulation,301695.22,Southeast
+FA-LE-000087,FA-HH-00206,E-0166,Retirement,2026-08-11,Transaction Pattern,2026-08-20,true,125914.46,Hall Household,Wei King,Accumulation,150631.87,Southeast
+FA-LE-000088,FA-HH-00207,E-0173,Marriage,2026-02-03,Advisor,2026-02-04,true,10643.3,Allen Household,Noah Phillips,Pre-Retirement,254284.11,Mountain West
+FA-LE-000089,FA-HH-00208,E-0144,New Child,2025-12-27,Advisor,2025-12-29,true,61140.34,King Household,Luis Stewart,Accumulation,296059.98,Pacific
+FA-LE-000090,FA-HH-00209,E-0175,Home Purchase,2026-03-01,Client Portal,2026-03-02,true,43025.1,Lewis Household,Chloe Parker,Accumulation,1132887.68,Midwest
+FA-LE-000091,FA-HH-00209,E-0175,Business Sale,2026-05-27,Transaction Pattern,2026-05-28,true,67905.66,Lewis Household,Chloe Parker,Accumulation,1132887.68,Midwest
+FA-LE-000092,FA-HH-00210,E-0175,Home Purchase,2026-06-20,Agentforce Signal,,false,259590.2,Edwards Household,Chloe Parker,Accumulation,248975.64,Midwest
+FA-LE-000093,FA-HH-00213,E-0155,New Child,2026-08-18,Client Portal,2026-10-03,false,178736.65,Anderson Household,Sofia Parker,Pre-Retirement,308817.44,Pacific
+FA-LE-000094,FA-HH-00215,E-0158,Marriage,2026-07-03,Agentforce Signal,2026-07-30,false,112913.05,Roberts Household,Lauren Lewis,Retirement,74329.58,Pacific
+FA-LE-000095,FA-HH-00216,E-0179,Marriage,2026-06-25,Transaction Pattern,2026-06-30,true,43471.15,Garcia Household,Sara Nelson,Pre-Retirement,169091.57,Pacific
+FA-LE-000096,FA-HH-00225,E-0142,Home Purchase,2025-10-21,Agentforce Signal,2025-10-29,true,91004.39,Green Household,Wei Ruiz,Pre-Retirement,441771.37,Southeast
+FA-LE-000097,FA-HH-00227,E-0148,Home Purchase,2026-08-10,Agentforce Signal,2026-08-22,true,118120.73,Wright Household,Julian Silva,Accumulation,211817.1,Southeast
+FA-LE-000098,FA-HH-00228,E-0177,New Child,2026-04-11,Client Portal,,false,45215.1,White Household,Isabella Okafor,Pre-Retirement,314091.79,Mountain West
+FA-LE-000099,FA-HH-00233,E-0169,New Child,2026-08-26,Agentforce Signal,,false,1050522.96,Turner Household,Priya Martinez,Accumulation,235462.22,Mountain West
+FA-LE-000100,FA-HH-00234,E-0142,Retirement,2026-03-15,Transaction Pattern,2026-03-17,true,40559.7,Edwards Household,Wei Ruiz,Accumulation,88100.92,Southeast
+FA-LE-000101,FA-HH-00235,E-0155,Job Change,2025-10-30,Agentforce Signal,2025-11-11,true,59896.1,Nguyen Household,Sofia Parker,Pre-Retirement,339990.67,Pacific
+FA-LE-000102,FA-HH-00236,E-0161,Inheritance,2026-02-28,Advisor,2026-03-11,true,49328.67,Edwards Household,Julian Green,Accumulation,2874918.07,Pacific
+FA-LE-000103,FA-HH-00236,E-0161,Business Sale,2026-07-20,Client Portal,,false,115857.48,Edwards Household,Julian Green,Accumulation,2874918.07,Pacific
+FA-LE-000104,FA-HH-00237,E-0170,Home Purchase,2025-12-08,Agentforce Signal,2025-12-18,true,119949.1,Nguyen Household,Kenji Stewart,Legacy,261470.97,Southeast
+FA-LE-000105,FA-HH-00239,E-0163,Home Purchase,2026-03-12,Agentforce Signal,2026-03-23,true,112255.51,Wilson Household,Olivia Patel,Accumulation,573529.51,Southeast
+FA-LE-000106,FA-HH-00244,E-0174,Business Sale,2025-09-11,Advisor,2025-09-23,true,162167.51,Evans Household,Kenji Scott,Pre-Retirement,104546.34,Southeast
+FA-LE-000107,FA-HH-00245,E-0167,Business Sale,2026-07-30,Transaction Pattern,2026-08-07,true,23240.07,Green Household,Jamal Wilson,Pre-Retirement,22770.11,Pacific
+FA-LE-000108,FA-HH-00249,E-0147,Business Sale,2026-04-21,Transaction Pattern,2026-04-23,true,147268.71,Kim Household,Yuki Vaughn,Accumulation,650207.84,Southeast
+FA-LE-000109,FA-HH-00249,E-0147,Marriage,2025-06-01,Agentforce Signal,2025-06-12,true,37915.89,Kim Household,Yuki Vaughn,Accumulation,650207.84,Southeast
+FA-LE-000110,FA-HH-00252,E-0151,New Child,2025-10-07,Client Portal,2025-10-15,true,52948.97,Taylor Household,Grace Carter,Accumulation,1051231.33,Mountain West
+FA-LE-000111,FA-HH-00254,E-0150,Inheritance,2026-01-17,Transaction Pattern,2026-01-30,true,16521.14,Scott Household,Henry Parker,Retirement,250616.51,Southeast
+FA-LE-000112,FA-HH-00255,E-0179,Inheritance,2026-04-15,Agentforce Signal,2026-04-28,true,70219.45,Walker Household,Sara Nelson,Accumulation,294046.52,Pacific
+FA-LE-000113,FA-HH-00263,E-0175,Business Sale,2025-08-21,Advisor,,false,13877.87,Ashford Household,Chloe Parker,Legacy,98686.03,Midwest
+FA-LE-000114,FA-HH-00267,E-0166,Marriage,2026-03-30,Transaction Pattern,,false,39515.89,Patel Household,Wei King,Accumulation,79847.05,Southeast
+FA-LE-000115,FA-HH-00271,E-0154,Business Sale,2026-06-22,Advisor,2026-07-04,true,121665.7,Martinez Household,Leo Evans,Pre-Retirement,1044860.22,Southeast
+FA-LE-000116,FA-HH-00273,E-0145,New Child,2025-12-22,Agentforce Signal,2025-12-29,true,93826.76,Turner Household,Priya Young,Retirement,320393.13,Northeast
+FA-LE-000117,FA-HH-00282,E-0170,Job Change,2025-08-30,Advisor,2025-09-23,false,160345.17,Hall Household,Kenji Stewart,Pre-Retirement,120021.41,Southeast
+FA-LE-000118,FA-HH-00288,E-0169,Inheritance,2026-08-19,Client Portal,2026-08-24,true,143474.23,Moore Household,Priya Martinez,Retirement,215641.54,Mountain West
+FA-LE-000119,FA-HH-00291,E-0163,Marriage,2026-08-23,Advisor,2026-08-25,true,48131.86,Stewart Household,Olivia Patel,Accumulation,39902.38,Southeast
+FA-LE-000120,FA-HH-00302,E-0141,Home Purchase,2026-01-15,Advisor,2026-01-26,true,34478.43,Bailey Household,Victor Walker,Retirement,288383.51,Northeast
+FA-LE-000121,FA-HH-00306,E-0147,Inheritance,2025-09-23,Advisor,2025-09-30,true,160828.52,Stewart Household,Yuki Vaughn,Pre-Retirement,341249.62,Southeast
+FA-LE-000122,FA-HH-00312,E-0150,New Child,2026-05-02,Agentforce Signal,2026-05-29,false,88734.94,Bailey Household,Henry Parker,Pre-Retirement,386727.98,Southeast
+FA-LE-000123,FA-HH-00312,E-0150,Retirement,2026-03-02,Client Portal,,false,14019.61,Bailey Household,Henry Parker,Pre-Retirement,386727.98,Southeast
+FA-LE-000124,FA-HH-00314,E-0141,New Child,2025-06-03,Advisor,,false,107178.83,Patel Household,Victor Walker,Retirement,854096.92,Northeast
+FA-LE-000125,FA-HH-00314,E-0141,Inheritance,2026-07-14,Advisor,,false,169979.65,Patel Household,Victor Walker,Retirement,854096.92,Northeast
+FA-LE-000126,FA-HH-00316,E-0180,Marriage,2026-07-02,Advisor,2026-07-09,true,109156.88,Collins Household,Sofia Johnson,Pre-Retirement,121934.88,Southeast
+FA-LE-000127,FA-HH-00320,E-0160,New Child,2026-03-24,Advisor,2026-03-31,true,100480.05,Green Household,Diego Silva,Pre-Retirement,479962.5,Midwest
+FA-LE-000128,FA-HH-00320,E-0160,Inheritance,2026-06-17,Client Portal,2026-06-26,true,48721.26,Green Household,Diego Silva,Pre-Retirement,479962.5,Midwest
+FA-LE-000129,FA-HH-00322,E-0180,Home Purchase,2026-02-17,Advisor,2026-02-26,true,266608.0,Mitchell Household,Sofia Johnson,Accumulation,310989.29,Southeast
+FA-LE-000130,FA-HH-00335,E-0168,Job Change,2026-04-02,Advisor,2026-04-08,true,117187.28,White Household,Kenji Bailey,Legacy,165005.73,Midwest
+FA-LE-000131,FA-HH-00337,E-0166,Inheritance,2026-02-08,Client Portal,2026-02-13,true,718383.73,Nguyen Household,Wei King,Accumulation,629375.25,Southeast
+FA-LE-000132,FA-HH-00337,E-0166,Job Change,2026-08-27,Agentforce Signal,2026-08-30,true,88613.37,Nguyen Household,Wei King,Accumulation,629375.25,Southeast
+FA-LE-000133,FA-HH-00338,E-0143,Home Purchase,2026-02-02,Client Portal,,false,420914.99,Nguyen Household,Naomi Allen,Accumulation,177237.34,Southeast
+FA-LE-000134,FA-HH-00339,E-0153,Business Sale,2026-01-07,Client Portal,2026-01-08,true,216537.62,King Household,Noah Baker,Accumulation,766903.17,Mountain West
+FA-LE-000135,FA-HH-00339,E-0153,Home Purchase,2025-11-16,Advisor,2025-11-24,true,46375.68,King Household,Noah Baker,Accumulation,766903.17,Mountain West
+FA-LE-000136,FA-HH-00347,E-0148,Home Purchase,2026-02-15,Advisor,2026-02-16,true,172130.42,Clark Household,Julian Silva,Pre-Retirement,587862.58,Southeast
+FA-LE-000137,FA-HH-00349,E-0174,Retirement,2026-06-29,Advisor,2026-07-06,true,102688.57,Ruiz Household,Kenji Scott,Retirement,373238.36,Southeast
+FA-LE-000138,FA-HH-00349,E-0174,Business Sale,2025-09-14,Agentforce Signal,,false,27825.71,Ruiz Household,Kenji Scott,Retirement,373238.36,Southeast
+FA-LE-000139,FA-HH-00350,E-0161,Inheritance,2026-03-18,Advisor,2026-03-24,true,26813.71,Parker Household,Julian Green,Accumulation,545782.53,Pacific
+FA-LE-000140,FA-HH-00357,E-0178,Marriage,2025-06-28,Transaction Pattern,2025-07-10,true,27797.78,Walker Household,Carlos Miller,Pre-Retirement,222637.58,Mountain West
+FA-LE-000141,FA-HH-00359,E-0141,Business Sale,2026-01-27,Advisor,2026-02-05,true,515944.18,Morris Household,Victor Walker,Accumulation,77730.26,Northeast
+FA-LE-000142,FA-HH-00367,E-0169,New Child,2025-08-25,Advisor,2025-09-04,true,286646.71,Johnson Household,Priya Martinez,Legacy,371164.25,Mountain West
+FA-LE-000143,FA-HH-00368,E-0164,Job Change,2026-04-11,Client Portal,2026-04-16,true,20097.86,Collins Household,Olivia Stewart,Accumulation,177126.4,Midwest
+FA-LE-000144,FA-HH-00374,E-0169,Job Change,2025-08-26,Advisor,2025-09-04,true,195034.73,Lopez Household,Priya Martinez,Retirement,74043.08,Mountain West
+FA-LE-000145,FA-HH-00377,E-0157,Retirement,2026-08-31,Agentforce Signal,2026-09-08,true,308351.72,Baker Household,Amara White,Accumulation,690750.89,Northeast
+FA-LE-000146,FA-HH-00382,E-0146,Home Purchase,2026-07-01,Agentforce Signal,2026-07-03,true,26639.18,Thomas Household,Chloe Davis,Retirement,33442.15,Mountain West
+FA-LE-000147,FA-HH-00384,E-0163,Retirement,2025-07-29,Advisor,2025-07-30,true,6167.98,Silva Household,Olivia Patel,Accumulation,1860832.69,Southeast
+FA-LE-000148,FA-HH-00385,E-0166,Job Change,2025-11-05,Agentforce Signal,2025-11-13,true,27413.91,Collins Household,Wei King,Accumulation,1684484.47,Southeast
+FA-LE-000149,FA-HH-00386,E-0155,Job Change,2025-06-06,Client Portal,,false,48746.86,Collins Household,Sofia Parker,Pre-Retirement,351317.79,Pacific
+FA-LE-000150,FA-HH-00388,E-0168,Business Sale,2025-11-30,Advisor,2025-12-06,true,32191.53,Ruiz Household,Kenji Bailey,Retirement,649004.42,Midwest
+FA-LE-000151,FA-HH-00388,E-0168,New Child,2025-08-20,Client Portal,,false,88703.86,Ruiz Household,Kenji Bailey,Retirement,649004.42,Midwest
+FA-LE-000152,FA-HH-00391,E-0168,Business Sale,2026-08-05,Advisor,2026-09-26,false,135808.66,Anderson Household,Kenji Bailey,Retirement,698152.29,Midwest
+FA-LE-000153,FA-HH-00395,E-0167,Inheritance,2025-09-28,Transaction Pattern,2025-10-11,true,74537.8,Brown Household,Jamal Wilson,Accumulation,161977.05,Pacific
+FA-LE-000154,FA-HH-00405,E-0145,Home Purchase,2025-08-30,Agentforce Signal,,false,30716.02,Johnson Household,Priya Young,Accumulation,90000.47,Northeast
+FA-LE-000155,FA-HH-00415,E-0166,Business Sale,2026-02-25,Agentforce Signal,2026-03-02,true,49557.51,Nelson Household,Wei King,Retirement,106652.79,Southeast
+FA-LE-000156,FA-HH-00417,E-0173,Retirement,2025-10-05,Advisor,2025-10-17,true,72375.35,Nelson Household,Noah Phillips,Legacy,57684.93,Mountain West
+FA-LE-000157,FA-HH-00418,E-0160,Business Sale,2025-06-22,Advisor,2025-07-01,true,164929.28,Allen Household,Diego Silva,Retirement,964133.02,Midwest
+FA-LE-000158,FA-HH-00420,E-0180,Job Change,2026-03-17,Advisor,2026-03-27,true,28635.15,Wright Household,Sofia Johnson,Pre-Retirement,374607.43,Southeast
+FA-LE-000159,FA-HH-00422,E-0147,Home Purchase,2026-01-29,Client Portal,2026-01-31,true,298777.53,Morris Household,Yuki Vaughn,Legacy,60890.69,Southeast
+FA-LE-000160,FA-HH-00424,E-0148,Home Purchase,2026-04-17,Client Portal,,false,150096.88,Ruiz Household,Julian Silva,Accumulation,188286.28,Southeast
+FA-LE-000161,FA-HH-00425,E-0180,Marriage,2026-01-01,Agentforce Signal,2026-01-08,true,20208.35,Patel Household,Sofia Johnson,Legacy,336314.4,Southeast
+FA-LE-000162,FA-HH-00425,E-0180,Marriage,2026-06-10,Agentforce Signal,2026-07-02,false,90047.65,Patel Household,Sofia Johnson,Legacy,336314.4,Southeast
+FA-LE-000163,FA-HH-00426,E-0152,Business Sale,2025-06-27,Advisor,,false,68542.62,Ruiz Household,Nina Brown,Accumulation,313480.73,Southeast
+FA-LE-000164,FA-HH-00429,E-0161,Retirement,2026-06-10,Agentforce Signal,2026-06-13,true,31900.15,Nguyen Household,Julian Green,Retirement,218528.01,Pacific
+FA-LE-000165,FA-HH-00430,E-0177,Job Change,2025-06-28,Agentforce Signal,2025-07-04,true,8086.81,Walker Household,Isabella Okafor,Pre-Retirement,141094.51,Mountain West
+FA-LE-000166,FA-HH-00434,E-0149,Inheritance,2026-06-13,Transaction Pattern,2026-06-26,true,38179.44,Patel Household,Amara Okafor,Retirement,109305.12,Mountain West
+FA-LE-000167,FA-HH-00440,E-0158,Job Change,2025-07-19,Advisor,2025-08-01,true,228672.17,Lopez Household,Lauren Lewis,Retirement,274871.79,Pacific
+FA-LE-000168,FA-HH-00442,E-0171,Marriage,2026-07-30,Advisor,2026-08-07,true,19470.8,Phillips Household,Victor Evans,Retirement,255819.08,Midwest
+FA-LE-000169,FA-HH-00443,E-0144,Business Sale,2025-12-28,Advisor,2026-01-02,true,166159.94,White Household,Luis Stewart,Pre-Retirement,255862.5,Pacific
+FA-LE-000170,FA-HH-00445,E-0159,Home Purchase,2026-06-17,Advisor,2026-06-19,true,394354.12,Young Household,Owen White,Retirement,885608.97,Mountain West
+FA-LE-000171,FA-HH-00448,E-0146,Marriage,2026-01-09,Advisor,2026-03-06,false,144923.22,Edwards Household,Chloe Davis,Accumulation,20000,Mountain West
+FA-LE-000172,FA-HH-00448,E-0146,Job Change,2025-11-21,Advisor,2025-11-29,true,352686.34,Edwards Household,Chloe Davis,Accumulation,20000,Mountain West
+FA-LE-000173,FA-HH-00449,E-0159,New Child,2026-05-20,Agentforce Signal,2026-05-28,true,136709.52,Kim Household,Owen White,Accumulation,836074.15,Mountain West
+FA-LE-000174,FA-HH-00450,E-0174,Home Purchase,2026-01-20,Agentforce Signal,2026-01-25,true,25462.08,Evans Household,Kenji Scott,Retirement,216663.79,Southeast
+FA-LE-000175,FA-HH-00451,E-0149,New Child,2025-11-22,Client Portal,2025-12-05,true,17546.8,Jackson Household,Amara Okafor,Legacy,67586.57,Mountain West
+FA-LE-000176,FA-HH-00452,E-0166,Marriage,2026-02-22,Advisor,2026-02-28,true,178349.02,Mitchell Household,Wei King,Retirement,88394.87,Southeast
+FA-LE-000177,FA-HH-00455,E-0167,Marriage,2026-06-25,Agentforce Signal,2026-07-01,true,9132.19,Young Household,Jamal Wilson,Legacy,110984.61,Pacific
+FA-LE-000178,FA-HH-00455,E-0167,Business Sale,2026-04-27,Client Portal,2026-05-05,true,184091.1,Young Household,Jamal Wilson,Legacy,110984.61,Pacific
+FA-LE-000179,FA-HH-00457,E-0174,Marriage,2025-09-09,Advisor,2025-09-10,true,152892.14,Ashford Household,Kenji Scott,Accumulation,507654.32,Southeast
+FA-LE-000180,FA-HH-00463,E-0167,Business Sale,2025-12-28,Client Portal,2026-01-07,true,12075.21,Adams Household,Jamal Wilson,Pre-Retirement,61939.24,Pacific
+FA-LE-000181,FA-HH-00464,E-0156,Job Change,2026-04-27,Agentforce Signal,2026-04-29,true,29197.08,Evans Household,Ava Ashford,Accumulation,199979.87,Southeast
+FA-LE-000182,FA-HH-00465,E-0162,Retirement,2026-07-12,Client Portal,2026-07-24,true,11310.3,Green Household,Owen Edwards,Accumulation,224028.45,Mountain West
+FA-LE-000183,FA-HH-00466,E-0149,Home Purchase,2026-06-11,Advisor,2026-06-21,true,175974.79,Carter Household,Amara Okafor,Legacy,47249.1,Mountain West
+FA-LE-000184,FA-HH-00469,E-0159,Home Purchase,2025-09-19,Advisor,2025-10-14,false,111874.61,White Household,Owen White,Retirement,234833.08,Mountain West
+FA-LE-000185,FA-HH-00470,E-0175,Marriage,2025-12-21,Client Portal,2025-12-26,true,183372.15,Scott Household,Chloe Parker,Pre-Retirement,119448.59,Midwest
+FA-LE-000186,FA-HH-00473,E-0176,Inheritance,2026-06-05,Advisor,,false,98152.64,Parker Household,Hannah Davis,Pre-Retirement,331195.03,Northeast
+FA-LE-000187,FA-HH-00475,E-0162,New Child,2025-12-24,Transaction Pattern,2025-12-28,true,25971.29,Lopez Household,Owen Edwards,Accumulation,558872.84,Mountain West
+FA-LE-000188,FA-HH-00484,E-0167,Marriage,2026-01-22,Client Portal,2026-01-29,true,9330.83,Edwards Household,Jamal Wilson,Legacy,189910.75,Pacific
+FA-LE-000189,FA-HH-00484,E-0167,Job Change,2026-01-22,Advisor,,false,7624.07,Edwards Household,Jamal Wilson,Legacy,189910.75,Pacific
+FA-LE-000190,FA-HH-00485,E-0148,Home Purchase,2025-09-24,Client Portal,2025-09-26,true,56763.77,Anderson Household,Julian Silva,Accumulation,685883.5,Southeast
+FA-LE-000191,FA-HH-00486,E-0151,Retirement,2025-12-10,Advisor,2025-12-20,true,42112.76,Campbell Household,Grace Carter,Accumulation,521004.86,Mountain West
+FA-LE-000192,FA-HH-00489,E-0158,Business Sale,2026-05-16,Advisor,2026-07-04,false,366535.78,Miller Household,Lauren Lewis,Pre-Retirement,267168.37,Pacific
+FA-LE-000193,FA-HH-00492,E-0173,Job Change,2026-06-24,Agentforce Signal,2026-06-30,true,71400.75,Lewis Household,Noah Phillips,Retirement,511735.21,Mountain West
+FA-LE-000194,FA-HH-00493,E-0144,Home Purchase,2026-07-28,Advisor,2026-08-28,false,206324.99,Lopez Household,Luis Stewart,Accumulation,213985.98,Pacific
+FA-LE-000195,FA-HH-00494,E-0165,Business Sale,2026-03-31,Agentforce Signal,2026-04-09,true,41836.89,Clark Household,Jamal Vaughn,Accumulation,465551.16,Midwest
+FA-LE-000196,FA-HH-00495,E-0156,Home Purchase,2026-08-19,Advisor,2026-08-30,true,8554.79,Young Household,Ava Ashford,Retirement,99864.22,Southeast
+FA-LE-000197,FA-HH-00499,E-0163,Home Purchase,2026-01-26,Agentforce Signal,2026-01-31,true,46702.6,Okafor Household,Olivia Patel,Pre-Retirement,1638097.12,Southeast
+FA-LE-000198,FA-HH-00504,E-0150,Retirement,2026-01-13,Advisor,2026-01-18,true,354919.7,Lopez Household,Henry Parker,Legacy,304900.46,Southeast
+FA-LE-000199,FA-HH-00504,E-0150,New Child,2025-07-29,Transaction Pattern,,false,45685.93,Lopez Household,Henry Parker,Legacy,304900.46,Southeast
+FA-LE-000200,FA-HH-00505,E-0168,Home Purchase,2025-10-25,Agentforce Signal,,false,99785.03,Okafor Household,Kenji Bailey,Pre-Retirement,1258503.61,Midwest
+FA-LE-000201,FA-HH-00508,E-0169,Inheritance,2026-07-02,Client Portal,,false,40132.8,Young Household,Priya Martinez,Legacy,1652212.53,Mountain West
+FA-LE-000202,FA-HH-00509,E-0154,New Child,2026-03-04,Agentforce Signal,2026-03-10,true,12551.86,Young Household,Leo Evans,Retirement,1186547.4,Southeast
+FA-LE-000203,FA-HH-00513,E-0164,Retirement,2025-10-05,Transaction Pattern,2025-10-11,true,25281.72,Bailey Household,Olivia Stewart,Retirement,136075.88,Midwest
+FA-LE-000204,FA-HH-00515,E-0159,Home Purchase,2026-07-15,Agentforce Signal,,false,29985.53,Moore Household,Owen White,Retirement,348170.46,Mountain West
+FA-LE-000205,FA-HH-00517,E-0156,Job Change,2025-07-04,Advisor,2025-07-15,true,47934.22,Walker Household,Ava Ashford,Pre-Retirement,286384.53,Southeast
+FA-LE-000206,FA-HH-00519,E-0177,Inheritance,2025-09-07,Agentforce Signal,2025-09-10,true,44740.71,Stewart Household,Isabella Okafor,Pre-Retirement,158844.15,Mountain West
+FA-LE-000207,FA-HH-00525,E-0167,Business Sale,2026-01-12,Advisor,2026-01-17,true,119277.01,Stewart Household,Jamal Wilson,Legacy,606141.97,Pacific
+FA-LE-000208,FA-HH-00529,E-0154,Job Change,2026-02-18,Client Portal,2026-02-19,true,231693.08,Wright Household,Leo Evans,Retirement,501645.76,Southeast
+FA-LE-000209,FA-HH-00529,E-0154,Job Change,2026-02-15,Agentforce Signal,,false,171190.29,Wright Household,Leo Evans,Retirement,501645.76,Southeast
+FA-LE-000210,FA-HH-00536,E-0171,Home Purchase,2025-06-06,Advisor,2025-06-15,true,84889.14,Morris Household,Victor Evans,Retirement,386493.8,Midwest
+FA-LE-000211,FA-HH-00538,E-0176,Marriage,2025-07-22,Advisor,2025-07-27,true,154327.55,Lewis Household,Hannah Davis,Retirement,303844.74,Northeast
+FA-LE-000212,FA-HH-00541,E-0141,Home Purchase,2026-08-15,Agentforce Signal,2026-08-16,true,67701.47,Evans Household,Victor Walker,Retirement,375462.34,Northeast
+FA-LE-000213,FA-HH-00541,E-0141,Inheritance,2026-02-16,Client Portal,2026-02-17,true,88067.27,Evans Household,Victor Walker,Retirement,375462.34,Northeast
+FA-LE-000214,FA-HH-00542,E-0180,Retirement,2025-06-17,Client Portal,2025-06-22,true,27171.37,Silva Household,Sofia Johnson,Legacy,2318362.62,Southeast
+FA-LE-000215,FA-HH-00542,E-0180,Retirement,2026-04-27,Transaction Pattern,2026-05-10,true,294177.56,Silva Household,Sofia Johnson,Legacy,2318362.62,Southeast
+FA-LE-000216,FA-HH-00548,E-0141,New Child,2026-04-30,Advisor,,false,39571.79,Green Household,Victor Walker,Pre-Retirement,230793.98,Northeast
+FA-LE-000217,FA-HH-00548,E-0141,Retirement,2025-06-09,Advisor,2025-06-16,true,36843.82,Green Household,Victor Walker,Pre-Retirement,230793.98,Northeast
+FA-LE-000218,FA-HH-00549,E-0172,Marriage,2026-05-21,Advisor,2026-05-27,true,151879.15,Collins Household,Priya Anderson,Accumulation,732502.51,Southeast
+FA-LE-000219,FA-HH-00553,E-0180,Marriage,2025-11-14,Advisor,2026-01-04,false,110650.1,Chen Household,Sofia Johnson,Accumulation,657276.51,Southeast
+FA-LE-000220,FA-HH-00554,E-0158,Business Sale,2026-03-09,Advisor,2026-03-17,true,101225.82,Allen Household,Lauren Lewis,Pre-Retirement,182194.22,Pacific
+FA-LE-000221,FA-HH-00554,E-0158,Marriage,2025-08-12,Agentforce Signal,2025-08-17,true,81072.72,Allen Household,Lauren Lewis,Pre-Retirement,182194.22,Pacific
+FA-LE-000222,FA-HH-00557,E-0148,Marriage,2025-07-16,Agentforce Signal,2025-07-26,true,153333.18,Green Household,Julian Silva,Accumulation,41666.84,Southeast
+FA-LE-000223,FA-HH-00559,E-0164,Job Change,2025-07-16,Agentforce Signal,2025-07-17,true,30425.08,Adams Household,Olivia Stewart,Accumulation,52000.66,Midwest
+FA-LE-000224,FA-HH-00561,E-0177,Home Purchase,2025-12-19,Client Portal,2026-01-04,false,114187.14,Vaughn Household,Isabella Okafor,Accumulation,203801.3,Mountain West
+FA-LE-000225,FA-HH-00562,E-0170,Inheritance,2026-05-12,Agentforce Signal,2026-05-23,true,31197.5,Ruiz Household,Kenji Stewart,Pre-Retirement,436940.92,Southeast
+FA-LE-000226,FA-HH-00565,E-0148,Business Sale,2025-09-22,Client Portal,2025-10-02,true,31723.64,Taylor Household,Julian Silva,Retirement,585174.53,Southeast
+FA-LE-000227,FA-HH-00565,E-0148,Retirement,2026-06-04,Advisor,2026-06-12,true,53178.2,Taylor Household,Julian Silva,Retirement,585174.53,Southeast
+FA-LE-000228,FA-HH-00568,E-0145,Marriage,2026-04-14,Advisor,2026-04-21,true,161149.9,Stewart Household,Priya Young,Retirement,600530.67,Northeast
+FA-LE-000229,FA-HH-00573,E-0178,Inheritance,2025-12-08,Advisor,2026-01-28,false,73421.7,Stewart Household,Carlos Miller,Pre-Retirement,942293.24,Mountain West
+FA-LE-000230,FA-HH-00575,E-0171,Business Sale,2026-01-16,Client Portal,2026-01-22,true,69192.75,Patel Household,Victor Evans,Retirement,145928.68,Midwest
+FA-LE-000231,FA-HH-00577,E-0168,Business Sale,2026-08-03,Client Portal,2026-08-21,false,31866.44,Ashford Household,Kenji Bailey,Accumulation,477852.52,Midwest
+FA-LE-000232,FA-HH-00577,E-0168,Retirement,2025-09-22,Transaction Pattern,2025-09-26,true,75008.24,Ashford Household,Kenji Bailey,Accumulation,477852.52,Midwest
+FA-LE-000233,FA-HH-00578,E-0160,Inheritance,2026-08-13,Agentforce Signal,2026-08-20,true,286311.8,Martinez Household,Diego Silva,Accumulation,252817.94,Midwest
+FA-LE-000234,FA-HH-00580,E-0147,Inheritance,2025-09-30,Client Portal,2025-10-04,true,42706.59,Okafor Household,Yuki Vaughn,Pre-Retirement,210843.06,Southeast
+FA-LE-000235,FA-HH-00581,E-0167,Inheritance,2026-08-04,Advisor,2026-08-11,true,297035.69,Davis Household,Jamal Wilson,Pre-Retirement,196361.77,Pacific
+FA-LE-000236,FA-HH-00582,E-0178,Job Change,2025-07-03,Client Portal,2025-07-15,true,49600.86,Anderson Household,Carlos Miller,Legacy,329334.68,Mountain West
+FA-LE-000237,FA-HH-00587,E-0175,Home Purchase,2026-06-09,Agentforce Signal,2026-06-13,true,60074.52,Scott Household,Chloe Parker,Accumulation,315275.23,Midwest
+FA-LE-000238,FA-HH-00588,E-0159,Job Change,2025-09-11,Advisor,2025-09-14,true,582352.23,Mitchell Household,Owen White,Retirement,234217.05,Mountain West
+FA-LE-000239,FA-HH-00588,E-0159,Business Sale,2026-03-12,Agentforce Signal,2026-03-22,true,20855.96,Mitchell Household,Owen White,Retirement,234217.05,Mountain West
+FA-LE-000240,FA-HH-00591,E-0144,Business Sale,2026-04-29,Client Portal,2026-05-04,true,528640.7,Okafor Household,Luis Stewart,Accumulation,976698.44,Pacific
+FA-LE-000241,FA-HH-00599,E-0152,Retirement,2026-08-09,Agentforce Signal,2026-08-31,false,121761.42,Walker Household,Nina Brown,Accumulation,793042.38,Southeast
+FA-LE-000242,FA-HH-00604,E-0143,Marriage,2025-11-03,Advisor,2025-12-06,false,47948.08,Okafor Household,Naomi Allen,Retirement,614513.75,Southeast
+FA-LE-000243,FA-HH-00605,E-0178,Business Sale,2025-08-06,Advisor,2025-08-31,false,133445.24,Hall Household,Carlos Miller,Accumulation,555070.78,Mountain West
+FA-LE-000244,FA-HH-00605,E-0178,New Child,2025-10-13,Advisor,2025-12-06,false,109845.73,Hall Household,Carlos Miller,Accumulation,555070.78,Mountain West
+FA-LE-000245,FA-HH-00610,E-0169,Home Purchase,2026-07-23,Advisor,2026-07-29,true,155052.84,Wilson Household,Priya Martinez,Accumulation,301154.28,Mountain West
+FA-LE-000246,FA-HH-00614,E-0176,Inheritance,2025-12-11,Client Portal,2025-12-13,true,19619.06,Bailey Household,Hannah Davis,Pre-Retirement,2389909.32,Northeast
+FA-LE-000247,FA-HH-00616,E-0158,Home Purchase,2026-06-06,Client Portal,2026-06-18,true,141836.6,Garcia Household,Lauren Lewis,Pre-Retirement,95226.28,Pacific
+FA-LE-000248,FA-HH-00620,E-0167,New Child,2026-07-17,Agentforce Signal,2026-08-29,false,370509.0,King Household,Jamal Wilson,Pre-Retirement,139520.96,Pacific
+FA-LE-000249,FA-HH-00621,E-0151,Job Change,2026-08-08,Advisor,2026-08-20,true,69051.37,Stewart Household,Grace Carter,Legacy,193660.08,Mountain West
+FA-LE-000250,FA-HH-00621,E-0151,Retirement,2025-06-14,Advisor,2025-07-07,false,33210.62,Stewart Household,Grace Carter,Legacy,193660.08,Mountain West
+FA-LE-000251,FA-HH-00622,E-0162,Marriage,2026-03-14,Agentforce Signal,2026-03-20,true,85129.16,Kim Household,Owen Edwards,Retirement,522318.87,Mountain West
+FA-LE-000252,FA-HH-00632,E-0143,Retirement,2025-12-23,Agentforce Signal,2025-12-26,true,256493.94,Campbell Household,Naomi Allen,Accumulation,379704.98,Southeast
+FA-LE-000253,FA-HH-00632,E-0143,Retirement,2026-08-29,Transaction Pattern,2026-09-03,true,256196.02,Campbell Household,Naomi Allen,Accumulation,379704.98,Southeast
+FA-LE-000254,FA-HH-00634,E-0167,New Child,2026-07-16,Client Portal,2026-09-14,false,53905.56,Anderson Household,Jamal Wilson,Pre-Retirement,1382641.04,Pacific
+FA-LE-000255,FA-HH-00635,E-0159,Home Purchase,2026-01-15,Client Portal,2026-01-19,true,49412.43,Roberts Household,Owen White,Retirement,64463.01,Mountain West
+FA-LE-000256,FA-HH-00635,E-0159,Job Change,2026-07-27,Client Portal,,false,21593.33,Roberts Household,Owen White,Retirement,64463.01,Mountain West
+FA-LE-000257,FA-HH-00636,E-0150,Business Sale,2026-06-01,Transaction Pattern,2026-06-02,true,35699.43,Silva Household,Henry Parker,Legacy,76867.35,Southeast
+FA-LE-000258,FA-HH-00637,E-0161,Business Sale,2025-12-03,Advisor,2025-12-27,false,68452.98,Roberts Household,Julian Green,Accumulation,570033.76,Pacific
+FA-LE-000259,FA-HH-00638,E-0153,Marriage,2026-02-17,Client Portal,2026-03-01,true,86678.9,Ashford Household,Noah Baker,Accumulation,301710.95,Mountain West
+FA-LE-000260,FA-HH-00638,E-0153,Home Purchase,2026-06-03,Agentforce Signal,2026-08-01,false,26245.96,Ashford Household,Noah Baker,Accumulation,301710.95,Mountain West
+FA-LE-000261,FA-HH-00643,E-0179,Job Change,2026-06-26,Advisor,2026-07-05,true,246894.89,Scott Household,Sara Nelson,Accumulation,145613.5,Pacific
+FA-LE-000262,FA-HH-00649,E-0157,Retirement,2025-12-06,Client Portal,,false,345455.51,Lopez Household,Amara White,Retirement,152055.23,Northeast
+FA-LE-000263,FA-HH-00650,E-0147,Home Purchase,2026-05-02,Advisor,,false,243330.76,Edwards Household,Yuki Vaughn,Legacy,224530.87,Southeast
+FA-LE-000264,FA-HH-00652,E-0170,Retirement,2026-08-18,Agentforce Signal,2026-10-10,false,138881.51,Jackson Household,Kenji Stewart,Retirement,177244.14,Southeast
+FA-LE-000265,FA-HH-00655,E-0160,Marriage,2026-01-09,Client Portal,2026-01-16,true,668965.69,Green Household,Diego Silva,Retirement,484508.9,Midwest
+FA-LE-000266,FA-HH-00658,E-0163,Business Sale,2025-08-07,Advisor,2025-08-10,true,28412.94,Miller Household,Olivia Patel,Accumulation,303778.35,Southeast
+FA-LE-000267,FA-HH-00662,E-0144,Job Change,2026-05-23,Agentforce Signal,,false,56889.18,Davis Household,Luis Stewart,Accumulation,723920.1,Pacific
+FA-LE-000268,FA-HH-00665,E-0180,New Child,2026-08-15,Advisor,2026-09-17,false,60676.63,Scott Household,Sofia Johnson,Pre-Retirement,261179.06,Southeast
+FA-LE-000269,FA-HH-00669,E-0167,Retirement,2025-10-08,Agentforce Signal,2025-10-12,true,33365.79,Scott Household,Jamal Wilson,Accumulation,427610.21,Pacific
+FA-LE-000270,FA-HH-00673,E-0144,Marriage,2025-10-30,Agentforce Signal,2025-11-03,true,32007.93,Moore Household,Luis Stewart,Accumulation,543613.43,Pacific
+FA-LE-000271,FA-HH-00674,E-0174,Inheritance,2025-12-08,Advisor,2025-12-12,true,11096.97,Chen Household,Kenji Scott,Accumulation,468350.49,Southeast
+FA-LE-000272,FA-HH-00675,E-0179,Marriage,2025-07-11,Client Portal,2025-09-01,false,36182.07,Roberts Household,Sara Nelson,Pre-Retirement,1459823.73,Pacific
+FA-LE-000273,FA-HH-00679,E-0167,Retirement,2025-11-14,Transaction Pattern,2025-11-19,true,97002.28,Vaughn Household,Jamal Wilson,Accumulation,714092.2,Pacific
+FA-LE-000274,FA-HH-00681,E-0142,New Child,2025-06-29,Agentforce Signal,2025-07-09,true,344620.75,Carter Household,Wei Ruiz,Accumulation,141366.07,Southeast
+FA-LE-000275,FA-HH-00683,E-0179,Business Sale,2026-01-07,Agentforce Signal,2026-02-10,false,82695.65,Kim Household,Sara Nelson,Accumulation,227026.6,Pacific
+FA-LE-000276,FA-HH-00684,E-0179,Home Purchase,2026-05-16,Transaction Pattern,2026-05-28,true,40788.38,Young Household,Sara Nelson,Pre-Retirement,479616.98,Pacific
+FA-LE-000277,FA-HH-00685,E-0180,New Child,2025-10-20,Advisor,2025-12-17,false,50223.64,Ruiz Household,Sofia Johnson,Retirement,320324.07,Southeast
+FA-LE-000278,FA-HH-00686,E-0155,Marriage,2025-10-19,Client Portal,2025-10-28,true,17750.92,Davis Household,Sofia Parker,Pre-Retirement,573618.9,Pacific
+FA-LE-000279,FA-HH-00687,E-0160,Inheritance,2025-06-23,Client Portal,2025-06-25,true,180380.09,Green Household,Diego Silva,Accumulation,124445.07,Midwest
+FA-LE-000280,FA-HH-00687,E-0160,Job Change,2025-10-10,Agentforce Signal,2025-10-22,true,71411.97,Green Household,Diego Silva,Accumulation,124445.07,Midwest
+FA-LE-000281,FA-HH-00688,E-0176,Inheritance,2026-03-01,Advisor,2026-03-08,true,73049.82,Davis Household,Hannah Davis,Legacy,590690.21,Northeast
+FA-LE-000282,FA-HH-00691,E-0150,Retirement,2026-08-09,Advisor,2026-08-10,true,22700.52,Morris Household,Henry Parker,Retirement,121322.39,Southeast
+FA-LE-000283,FA-HH-00692,E-0170,New Child,2026-04-02,Advisor,2026-04-11,true,121526.89,Adams Household,Kenji Stewart,Pre-Retirement,825598.77,Southeast
+FA-LE-000284,FA-HH-00694,E-0155,New Child,2026-02-10,Client Portal,2026-02-14,true,20941.8,Scott Household,Sofia Parker,Retirement,266677.1,Pacific
+FA-LE-000285,FA-HH-00697,E-0154,Home Purchase,2026-06-13,Transaction Pattern,2026-06-21,true,170195.09,Mitchell Household,Leo Evans,Accumulation,639999.4,Southeast
+FA-LE-000286,FA-HH-00698,E-0180,Retirement,2025-08-01,Client Portal,2025-08-04,true,149665.52,Davis Household,Sofia Johnson,Pre-Retirement,102078.43,Southeast
+FA-LE-000287,FA-HH-00707,E-0152,Inheritance,2025-08-08,Client Portal,2025-08-20,true,11151.76,Johnson Household,Nina Brown,Accumulation,45855.04,Southeast
+FA-LE-000288,FA-HH-00711,E-0144,Retirement,2026-08-16,Agentforce Signal,2026-08-28,true,41274.39,Miller Household,Luis Stewart,Pre-Retirement,35713.75,Pacific
+FA-LE-000289,FA-HH-00712,E-0156,Job Change,2026-08-05,Transaction Pattern,2026-08-27,false,17253.71,Stewart Household,Ava Ashford,Retirement,61834.92,Southeast
+FA-LE-000290,FA-HH-00715,E-0152,Marriage,2025-07-07,Agentforce Signal,,false,183204.37,Anderson Household,Nina Brown,Accumulation,417331.85,Southeast
+FA-LE-000291,FA-HH-00715,E-0152,Retirement,2026-04-11,Agentforce Signal,2026-04-13,true,49454.64,Anderson Household,Nina Brown,Accumulation,417331.85,Southeast
+FA-LE-000292,FA-HH-00716,E-0159,Home Purchase,2025-09-03,Advisor,2025-09-09,true,204141.11,Chen Household,Owen White,Accumulation,334272.07,Mountain West
+FA-LE-000293,FA-HH-00719,E-0154,Business Sale,2025-07-08,Advisor,,false,757908.19,Young Household,Leo Evans,Legacy,111198.34,Southeast
+FA-LE-000294,FA-HH-00722,E-0169,Inheritance,2026-06-04,Advisor,2026-07-07,false,63615.96,Carter Household,Priya Martinez,Pre-Retirement,791085.07,Mountain West
+FA-LE-000295,FA-HH-00726,E-0175,Home Purchase,2026-03-14,Advisor,2026-04-27,false,5845.3,Miller Household,Chloe Parker,Accumulation,812550.28,Midwest
+FA-LE-000296,FA-HH-00728,E-0162,Job Change,2025-12-04,Agentforce Signal,2025-12-05,true,31146.48,Walker Household,Owen Edwards,Retirement,795226.64,Mountain West
+FA-LE-000297,FA-HH-00730,E-0157,Marriage,2026-04-09,Agentforce Signal,2026-04-10,true,41782.1,Thomas Household,Amara White,Retirement,1381430.79,Northeast
+FA-LE-000298,FA-HH-00731,E-0172,Marriage,2025-10-28,Advisor,2025-10-30,true,160529.99,Chen Household,Priya Anderson,Retirement,166005.76,Southeast
+FA-LE-000299,FA-HH-00734,E-0144,Home Purchase,2026-04-07,Transaction Pattern,2026-04-19,true,221261.64,Okafor Household,Luis Stewart,Pre-Retirement,181803.52,Pacific
+FA-LE-000300,FA-HH-00735,E-0157,Job Change,2026-08-27,Advisor,2026-08-29,true,152275.78,Mitchell Household,Amara White,Retirement,236779.16,Northeast
+FA-LE-000301,FA-HH-00735,E-0157,Retirement,2025-06-10,Advisor,2025-08-04,false,39867.22,Mitchell Household,Amara White,Retirement,236779.16,Northeast
+FA-LE-000302,FA-HH-00738,E-0171,Business Sale,2025-07-08,Advisor,2025-07-09,true,50438.2,Taylor Household,Victor Evans,Accumulation,405121.42,Midwest
+FA-LE-000303,FA-HH-00738,E-0171,Business Sale,2026-06-02,Advisor,2026-06-09,true,5291.61,Taylor Household,Victor Evans,Accumulation,405121.42,Midwest
+FA-LE-000304,FA-HH-00745,E-0175,Job Change,2025-11-26,Agentforce Signal,,false,76892.92,Collins Household,Chloe Parker,Legacy,66530.09,Midwest
+FA-LE-000305,FA-HH-00746,E-0174,Job Change,2026-02-14,Advisor,2026-02-26,true,142997.04,Allen Household,Kenji Scott,Accumulation,447002.38,Southeast
+FA-LE-000306,FA-HH-00747,E-0148,Marriage,2025-12-29,Transaction Pattern,2026-01-11,true,42605.25,Allen Household,Julian Silva,Pre-Retirement,173167.85,Southeast
+FA-LE-000307,FA-HH-00750,E-0158,Retirement,2025-07-05,Advisor,2025-07-09,true,13246.06,Wright Household,Lauren Lewis,Retirement,2183859.16,Pacific
+FA-LE-000308,FA-HH-00752,E-0172,Business Sale,2026-08-25,Client Portal,2026-08-29,true,149594.82,Young Household,Priya Anderson,Retirement,279585.23,Southeast
+FA-LE-000309,FA-HH-00757,E-0178,Business Sale,2025-06-12,Agentforce Signal,2025-06-19,true,59025.1,Edwards Household,Carlos Miller,Pre-Retirement,1253851.7,Mountain West
+FA-LE-000310,FA-HH-00757,E-0178,Job Change,2025-12-25,Transaction Pattern,2025-12-31,true,53968.09,Edwards Household,Carlos Miller,Pre-Retirement,1253851.7,Mountain West
+FA-LE-000311,FA-HH-00758,E-0156,Business Sale,2025-09-29,Client Portal,2025-10-07,true,559408.3,Evans Household,Ava Ashford,Accumulation,135626.42,Southeast
+FA-LE-000312,FA-HH-00769,E-0144,New Child,2026-02-04,Agentforce Signal,2026-02-08,true,36365.91,Parker Household,Luis Stewart,Retirement,64974.25,Pacific
+FA-LE-000313,FA-HH-00773,E-0161,Business Sale,2025-10-26,Advisor,2025-11-03,true,162143.0,Okafor Household,Julian Green,Retirement,205382.15,Pacific
+FA-LE-000314,FA-HH-00777,E-0167,Business Sale,2026-06-27,Advisor,2026-07-10,true,79827.42,Martinez Household,Jamal Wilson,Pre-Retirement,524971.41,Pacific
+FA-LE-000315,FA-HH-00777,E-0167,New Child,2026-02-10,Advisor,2026-03-19,false,117481.74,Martinez Household,Jamal Wilson,Pre-Retirement,524971.41,Pacific
+FA-LE-000316,FA-HH-00779,E-0171,Marriage,2025-06-26,Client Portal,2025-06-27,true,87475.83,White Household,Victor Evans,Accumulation,110922.14,Midwest
+FA-LE-000317,FA-HH-00780,E-0169,Business Sale,2026-08-13,Agentforce Signal,2026-08-19,true,20703.76,Adams Household,Priya Martinez,Retirement,206219.67,Mountain West
+FA-LE-000318,FA-HH-00781,E-0163,Marriage,2026-01-11,Client Portal,2026-01-24,true,101908.72,Scott Household,Olivia Patel,Pre-Retirement,188709.47,Southeast
+FA-LE-000319,FA-HH-00785,E-0157,New Child,2025-06-05,Transaction Pattern,2025-06-06,true,94503.5,Nguyen Household,Amara White,Accumulation,137063.56,Northeast
+FA-LE-000320,FA-HH-00788,E-0161,Inheritance,2025-08-31,Client Portal,2025-09-09,true,243781.66,Walker Household,Julian Green,Retirement,97285.2,Pacific
+FA-LE-000321,FA-HH-00791,E-0145,Business Sale,2026-02-04,Client Portal,,false,56545.27,Okafor Household,Priya Young,Retirement,303962.05,Northeast
+FA-LE-000322,FA-HH-00793,E-0162,Retirement,2025-08-17,Agentforce Signal,2025-08-22,true,182639.25,Walker Household,Owen Edwards,Accumulation,121982.05,Mountain West
+FA-LE-000323,FA-HH-00793,E-0162,Home Purchase,2026-02-14,Advisor,2026-02-15,true,85022.87,Walker Household,Owen Edwards,Accumulation,121982.05,Mountain West
+FA-LE-000324,FA-HH-00797,E-0171,Home Purchase,2026-05-04,Agentforce Signal,2026-06-17,false,865034.5,Garcia Household,Victor Evans,Pre-Retirement,304542.01,Midwest
+FA-LE-000325,FA-HH-00800,E-0161,New Child,2026-01-11,Client Portal,2026-01-23,true,234361.25,Thomas Household,Julian Green,Accumulation,427525.24,Pacific
+FA-LE-000326,FA-HH-00805,E-0169,Inheritance,2025-12-30,Advisor,,false,14362.92,Green Household,Priya Martinez,Retirement,136622.2,Mountain West
+FA-LE-000327,FA-HH-00807,E-0165,New Child,2026-02-19,Agentforce Signal,2026-03-01,true,93790.12,Walker Household,Jamal Vaughn,Accumulation,1096294.78,Midwest
+FA-LE-000328,FA-HH-00808,E-0169,New Child,2025-09-30,Agentforce Signal,2025-10-18,false,35546.9,Thomas Household,Priya Martinez,Accumulation,236851.28,Mountain West
+FA-LE-000329,FA-HH-00809,E-0152,Inheritance,2026-04-02,Agentforce Signal,2026-04-15,true,138995.78,Turner Household,Nina Brown,Retirement,1310908.53,Southeast
+FA-LE-000330,FA-HH-00809,E-0152,Job Change,2025-12-30,Advisor,,false,63743.54,Turner Household,Nina Brown,Retirement,1310908.53,Southeast
+FA-LE-000331,FA-HH-00816,E-0166,New Child,2026-08-31,Advisor,2026-09-13,true,62471.13,White Household,Wei King,Accumulation,401938.33,Southeast
+FA-LE-000332,FA-HH-00817,E-0148,Business Sale,2026-04-08,Advisor,2026-04-21,true,1669706.9,Lewis Household,Julian Silva,Legacy,706910.81,Southeast
+FA-LE-000333,FA-HH-00818,E-0149,Marriage,2025-10-28,Agentforce Signal,2025-11-03,true,347408.41,Ashford Household,Amara Okafor,Pre-Retirement,215573.47,Mountain West
+FA-LE-000334,FA-HH-00827,E-0168,Home Purchase,2025-10-05,Transaction Pattern,2025-10-09,true,58752.28,Ruiz Household,Kenji Bailey,Retirement,244471.34,Midwest
+FA-LE-000335,FA-HH-00828,E-0165,New Child,2025-08-12,Advisor,2025-08-16,true,217169.96,Baker Household,Jamal Vaughn,Retirement,384204.52,Midwest
+FA-LE-000336,FA-HH-00829,E-0142,Inheritance,2025-06-01,Transaction Pattern,2025-07-30,false,168455.08,Edwards Household,Wei Ruiz,Accumulation,156076.59,Southeast
+FA-LE-000337,FA-HH-00832,E-0167,Inheritance,2026-03-21,Advisor,2026-04-03,true,257460.48,Roberts Household,Jamal Wilson,Legacy,466006.08,Pacific
+FA-LE-000338,FA-HH-00836,E-0166,Job Change,2025-10-01,Agentforce Signal,2025-10-06,true,45596.0,Mitchell Household,Wei King,Accumulation,67669.99,Southeast
+FA-LE-000339,FA-HH-00837,E-0161,Inheritance,2025-06-20,Agentforce Signal,2025-06-28,true,92451.58,Clark Household,Julian Green,Retirement,162197.8,Pacific
+FA-LE-000340,FA-HH-00837,E-0161,Job Change,2025-07-01,Agentforce Signal,2025-07-03,true,63621.68,Clark Household,Julian Green,Retirement,162197.8,Pacific
+FA-LE-000341,FA-HH-00838,E-0173,Marriage,2025-08-11,Agentforce Signal,2025-08-17,true,275501.48,Vaughn Household,Noah Phillips,Accumulation,378976.84,Mountain West
+FA-LE-000342,FA-HH-00840,E-0180,New Child,2025-12-15,Client Portal,2025-12-28,true,133275.66,Allen Household,Sofia Johnson,Accumulation,1113490.47,Southeast
+FA-LE-000343,FA-HH-00841,E-0147,Home Purchase,2026-04-12,Agentforce Signal,2026-05-07,false,23072.85,Martinez Household,Yuki Vaughn,Retirement,234374.12,Southeast
+FA-LE-000344,FA-HH-00845,E-0170,Home Purchase,2026-01-01,Agentforce Signal,2026-01-03,true,36988.14,Garcia Household,Kenji Stewart,Retirement,797907.41,Southeast
+FA-LE-000345,FA-HH-00849,E-0166,Job Change,2026-05-12,Advisor,2026-05-20,true,765978.42,Bailey Household,Wei King,Accumulation,256972.74,Southeast
+FA-LE-000346,FA-HH-00850,E-0177,Business Sale,2026-08-04,Client Portal,2026-08-14,true,23930.33,Scott Household,Isabella Okafor,Accumulation,125556.8,Mountain West
+FA-LE-000347,FA-HH-00851,E-0146,Retirement,2025-10-17,Client Portal,2025-10-26,true,46493.48,Ashford Household,Chloe Davis,Accumulation,736895.89,Mountain West
+FA-LE-000348,FA-HH-00852,E-0169,Home Purchase,2026-03-02,Advisor,2026-03-03,true,18028.03,Carter Household,Priya Martinez,Accumulation,630326.59,Mountain West
+FA-LE-000349,FA-HH-00854,E-0143,Marriage,2026-08-19,Client Portal,,false,27059.6,Harris Household,Naomi Allen,Pre-Retirement,108651.49,Southeast
+FA-LE-000350,FA-HH-00860,E-0174,Home Purchase,2026-07-27,Client Portal,2026-08-12,false,240880.93,Kim Household,Kenji Scott,Accumulation,167181.59,Southeast
+FA-LE-000351,FA-HH-00862,E-0172,Business Sale,2026-05-20,Client Portal,2026-05-23,true,82637.49,Stewart Household,Priya Anderson,Retirement,87642.05,Southeast
+FA-LE-000352,FA-HH-00863,E-0180,Home Purchase,2025-06-23,Agentforce Signal,2025-06-25,true,427099.15,Moore Household,Sofia Johnson,Accumulation,575563.13,Southeast
+FA-LE-000353,FA-HH-00863,E-0180,New Child,2026-07-02,Client Portal,2026-07-03,true,252978.67,Moore Household,Sofia Johnson,Accumulation,575563.13,Southeast
+FA-LE-000354,FA-HH-00871,E-0159,Job Change,2026-05-01,Agentforce Signal,2026-05-14,true,66429.38,Adams Household,Owen White,Pre-Retirement,133974.46,Mountain West
+FA-LE-000355,FA-HH-00873,E-0179,Job Change,2025-06-16,Agentforce Signal,,false,63102.88,Patel Household,Sara Nelson,Accumulation,316213.92,Pacific
+FA-LE-000356,FA-HH-00878,E-0150,New Child,2026-07-28,Advisor,,false,91047.04,Anderson Household,Henry Parker,Accumulation,119751.15,Southeast
+FA-LE-000357,FA-HH-00879,E-0169,Inheritance,2026-04-19,Agentforce Signal,2026-04-20,true,74441.42,Nguyen Household,Priya Martinez,Retirement,169499.88,Mountain West
+FA-LE-000358,FA-HH-00879,E-0169,Business Sale,2025-09-21,Agentforce Signal,2025-09-28,true,371612.44,Nguyen Household,Priya Martinez,Retirement,169499.88,Mountain West
+FA-LE-000359,FA-HH-00880,E-0144,Job Change,2026-01-02,Client Portal,2026-01-09,true,38590.13,Martinez Household,Luis Stewart,Pre-Retirement,576614.83,Pacific
+FA-LE-000360,FA-HH-00883,E-0144,Inheritance,2026-08-03,Client Portal,2026-08-15,true,231330.1,White Household,Luis Stewart,Accumulation,89955.36,Pacific
+FA-LE-000361,FA-HH-00884,E-0180,Marriage,2025-08-06,Agentforce Signal,2025-08-10,true,22732.07,Moore Household,Sofia Johnson,Pre-Retirement,1028206.24,Southeast
+FA-LE-000362,FA-HH-00884,E-0180,Inheritance,2025-12-15,Advisor,2025-12-19,true,310563.86,Moore Household,Sofia Johnson,Pre-Retirement,1028206.24,Southeast
+FA-LE-000363,FA-HH-00885,E-0176,Home Purchase,2025-08-11,Agentforce Signal,2025-08-24,true,184028.09,Okafor Household,Hannah Davis,Retirement,326212.56,Northeast
+FA-LE-000364,FA-HH-00886,E-0148,Job Change,2025-09-28,Advisor,,false,51180.58,Lewis Household,Julian Silva,Accumulation,105317.91,Southeast
+FA-LE-000365,FA-HH-00889,E-0154,Home Purchase,2026-04-29,Agentforce Signal,2026-05-12,true,153439.4,Collins Household,Leo Evans,Legacy,209467.24,Southeast
+FA-LE-000366,FA-HH-00897,E-0162,Business Sale,2026-03-16,Client Portal,2026-03-22,true,27214.92,Kim Household,Owen Edwards,Retirement,121809.4,Mountain West
+FA-LE-000367,FA-HH-00898,E-0159,Marriage,2026-04-02,Advisor,,false,103713.83,Young Household,Owen White,Accumulation,576984.82,Mountain West
+FA-LE-000368,FA-HH-00902,E-0163,Marriage,2026-03-29,Client Portal,2026-04-14,false,298290.88,Phillips Household,Olivia Patel,Retirement,687065.45,Southeast
+FA-LE-000369,FA-HH-00907,E-0157,New Child,2026-05-01,Agentforce Signal,2026-05-07,true,199722.59,Morris Household,Amara White,Retirement,882921.61,Northeast
+FA-LE-000370,FA-HH-00908,E-0172,Retirement,2026-08-27,Advisor,,false,168796.13,Kim Household,Priya Anderson,Accumulation,322975.4,Southeast
+FA-LE-000371,FA-HH-00909,E-0164,Home Purchase,2025-12-21,Advisor,2025-12-27,true,98607.61,Ruiz Household,Olivia Stewart,Pre-Retirement,320380.64,Midwest
+FA-LE-000372,FA-HH-00910,E-0144,Job Change,2025-08-25,Transaction Pattern,,false,71713.04,Silva Household,Luis Stewart,Accumulation,126202.88,Pacific
+FA-LE-000373,FA-HH-00910,E-0144,Marriage,2026-04-14,Agentforce Signal,2026-05-12,false,91964.21,Silva Household,Luis Stewart,Accumulation,126202.88,Pacific
+FA-LE-000374,FA-HH-00918,E-0143,Marriage,2026-02-26,Advisor,2026-03-30,false,401587.29,Allen Household,Naomi Allen,Pre-Retirement,1402026.99,Southeast
+FA-LE-000375,FA-HH-00919,E-0172,Job Change,2026-07-11,Advisor,2026-07-12,true,27883.84,Edwards Household,Priya Anderson,Accumulation,279404.4,Southeast
+FA-LE-000376,FA-HH-00922,E-0173,Inheritance,2026-08-21,Client Portal,2026-09-02,true,127333.61,Thomas Household,Noah Phillips,Retirement,328108.25,Mountain West
+FA-LE-000377,FA-HH-00924,E-0178,Business Sale,2025-07-14,Agentforce Signal,2025-07-22,true,179082.7,Wright Household,Carlos Miller,Pre-Retirement,108198.49,Mountain West
+FA-LE-000378,FA-HH-00925,E-0161,Marriage,2026-01-24,Agentforce Signal,2026-01-29,true,105708.69,White Household,Julian Green,Pre-Retirement,254739.18,Pacific
+FA-LE-000379,FA-HH-00931,E-0166,New Child,2025-08-21,Advisor,2025-09-02,true,194153.24,Garcia Household,Wei King,Accumulation,427052.18,Southeast
+FA-LE-000380,FA-HH-00932,E-0167,Marriage,2025-09-14,Agentforce Signal,2025-10-11,false,109784.76,Clark Household,Jamal Wilson,Accumulation,443088.49,Pacific
+FA-LE-000381,FA-HH-00934,E-0162,Home Purchase,2026-01-22,Client Portal,2026-01-28,true,44966.99,Carter Household,Owen Edwards,Retirement,110016.27,Mountain West
+FA-LE-000382,FA-HH-00935,E-0171,Inheritance,2025-08-18,Client Portal,2025-08-24,true,77812.71,Lopez Household,Victor Evans,Pre-Retirement,395351.09,Midwest
+FA-LE-000383,FA-HH-00936,E-0154,New Child,2026-01-28,Transaction Pattern,,false,56792.9,Wilson Household,Leo Evans,Legacy,108311.27,Southeast
+FA-LE-000384,FA-HH-00938,E-0146,Business Sale,2026-06-27,Transaction Pattern,2026-08-05,false,29076.38,Anderson Household,Chloe Davis,Pre-Retirement,199733.24,Mountain West
+FA-LE-000385,FA-HH-00938,E-0146,Marriage,2025-10-07,Advisor,2025-10-10,true,33079.99,Anderson Household,Chloe Davis,Pre-Retirement,199733.24,Mountain West
+FA-LE-000386,FA-HH-00941,E-0165,Inheritance,2025-07-29,Advisor,,false,42910.99,Kim Household,Jamal Vaughn,Accumulation,424726.48,Midwest
+FA-LE-000387,FA-HH-00943,E-0151,Inheritance,2026-03-05,Client Portal,2026-03-30,false,29819.67,Campbell Household,Grace Carter,Accumulation,351909.98,Mountain West
+FA-LE-000388,FA-HH-00944,E-0176,Retirement,2026-03-01,Advisor,2026-03-03,true,16265.82,Stewart Household,Hannah Davis,Pre-Retirement,804708.02,Northeast
+FA-LE-000389,FA-HH-00946,E-0162,Retirement,2025-11-08,Agentforce Signal,2025-12-22,false,57226.06,King Household,Owen Edwards,Retirement,59359.99,Mountain West
+FA-LE-000390,FA-HH-00949,E-0175,Business Sale,2026-08-19,Advisor,2026-10-11,false,49182.33,Kim Household,Chloe Parker,Retirement,368637.14,Midwest
+FA-LE-000391,FA-HH-00950,E-0166,Home Purchase,2026-05-02,Client Portal,2026-05-04,true,81906.24,Johnson Household,Wei King,Retirement,633157.87,Southeast
+FA-LE-000392,FA-HH-00955,E-0172,New Child,2025-10-21,Advisor,2025-10-29,true,75860.55,Lewis Household,Priya Anderson,Accumulation,148473.54,Southeast
+FA-LE-000393,FA-HH-00956,E-0154,Retirement,2026-01-09,Advisor,2026-01-14,true,43065.56,Jackson Household,Leo Evans,Pre-Retirement,741993.72,Southeast
+FA-LE-000394,FA-HH-00957,E-0172,New Child,2025-08-16,Advisor,2025-08-21,true,186090.36,Parker Household,Priya Anderson,Retirement,540086.42,Southeast
+FA-LE-000395,FA-HH-00957,E-0172,Retirement,2025-11-11,Advisor,2025-11-14,true,70781.81,Parker Household,Priya Anderson,Retirement,540086.42,Southeast
+FA-LE-000396,FA-HH-00960,E-0164,Home Purchase,2025-10-11,Advisor,2025-10-19,true,197656.47,Morris Household,Olivia Stewart,Legacy,290822.81,Midwest
+FA-LE-000397,FA-HH-00966,E-0146,Marriage,2025-08-16,Transaction Pattern,2025-08-25,true,355708.56,Nguyen Household,Chloe Davis,Retirement,559219.73,Mountain West
+FA-LE-000398,FA-HH-00968,E-0178,Business Sale,2026-03-13,Advisor,2026-03-26,true,241166.13,Silva Household,Carlos Miller,Pre-Retirement,246502.66,Mountain West
+FA-LE-000399,FA-HH-00972,E-0148,Home Purchase,2025-11-30,Client Portal,2026-01-29,false,132733.38,Moore Household,Julian Silva,Retirement,839418.32,Southeast
+FA-LE-000400,FA-HH-00973,E-0154,Retirement,2026-08-29,Advisor,,false,52070.09,Parker Household,Leo Evans,Retirement,217378.25,Southeast
+FA-LE-000401,FA-HH-00978,E-0176,Marriage,2025-08-03,Advisor,2025-09-02,false,29656.31,Collins Household,Hannah Davis,Accumulation,161262.01,Northeast
+FA-LE-000402,FA-HH-00980,E-0168,Business Sale,2026-02-24,Advisor,2026-03-09,true,21006.12,Roberts Household,Kenji Bailey,Accumulation,185928.31,Midwest
+FA-LE-000403,FA-HH-00991,E-0167,Business Sale,2025-10-20,Advisor,2025-10-27,true,34257.16,Walker Household,Jamal Wilson,Pre-Retirement,233780.83,Pacific
+FA-LE-000404,FA-HH-00993,E-0165,New Child,2026-03-02,Client Portal,2026-03-04,true,221991.31,Hall Household,Jamal Vaughn,Retirement,54333.37,Midwest
+FA-LE-000405,FA-HH-00999,E-0142,Inheritance,2026-08-03,Client Portal,2026-08-06,true,49274.37,Parker Household,Wei Ruiz,Accumulation,133181.55,Southeast
+FA-LE-000406,FA-HH-01003,E-0152,Inheritance,2026-07-19,Agentforce Signal,,false,196323.75,Jackson Household,Nina Brown,Retirement,297627.69,Southeast
+FA-LE-000407,FA-HH-01007,E-0161,Home Purchase,2026-05-01,Client Portal,2026-05-08,true,47324.49,Ashford Household,Julian Green,Accumulation,591509.31,Pacific
+FA-LE-000408,FA-HH-01008,E-0164,Marriage,2026-02-17,Advisor,2026-02-23,true,321630.74,Harris Household,Olivia Stewart,Accumulation,161111.39,Midwest
+FA-LE-000409,FA-HH-01010,E-0174,Marriage,2025-09-27,Client Portal,2025-10-03,true,248834.9,Martinez Household,Kenji Scott,Pre-Retirement,135155.36,Southeast
+FA-LE-000410,FA-HH-01010,E-0174,Business Sale,2025-10-14,Advisor,2025-10-17,true,381431.41,Martinez Household,Kenji Scott,Pre-Retirement,135155.36,Southeast
+FA-LE-000411,FA-HH-01011,E-0152,Home Purchase,2026-08-24,Agentforce Signal,2026-09-03,true,50436.8,Clark Household,Nina Brown,Accumulation,230534.1,Southeast
+FA-LE-000412,FA-HH-01012,E-0157,New Child,2025-08-28,Client Portal,2025-08-30,true,21103.66,King Household,Amara White,Retirement,103838.73,Northeast
+FA-LE-000413,FA-HH-01012,E-0157,Inheritance,2025-11-18,Advisor,2025-11-26,true,145373.86,King Household,Amara White,Retirement,103838.73,Northeast
+FA-LE-000414,FA-HH-01015,E-0166,Marriage,2025-12-12,Client Portal,2025-12-25,true,47578.85,Phillips Household,Wei King,Accumulation,435750.56,Southeast
+FA-LE-000415,FA-HH-01015,E-0166,New Child,2026-02-16,Agentforce Signal,,false,19271.96,Phillips Household,Wei King,Accumulation,435750.56,Southeast
+FA-LE-000416,FA-HH-01023,E-0174,Marriage,2026-02-11,Agentforce Signal,2026-02-12,true,265236.93,Okafor Household,Kenji Scott,Legacy,981664.5,Southeast
+FA-LE-000417,FA-HH-01025,E-0175,Marriage,2025-07-29,Client Portal,2025-08-02,true,143526.75,Thomas Household,Chloe Parker,Legacy,556184.99,Midwest
+FA-LE-000418,FA-HH-01026,E-0141,Inheritance,2025-07-18,Client Portal,2025-07-24,true,385500.98,Edwards Household,Victor Walker,Pre-Retirement,433214.55,Northeast
+FA-LE-000419,FA-HH-01026,E-0141,Job Change,2026-05-29,Advisor,2026-06-08,true,27392.76,Edwards Household,Victor Walker,Pre-Retirement,433214.55,Northeast
+FA-LE-000420,FA-HH-01033,E-0157,Inheritance,2025-07-08,Agentforce Signal,2025-07-16,true,52078.76,Collins Household,Amara White,Retirement,487513.88,Northeast
+FA-LE-000421,FA-HH-01033,E-0157,Retirement,2025-09-05,Agentforce Signal,2025-09-26,false,62834.7,Collins Household,Amara White,Retirement,487513.88,Northeast
+FA-LE-000422,FA-HH-01034,E-0145,Marriage,2026-08-20,Agentforce Signal,2026-08-31,true,50367.7,Wilson Household,Priya Young,Pre-Retirement,374195.12,Northeast
+FA-LE-000423,FA-HH-01035,E-0172,Business Sale,2026-07-24,Agentforce Signal,2026-07-29,true,25099.37,Carter Household,Priya Anderson,Accumulation,389615.98,Southeast
+FA-LE-000424,FA-HH-01037,E-0145,Inheritance,2026-06-24,Advisor,2026-07-03,true,269244.83,Scott Household,Priya Young,Accumulation,1196263.17,Northeast
+FA-LE-000425,FA-HH-01041,E-0155,Home Purchase,2026-01-15,Client Portal,,false,71193.2,Davis Household,Sofia Parker,Pre-Retirement,1263148.17,Pacific
+FA-LE-000426,FA-HH-01046,E-0168,Retirement,2026-03-11,Advisor,2026-03-21,true,288231.67,Johnson Household,Kenji Bailey,Accumulation,1569184.12,Midwest
+FA-LE-000427,FA-HH-01046,E-0168,Inheritance,2025-07-15,Advisor,2025-07-18,true,52685.58,Johnson Household,Kenji Bailey,Accumulation,1569184.12,Midwest
+FA-LE-000428,FA-HH-01056,E-0142,New Child,2025-10-18,Advisor,2025-10-27,true,20553.64,Phillips Household,Wei Ruiz,Legacy,609094.09,Southeast
+FA-LE-000429,FA-HH-01057,E-0177,Business Sale,2025-06-01,Agentforce Signal,2025-06-05,true,29896.82,Taylor Household,Isabella Okafor,Legacy,683178.65,Mountain West
+FA-LE-000430,FA-HH-01058,E-0155,Inheritance,2025-12-20,Advisor,2025-12-25,true,128782.81,Baker Household,Sofia Parker,Pre-Retirement,454587.53,Pacific
+FA-LE-000431,FA-HH-01062,E-0162,Home Purchase,2025-09-03,Client Portal,,false,40195.86,Okafor Household,Owen Edwards,Accumulation,130958.46,Mountain West
+FA-LE-000432,FA-HH-01063,E-0147,Home Purchase,2025-10-22,Advisor,,false,144911.9,Patel Household,Yuki Vaughn,Pre-Retirement,828341.88,Southeast
+FA-LE-000433,FA-HH-01065,E-0168,Job Change,2025-11-04,Advisor,2025-11-11,true,38564.72,Silva Household,Kenji Bailey,Accumulation,366177.53,Midwest
+FA-LE-000434,FA-HH-01071,E-0171,Inheritance,2026-08-27,Agentforce Signal,2026-09-04,true,65619.28,Walker Household,Victor Evans,Accumulation,224706.0,Midwest
+FA-LE-000435,FA-HH-01072,E-0158,Job Change,2025-06-13,Advisor,2025-06-16,true,110783.28,Phillips Household,Lauren Lewis,Pre-Retirement,225628.83,Pacific
+FA-LE-000436,FA-HH-01076,E-0166,New Child,2025-10-09,Advisor,2025-10-12,true,46591.96,Chen Household,Wei King,Legacy,358717.31,Southeast
+FA-LE-000437,FA-HH-01077,E-0155,Job Change,2026-06-14,Advisor,2026-06-15,true,38808.37,Scott Household,Sofia Parker,Pre-Retirement,120179.18,Pacific
+FA-LE-000438,FA-HH-01080,E-0174,Retirement,2025-06-23,Advisor,2025-06-30,true,83030.27,Vaughn Household,Kenji Scott,Retirement,62871.13,Southeast
+FA-LE-000439,FA-HH-01083,E-0146,Business Sale,2025-12-05,Transaction Pattern,2025-12-18,true,55249.81,Kim Household,Chloe Davis,Pre-Retirement,760946.76,Mountain West
+FA-LE-000440,FA-HH-01083,E-0146,Business Sale,2026-08-12,Advisor,,false,68874.66,Kim Household,Chloe Davis,Pre-Retirement,760946.76,Mountain West
+FA-LE-000441,FA-HH-01085,E-0148,Job Change,2026-08-06,Client Portal,2026-08-18,true,7775.01,White Household,Julian Silva,Legacy,236770.94,Southeast
+FA-LE-000442,FA-HH-01085,E-0148,Business Sale,2025-11-05,Agentforce Signal,2025-12-16,false,13321.21,White Household,Julian Silva,Legacy,236770.94,Southeast
+FA-LE-000443,FA-HH-01088,E-0150,Retirement,2026-05-24,Transaction Pattern,2026-06-06,true,28287.25,Davis Household,Henry Parker,Retirement,181197.17,Southeast
+FA-LE-000444,FA-HH-01093,E-0145,Job Change,2025-10-13,Client Portal,2025-10-24,true,214156.96,Moore Household,Priya Young,Accumulation,236729.49,Northeast
+FA-LE-000445,FA-HH-01098,E-0174,Retirement,2026-03-21,Advisor,2026-04-01,true,239047.57,Evans Household,Kenji Scott,Legacy,71985.18,Southeast
+FA-LE-000446,FA-HH-01099,E-0143,Retirement,2025-10-14,Agentforce Signal,2025-10-19,true,930434.38,Garcia Household,Naomi Allen,Accumulation,750429.57,Southeast
+FA-LE-000447,FA-HH-01100,E-0151,Home Purchase,2026-08-01,Advisor,,false,229657.99,Brown Household,Grace Carter,Accumulation,1393457.6,Mountain West
+FA-LE-000448,FA-HH-01101,E-0159,Business Sale,2025-09-05,Advisor,2025-09-09,true,115695.34,Morris Household,Owen White,Retirement,20000,Mountain West
+FA-LE-000449,FA-HH-01102,E-0155,Marriage,2025-12-22,Advisor,2025-12-29,true,39373.63,Brown Household,Sofia Parker,Pre-Retirement,238779.27,Pacific
+FA-LE-000450,FA-HH-01102,E-0155,Home Purchase,2026-06-09,Client Portal,2026-06-14,true,47264.27,Brown Household,Sofia Parker,Pre-Retirement,238779.27,Pacific
+FA-LE-000451,FA-HH-01103,E-0167,Marriage,2026-05-19,Client Portal,2026-05-23,true,80336.91,Wilson Household,Jamal Wilson,Accumulation,41895.86,Pacific
+FA-LE-000452,FA-HH-01105,E-0156,Marriage,2025-12-28,Client Portal,2026-01-08,true,397924.96,Baker Household,Ava Ashford,Accumulation,383748.39,Southeast
+FA-LE-000453,FA-HH-01109,E-0171,Inheritance,2025-08-20,Agentforce Signal,2025-09-02,true,17726.2,Lewis Household,Victor Evans,Legacy,759819.56,Midwest
+FA-LE-000454,FA-HH-01113,E-0174,Home Purchase,2025-07-04,Agentforce Signal,2025-07-11,true,691192.79,Harris Household,Kenji Scott,Pre-Retirement,472739.78,Southeast
+FA-LE-000455,FA-HH-01114,E-0153,Marriage,2025-06-01,Agentforce Signal,2025-06-11,true,29128.24,Clark Household,Noah Baker,Retirement,728630.05,Mountain West
+FA-LE-000456,FA-HH-01120,E-0169,Home Purchase,2026-06-05,Advisor,2026-06-12,true,140778.22,Anderson Household,Priya Martinez,Accumulation,65603.85,Mountain West
+FA-LE-000457,FA-HH-01121,E-0154,Business Sale,2025-07-07,Agentforce Signal,2025-07-20,true,41632.08,Bailey Household,Leo Evans,Accumulation,794087.39,Southeast
+FA-LE-000458,FA-HH-01121,E-0154,Job Change,2026-05-13,Advisor,2026-05-26,true,4842.88,Bailey Household,Leo Evans,Accumulation,794087.39,Southeast
+FA-LE-000459,FA-HH-01123,E-0155,Inheritance,2026-06-06,Transaction Pattern,2026-06-16,true,98099.0,Brown Household,Sofia Parker,Retirement,229108.84,Pacific
+FA-LE-000460,FA-HH-01125,E-0166,New Child,2025-07-03,Agentforce Signal,,false,63109.92,Wilson Household,Wei King,Accumulation,314286.51,Southeast
+FA-LE-000461,FA-HH-01128,E-0170,Job Change,2026-06-19,Advisor,2026-07-04,false,132856.81,Miller Household,Kenji Stewart,Retirement,404062.94,Southeast
+FA-LE-000462,FA-HH-01147,E-0170,Inheritance,2025-09-15,Transaction Pattern,2025-09-28,true,21482.84,Adams Household,Kenji Stewart,Pre-Retirement,324635.17,Southeast
+FA-LE-000463,FA-HH-01147,E-0170,Job Change,2025-07-03,Client Portal,2025-07-15,true,117532.76,Adams Household,Kenji Stewart,Pre-Retirement,324635.17,Southeast
+FA-LE-000464,FA-HH-01157,E-0168,Business Sale,2025-06-30,Client Portal,2025-07-08,true,338712.86,Garcia Household,Kenji Bailey,Retirement,36083.57,Midwest
+FA-LE-000465,FA-HH-01159,E-0161,New Child,2026-03-28,Agentforce Signal,2026-04-07,true,51484.9,Walker Household,Julian Green,Accumulation,128594.75,Pacific
+FA-LE-000466,FA-HH-01161,E-0168,Inheritance,2025-11-12,Advisor,2025-11-16,true,51875.41,Hall Household,Kenji Bailey,Retirement,484927.9,Midwest
+FA-LE-000467,FA-HH-01162,E-0143,Inheritance,2025-12-13,Agentforce Signal,2026-02-03,false,141368.67,Patel Household,Naomi Allen,Legacy,450537.27,Southeast
+FA-LE-000468,FA-HH-01163,E-0165,Inheritance,2025-07-08,Agentforce Signal,2025-07-13,true,61539.51,Harris Household,Jamal Vaughn,Retirement,83640.93,Midwest
+FA-LE-000469,FA-HH-01164,E-0169,New Child,2025-10-19,Advisor,2025-10-30,true,22148.56,Lewis Household,Priya Martinez,Accumulation,1144976.27,Mountain West
+FA-LE-000470,FA-HH-01168,E-0142,Inheritance,2026-06-05,Transaction Pattern,2026-06-11,true,82364.84,Baker Household,Wei Ruiz,Retirement,259487.88,Southeast
+FA-LE-000471,FA-HH-01168,E-0142,Job Change,2026-02-11,Client Portal,2026-02-19,true,38930.57,Baker Household,Wei Ruiz,Retirement,259487.88,Southeast
+FA-LE-000472,FA-HH-01171,E-0158,Business Sale,2025-10-20,Agentforce Signal,2025-11-12,false,181999.06,Walker Household,Lauren Lewis,Pre-Retirement,322893.25,Pacific
+FA-LE-000473,FA-HH-01174,E-0167,New Child,2025-11-08,Advisor,2025-11-10,true,54534.61,Vaughn Household,Jamal Wilson,Retirement,718280.31,Pacific
+FA-LE-000474,FA-HH-01176,E-0141,Business Sale,2025-07-19,Advisor,2025-07-28,true,202068.12,Ashford Household,Victor Walker,Accumulation,786962.93,Northeast
+FA-LE-000475,FA-HH-01182,E-0180,Retirement,2025-06-19,Advisor,2025-06-26,true,35158.29,Evans Household,Sofia Johnson,Retirement,216609.59,Southeast
+FA-LE-000476,FA-HH-01182,E-0180,Marriage,2026-08-18,Client Portal,2026-08-22,true,10828.35,Evans Household,Sofia Johnson,Retirement,216609.59,Southeast
+FA-LE-000477,FA-HH-01186,E-0180,Marriage,2025-12-08,Agentforce Signal,2025-12-11,true,101571.03,Walker Household,Sofia Johnson,Retirement,87960.57,Southeast
+FA-LE-000478,FA-HH-01186,E-0180,New Child,2026-02-10,Transaction Pattern,2026-02-15,true,153008.88,Walker Household,Sofia Johnson,Retirement,87960.57,Southeast
+FA-LE-000479,FA-HH-01190,E-0150,Home Purchase,2026-08-12,Client Portal,2026-08-18,true,143742.44,King Household,Henry Parker,Accumulation,586877.32,Southeast
+FA-LE-000480,FA-HH-01193,E-0177,Marriage,2026-05-13,Advisor,2026-05-18,true,46960.56,Johnson Household,Isabella Okafor,Retirement,767467.05,Mountain West
+FA-LE-000481,FA-HH-01195,E-0155,Retirement,2026-07-05,Client Portal,2026-07-12,true,88314.38,Phillips Household,Sofia Parker,Accumulation,343271.46,Pacific
+FA-LE-000482,FA-HH-01197,E-0179,Retirement,2026-08-24,Advisor,2026-08-30,true,381379.15,Johnson Household,Sara Nelson,Retirement,270157.03,Pacific
+FA-LE-000483,FA-HH-01203,E-0169,New Child,2025-08-18,Transaction Pattern,2025-08-20,true,12701.17,Clark Household,Priya Martinez,Accumulation,154975.2,Mountain West
+FA-LE-000484,FA-HH-01205,E-0155,Job Change,2026-01-31,Agentforce Signal,2026-02-05,true,83195.9,Vaughn Household,Sofia Parker,Accumulation,242428.83,Pacific
+FA-LE-000485,FA-HH-01205,E-0155,Home Purchase,2026-04-24,Advisor,2026-05-02,true,25940.25,Vaughn Household,Sofia Parker,Accumulation,242428.83,Pacific
+FA-LE-000486,FA-HH-01207,E-0165,Inheritance,2026-04-27,Advisor,2026-04-28,true,217871.96,Lewis Household,Jamal Vaughn,Accumulation,93341.9,Midwest
+FA-LE-000487,FA-HH-01208,E-0154,Marriage,2026-03-19,Agentforce Signal,2026-04-23,false,277281.65,Bailey Household,Leo Evans,Accumulation,653776.34,Southeast
+FA-LE-000488,FA-HH-01208,E-0154,Business Sale,2025-10-06,Advisor,2025-10-19,true,19017.51,Bailey Household,Leo Evans,Accumulation,653776.34,Southeast
+FA-LE-000489,FA-HH-01209,E-0141,Retirement,2025-08-24,Client Portal,2025-08-26,true,326211.46,Okafor Household,Victor Walker,Pre-Retirement,794507.66,Northeast
+FA-LE-000490,FA-HH-01210,E-0151,Inheritance,2026-01-21,Agentforce Signal,,false,351943.53,Vaughn Household,Grace Carter,Pre-Retirement,217594.5,Mountain West
+FA-LE-000491,FA-HH-01212,E-0155,Inheritance,2026-08-29,Agentforce Signal,2026-08-31,true,385422.4,Roberts Household,Sofia Parker,Accumulation,475405.86,Pacific
+FA-LE-000492,FA-HH-01212,E-0155,New Child,2026-03-28,Advisor,2026-04-13,false,26993.27,Roberts Household,Sofia Parker,Accumulation,475405.86,Pacific
+FA-LE-000493,FA-HH-01216,E-0147,Home Purchase,2025-08-16,Advisor,2025-08-28,true,288635.03,Ruiz Household,Yuki Vaughn,Retirement,417020.27,Southeast
+FA-LE-000494,FA-HH-01219,E-0178,Retirement,2025-07-28,Advisor,2025-08-10,true,91254.31,Brown Household,Carlos Miller,Accumulation,273142.15,Mountain West
+FA-LE-000495,FA-HH-01220,E-0166,Home Purchase,2026-07-08,Advisor,2026-07-16,true,29139.47,Chen Household,Wei King,Pre-Retirement,1106878.67,Southeast
+FA-LE-000496,FA-HH-01220,E-0166,New Child,2026-07-22,Client Portal,,false,47393.17,Chen Household,Wei King,Pre-Retirement,1106878.67,Southeast
+FA-LE-000497,FA-HH-01221,E-0148,Job Change,2026-05-04,Advisor,2026-05-09,true,45160.06,Lopez Household,Julian Silva,Retirement,461088.26,Southeast
+FA-LE-000498,FA-HH-01221,E-0148,Business Sale,2026-03-05,Client Portal,2026-03-12,true,54204.26,Lopez Household,Julian Silva,Retirement,461088.26,Southeast
+FA-LE-000499,FA-HH-01222,E-0144,Inheritance,2025-12-18,Agentforce Signal,2025-12-19,true,97391.75,Evans Household,Luis Stewart,Accumulation,620742.66,Pacific
+FA-LE-000500,FA-HH-01223,E-0170,Business Sale,2025-06-15,Advisor,2025-06-19,true,79606.72,Baker Household,Kenji Stewart,Pre-Retirement,141435.29,Southeast
+FA-LE-000501,FA-HH-01224,E-0172,Retirement,2025-06-18,Transaction Pattern,2025-06-25,true,107185.2,Nelson Household,Priya Anderson,Retirement,99093.47,Southeast
+FA-LE-000502,FA-HH-01225,E-0177,New Child,2025-08-18,Client Portal,2025-09-14,false,120089.84,Thomas Household,Isabella Okafor,Retirement,300475.91,Mountain West
+FA-LE-000503,FA-HH-01228,E-0161,Retirement,2025-10-23,Advisor,,false,191134.57,Bailey Household,Julian Green,Retirement,155529.22,Pacific
+FA-LE-000504,FA-HH-01232,E-0169,Business Sale,2025-12-04,Transaction Pattern,2025-12-11,true,173055.66,Davis Household,Priya Martinez,Pre-Retirement,1892048.65,Mountain West
+FA-LE-000505,FA-HH-01232,E-0169,Marriage,2026-02-25,Agentforce Signal,2026-03-21,false,8798.88,Davis Household,Priya Martinez,Pre-Retirement,1892048.65,Mountain West
+FA-LE-000506,FA-HH-01233,E-0169,Inheritance,2025-11-12,Advisor,2025-12-06,false,127207.57,Chen Household,Priya Martinez,Retirement,427929.4,Mountain West
+FA-LE-000507,FA-HH-01240,E-0143,Marriage,2026-02-10,Advisor,2026-02-12,true,50103.21,Mitchell Household,Naomi Allen,Accumulation,355272.51,Southeast
+FA-LE-000508,FA-HH-01241,E-0161,Job Change,2025-12-28,Advisor,2026-01-06,true,165356.4,Thomas Household,Julian Green,Retirement,302424.46,Pacific
+FA-LE-000509,FA-HH-01245,E-0151,Marriage,2026-04-14,Client Portal,2026-04-25,true,13854.68,Brown Household,Grace Carter,Pre-Retirement,505576.09,Mountain West
+FA-LE-000510,FA-HH-01250,E-0150,Inheritance,2025-06-05,Advisor,2025-06-11,true,88998.18,Adams Household,Henry Parker,Pre-Retirement,248802.95,Southeast
+FA-LE-000511,FA-HH-01251,E-0171,Job Change,2025-08-25,Client Portal,2025-10-20,false,113931.3,Young Household,Victor Evans,Retirement,351849.9,Midwest
+FA-LE-000512,FA-HH-01252,E-0170,New Child,2025-11-05,Client Portal,2025-11-15,true,59257.29,Young Household,Kenji Stewart,Accumulation,188836.55,Southeast
+FA-LE-000513,FA-HH-01254,E-0155,Home Purchase,2026-07-11,Transaction Pattern,2026-08-27,false,143686.09,Ashford Household,Sofia Parker,Accumulation,374026.5,Pacific
+FA-LE-000514,FA-HH-01254,E-0155,Inheritance,2025-10-05,Advisor,,false,166516.33,Ashford Household,Sofia Parker,Accumulation,374026.5,Pacific
+FA-LE-000515,FA-HH-01256,E-0165,Home Purchase,2026-06-11,Advisor,2026-06-12,true,50817.81,Jackson Household,Jamal Vaughn,Retirement,215257.15,Midwest
+FA-LE-000516,FA-HH-01258,E-0176,Marriage,2026-05-11,Advisor,2026-05-15,true,52124.23,Kim Household,Hannah Davis,Accumulation,218049.99,Northeast
+FA-LE-000517,FA-HH-01264,E-0169,Retirement,2025-12-18,Advisor,2025-12-23,true,38460.44,White Household,Priya Martinez,Accumulation,192724.82,Mountain West
+FA-LE-000518,FA-HH-01267,E-0142,Home Purchase,2025-06-30,Advisor,2025-07-02,true,46393.49,Garcia Household,Wei Ruiz,Accumulation,191317.45,Southeast
+FA-LE-000519,FA-HH-01267,E-0142,Job Change,2026-01-26,Advisor,2026-02-02,true,100033.7,Garcia Household,Wei Ruiz,Accumulation,191317.45,Southeast
+FA-LE-000520,FA-HH-01269,E-0170,Marriage,2025-06-14,Agentforce Signal,2025-06-20,true,22066.54,Bailey Household,Kenji Stewart,Retirement,173314.85,Southeast
+FA-LE-000521,FA-HH-01274,E-0164,Job Change,2025-10-20,Client Portal,2025-10-21,true,48629.65,Turner Household,Olivia Stewart,Accumulation,336971.32,Midwest
+FA-LE-000522,FA-HH-01274,E-0164,Marriage,2025-08-04,Advisor,2025-08-15,true,221446.96,Turner Household,Olivia Stewart,Accumulation,336971.32,Midwest
+FA-LE-000523,FA-HH-01276,E-0146,Business Sale,2026-06-23,Client Portal,2026-06-26,true,203531.79,Carter Household,Chloe Davis,Retirement,71773.42,Mountain West
+FA-LE-000524,FA-HH-01277,E-0149,Inheritance,2026-06-26,Client Portal,2026-06-29,true,34663.25,Anderson Household,Amara Okafor,Accumulation,461126.67,Mountain West
+FA-LE-000525,FA-HH-01280,E-0159,Retirement,2025-08-29,Transaction Pattern,2025-08-30,true,203327.54,Martinez Household,Owen White,Retirement,219720.89,Mountain West
+FA-LE-000526,FA-HH-01281,E-0148,Home Purchase,2025-07-01,Client Portal,2025-07-09,true,17203.03,Stewart Household,Julian Silva,Retirement,171101.23,Southeast
+FA-LE-000527,FA-HH-01282,E-0156,Home Purchase,2026-06-15,Client Portal,2026-06-20,true,77884.61,Wright Household,Ava Ashford,Accumulation,332556.79,Southeast
+FA-LE-000528,FA-HH-01287,E-0162,Inheritance,2025-08-20,Agentforce Signal,,false,114887.66,Nguyen Household,Owen Edwards,Accumulation,369586.53,Mountain West
+FA-LE-000529,FA-HH-01288,E-0170,Home Purchase,2025-06-04,Agentforce Signal,2025-06-20,false,26256.62,Clark Household,Kenji Stewart,Accumulation,746656.73,Southeast
+FA-LE-000530,FA-HH-01289,E-0175,Marriage,2026-04-08,Agentforce Signal,2026-04-13,true,274206.08,Campbell Household,Chloe Parker,Accumulation,119981.16,Midwest
+FA-LE-000531,FA-HH-01295,E-0158,Home Purchase,2025-07-08,Advisor,2025-07-17,true,1913927.8,Brown Household,Lauren Lewis,Accumulation,1135259.97,Pacific
+FA-LE-000532,FA-HH-01297,E-0166,Home Purchase,2026-06-05,Advisor,,false,217160.63,Ruiz Household,Wei King,Pre-Retirement,207861.77,Southeast
+FA-LE-000533,FA-HH-01298,E-0163,Home Purchase,2025-07-10,Advisor,,false,13043.15,Davis Household,Olivia Patel,Accumulation,212114.31,Southeast
+FA-LE-000534,FA-HH-01300,E-0172,Retirement,2026-07-30,Advisor,2026-08-06,true,103905.67,Harris Household,Priya Anderson,Accumulation,243368.74,Southeast
+FA-LE-000535,FA-HH-01303,E-0157,Job Change,2025-11-21,Advisor,2025-12-02,true,22487.0,Scott Household,Amara White,Retirement,1177122.69,Northeast
+FA-LE-000536,FA-HH-01306,E-0142,Retirement,2025-06-11,Agentforce Signal,2025-06-18,true,22626.93,Baker Household,Wei Ruiz,Pre-Retirement,66493.83,Southeast
+FA-LE-000537,FA-HH-01306,E-0142,Business Sale,2025-06-09,Advisor,2025-06-14,true,227909.29,Baker Household,Wei Ruiz,Pre-Retirement,66493.83,Southeast
+FA-LE-000538,FA-HH-01312,E-0166,Inheritance,2026-04-03,Advisor,2026-04-15,true,871333.64,Chen Household,Wei King,Accumulation,159380.57,Southeast
+FA-LE-000539,FA-HH-01312,E-0166,Retirement,2025-06-22,Client Portal,2025-06-27,true,71931.31,Chen Household,Wei King,Accumulation,159380.57,Southeast
+FA-LE-000540,FA-HH-01319,E-0165,Inheritance,2026-08-30,Transaction Pattern,,false,17579.45,Turner Household,Jamal Vaughn,Retirement,238004.95,Midwest
+FA-LE-000541,FA-HH-01319,E-0165,Home Purchase,2026-03-02,Agentforce Signal,,false,108766.89,Turner Household,Jamal Vaughn,Retirement,238004.95,Midwest
+FA-LE-000542,FA-HH-01324,E-0151,Business Sale,2026-03-06,Agentforce Signal,2026-03-19,true,48800.52,Garcia Household,Grace Carter,Accumulation,100294.31,Mountain West
+FA-LE-000543,FA-HH-01325,E-0142,Inheritance,2025-07-06,Client Portal,2025-07-12,true,9960.86,Davis Household,Wei Ruiz,Pre-Retirement,108787.8,Southeast
+FA-LE-000544,FA-HH-01326,E-0177,Home Purchase,2026-02-28,Client Portal,2026-03-03,true,149550.07,Anderson Household,Isabella Okafor,Pre-Retirement,569978.11,Mountain West
+FA-LE-000545,FA-HH-01327,E-0153,Retirement,2026-03-13,Advisor,,false,9535.58,Roberts Household,Noah Baker,Retirement,43809.08,Mountain West
+FA-LE-000546,FA-HH-01329,E-0172,Job Change,2026-08-09,Advisor,2026-08-16,true,64498.4,Morris Household,Priya Anderson,Accumulation,1003163.74,Southeast
+FA-LE-000547,FA-HH-01339,E-0169,Business Sale,2026-05-02,Agentforce Signal,2026-05-07,true,16457.99,Bailey Household,Priya Martinez,Accumulation,90303.53,Mountain West
+FA-LE-000548,FA-HH-01342,E-0164,Business Sale,2026-07-11,Advisor,2026-07-16,true,38537.81,Thomas Household,Olivia Stewart,Accumulation,48158.33,Midwest
+FA-LE-000549,FA-HH-01344,E-0158,Home Purchase,2025-06-29,Advisor,2025-07-11,true,240376.12,Collins Household,Lauren Lewis,Accumulation,322288.61,Pacific
+FA-LE-000550,FA-HH-01347,E-0167,New Child,2025-12-17,Client Portal,2026-01-28,false,62765.92,King Household,Jamal Wilson,Legacy,697519.4,Pacific
+FA-LE-000551,FA-HH-01349,E-0163,Job Change,2025-06-11,Client Portal,,false,33433.02,Vaughn Household,Olivia Patel,Accumulation,154374.12,Southeast
+FA-LE-000552,FA-HH-01350,E-0145,Home Purchase,2025-11-25,Advisor,2025-12-03,true,251459.44,Moore Household,Priya Young,Pre-Retirement,878193.57,Northeast
+FA-LE-000553,FA-HH-01350,E-0145,New Child,2026-04-22,Agentforce Signal,,false,68064.96,Moore Household,Priya Young,Pre-Retirement,878193.57,Northeast
+FA-LE-000554,FA-HH-01351,E-0180,Inheritance,2026-03-28,Client Portal,2026-04-03,true,116653.51,Ashford Household,Sofia Johnson,Retirement,4225317.2,Southeast
+FA-LE-000555,FA-HH-01352,E-0156,Business Sale,2026-06-27,Client Portal,2026-07-24,false,47122.47,Wilson Household,Ava Ashford,Accumulation,280321.73,Southeast
+FA-LE-000556,FA-HH-01352,E-0156,New Child,2026-07-28,Advisor,2026-08-06,true,12478.11,Wilson Household,Ava Ashford,Accumulation,280321.73,Southeast
+FA-LE-000557,FA-HH-01357,E-0148,Business Sale,2026-02-06,Agentforce Signal,2026-02-12,true,99867.4,Okafor Household,Julian Silva,Pre-Retirement,358833.16,Southeast
+FA-LE-000558,FA-HH-01359,E-0150,Home Purchase,2025-07-19,Advisor,,false,22573.53,Ashford Household,Henry Parker,Accumulation,274440.89,Southeast
+FA-LE-000559,FA-HH-01360,E-0147,Retirement,2025-09-24,Advisor,2025-09-25,true,88456.87,Mitchell Household,Yuki Vaughn,Accumulation,445192.87,Southeast
+FA-LE-000560,FA-HH-01361,E-0165,Inheritance,2026-01-05,Advisor,2026-01-07,true,122485.68,Evans Household,Jamal Vaughn,Retirement,154730.49,Midwest
+FA-LE-000561,FA-HH-01363,E-0146,Home Purchase,2025-08-29,Advisor,2025-09-11,true,24954.65,Anderson Household,Chloe Davis,Pre-Retirement,287122.64,Mountain West
+FA-LE-000562,FA-HH-01365,E-0161,Business Sale,2025-09-29,Transaction Pattern,,false,35251.87,Chen Household,Julian Green,Pre-Retirement,236099.2,Pacific
+FA-LE-000563,FA-HH-01366,E-0167,Inheritance,2026-01-08,Transaction Pattern,2026-01-29,false,1948989.52,Thomas Household,Jamal Wilson,Retirement,817559.41,Pacific
+FA-LE-000564,FA-HH-01370,E-0158,New Child,2025-06-15,Advisor,2025-06-20,true,21464.43,Scott Household,Lauren Lewis,Pre-Retirement,213319.3,Pacific
+FA-LE-000565,FA-HH-01372,E-0142,Job Change,2026-03-12,Advisor,,false,100709.91,Stewart Household,Wei Ruiz,Accumulation,851613.03,Southeast
+FA-LE-000566,FA-HH-01372,E-0142,New Child,2025-07-27,Agentforce Signal,2025-08-03,true,269714.74,Stewart Household,Wei Ruiz,Accumulation,851613.03,Southeast
+FA-LE-000567,FA-HH-01373,E-0179,Marriage,2026-01-02,Transaction Pattern,2026-01-09,true,223082.0,Scott Household,Sara Nelson,Accumulation,220239.34,Pacific
+FA-LE-000568,FA-HH-01376,E-0159,Marriage,2026-04-29,Agentforce Signal,2026-06-25,false,261869.06,Brown Household,Owen White,Accumulation,43029.69,Mountain West
+FA-LE-000569,FA-HH-01377,E-0148,Business Sale,2025-07-13,Advisor,2025-07-25,true,116324.82,Nguyen Household,Julian Silva,Accumulation,103945.66,Southeast
+FA-LE-000570,FA-HH-01377,E-0148,Business Sale,2026-08-22,Client Portal,2026-09-01,true,29725.84,Nguyen Household,Julian Silva,Accumulation,103945.66,Southeast
+FA-LE-000571,FA-HH-01379,E-0177,Business Sale,2025-07-23,Client Portal,2025-09-01,false,280469.17,Young Household,Isabella Okafor,Pre-Retirement,1175305.19,Mountain West
+FA-LE-000572,FA-HH-01381,E-0152,Marriage,2025-09-12,Advisor,2025-09-23,true,169260.91,Nguyen Household,Nina Brown,Pre-Retirement,650576.79,Southeast
+FA-LE-000573,FA-HH-01382,E-0180,New Child,2026-03-31,Client Portal,2026-04-04,true,104268.25,Anderson Household,Sofia Johnson,Accumulation,219702.05,Southeast
+FA-LE-000574,FA-HH-01384,E-0155,Business Sale,2026-01-02,Agentforce Signal,,false,56707.01,Bailey Household,Sofia Parker,Accumulation,1116562.89,Pacific
+FA-LE-000575,FA-HH-01386,E-0171,Marriage,2025-06-05,Client Portal,2025-07-19,false,22322.56,Miller Household,Victor Evans,Accumulation,88560.95,Midwest
+FA-LE-000576,FA-HH-01388,E-0168,Job Change,2025-07-13,Client Portal,2025-07-20,true,382508.67,Johnson Household,Kenji Bailey,Pre-Retirement,710796.77,Midwest
+FA-LE-000577,FA-HH-01388,E-0168,Home Purchase,2025-11-10,Advisor,2025-11-18,true,318744.92,Johnson Household,Kenji Bailey,Pre-Retirement,710796.77,Midwest
+FA-LE-000578,FA-HH-01389,E-0152,Marriage,2026-02-19,Agentforce Signal,2026-02-28,true,45746.3,Davis Household,Nina Brown,Retirement,194947.06,Southeast
+FA-LE-000579,FA-HH-01389,E-0152,Job Change,2025-11-16,Advisor,2025-11-19,true,85541.23,Davis Household,Nina Brown,Retirement,194947.06,Southeast
+FA-LE-000580,FA-HH-01390,E-0162,Inheritance,2026-04-29,Agentforce Signal,2026-05-02,true,187899.52,Roberts Household,Owen Edwards,Legacy,69947.27,Mountain West
+FA-LE-000581,FA-HH-01391,E-0168,Job Change,2026-08-30,Agentforce Signal,2026-09-12,true,8148.15,Campbell Household,Kenji Bailey,Pre-Retirement,141862.98,Midwest
+FA-LE-000582,FA-HH-01391,E-0168,Marriage,2026-03-16,Advisor,2026-03-18,true,282947.45,Campbell Household,Kenji Bailey,Pre-Retirement,141862.98,Midwest
+FA-LE-000583,FA-HH-01394,E-0162,Business Sale,2025-09-20,Agentforce Signal,,false,89196.68,Miller Household,Owen Edwards,Legacy,435071.48,Mountain West
+FA-LE-000584,FA-HH-01398,E-0163,New Child,2025-11-09,Advisor,,false,89382.09,Carter Household,Olivia Patel,Retirement,156334.07,Southeast
+FA-LE-000585,FA-HH-01400,E-0160,Business Sale,2025-09-10,Advisor,2025-09-19,true,92670.19,Phillips Household,Diego Silva,Pre-Retirement,1260383.81,Midwest

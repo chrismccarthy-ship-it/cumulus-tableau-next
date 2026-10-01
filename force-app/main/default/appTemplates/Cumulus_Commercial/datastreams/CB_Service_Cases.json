@@ -1,0 +1,265 @@
+{
+  "name": "CB_Service_Cases_DS",
+  "label": "CB Service Cases DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "CaseId"
+    },
+    {
+      "dataType": "Text",
+      "name": "BusinessAccountId"
+    },
+    {
+      "dataType": "Date",
+      "name": "CreatedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "CaseType"
+    },
+    {
+      "dataType": "Text",
+      "name": "Channel"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Number",
+      "name": "HandleTimeMinutes"
+    },
+    {
+      "dataType": "Text",
+      "name": "AgentId"
+    },
+    {
+      "dataType": "Number",
+      "name": "CSAT"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "AgentforceHandled"
+    },
+    {
+      "dataType": "Text",
+      "name": "BusinessName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Industry"
+    },
+    {
+      "dataType": "Text",
+      "name": "Segment"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AgentName"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.CB_Service_Cases_DLO.Name}",
+    "label": "CB Service Cases DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "CaseId",
+        "label": "Case ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BusinessAccountId",
+        "label": "Business Account ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CreatedDate",
+        "label": "Created Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CaseType",
+        "label": "Case Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Channel",
+        "label": "Channel"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "HandleTimeMinutes",
+        "label": "Handle Time Minutes"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AgentId",
+        "label": "Agent ID"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CSAT",
+        "label": "CSAT"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "AgentforceHandled",
+        "label": "Agentforce Handled"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BusinessName",
+        "label": "Business Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Industry",
+        "label": "Industry"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Segment",
+        "label": "Segment"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerName",
+        "label": "Relationship Manager Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AgentName",
+        "label": "Agent Name"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "CaseId",
+      "targetFieldName": "CaseId"
+    },
+    {
+      "sourceFieldLabel": "BusinessAccountId",
+      "targetFieldName": "BusinessAccountId"
+    },
+    {
+      "sourceFieldLabel": "CreatedDate",
+      "targetFieldName": "CreatedDate"
+    },
+    {
+      "sourceFieldLabel": "CaseType",
+      "targetFieldName": "CaseType"
+    },
+    {
+      "sourceFieldLabel": "Channel",
+      "targetFieldName": "Channel"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "HandleTimeMinutes",
+      "targetFieldName": "HandleTimeMinutes"
+    },
+    {
+      "sourceFieldLabel": "AgentId",
+      "targetFieldName": "AgentId"
+    },
+    {
+      "sourceFieldLabel": "CSAT",
+      "targetFieldName": "CSAT"
+    },
+    {
+      "sourceFieldLabel": "AgentforceHandled",
+      "targetFieldName": "AgentforceHandled"
+    },
+    {
+      "sourceFieldLabel": "BusinessName",
+      "targetFieldName": "BusinessName"
+    },
+    {
+      "sourceFieldLabel": "Industry",
+      "targetFieldName": "Industry"
+    },
+    {
+      "sourceFieldLabel": "Segment",
+      "targetFieldName": "Segment"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerName",
+      "targetFieldName": "RelationshipManagerName"
+    },
+    {
+      "sourceFieldLabel": "AgentName",
+      "targetFieldName": "AgentName"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.CB_Service_Cases_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.CB_Service_Cases_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.CB_Service_Cases_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.CB_Service_Cases_CSV.FileType}"
+  }
+}

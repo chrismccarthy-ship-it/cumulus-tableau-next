@@ -1,0 +1,471 @@
+{
+  "name": "Cumulus_Advisors_create",
+  "label": "Create Cumulus Financial Advisors",
+  "description": null,
+  "parameters": {},
+  "dominoVariant": "sfdc_internal__UnifiedAnalyticsDominoVariant",
+  "definition": {
+    "nodes": {
+      "upload_FA_Book_Of_Business": {
+        "referenceId": "upload_FA_Book_Of_Business",
+        "sources": [],
+        "parameters": {
+          "name": "FA_Book_Of_Business_CSV",
+          "file": "csvs/FA_Book_Of_Business.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_FA_Book_Of_Business": {
+        "referenceId": "upsert_FA_Book_Of_Business",
+        "sources": [
+          "upload_FA_Book_Of_Business"
+        ],
+        "parameters": {
+          "name": "FA_Book_Of_Business_DS",
+          "file": "datastreams/FA_Book_Of_Business.json",
+          "dataLakeObject": {
+            "name": "FA_Book_Of_Business_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_FA_Book_Of_Business": {
+        "referenceId": "run_FA_Book_Of_Business",
+        "sources": [
+          "upsert_FA_Book_Of_Business"
+        ],
+        "parameters": {
+          "name": "FA_Book_Of_Business_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_FA_Activities": {
+        "referenceId": "upload_FA_Activities",
+        "sources": [
+          "run_FA_Book_Of_Business"
+        ],
+        "parameters": {
+          "name": "FA_Activities_CSV",
+          "file": "csvs/FA_Activities.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_FA_Activities": {
+        "referenceId": "upsert_FA_Activities",
+        "sources": [
+          "upload_FA_Activities"
+        ],
+        "parameters": {
+          "name": "FA_Activities_DS",
+          "file": "datastreams/FA_Activities.json",
+          "dataLakeObject": {
+            "name": "FA_Activities_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_FA_Activities": {
+        "referenceId": "run_FA_Activities",
+        "sources": [
+          "upsert_FA_Activities"
+        ],
+        "parameters": {
+          "name": "FA_Activities_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_FA_Referrals": {
+        "referenceId": "upload_FA_Referrals",
+        "sources": [
+          "run_FA_Activities"
+        ],
+        "parameters": {
+          "name": "FA_Referrals_CSV",
+          "file": "csvs/FA_Referrals.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_FA_Referrals": {
+        "referenceId": "upsert_FA_Referrals",
+        "sources": [
+          "upload_FA_Referrals"
+        ],
+        "parameters": {
+          "name": "FA_Referrals_DS",
+          "file": "datastreams/FA_Referrals.json",
+          "dataLakeObject": {
+            "name": "FA_Referrals_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_FA_Referrals": {
+        "referenceId": "run_FA_Referrals",
+        "sources": [
+          "upsert_FA_Referrals"
+        ],
+        "parameters": {
+          "name": "FA_Referrals_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_FA_Life_Events": {
+        "referenceId": "upload_FA_Life_Events",
+        "sources": [
+          "run_FA_Referrals"
+        ],
+        "parameters": {
+          "name": "FA_Life_Events_CSV",
+          "file": "csvs/FA_Life_Events.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_FA_Life_Events": {
+        "referenceId": "upsert_FA_Life_Events",
+        "sources": [
+          "upload_FA_Life_Events"
+        ],
+        "parameters": {
+          "name": "FA_Life_Events_DS",
+          "file": "datastreams/FA_Life_Events.json",
+          "dataLakeObject": {
+            "name": "FA_Life_Events_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_FA_Life_Events": {
+        "referenceId": "run_FA_Life_Events",
+        "sources": [
+          "upsert_FA_Life_Events"
+        ],
+        "parameters": {
+          "name": "FA_Life_Events_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_FA_Clock": {
+        "referenceId": "upload_FA_Clock",
+        "sources": [
+          "run_FA_Life_Events"
+        ],
+        "parameters": {
+          "name": "FA_Clock_CSV",
+          "file": "csvs/FA_Clock.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload the settle clock CSV"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_FA_Clock": {
+        "referenceId": "upsert_FA_Clock",
+        "sources": [
+          "upload_FA_Clock"
+        ],
+        "parameters": {
+          "name": "FA_Clock_DS",
+          "file": "datastreams/FA_Clock.json",
+          "dataLakeObject": {
+            "name": "FA_Clock_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create the settle clock stream"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_FA_Clock": {
+        "referenceId": "run_FA_Clock",
+        "sources": [
+          "upsert_FA_Clock"
+        ],
+        "parameters": {
+          "name": "FA_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 1: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "settle_FA_Clock": {
+        "referenceId": "settle_FA_Clock",
+        "sources": [
+          "run_FA_Clock"
+        ],
+        "parameters": {
+          "name": "FA_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 2: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_workspace": {
+        "referenceId": "upsert_workspace",
+        "sources": [
+          "settle_FA_Clock"
+        ],
+        "parameters": {
+          "name": "Cumulus_Advisors_WS",
+          "label": "Cumulus Financial Advisors",
+          "file": "workspaces/workspace.json",
+          "condition": "true",
+          "assets": [
+            {
+              "name": "Cumulus_Advisors_SDM",
+              "assetType": "SemanticModel",
+              "usageType": "Referenced"
+            }
+          ]
+        },
+        "graphNodeType": {
+          "name": "WorkspaceUpsert",
+          "label": "Create/Update a Workspace from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_sdm": {
+        "referenceId": "upsert_sdm",
+        "sources": [
+          "upsert_workspace"
+        ],
+        "parameters": {
+          "name": "Cumulus_Advisors_SDM",
+          "label": "Cumulus Financial Advisors Model",
+          "file": "sdms/sdm.json",
+          "condition": "true"
+        },
+        "graphNodeType": {
+          "name": "SemanticModelUpsert",
+          "label": null
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_FA_Activities_By_Advisor": {
+        "referenceId": "upsert_viz_FA_Activities_By_Advisor",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_Activities_By_Advisor",
+          "file": "visualizations/FA_Activities_By_Advisor.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_FA_Book_By_Stage": {
+        "referenceId": "upsert_viz_FA_Book_By_Stage",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_Book_By_Stage",
+          "file": "visualizations/FA_Book_By_Stage.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_FA_KPI_AUM": {
+        "referenceId": "upsert_viz_FA_KPI_AUM",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_KPI_AUM",
+          "file": "visualizations/FA_KPI_AUM.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_FA_KPI_Activities": {
+        "referenceId": "upsert_viz_FA_KPI_Activities",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_KPI_Activities",
+          "file": "visualizations/FA_KPI_Activities.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_FA_KPI_Life_Events": {
+        "referenceId": "upsert_viz_FA_KPI_Life_Events",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_KPI_Life_Events",
+          "file": "visualizations/FA_KPI_Life_Events.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_FA_KPI_Opportunity": {
+        "referenceId": "upsert_viz_FA_KPI_Opportunity",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_KPI_Opportunity",
+          "file": "visualizations/FA_KPI_Opportunity.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_FA_Life_Events_Followup": {
+        "referenceId": "upsert_viz_FA_Life_Events_Followup",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_Life_Events_Followup",
+          "file": "visualizations/FA_Life_Events_Followup.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_FA_Life_Events_Source": {
+        "referenceId": "upsert_viz_FA_Life_Events_Source",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_Life_Events_Source",
+          "file": "visualizations/FA_Life_Events_Source.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_FA_Referral_Funnel": {
+        "referenceId": "upsert_viz_FA_Referral_Funnel",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_Referral_Funnel",
+          "file": "visualizations/FA_Referral_Funnel.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Advisors_Overview": {
+        "referenceId": "upsert_dash_Cumulus_Advisors_Overview",
+        "sources": [
+          "upsert_viz_FA_Activities_By_Advisor",
+          "upsert_viz_FA_Book_By_Stage",
+          "upsert_viz_FA_KPI_AUM",
+          "upsert_viz_FA_KPI_Activities",
+          "upsert_viz_FA_KPI_Life_Events",
+          "upsert_viz_FA_KPI_Opportunity",
+          "upsert_viz_FA_Life_Events_Followup",
+          "upsert_viz_FA_Life_Events_Source",
+          "upsert_viz_FA_Referral_Funnel"
+        ],
+        "parameters": {
+          "name": "Cumulus_Advisors_Overview",
+          "label": "Cumulus Advisors Overview",
+          "file": "dashboards/Cumulus_Advisors_Overview.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      }
+    }
+  },
+  "finallyDefinition": {
+    "nodes": {}
+  }
+}

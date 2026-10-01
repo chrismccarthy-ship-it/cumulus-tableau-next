@@ -1,0 +1,210 @@
+{
+  "name": "LN_Stage_Events_DS",
+  "label": "LN Stage Events DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "StageEventId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ApplicationId"
+    },
+    {
+      "dataType": "Text",
+      "name": "StageName"
+    },
+    {
+      "dataType": "Number",
+      "name": "StageOrder"
+    },
+    {
+      "dataType": "Date",
+      "name": "EnteredDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "ExitedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "DaysInStage"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProductName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Channel"
+    },
+    {
+      "dataType": "Text",
+      "name": "LoanOfficerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.LN_Stage_Events_DLO.Name}",
+    "label": "LN Stage Events DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "StageEventId",
+        "label": "Stage Event ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ApplicationId",
+        "label": "Application ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "StageName",
+        "label": "Stage Name"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "StageOrder",
+        "label": "Stage Order"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "EnteredDate",
+        "label": "Entered Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "ExitedDate",
+        "label": "Exited Date"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "DaysInStage",
+        "label": "Days In Stage"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProductName",
+        "label": "Product Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Channel",
+        "label": "Channel"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LoanOfficerName",
+        "label": "Loan Officer Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "StageEventId",
+      "targetFieldName": "StageEventId"
+    },
+    {
+      "sourceFieldLabel": "ApplicationId",
+      "targetFieldName": "ApplicationId"
+    },
+    {
+      "sourceFieldLabel": "StageName",
+      "targetFieldName": "StageName"
+    },
+    {
+      "sourceFieldLabel": "StageOrder",
+      "targetFieldName": "StageOrder"
+    },
+    {
+      "sourceFieldLabel": "EnteredDate",
+      "targetFieldName": "EnteredDate"
+    },
+    {
+      "sourceFieldLabel": "ExitedDate",
+      "targetFieldName": "ExitedDate"
+    },
+    {
+      "sourceFieldLabel": "DaysInStage",
+      "targetFieldName": "DaysInStage"
+    },
+    {
+      "sourceFieldLabel": "ProductName",
+      "targetFieldName": "ProductName"
+    },
+    {
+      "sourceFieldLabel": "Channel",
+      "targetFieldName": "Channel"
+    },
+    {
+      "sourceFieldLabel": "LoanOfficerName",
+      "targetFieldName": "LoanOfficerName"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.LN_Stage_Events_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.LN_Stage_Events_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.LN_Stage_Events_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.LN_Stage_Events_CSV.FileType}"
+  }
+}

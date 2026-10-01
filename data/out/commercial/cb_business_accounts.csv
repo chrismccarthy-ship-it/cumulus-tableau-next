@@ -1,0 +1,601 @@
+BusinessAccountId,BusinessName,Industry,Segment,AnnualRevenue,RelationshipManagerId,Region,RelationshipStartDate,PrimaryOperatingAccount,RelationshipProfitability
+CB-BA-00001,Meridian Logistics,Hospitality,Small Business,1238234.15,E-0189,Midwest,2013-04-03,true,1683.86
+CB-BA-00002,Redwood Partners 2,Technology,Middle Market,103724990.7,E-0187,Pacific,2025-10-15,true,271612.24
+CB-BA-00003,PayCadence Group 3,Manufacturing,Small Business,7883471.52,E-0181,Pacific,2022-12-16,true,9856.05
+CB-BA-00004,Granite Systems 4,Agriculture,Small Business,8151256.87,E-0199,Pacific,2014-11-29,false,25311.25
+CB-BA-00005,Meridian Industries 5,Agriculture,Small Business,2783616.71,E-0185,Midwest,2020-12-22,true,2415.17
+CB-BA-00006,Ironwood Systems 6,Healthcare,Small Business,4734686.66,E-0185,Midwest,2020-03-18,true,12021.26
+CB-BA-00007,PayCadence Industries 7,Professional Services,Middle Market,26036277.0,E-0192,Northeast,2024-12-12,true,25770.93
+CB-BA-00008,Ironwood Group 8,Agriculture,Corporate,352506692.03,E-0186,Mountain West,2013-03-20,true,677266.58
+CB-BA-00009,Granite Group 9,Agriculture,Small Business,1588234.81,E-0201,Pacific,2015-10-22,true,5239.92
+CB-BA-00010,Ironwood Group 10,Logistics,Small Business,6225363.81,E-0195,Southeast,2024-06-19,true,10241.86
+CB-BA-00011,Ironwood Industries 11,Manufacturing,Small Business,8182543.47,E-0184,Mountain West,2025-09-18,true,23881.47
+CB-BA-00012,Granite Builders 12,Retail,Middle Market,61175602.24,E-0195,Southeast,2026-05-15,true,206948.49
+CB-BA-00013,Harbor Holdings 13,Professional Services,Middle Market,37087423.04,E-0185,Pacific,2022-09-23,false,127931.64
+CB-BA-00014,Redwood Group 14,Retail,Small Business,10847447.99,E-0191,Northeast,2019-02-22,false,30177.4
+CB-BA-00015,Meridian Group 15,Manufacturing,Small Business,1754102.57,E-0196,Northeast,2022-06-08,true,2443.09
+CB-BA-00016,Ironwood Industries 16,Hospitality,Small Business,4645450.04,E-0185,Midwest,2021-07-12,false,17693.51
+CB-BA-00017,Granite Partners 17,Manufacturing,Middle Market,80057273.7,E-0186,Northeast,2026-03-13,false,258571.24
+CB-BA-00018,Meridian Group 18,Agriculture,Corporate,1263442820.25,E-0194,Pacific,2019-02-22,true,1658351.22
+CB-BA-00019,Northwind Logistics 19,Healthcare,Small Business,2839752.6,E-0196,Midwest,2019-12-31,true,3641.41
+CB-BA-00020,Ironwood Holdings 20,Hospitality,Small Business,2033686.23,E-0181,Northeast,2019-07-15,true,6446.56
+CB-BA-00021,Summit Foods 21,Healthcare,Middle Market,50063829.02,E-0195,Pacific,2014-09-07,false,175012.51
+CB-BA-00022,Bluewater Systems 22,Construction,Small Business,1449491.58,E-0193,Midwest,2014-05-24,true,4822.91
+CB-BA-00023,Bluewater Health 23,Logistics,Middle Market,147686153.45,E-0190,Midwest,2024-07-06,false,324290.41
+CB-BA-00024,Granite Builders 24,Construction,Small Business,4445141.79,E-0199,Mountain West,2015-05-13,true,17022.71
+CB-BA-00025,Keystone Systems 25,Healthcare,Small Business,6877818.06,E-0204,Mountain West,2022-02-12,true,23825.13
+CB-BA-00026,Meridian Holdings 26,Construction,Corporate,1114647957.81,E-0196,Southeast,2014-05-11,true,1997343.37
+CB-BA-00027,Meridian Holdings 27,Technology,Middle Market,48647563.13,E-0202,Northeast,2017-05-30,true,193888.93
+CB-BA-00028,Harbor Holdings 28,Retail,Middle Market,165376356.86,E-0205,Midwest,2014-05-26,true,181722.47
+CB-BA-00029,Redwood Group 29,Manufacturing,Small Business,3054014.98,E-0187,Pacific,2022-05-31,true,4644.34
+CB-BA-00030,Bluewater Holdings 30,Technology,Corporate,309751429.91,E-0193,Pacific,2019-01-12,true,500448.65
+CB-BA-00031,Meridian Health 31,Manufacturing,Middle Market,62937529.11,E-0194,Southeast,2025-03-27,true,89809.63
+CB-BA-00032,Meridian Builders 32,Retail,Corporate,673423749.65,E-0197,Midwest,2012-10-30,true,1233922.44
+CB-BA-00033,PayCadence Logistics 33,Logistics,Corporate,1612177647.39,E-0181,Northeast,2013-01-02,false,4350656.54
+CB-BA-00034,PayCadence Holdings 34,Logistics,Middle Market,31474083.79,E-0189,Midwest,2022-11-23,true,109777.2
+CB-BA-00035,Summit Industries 35,Hospitality,Middle Market,133326586.7,E-0197,Northeast,2023-05-13,true,344797.63
+CB-BA-00036,Summit Health 36,Professional Services,Middle Market,75426888.38,E-0202,Midwest,2022-10-21,false,182277.32
+CB-BA-00037,Northwind Holdings 37,Retail,Small Business,3924662.16,E-0201,Pacific,2018-07-26,true,14207.28
+CB-BA-00038,Northwind Holdings 38,Construction,Small Business,6214164.24,E-0186,Southeast,2022-11-01,true,9470.28
+CB-BA-00039,Bluewater Holdings 39,Construction,Corporate,534910133.93,E-0200,Pacific,2014-02-08,true,741924.83
+CB-BA-00040,Redwood Systems 40,Manufacturing,Middle Market,119710240.04,E-0182,Mountain West,2023-08-11,false,400409.5
+CB-BA-00041,Redwood Systems 41,Professional Services,Middle Market,119485751.74,E-0185,Pacific,2024-01-03,true,316054.2
+CB-BA-00042,Ironwood Builders 42,Professional Services,Small Business,7726535.46,E-0201,Southeast,2020-06-25,false,29806.4
+CB-BA-00043,Granite Holdings 43,Professional Services,Small Business,959445.21,E-0197,Midwest,2022-05-26,true,3428.77
+CB-BA-00044,Redwood Systems 44,Agriculture,Middle Market,73062218.31,E-0184,Mountain West,2024-01-18,true,98906.26
+CB-BA-00045,Keystone Holdings 45,Manufacturing,Middle Market,62766153.13,E-0189,Pacific,2018-07-16,true,109802.59
+CB-BA-00046,Ironwood Partners 46,Retail,Small Business,4208870.33,E-0191,Southeast,2018-02-02,true,10294.39
+CB-BA-00047,PayCadence Partners 47,Professional Services,Middle Market,58703428.53,E-0181,Pacific,2012-12-12,true,184971.56
+CB-BA-00048,Summit Logistics 48,Retail,Small Business,4509642.44,E-0183,Southeast,2014-01-08,false,8719.6
+CB-BA-00049,Summit Systems 49,Agriculture,Small Business,9961723.2,E-0182,Pacific,2013-09-23,true,36987.16
+CB-BA-00050,Ironwood Holdings 50,Manufacturing,Small Business,11530981.95,E-0193,Midwest,2016-04-25,false,12137.66
+CB-BA-00051,Summit Holdings 51,Professional Services,Small Business,10017453.43,E-0185,Midwest,2019-03-08,true,18805.92
+CB-BA-00052,Keystone Logistics 52,Retail,Small Business,3619992.47,E-0194,Pacific,2025-12-21,true,9868.36
+CB-BA-00053,Bluewater Group 53,Healthcare,Corporate,930723723.4,E-0203,Southeast,2018-12-09,false,820390.99
+CB-BA-00054,PayCadence Builders 54,Technology,Small Business,5262458.3,E-0190,Northeast,2019-04-16,false,13134.41
+CB-BA-00055,Ironwood Logistics 55,Professional Services,Middle Market,58874252.31,E-0205,Southeast,2022-10-26,true,74104.8
+CB-BA-00056,Summit Builders 56,Healthcare,Corporate,3490636595.72,E-0191,Mountain West,2022-06-04,false,9338088.45
+CB-BA-00057,Bluewater Partners 57,Manufacturing,Middle Market,14900407.98,E-0195,Pacific,2018-06-02,true,39488.89
+CB-BA-00058,Keystone Partners 58,Construction,Small Business,5320038.78,E-0191,Pacific,2013-10-18,false,9619.46
+CB-BA-00059,PayCadence Group 59,Retail,Small Business,18000701.04,E-0189,Midwest,2019-05-29,true,32404.76
+CB-BA-00060,Granite Logistics 60,Manufacturing,Small Business,8218302.06,E-0192,Midwest,2025-08-13,true,16490.68
+CB-BA-00061,Harbor Foods 61,Healthcare,Small Business,2854063.97,E-0183,Northeast,2022-01-01,true,2619.78
+CB-BA-00062,Redwood Industries 62,Agriculture,Middle Market,151781422.33,E-0197,Southeast,2026-06-10,true,484623.28
+CB-BA-00063,Granite Holdings 63,Logistics,Small Business,861141.59,E-0200,Southeast,2012-03-05,true,1962.85
+CB-BA-00064,Harbor Holdings 64,Professional Services,Small Business,4072787.67,E-0204,Mountain West,2019-04-17,true,5292.6
+CB-BA-00065,Meridian Builders 65,Manufacturing,Middle Market,25524242.71,E-0195,Midwest,2024-08-17,true,93639.66
+CB-BA-00066,Northwind Group 66,Agriculture,Middle Market,299115274.35,E-0184,Pacific,2015-05-28,true,1041407.93
+CB-BA-00067,Granite Group 67,Manufacturing,Small Business,1550346.01,E-0197,Midwest,2021-11-07,false,1294.26
+CB-BA-00068,Bluewater Health 68,Professional Services,Middle Market,91973209.82,E-0203,Northeast,2012-04-01,true,123642.07
+CB-BA-00069,Harbor Foods 69,Manufacturing,Small Business,7124651.99,E-0192,Midwest,2026-02-10,true,6602.23
+CB-BA-00070,Summit Health 70,Retail,Small Business,2361504.95,E-0181,Pacific,2013-05-07,true,7776.83
+CB-BA-00071,Redwood Industries 71,Healthcare,Corporate,481349039.59,E-0193,Midwest,2023-01-30,true,1691417.77
+CB-BA-00072,Redwood Industries 72,Agriculture,Corporate,2573017662.11,E-0191,Midwest,2015-09-05,false,8896587.13
+CB-BA-00073,Ironwood Partners 73,Agriculture,Small Business,4986111.65,E-0202,Pacific,2016-04-12,false,11581.35
+CB-BA-00074,Granite Systems 74,Hospitality,Small Business,10536036.95,E-0191,Midwest,2014-07-13,true,32736.92
+CB-BA-00075,Bluewater Foods 75,Hospitality,Middle Market,62709442.41,E-0199,Southeast,2021-07-14,false,185072.79
+CB-BA-00076,PayCadence Systems 76,Hospitality,Small Business,3064425.0,E-0204,Pacific,2019-12-17,true,8885.31
+CB-BA-00077,Redwood Systems 77,Agriculture,Small Business,1223217.14,E-0182,Southeast,2021-08-01,true,2210.75
+CB-BA-00078,Bluewater Health 78,Professional Services,Small Business,4006113.88,E-0200,Northeast,2017-07-07,true,11139.27
+CB-BA-00079,Harbor Builders 79,Healthcare,Small Business,3384545.44,E-0192,Southeast,2018-10-11,false,12845.09
+CB-BA-00080,Bluewater Builders 80,Technology,Middle Market,60749642.16,E-0185,Mountain West,2012-07-15,true,158436.48
+CB-BA-00081,Granite Holdings 81,Retail,Corporate,466546154.86,E-0189,Mountain West,2025-05-14,true,1232439.91
+CB-BA-00082,Keystone Logistics 82,Retail,Small Business,12696394.91,E-0200,Pacific,2016-09-30,true,21311.39
+CB-BA-00083,Harbor Systems 83,Manufacturing,Middle Market,139833124.08,E-0182,Mountain West,2012-05-21,false,447999.37
+CB-BA-00084,Ironwood Foods 84,Manufacturing,Small Business,4622217.54,E-0185,Mountain West,2025-10-29,true,14568.94
+CB-BA-00085,Meridian Holdings 85,Construction,Middle Market,110017957.68,E-0202,Southeast,2023-10-24,true,197387.47
+CB-BA-00086,Meridian Partners 86,Construction,Small Business,4678662.67,E-0196,Pacific,2025-06-22,false,7977.23
+CB-BA-00087,Northwind Builders 87,Manufacturing,Small Business,3414329.17,E-0201,Southeast,2014-07-19,true,6807.77
+CB-BA-00088,Keystone Holdings 88,Logistics,Middle Market,15798627.58,E-0200,Mountain West,2025-12-02,true,51524.13
+CB-BA-00089,Bluewater Health 89,Technology,Corporate,1060108389.66,E-0196,Pacific,2016-06-12,true,2913285.16
+CB-BA-00090,Harbor Holdings 90,Manufacturing,Small Business,1574162.93,E-0195,Midwest,2018-02-17,true,5117.81
+CB-BA-00091,Harbor Holdings 91,Agriculture,Middle Market,53657263.28,E-0186,Midwest,2018-08-17,true,153921.01
+CB-BA-00092,Northwind Systems 92,Manufacturing,Middle Market,390589386.38,E-0195,Midwest,2019-03-19,false,1195148.45
+CB-BA-00093,Ironwood Health 93,Logistics,Middle Market,257099421.42,E-0189,Southeast,2018-06-10,false,452783.3
+CB-BA-00094,Bluewater Logistics 94,Construction,Corporate,396340829.33,E-0194,Southeast,2022-09-10,true,463366.98
+CB-BA-00095,Redwood Health 95,Agriculture,Small Business,5065503.58,E-0184,Midwest,2013-10-21,true,10977.95
+CB-BA-00096,Harbor Systems 96,Logistics,Small Business,4468373.49,E-0191,Northeast,2021-03-10,true,11934.9
+CB-BA-00097,Bluewater Health 97,Technology,Small Business,3615694.48,E-0200,Southeast,2024-11-07,true,13120.08
+CB-BA-00098,Redwood Group 98,Technology,Middle Market,67827628.49,E-0205,Mountain West,2016-02-22,false,133456.71
+CB-BA-00099,Ironwood Logistics 99,Manufacturing,Small Business,2844441.16,E-0192,Midwest,2021-09-28,true,11365.83
+CB-BA-00100,Redwood Health 100,Healthcare,Small Business,3030705.04,E-0202,Southeast,2019-09-20,false,3337.89
+CB-BA-00101,Summit Systems 101,Hospitality,Small Business,4063203.22,E-0181,Mountain West,2019-10-18,true,11898.52
+CB-BA-00102,Granite Partners 102,Agriculture,Middle Market,89594610.56,E-0193,Pacific,2020-03-11,true,133867.56
+CB-BA-00103,Keystone Group 103,Hospitality,Middle Market,27846592.12,E-0202,Mountain West,2021-11-15,true,37689.78
+CB-BA-00104,Keystone Logistics 104,Retail,Middle Market,23791251.54,E-0190,Pacific,2018-11-21,false,53798.79
+CB-BA-00105,Summit Foods 105,Retail,Middle Market,129621821.01,E-0184,Pacific,2014-08-02,true,204331.41
+CB-BA-00106,Granite Group 106,Agriculture,Middle Market,65498489.94,E-0197,Southeast,2023-05-15,false,215522.1
+CB-BA-00107,PayCadence Builders 107,Construction,Middle Market,162759955.64,E-0189,Southeast,2023-10-07,true,454361.84
+CB-BA-00108,Northwind Holdings 108,Manufacturing,Small Business,4271452.09,E-0193,Northeast,2024-08-18,true,13771.78
+CB-BA-00109,Northwind Partners 109,Retail,Small Business,1906991.95,E-0197,Midwest,2024-09-11,true,7417.67
+CB-BA-00110,Summit Logistics 110,Construction,Small Business,5681632.1,E-0204,Mountain West,2023-10-26,true,21862.85
+CB-BA-00111,PayCadence Group 111,Technology,Middle Market,51070760.67,E-0194,Southeast,2019-01-25,true,139773.35
+CB-BA-00112,Redwood Builders 112,Retail,Small Business,5952671.74,E-0200,Pacific,2015-06-03,false,22541.02
+CB-BA-00113,Meridian Logistics 113,Logistics,Small Business,5288740.43,E-0183,Pacific,2020-07-22,true,4492.51
+CB-BA-00114,Ironwood Group 114,Manufacturing,Middle Market,94561630.95,E-0202,Midwest,2012-02-16,false,260411.73
+CB-BA-00115,Summit Builders 115,Healthcare,Small Business,2888717.7,E-0196,Mountain West,2017-03-24,true,8509.63
+CB-BA-00116,Ironwood Logistics 116,Agriculture,Small Business,6133589.42,E-0189,Mountain West,2020-12-23,false,11334.27
+CB-BA-00117,Keystone Group 117,Construction,Middle Market,26621232.33,E-0190,Southeast,2021-07-22,true,37900.19
+CB-BA-00118,Meridian Group 118,Hospitality,Small Business,8906638.65,E-0199,Mountain West,2025-12-26,false,20529.9
+CB-BA-00119,Redwood Group 119,Construction,Small Business,908420.93,E-0204,Mountain West,2021-04-25,true,2339.29
+CB-BA-00120,Harbor Builders 120,Agriculture,Small Business,1763372.69,E-0184,Pacific,2015-08-16,true,3332.01
+CB-BA-00121,Keystone Logistics 121,Professional Services,Small Business,800117.92,E-0205,Mountain West,2023-12-01,true,2295.22
+CB-BA-00122,Northwind Holdings 122,Healthcare,Middle Market,148683361.37,E-0191,Southeast,2015-10-31,true,308831.22
+CB-BA-00123,Keystone Group 123,Healthcare,Middle Market,100265066.04,E-0201,Midwest,2012-01-02,true,202736.5
+CB-BA-00124,Granite Foods 124,Agriculture,Small Business,3840221.92,E-0203,Midwest,2026-03-12,false,14630.78
+CB-BA-00125,Granite Builders 125,Manufacturing,Small Business,2198700.79,E-0199,Pacific,2025-09-07,true,5224.22
+CB-BA-00126,Bluewater Group 126,Retail,Corporate,1038393322.09,E-0200,Southeast,2019-08-15,false,2048579.37
+CB-BA-00127,Summit Group 127,Retail,Small Business,4025891.41,E-0196,Southeast,2026-05-04,true,3344.19
+CB-BA-00128,Ironwood Industries 128,Logistics,Middle Market,24206592.22,E-0204,Southeast,2013-08-04,true,47876.15
+CB-BA-00129,Bluewater Logistics 129,Construction,Small Business,7558444.72,E-0182,Midwest,2024-03-31,false,22867.62
+CB-BA-00130,Northwind Holdings 130,Professional Services,Middle Market,156981518.52,E-0199,Southeast,2016-09-14,true,250809.92
+CB-BA-00131,Keystone Health 131,Professional Services,Small Business,2575481.45,E-0192,Mountain West,2014-03-01,true,5892.1
+CB-BA-00132,Ironwood Health 132,Retail,Small Business,8901193.07,E-0188,Pacific,2021-07-06,true,26115.9
+CB-BA-00133,Summit Systems 133,Hospitality,Corporate,339488775.83,E-0181,Southeast,2024-06-17,true,652556.08
+CB-BA-00134,Keystone Group 134,Professional Services,Middle Market,58553004.13,E-0203,Northeast,2017-06-27,true,170103.66
+CB-BA-00135,Ironwood Group 135,Hospitality,Middle Market,71000082.31,E-0182,Southeast,2020-10-30,true,216324.48
+CB-BA-00136,Redwood Holdings 136,Retail,Middle Market,20610354.22,E-0203,Midwest,2025-07-13,false,32954.68
+CB-BA-00137,Redwood Holdings 137,Technology,Middle Market,60400081.88,E-0201,Midwest,2024-09-19,true,64927.73
+CB-BA-00138,Redwood Industries 138,Logistics,Middle Market,75851411.85,E-0204,Pacific,2012-03-24,true,281817.49
+CB-BA-00139,Summit Industries 139,Professional Services,Corporate,1767193310.01,E-0193,Midwest,2015-10-02,true,3720026.25
+CB-BA-00140,Redwood Holdings 140,Manufacturing,Small Business,4617717.93,E-0195,Southeast,2012-12-15,true,13119.24
+CB-BA-00141,Northwind Builders 141,Hospitality,Middle Market,175340811.3,E-0192,Mountain West,2014-06-13,true,215425.12
+CB-BA-00142,Ironwood Holdings 142,Agriculture,Middle Market,102368705.48,E-0204,Pacific,2020-07-01,true,152701.84
+CB-BA-00143,Keystone Partners 143,Hospitality,Small Business,2318825.93,E-0191,Northeast,2017-02-22,true,4450.02
+CB-BA-00144,Keystone Health 144,Agriculture,Corporate,1254005540.38,E-0186,Mountain West,2014-05-13,true,4176365.34
+CB-BA-00145,Ironwood Health 145,Professional Services,Middle Market,146009231.54,E-0196,Northeast,2012-12-17,true,198819.81
+CB-BA-00146,PayCadence Logistics 146,Retail,Middle Market,105174844.87,E-0199,Southeast,2017-08-11,false,193156.57
+CB-BA-00147,Keystone Health 147,Professional Services,Middle Market,73445801.63,E-0205,Mountain West,2018-07-14,true,208076.37
+CB-BA-00148,Summit Health 148,Hospitality,Corporate,1213695089.97,E-0182,Pacific,2021-10-20,true,3185336.21
+CB-BA-00149,Meridian Foods 149,Logistics,Middle Market,240133277.58,E-0198,Northeast,2021-06-07,false,649155.42
+CB-BA-00150,PayCadence Systems 150,Manufacturing,Small Business,5265676.99,E-0201,Northeast,2015-05-11,true,10634.7
+CB-BA-00151,Meridian Group 151,Professional Services,Small Business,1721531.53,E-0181,Mountain West,2019-08-13,true,3981.88
+CB-BA-00152,PayCadence Group 152,Retail,Small Business,9933254.99,E-0184,Southeast,2020-10-13,true,18397.69
+CB-BA-00153,Northwind Builders 153,Professional Services,Small Business,1416413.32,E-0203,Southeast,2019-02-02,true,2213.83
+CB-BA-00154,Granite Health 154,Agriculture,Small Business,9117845.01,E-0202,Midwest,2022-01-04,false,34534.91
+CB-BA-00155,Redwood Holdings 155,Hospitality,Small Business,5935702.07,E-0198,Midwest,2015-08-21,false,11059.87
+CB-BA-00156,Keystone Holdings 156,Technology,Middle Market,248073369.37,E-0186,Southeast,2020-02-02,true,685039.95
+CB-BA-00157,Keystone Partners 157,Agriculture,Middle Market,135238258.31,E-0202,Midwest,2017-12-22,false,304109.31
+CB-BA-00158,Granite Partners 158,Retail,Small Business,3375034.23,E-0182,Northeast,2020-03-25,true,7353.77
+CB-BA-00159,Granite Group 159,Technology,Small Business,2415348.0,E-0205,Southeast,2026-01-03,true,9369.36
+CB-BA-00160,PayCadence Systems 160,Hospitality,Small Business,2109993.32,E-0184,Pacific,2015-01-21,true,5722.96
+CB-BA-00161,Harbor Builders 161,Technology,Small Business,2520143.09,E-0193,Midwest,2017-12-28,true,8726.02
+CB-BA-00162,Northwind Group 162,Retail,Corporate,211113876.09,E-0188,Southeast,2017-01-13,false,326640.49
+CB-BA-00163,Ironwood Industries 163,Professional Services,Middle Market,104127292.8,E-0183,Midwest,2021-04-21,true,183583.48
+CB-BA-00164,Bluewater Systems 164,Healthcare,Corporate,3376368222.08,E-0182,Midwest,2014-03-22,true,9010124.4
+CB-BA-00165,Granite Foods 165,Technology,Small Business,8650148.09,E-0183,Northeast,2025-02-16,true,27921.93
+CB-BA-00166,Redwood Partners 166,Technology,Middle Market,24999066.79,E-0190,Midwest,2021-05-20,true,92299.75
+CB-BA-00167,Northwind Logistics 167,Healthcare,Middle Market,63706171.09,E-0197,Southeast,2019-08-31,false,157705.86
+CB-BA-00168,Bluewater Builders 168,Logistics,Corporate,479684832.75,E-0193,Mountain West,2015-12-05,true,1666095.81
+CB-BA-00169,PayCadence Partners 169,Construction,Middle Market,244918422.15,E-0198,Southeast,2024-02-29,true,780399.41
+CB-BA-00170,Granite Systems 170,Hospitality,Small Business,6781385.93,E-0189,Midwest,2019-07-01,true,12629.38
+CB-BA-00171,Harbor Partners 171,Professional Services,Corporate,521249732.59,E-0182,Midwest,2023-05-04,false,1918327.58
+CB-BA-00172,PayCadence Holdings 172,Construction,Corporate,657731164.66,E-0183,Mountain West,2015-12-12,true,599695.24
+CB-BA-00173,Northwind Builders 173,Logistics,Small Business,1285299.53,E-0190,Southeast,2026-06-12,false,3829.2
+CB-BA-00174,Keystone Group 174,Logistics,Small Business,8388330.88,E-0198,Southeast,2019-12-06,true,23164.49
+CB-BA-00175,Ironwood Partners 175,Professional Services,Middle Market,100762155.0,E-0193,Southeast,2014-02-15,false,98141.71
+CB-BA-00176,Northwind Partners 176,Construction,Small Business,2107448.11,E-0187,Mountain West,2018-02-19,false,8197.68
+CB-BA-00177,Keystone Logistics 177,Healthcare,Middle Market,202006277.51,E-0205,Midwest,2018-10-06,true,254687.88
+CB-BA-00178,Northwind Builders 178,Construction,Small Business,2540953.75,E-0202,Pacific,2026-04-08,false,6134.73
+CB-BA-00179,Northwind Holdings 179,Manufacturing,Middle Market,28345026.35,E-0201,Pacific,2012-04-24,false,97904.82
+CB-BA-00180,Harbor Holdings 180,Healthcare,Small Business,12769677.42,E-0201,Pacific,2019-09-21,true,31915.89
+CB-BA-00181,PayCadence Health 181,Hospitality,Small Business,14559570.85,E-0205,Southeast,2014-03-19,false,57278.01
+CB-BA-00182,Ironwood Holdings 182,Healthcare,Middle Market,36991164.93,E-0195,Midwest,2018-06-23,true,55050.15
+CB-BA-00183,Keystone Health 183,Agriculture,Small Business,24186994.25,E-0187,Pacific,2018-02-06,true,42499.48
+CB-BA-00184,Harbor Group 184,Logistics,Middle Market,123739888.71,E-0194,Northeast,2025-01-16,true,237203.06
+CB-BA-00185,Bluewater Health 185,Professional Services,Middle Market,101697283.23,E-0194,Pacific,2013-10-31,true,322156.94
+CB-BA-00186,PayCadence Logistics 186,Technology,Corporate,3473024146.67,E-0200,Pacific,2023-09-24,false,8869877.76
+CB-BA-00187,Harbor Foods 187,Hospitality,Corporate,1039642631.9,E-0205,Southeast,2016-10-02,true,3914664.7
+CB-BA-00188,Bluewater Logistics 188,Construction,Middle Market,138215170.8,E-0193,Pacific,2021-03-07,true,407984.52
+CB-BA-00189,Summit Group 189,Agriculture,Middle Market,150627019.56,E-0184,Southeast,2024-01-18,true,300416.69
+CB-BA-00190,Granite Industries 190,Technology,Small Business,4174107.78,E-0183,Mountain West,2018-06-29,true,3512.58
+CB-BA-00191,Summit Partners 191,Manufacturing,Middle Market,95956108.71,E-0192,Northeast,2017-07-29,true,88516.99
+CB-BA-00192,Harbor Systems 192,Agriculture,Small Business,27310067.89,E-0189,Mountain West,2020-05-20,true,72383.24
+CB-BA-00193,PayCadence Systems 193,Professional Services,Small Business,6856074.5,E-0191,Mountain West,2021-01-16,true,7333.46
+CB-BA-00194,Northwind Health 194,Technology,Small Business,3081551.57,E-0184,Midwest,2020-08-20,true,4472.3
+CB-BA-00195,Redwood Foods 195,Professional Services,Small Business,4121335.47,E-0188,Northeast,2015-01-26,true,12053.75
+CB-BA-00196,Keystone Partners 196,Construction,Middle Market,33630868.65,E-0200,Midwest,2018-05-12,true,121111.74
+CB-BA-00197,Summit Health 197,Manufacturing,Middle Market,100653373.36,E-0197,Northeast,2020-09-04,true,332092.56
+CB-BA-00198,PayCadence Group 198,Retail,Small Business,3508203.0,E-0182,Southeast,2016-09-16,true,3312.41
+CB-BA-00199,Bluewater Group 199,Technology,Middle Market,58002236.66,E-0182,Mountain West,2019-09-14,true,174523.94
+CB-BA-00200,Granite Health 200,Agriculture,Small Business,1780417.78,E-0185,Northeast,2021-03-12,false,1904.46
+CB-BA-00201,Keystone Industries 201,Agriculture,Small Business,4699237.57,E-0189,Southeast,2023-05-31,true,4383.79
+CB-BA-00202,Granite Partners 202,Hospitality,Small Business,8562358.48,E-0192,Northeast,2018-06-12,true,16869.43
+CB-BA-00203,Ironwood Partners 203,Logistics,Middle Market,140993765.32,E-0184,Pacific,2023-12-04,true,116827.35
+CB-BA-00204,Ironwood Health 204,Hospitality,Small Business,1769594.07,E-0189,Pacific,2024-02-03,true,3148.35
+CB-BA-00205,Bluewater Industries 205,Professional Services,Small Business,9971386.28,E-0205,Mountain West,2023-01-31,false,25663.14
+CB-BA-00206,Northwind Holdings 206,Hospitality,Middle Market,93646646.89,E-0183,Midwest,2023-06-15,true,175290.96
+CB-BA-00207,PayCadence Health 207,Technology,Small Business,10669730.41,E-0203,Pacific,2015-12-31,false,21892.52
+CB-BA-00208,PayCadence Builders 208,Agriculture,Small Business,6336749.36,E-0183,Southeast,2014-08-17,true,15830.1
+CB-BA-00209,Bluewater Systems 209,Construction,Small Business,1934890.14,E-0189,Midwest,2014-03-18,false,1608.69
+CB-BA-00210,Northwind Foods 210,Construction,Small Business,1842559.87,E-0200,Midwest,2015-08-27,true,4938.29
+CB-BA-00211,PayCadence Group 211,Professional Services,Small Business,2826561.83,E-0192,Mountain West,2025-07-22,true,9673.14
+CB-BA-00212,Redwood Builders 212,Logistics,Corporate,607298210.0,E-0194,Mountain West,2025-03-25,false,692708.03
+CB-BA-00213,Northwind Holdings 213,Retail,Small Business,1072520.63,E-0183,Mountain West,2017-02-16,true,3712.14
+CB-BA-00214,Ironwood Group 214,Construction,Corporate,1694211073.37,E-0187,Mountain West,2021-11-17,true,5830575.1
+CB-BA-00215,Redwood Health 215,Construction,Small Business,5493996.19,E-0187,Mountain West,2017-12-05,true,9720.59
+CB-BA-00216,Ironwood Builders 216,Logistics,Small Business,3104822.05,E-0199,Southeast,2016-09-08,false,10298.67
+CB-BA-00217,Meridian Logistics 217,Manufacturing,Middle Market,60303520.31,E-0192,Pacific,2014-12-25,true,176129.4
+CB-BA-00218,PayCadence Foods 218,Manufacturing,Small Business,1947974.05,E-0191,Pacific,2019-03-24,true,6397.2
+CB-BA-00219,Granite Partners 219,Manufacturing,Small Business,10045838.02,E-0186,Midwest,2016-03-08,false,25820.27
+CB-BA-00220,Bluewater Logistics 220,Agriculture,Small Business,3102677.12,E-0194,Northeast,2017-10-11,true,10542.72
+CB-BA-00221,Northwind Industries 221,Hospitality,Small Business,7127959.22,E-0191,Midwest,2014-02-07,true,8976.01
+CB-BA-00222,PayCadence Foods 222,Hospitality,Corporate,866439900.64,E-0183,Mountain West,2025-11-09,true,2991115.85
+CB-BA-00223,Keystone Health 223,Retail,Middle Market,132786914.21,E-0197,Pacific,2023-07-16,true,363914.3
+CB-BA-00224,Granite Partners 224,Hospitality,Small Business,1620528.95,E-0187,Pacific,2017-10-23,true,5762.64
+CB-BA-00225,Summit Builders 225,Logistics,Small Business,2633436.58,E-0184,Mountain West,2018-12-26,false,5131.89
+CB-BA-00226,Bluewater Logistics 226,Retail,Small Business,4418479.6,E-0186,Southeast,2024-04-23,true,9874.96
+CB-BA-00227,Ironwood Holdings 227,Retail,Small Business,4638906.48,E-0181,Mountain West,2024-09-18,false,3712.39
+CB-BA-00228,Ironwood Logistics 228,Logistics,Small Business,11382357.89,E-0181,Mountain West,2025-12-15,false,27109.61
+CB-BA-00229,Granite Holdings 229,Technology,Middle Market,35578844.92,E-0194,Northeast,2020-05-28,true,46844.82
+CB-BA-00230,PayCadence Builders 230,Professional Services,Middle Market,246396648.7,E-0193,Pacific,2026-01-16,true,395440.58
+CB-BA-00231,Redwood Group 231,Healthcare,Middle Market,103313416.9,E-0186,Southeast,2015-01-09,true,359353.65
+CB-BA-00232,Northwind Logistics 232,Construction,Small Business,1693781.54,E-0203,Northeast,2018-07-28,true,2071.8
+CB-BA-00233,Meridian Logistics 233,Agriculture,Small Business,3683836.55,E-0183,Midwest,2021-12-03,false,13466.18
+CB-BA-00234,Redwood Partners 234,Agriculture,Middle Market,214825650.63,E-0198,Northeast,2016-08-27,true,289608.97
+CB-BA-00235,Summit Group 235,Professional Services,Small Business,5886470.47,E-0201,Northeast,2014-08-09,true,17703.99
+CB-BA-00236,Keystone Industries 236,Logistics,Middle Market,66107944.86,E-0203,Northeast,2016-03-16,true,221784.07
+CB-BA-00237,Ironwood Health 237,Agriculture,Corporate,4010562565.3,E-0185,Northeast,2026-02-10,false,11657229.28
+CB-BA-00238,Bluewater Builders 238,Healthcare,Middle Market,144251247.9,E-0198,Pacific,2024-08-03,true,549991.05
+CB-BA-00239,Northwind Logistics 239,Agriculture,Small Business,2614843.62,E-0187,Mountain West,2018-08-27,true,6638.14
+CB-BA-00240,Summit Group 240,Retail,Corporate,609970221.29,E-0198,Pacific,2012-09-01,true,1337001.76
+CB-BA-00241,Summit Partners 241,Construction,Small Business,6963666.09,E-0187,Mountain West,2017-06-15,true,6505.06
+CB-BA-00242,Ironwood Industries 242,Retail,Small Business,2724623.13,E-0204,Pacific,2023-03-31,true,7010.13
+CB-BA-00243,PayCadence Partners 243,Technology,Middle Market,51286805.24,E-0198,Northeast,2020-08-06,true,179151.01
+CB-BA-00244,Granite Group 244,Manufacturing,Small Business,8846666.56,E-0181,Southeast,2026-03-12,true,15138.5
+CB-BA-00245,Harbor Industries 245,Professional Services,Middle Market,188748035.87,E-0197,Northeast,2012-11-26,true,527884.97
+CB-BA-00246,PayCadence Logistics 246,Hospitality,Small Business,9821770.49,E-0189,Mountain West,2013-08-17,true,34955.7
+CB-BA-00247,Northwind Builders 247,Logistics,Small Business,4188335.43,E-0198,Southeast,2018-03-15,true,11466.08
+CB-BA-00248,Granite Health 248,Retail,Middle Market,217351806.41,E-0199,Midwest,2018-03-18,true,796471.73
+CB-BA-00249,Bluewater Logistics 249,Construction,Small Business,5631194.98,E-0201,Pacific,2021-10-25,false,10032.96
+CB-BA-00250,Keystone Health 250,Professional Services,Small Business,3322817.08,E-0190,Northeast,2026-01-22,true,7130.27
+CB-BA-00251,PayCadence Logistics 251,Agriculture,Small Business,3309863.75,E-0190,Midwest,2025-01-05,true,3686.7
+CB-BA-00252,Harbor Foods 252,Healthcare,Small Business,3270594.06,E-0188,Midwest,2016-11-29,true,11049.67
+CB-BA-00253,Ironwood Health 253,Healthcare,Small Business,2335162.43,E-0193,Northeast,2015-01-09,true,4830.09
+CB-BA-00254,PayCadence Holdings 254,Technology,Small Business,3266755.25,E-0190,Southeast,2012-12-07,true,9389.19
+CB-BA-00255,Bluewater Holdings 255,Manufacturing,Middle Market,164035416.16,E-0200,Midwest,2012-10-31,true,479333.56
+CB-BA-00256,Redwood Health 256,Technology,Middle Market,80304435.8,E-0200,Northeast,2016-05-13,true,269658.08
+CB-BA-00257,Keystone Foods 257,Agriculture,Small Business,4931198.22,E-0194,Mountain West,2012-12-04,true,8559.34
+CB-BA-00258,PayCadence Logistics 258,Healthcare,Small Business,1318278.19,E-0203,Northeast,2016-07-20,false,2139.24
+CB-BA-00259,Redwood Builders 259,Manufacturing,Middle Market,113014008.97,E-0187,Pacific,2023-02-25,true,191622.64
+CB-BA-00260,Granite Health 260,Agriculture,Corporate,467369230.69,E-0193,Southeast,2014-02-27,true,1721798.59
+CB-BA-00261,Summit Partners 261,Logistics,Middle Market,250077033.48,E-0201,Pacific,2016-12-17,true,206024.01
+CB-BA-00262,Redwood Partners 262,Manufacturing,Middle Market,52236960.7,E-0203,Southeast,2016-02-16,true,75032.59
+CB-BA-00263,Summit Health 263,Technology,Middle Market,32942915.44,E-0184,Southeast,2014-09-29,true,48776.18
+CB-BA-00264,Bluewater Health 264,Healthcare,Small Business,1543922.69,E-0181,Northeast,2015-03-24,true,2620.23
+CB-BA-00265,Granite Health 265,Logistics,Corporate,914531143.58,E-0185,Mountain West,2020-06-04,true,2347148.17
+CB-BA-00266,Redwood Foods 266,Logistics,Small Business,5476582.35,E-0182,Mountain West,2013-07-23,true,10589.83
+CB-BA-00267,Harbor Health 267,Agriculture,Small Business,1671997.77,E-0181,Southeast,2023-11-05,true,1895.68
+CB-BA-00268,Keystone Logistics 268,Hospitality,Middle Market,179888298.85,E-0183,Northeast,2015-01-29,false,166990.8
+CB-BA-00269,Granite Health 269,Construction,Small Business,3273209.24,E-0198,Mountain West,2015-08-06,true,9667.46
+CB-BA-00270,Granite Logistics 270,Professional Services,Small Business,2890971.77,E-0205,Pacific,2015-06-08,true,2412.69
+CB-BA-00271,Summit Group 271,Logistics,Corporate,1571375392.0,E-0195,Pacific,2023-01-15,true,3849303.92
+CB-BA-00272,Summit Health 272,Hospitality,Middle Market,109054811.87,E-0191,Northeast,2021-07-18,true,180381.4
+CB-BA-00273,Northwind Logistics 273,Construction,Small Business,5278303.15,E-0195,Southeast,2014-11-04,true,17449.7
+CB-BA-00274,Redwood Holdings 274,Construction,Small Business,1808420.7,E-0189,Northeast,2025-12-04,true,4795.6
+CB-BA-00275,Redwood Foods 275,Construction,Corporate,1466992599.84,E-0194,Midwest,2022-07-09,false,1434194.32
+CB-BA-00276,Bluewater Builders 276,Technology,Small Business,7662869.18,E-0195,Pacific,2015-10-03,true,23364.26
+CB-BA-00277,Bluewater Partners 277,Construction,Middle Market,66036054.07,E-0194,Southeast,2025-08-29,true,152030.68
+CB-BA-00278,Meridian Foods 278,Logistics,Small Business,4880559.46,E-0200,Northeast,2022-06-04,false,9836.5
+CB-BA-00279,Harbor Systems 279,Manufacturing,Corporate,1014436237.51,E-0184,Midwest,2024-02-24,false,1986423.57
+CB-BA-00280,PayCadence Health 280,Agriculture,Small Business,3270306.91,E-0187,Northeast,2026-03-31,true,4110.73
+CB-BA-00281,Meridian Systems 281,Technology,Middle Market,84257035.39,E-0184,Midwest,2015-05-26,true,103918.31
+CB-BA-00282,Meridian Builders 282,Retail,Small Business,3720455.79,E-0205,Mountain West,2021-08-26,false,6083.75
+CB-BA-00283,Harbor Group 283,Logistics,Middle Market,291991495.17,E-0195,Mountain West,2013-11-20,true,974383.15
+CB-BA-00284,PayCadence Health 284,Professional Services,Small Business,5356639.09,E-0189,Southeast,2024-07-20,true,20807.63
+CB-BA-00285,Bluewater Partners 285,Manufacturing,Small Business,8621325.12,E-0184,Mountain West,2014-02-25,true,27456.27
+CB-BA-00286,Redwood Group 286,Construction,Small Business,7258723.88,E-0195,Midwest,2025-12-22,false,6889.57
+CB-BA-00287,Harbor Industries 287,Manufacturing,Middle Market,25603495.71,E-0200,Midwest,2016-07-11,true,33525.55
+CB-BA-00288,Summit Foods 288,Logistics,Middle Market,129465207.6,E-0193,Midwest,2025-06-14,true,305524.93
+CB-BA-00289,Redwood Systems 289,Technology,Small Business,2560015.58,E-0182,Mountain West,2017-12-03,false,9022.46
+CB-BA-00290,Harbor Foods 290,Logistics,Middle Market,39806352.83,E-0193,Mountain West,2017-02-26,true,51370.96
+CB-BA-00291,PayCadence Holdings 291,Construction,Middle Market,38709720.63,E-0181,Northeast,2013-09-14,true,51332.65
+CB-BA-00292,Keystone Foods 292,Professional Services,Small Business,1400652.74,E-0187,Southeast,2021-06-15,false,3872.25
+CB-BA-00293,Summit Health 293,Hospitality,Middle Market,85323222.08,E-0182,Midwest,2016-04-24,false,205294.66
+CB-BA-00294,Bluewater Holdings 294,Construction,Corporate,724547890.39,E-0195,Southeast,2025-07-01,true,2509366.5
+CB-BA-00295,Meridian Foods 295,Hospitality,Small Business,7424000.96,E-0194,Northeast,2017-08-10,true,6940.55
+CB-BA-00296,PayCadence Systems 296,Technology,Middle Market,90923731.4,E-0202,Mountain West,2026-03-28,false,290794.06
+CB-BA-00297,Redwood Systems 297,Technology,Corporate,1984700053.87,E-0193,Pacific,2024-06-27,true,3390864.93
+CB-BA-00298,Summit Holdings 298,Hospitality,Small Business,4267613.14,E-0184,Southeast,2014-12-08,true,14818.93
+CB-BA-00299,Redwood Industries 299,Technology,Small Business,3565946.22,E-0186,Mountain West,2018-10-04,true,12308.06
+CB-BA-00300,Granite Systems 300,Hospitality,Small Business,8925587.64,E-0182,Pacific,2017-02-25,false,22050.36
+CB-BA-00301,PayCadence Logistics 301,Hospitality,Small Business,5298808.46,E-0199,Pacific,2017-07-06,true,7142.96
+CB-BA-00302,PayCadence Holdings 302,Professional Services,Middle Market,16915988.1,E-0200,Southeast,2023-05-22,true,43678.75
+CB-BA-00303,Granite Logistics 303,Retail,Middle Market,74676017.84,E-0187,Pacific,2026-06-23,true,240773.8
+CB-BA-00304,Meridian Foods 304,Healthcare,Small Business,5974604.01,E-0187,Northeast,2021-07-30,false,11047.72
+CB-BA-00305,Ironwood Health 305,Construction,Small Business,4807934.7,E-0194,Pacific,2012-03-17,false,5571.11
+CB-BA-00306,Redwood Logistics 306,Logistics,Small Business,4775229.4,E-0184,Southeast,2021-08-30,false,7515.68
+CB-BA-00307,Keystone Partners 307,Technology,Small Business,6200565.64,E-0181,Southeast,2022-07-29,true,7655.16
+CB-BA-00308,Redwood Logistics 308,Professional Services,Middle Market,40459825.24,E-0202,Pacific,2012-02-13,true,133895.45
+CB-BA-00309,Harbor Builders 309,Hospitality,Middle Market,94964908.25,E-0192,Mountain West,2020-09-18,true,100910.48
+CB-BA-00310,Keystone Systems 310,Logistics,Small Business,5331308.55,E-0194,Northeast,2016-05-17,false,21044.88
+CB-BA-00311,Northwind Health 311,Logistics,Small Business,5684143.57,E-0197,Midwest,2024-07-31,false,20008.14
+CB-BA-00312,Keystone Group 312,Retail,Small Business,3761486.87,E-0183,Mountain West,2021-03-21,false,8680.14
+CB-BA-00313,Granite Foods 313,Retail,Small Business,28220470.27,E-0186,Southeast,2014-11-17,false,54242.66
+CB-BA-00314,PayCadence Systems 314,Manufacturing,Corporate,3695340383.16,E-0196,Midwest,2020-08-12,true,9508140.4
+CB-BA-00315,Summit Holdings 315,Retail,Small Business,3440605.96,E-0200,Mountain West,2026-06-25,true,8632.0
+CB-BA-00316,Harbor Industries 316,Retail,Middle Market,20133901.08,E-0184,Midwest,2018-08-29,true,54939.02
+CB-BA-00317,PayCadence Industries 317,Logistics,Middle Market,58258781.8,E-0187,Midwest,2025-10-05,true,204257.5
+CB-BA-00318,Summit Logistics 318,Manufacturing,Middle Market,88370029.95,E-0191,Midwest,2012-02-12,true,291515.08
+CB-BA-00319,Bluewater Builders 319,Agriculture,Middle Market,39132661.93,E-0191,Mountain West,2012-09-15,true,69438.88
+CB-BA-00320,Meridian Industries 320,Retail,Small Business,5899829.73,E-0194,Midwest,2020-02-24,true,10966.26
+CB-BA-00321,Meridian Builders 321,Construction,Middle Market,482602431.07,E-0199,Midwest,2016-08-20,true,1774415.09
+CB-BA-00322,Redwood Logistics 322,Retail,Middle Market,34416948.17,E-0198,Mountain West,2013-12-12,true,91155.44
+CB-BA-00323,Keystone Health 323,Technology,Small Business,1382852.53,E-0196,Mountain West,2014-09-26,true,5299.86
+CB-BA-00324,Ironwood Industries 324,Retail,Middle Market,123901531.35,E-0191,Pacific,2012-04-17,false,374774.34
+CB-BA-00325,PayCadence Holdings 325,Manufacturing,Small Business,9571066.0,E-0200,Pacific,2022-02-16,true,24576.41
+CB-BA-00326,Keystone Builders 326,Technology,Middle Market,205009379.38,E-0185,Southeast,2021-09-25,true,313836.89
+CB-BA-00327,Meridian Logistics 327,Logistics,Small Business,1259397.5,E-0184,Mountain West,2020-09-04,true,1891.74
+CB-BA-00328,Redwood Logistics 328,Logistics,Small Business,5474243.53,E-0201,Midwest,2014-12-21,true,8672.66
+CB-BA-00329,Granite Health 329,Professional Services,Middle Market,79471270.27,E-0185,Pacific,2019-01-30,true,105942.38
+CB-BA-00330,Granite Health 330,Professional Services,Small Business,4096011.08,E-0188,Southeast,2013-11-09,true,3379.53
+CB-BA-00331,PayCadence Builders 331,Construction,Corporate,1283071050.44,E-0185,Southeast,2019-08-01,false,3010153.07
+CB-BA-00332,Bluewater Foods 332,Retail,Small Business,4907932.58,E-0201,Pacific,2023-09-17,true,9815.75
+CB-BA-00333,Meridian Industries 333,Hospitality,Small Business,3936852.6,E-0198,Northeast,2022-07-26,true,15145.21
+CB-BA-00334,Redwood Logistics 334,Professional Services,Middle Market,138214005.1,E-0182,Midwest,2025-01-30,true,404755.12
+CB-BA-00335,Harbor Group 335,Agriculture,Small Business,2618806.67,E-0199,Mountain West,2013-01-05,false,5862.36
+CB-BA-00336,Bluewater Logistics 336,Hospitality,Small Business,6648646.21,E-0186,Mountain West,2014-12-10,true,25085.56
+CB-BA-00337,Keystone Group 337,Logistics,Small Business,5022560.26,E-0185,Midwest,2020-06-04,false,15598.95
+CB-BA-00338,Keystone Foods 338,Logistics,Middle Market,31208532.14,E-0183,Mountain West,2016-05-05,true,59779.43
+CB-BA-00339,Harbor Health 339,Agriculture,Small Business,5523038.83,E-0183,Mountain West,2012-11-07,true,4540.2
+CB-BA-00340,Summit Logistics 340,Manufacturing,Corporate,935428321.15,E-0205,Pacific,2024-09-12,false,2216460.56
+CB-BA-00341,PayCadence Systems 341,Construction,Corporate,756835275.63,E-0194,Midwest,2020-06-08,true,778541.45
+CB-BA-00342,Redwood Group 342,Healthcare,Small Business,2644702.66,E-0184,Southeast,2021-05-11,true,3558.68
+CB-BA-00343,Bluewater Industries 343,Agriculture,Middle Market,88429347.38,E-0187,Pacific,2015-05-23,true,248679.54
+CB-BA-00344,Northwind Foods 344,Logistics,Small Business,7383566.45,E-0196,Northeast,2017-11-26,false,6940.49
+CB-BA-00345,Bluewater Holdings 345,Construction,Middle Market,48955054.5,E-0186,Southeast,2019-11-29,true,46477.0
+CB-BA-00346,Northwind Holdings 346,Manufacturing,Small Business,2572501.61,E-0189,Pacific,2024-05-13,true,8924.45
+CB-BA-00347,PayCadence Systems 347,Professional Services,Small Business,3529469.46,E-0196,Southeast,2021-02-02,false,7877.87
+CB-BA-00348,Redwood Foods 348,Healthcare,Small Business,1809039.87,E-0197,Northeast,2022-09-08,true,5180.32
+CB-BA-00349,Bluewater Partners 349,Technology,Small Business,3406845.14,E-0199,Mountain West,2019-07-03,true,8898.6
+CB-BA-00350,Bluewater Systems 350,Logistics,Middle Market,179063970.59,E-0194,Northeast,2020-04-27,false,583526.07
+CB-BA-00351,Summit Health 351,Technology,Middle Market,222691360.09,E-0187,Mountain West,2022-06-19,true,197417.74
+CB-BA-00352,Bluewater Logistics 352,Hospitality,Middle Market,46332423.88,E-0201,Southeast,2021-07-30,true,79256.4
+CB-BA-00353,Keystone Health 353,Professional Services,Middle Market,34283941.21,E-0194,Mountain West,2020-12-01,true,98329.45
+CB-BA-00354,Redwood Logistics 354,Manufacturing,Middle Market,32723944.38,E-0189,Midwest,2024-06-14,false,94537.54
+CB-BA-00355,Ironwood Systems 355,Manufacturing,Small Business,996224.46,E-0197,Pacific,2012-03-12,true,2494.18
+CB-BA-00356,Redwood Systems 356,Retail,Small Business,4197535.51,E-0192,Northeast,2026-02-23,true,13218.49
+CB-BA-00357,Harbor Systems 357,Technology,Middle Market,48677828.16,E-0194,Midwest,2012-07-02,false,191444.69
+CB-BA-00358,Northwind Builders 358,Healthcare,Small Business,14634151.65,E-0204,Pacific,2021-11-24,true,48770.28
+CB-BA-00359,Harbor Systems 359,Logistics,Middle Market,137754851.65,E-0200,Northeast,2013-01-20,true,401353.51
+CB-BA-00360,Redwood Industries 360,Professional Services,Corporate,1487419635.59,E-0186,Pacific,2024-05-02,true,5391270.75
+CB-BA-00361,Granite Logistics 361,Logistics,Small Business,7373300.47,E-0205,Midwest,2015-02-12,true,15011.77
+CB-BA-00362,Bluewater Health 362,Manufacturing,Middle Market,183683859.17,E-0194,Southeast,2018-07-28,true,720891.6
+CB-BA-00363,Granite Foods 363,Agriculture,Middle Market,45753794.67,E-0195,Southeast,2013-08-12,true,159389.27
+CB-BA-00364,Ironwood Systems 364,Retail,Small Business,4710997.91,E-0204,Midwest,2020-07-08,true,9197.59
+CB-BA-00365,Harbor Health 365,Construction,Corporate,640623032.75,E-0190,Southeast,2026-01-24,false,873168.88
+CB-BA-00366,Keystone Systems 366,Professional Services,Small Business,2611541.07,E-0189,Northeast,2012-02-03,true,4941.25
+CB-BA-00367,Redwood Industries 367,Manufacturing,Small Business,2621848.17,E-0189,Pacific,2021-06-24,true,5505.47
+CB-BA-00368,Ironwood Builders 368,Retail,Middle Market,37692544.95,E-0191,Midwest,2013-11-20,true,127168.51
+CB-BA-00369,Keystone Logistics 369,Professional Services,Small Business,4860625.23,E-0199,Pacific,2022-11-22,false,7757.33
+CB-BA-00370,Summit Builders 370,Professional Services,Middle Market,98220558.55,E-0199,Mountain West,2024-07-14,false,116760.37
+CB-BA-00371,Redwood Systems 371,Professional Services,Small Business,16283912.15,E-0181,Southeast,2023-04-22,true,44928.92
+CB-BA-00372,Redwood Group 372,Logistics,Small Business,8968051.77,E-0190,Southeast,2025-12-12,false,24070.09
+CB-BA-00373,Summit Foods 373,Retail,Small Business,1606834.97,E-0186,Northeast,2021-02-02,false,3958.67
+CB-BA-00374,Harbor Health 374,Logistics,Small Business,5855307.62,E-0182,Northeast,2012-06-03,false,17980.78
+CB-BA-00375,Meridian Partners 375,Manufacturing,Corporate,1123278287.73,E-0181,Southeast,2019-12-30,false,1798112.87
+CB-BA-00376,Ironwood Builders 376,Logistics,Small Business,1344666.01,E-0198,Mountain West,2013-04-28,true,2921.06
+CB-BA-00377,PayCadence Logistics 377,Manufacturing,Middle Market,17150789.3,E-0198,Mountain West,2015-06-27,true,62312.16
+CB-BA-00378,Redwood Logistics 378,Construction,Middle Market,48634649.22,E-0195,Midwest,2023-03-30,true,194347.45
+CB-BA-00379,PayCadence Industries 379,Retail,Middle Market,38316661.18,E-0199,Northeast,2016-05-23,true,106314.54
+CB-BA-00380,Granite Foods 380,Logistics,Middle Market,291964899.97,E-0200,Pacific,2012-01-05,true,585089.02
+CB-BA-00381,Keystone Foods 381,Healthcare,Middle Market,27964851.88,E-0188,Southeast,2024-04-03,false,24097.64
+CB-BA-00382,Summit Partners 382,Retail,Small Business,8827265.4,E-0185,Mountain West,2024-12-10,true,18647.93
+CB-BA-00383,Northwind Health 383,Agriculture,Small Business,13156584.44,E-0189,Midwest,2018-11-19,true,34429.36
+CB-BA-00384,Ironwood Builders 384,Professional Services,Small Business,2649156.42,E-0190,Mountain West,2015-06-27,true,7510.43
+CB-BA-00385,Bluewater Builders 385,Healthcare,Middle Market,54987698.94,E-0194,Pacific,2019-10-17,true,104146.91
+CB-BA-00386,Harbor Foods 386,Healthcare,Small Business,3039910.69,E-0183,Pacific,2022-06-04,false,5462.46
+CB-BA-00387,PayCadence Partners 387,Technology,Small Business,5657612.66,E-0204,Midwest,2014-01-10,true,13437.53
+CB-BA-00388,Bluewater Partners 388,Agriculture,Middle Market,129664928.23,E-0191,Southeast,2012-07-18,true,399091.06
+CB-BA-00389,Harbor Holdings 389,Technology,Small Business,1973136.41,E-0199,Midwest,2015-12-14,true,2460.88
+CB-BA-00390,PayCadence Foods 390,Healthcare,Middle Market,106889636.99,E-0199,Pacific,2025-01-31,true,354736.1
+CB-BA-00391,Ironwood Foods 391,Professional Services,Middle Market,231438520.93,E-0182,Northeast,2020-05-30,true,875030.3
+CB-BA-00392,PayCadence Builders 392,Manufacturing,Small Business,4146583.77,E-0199,Southeast,2025-07-20,true,12126.47
+CB-BA-00393,Meridian Holdings 393,Manufacturing,Small Business,6129490.36,E-0185,Southeast,2021-01-11,true,6103.7
+CB-BA-00394,PayCadence Partners 394,Technology,Corporate,861581471.04,E-0192,Midwest,2020-12-13,true,3100802.79
+CB-BA-00395,Meridian Partners 395,Agriculture,Middle Market,61041642.05,E-0200,Southeast,2016-02-23,true,146628.86
+CB-BA-00396,Bluewater Health 396,Construction,Small Business,5243403.34,E-0187,Southeast,2021-12-08,true,8222.98
+CB-BA-00397,Meridian Holdings 397,Agriculture,Corporate,1746700325.27,E-0195,Pacific,2025-12-02,false,2261945.61
+CB-BA-00398,Harbor Industries 398,Hospitality,Small Business,1776650.71,E-0201,Northeast,2026-04-16,false,3873.76
+CB-BA-00399,Harbor Builders 399,Professional Services,Middle Market,36684014.27,E-0191,Southeast,2015-03-07,false,48220.59
+CB-BA-00400,Harbor Group 400,Healthcare,Middle Market,43056931.58,E-0194,Mountain West,2017-03-02,false,131241.35
+CB-BA-00401,Granite Foods 401,Logistics,Small Business,3169891.43,E-0198,Pacific,2012-08-08,true,7901.32
+CB-BA-00402,Summit Industries 402,Professional Services,Middle Market,150295517.23,E-0187,Northeast,2024-08-13,true,355199.63
+CB-BA-00403,Summit Systems 403,Technology,Small Business,3865732.34,E-0182,Midwest,2026-03-23,true,6171.96
+CB-BA-00404,Meridian Partners 404,Construction,Small Business,3470750.7,E-0195,Northeast,2017-12-20,false,8018.12
+CB-BA-00405,Ironwood Partners 405,Hospitality,Small Business,6896962.91,E-0190,Midwest,2021-04-19,true,14383.93
+CB-BA-00406,Bluewater Group 406,Logistics,Middle Market,17717301.24,E-0192,Northeast,2021-09-13,false,28137.03
+CB-BA-00407,Meridian Foods 407,Professional Services,Middle Market,53058458.21,E-0205,Southeast,2012-04-04,true,63109.3
+CB-BA-00408,Meridian Systems 408,Logistics,Small Business,5457229.64,E-0192,Northeast,2023-07-26,true,5203.3
+CB-BA-00409,Northwind Foods 409,Professional Services,Small Business,2477181.43,E-0181,Northeast,2023-10-12,true,5883.31
+CB-BA-00410,Ironwood Health 410,Professional Services,Small Business,7178796.1,E-0181,Pacific,2012-07-26,true,19334.9
+CB-BA-00411,PayCadence Systems 411,Professional Services,Middle Market,106516025.82,E-0188,Northeast,2021-08-14,true,177683.5
+CB-BA-00412,Redwood Systems 412,Agriculture,Middle Market,40088149.79,E-0183,Pacific,2023-01-17,true,32278.08
+CB-BA-00413,Keystone Industries 413,Professional Services,Small Business,3398328.92,E-0185,Southeast,2017-05-20,true,10265.09
+CB-BA-00414,Summit Holdings 414,Healthcare,Middle Market,92246757.0,E-0201,Pacific,2023-09-24,true,303676.69
+CB-BA-00415,Meridian Builders 415,Agriculture,Middle Market,77117361.62,E-0193,Mountain West,2026-06-02,true,299154.38
+CB-BA-00416,Redwood Systems 416,Construction,Middle Market,73870147.15,E-0204,Southeast,2015-06-08,true,76289.6
+CB-BA-00417,Redwood Health 417,Technology,Middle Market,88150436.28,E-0202,Mountain West,2024-10-22,false,246372.3
+CB-BA-00418,PayCadence Logistics 418,Technology,Middle Market,19107364.79,E-0182,Mountain West,2023-01-01,true,62532.05
+CB-BA-00419,Summit Holdings 419,Healthcare,Middle Market,38639353.71,E-0197,Northeast,2021-12-19,false,121404.0
+CB-BA-00420,Keystone Group 420,Construction,Small Business,517720.48,E-0196,Pacific,2023-05-15,true,912.62
+CB-BA-00421,Ironwood Systems 421,Agriculture,Small Business,6765481.38,E-0187,Midwest,2020-07-29,false,17882.23
+CB-BA-00422,Ironwood Holdings 422,Hospitality,Middle Market,91912879.58,E-0182,Northeast,2019-08-17,false,242480.14
+CB-BA-00423,Bluewater Health 423,Technology,Small Business,2323357.22,E-0181,Pacific,2024-02-13,true,8491.9
+CB-BA-00424,Harbor Partners 424,Logistics,Small Business,5248752.65,E-0190,Pacific,2021-02-20,true,15222.42
+CB-BA-00425,Ironwood Systems 425,Logistics,Small Business,11154349.93,E-0181,Pacific,2019-08-23,false,43456.41
+CB-BA-00426,Northwind Systems 426,Manufacturing,Middle Market,84204822.53,E-0189,Pacific,2025-02-10,false,255288.36
+CB-BA-00427,Redwood Systems 427,Hospitality,Middle Market,32533368.71,E-0196,Midwest,2023-11-20,false,70859.73
+CB-BA-00428,PayCadence Partners 428,Logistics,Middle Market,180600726.74,E-0194,Pacific,2017-11-10,true,186639.08
+CB-BA-00429,Summit Foods 429,Manufacturing,Small Business,1849302.98,E-0192,Pacific,2022-03-02,true,5404.77
+CB-BA-00430,Harbor Industries 430,Healthcare,Small Business,3400091.13,E-0196,Southeast,2015-05-12,false,5675.38
+CB-BA-00431,Summit Systems 431,Agriculture,Small Business,7105800.84,E-0186,Pacific,2018-10-06,true,11375.75
+CB-BA-00432,Granite Holdings 432,Construction,Small Business,4426362.36,E-0195,Northeast,2018-09-03,true,8762.58
+CB-BA-00433,Granite Health 433,Construction,Middle Market,53258717.89,E-0186,Midwest,2014-08-07,true,196695.65
+CB-BA-00434,Ironwood Partners 434,Logistics,Middle Market,146384057.93,E-0181,Midwest,2017-09-19,true,395569.94
+CB-BA-00435,Northwind Holdings 435,Manufacturing,Middle Market,108731035.99,E-0197,Midwest,2023-06-06,true,283719.95
+CB-BA-00436,PayCadence Holdings 436,Agriculture,Middle Market,205244515.52,E-0189,Southeast,2025-02-28,true,197637.77
+CB-BA-00437,Ironwood Logistics 437,Technology,Small Business,3350913.76,E-0195,Northeast,2024-08-18,true,8501.14
+CB-BA-00438,Summit Logistics 438,Manufacturing,Middle Market,160213490.05,E-0204,Southeast,2015-09-17,true,193725.7
+CB-BA-00439,PayCadence Logistics 439,Construction,Small Business,9864980.04,E-0202,Mountain West,2012-07-16,true,18627.79
+CB-BA-00440,Redwood Holdings 440,Hospitality,Small Business,14789662.39,E-0203,Northeast,2016-08-29,true,21863.68
+CB-BA-00441,Harbor Systems 441,Agriculture,Small Business,5678545.83,E-0199,Mountain West,2026-06-17,false,20052.09
+CB-BA-00442,Northwind Builders 442,Professional Services,Small Business,6934224.33,E-0200,Northeast,2016-04-10,true,5910.02
+CB-BA-00443,Granite Partners 443,Technology,Small Business,12269792.06,E-0198,Mountain West,2021-09-13,true,39856.31
+CB-BA-00444,Harbor Health 444,Technology,Middle Market,36598562.83,E-0199,Northeast,2019-09-08,true,56242.38
+CB-BA-00445,Ironwood Holdings 445,Agriculture,Small Business,3596121.76,E-0187,Midwest,2022-09-01,true,13245.34
+CB-BA-00446,Northwind Holdings 446,Healthcare,Small Business,8952656.43,E-0203,Southeast,2023-01-31,false,8235.65
+CB-BA-00447,Keystone Logistics 447,Hospitality,Corporate,238237003.17,E-0201,Northeast,2021-05-14,true,548745.42
+CB-BA-00448,Keystone Logistics 448,Hospitality,Middle Market,128534834.12,E-0205,Southeast,2019-10-09,true,304767.08
+CB-BA-00449,Bluewater Holdings 449,Logistics,Small Business,13913786.89,E-0195,Midwest,2017-10-09,false,18424.96
+CB-BA-00450,Meridian Industries 450,Technology,Middle Market,47904163.53,E-0195,Mountain West,2020-11-10,true,67398.76
+CB-BA-00451,Keystone Systems 451,Agriculture,Small Business,1707798.51,E-0185,Southeast,2019-11-06,true,2262.29
+CB-BA-00452,Northwind Holdings 452,Manufacturing,Corporate,943017416.11,E-0182,Mountain West,2018-11-05,true,3076624.94
+CB-BA-00453,Meridian Health 453,Healthcare,Corporate,1250587625.82,E-0193,Midwest,2021-10-01,true,2114926.38
+CB-BA-00454,Summit Industries 454,Manufacturing,Middle Market,106223565.81,E-0202,Northeast,2017-03-27,true,199381.18
+CB-BA-00455,Harbor Industries 455,Logistics,Corporate,854237687.89,E-0187,Pacific,2013-05-31,true,2044717.41
+CB-BA-00456,Meridian Foods 456,Healthcare,Small Business,3310041.23,E-0186,Midwest,2022-02-25,true,6466.41
+CB-BA-00457,Northwind Partners 457,Construction,Small Business,2947475.54,E-0187,Pacific,2015-02-17,true,10652.29
+CB-BA-00458,Keystone Builders 458,Manufacturing,Corporate,931083197.87,E-0182,Northeast,2020-08-14,false,2972885.98
+CB-BA-00459,Keystone Logistics 459,Hospitality,Small Business,6991618.57,E-0200,Pacific,2020-11-18,true,23805.47
+CB-BA-00460,Meridian Systems 460,Healthcare,Middle Market,20235026.4,E-0198,Southeast,2020-06-27,true,39892.18
+CB-BA-00461,Harbor Logistics 461,Construction,Small Business,2656267.74,E-0191,Midwest,2015-01-17,true,7347.3
+CB-BA-00462,PayCadence Foods 462,Professional Services,Middle Market,96410488.51,E-0184,Midwest,2018-10-03,true,317258.7
+CB-BA-00463,Northwind Partners 463,Hospitality,Small Business,1504374.62,E-0184,Midwest,2025-08-17,false,5297.69
+CB-BA-00464,Northwind Group 464,Construction,Middle Market,69230816.84,E-0200,Pacific,2020-10-19,true,234157.19
+CB-BA-00465,Summit Industries 465,Retail,Corporate,999260244.07,E-0201,Midwest,2019-04-30,false,2072973.18
+CB-BA-00466,Northwind Foods 466,Hospitality,Corporate,1458258626.34,E-0186,Pacific,2017-07-28,true,3652445.82
+CB-BA-00467,Meridian Holdings 467,Retail,Middle Market,79654272.1,E-0202,Southeast,2014-07-16,false,207645.59
+CB-BA-00468,Ironwood Health 468,Agriculture,Small Business,6186137.78,E-0181,Northeast,2025-04-20,false,23682.49
+CB-BA-00469,Ironwood Industries 469,Hospitality,Small Business,3759416.27,E-0205,Southeast,2017-09-13,true,7289.68
+CB-BA-00470,Bluewater Health 470,Hospitality,Small Business,7297930.81,E-0188,Southeast,2025-12-10,false,27592.94
+CB-BA-00471,Summit Holdings 471,Technology,Small Business,5317926.41,E-0194,Midwest,2021-09-29,false,17111.52
+CB-BA-00472,PayCadence Group 472,Professional Services,Small Business,4292693.17,E-0201,Southeast,2024-09-08,true,12064.51
+CB-BA-00473,Harbor Systems 473,Agriculture,Small Business,12388742.32,E-0205,Mountain West,2020-05-08,false,43463.91
+CB-BA-00474,Meridian Foods 474,Manufacturing,Small Business,3234995.22,E-0196,Pacific,2019-10-27,true,4277.28
+CB-BA-00475,Redwood Systems 475,Manufacturing,Small Business,8458383.87,E-0205,Pacific,2017-09-27,true,23197.3
+CB-BA-00476,Harbor Foods 476,Manufacturing,Small Business,4528167.96,E-0200,Pacific,2019-10-22,true,4141.65
+CB-BA-00477,Granite Partners 477,Construction,Middle Market,69388319.25,E-0200,Mountain West,2023-07-16,false,113836.9
+CB-BA-00478,Harbor Foods 478,Construction,Middle Market,166453994.83,E-0187,Northeast,2021-07-31,true,397218.98
+CB-BA-00479,Ironwood Logistics 479,Hospitality,Small Business,3988835.53,E-0203,Mountain West,2025-09-29,true,14504.32
+CB-BA-00480,Redwood Builders 480,Professional Services,Middle Market,136329935.2,E-0203,Northeast,2015-07-18,false,320363.35
+CB-BA-00481,Meridian Health 481,Professional Services,Small Business,8608153.2,E-0188,Pacific,2020-02-11,false,12633.26
+CB-BA-00482,Granite Logistics 482,Manufacturing,Small Business,3858683.02,E-0196,Northeast,2016-03-24,false,4236.1
+CB-BA-00483,Ironwood Holdings 483,Professional Services,Middle Market,66780514.1,E-0188,Southeast,2018-08-19,true,59313.45
+CB-BA-00484,Granite Partners 484,Construction,Small Business,4468638.8,E-0189,Midwest,2024-02-15,true,16444.25
+CB-BA-00485,Keystone Builders 485,Construction,Corporate,1275510219.24,E-0193,Northeast,2016-01-24,true,5097629.96
+CB-BA-00486,Ironwood Holdings 486,Logistics,Small Business,7429605.1,E-0200,Mountain West,2012-05-20,true,29076.48
+CB-BA-00487,Summit Builders 487,Hospitality,Small Business,3076157.89,E-0194,Southeast,2020-01-23,true,2992.37
+CB-BA-00488,Ironwood Builders 488,Construction,Corporate,571098595.44,E-0184,Pacific,2021-09-04,false,1261515.8
+CB-BA-00489,Keystone Health 489,Agriculture,Small Business,4082100.68,E-0181,Northeast,2023-01-11,false,9959.06
+CB-BA-00490,Harbor Builders 490,Professional Services,Middle Market,237299538.07,E-0203,Southeast,2025-05-28,true,284869.59
+CB-BA-00491,Ironwood Industries 491,Technology,Middle Market,19196075.84,E-0192,Midwest,2022-04-24,true,75070.7
+CB-BA-00492,PayCadence Health 492,Healthcare,Small Business,3335094.14,E-0189,Mountain West,2013-01-31,true,12845.13
+CB-BA-00493,Meridian Builders 493,Professional Services,Corporate,748915654.95,E-0185,Pacific,2025-03-18,true,1578745.46
+CB-BA-00494,Summit Group 494,Logistics,Small Business,1714981.04,E-0184,Midwest,2024-01-14,true,4093.98
+CB-BA-00495,Meridian Logistics 495,Retail,Small Business,8812471.43,E-0191,Midwest,2016-02-28,true,34354.75
+CB-BA-00496,Redwood Holdings 496,Hospitality,Small Business,2416899.44,E-0188,Northeast,2025-01-18,true,8911.47
+CB-BA-00497,Redwood Systems 497,Hospitality,Small Business,2957576.29,E-0188,Northeast,2024-12-18,true,4246.91
+CB-BA-00498,Summit Builders 498,Manufacturing,Small Business,2660286.29,E-0191,Mountain West,2016-07-26,true,2455.86
+CB-BA-00499,Meridian Logistics 499,Manufacturing,Small Business,3401219.67,E-0189,Midwest,2020-12-16,true,3188.69
+CB-BA-00500,Granite Logistics 500,Professional Services,Small Business,848228.46,E-0193,Mountain West,2017-01-31,true,3141.77
+CB-BA-00501,PayCadence Health 501,Professional Services,Small Business,3832305.13,E-0197,Midwest,2012-08-20,true,5320.48
+CB-BA-00502,Redwood Logistics 502,Professional Services,Small Business,8463879.93,E-0191,Pacific,2021-06-07,true,13673.41
+CB-BA-00503,Northwind Partners 503,Professional Services,Middle Market,26592546.17,E-0197,Pacific,2019-07-25,true,90011.73
+CB-BA-00504,Bluewater Group 504,Retail,Middle Market,61843903.13,E-0199,Southeast,2019-02-18,true,192608.73
+CB-BA-00505,Northwind Group 505,Agriculture,Small Business,1994788.23,E-0185,Midwest,2020-04-02,false,2998.53
+CB-BA-00506,Ironwood Builders 506,Agriculture,Middle Market,172983320.93,E-0201,Mountain West,2019-03-04,false,370902.76
+CB-BA-00507,Bluewater Group 507,Manufacturing,Small Business,5790550.48,E-0187,Pacific,2025-04-11,false,11610.74
+CB-BA-00508,Summit Logistics 508,Logistics,Small Business,5797586.79,E-0182,Pacific,2019-11-12,true,5897.48
+CB-BA-00509,Northwind Partners 509,Professional Services,Middle Market,115323779.86,E-0198,Northeast,2012-09-13,true,229537.2
+CB-BA-00510,Granite Systems 510,Technology,Small Business,3515176.62,E-0202,Southeast,2020-09-06,false,8419.82
+CB-BA-00511,PayCadence Industries 511,Manufacturing,Small Business,4006579.05,E-0185,Pacific,2021-11-18,true,8255.08
+CB-BA-00512,Ironwood Industries 512,Construction,Middle Market,21393469.26,E-0194,Northeast,2014-09-08,true,73066.07
+CB-BA-00513,Keystone Builders 513,Construction,Middle Market,196137323.27,E-0184,Mountain West,2022-09-12,false,693920.18
+CB-BA-00514,Redwood Builders 514,Healthcare,Middle Market,74516143.18,E-0204,Southeast,2024-02-22,true,245681.95
+CB-BA-00515,Summit Logistics 515,Healthcare,Small Business,1013395.54,E-0199,Pacific,2014-08-19,false,2448.98
+CB-BA-00516,Summit Foods 516,Hospitality,Middle Market,43977999.83,E-0201,Northeast,2022-05-01,true,53865.38
+CB-BA-00517,Keystone Logistics 517,Technology,Small Business,1157029.51,E-0190,Pacific,2013-02-19,true,2601.06
+CB-BA-00518,Northwind Industries 518,Agriculture,Small Business,3328539.51,E-0197,Northeast,2026-05-02,true,10678.38
+CB-BA-00519,Northwind Group 519,Healthcare,Corporate,1265921678.83,E-0205,Midwest,2018-08-02,true,3299041.48
+CB-BA-00520,Summit Industries 520,Hospitality,Small Business,3039913.06,E-0186,Pacific,2020-02-13,false,7667.0
+CB-BA-00521,Northwind Builders 521,Construction,Small Business,4754959.74,E-0199,Southeast,2024-12-04,false,4041.1
+CB-BA-00522,Bluewater Systems 522,Manufacturing,Small Business,3670179.35,E-0192,Northeast,2023-04-04,true,3163.13
+CB-BA-00523,Ironwood Group 523,Hospitality,Corporate,799732288.87,E-0194,Northeast,2022-03-26,false,1687388.11
+CB-BA-00524,Summit Holdings 524,Manufacturing,Small Business,2107278.07,E-0181,Pacific,2012-09-06,true,8217.55
+CB-BA-00525,Granite Foods 525,Agriculture,Small Business,939031.09,E-0195,Mountain West,2013-05-30,false,3746.59
+CB-BA-00526,PayCadence Holdings 526,Technology,Small Business,1070537.58,E-0189,Northeast,2017-04-22,true,2675.95
+CB-BA-00527,Harbor Holdings 527,Agriculture,Small Business,2319064.05,E-0199,Mountain West,2020-07-11,true,5219.51
+CB-BA-00528,Northwind Logistics 528,Construction,Middle Market,72968675.78,E-0195,Northeast,2025-10-22,false,160779.43
+CB-BA-00529,Summit Partners 529,Construction,Middle Market,57490842.94,E-0190,Southeast,2014-01-06,true,203325.16
+CB-BA-00530,Ironwood Health 530,Hospitality,Corporate,960124330.83,E-0201,Mountain West,2021-06-11,true,3304306.96
+CB-BA-00531,Summit Builders 531,Agriculture,Middle Market,86928999.74,E-0185,Pacific,2016-11-22,true,229439.76
+CB-BA-00532,Summit Foods 532,Hospitality,Small Business,2226675.02,E-0195,Midwest,2026-01-28,true,8262.15
+CB-BA-00533,Granite Logistics 533,Healthcare,Corporate,601145102.4,E-0203,Mountain West,2014-12-11,true,1067168.02
+CB-BA-00534,Granite Group 534,Hospitality,Small Business,4253748.98,E-0194,Midwest,2017-10-04,false,12893.91
+CB-BA-00535,Meridian Health 535,Retail,Small Business,2320356.79,E-0204,Northeast,2023-03-08,false,6162.52
+CB-BA-00536,PayCadence Holdings 536,Professional Services,Small Business,6502678.13,E-0188,Northeast,2014-04-15,false,19265.55
+CB-BA-00537,Ironwood Logistics 537,Retail,Middle Market,204129787.33,E-0200,Pacific,2021-09-19,true,290546.29
+CB-BA-00538,Meridian Group 538,Technology,Small Business,9641521.57,E-0197,Pacific,2023-09-26,false,13293.21
+CB-BA-00539,PayCadence Group 539,Professional Services,Middle Market,82224752.91,E-0185,Pacific,2023-06-28,true,241041.14
+CB-BA-00540,Summit Health 540,Construction,Small Business,3019610.98,E-0197,Midwest,2023-09-21,true,2784.8
+CB-BA-00541,Granite Systems 541,Retail,Small Business,5293503.45,E-0196,Mountain West,2021-07-02,true,5654.08
+CB-BA-00542,Keystone Partners 542,Hospitality,Small Business,6578256.7,E-0194,Mountain West,2020-11-09,true,25699.42
+CB-BA-00543,Bluewater Foods 543,Retail,Small Business,6108391.3,E-0195,Pacific,2016-09-25,true,13713.36
+CB-BA-00544,Keystone Health 544,Professional Services,Small Business,6969714.22,E-0204,Mountain West,2021-01-30,true,22217.01
+CB-BA-00545,Granite Builders 545,Hospitality,Middle Market,67464704.84,E-0183,Midwest,2015-07-27,true,185275.39
+CB-BA-00546,Northwind Builders 546,Manufacturing,Middle Market,47750831.6,E-0195,Pacific,2022-10-20,true,106958.12
+CB-BA-00547,Summit Systems 547,Logistics,Middle Market,54663049.28,E-0191,Midwest,2025-05-02,true,155727.44
+CB-BA-00548,Granite Group 548,Construction,Corporate,2007504766.76,E-0182,Mountain West,2022-03-12,true,4368686.4
+CB-BA-00549,Keystone Builders 549,Technology,Middle Market,101636452.3,E-0202,Mountain West,2023-04-06,true,155186.46
+CB-BA-00550,Redwood Systems 550,Retail,Small Business,5548875.5,E-0194,Midwest,2015-02-11,true,13706.21
+CB-BA-00551,PayCadence Industries 551,Technology,Middle Market,19387437.3,E-0191,Pacific,2022-05-10,true,72916.55
+CB-BA-00552,Ironwood Logistics 552,Hospitality,Small Business,3065278.25,E-0187,Southeast,2019-10-13,true,6248.62
+CB-BA-00553,Bluewater Health 553,Agriculture,Small Business,5220720.32,E-0185,Mountain West,2015-10-12,false,20603.38
+CB-BA-00554,Meridian Foods 554,Professional Services,Small Business,4315813.15,E-0187,Mountain West,2016-10-08,true,16300.15
+CB-BA-00555,Keystone Logistics 555,Construction,Small Business,3871741.47,E-0200,Midwest,2014-12-14,true,7590.82
+CB-BA-00556,Redwood Systems 556,Hospitality,Small Business,1864152.82,E-0185,Northeast,2016-11-20,true,3295.27
+CB-BA-00557,Redwood Foods 557,Hospitality,Corporate,1929809446.48,E-0198,Northeast,2015-05-04,true,4503197.34
+CB-BA-00558,PayCadence Industries 558,Professional Services,Middle Market,122132065.52,E-0186,Mountain West,2015-01-28,false,317599.85
+CB-BA-00559,Keystone Health 559,Retail,Small Business,2872694.48,E-0183,Northeast,2020-01-15,true,4650.36
+CB-BA-00560,Ironwood Logistics 560,Technology,Middle Market,101214007.2,E-0182,Southeast,2023-09-26,false,108169.69
+CB-BA-00561,Keystone Health 561,Construction,Small Business,1863192.51,E-0189,Midwest,2012-09-18,true,3793.3
+CB-BA-00562,PayCadence Industries 562,Hospitality,Small Business,3826180.64,E-0201,Southeast,2025-02-28,true,13910.87
+CB-BA-00563,Ironwood Industries 563,Healthcare,Middle Market,43276223.85,E-0189,Southeast,2014-03-01,true,94742.12
+CB-BA-00564,Keystone Foods 564,Professional Services,Small Business,3890947.59,E-0196,Northeast,2012-10-21,true,10433.17
+CB-BA-00565,Summit Foods 565,Agriculture,Middle Market,32876055.07,E-0198,Southeast,2018-11-22,true,84020.35
+CB-BA-00566,Northwind Industries 566,Technology,Small Business,2481657.69,E-0189,Pacific,2014-04-05,true,2900.6
+CB-BA-00567,Redwood Systems 567,Logistics,Small Business,3882438.96,E-0188,Northeast,2023-06-01,true,10377.75
+CB-BA-00568,Keystone Logistics 568,Logistics,Small Business,2531939.03,E-0191,Southeast,2018-07-19,false,6257.81
+CB-BA-00569,Ironwood Logistics 569,Professional Services,Small Business,4710368.74,E-0200,Pacific,2019-06-20,true,5831.72
+CB-BA-00570,Granite Partners 570,Construction,Small Business,6195099.19,E-0205,Pacific,2016-09-05,false,20453.46
+CB-BA-00571,Summit Industries 571,Technology,Middle Market,38977527.07,E-0186,Southeast,2024-08-14,true,83686.08
+CB-BA-00572,Granite Foods 572,Professional Services,Small Business,6587631.38,E-0194,Pacific,2022-10-22,true,18723.34
+CB-BA-00573,Harbor Holdings 573,Healthcare,Small Business,3660664.88,E-0193,Midwest,2012-05-25,false,10643.13
+CB-BA-00574,Harbor Holdings 574,Manufacturing,Small Business,3316417.78,E-0202,Mountain West,2016-06-29,false,6093.59
+CB-BA-00575,Meridian Foods 575,Healthcare,Middle Market,56154987.67,E-0201,Southeast,2013-01-30,true,113998.07
+CB-BA-00576,Bluewater Logistics 576,Hospitality,Middle Market,30879053.28,E-0201,Southeast,2012-01-30,false,27957.41
+CB-BA-00577,Harbor Partners 577,Technology,Small Business,969680.46,E-0181,Mountain West,2019-05-10,true,2069.33
+CB-BA-00578,Ironwood Foods 578,Construction,Middle Market,115437461.11,E-0198,Pacific,2024-09-29,false,342795.95
+CB-BA-00579,Bluewater Foods 579,Healthcare,Corporate,1399483332.65,E-0193,Midwest,2015-06-11,true,3497358.22
+CB-BA-00580,Granite Partners 580,Professional Services,Small Business,2558768.65,E-0182,Northeast,2023-05-03,false,7822.89
+CB-BA-00581,Keystone Industries 581,Manufacturing,Small Business,3552324.46,E-0200,Southeast,2024-08-05,true,9798.74
+CB-BA-00582,Meridian Foods 582,Manufacturing,Small Business,2212663.57,E-0203,Northeast,2016-08-20,true,2192.95
+CB-BA-00583,Bluewater Systems 583,Professional Services,Middle Market,75443341.53,E-0181,Southeast,2026-02-28,false,118692.38
+CB-BA-00584,Ironwood Group 584,Logistics,Middle Market,134623845.49,E-0198,Southeast,2016-07-27,false,162121.35
+CB-BA-00585,Redwood Logistics 585,Agriculture,Small Business,13509517.33,E-0192,Midwest,2018-07-24,false,42838.75
+CB-BA-00586,Ironwood Foods 586,Professional Services,Small Business,1982208.65,E-0195,Midwest,2026-06-08,true,7766.35
+CB-BA-00587,Ironwood Foods 587,Retail,Middle Market,58983815.48,E-0194,Mountain West,2015-07-18,true,68983.59
+CB-BA-00588,Granite Industries 588,Agriculture,Middle Market,151867097.12,E-0201,Midwest,2017-09-05,true,513993.06
+CB-BA-00589,Keystone Builders 589,Professional Services,Middle Market,49351767.65,E-0185,Southeast,2021-03-01,true,51132.28
+CB-BA-00590,Ironwood Group 590,Logistics,Small Business,3109302.52,E-0192,Mountain West,2014-03-28,true,3668.11
+CB-BA-00591,Summit Industries 591,Construction,Corporate,1400219357.64,E-0184,Mountain West,2025-12-14,false,3472955.05
+CB-BA-00592,Harbor Holdings 592,Healthcare,Corporate,2933732433.94,E-0181,Southeast,2025-06-28,true,3569641.1
+CB-BA-00593,Meridian Builders 593,Agriculture,Middle Market,91781386.42,E-0182,Midwest,2026-06-30,false,332919.06
+CB-BA-00594,Northwind Logistics 594,Retail,Small Business,2975195.31,E-0190,Southeast,2022-06-26,true,8049.83
+CB-BA-00595,Meridian Partners 595,Professional Services,Middle Market,93716575.77,E-0195,Mountain West,2016-01-19,true,316208.71
+CB-BA-00596,Keystone Foods 596,Manufacturing,Middle Market,79599271.33,E-0195,Southeast,2025-12-26,true,64466.27
+CB-BA-00597,Harbor Systems 597,Technology,Small Business,3695145.62,E-0197,Northeast,2014-04-17,true,7787.19
+CB-BA-00598,Summit Group 598,Professional Services,Middle Market,205805902.04,E-0191,Pacific,2018-09-01,true,658873.09
+CB-BA-00599,PayCadence Industries 599,Retail,Small Business,5166019.07,E-0188,Northeast,2022-04-16,true,20576.08
+CB-BA-00600,Meridian Health 600,Technology,Middle Market,251023813.43,E-0181,Pacific,2021-10-09,true,824061.13

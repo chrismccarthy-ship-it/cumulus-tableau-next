@@ -1,0 +1,418 @@
+{
+  "name": "Cumulus_Advisors_Overview",
+  "label": "Cumulus Advisors Overview ${Variables.LabelSuffix}",
+  "description": "Cumulus Advisors \u2014 service and business KPIs for the Cumulus Financial Group demo.",
+  "customConfig": {
+    "queryCacheEnabled": true,
+    "queryCacheStaleness": "30min"
+  },
+  "layouts": [
+    {
+      "columnCount": 96,
+      "maxWidth": 1600,
+      "name": "default",
+      "pages": [
+        {
+          "label": "Overview",
+          "name": "overview",
+          "widgets": [
+            {
+              "name": "hdr",
+              "column": 0,
+              "row": 0,
+              "colspan": 96,
+              "rowspan": 6
+            },
+            {
+              "name": "w_FA_KPI_AUM",
+              "column": 0,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_FA_KPI_Activities",
+              "column": 24,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_FA_KPI_Life_Events",
+              "column": 48,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_FA_KPI_Opportunity",
+              "column": 72,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "x_nba",
+              "column": 0,
+              "row": 15,
+              "colspan": 28,
+              "rowspan": 34
+            },
+            {
+              "name": "w_FA_Life_Events_Followup",
+              "column": 28,
+              "row": 15,
+              "colspan": 68,
+              "rowspan": 34
+            },
+            {
+              "name": "w_FA_Book_By_Stage",
+              "column": 0,
+              "row": 49,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_FA_Activities_By_Advisor",
+              "column": 32,
+              "row": 49,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_FA_Referral_Funnel",
+              "column": 64,
+              "row": 49,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_FA_Life_Events_Source",
+              "column": 0,
+              "row": 77,
+              "colspan": 32,
+              "rowspan": 28
+            }
+          ]
+        }
+      ],
+      "rowHeight": 10,
+      "style": {
+        "backgroundColor": "#EEF2F7",
+        "cellSpacingX": 12,
+        "cellSpacingY": 12,
+        "gutterColor": "#EEF2F7"
+      }
+    }
+  ],
+  "style": {
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#D9E1EC",
+      "borderEdges": [],
+      "borderRadius": 12,
+      "borderWidth": 1
+    }
+  },
+  "widgets": {
+    "hdr": {
+      "actions": [],
+      "name": "hdr",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#032D60",
+              "size": "22px",
+              "bold": true
+            },
+            "insert": "Cumulus Advisors Overview",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#5C6B82",
+              "size": "13px"
+            },
+            "insert": "",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ]
+      }
+    },
+    "w_FA_KPI_AUM": {
+      "actions": [],
+      "name": "w_FA_KPI_AUM",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.FA_KPI_AUM.Id}",
+        "name": "${App.Visualizations.FA_KPI_AUM.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_FA_KPI_Activities": {
+      "actions": [],
+      "name": "w_FA_KPI_Activities",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.FA_KPI_Activities.Id}",
+        "name": "${App.Visualizations.FA_KPI_Activities.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_FA_KPI_Life_Events": {
+      "actions": [],
+      "name": "w_FA_KPI_Life_Events",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.FA_KPI_Life_Events.Id}",
+        "name": "${App.Visualizations.FA_KPI_Life_Events.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_FA_KPI_Opportunity": {
+      "actions": [],
+      "name": "w_FA_KPI_Opportunity",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.FA_KPI_Opportunity.Id}",
+        "name": "${App.Visualizations.FA_KPI_Opportunity.Name}"
+      },
+      "type": "visualization"
+    },
+    "x_nba": {
+      "actions": [],
+      "name": "x_nba",
+      "label": "cumulusNextBestActions",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusNextBestActions",
+        "properties": {
+          "entityField": {
+            "name": "FA_Life_Events.HouseholdName",
+            "label": "Household Name"
+          },
+          "contextField": {
+            "name": "FA_Life_Events.EventType",
+            "label": "Event Type"
+          },
+          "scoreField": {
+            "name": "FA_Life_Events.OpportunityValue",
+            "aggregation": "Sum",
+            "label": "Opportunity Value"
+          },
+          "title": "Life events to follow up",
+          "actionLabel": "Schedule",
+          "lowestFirst": false,
+          "topN": 8,
+          "format": "currency",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Advisors_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Advisors_SDM.Id}",
+            "label": "Cumulus Advisors Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusNextBestActions",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_FA_Life_Events_Followup": {
+      "actions": [],
+      "name": "w_FA_Life_Events_Followup",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.FA_Life_Events_Followup.Id}",
+        "name": "${App.Visualizations.FA_Life_Events_Followup.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_FA_Book_By_Stage": {
+      "actions": [],
+      "name": "w_FA_Book_By_Stage",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.FA_Book_By_Stage.Id}",
+        "name": "${App.Visualizations.FA_Book_By_Stage.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_FA_Activities_By_Advisor": {
+      "actions": [],
+      "name": "w_FA_Activities_By_Advisor",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.FA_Activities_By_Advisor.Id}",
+        "name": "${App.Visualizations.FA_Activities_By_Advisor.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_FA_Referral_Funnel": {
+      "actions": [],
+      "name": "w_FA_Referral_Funnel",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.FA_Referral_Funnel.Id}",
+        "name": "${App.Visualizations.FA_Referral_Funnel.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_FA_Life_Events_Source": {
+      "actions": [],
+      "name": "w_FA_Life_Events_Source",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.FA_Life_Events_Source.Id}",
+        "name": "${App.Visualizations.FA_Life_Events_Source.Name}"
+      },
+      "type": "visualization"
+    }
+  },
+  "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Advisors_WS.Name}"
+}

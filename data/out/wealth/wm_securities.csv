@@ -1,0 +1,12 @@
+SecurityId,Symbol,SecurityName,AssetClass,CurrentPrice
+SEC-001,VTI,Vanguard Total Stock Market ETF,Equity,275.0
+SEC-002,BND,Vanguard Total Bond ETF,Fixed Income,73.0
+SEC-003,VXUS,Vanguard Intl Stock ETF,Equity,64.0
+SEC-004,VNQ,Vanguard Real Estate ETF,Real Assets,90.0
+SEC-005,SGOV,iShares 0-3 Mo Treasury,Cash,100.5
+SEC-006,AAPL,Apple Inc.,Equity,232.0
+SEC-007,MSFT,Microsoft Corp.,Equity,445.0
+SEC-008,CUMX,Cumulus Balanced Fund,Multi-Asset,18.4
+SEC-009,CUMI,Cumulus Income Fund,Fixed Income,11.2
+SEC-010,GLD,SPDR Gold Shares,Alternatives,250.0
+SEC-011,PRIV1,Cumulus Private Credit I,Alternatives,1000.0

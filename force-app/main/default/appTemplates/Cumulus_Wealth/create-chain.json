@@ -1,0 +1,518 @@
+{
+  "name": "Cumulus_Wealth_create",
+  "label": "Create Cumulus Wealth Management",
+  "description": null,
+  "parameters": {},
+  "dominoVariant": "sfdc_internal__UnifiedAnalyticsDominoVariant",
+  "definition": {
+    "nodes": {
+      "upload_WM_Households": {
+        "referenceId": "upload_WM_Households",
+        "sources": [],
+        "parameters": {
+          "name": "WM_Households_CSV",
+          "file": "csvs/WM_Households.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_WM_Households": {
+        "referenceId": "upsert_WM_Households",
+        "sources": [
+          "upload_WM_Households"
+        ],
+        "parameters": {
+          "name": "WM_Households_DS",
+          "file": "datastreams/WM_Households.json",
+          "dataLakeObject": {
+            "name": "WM_Households_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_WM_Households": {
+        "referenceId": "run_WM_Households",
+        "sources": [
+          "upsert_WM_Households"
+        ],
+        "parameters": {
+          "name": "WM_Households_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_WM_Holdings": {
+        "referenceId": "upload_WM_Holdings",
+        "sources": [
+          "run_WM_Households"
+        ],
+        "parameters": {
+          "name": "WM_Holdings_CSV",
+          "file": "csvs/WM_Holdings.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_WM_Holdings": {
+        "referenceId": "upsert_WM_Holdings",
+        "sources": [
+          "upload_WM_Holdings"
+        ],
+        "parameters": {
+          "name": "WM_Holdings_DS",
+          "file": "datastreams/WM_Holdings.json",
+          "dataLakeObject": {
+            "name": "WM_Holdings_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_WM_Holdings": {
+        "referenceId": "run_WM_Holdings",
+        "sources": [
+          "upsert_WM_Holdings"
+        ],
+        "parameters": {
+          "name": "WM_Holdings_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_WM_Goals": {
+        "referenceId": "upload_WM_Goals",
+        "sources": [
+          "run_WM_Holdings"
+        ],
+        "parameters": {
+          "name": "WM_Goals_CSV",
+          "file": "csvs/WM_Goals.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_WM_Goals": {
+        "referenceId": "upsert_WM_Goals",
+        "sources": [
+          "upload_WM_Goals"
+        ],
+        "parameters": {
+          "name": "WM_Goals_DS",
+          "file": "datastreams/WM_Goals.json",
+          "dataLakeObject": {
+            "name": "WM_Goals_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_WM_Goals": {
+        "referenceId": "run_WM_Goals",
+        "sources": [
+          "upsert_WM_Goals"
+        ],
+        "parameters": {
+          "name": "WM_Goals_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_WM_Interactions": {
+        "referenceId": "upload_WM_Interactions",
+        "sources": [
+          "run_WM_Goals"
+        ],
+        "parameters": {
+          "name": "WM_Interactions_CSV",
+          "file": "csvs/WM_Interactions.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_WM_Interactions": {
+        "referenceId": "upsert_WM_Interactions",
+        "sources": [
+          "upload_WM_Interactions"
+        ],
+        "parameters": {
+          "name": "WM_Interactions_DS",
+          "file": "datastreams/WM_Interactions.json",
+          "dataLakeObject": {
+            "name": "WM_Interactions_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_WM_Interactions": {
+        "referenceId": "run_WM_Interactions",
+        "sources": [
+          "upsert_WM_Interactions"
+        ],
+        "parameters": {
+          "name": "WM_Interactions_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_WM_Net_Flows": {
+        "referenceId": "upload_WM_Net_Flows",
+        "sources": [
+          "run_WM_Interactions"
+        ],
+        "parameters": {
+          "name": "WM_Net_Flows_CSV",
+          "file": "csvs/WM_Net_Flows.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_WM_Net_Flows": {
+        "referenceId": "upsert_WM_Net_Flows",
+        "sources": [
+          "upload_WM_Net_Flows"
+        ],
+        "parameters": {
+          "name": "WM_Net_Flows_DS",
+          "file": "datastreams/WM_Net_Flows.json",
+          "dataLakeObject": {
+            "name": "WM_Net_Flows_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_WM_Net_Flows": {
+        "referenceId": "run_WM_Net_Flows",
+        "sources": [
+          "upsert_WM_Net_Flows"
+        ],
+        "parameters": {
+          "name": "WM_Net_Flows_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_WM_Clock": {
+        "referenceId": "upload_WM_Clock",
+        "sources": [
+          "run_WM_Net_Flows"
+        ],
+        "parameters": {
+          "name": "WM_Clock_CSV",
+          "file": "csvs/WM_Clock.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload the settle clock CSV"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_WM_Clock": {
+        "referenceId": "upsert_WM_Clock",
+        "sources": [
+          "upload_WM_Clock"
+        ],
+        "parameters": {
+          "name": "WM_Clock_DS",
+          "file": "datastreams/WM_Clock.json",
+          "dataLakeObject": {
+            "name": "WM_Clock_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create the settle clock stream"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_WM_Clock": {
+        "referenceId": "run_WM_Clock",
+        "sources": [
+          "upsert_WM_Clock"
+        ],
+        "parameters": {
+          "name": "WM_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 1: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "settle_WM_Clock": {
+        "referenceId": "settle_WM_Clock",
+        "sources": [
+          "run_WM_Clock"
+        ],
+        "parameters": {
+          "name": "WM_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 2: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_workspace": {
+        "referenceId": "upsert_workspace",
+        "sources": [
+          "settle_WM_Clock"
+        ],
+        "parameters": {
+          "name": "Cumulus_Wealth_WS",
+          "label": "Cumulus Wealth Management",
+          "file": "workspaces/workspace.json",
+          "condition": "true",
+          "assets": [
+            {
+              "name": "Cumulus_Wealth_SDM",
+              "assetType": "SemanticModel",
+              "usageType": "Referenced"
+            }
+          ]
+        },
+        "graphNodeType": {
+          "name": "WorkspaceUpsert",
+          "label": "Create/Update a Workspace from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_sdm": {
+        "referenceId": "upsert_sdm",
+        "sources": [
+          "upsert_workspace"
+        ],
+        "parameters": {
+          "name": "Cumulus_Wealth_SDM",
+          "label": "Cumulus Wealth Management Model",
+          "file": "sdms/sdm.json",
+          "condition": "true"
+        },
+        "graphNodeType": {
+          "name": "SemanticModelUpsert",
+          "label": null
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_AUM_By_Advisor": {
+        "referenceId": "upsert_viz_WM_AUM_By_Advisor",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_AUM_By_Advisor",
+          "file": "visualizations/WM_AUM_By_Advisor.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_Allocation": {
+        "referenceId": "upsert_viz_WM_Allocation",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_Allocation",
+          "file": "visualizations/WM_Allocation.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_Goals_Status": {
+        "referenceId": "upsert_viz_WM_Goals_Status",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_Goals_Status",
+          "file": "visualizations/WM_Goals_Status.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_Interactions_Churn": {
+        "referenceId": "upsert_viz_WM_Interactions_Churn",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_Interactions_Churn",
+          "file": "visualizations/WM_Interactions_Churn.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_KPI_AUM": {
+        "referenceId": "upsert_viz_WM_KPI_AUM",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_KPI_AUM",
+          "file": "visualizations/WM_KPI_AUM.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_KPI_Households": {
+        "referenceId": "upsert_viz_WM_KPI_Households",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_KPI_Households",
+          "file": "visualizations/WM_KPI_Households.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_KPI_Interactions": {
+        "referenceId": "upsert_viz_WM_KPI_Interactions",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_KPI_Interactions",
+          "file": "visualizations/WM_KPI_Interactions.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_KPI_NNA": {
+        "referenceId": "upsert_viz_WM_KPI_NNA",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_KPI_NNA",
+          "file": "visualizations/WM_KPI_NNA.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_Net_Flows_Trend": {
+        "referenceId": "upsert_viz_WM_Net_Flows_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_Net_Flows_Trend",
+          "file": "visualizations/WM_Net_Flows_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Wealth_Overview": {
+        "referenceId": "upsert_dash_Cumulus_Wealth_Overview",
+        "sources": [
+          "upsert_viz_WM_AUM_By_Advisor",
+          "upsert_viz_WM_Allocation",
+          "upsert_viz_WM_Goals_Status",
+          "upsert_viz_WM_Interactions_Churn",
+          "upsert_viz_WM_KPI_AUM",
+          "upsert_viz_WM_KPI_Households",
+          "upsert_viz_WM_KPI_Interactions",
+          "upsert_viz_WM_KPI_NNA",
+          "upsert_viz_WM_Net_Flows_Trend"
+        ],
+        "parameters": {
+          "name": "Cumulus_Wealth_Overview",
+          "label": "Cumulus Wealth Overview",
+          "file": "dashboards/Cumulus_Wealth_Overview.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      }
+    }
+  },
+  "finallyDefinition": {
+    "nodes": {}
+  }
+}

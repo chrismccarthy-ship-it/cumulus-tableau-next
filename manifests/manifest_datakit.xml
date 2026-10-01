@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Data 360 data kit (data streams + DLOs + DMOs + semantic models). Create it in Data 360 Setup → Data Kits, add the Cumulus semantic models, then retrieve with this manifest and deploy it to production FIRST. -->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Cumulus_FinServ_Data_Kit</members>
+        <name>DataKit</name>
+    </types>
+    <version>67.0</version>
+</Package>

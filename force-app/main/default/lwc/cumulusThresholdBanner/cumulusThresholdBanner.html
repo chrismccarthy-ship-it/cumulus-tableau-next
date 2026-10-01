@@ -1,0 +1,18 @@
+<template>
+    <template lwc:if={isConfigured}>
+        <div class={bannerClass} role="status">
+            <span class="icon" aria-hidden="true"></span>
+            <span class="text">
+                <span class="msg">{message}</span>
+                <span class="detail">{detail}</span>
+                <template lwc:if={error}><span class="detail">{error}</span></template>
+            </span>
+            <template lwc:if={canFocus}>
+                <button type="button" class="focus" onclick={handleFocus}>{focusLabel}</button>
+            </template>
+        </div>
+    </template>
+    <template lwc:else>
+        <div class="configure">Map a semantic model, a measure and a threshold in the widget panel.</div>
+    </template>
+</template>

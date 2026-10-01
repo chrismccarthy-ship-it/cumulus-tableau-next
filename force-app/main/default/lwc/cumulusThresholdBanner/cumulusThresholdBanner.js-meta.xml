@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Cumulus Threshold Banner</masterLabel>
+    <description>Compares a bound measure with a threshold and turns red when breached; optional one-click filter to focus the dashboard on a dimension value.</description>
+    <targets>
+        <target>analytics__Dashboard</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="analytics__Dashboard">
+            <property name="sdmName" type="SemanticModel" label="Semantic Model" description="Model to query." required="true"/>
+            <property name="measureField" type="SemanticMeasure" label="Measure" description="Measure to compare with the threshold." required="true"/>
+            <property name="threshold" type="String" label="Threshold" description="Numeric threshold." required="true"/>
+            <property name="belowIsBad" type="Boolean" label="Below threshold is bad" default="false" description="Off: values above the threshold trigger the alert. On: values below do."/>
+            <property name="okMessage" type="String" label="OK Message" default="Within target"/>
+            <property name="alertMessage" type="String" label="Alert Message" default="Above threshold — attention needed"/>
+            <property name="format" type="String" label="Format" default="number" datasource="number,currency,percent"/>
+            <property name="focusDimension" type="SemanticDimension" label="Focus Dimension" description="Optional dimension for the one-click focus filter."/>
+            <property name="focusValue" type="String" label="Focus Value" description="Value of the focus dimension to filter to (e.g. Renters)."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

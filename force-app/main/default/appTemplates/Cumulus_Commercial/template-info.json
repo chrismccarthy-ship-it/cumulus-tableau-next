@@ -1,0 +1,29 @@
+{
+  "label": "Cumulus Commercial Banking",
+  "description": "Relationship manager desk view: deal pipeline, facility utilization vs covenants, treasury penetration, onboarding cycle time (2x longer without treasury), ACH/sFTP service cases. Includes the Meridian Logistics storyline.",
+  "releaseInfo": {
+    "templateVersion": "1.0",
+    "notesFile": null
+  },
+  "templateType": "App",
+  "templateSubtype": null,
+  "name": "Cumulus_Commercial",
+  "namespace": null,
+  "assetVersion": 67.0,
+  "maxAppCount": null,
+  "icons": {
+    "templatePreviews": [],
+    "layoutImages": []
+  },
+  "variableDefinition": "variables.json",
+  "layoutDefinition": "layout.json",
+  "tags": {},
+  "chainDefinitions": [
+    {
+      "type": "Create",
+      "name": null,
+      "file": "create-chain.json"
+    }
+  ],
+  "templateStatus": null
+}

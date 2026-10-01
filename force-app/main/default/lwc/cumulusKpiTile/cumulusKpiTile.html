@@ -1,0 +1,29 @@
+<template>
+    <div class={tileClass} style={tileStyle}>
+        <template lwc:if={isConfigured}>
+            <div class="heading">{heading}</div>
+            <div class="value">{display}</div>
+            <div class="meta">
+                <template lwc:if={periodDelta}>
+                    <span class={pillClass}>{periodText}</span>
+                </template>
+                <template lwc:if={hasTarget}>
+                    <span class="delta">{deltaText}</span>
+                </template>
+            </div>
+            <template lwc:if={sparkPath}>
+                <svg class="spark" viewBox="0 0 200 40" preserveAspectRatio="none" aria-hidden="true">
+                    <path class="area" d={sparkArea}></path>
+                    <path class="line" d={sparkPath}></path>
+                    <circle class="end" cx={sparkEnd.cx} cy={sparkEnd.cy} r="2.5"></circle>
+                </svg>
+            </template>
+            <template lwc:if={error}>
+                <div class="error">{error}</div>
+            </template>
+        </template>
+        <template lwc:else>
+            <div class="configure">Select a semantic model and a measure in the widget panel.</div>
+        </template>
+    </div>
+</template>

@@ -1,0 +1,279 @@
+{
+  "name": "WM_Holdings_DS",
+  "label": "WM Holdings DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "HoldingId"
+    },
+    {
+      "dataType": "Text",
+      "name": "FinancialAccountId"
+    },
+    {
+      "dataType": "Text",
+      "name": "SecurityId"
+    },
+    {
+      "dataType": "Text",
+      "name": "Symbol"
+    },
+    {
+      "dataType": "Text",
+      "name": "AssetClass"
+    },
+    {
+      "dataType": "Number",
+      "name": "Shares"
+    },
+    {
+      "dataType": "Number",
+      "name": "Price"
+    },
+    {
+      "dataType": "Number",
+      "name": "MarketValue"
+    },
+    {
+      "dataType": "Number",
+      "name": "CostBasis"
+    },
+    {
+      "dataType": "Date",
+      "name": "AsOfDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "FinancialAccountType"
+    },
+    {
+      "dataType": "Text",
+      "name": "Custodian"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorName"
+    },
+    {
+      "dataType": "Text",
+      "name": "RiskProfile"
+    },
+    {
+      "dataType": "Text",
+      "name": "ServiceTier"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.WM_Holdings_DLO.Name}",
+    "label": "WM Holdings DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "HoldingId",
+        "label": "Holding ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "FinancialAccountId",
+        "label": "Financial Account ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "SecurityId",
+        "label": "Security ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Symbol",
+        "label": "Symbol"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AssetClass",
+        "label": "Asset Class"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "Shares",
+        "label": "Shares"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "Price",
+        "label": "Price"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "MarketValue",
+        "label": "Market Value"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CostBasis",
+        "label": "Cost Basis"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "AsOfDate",
+        "label": "As Of Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdId",
+        "label": "Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "FinancialAccountType",
+        "label": "Financial Account Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Custodian",
+        "label": "Custodian"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdName",
+        "label": "Household Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorName",
+        "label": "Advisor Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RiskProfile",
+        "label": "Risk Profile"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ServiceTier",
+        "label": "Service Tier"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "HoldingId",
+      "targetFieldName": "HoldingId"
+    },
+    {
+      "sourceFieldLabel": "FinancialAccountId",
+      "targetFieldName": "FinancialAccountId"
+    },
+    {
+      "sourceFieldLabel": "SecurityId",
+      "targetFieldName": "SecurityId"
+    },
+    {
+      "sourceFieldLabel": "Symbol",
+      "targetFieldName": "Symbol"
+    },
+    {
+      "sourceFieldLabel": "AssetClass",
+      "targetFieldName": "AssetClass"
+    },
+    {
+      "sourceFieldLabel": "Shares",
+      "targetFieldName": "Shares"
+    },
+    {
+      "sourceFieldLabel": "Price",
+      "targetFieldName": "Price"
+    },
+    {
+      "sourceFieldLabel": "MarketValue",
+      "targetFieldName": "MarketValue"
+    },
+    {
+      "sourceFieldLabel": "CostBasis",
+      "targetFieldName": "CostBasis"
+    },
+    {
+      "sourceFieldLabel": "AsOfDate",
+      "targetFieldName": "AsOfDate"
+    },
+    {
+      "sourceFieldLabel": "HouseholdId",
+      "targetFieldName": "HouseholdId"
+    },
+    {
+      "sourceFieldLabel": "FinancialAccountType",
+      "targetFieldName": "FinancialAccountType"
+    },
+    {
+      "sourceFieldLabel": "Custodian",
+      "targetFieldName": "Custodian"
+    },
+    {
+      "sourceFieldLabel": "HouseholdName",
+      "targetFieldName": "HouseholdName"
+    },
+    {
+      "sourceFieldLabel": "AdvisorName",
+      "targetFieldName": "AdvisorName"
+    },
+    {
+      "sourceFieldLabel": "RiskProfile",
+      "targetFieldName": "RiskProfile"
+    },
+    {
+      "sourceFieldLabel": "ServiceTier",
+      "targetFieldName": "ServiceTier"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.WM_Holdings_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.WM_Holdings_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.WM_Holdings_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.WM_Holdings_CSV.FileType}"
+  }
+}

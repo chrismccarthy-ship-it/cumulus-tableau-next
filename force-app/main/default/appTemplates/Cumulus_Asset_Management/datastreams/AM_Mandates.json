@@ -1,0 +1,237 @@
+{
+  "name": "AM_Mandates_DS",
+  "label": "AM Mandates DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "MandateId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientId"
+    },
+    {
+      "dataType": "Text",
+      "name": "Strategy"
+    },
+    {
+      "dataType": "Text",
+      "name": "Vehicle"
+    },
+    {
+      "dataType": "Number",
+      "name": "AUM"
+    },
+    {
+      "dataType": "Number",
+      "name": "FeeRateBps"
+    },
+    {
+      "dataType": "Date",
+      "name": "InceptionDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "Benchmark"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientType"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientTier"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerName"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.AM_Mandates_DLO.Name}",
+    "label": "AM Mandates DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "MandateId",
+        "label": "Mandate ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientId",
+        "label": "Client ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Strategy",
+        "label": "Strategy"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Vehicle",
+        "label": "Vehicle"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "AUM",
+        "label": "AUM"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "FeeRateBps",
+        "label": "Fee Rate Bps"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "InceptionDate",
+        "label": "Inception Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Benchmark",
+        "label": "Benchmark"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientName",
+        "label": "Client Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientType",
+        "label": "Client Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientTier",
+        "label": "Client Tier"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerName",
+        "label": "Relationship Manager Name"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "MandateId",
+      "targetFieldName": "MandateId"
+    },
+    {
+      "sourceFieldLabel": "ClientId",
+      "targetFieldName": "ClientId"
+    },
+    {
+      "sourceFieldLabel": "Strategy",
+      "targetFieldName": "Strategy"
+    },
+    {
+      "sourceFieldLabel": "Vehicle",
+      "targetFieldName": "Vehicle"
+    },
+    {
+      "sourceFieldLabel": "AUM",
+      "targetFieldName": "AUM"
+    },
+    {
+      "sourceFieldLabel": "FeeRateBps",
+      "targetFieldName": "FeeRateBps"
+    },
+    {
+      "sourceFieldLabel": "InceptionDate",
+      "targetFieldName": "InceptionDate"
+    },
+    {
+      "sourceFieldLabel": "Benchmark",
+      "targetFieldName": "Benchmark"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "ClientName",
+      "targetFieldName": "ClientName"
+    },
+    {
+      "sourceFieldLabel": "ClientType",
+      "targetFieldName": "ClientType"
+    },
+    {
+      "sourceFieldLabel": "ClientTier",
+      "targetFieldName": "ClientTier"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerName",
+      "targetFieldName": "RelationshipManagerName"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.AM_Mandates_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.AM_Mandates_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.AM_Mandates_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.AM_Mandates_CSV.FileType}"
+  }
+}

@@ -1,0 +1,444 @@
+{
+  "name": "Cumulus_Insurance_Overview",
+  "label": "Cumulus Insurance Overview ${Variables.LabelSuffix}",
+  "description": "Cumulus Insurance \u2014 service and business KPIs for the Cumulus Financial Group demo.",
+  "customConfig": {
+    "queryCacheEnabled": true,
+    "queryCacheStaleness": "30min"
+  },
+  "layouts": [
+    {
+      "columnCount": 96,
+      "maxWidth": 1600,
+      "name": "default",
+      "pages": [
+        {
+          "label": "Overview",
+          "name": "overview",
+          "widgets": [
+            {
+              "name": "hdr",
+              "column": 0,
+              "row": 0,
+              "colspan": 96,
+              "rowspan": 6
+            },
+            {
+              "name": "x_banner",
+              "column": 0,
+              "row": 6,
+              "colspan": 96,
+              "rowspan": 5
+            },
+            {
+              "name": "w_INS_KPI_Claims",
+              "column": 0,
+              "row": 11,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_INS_KPI_Loss_Ratio",
+              "column": 24,
+              "row": 11,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_INS_KPI_Cycle",
+              "column": 48,
+              "row": 11,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_INS_KPI_Premium",
+              "column": 72,
+              "row": 11,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_INS_Claims_Trend",
+              "column": 0,
+              "row": 20,
+              "colspan": 96,
+              "rowspan": 30
+            },
+            {
+              "name": "w_INS_Cycle_By_CAT",
+              "column": 0,
+              "row": 50,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_INS_Loss_Ratio_By_LOB",
+              "column": 32,
+              "row": 50,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_INS_Claims_By_Status",
+              "column": 64,
+              "row": 50,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_INS_Renewals_By_Producer",
+              "column": 0,
+              "row": 78,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_INS_Cases_Agentforce",
+              "column": 32,
+              "row": 78,
+              "colspan": 32,
+              "rowspan": 28
+            }
+          ]
+        }
+      ],
+      "rowHeight": 10,
+      "style": {
+        "backgroundColor": "#EEF2F7",
+        "cellSpacingX": 12,
+        "cellSpacingY": 12,
+        "gutterColor": "#EEF2F7"
+      }
+    }
+  ],
+  "style": {
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#D9E1EC",
+      "borderEdges": [],
+      "borderRadius": 12,
+      "borderWidth": 1
+    }
+  },
+  "widgets": {
+    "hdr": {
+      "actions": [],
+      "name": "hdr",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#032D60",
+              "size": "22px",
+              "bold": true
+            },
+            "insert": "Cumulus Insurance Overview",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#5C6B82",
+              "size": "13px"
+            },
+            "insert": "",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ]
+      }
+    },
+    "x_banner": {
+      "actions": [],
+      "name": "x_banner",
+      "label": "cumulusThresholdBanner",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusThresholdBanner",
+        "properties": {
+          "measureField": {
+            "name": "Loss_Ratio",
+            "aggregation": "UserAgg",
+            "label": "Loss Ratio"
+          },
+          "threshold": "0.6",
+          "alertMessage": "Loss ratio above 60% \u2014 review pricing and claims handling",
+          "okMessage": "Loss ratio within target",
+          "format": "percent",
+          "focusDimension": {
+            "name": "INS_Policies.LineOfBusiness",
+            "label": "Line Of Business"
+          },
+          "focusValue": "Renters",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusThresholdBanner",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_INS_KPI_Claims": {
+      "actions": [],
+      "name": "w_INS_KPI_Claims",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_KPI_Claims.Id}",
+        "name": "${App.Visualizations.INS_KPI_Claims.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_INS_KPI_Loss_Ratio": {
+      "actions": [],
+      "name": "w_INS_KPI_Loss_Ratio",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_KPI_Loss_Ratio.Id}",
+        "name": "${App.Visualizations.INS_KPI_Loss_Ratio.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_INS_KPI_Cycle": {
+      "actions": [],
+      "name": "w_INS_KPI_Cycle",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_KPI_Cycle.Id}",
+        "name": "${App.Visualizations.INS_KPI_Cycle.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_INS_KPI_Premium": {
+      "actions": [],
+      "name": "w_INS_KPI_Premium",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_KPI_Premium.Id}",
+        "name": "${App.Visualizations.INS_KPI_Premium.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_INS_Claims_Trend": {
+      "actions": [],
+      "name": "w_INS_Claims_Trend",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_Claims_Trend.Id}",
+        "name": "${App.Visualizations.INS_Claims_Trend.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_INS_Cycle_By_CAT": {
+      "actions": [],
+      "name": "w_INS_Cycle_By_CAT",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_Cycle_By_CAT.Id}",
+        "name": "${App.Visualizations.INS_Cycle_By_CAT.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_INS_Loss_Ratio_By_LOB": {
+      "actions": [],
+      "name": "w_INS_Loss_Ratio_By_LOB",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_Loss_Ratio_By_LOB.Id}",
+        "name": "${App.Visualizations.INS_Loss_Ratio_By_LOB.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_INS_Claims_By_Status": {
+      "actions": [],
+      "name": "w_INS_Claims_By_Status",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_Claims_By_Status.Id}",
+        "name": "${App.Visualizations.INS_Claims_By_Status.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_INS_Renewals_By_Producer": {
+      "actions": [],
+      "name": "w_INS_Renewals_By_Producer",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_Renewals_By_Producer.Id}",
+        "name": "${App.Visualizations.INS_Renewals_By_Producer.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_INS_Cases_Agentforce": {
+      "actions": [],
+      "name": "w_INS_Cases_Agentforce",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_Cases_Agentforce.Id}",
+        "name": "${App.Visualizations.INS_Cases_Agentforce.Name}"
+      },
+      "type": "visualization"
+    }
+  },
+  "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Insurance_WS.Name}"
+}

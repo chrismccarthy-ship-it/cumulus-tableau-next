@@ -1,0 +1,352 @@
+{
+  "name": "LN_Applications_DS",
+  "label": "LN Applications DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "ApplicationId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ApplicantName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProductName"
+    },
+    {
+      "dataType": "Number",
+      "name": "RequestedAmount"
+    },
+    {
+      "dataType": "Text",
+      "name": "Channel"
+    },
+    {
+      "dataType": "Text",
+      "name": "LoanOfficerId"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchId"
+    },
+    {
+      "dataType": "Date",
+      "name": "SubmittedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "DecisionDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "FundedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Text",
+      "name": "CurrentStage"
+    },
+    {
+      "dataType": "Number",
+      "name": "CycleTimeDays"
+    },
+    {
+      "dataType": "Number",
+      "name": "CreditScore"
+    },
+    {
+      "dataType": "Number",
+      "name": "DTIRatio"
+    },
+    {
+      "dataType": "Number",
+      "name": "InterestRate"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "IsFunded"
+    },
+    {
+      "dataType": "Number",
+      "name": "DocumentsOutstanding"
+    },
+    {
+      "dataType": "Text",
+      "name": "LoanOfficerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Date",
+      "name": "SubmittedMonth",
+      "format": "yyyy-MM-dd"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.LN_Applications_DLO.Name}",
+    "label": "LN Applications DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "ApplicationId",
+        "label": "Application ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ApplicantName",
+        "label": "Applicant Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProductName",
+        "label": "Product Name"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "RequestedAmount",
+        "label": "Requested Amount"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Channel",
+        "label": "Channel"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LoanOfficerId",
+        "label": "Loan Officer ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchId",
+        "label": "Branch ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "SubmittedDate",
+        "label": "Submitted Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "DecisionDate",
+        "label": "Decision Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "FundedDate",
+        "label": "Funded Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CurrentStage",
+        "label": "Current Stage"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CycleTimeDays",
+        "label": "Cycle Time Days"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CreditScore",
+        "label": "Credit Score"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "DTIRatio",
+        "label": "DTIRatio"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "InterestRate",
+        "label": "Interest Rate"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "IsFunded",
+        "label": "Is Funded"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "DocumentsOutstanding",
+        "label": "Documents Outstanding"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LoanOfficerName",
+        "label": "Loan Officer Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchName",
+        "label": "Branch Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "SubmittedMonth",
+        "label": "Submitted Month"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "ApplicationId",
+      "targetFieldName": "ApplicationId"
+    },
+    {
+      "sourceFieldLabel": "ApplicantName",
+      "targetFieldName": "ApplicantName"
+    },
+    {
+      "sourceFieldLabel": "ProductName",
+      "targetFieldName": "ProductName"
+    },
+    {
+      "sourceFieldLabel": "RequestedAmount",
+      "targetFieldName": "RequestedAmount"
+    },
+    {
+      "sourceFieldLabel": "Channel",
+      "targetFieldName": "Channel"
+    },
+    {
+      "sourceFieldLabel": "LoanOfficerId",
+      "targetFieldName": "LoanOfficerId"
+    },
+    {
+      "sourceFieldLabel": "BranchId",
+      "targetFieldName": "BranchId"
+    },
+    {
+      "sourceFieldLabel": "SubmittedDate",
+      "targetFieldName": "SubmittedDate"
+    },
+    {
+      "sourceFieldLabel": "DecisionDate",
+      "targetFieldName": "DecisionDate"
+    },
+    {
+      "sourceFieldLabel": "FundedDate",
+      "targetFieldName": "FundedDate"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "CurrentStage",
+      "targetFieldName": "CurrentStage"
+    },
+    {
+      "sourceFieldLabel": "CycleTimeDays",
+      "targetFieldName": "CycleTimeDays"
+    },
+    {
+      "sourceFieldLabel": "CreditScore",
+      "targetFieldName": "CreditScore"
+    },
+    {
+      "sourceFieldLabel": "DTIRatio",
+      "targetFieldName": "DTIRatio"
+    },
+    {
+      "sourceFieldLabel": "InterestRate",
+      "targetFieldName": "InterestRate"
+    },
+    {
+      "sourceFieldLabel": "IsFunded",
+      "targetFieldName": "IsFunded"
+    },
+    {
+      "sourceFieldLabel": "DocumentsOutstanding",
+      "targetFieldName": "DocumentsOutstanding"
+    },
+    {
+      "sourceFieldLabel": "LoanOfficerName",
+      "targetFieldName": "LoanOfficerName"
+    },
+    {
+      "sourceFieldLabel": "BranchName",
+      "targetFieldName": "BranchName"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "SubmittedMonth",
+      "targetFieldName": "SubmittedMonth"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.LN_Applications_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.LN_Applications_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.LN_Applications_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.LN_Applications_CSV.FileType}"
+  }
+}

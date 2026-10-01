@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- App Template Framework bundles — the packaging path (2GP) and the 'install into any org' path. -->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Cumulus_Advisors</members>
+        <members>Cumulus_Asset_Management</members>
+        <members>Cumulus_Commercial</members>
+        <members>Cumulus_Insurance</members>
+        <members>Cumulus_Lending</members>
+        <members>Cumulus_Retail_Banking</members>
+        <members>Cumulus_Wealth</members>
+        <name>AppFrameworkTemplateBundle</name>
+    </types>
+    <version>67.0</version>
+</Package>

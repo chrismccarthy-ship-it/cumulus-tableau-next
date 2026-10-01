@@ -1,0 +1,394 @@
+{
+  "name": "INS_Claims_DS",
+  "label": "INS Claims DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "ClaimId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClaimNumber"
+    },
+    {
+      "dataType": "Text",
+      "name": "PolicyId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClaimType"
+    },
+    {
+      "dataType": "Date",
+      "name": "LossDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "ReportDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "FinalizedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Number",
+      "name": "ReserveAmount"
+    },
+    {
+      "dataType": "Number",
+      "name": "PaidAmount"
+    },
+    {
+      "dataType": "Number",
+      "name": "CycleTimeDays"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdjusterId"
+    },
+    {
+      "dataType": "Text",
+      "name": "CatastropheCode"
+    },
+    {
+      "dataType": "Text",
+      "name": "FNOLChannel"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "IsLitigated"
+    },
+    {
+      "dataType": "Text",
+      "name": "LineOfBusiness"
+    },
+    {
+      "dataType": "Text",
+      "name": "PolicyType"
+    },
+    {
+      "dataType": "Text",
+      "name": "State"
+    },
+    {
+      "dataType": "Text",
+      "name": "Carrier"
+    },
+    {
+      "dataType": "Number",
+      "name": "AnnualPremium"
+    },
+    {
+      "dataType": "Text",
+      "name": "NamedInsured"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProducerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdjusterName"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "IsCatastrophe"
+    },
+    {
+      "dataType": "Date",
+      "name": "LossMonth",
+      "format": "yyyy-MM-dd"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.INS_Claims_DLO.Name}",
+    "label": "INS Claims DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "ClaimId",
+        "label": "Claim ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClaimNumber",
+        "label": "Claim Number"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PolicyId",
+        "label": "Policy ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClaimType",
+        "label": "Claim Type"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "LossDate",
+        "label": "Loss Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "ReportDate",
+        "label": "Report Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "FinalizedDate",
+        "label": "Finalized Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "ReserveAmount",
+        "label": "Reserve Amount"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "PaidAmount",
+        "label": "Paid Amount"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CycleTimeDays",
+        "label": "Cycle Time Days"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdjusterId",
+        "label": "Adjuster ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CatastropheCode",
+        "label": "Catastrophe Code"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "FNOLChannel",
+        "label": "FNOLChannel"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "IsLitigated",
+        "label": "Is Litigated"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LineOfBusiness",
+        "label": "Line Of Business"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PolicyType",
+        "label": "Policy Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "State",
+        "label": "State"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Carrier",
+        "label": "Carrier"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "AnnualPremium",
+        "label": "Annual Premium"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "NamedInsured",
+        "label": "Named Insured"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProducerName",
+        "label": "Producer Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdjusterName",
+        "label": "Adjuster Name"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "IsCatastrophe",
+        "label": "Is Catastrophe"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "LossMonth",
+        "label": "Loss Month"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "ClaimId",
+      "targetFieldName": "ClaimId"
+    },
+    {
+      "sourceFieldLabel": "ClaimNumber",
+      "targetFieldName": "ClaimNumber"
+    },
+    {
+      "sourceFieldLabel": "PolicyId",
+      "targetFieldName": "PolicyId"
+    },
+    {
+      "sourceFieldLabel": "ClaimType",
+      "targetFieldName": "ClaimType"
+    },
+    {
+      "sourceFieldLabel": "LossDate",
+      "targetFieldName": "LossDate"
+    },
+    {
+      "sourceFieldLabel": "ReportDate",
+      "targetFieldName": "ReportDate"
+    },
+    {
+      "sourceFieldLabel": "FinalizedDate",
+      "targetFieldName": "FinalizedDate"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "ReserveAmount",
+      "targetFieldName": "ReserveAmount"
+    },
+    {
+      "sourceFieldLabel": "PaidAmount",
+      "targetFieldName": "PaidAmount"
+    },
+    {
+      "sourceFieldLabel": "CycleTimeDays",
+      "targetFieldName": "CycleTimeDays"
+    },
+    {
+      "sourceFieldLabel": "AdjusterId",
+      "targetFieldName": "AdjusterId"
+    },
+    {
+      "sourceFieldLabel": "CatastropheCode",
+      "targetFieldName": "CatastropheCode"
+    },
+    {
+      "sourceFieldLabel": "FNOLChannel",
+      "targetFieldName": "FNOLChannel"
+    },
+    {
+      "sourceFieldLabel": "IsLitigated",
+      "targetFieldName": "IsLitigated"
+    },
+    {
+      "sourceFieldLabel": "LineOfBusiness",
+      "targetFieldName": "LineOfBusiness"
+    },
+    {
+      "sourceFieldLabel": "PolicyType",
+      "targetFieldName": "PolicyType"
+    },
+    {
+      "sourceFieldLabel": "State",
+      "targetFieldName": "State"
+    },
+    {
+      "sourceFieldLabel": "Carrier",
+      "targetFieldName": "Carrier"
+    },
+    {
+      "sourceFieldLabel": "AnnualPremium",
+      "targetFieldName": "AnnualPremium"
+    },
+    {
+      "sourceFieldLabel": "NamedInsured",
+      "targetFieldName": "NamedInsured"
+    },
+    {
+      "sourceFieldLabel": "ProducerName",
+      "targetFieldName": "ProducerName"
+    },
+    {
+      "sourceFieldLabel": "AdjusterName",
+      "targetFieldName": "AdjusterName"
+    },
+    {
+      "sourceFieldLabel": "IsCatastrophe",
+      "targetFieldName": "IsCatastrophe"
+    },
+    {
+      "sourceFieldLabel": "LossMonth",
+      "targetFieldName": "LossMonth"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.INS_Claims_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.INS_Claims_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.INS_Claims_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.INS_Claims_CSV.FileType}"
+  }
+}

@@ -1,0 +1,1000 @@
+{
+  "info": {
+    "name": "Cumulus \u2014 Tableau Next APIs",
+    "description": "Tableau Next REST API, Tableau Semantics Query API, App Framework Connect API and the hosted MCP server. Set collection variables instanceUrl (My Domain, https://xxx.my.salesforce.com), apiVersion (67.0), accessToken.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "instanceUrl",
+      "value": "https://YOUR-DOMAIN.my.salesforce.com"
+    },
+    {
+      "key": "apiVersion",
+      "value": "67.0"
+    },
+    {
+      "key": "accessToken",
+      "value": ""
+    },
+    {
+      "key": "sdmApiName",
+      "value": "Cumulus_Retail_Banking_SDM"
+    },
+    {
+      "key": "loginUrl",
+      "value": "https://login.salesforce.com"
+    }
+  ],
+  "item": [
+    {
+      "name": "0 \u00b7 Auth",
+      "item": [
+        {
+          "name": "OAuth 2.0 token (client credentials via ECA)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{loginUrl}}/services/oauth2/token",
+              "host": [
+                "{{loginUrl}}"
+              ],
+              "path": [
+                "services",
+                "oauth2",
+                "token"
+              ]
+            },
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "grant_type",
+                  "value": "client_credentials"
+                },
+                {
+                  "key": "client_id",
+                  "value": "{{clientId}}"
+                },
+                {
+                  "key": "client_secret",
+                  "value": "{{clientSecret}}"
+                }
+              ]
+            },
+            "description": "Simplest for demos: an External Client App with the Client Credentials flow enabled and a run-as user that has Tableau Next Admin + Data Cloud Architect. Copy access_token into the accessToken variable."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "exec": [
+                  "const j = pm.response.json(); if (j.access_token) { pm.collectionVariables.set('accessToken', j.access_token); pm.collectionVariables.set('instanceUrl', j.instance_url); }"
+                ],
+                "type": "text/javascript"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Frontdoor URL for Embedding SDK",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/oauth2/singleaccess",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "oauth2",
+                "singleaccess"
+              ]
+            },
+            "description": "POST with the bearer token; response.frontdoor_uri is the authCredential for initializeAnalyticsSdk().",
+            "body": {
+              "mode": "raw",
+              "raw": "",
+              "options": {
+                "raw": {
+                  "language": "text"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "1 \u00b7 Tableau Next REST API",
+      "description": "https://developer.salesforce.com/docs/analytics/tableau-next-rest-api/overview",
+      "item": [
+        {
+          "name": "List workspaces",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/workspaces",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "workspaces"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Get workspace",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/workspaces/Cumulus_Retail_Banking",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "workspaces",
+                "Cumulus_Retail_Banking"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "List visualizations",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/visualizations",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "visualizations"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Get visualization",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/visualizations/RB_Cases_By_Channel",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "visualizations",
+                "RB_Cases_By_Channel"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "List dashboards",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/dashboards",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "dashboards"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Get dashboard",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/dashboards/Cumulus_Retail_Banking_Overview",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "dashboards",
+                "Cumulus_Retail_Banking_Overview"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Download visualization image",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/visualizations/RB_Cases_By_Channel/downloads?format=png",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "visualizations",
+                "RB_Cases_By_Channel",
+                "downloads?format=png"
+              ]
+            },
+            "description": "Downloads family \u2014 check the reference for exact parameters."
+          }
+        },
+        {
+          "name": "Follow a dashboard",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/dashboards/Cumulus_Retail_Banking_Overview/followers",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "dashboards",
+                "Cumulus_Retail_Banking_Overview",
+                "followers"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Share a dashboard (record access share)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/dashboards/Cumulus_Retail_Banking_Overview/shares",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "dashboards",
+                "Cumulus_Retail_Banking_Overview",
+                "shares"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"shareType\": \"User\",\n  \"shareWithId\": \"005XXXXXXXXXXXX\",\n  \"accessLevel\": \"View\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Create subscription",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/tableau/subscriptions",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "tableau",
+                "subscriptions"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"assetType\": \"Dashboard\",\n  \"assetId\": \"Cumulus_Retail_Banking_Overview\",\n  \"schedule\": {\n    \"frequency\": \"Weekly\",\n    \"dayOfWeek\": \"Monday\",\n    \"hour\": 8\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "2 \u00b7 Tableau Semantics \u2014 Query API",
+      "description": "https://developer.salesforce.com/docs/data/semantic-layer/guide/query-api-in-depth-overview.html \u2014 requires the CDP Semantic Query permissions.",
+      "item": [
+        {
+          "name": "List semantic models",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/ssot/semantic/models?limit=50",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "ssot",
+                "semantic",
+                "models?limit=50"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Get semantic model (with content)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/ssot/semantic/models/{{sdmApiName}}?includeModelContent=true",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "ssot",
+                "semantic",
+                "models",
+                "{{sdmApiName}}?includeModelContent=true"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "List metrics for a model",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/ssot/semantic/models/{{sdmApiName}}/metrics",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "ssot",
+                "semantic",
+                "models",
+                "{{sdmApiName}}",
+                "metrics"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Semantic query \u2014 cases by channel",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/semantic-engine/gateway",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "semantic-engine",
+                "gateway"
+              ]
+            },
+            "description": "Same query shape the LWC Dashboard Extension SDK uses in fetchDataUsingQueryAndSource().",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"semanticModelApiName\": \"{{sdmApiName}}\",\n  \"structuredSemanticQuery\": {\n    \"fields\": [\n      {\n        \"expression\": {\n          \"tableField\": {\n            \"tableName\": \"rb_service_cases\",\n            \"name\": \"Channel\"\n          }\n        },\n        \"alias\": \"Channel\",\n        \"rowGrouping\": true\n      },\n      {\n        \"expression\": {\n          \"tableField\": {\n            \"tableName\": \"rb_service_cases\",\n            \"name\": \"CaseId\"\n          }\n        },\n        \"alias\": \"Cases\",\n        \"semanticAggregationMethod\": \"SEMANTIC_AGGREGATION_METHOD_UNIQUE_COUNT\"\n      }\n    ],\n    \"options\": {\n      \"limit_options\": {\n        \"limit\": 100\n      }\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Semantic query \u2014 filtered (dispute cases since May 2026)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/semantic-engine/gateway",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "semantic-engine",
+                "gateway"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"semanticModelApiName\": \"{{sdmApiName}}\",\n  \"structuredSemanticQuery\": {\n    \"fields\": [\n      {\n        \"expression\": {\n          \"tableField\": {\n            \"tableName\": \"rb_service_cases\",\n            \"name\": \"BranchId\"\n          }\n        },\n        \"alias\": \"Branch\",\n        \"rowGrouping\": true\n      },\n      {\n        \"expression\": {\n          \"tableField\": {\n            \"tableName\": \"rb_service_cases\",\n            \"name\": \"CaseId\"\n          }\n        },\n        \"alias\": \"Cases\",\n        \"semanticAggregationMethod\": \"SEMANTIC_AGGREGATION_METHOD_UNIQUE_COUNT\"\n      }\n    ],\n    \"filter\": {\n      \"filters\": [\n        {\n          \"fieldName\": \"rb_service_cases.CaseType\",\n          \"operator\": \"Equals\",\n          \"values\": [\n            \"Card Dispute\"\n          ]\n        },\n        {\n          \"fieldName\": \"rb_service_cases.CreatedDate\",\n          \"operator\": \"GreaterThanOrEqualTo\",\n          \"values\": [\n            \"2026-05-01\"\n          ]\n        }\n      ],\n      \"filterLogic\": \"1 AND 2\"\n    },\n    \"options\": {\n      \"limit_options\": {\n        \"limit\": 100\n      }\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "3 \u00b7 App Framework Connect API (App Template Framework)",
+      "description": "Endpoints used by the sf orchestrator plugin (verified from plugin source). Public doc page not located \u2014 treat as preview.",
+      "item": [
+        {
+          "name": "List templates",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/app-framework/templates",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "app-framework",
+                "templates"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Get template",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/app-framework/templates/Cumulus_Retail_Banking_Template",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "app-framework",
+                "templates",
+                "Cumulus_Retail_Banking_Template"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "List apps",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/app-framework/apps",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "app-framework",
+                "apps"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Create app from template",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/app-framework/apps",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "app-framework",
+                "apps"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Cumulus_Retail_Banking_App\",\n  \"label\": \"Cumulus Retail Banking\",\n  \"templateSourceId\": \"<templateId>\",\n  \"runtimeMethod\": \"sync\",\n  \"logLevel\": \"info\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "Evaluate rules (jsonxform)",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "{{instanceUrl}}/services/data/v{{apiVersion}}/jsonxform/transformation",
+              "host": [
+                "{{instanceUrl}}"
+              ],
+              "path": [
+                "services",
+                "data",
+                "v{{apiVersion}}",
+                "jsonxform",
+                "transformation"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"document\": {},\n  \"values\": {},\n  \"rules\": {}\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "4 \u00b7 Tableau Next MCP (hosted)",
+      "description": "Postman MCP request type: URL https://api.salesforce.com/platform/mcp/v1/analytics/tableau-next, transport Streamable HTTP, OAuth 2.0 with PKCE, Client ID = ECA consumer key. Example tool calls below are JSON-RPC bodies for reference.",
+      "item": [
+        {
+          "name": "initialize",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "https://api.salesforce.com/platform/mcp/v1/analytics/tableau-next",
+              "protocol": "https",
+              "host": [
+                "api",
+                "salesforce",
+                "com"
+              ],
+              "path": [
+                "platform",
+                "mcp",
+                "v1",
+                "analytics",
+                "tableau-next"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 1,\n  \"method\": \"initialize\",\n  \"params\": {\n    \"protocolVersion\": \"2025-06-18\",\n    \"capabilities\": {},\n    \"clientInfo\": {\n      \"name\": \"postman\",\n      \"version\": \"1.0\"\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "tools/list",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "https://api.salesforce.com/platform/mcp/v1/analytics/tableau-next",
+              "protocol": "https",
+              "host": [
+                "api",
+                "salesforce",
+                "com"
+              ],
+              "path": [
+                "platform",
+                "mcp",
+                "v1",
+                "analytics",
+                "tableau-next"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 2,\n  \"method\": \"tools/list\"\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "tools/call analyze_data",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "https://api.salesforce.com/platform/mcp/v1/analytics/tableau-next",
+              "protocol": "https",
+              "host": [
+                "api",
+                "salesforce",
+                "com"
+              ],
+              "path": [
+                "platform",
+                "mcp",
+                "v1",
+                "analytics",
+                "tableau-next"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 3,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"analyze_data\",\n    \"arguments\": {\n      \"utterance\": \"Which branches have the most Card Dispute cases since May 2026?\",\n      \"targetEntityType\": \"sdm\",\n      \"targetEntityIdOrApiName\": \"Cumulus_Retail_Banking_SDM\"\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        },
+        {
+          "name": "tools/call search_assets",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer {{accessToken}}"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "url": {
+              "raw": "https://api.salesforce.com/platform/mcp/v1/analytics/tableau-next",
+              "protocol": "https",
+              "host": [
+                "api",
+                "salesforce",
+                "com"
+              ],
+              "path": [
+                "platform",
+                "mcp",
+                "v1",
+                "analytics",
+                "tableau-next"
+              ]
+            },
+            "description": "",
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"id\": 4,\n  \"method\": \"tools/call\",\n  \"params\": {\n    \"name\": \"search_assets\",\n    \"arguments\": {\n      \"searchTerm\": \"Cumulus\"\n    }\n  }\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

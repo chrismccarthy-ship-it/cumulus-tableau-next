@@ -1,0 +1,437 @@
+{
+  "name": "Cumulus_Retail_Banking_create",
+  "label": "Create Cumulus Retail Banking",
+  "description": null,
+  "parameters": {},
+  "dominoVariant": "sfdc_internal__UnifiedAnalyticsDominoVariant",
+  "definition": {
+    "nodes": {
+      "upload_RB_Households": {
+        "referenceId": "upload_RB_Households",
+        "sources": [],
+        "parameters": {
+          "name": "RB_Households_CSV",
+          "file": "csvs/RB_Households.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_RB_Households": {
+        "referenceId": "upsert_RB_Households",
+        "sources": [
+          "upload_RB_Households"
+        ],
+        "parameters": {
+          "name": "RB_Households_DS",
+          "file": "datastreams/RB_Households.json",
+          "dataLakeObject": {
+            "name": "RB_Households_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_RB_Households": {
+        "referenceId": "run_RB_Households",
+        "sources": [
+          "upsert_RB_Households"
+        ],
+        "parameters": {
+          "name": "RB_Households_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_RB_Financial_Accounts": {
+        "referenceId": "upload_RB_Financial_Accounts",
+        "sources": [
+          "run_RB_Households"
+        ],
+        "parameters": {
+          "name": "RB_Financial_Accounts_CSV",
+          "file": "csvs/RB_Financial_Accounts.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_RB_Financial_Accounts": {
+        "referenceId": "upsert_RB_Financial_Accounts",
+        "sources": [
+          "upload_RB_Financial_Accounts"
+        ],
+        "parameters": {
+          "name": "RB_Financial_Accounts_DS",
+          "file": "datastreams/RB_Financial_Accounts.json",
+          "dataLakeObject": {
+            "name": "RB_Financial_Accounts_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_RB_Financial_Accounts": {
+        "referenceId": "run_RB_Financial_Accounts",
+        "sources": [
+          "upsert_RB_Financial_Accounts"
+        ],
+        "parameters": {
+          "name": "RB_Financial_Accounts_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_RB_Transactions": {
+        "referenceId": "upload_RB_Transactions",
+        "sources": [
+          "run_RB_Financial_Accounts"
+        ],
+        "parameters": {
+          "name": "RB_Transactions_CSV",
+          "file": "csvs/RB_Transactions.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_RB_Transactions": {
+        "referenceId": "upsert_RB_Transactions",
+        "sources": [
+          "upload_RB_Transactions"
+        ],
+        "parameters": {
+          "name": "RB_Transactions_DS",
+          "file": "datastreams/RB_Transactions.json",
+          "dataLakeObject": {
+            "name": "RB_Transactions_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_RB_Transactions": {
+        "referenceId": "run_RB_Transactions",
+        "sources": [
+          "upsert_RB_Transactions"
+        ],
+        "parameters": {
+          "name": "RB_Transactions_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_RB_Service_Cases": {
+        "referenceId": "upload_RB_Service_Cases",
+        "sources": [
+          "run_RB_Transactions"
+        ],
+        "parameters": {
+          "name": "RB_Service_Cases_CSV",
+          "file": "csvs/RB_Service_Cases.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_RB_Service_Cases": {
+        "referenceId": "upsert_RB_Service_Cases",
+        "sources": [
+          "upload_RB_Service_Cases"
+        ],
+        "parameters": {
+          "name": "RB_Service_Cases_DS",
+          "file": "datastreams/RB_Service_Cases.json",
+          "dataLakeObject": {
+            "name": "RB_Service_Cases_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_RB_Service_Cases": {
+        "referenceId": "run_RB_Service_Cases",
+        "sources": [
+          "upsert_RB_Service_Cases"
+        ],
+        "parameters": {
+          "name": "RB_Service_Cases_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_RB_Clock": {
+        "referenceId": "upload_RB_Clock",
+        "sources": [
+          "run_RB_Service_Cases"
+        ],
+        "parameters": {
+          "name": "RB_Clock_CSV",
+          "file": "csvs/RB_Clock.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload the settle clock CSV"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_RB_Clock": {
+        "referenceId": "upsert_RB_Clock",
+        "sources": [
+          "upload_RB_Clock"
+        ],
+        "parameters": {
+          "name": "RB_Clock_DS",
+          "file": "datastreams/RB_Clock.json",
+          "dataLakeObject": {
+            "name": "RB_Clock_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create the settle clock stream"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_RB_Clock": {
+        "referenceId": "run_RB_Clock",
+        "sources": [
+          "upsert_RB_Clock"
+        ],
+        "parameters": {
+          "name": "RB_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 1: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "settle_RB_Clock": {
+        "referenceId": "settle_RB_Clock",
+        "sources": [
+          "run_RB_Clock"
+        ],
+        "parameters": {
+          "name": "RB_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 2: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_workspace": {
+        "referenceId": "upsert_workspace",
+        "sources": [
+          "settle_RB_Clock"
+        ],
+        "parameters": {
+          "name": "Cumulus_Retail_Banking_WS",
+          "label": "Cumulus Retail Banking",
+          "file": "workspaces/workspace.json",
+          "condition": "true",
+          "assets": [
+            {
+              "name": "Cumulus_Retail_Banking_SDM",
+              "assetType": "SemanticModel",
+              "usageType": "Referenced"
+            }
+          ]
+        },
+        "graphNodeType": {
+          "name": "WorkspaceUpsert",
+          "label": "Create/Update a Workspace from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_sdm": {
+        "referenceId": "upsert_sdm",
+        "sources": [
+          "upsert_workspace"
+        ],
+        "parameters": {
+          "name": "Cumulus_Retail_Banking_SDM",
+          "label": "Cumulus Retail Banking Model",
+          "file": "sdms/sdm.json",
+          "condition": "true"
+        },
+        "graphNodeType": {
+          "name": "SemanticModelUpsert",
+          "label": null
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_RB_AHT_By_Agentforce": {
+        "referenceId": "upsert_viz_RB_AHT_By_Agentforce",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "RB_AHT_By_Agentforce",
+          "file": "visualizations/RB_AHT_By_Agentforce.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_RB_CSAT_By_Type": {
+        "referenceId": "upsert_viz_RB_CSAT_By_Type",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "RB_CSAT_By_Type",
+          "file": "visualizations/RB_CSAT_By_Type.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_RB_Cases_By_Channel": {
+        "referenceId": "upsert_viz_RB_Cases_By_Channel",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "RB_Cases_By_Channel",
+          "file": "visualizations/RB_Cases_By_Channel.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_RB_Cases_Trend": {
+        "referenceId": "upsert_viz_RB_Cases_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "RB_Cases_Trend",
+          "file": "visualizations/RB_Cases_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_RB_Deposits_By_Segment": {
+        "referenceId": "upsert_viz_RB_Deposits_By_Segment",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "RB_Deposits_By_Segment",
+          "file": "visualizations/RB_Deposits_By_Segment.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_RB_Disputes_By_Branch": {
+        "referenceId": "upsert_viz_RB_Disputes_By_Branch",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "RB_Disputes_By_Branch",
+          "file": "visualizations/RB_Disputes_By_Branch.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_RB_Disputes_Trend": {
+        "referenceId": "upsert_viz_RB_Disputes_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "RB_Disputes_Trend",
+          "file": "visualizations/RB_Disputes_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Retail_Banking_Overview": {
+        "referenceId": "upsert_dash_Cumulus_Retail_Banking_Overview",
+        "sources": [
+          "upsert_viz_RB_AHT_By_Agentforce",
+          "upsert_viz_RB_CSAT_By_Type",
+          "upsert_viz_RB_Cases_By_Channel",
+          "upsert_viz_RB_Cases_Trend",
+          "upsert_viz_RB_Deposits_By_Segment",
+          "upsert_viz_RB_Disputes_By_Branch",
+          "upsert_viz_RB_Disputes_Trend"
+        ],
+        "parameters": {
+          "name": "Cumulus_Retail_Banking_Overview",
+          "label": "Cumulus Retail Banking Overview",
+          "file": "dashboards/Cumulus_Retail_Banking_Overview.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      }
+    }
+  },
+  "finallyDefinition": {
+    "nodes": {}
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "name": "CB_Deals_DS",
+  "label": "CB Deals DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "DealId"
+    },
+    {
+      "dataType": "Text",
+      "name": "DealName"
+    },
+    {
+      "dataType": "Text",
+      "name": "BusinessAccountId"
+    },
+    {
+      "dataType": "Text",
+      "name": "Stage"
+    },
+    {
+      "dataType": "Number",
+      "name": "Amount"
+    },
+    {
+      "dataType": "Text",
+      "name": "Product"
+    },
+    {
+      "dataType": "Date",
+      "name": "CreatedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "CloseDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "OwnerId"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "IsWon"
+    },
+    {
+      "dataType": "Text",
+      "name": "BusinessName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Industry"
+    },
+    {
+      "dataType": "Text",
+      "name": "Segment"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerName"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.CB_Deals_DLO.Name}",
+    "label": "CB Deals DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "DealId",
+        "label": "Deal ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "DealName",
+        "label": "Deal Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BusinessAccountId",
+        "label": "Business Account ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Stage",
+        "label": "Stage"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "Amount",
+        "label": "Amount"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Product",
+        "label": "Product"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CreatedDate",
+        "label": "Created Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CloseDate",
+        "label": "Close Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "OwnerId",
+        "label": "Owner ID"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "IsWon",
+        "label": "Is Won"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BusinessName",
+        "label": "Business Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Industry",
+        "label": "Industry"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Segment",
+        "label": "Segment"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerName",
+        "label": "Relationship Manager Name"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "DealId",
+      "targetFieldName": "DealId"
+    },
+    {
+      "sourceFieldLabel": "DealName",
+      "targetFieldName": "DealName"
+    },
+    {
+      "sourceFieldLabel": "BusinessAccountId",
+      "targetFieldName": "BusinessAccountId"
+    },
+    {
+      "sourceFieldLabel": "Stage",
+      "targetFieldName": "Stage"
+    },
+    {
+      "sourceFieldLabel": "Amount",
+      "targetFieldName": "Amount"
+    },
+    {
+      "sourceFieldLabel": "Product",
+      "targetFieldName": "Product"
+    },
+    {
+      "sourceFieldLabel": "CreatedDate",
+      "targetFieldName": "CreatedDate"
+    },
+    {
+      "sourceFieldLabel": "CloseDate",
+      "targetFieldName": "CloseDate"
+    },
+    {
+      "sourceFieldLabel": "OwnerId",
+      "targetFieldName": "OwnerId"
+    },
+    {
+      "sourceFieldLabel": "IsWon",
+      "targetFieldName": "IsWon"
+    },
+    {
+      "sourceFieldLabel": "BusinessName",
+      "targetFieldName": "BusinessName"
+    },
+    {
+      "sourceFieldLabel": "Industry",
+      "targetFieldName": "Industry"
+    },
+    {
+      "sourceFieldLabel": "Segment",
+      "targetFieldName": "Segment"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerName",
+      "targetFieldName": "RelationshipManagerName"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.CB_Deals_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.CB_Deals_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.CB_Deals_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.CB_Deals_CSV.FileType}"
+  }
+}

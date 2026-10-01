@@ -1,0 +1,412 @@
+{
+  "name": "Cumulus_Asset_Management_Overview",
+  "label": "Cumulus Asset Management Overview ${Variables.LabelSuffix}",
+  "description": "Cumulus Asset Management \u2014 service and business KPIs for the Cumulus Financial Group demo.",
+  "customConfig": {
+    "queryCacheEnabled": true,
+    "queryCacheStaleness": "30min"
+  },
+  "layouts": [
+    {
+      "columnCount": 96,
+      "maxWidth": 1600,
+      "name": "default",
+      "pages": [
+        {
+          "label": "Overview",
+          "name": "overview",
+          "widgets": [
+            {
+              "name": "hdr",
+              "column": 0,
+              "row": 0,
+              "colspan": 96,
+              "rowspan": 6
+            },
+            {
+              "name": "w_AM_KPI_AUM",
+              "column": 0,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_AM_KPI_Requests",
+              "column": 24,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_AM_KPI_Cycle",
+              "column": 48,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_AM_KPI_Pipeline",
+              "column": 72,
+              "row": 6,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "x_bars",
+              "column": 0,
+              "row": 15,
+              "colspan": 28,
+              "rowspan": 34
+            },
+            {
+              "name": "w_AM_Flows_Trend",
+              "column": 28,
+              "row": 15,
+              "colspan": 68,
+              "rowspan": 34
+            },
+            {
+              "name": "w_AM_Cycle_By_Type",
+              "column": 0,
+              "row": 49,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_AM_SLA_Breaches",
+              "column": 32,
+              "row": 49,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_AM_Pipeline_By_Stage",
+              "column": 64,
+              "row": 49,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_AM_AUM_By_Strategy",
+              "column": 0,
+              "row": 77,
+              "colspan": 32,
+              "rowspan": 28
+            }
+          ]
+        }
+      ],
+      "rowHeight": 10,
+      "style": {
+        "backgroundColor": "#EEF2F7",
+        "cellSpacingX": 12,
+        "cellSpacingY": 12,
+        "gutterColor": "#EEF2F7"
+      }
+    }
+  ],
+  "style": {
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#D9E1EC",
+      "borderEdges": [],
+      "borderRadius": 12,
+      "borderWidth": 1
+    }
+  },
+  "widgets": {
+    "hdr": {
+      "actions": [],
+      "name": "hdr",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#032D60",
+              "size": "22px",
+              "bold": true
+            },
+            "insert": "Cumulus Asset Management Overview",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#5C6B82",
+              "size": "13px"
+            },
+            "insert": "",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ]
+      }
+    },
+    "w_AM_KPI_AUM": {
+      "actions": [],
+      "name": "w_AM_KPI_AUM",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.AM_KPI_AUM.Id}",
+        "name": "${App.Visualizations.AM_KPI_AUM.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_AM_KPI_Requests": {
+      "actions": [],
+      "name": "w_AM_KPI_Requests",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.AM_KPI_Requests.Id}",
+        "name": "${App.Visualizations.AM_KPI_Requests.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_AM_KPI_Cycle": {
+      "actions": [],
+      "name": "w_AM_KPI_Cycle",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.AM_KPI_Cycle.Id}",
+        "name": "${App.Visualizations.AM_KPI_Cycle.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_AM_KPI_Pipeline": {
+      "actions": [],
+      "name": "w_AM_KPI_Pipeline",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.AM_KPI_Pipeline.Id}",
+        "name": "${App.Visualizations.AM_KPI_Pipeline.Name}"
+      },
+      "type": "visualization"
+    },
+    "x_bars": {
+      "actions": [],
+      "name": "x_bars",
+      "label": "cumulusRankedBars",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusRankedBars",
+        "properties": {
+          "dimensionField": {
+            "name": "AM_Mandate_Flows.ClientName",
+            "label": "Client Name"
+          },
+          "measureField": {
+            "name": "AM_Mandate_Flows.NetFlow",
+            "aggregation": "Sum",
+            "label": "Net Flow"
+          },
+          "title": "Net flows by client (click to filter)",
+          "topN": 10,
+          "format": "currency",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Asset_Management_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Asset_Management_SDM.Id}",
+            "label": "Cumulus Asset Management Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusRankedBars",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_AM_Flows_Trend": {
+      "actions": [],
+      "name": "w_AM_Flows_Trend",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.AM_Flows_Trend.Id}",
+        "name": "${App.Visualizations.AM_Flows_Trend.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_AM_Cycle_By_Type": {
+      "actions": [],
+      "name": "w_AM_Cycle_By_Type",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.AM_Cycle_By_Type.Id}",
+        "name": "${App.Visualizations.AM_Cycle_By_Type.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_AM_SLA_Breaches": {
+      "actions": [],
+      "name": "w_AM_SLA_Breaches",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.AM_SLA_Breaches.Id}",
+        "name": "${App.Visualizations.AM_SLA_Breaches.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_AM_Pipeline_By_Stage": {
+      "actions": [],
+      "name": "w_AM_Pipeline_By_Stage",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.AM_Pipeline_By_Stage.Id}",
+        "name": "${App.Visualizations.AM_Pipeline_By_Stage.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_AM_AUM_By_Strategy": {
+      "actions": [],
+      "name": "w_AM_AUM_By_Strategy",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.AM_AUM_By_Strategy.Id}",
+        "name": "${App.Visualizations.AM_AUM_By_Strategy.Name}"
+      },
+      "type": "visualization"
+    }
+  },
+  "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Asset_Management_WS.Name}"
+}

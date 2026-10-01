@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Cumulus Bank — Service Command Center (embedded Tableau Next)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --navy:#032d60; --blue:#0b5cab; --bg:#f3f6f9; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color:#2e2e2e; }
+  header { background: var(--navy); color:#fff; padding: 0.9rem 1.5rem; display:flex; align-items:center; justify-content:space-between; }
+  header h1 { font-size: 1.1rem; margin:0; font-weight:600; }
+  header a, header button { color:#fff; background: var(--blue); border:0; border-radius:6px; padding:0.45rem 0.9rem; text-decoration:none; font-size:0.85rem; cursor:pointer; }
+  main { display:grid; grid-template-columns: 1fr 360px; gap: 1rem; padding: 1rem 1.5rem; }
+  .card { background:#fff; border:1px solid #e5e5e5; border-radius:10px; padding: 0.75rem; }
+  .card h2 { font-size:0.9rem; margin:0 0 0.5rem; color:#5c5c5c; text-transform:uppercase; letter-spacing:.04em; }
+  #dashboard-container { min-height: 720px; }
+  #agent-container { height: 640px; }
+  .toolbar { display:flex; gap:.5rem; align-items:center; margin-bottom:.5rem; flex-wrap:wrap; }
+  select, button.small { font: inherit; font-size:.85rem; padding:.35rem .6rem; border:1px solid #c9d6e5; border-radius:6px; background:#fff; }
+  #log { font-family: ui-monospace, Menlo, monospace; font-size:.75rem; background:#0f172a; color:#cbd5e1; padding:.6rem; border-radius:8px; height:160px; overflow:auto; white-space:pre-wrap; }
+  @media (max-width: 1000px) { main { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Cumulus Bank · Service Command Center</h1>
+  <div id="auth"></div>
+</header>
+<main>
+  <section class="card">
+    <h2>Retail banking overview (AnalyticsDashboard)</h2>
+    <div class="toolbar">
+      <label>Branch filter <select id="branch"><option value="">All branches</option><option>Cumulus NY Branch 1</option><option>Cumulus GA Branch 1</option><option>Cumulus CO Branch 1</option></select></label>
+      <button class="small" id="clear">Clear filters</button>
+      <button class="small" id="pages">List pages</button>
+    </div>
+    <div id="dashboard-container"></div>
+  </section>
+  <aside>
+    <div class="card" style="margin-bottom:1rem">
+      <h2>Analytics agent (AnalyticsAgent, dashboard context)</h2>
+      <div id="agent-container"></div>
+    </div>
+    <div class="card">
+      <h2>SDK events</h2>
+      <div id="log"></div>
+    </div>
+  </aside>
+</main>
+
+<script type="module">
+  // Tableau Next Embedding SDK v2 — required since July '26.
+  // Served from node_modules by server.js; in production bundle it with your app.
+  import { initializeAnalyticsSdk, AnalyticsDashboard, AnalyticsAgent, AgentContextType, EventName, analyticsEventTarget }
+    from "/sdk/analytics-embedding-sdk.js";
+
+  const DASHBOARD = "Cumulus_Retail_Banking_Overview"; // API name from the asset URL (…/tableau/dashboard/<name>/view)
+  const AGENT_ID = window.CUMULUS_AGENT_ID || "";          // Analytics & Visualization Agent id (optional)
+  const logEl = document.getElementById("log");
+  const log = (m) => { logEl.textContent += `${new Date().toLocaleTimeString()}  ${m}\n`; logEl.scrollTop = logEl.scrollHeight; };
+
+  const auth = await fetch("/frontdoor").then((r) => (r.ok ? r.json() : null));
+  const authEl = document.getElementById("auth");
+  if (!auth) { authEl.innerHTML = '<a href="/oauth2/auth">Sign in with Salesforce</a>'; log("not signed in"); }
+  else {
+    authEl.innerHTML = '<a href="/logout">Sign out</a>';
+    analyticsEventTarget.addEventListener(EventName.ERROR, (e) => log(`GLOBAL ERROR ${JSON.stringify(e.detail || e)}`));
+    const init = await initializeAnalyticsSdk({ authCredential: auth.authCredential, orgUrl: auth.orgUrl });
+    log(`sdk initialized: ${JSON.stringify(init).slice(0, 200)}`);
+
+    const dashboard = new AnalyticsDashboard({ parentIdOrElement: "dashboard-container", idOrApiName: DASHBOARD });
+    dashboard.addEventListener(EventName.COMPONENT_LOADED, async () => {
+      log("dashboard loaded");
+      log(`filters: ${JSON.stringify(dashboard.getFilters())}`);
+    });
+    dashboard.addEventListener(EventName.UPDATED_FILTERS, (e) => log(`filters updated: ${JSON.stringify(e.detail || "").slice(0, 200)}`));
+    dashboard.addEventListener(EventName.UPDATED_SELECTIONS, (e) => log(`selection: ${JSON.stringify(e.detail || "").slice(0, 200)}`));
+    await dashboard.render();
+
+    // Programmatic filters — UnifiedFilterJson (dataSource = semantic model API name, fieldName = Object.Field)
+    document.getElementById("branch").addEventListener("change", async (ev) => {
+      const v = ev.target.value;
+      if (!v) return dashboard.clearFilters();
+      await dashboard.applyFilters([{ dataSource: window.CUMULUS_SDM || "Cumulus_Retail_Banking_Model_988", fieldName: "RB_Service_Cases.BranchName", operator: "Equals", values: [v] }]);
+    });
+    document.getElementById("clear").addEventListener("click", () => dashboard.clearFilters());
+    document.getElementById("pages").addEventListener("click", async () => log(`pages: ${JSON.stringify(await dashboard.getPages())}`));
+
+    if (AGENT_ID) {
+      const agent = new AnalyticsAgent({ parentIdOrElement: "agent-container", idOrApiName: AGENT_ID,
+        contextConfig: { contextType: AgentContextType.DASHBOARD, contextTypeIdOrApiName: DASHBOARD },
+        showHeader: true, showHeaderActions: true, agentName: "Cumulus Insights", welcomeText: "Ask about cases, disputes, deposits or CSAT." });
+      agent.render();
+    } else {
+      document.getElementById("agent-container").innerHTML = '<p style="font-size:.85rem;color:#5c5c5c">Set <code>window.CUMULUS_AGENT_ID</code> to your Analytics &amp; Visualization Agent id to embed the agent here.</p>';
+    }
+  }
+</script>
+</body>
+</html>

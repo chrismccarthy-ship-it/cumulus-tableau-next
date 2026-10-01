@@ -1,0 +1,424 @@
+{
+  "name": "Cumulus_Lending_create",
+  "label": "Create Cumulus Lending",
+  "description": null,
+  "parameters": {},
+  "dominoVariant": "sfdc_internal__UnifiedAnalyticsDominoVariant",
+  "definition": {
+    "nodes": {
+      "upload_LN_Applications": {
+        "referenceId": "upload_LN_Applications",
+        "sources": [],
+        "parameters": {
+          "name": "LN_Applications_CSV",
+          "file": "csvs/LN_Applications.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_LN_Applications": {
+        "referenceId": "upsert_LN_Applications",
+        "sources": [
+          "upload_LN_Applications"
+        ],
+        "parameters": {
+          "name": "LN_Applications_DS",
+          "file": "datastreams/LN_Applications.json",
+          "dataLakeObject": {
+            "name": "LN_Applications_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_LN_Applications": {
+        "referenceId": "run_LN_Applications",
+        "sources": [
+          "upsert_LN_Applications"
+        ],
+        "parameters": {
+          "name": "LN_Applications_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_LN_Stage_Events": {
+        "referenceId": "upload_LN_Stage_Events",
+        "sources": [
+          "run_LN_Applications"
+        ],
+        "parameters": {
+          "name": "LN_Stage_Events_CSV",
+          "file": "csvs/LN_Stage_Events.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_LN_Stage_Events": {
+        "referenceId": "upsert_LN_Stage_Events",
+        "sources": [
+          "upload_LN_Stage_Events"
+        ],
+        "parameters": {
+          "name": "LN_Stage_Events_DS",
+          "file": "datastreams/LN_Stage_Events.json",
+          "dataLakeObject": {
+            "name": "LN_Stage_Events_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_LN_Stage_Events": {
+        "referenceId": "run_LN_Stage_Events",
+        "sources": [
+          "upsert_LN_Stage_Events"
+        ],
+        "parameters": {
+          "name": "LN_Stage_Events_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_LN_Service_Cases": {
+        "referenceId": "upload_LN_Service_Cases",
+        "sources": [
+          "run_LN_Stage_Events"
+        ],
+        "parameters": {
+          "name": "LN_Service_Cases_CSV",
+          "file": "csvs/LN_Service_Cases.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_LN_Service_Cases": {
+        "referenceId": "upsert_LN_Service_Cases",
+        "sources": [
+          "upload_LN_Service_Cases"
+        ],
+        "parameters": {
+          "name": "LN_Service_Cases_DS",
+          "file": "datastreams/LN_Service_Cases.json",
+          "dataLakeObject": {
+            "name": "LN_Service_Cases_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_LN_Service_Cases": {
+        "referenceId": "run_LN_Service_Cases",
+        "sources": [
+          "upsert_LN_Service_Cases"
+        ],
+        "parameters": {
+          "name": "LN_Service_Cases_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_LN_Clock": {
+        "referenceId": "upload_LN_Clock",
+        "sources": [
+          "run_LN_Service_Cases"
+        ],
+        "parameters": {
+          "name": "LN_Clock_CSV",
+          "file": "csvs/LN_Clock.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload the settle clock CSV"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_LN_Clock": {
+        "referenceId": "upsert_LN_Clock",
+        "sources": [
+          "upload_LN_Clock"
+        ],
+        "parameters": {
+          "name": "LN_Clock_DS",
+          "file": "datastreams/LN_Clock.json",
+          "dataLakeObject": {
+            "name": "LN_Clock_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create the settle clock stream"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_LN_Clock": {
+        "referenceId": "run_LN_Clock",
+        "sources": [
+          "upsert_LN_Clock"
+        ],
+        "parameters": {
+          "name": "LN_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 1: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "settle_LN_Clock": {
+        "referenceId": "settle_LN_Clock",
+        "sources": [
+          "run_LN_Clock"
+        ],
+        "parameters": {
+          "name": "LN_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 2: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_workspace": {
+        "referenceId": "upsert_workspace",
+        "sources": [
+          "settle_LN_Clock"
+        ],
+        "parameters": {
+          "name": "Cumulus_Lending_WS",
+          "label": "Cumulus Lending",
+          "file": "workspaces/workspace.json",
+          "condition": "true",
+          "assets": [
+            {
+              "name": "Cumulus_Lending_SDM",
+              "assetType": "SemanticModel",
+              "usageType": "Referenced"
+            }
+          ]
+        },
+        "graphNodeType": {
+          "name": "WorkspaceUpsert",
+          "label": "Create/Update a Workspace from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_sdm": {
+        "referenceId": "upsert_sdm",
+        "sources": [
+          "upsert_workspace"
+        ],
+        "parameters": {
+          "name": "Cumulus_Lending_SDM",
+          "label": "Cumulus Lending Model",
+          "file": "sdms/sdm.json",
+          "condition": "true"
+        },
+        "graphNodeType": {
+          "name": "SemanticModelUpsert",
+          "label": null
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_Apps_Trend": {
+        "referenceId": "upsert_viz_LN_Apps_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_Apps_Trend",
+          "file": "visualizations/LN_Apps_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_Days_By_Stage": {
+        "referenceId": "upsert_viz_LN_Days_By_Stage",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_Days_By_Stage",
+          "file": "visualizations/LN_Days_By_Stage.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_KPI_Apps": {
+        "referenceId": "upsert_viz_LN_KPI_Apps",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_KPI_Apps",
+          "file": "visualizations/LN_KPI_Apps.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_KPI_Stage": {
+        "referenceId": "upsert_viz_LN_KPI_Stage",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_KPI_Stage",
+          "file": "visualizations/LN_KPI_Stage.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_KPI_TTC": {
+        "referenceId": "upsert_viz_LN_KPI_TTC",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_KPI_TTC",
+          "file": "visualizations/LN_KPI_TTC.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_KPI_Volume": {
+        "referenceId": "upsert_viz_LN_KPI_Volume",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_KPI_Volume",
+          "file": "visualizations/LN_KPI_Volume.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_LO_Leaderboard": {
+        "referenceId": "upsert_viz_LN_LO_Leaderboard",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_LO_Leaderboard",
+          "file": "visualizations/LN_LO_Leaderboard.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_Status_By_Channel": {
+        "referenceId": "upsert_viz_LN_Status_By_Channel",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_Status_By_Channel",
+          "file": "visualizations/LN_Status_By_Channel.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_Volume_By_Product": {
+        "referenceId": "upsert_viz_LN_Volume_By_Product",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_Volume_By_Product",
+          "file": "visualizations/LN_Volume_By_Product.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Lending_Overview": {
+        "referenceId": "upsert_dash_Cumulus_Lending_Overview",
+        "sources": [
+          "upsert_viz_LN_Apps_Trend",
+          "upsert_viz_LN_Days_By_Stage",
+          "upsert_viz_LN_KPI_Apps",
+          "upsert_viz_LN_KPI_Stage",
+          "upsert_viz_LN_KPI_TTC",
+          "upsert_viz_LN_KPI_Volume",
+          "upsert_viz_LN_LO_Leaderboard",
+          "upsert_viz_LN_Status_By_Channel",
+          "upsert_viz_LN_Volume_By_Product"
+        ],
+        "parameters": {
+          "name": "Cumulus_Lending_Overview",
+          "label": "Cumulus Lending Overview",
+          "file": "dashboards/Cumulus_Lending_Overview.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      }
+    }
+  },
+  "finallyDefinition": {
+    "nodes": {}
+  }
+}

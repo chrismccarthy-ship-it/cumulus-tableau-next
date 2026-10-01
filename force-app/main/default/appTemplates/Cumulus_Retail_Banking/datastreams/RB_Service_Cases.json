@@ -1,0 +1,351 @@
+{
+  "name": "RB_Service_Cases_DS",
+  "label": "RB Service Cases DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "CaseId"
+    },
+    {
+      "dataType": "Text",
+      "name": "CustomerId"
+    },
+    {
+      "dataType": "Text",
+      "name": "FinancialAccountId"
+    },
+    {
+      "dataType": "Date",
+      "name": "CreatedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "ClosedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "Channel"
+    },
+    {
+      "dataType": "Text",
+      "name": "CaseType"
+    },
+    {
+      "dataType": "Text",
+      "name": "SubType"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Text",
+      "name": "Priority"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "FirstContactResolution"
+    },
+    {
+      "dataType": "Number",
+      "name": "CSAT"
+    },
+    {
+      "dataType": "Number",
+      "name": "HandleTimeMinutes"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchId"
+    },
+    {
+      "dataType": "Text",
+      "name": "AgentId"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "AgentforceHandled"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "AgentName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AgentTeam"
+    },
+    {
+      "dataType": "Text",
+      "name": "CustomerName"
+    },
+    {
+      "dataType": "Date",
+      "name": "CreatedMonth",
+      "format": "yyyy-MM-dd"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.RB_Service_Cases_DLO.Name}",
+    "label": "RB Service Cases DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "CaseId",
+        "label": "Case ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CustomerId",
+        "label": "Customer ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "FinancialAccountId",
+        "label": "Financial Account ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CreatedDate",
+        "label": "Created Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "ClosedDate",
+        "label": "Closed Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Channel",
+        "label": "Channel"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CaseType",
+        "label": "Case Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "SubType",
+        "label": "Sub Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Priority",
+        "label": "Priority"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "FirstContactResolution",
+        "label": "First Contact Resolution"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CSAT",
+        "label": "CSAT"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "HandleTimeMinutes",
+        "label": "Handle Time Minutes"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchId",
+        "label": "Branch ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AgentId",
+        "label": "Agent ID"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "AgentforceHandled",
+        "label": "Agentforce Handled"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchName",
+        "label": "Branch Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AgentName",
+        "label": "Agent Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AgentTeam",
+        "label": "Agent Team"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CustomerName",
+        "label": "Customer Name"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CreatedMonth",
+        "label": "Created Month"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "CaseId",
+      "targetFieldName": "CaseId"
+    },
+    {
+      "sourceFieldLabel": "CustomerId",
+      "targetFieldName": "CustomerId"
+    },
+    {
+      "sourceFieldLabel": "FinancialAccountId",
+      "targetFieldName": "FinancialAccountId"
+    },
+    {
+      "sourceFieldLabel": "CreatedDate",
+      "targetFieldName": "CreatedDate"
+    },
+    {
+      "sourceFieldLabel": "ClosedDate",
+      "targetFieldName": "ClosedDate"
+    },
+    {
+      "sourceFieldLabel": "Channel",
+      "targetFieldName": "Channel"
+    },
+    {
+      "sourceFieldLabel": "CaseType",
+      "targetFieldName": "CaseType"
+    },
+    {
+      "sourceFieldLabel": "SubType",
+      "targetFieldName": "SubType"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "Priority",
+      "targetFieldName": "Priority"
+    },
+    {
+      "sourceFieldLabel": "FirstContactResolution",
+      "targetFieldName": "FirstContactResolution"
+    },
+    {
+      "sourceFieldLabel": "CSAT",
+      "targetFieldName": "CSAT"
+    },
+    {
+      "sourceFieldLabel": "HandleTimeMinutes",
+      "targetFieldName": "HandleTimeMinutes"
+    },
+    {
+      "sourceFieldLabel": "BranchId",
+      "targetFieldName": "BranchId"
+    },
+    {
+      "sourceFieldLabel": "AgentId",
+      "targetFieldName": "AgentId"
+    },
+    {
+      "sourceFieldLabel": "AgentforceHandled",
+      "targetFieldName": "AgentforceHandled"
+    },
+    {
+      "sourceFieldLabel": "BranchName",
+      "targetFieldName": "BranchName"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "AgentName",
+      "targetFieldName": "AgentName"
+    },
+    {
+      "sourceFieldLabel": "AgentTeam",
+      "targetFieldName": "AgentTeam"
+    },
+    {
+      "sourceFieldLabel": "CustomerName",
+      "targetFieldName": "CustomerName"
+    },
+    {
+      "sourceFieldLabel": "CreatedMonth",
+      "targetFieldName": "CreatedMonth"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.RB_Service_Cases_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.RB_Service_Cases_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.RB_Service_Cases_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.RB_Service_Cases_CSV.FileType}"
+  }
+}

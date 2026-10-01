@@ -1,0 +1,29 @@
+{
+  "label": "Cumulus Asset Management",
+  "description": "Institutional client service view: AUM and flows by strategy, deal pipeline, SLA attainment and request cycle time (quarter-end reconciliation story).",
+  "releaseInfo": {
+    "templateVersion": "1.0",
+    "notesFile": null
+  },
+  "templateType": "App",
+  "templateSubtype": null,
+  "name": "Cumulus_Asset_Management",
+  "namespace": null,
+  "assetVersion": 67.0,
+  "maxAppCount": null,
+  "icons": {
+    "templatePreviews": [],
+    "layoutImages": []
+  },
+  "variableDefinition": "variables.json",
+  "layoutDefinition": "layout.json",
+  "tags": {},
+  "chainDefinitions": [
+    {
+      "type": "Create",
+      "name": null,
+      "file": "create-chain.json"
+    }
+  ],
+  "templateStatus": null
+}

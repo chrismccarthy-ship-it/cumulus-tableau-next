@@ -1,0 +1,9 @@
+{
+  "orgName": "Cumulus Tableau Next Dev",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi", "DataCloud", "TableauNext"],
+  "settings": {
+    "lightningExperienceSettings": { "enableS1DesktopEnabled": true },
+    "mobileSettings": { "enableS1EncryptedStoragePref2": false }
+  }
+}

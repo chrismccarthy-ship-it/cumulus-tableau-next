@@ -1,0 +1,209 @@
+{
+  "name": "FA_Activities_DS",
+  "label": "FA Activities DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "ActivityId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientHouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorId"
+    },
+    {
+      "dataType": "Date",
+      "name": "ActivityDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "ActivityType"
+    },
+    {
+      "dataType": "Text",
+      "name": "Outcome"
+    },
+    {
+      "dataType": "Number",
+      "name": "DurationMinutes"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorName"
+    },
+    {
+      "dataType": "Text",
+      "name": "LifeStage"
+    },
+    {
+      "dataType": "Number",
+      "name": "AUM"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.FA_Activities_DLO.Name}",
+    "label": "FA Activities DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "ActivityId",
+        "label": "Activity ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientHouseholdId",
+        "label": "Client Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorId",
+        "label": "Advisor ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "ActivityDate",
+        "label": "Activity Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ActivityType",
+        "label": "Activity Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Outcome",
+        "label": "Outcome"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "DurationMinutes",
+        "label": "Duration Minutes"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdName",
+        "label": "Household Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorName",
+        "label": "Advisor Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LifeStage",
+        "label": "Life Stage"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "AUM",
+        "label": "AUM"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "ActivityId",
+      "targetFieldName": "ActivityId"
+    },
+    {
+      "sourceFieldLabel": "ClientHouseholdId",
+      "targetFieldName": "ClientHouseholdId"
+    },
+    {
+      "sourceFieldLabel": "AdvisorId",
+      "targetFieldName": "AdvisorId"
+    },
+    {
+      "sourceFieldLabel": "ActivityDate",
+      "targetFieldName": "ActivityDate"
+    },
+    {
+      "sourceFieldLabel": "ActivityType",
+      "targetFieldName": "ActivityType"
+    },
+    {
+      "sourceFieldLabel": "Outcome",
+      "targetFieldName": "Outcome"
+    },
+    {
+      "sourceFieldLabel": "DurationMinutes",
+      "targetFieldName": "DurationMinutes"
+    },
+    {
+      "sourceFieldLabel": "HouseholdName",
+      "targetFieldName": "HouseholdName"
+    },
+    {
+      "sourceFieldLabel": "AdvisorName",
+      "targetFieldName": "AdvisorName"
+    },
+    {
+      "sourceFieldLabel": "LifeStage",
+      "targetFieldName": "LifeStage"
+    },
+    {
+      "sourceFieldLabel": "AUM",
+      "targetFieldName": "AUM"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.FA_Activities_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.FA_Activities_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.FA_Activities_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.FA_Activities_CSV.FileType}"
+  }
+}

@@ -1,0 +1,501 @@
+DealId,DealName,BusinessAccountId,Stage,Amount,Product,CreatedDate,CloseDate,OwnerId,IsWon,BusinessName,Industry,Segment,Region,RelationshipManagerName
+CB-DL-00001,Meridian Builders 593 — Revolver,CB-BA-00593,Closed Lost,1525790.68,Treasury,2025-01-28,2025-03-21,E-0182,false,Meridian Builders 593,Agriculture,Middle Market,Midwest,Luis Ashford
+CB-DL-00002,Bluewater Group 406 — Term Loan,CB-BA-00406,Qualification,878354.92,Credit + Treasury,2025-05-16,2026-01-04,E-0192,false,Bluewater Group 406,Logistics,Middle Market,Northeast,Noah Nelson
+CB-DL-00003,Keystone Logistics 447 — Term Loan,CB-BA-00447,Closed Won,2040724.42,Credit,2025-11-10,2025-12-01,E-0201,true,Keystone Logistics 447,Hospitality,Corporate,Northeast,Luis Silva
+CB-DL-00004,Bluewater Builders 385 — Term Loan,CB-BA-00385,Proposal,1319079.55,Credit + Treasury,2025-05-17,2025-09-05,E-0194,false,Bluewater Builders 385,Healthcare,Middle Market,Pacific,Rosa Miller
+CB-DL-00005,Redwood Group 98 — Term Loan,CB-BA-00098,Documentation,2627344.82,Credit,2025-03-14,2025-09-26,E-0205,false,Redwood Group 98,Technology,Middle Market,Mountain West,Fatima Patel
+CB-DL-00006,Northwind Health 383 — CRE,CB-BA-00383,Documentation,8899297.69,Credit,2025-01-03,2025-01-28,E-0189,false,Northwind Health 383,Agriculture,Small Business,Midwest,Priya Martinez
+CB-DL-00007,Northwind Partners 463 — CRE,CB-BA-00463,Closed Won,938701.86,Credit + Treasury,2025-06-26,2026-01-15,E-0184,true,Northwind Partners 463,Hospitality,Small Business,Midwest,Sofia Bailey
+CB-DL-00008,Ironwood Holdings 50 — Revolver,CB-BA-00050,Closed Won,2078653.7,Credit + Treasury,2026-06-27,2026-10-24,E-0193,true,Ironwood Holdings 50,Manufacturing,Small Business,Midwest,Julian Collins
+CB-DL-00009,Keystone Partners 58 — Term Loan,CB-BA-00058,Qualification,4587873.39,Credit,2025-05-01,2025-11-27,E-0191,false,Keystone Partners 58,Construction,Small Business,Pacific,Nina Scott
+CB-DL-00010,Granite Holdings 81 — Revolver,CB-BA-00081,Credit Approval,5418878.22,Treasury,2025-08-31,2025-09-22,E-0189,false,Granite Holdings 81,Retail,Corporate,Mountain West,Priya Martinez
+CB-DL-00011,Summit Health 272 — Treasury Bundle,CB-BA-00272,Credit Approval,2513403.22,Credit + Treasury,2025-03-01,2025-09-02,E-0191,false,Summit Health 272,Hospitality,Middle Market,Northeast,Nina Scott
+CB-DL-00012,PayCadence Logistics 301 — Term Loan,CB-BA-00301,Closed Lost,1910322.34,Treasury,2025-12-11,2026-05-27,E-0199,false,PayCadence Logistics 301,Hospitality,Small Business,Pacific,Hannah Roberts
+CB-DL-00013,PayCadence Logistics 186 — Equipment,CB-BA-00186,Closed Won,3276460.63,Credit + Treasury,2025-12-02,2026-03-28,E-0200,true,PayCadence Logistics 186,Technology,Corporate,Pacific,Owen Okafor
+CB-DL-00014,Summit Foods 21 — Equipment,CB-BA-00021,Qualification,3401865.66,Credit,2026-08-10,2026-09-03,E-0195,false,Summit Foods 21,Healthcare,Middle Market,Pacific,Grace Martinez
+CB-DL-00015,Granite Group 9 — Treasury Bundle,CB-BA-00009,Qualification,3916688.87,Credit,2026-04-13,2026-09-05,E-0201,false,Granite Group 9,Agriculture,Small Business,Pacific,Luis Silva
+CB-DL-00016,PayCadence Industries 599 — Revolver,CB-BA-00599,Qualification,25813624.8,Treasury,2025-04-12,2025-06-10,E-0188,false,PayCadence Industries 599,Retail,Small Business,Northeast,Tom Silva
+CB-DL-00017,Granite Systems 4 — Term Loan,CB-BA-00004,Closed Won,3568670.47,Treasury,2026-08-21,2027-03-09,E-0199,true,Granite Systems 4,Agriculture,Small Business,Pacific,Hannah Roberts
+CB-DL-00018,Redwood Logistics 306 — CRE,CB-BA-00306,Closed Lost,1924997.18,Credit + Treasury,2025-12-30,2026-03-14,E-0184,false,Redwood Logistics 306,Logistics,Small Business,Southeast,Sofia Bailey
+CB-DL-00019,Keystone Health 561 — Revolver,CB-BA-00561,Closed Won,1388309.79,Credit + Treasury,2025-10-13,2026-06-02,E-0189,true,Keystone Health 561,Construction,Small Business,Midwest,Priya Martinez
+CB-DL-00020,Redwood Systems 475 — Treasury Bundle,CB-BA-00475,Closed Lost,389315.72,Credit + Treasury,2026-08-14,2027-02-03,E-0205,false,Redwood Systems 475,Manufacturing,Small Business,Pacific,Fatima Patel
+CB-DL-00021,Redwood Industries 62 — Treasury Bundle,CB-BA-00062,Closed Won,11042121.93,Credit,2025-05-24,2025-09-16,E-0197,true,Redwood Industries 62,Agriculture,Middle Market,Southeast,Maya Ashford
+CB-DL-00022,Granite Health 248 — Equipment,CB-BA-00248,Proposal,2011622.55,Treasury,2025-04-09,2025-09-22,E-0199,false,Granite Health 248,Retail,Middle Market,Midwest,Hannah Roberts
+CB-DL-00023,Keystone Holdings 45 — Revolver,CB-BA-00045,Qualification,2045889.03,Credit + Treasury,2025-12-14,2026-02-12,E-0189,false,Keystone Holdings 45,Manufacturing,Middle Market,Pacific,Priya Martinez
+CB-DL-00024,Granite Systems 510 — Revolver,CB-BA-00510,Closed Lost,827022.3,Credit,2026-02-08,2026-05-29,E-0202,false,Granite Systems 510,Technology,Small Business,Southeast,Noah Carter
+CB-DL-00025,Summit Health 197 — Revolver,CB-BA-00197,Proposal,2463101.17,Credit,2026-06-11,2026-10-22,E-0197,false,Summit Health 197,Manufacturing,Middle Market,Northeast,Maya Ashford
+CB-DL-00026,Bluewater Partners 277 — CRE,CB-BA-00277,Closed Won,2082960.15,Credit + Treasury,2025-08-30,2026-01-24,E-0194,true,Bluewater Partners 277,Construction,Middle Market,Southeast,Rosa Miller
+CB-DL-00027,PayCadence Systems 314 — Equipment,CB-BA-00314,Credit Approval,1087228.91,Credit + Treasury,2025-03-17,2025-07-14,E-0196,false,PayCadence Systems 314,Manufacturing,Corporate,Midwest,Grace Bailey
+CB-DL-00028,Northwind Holdings 130 — Equipment,CB-BA-00130,Closed Lost,14050492.78,Treasury,2025-10-10,2026-05-10,E-0199,false,Northwind Holdings 130,Professional Services,Middle Market,Southeast,Hannah Roberts
+CB-DL-00029,Granite Builders 545 — Revolver,CB-BA-00545,Credit Approval,2650675.06,Credit,2025-09-13,2025-12-06,E-0183,false,Granite Builders 545,Hospitality,Middle Market,Midwest,Iris Kim
+CB-DL-00030,PayCadence Group 211 — Revolver,CB-BA-00211,Documentation,5187554.68,Credit,2025-09-25,2026-05-09,E-0192,false,PayCadence Group 211,Professional Services,Small Business,Mountain West,Noah Nelson
+CB-DL-00031,Bluewater Logistics 576 — Equipment,CB-BA-00576,Closed Won,1024404.97,Credit,2026-04-05,2026-08-16,E-0201,true,Bluewater Logistics 576,Hospitality,Middle Market,Southeast,Luis Silva
+CB-DL-00032,Ironwood Holdings 142 — Revolver,CB-BA-00142,Closed Won,1755025.81,Treasury,2025-03-19,2025-06-06,E-0204,true,Ironwood Holdings 142,Agriculture,Middle Market,Pacific,Iris Clark
+CB-DL-00033,Keystone Systems 310 — CRE,CB-BA-00310,Closed Lost,221589.59,Credit,2026-08-27,2027-03-18,E-0194,false,Keystone Systems 310,Logistics,Small Business,Northeast,Rosa Miller
+CB-DL-00034,Harbor Builders 79 — Treasury Bundle,CB-BA-00079,Qualification,5768730.86,Credit + Treasury,2026-07-03,2027-02-04,E-0192,false,Harbor Builders 79,Healthcare,Small Business,Southeast,Noah Nelson
+CB-DL-00035,Summit Holdings 419 — Revolver,CB-BA-00419,Documentation,1208845.05,Credit,2025-05-16,2025-12-13,E-0197,false,Summit Holdings 419,Healthcare,Middle Market,Northeast,Maya Ashford
+CB-DL-00036,Meridian Logistics 233 — Term Loan,CB-BA-00233,Proposal,10731133.22,Treasury,2025-07-11,2026-02-13,E-0183,false,Meridian Logistics 233,Agriculture,Small Business,Midwest,Iris Kim
+CB-DL-00037,Meridian Industries 450 — Equipment,CB-BA-00450,Qualification,1698166.67,Credit,2025-05-05,2025-10-21,E-0195,false,Meridian Industries 450,Technology,Middle Market,Mountain West,Grace Martinez
+CB-DL-00038,Meridian Health 600 — Treasury Bundle,CB-BA-00600,Documentation,949873.7,Credit,2026-07-12,2026-12-13,E-0181,false,Meridian Health 600,Technology,Middle Market,Pacific,Wei Thomas
+CB-DL-00039,PayCadence Holdings 172 — Term Loan,CB-BA-00172,Closed Won,1354067.67,Treasury,2025-11-11,2026-05-01,E-0183,true,PayCadence Holdings 172,Construction,Corporate,Mountain West,Iris Kim
+CB-DL-00040,Summit Systems 403 — Revolver,CB-BA-00403,Qualification,3955592.77,Credit,2026-02-28,2026-06-16,E-0182,false,Summit Systems 403,Technology,Small Business,Midwest,Luis Ashford
+CB-DL-00041,Redwood Group 14 — Treasury Bundle,CB-BA-00014,Documentation,1343993.15,Credit,2026-04-07,2026-04-28,E-0191,false,Redwood Group 14,Retail,Small Business,Northeast,Nina Scott
+CB-DL-00042,Harbor Foods 290 — Revolver,CB-BA-00290,Documentation,912341.14,Treasury,2025-11-28,2026-07-16,E-0193,false,Harbor Foods 290,Logistics,Middle Market,Mountain West,Julian Collins
+CB-DL-00043,PayCadence Partners 428 — Term Loan,CB-BA-00428,Qualification,3552429.84,Credit + Treasury,2026-05-14,2026-09-18,E-0194,false,PayCadence Partners 428,Logistics,Middle Market,Pacific,Rosa Miller
+CB-DL-00044,Granite Partners 484 — Equipment,CB-BA-00484,Qualification,1439317.17,Treasury,2026-06-04,2026-12-16,E-0189,false,Granite Partners 484,Construction,Small Business,Midwest,Priya Martinez
+CB-DL-00045,PayCadence Foods 390 — Revolver,CB-BA-00390,Qualification,3962643.96,Credit,2026-04-21,2026-11-09,E-0199,false,PayCadence Foods 390,Healthcare,Middle Market,Pacific,Hannah Roberts
+CB-DL-00046,Keystone Health 323 — CRE,CB-BA-00323,Proposal,4585759.32,Credit + Treasury,2025-04-28,2025-06-15,E-0196,false,Keystone Health 323,Technology,Small Business,Mountain West,Grace Bailey
+CB-DL-00047,PayCadence Health 280 — Equipment,CB-BA-00280,Closed Won,1320547.95,Credit,2025-08-25,2025-10-12,E-0187,true,PayCadence Health 280,Agriculture,Small Business,Northeast,Leo King
+CB-DL-00048,Redwood Partners 2 — Term Loan,CB-BA-00002,Closed Won,10870527.48,Credit + Treasury,2025-08-20,2025-09-19,E-0187,true,Redwood Partners 2,Technology,Middle Market,Pacific,Leo King
+CB-DL-00049,Summit Builders 531 — CRE,CB-BA-00531,Documentation,2705504.02,Credit + Treasury,2026-06-08,2026-09-09,E-0185,false,Summit Builders 531,Agriculture,Middle Market,Pacific,Mei Hall
+CB-DL-00050,Ironwood Holdings 50 — CRE,CB-BA-00050,Qualification,171928.08,Credit,2026-03-11,2026-10-20,E-0193,false,Ironwood Holdings 50,Manufacturing,Small Business,Midwest,Julian Collins
+CB-DL-00051,Keystone Logistics 568 — Revolver,CB-BA-00568,Proposal,4962714.15,Treasury,2026-01-08,2026-05-07,E-0191,false,Keystone Logistics 568,Logistics,Small Business,Southeast,Nina Scott
+CB-DL-00052,Ironwood Logistics 55 — Treasury Bundle,CB-BA-00055,Credit Approval,13724418.59,Credit,2025-12-30,2026-06-04,E-0205,false,Ironwood Logistics 55,Professional Services,Middle Market,Southeast,Fatima Patel
+CB-DL-00053,PayCadence Logistics 258 — Term Loan,CB-BA-00258,Closed Won,3251602.07,Treasury,2026-06-18,2026-11-26,E-0203,true,PayCadence Logistics 258,Healthcare,Small Business,Northeast,Fatima Okafor
+CB-DL-00054,Ironwood Health 132 — Term Loan,CB-BA-00132,Credit Approval,1755577.21,Treasury,2025-12-13,2026-06-06,E-0188,false,Ironwood Health 132,Retail,Small Business,Pacific,Tom Silva
+CB-DL-00055,Northwind Partners 176 — Revolver,CB-BA-00176,Closed Lost,1208026.52,Credit,2025-08-02,2025-10-23,E-0187,false,Northwind Partners 176,Construction,Small Business,Mountain West,Leo King
+CB-DL-00056,Redwood Group 231 — Revolver,CB-BA-00231,Credit Approval,2159727.07,Credit + Treasury,2026-08-31,2027-02-20,E-0186,false,Redwood Group 231,Healthcare,Middle Market,Southeast,Hannah Young
+CB-DL-00057,Bluewater Health 78 — Revolver,CB-BA-00078,Qualification,342202.4,Credit + Treasury,2026-07-16,2027-01-04,E-0200,false,Bluewater Health 78,Professional Services,Small Business,Northeast,Owen Okafor
+CB-DL-00058,Redwood Holdings 440 — Term Loan,CB-BA-00440,Credit Approval,1317630.42,Credit,2025-06-17,2025-12-07,E-0203,false,Redwood Holdings 440,Hospitality,Small Business,Northeast,Fatima Okafor
+CB-DL-00059,Bluewater Health 470 — Equipment,CB-BA-00470,Proposal,47529108.03,Credit + Treasury,2025-05-21,2025-10-13,E-0188,false,Bluewater Health 470,Hospitality,Small Business,Southeast,Tom Silva
+CB-DL-00060,Harbor Logistics 461 — Treasury Bundle,CB-BA-00461,Credit Approval,424305.79,Treasury,2026-06-30,2026-09-06,E-0191,false,Harbor Logistics 461,Construction,Small Business,Midwest,Nina Scott
+CB-DL-00061,Meridian Builders 32 — Term Loan,CB-BA-00032,Documentation,1610639.95,Credit + Treasury,2026-05-08,2026-06-13,E-0197,false,Meridian Builders 32,Retail,Corporate,Midwest,Maya Ashford
+CB-DL-00062,Northwind Logistics 594 — Term Loan,CB-BA-00594,Closed Lost,1136025.61,Credit + Treasury,2025-10-19,2025-12-22,E-0190,false,Northwind Logistics 594,Retail,Small Business,Southeast,Layla Carter
+CB-DL-00063,Granite Builders 545 — Treasury Bundle,CB-BA-00545,Proposal,4428154.12,Treasury,2025-05-12,2025-11-27,E-0183,false,Granite Builders 545,Hospitality,Middle Market,Midwest,Iris Kim
+CB-DL-00064,Redwood Systems 416 — Term Loan,CB-BA-00416,Qualification,2343899.84,Credit,2025-09-15,2026-01-07,E-0204,false,Redwood Systems 416,Construction,Middle Market,Southeast,Iris Clark
+CB-DL-00065,Northwind Holdings 122 — Term Loan,CB-BA-00122,Closed Won,607263.04,Credit,2025-12-22,2026-06-26,E-0191,true,Northwind Holdings 122,Healthcare,Middle Market,Southeast,Nina Scott
+CB-DL-00066,Meridian Holdings 85 — Equipment,CB-BA-00085,Documentation,1736295.37,Credit + Treasury,2026-07-16,2026-08-08,E-0202,false,Meridian Holdings 85,Construction,Middle Market,Southeast,Noah Carter
+CB-DL-00067,Redwood Group 98 — Revolver,CB-BA-00098,Credit Approval,6254666.65,Credit + Treasury,2025-12-14,2026-02-12,E-0205,false,Redwood Group 98,Technology,Middle Market,Mountain West,Fatima Patel
+CB-DL-00068,Granite Health 265 — CRE,CB-BA-00265,Proposal,1470391.13,Treasury,2025-12-21,2026-07-22,E-0185,false,Granite Health 265,Logistics,Corporate,Mountain West,Mei Hall
+CB-DL-00069,Summit Partners 191 — Term Loan,CB-BA-00191,Documentation,265388.02,Credit + Treasury,2025-06-07,2026-01-24,E-0192,false,Summit Partners 191,Manufacturing,Middle Market,Northeast,Noah Nelson
+CB-DL-00070,Keystone Holdings 156 — Term Loan,CB-BA-00156,Closed Won,1945481.88,Credit,2026-07-15,2027-02-05,E-0186,true,Keystone Holdings 156,Technology,Middle Market,Southeast,Hannah Young
+CB-DL-00071,Northwind Builders 173 — Term Loan,CB-BA-00173,Documentation,900109.73,Credit + Treasury,2025-07-25,2025-08-26,E-0190,false,Northwind Builders 173,Logistics,Small Business,Southeast,Layla Carter
+CB-DL-00072,Bluewater Foods 332 — CRE,CB-BA-00332,Closed Won,2073727.64,Credit,2025-03-08,2025-10-24,E-0201,true,Bluewater Foods 332,Retail,Small Business,Pacific,Luis Silva
+CB-DL-00073,Redwood Builders 480 — CRE,CB-BA-00480,Closed Lost,443003.78,Credit + Treasury,2026-06-04,2026-07-26,E-0203,false,Redwood Builders 480,Professional Services,Middle Market,Northeast,Fatima Okafor
+CB-DL-00074,Meridian Builders 321 — CRE,CB-BA-00321,Credit Approval,3651851.31,Credit,2025-08-02,2026-02-27,E-0199,false,Meridian Builders 321,Construction,Middle Market,Midwest,Hannah Roberts
+CB-DL-00075,Summit Group 235 — Treasury Bundle,CB-BA-00235,Closed Lost,1410590.4,Credit,2026-03-04,2026-06-01,E-0201,false,Summit Group 235,Professional Services,Small Business,Northeast,Luis Silva
+CB-DL-00076,Meridian Group 538 — Treasury Bundle,CB-BA-00538,Qualification,5981422.92,Credit,2026-02-14,2026-05-21,E-0197,false,Meridian Group 538,Technology,Small Business,Pacific,Maya Ashford
+CB-DL-00077,PayCadence Systems 347 — CRE,CB-BA-00347,Credit Approval,716595.89,Credit,2025-04-16,2025-11-16,E-0196,false,PayCadence Systems 347,Professional Services,Small Business,Southeast,Grace Bailey
+CB-DL-00078,Northwind Industries 518 — Term Loan,CB-BA-00518,Credit Approval,2111887.62,Credit,2025-07-25,2026-01-10,E-0197,false,Northwind Industries 518,Agriculture,Small Business,Northeast,Maya Ashford
+CB-DL-00079,Bluewater Partners 285 — Revolver,CB-BA-00285,Proposal,363858.75,Credit + Treasury,2026-06-13,2026-11-12,E-0184,false,Bluewater Partners 285,Manufacturing,Small Business,Mountain West,Sofia Bailey
+CB-DL-00080,PayCadence Group 198 — Term Loan,CB-BA-00198,Closed Lost,2523613.09,Treasury,2026-05-18,2026-10-06,E-0182,false,PayCadence Group 198,Retail,Small Business,Southeast,Luis Ashford
+CB-DL-00081,Keystone Health 323 — Term Loan,CB-BA-00323,Qualification,2760051.6,Treasury,2025-06-20,2025-12-25,E-0196,false,Keystone Health 323,Technology,Small Business,Mountain West,Grace Bailey
+CB-DL-00082,Redwood Holdings 136 — CRE,CB-BA-00136,Closed Lost,2555576.86,Credit + Treasury,2025-03-08,2025-08-22,E-0203,false,Redwood Holdings 136,Retail,Middle Market,Midwest,Fatima Okafor
+CB-DL-00083,Ironwood Partners 73 — Equipment,CB-BA-00073,Closed Lost,2280378.82,Credit + Treasury,2026-05-30,2026-12-06,E-0202,false,Ironwood Partners 73,Agriculture,Small Business,Pacific,Noah Carter
+CB-DL-00084,Meridian Foods 582 — Revolver,CB-BA-00582,Proposal,8984052.54,Credit + Treasury,2025-06-05,2026-01-30,E-0203,false,Meridian Foods 582,Manufacturing,Small Business,Northeast,Fatima Okafor
+CB-DL-00085,Keystone Systems 366 — Term Loan,CB-BA-00366,Closed Won,992930.49,Credit,2026-04-07,2026-05-07,E-0189,true,Keystone Systems 366,Professional Services,Small Business,Northeast,Priya Martinez
+CB-DL-00086,Redwood Industries 299 — Equipment,CB-BA-00299,Qualification,305636.87,Treasury,2026-02-03,2026-04-18,E-0186,false,Redwood Industries 299,Technology,Small Business,Mountain West,Hannah Young
+CB-DL-00087,Summit Builders 370 — Equipment,CB-BA-00370,Closed Lost,2031539.36,Credit,2026-05-02,2026-11-17,E-0199,false,Summit Builders 370,Professional Services,Middle Market,Mountain West,Hannah Roberts
+CB-DL-00088,Meridian Logistics — Treasury Bundle,CB-BA-00001,Closed Won,1482269.07,Credit,2026-07-18,2027-02-15,E-0189,true,Meridian Logistics,Hospitality,Small Business,Midwest,Priya Martinez
+CB-DL-00089,PayCadence Industries 317 — Revolver,CB-BA-00317,Proposal,2201283.95,Credit + Treasury,2025-07-04,2025-09-25,E-0187,false,PayCadence Industries 317,Logistics,Middle Market,Midwest,Leo King
+CB-DL-00090,Granite Health 260 — CRE,CB-BA-00260,Closed Lost,13931004.59,Treasury,2026-08-07,2026-09-12,E-0193,false,Granite Health 260,Agriculture,Corporate,Southeast,Julian Collins
+CB-DL-00091,Summit Builders 531 — CRE,CB-BA-00531,Closed Won,1438690.48,Credit,2025-02-05,2025-04-26,E-0185,true,Summit Builders 531,Agriculture,Middle Market,Pacific,Mei Hall
+CB-DL-00092,Meridian Foods 474 — Revolver,CB-BA-00474,Proposal,2365740.87,Treasury,2026-07-19,2027-03-07,E-0196,false,Meridian Foods 474,Manufacturing,Small Business,Pacific,Grace Bailey
+CB-DL-00093,Ironwood Builders 488 — Revolver,CB-BA-00488,Closed Won,725665.22,Treasury,2026-01-15,2026-04-17,E-0184,true,Ironwood Builders 488,Construction,Corporate,Pacific,Sofia Bailey
+CB-DL-00094,Summit Industries 591 — Revolver,CB-BA-00591,Closed Won,3394019.81,Credit + Treasury,2025-11-06,2026-03-13,E-0184,true,Summit Industries 591,Construction,Corporate,Mountain West,Sofia Bailey
+CB-DL-00095,Keystone Logistics 448 — Term Loan,CB-BA-00448,Proposal,580087.06,Treasury,2025-02-14,2025-09-24,E-0205,false,Keystone Logistics 448,Hospitality,Middle Market,Southeast,Fatima Patel
+CB-DL-00096,Summit Builders 370 — Equipment,CB-BA-00370,Closed Won,1374237.56,Treasury,2025-03-17,2025-04-28,E-0199,true,Summit Builders 370,Professional Services,Middle Market,Mountain West,Hannah Roberts
+CB-DL-00097,Summit Logistics 438 — Term Loan,CB-BA-00438,Closed Won,5624979.05,Credit,2026-04-23,2026-11-01,E-0204,true,Summit Logistics 438,Manufacturing,Middle Market,Southeast,Iris Clark
+CB-DL-00098,PayCadence Systems 347 — Revolver,CB-BA-00347,Credit Approval,520335.11,Credit,2025-12-17,2026-07-28,E-0196,false,PayCadence Systems 347,Professional Services,Small Business,Southeast,Grace Bailey
+CB-DL-00099,PayCadence Foods 390 — Revolver,CB-BA-00390,Proposal,8943527.85,Credit,2025-03-02,2025-05-30,E-0199,false,PayCadence Foods 390,Healthcare,Middle Market,Pacific,Hannah Roberts
+CB-DL-00100,Harbor Industries 398 — CRE,CB-BA-00398,Qualification,1074735.21,Credit + Treasury,2025-07-19,2026-03-12,E-0201,false,Harbor Industries 398,Hospitality,Small Business,Northeast,Luis Silva
+CB-DL-00101,Bluewater Logistics 226 — Treasury Bundle,CB-BA-00226,Proposal,2623433.86,Credit,2025-12-11,2026-07-02,E-0186,false,Bluewater Logistics 226,Retail,Small Business,Southeast,Hannah Young
+CB-DL-00102,Granite Foods 572 — Treasury Bundle,CB-BA-00572,Qualification,14089310.24,Credit,2025-01-04,2025-05-25,E-0194,false,Granite Foods 572,Professional Services,Small Business,Pacific,Rosa Miller
+CB-DL-00103,Meridian Partners 375 — Term Loan,CB-BA-00375,Qualification,674583.24,Credit,2025-11-28,2026-05-13,E-0181,false,Meridian Partners 375,Manufacturing,Corporate,Southeast,Wei Thomas
+CB-DL-00104,Ironwood Health 410 — Term Loan,CB-BA-00410,Closed Lost,6259111.02,Credit,2026-04-15,2026-08-05,E-0181,false,Ironwood Health 410,Professional Services,Small Business,Pacific,Wei Thomas
+CB-DL-00105,Summit Builders 225 — Revolver,CB-BA-00225,Proposal,2437498.33,Credit,2025-04-17,2025-11-30,E-0184,false,Summit Builders 225,Logistics,Small Business,Mountain West,Sofia Bailey
+CB-DL-00106,Redwood Systems 297 — CRE,CB-BA-00297,Credit Approval,545045.13,Credit + Treasury,2026-07-23,2027-01-10,E-0193,false,Redwood Systems 297,Technology,Corporate,Pacific,Julian Collins
+CB-DL-00107,Meridian Holdings 85 — Treasury Bundle,CB-BA-00085,Credit Approval,6022628.2,Credit + Treasury,2026-07-29,2026-10-17,E-0202,false,Meridian Holdings 85,Construction,Middle Market,Southeast,Noah Carter
+CB-DL-00108,Bluewater Health 23 — Term Loan,CB-BA-00023,Closed Won,27788555.93,Treasury,2025-07-08,2025-08-03,E-0190,true,Bluewater Health 23,Logistics,Middle Market,Midwest,Layla Carter
+CB-DL-00109,Redwood Group 29 — Treasury Bundle,CB-BA-00029,Proposal,1728344.87,Credit + Treasury,2025-03-13,2025-09-30,E-0187,false,Redwood Group 29,Manufacturing,Small Business,Pacific,Leo King
+CB-DL-00110,Bluewater Holdings 294 — Treasury Bundle,CB-BA-00294,Credit Approval,2735414.99,Treasury,2025-02-10,2025-05-25,E-0195,false,Bluewater Holdings 294,Construction,Corporate,Southeast,Grace Martinez
+CB-DL-00111,PayCadence Holdings 302 — Revolver,CB-BA-00302,Closed Lost,2268826.8,Credit,2025-08-10,2026-02-03,E-0200,false,PayCadence Holdings 302,Professional Services,Middle Market,Southeast,Owen Okafor
+CB-DL-00112,Northwind Logistics 528 — CRE,CB-BA-00528,Qualification,10349259.86,Credit,2026-05-13,2026-09-26,E-0195,false,Northwind Logistics 528,Construction,Middle Market,Northeast,Grace Martinez
+CB-DL-00113,Bluewater Holdings 294 — Treasury Bundle,CB-BA-00294,Closed Lost,319463.42,Credit + Treasury,2025-01-01,2025-08-22,E-0195,false,Bluewater Holdings 294,Construction,Corporate,Southeast,Grace Martinez
+CB-DL-00114,Bluewater Foods 75 — Equipment,CB-BA-00075,Documentation,1738273.18,Credit,2025-11-11,2026-01-11,E-0199,false,Bluewater Foods 75,Hospitality,Middle Market,Southeast,Hannah Roberts
+CB-DL-00115,Redwood Industries 299 — CRE,CB-BA-00299,Documentation,2593552.03,Credit,2025-02-11,2025-08-18,E-0186,false,Redwood Industries 299,Technology,Small Business,Mountain West,Hannah Young
+CB-DL-00116,Meridian Foods 575 — Treasury Bundle,CB-BA-00575,Qualification,26145864.47,Treasury,2025-10-17,2026-02-17,E-0201,false,Meridian Foods 575,Healthcare,Middle Market,Southeast,Luis Silva
+CB-DL-00117,Ironwood Health 145 — Term Loan,CB-BA-00145,Closed Won,2607415.74,Credit,2025-03-19,2025-04-18,E-0196,true,Ironwood Health 145,Professional Services,Middle Market,Northeast,Grace Bailey
+CB-DL-00118,Harbor Industries 287 — CRE,CB-BA-00287,Documentation,496026.81,Credit + Treasury,2026-08-18,2026-12-29,E-0200,false,Harbor Industries 287,Manufacturing,Middle Market,Midwest,Owen Okafor
+CB-DL-00119,Granite Logistics 60 — Revolver,CB-BA-00060,Closed Won,4372005.99,Treasury,2026-07-29,2027-03-22,E-0192,true,Granite Logistics 60,Manufacturing,Small Business,Midwest,Noah Nelson
+CB-DL-00120,Redwood Industries 138 — Equipment,CB-BA-00138,Credit Approval,935278.41,Credit,2025-11-26,2026-01-23,E-0204,false,Redwood Industries 138,Logistics,Middle Market,Pacific,Iris Clark
+CB-DL-00121,Summit Holdings 414 — Equipment,CB-BA-00414,Closed Won,2924976.89,Credit + Treasury,2026-01-13,2026-03-22,E-0201,true,Summit Holdings 414,Healthcare,Middle Market,Pacific,Luis Silva
+CB-DL-00122,Ironwood Logistics 437 — Term Loan,CB-BA-00437,Closed Lost,1275976.53,Treasury,2026-02-28,2026-09-20,E-0195,false,Ironwood Logistics 437,Technology,Small Business,Northeast,Grace Martinez
+CB-DL-00123,Ironwood Logistics 437 — CRE,CB-BA-00437,Closed Won,713667.27,Credit,2026-02-03,2026-04-06,E-0195,true,Ironwood Logistics 437,Technology,Small Business,Northeast,Grace Martinez
+CB-DL-00124,Bluewater Builders 80 — Equipment,CB-BA-00080,Closed Won,12834930.03,Credit,2026-03-15,2026-06-12,E-0185,true,Bluewater Builders 80,Technology,Middle Market,Mountain West,Mei Hall
+CB-DL-00125,Redwood Health 100 — CRE,CB-BA-00100,Credit Approval,620174.61,Credit,2025-02-04,2025-03-24,E-0202,false,Redwood Health 100,Healthcare,Small Business,Southeast,Noah Carter
+CB-DL-00126,Redwood Holdings 274 — Treasury Bundle,CB-BA-00274,Closed Won,538071.91,Credit + Treasury,2025-04-21,2025-10-10,E-0189,true,Redwood Holdings 274,Construction,Small Business,Northeast,Priya Martinez
+CB-DL-00127,Northwind Builders 546 — Equipment,CB-BA-00546,Qualification,519526.56,Credit + Treasury,2025-05-21,2025-09-12,E-0195,false,Northwind Builders 546,Manufacturing,Middle Market,Pacific,Grace Martinez
+CB-DL-00128,Harbor Holdings 573 — Term Loan,CB-BA-00573,Closed Lost,3518262.52,Treasury,2026-02-14,2026-09-20,E-0193,false,Harbor Holdings 573,Healthcare,Small Business,Midwest,Julian Collins
+CB-DL-00129,Redwood Foods 348 — Equipment,CB-BA-00348,Closed Won,1003272.92,Credit + Treasury,2026-01-18,2026-02-21,E-0197,true,Redwood Foods 348,Healthcare,Small Business,Northeast,Maya Ashford
+CB-DL-00130,Ironwood Health 530 — Equipment,CB-BA-00530,Qualification,2879086.38,Credit + Treasury,2025-08-25,2025-09-21,E-0201,false,Ironwood Health 530,Hospitality,Corporate,Mountain West,Luis Silva
+CB-DL-00131,Summit Builders 225 — Revolver,CB-BA-00225,Qualification,1439211.32,Credit + Treasury,2025-01-13,2025-08-17,E-0184,false,Summit Builders 225,Logistics,Small Business,Mountain West,Sofia Bailey
+CB-DL-00132,Ironwood Builders 506 — Term Loan,CB-BA-00506,Documentation,1125863.94,Treasury,2026-01-13,2026-08-31,E-0201,false,Ironwood Builders 506,Agriculture,Middle Market,Mountain West,Luis Silva
+CB-DL-00133,Harbor Foods 290 — Revolver,CB-BA-00290,Closed Lost,2369679.25,Credit + Treasury,2025-10-30,2026-02-11,E-0193,false,Harbor Foods 290,Logistics,Middle Market,Mountain West,Julian Collins
+CB-DL-00134,Ironwood Health 204 — Treasury Bundle,CB-BA-00204,Credit Approval,1488166.91,Treasury,2025-09-24,2026-01-06,E-0189,false,Ironwood Health 204,Hospitality,Small Business,Pacific,Priya Martinez
+CB-DL-00135,Redwood Group 231 — Term Loan,CB-BA-00231,Proposal,537882.06,Treasury,2026-01-20,2026-05-16,E-0186,false,Redwood Group 231,Healthcare,Middle Market,Southeast,Hannah Young
+CB-DL-00136,Meridian Foods 407 — Term Loan,CB-BA-00407,Qualification,3067366.27,Treasury,2025-01-02,2025-06-03,E-0205,false,Meridian Foods 407,Professional Services,Middle Market,Southeast,Fatima Patel
+CB-DL-00137,Harbor Systems 441 — Revolver,CB-BA-00441,Qualification,1505919.49,Treasury,2025-08-28,2026-03-27,E-0199,false,Harbor Systems 441,Agriculture,Small Business,Mountain West,Hannah Roberts
+CB-DL-00138,Bluewater Health 185 — Term Loan,CB-BA-00185,Qualification,1023045.22,Treasury,2025-03-05,2025-04-04,E-0194,false,Bluewater Health 185,Professional Services,Middle Market,Pacific,Rosa Miller
+CB-DL-00139,Ironwood Industries 242 — Equipment,CB-BA-00242,Closed Lost,12709709.15,Treasury,2025-06-25,2026-01-10,E-0204,false,Ironwood Industries 242,Retail,Small Business,Pacific,Iris Clark
+CB-DL-00140,Redwood Partners 166 — Treasury Bundle,CB-BA-00166,Credit Approval,6498551.92,Credit + Treasury,2025-05-20,2025-06-20,E-0190,false,Redwood Partners 166,Technology,Middle Market,Midwest,Layla Carter
+CB-DL-00141,PayCadence Systems 341 — Equipment,CB-BA-00341,Proposal,1066506.76,Credit,2025-03-12,2025-05-14,E-0194,false,PayCadence Systems 341,Construction,Corporate,Midwest,Rosa Miller
+CB-DL-00142,Harbor Systems 473 — Treasury Bundle,CB-BA-00473,Credit Approval,1085645.09,Credit + Treasury,2025-07-24,2025-11-18,E-0205,false,Harbor Systems 473,Agriculture,Small Business,Mountain West,Fatima Patel
+CB-DL-00143,PayCadence Logistics 301 — Treasury Bundle,CB-BA-00301,Qualification,3534038.02,Credit + Treasury,2025-08-15,2025-10-30,E-0199,false,PayCadence Logistics 301,Hospitality,Small Business,Pacific,Hannah Roberts
+CB-DL-00144,Northwind Group 464 — Treasury Bundle,CB-BA-00464,Qualification,1735591.07,Credit,2025-07-31,2025-10-15,E-0200,false,Northwind Group 464,Construction,Middle Market,Pacific,Owen Okafor
+CB-DL-00145,PayCadence Logistics 258 — Revolver,CB-BA-00258,Qualification,6980684.39,Treasury,2026-06-20,2026-09-06,E-0203,false,PayCadence Logistics 258,Healthcare,Small Business,Northeast,Fatima Okafor
+CB-DL-00146,Ironwood Industries 128 — Treasury Bundle,CB-BA-00128,Proposal,3760938.24,Treasury,2025-05-30,2025-07-27,E-0204,false,Ironwood Industries 128,Logistics,Middle Market,Southeast,Iris Clark
+CB-DL-00147,Meridian Builders 415 — Revolver,CB-BA-00415,Closed Won,22756746.07,Credit + Treasury,2025-08-04,2026-01-13,E-0193,true,Meridian Builders 415,Agriculture,Middle Market,Mountain West,Julian Collins
+CB-DL-00148,Harbor Group 400 — Term Loan,CB-BA-00400,Closed Lost,1629134.62,Treasury,2025-11-01,2026-06-28,E-0194,false,Harbor Group 400,Healthcare,Middle Market,Mountain West,Rosa Miller
+CB-DL-00149,Ironwood Industries 491 — Term Loan,CB-BA-00491,Proposal,5651486.46,Credit + Treasury,2025-09-04,2026-04-24,E-0192,false,Ironwood Industries 491,Technology,Middle Market,Midwest,Noah Nelson
+CB-DL-00150,Ironwood Holdings 483 — Equipment,CB-BA-00483,Credit Approval,3037209.66,Treasury,2025-05-25,2025-09-22,E-0188,false,Ironwood Holdings 483,Professional Services,Middle Market,Southeast,Tom Silva
+CB-DL-00151,Northwind Partners 457 — Term Loan,CB-BA-00457,Closed Won,1890750.63,Credit,2025-03-14,2025-04-12,E-0187,true,Northwind Partners 457,Construction,Small Business,Pacific,Leo King
+CB-DL-00152,Redwood Holdings 137 — CRE,CB-BA-00137,Closed Won,376147.5,Credit + Treasury,2026-08-18,2026-11-18,E-0201,true,Redwood Holdings 137,Technology,Middle Market,Midwest,Luis Silva
+CB-DL-00153,Ironwood Health 253 — Treasury Bundle,CB-BA-00253,Qualification,728017.21,Treasury,2025-08-28,2026-03-13,E-0193,false,Ironwood Health 253,Healthcare,Small Business,Northeast,Julian Collins
+CB-DL-00154,Bluewater Systems 209 — Equipment,CB-BA-00209,Qualification,2955948.1,Credit + Treasury,2025-02-08,2025-06-01,E-0189,false,Bluewater Systems 209,Construction,Small Business,Midwest,Priya Martinez
+CB-DL-00155,PayCadence Logistics 418 — Revolver,CB-BA-00418,Proposal,883414.06,Treasury,2026-07-15,2027-02-18,E-0182,false,PayCadence Logistics 418,Technology,Middle Market,Mountain West,Luis Ashford
+CB-DL-00156,Granite Partners 580 — Equipment,CB-BA-00580,Proposal,757743.89,Credit,2025-06-10,2025-10-25,E-0182,false,Granite Partners 580,Professional Services,Small Business,Northeast,Luis Ashford
+CB-DL-00157,Summit Holdings 419 — Revolver,CB-BA-00419,Proposal,1403402.49,Credit + Treasury,2026-08-04,2026-10-03,E-0197,false,Summit Holdings 419,Healthcare,Middle Market,Northeast,Maya Ashford
+CB-DL-00158,Summit Logistics 508 — CRE,CB-BA-00508,Closed Lost,1138579.39,Credit,2026-06-28,2026-11-11,E-0182,false,Summit Logistics 508,Logistics,Small Business,Pacific,Luis Ashford
+CB-DL-00159,PayCadence Partners 428 — Term Loan,CB-BA-00428,Documentation,2373000.45,Treasury,2026-01-06,2026-03-30,E-0194,false,PayCadence Partners 428,Logistics,Middle Market,Pacific,Rosa Miller
+CB-DL-00160,Summit Foods 288 — Equipment,CB-BA-00288,Qualification,2929756.15,Credit + Treasury,2025-03-21,2025-10-03,E-0193,false,Summit Foods 288,Logistics,Middle Market,Midwest,Julian Collins
+CB-DL-00161,PayCadence Systems 150 — Treasury Bundle,CB-BA-00150,Proposal,4233789.83,Treasury,2025-10-16,2026-03-04,E-0201,false,PayCadence Systems 150,Manufacturing,Small Business,Northeast,Luis Silva
+CB-DL-00162,PayCadence Health 280 — Revolver,CB-BA-00280,Closed Won,1346878.0,Treasury,2026-04-28,2026-09-04,E-0187,true,PayCadence Health 280,Agriculture,Small Business,Northeast,Leo King
+CB-DL-00163,Ironwood Holdings 445 — Equipment,CB-BA-00445,Closed Won,2375153.04,Treasury,2025-12-09,2026-04-25,E-0187,true,Ironwood Holdings 445,Agriculture,Small Business,Midwest,Leo King
+CB-DL-00164,Keystone Holdings 45 — Equipment,CB-BA-00045,Closed Won,2023193.55,Treasury,2025-12-20,2026-06-21,E-0189,true,Keystone Holdings 45,Manufacturing,Middle Market,Pacific,Priya Martinez
+CB-DL-00165,Keystone Logistics 177 — Term Loan,CB-BA-00177,Closed Lost,574856.6,Treasury,2025-09-30,2025-10-27,E-0205,false,Keystone Logistics 177,Healthcare,Middle Market,Midwest,Fatima Patel
+CB-DL-00166,Bluewater Logistics 188 — Term Loan,CB-BA-00188,Credit Approval,2739066.7,Treasury,2025-02-15,2025-06-08,E-0193,false,Bluewater Logistics 188,Construction,Middle Market,Pacific,Julian Collins
+CB-DL-00167,Meridian Builders 415 — Equipment,CB-BA-00415,Closed Lost,1065008.04,Credit + Treasury,2026-01-30,2026-04-20,E-0193,false,Meridian Builders 415,Agriculture,Middle Market,Mountain West,Julian Collins
+CB-DL-00168,Summit Group 235 — Treasury Bundle,CB-BA-00235,Closed Won,1282726.25,Credit,2026-01-28,2026-06-18,E-0201,true,Summit Group 235,Professional Services,Small Business,Northeast,Luis Silva
+CB-DL-00169,Granite Foods 572 — Revolver,CB-BA-00572,Closed Won,336821.56,Credit + Treasury,2025-01-01,2025-04-23,E-0194,true,Granite Foods 572,Professional Services,Small Business,Pacific,Rosa Miller
+CB-DL-00170,PayCadence Logistics 418 — Term Loan,CB-BA-00418,Credit Approval,1189538.91,Credit,2026-04-02,2026-06-19,E-0182,false,PayCadence Logistics 418,Technology,Middle Market,Mountain West,Luis Ashford
+CB-DL-00171,PayCadence Foods 390 — Treasury Bundle,CB-BA-00390,Proposal,618152.93,Credit,2025-06-27,2025-11-17,E-0199,false,PayCadence Foods 390,Healthcare,Middle Market,Pacific,Hannah Roberts
+CB-DL-00172,Northwind Holdings 213 — Revolver,CB-BA-00213,Closed Lost,736725.39,Treasury,2025-10-29,2026-01-07,E-0183,false,Northwind Holdings 213,Retail,Small Business,Mountain West,Iris Kim
+CB-DL-00173,Meridian Logistics — Term Loan,CB-BA-00001,Closed Won,244808.37,Credit,2025-05-29,2025-09-12,E-0189,true,Meridian Logistics,Hospitality,Small Business,Midwest,Priya Martinez
+CB-DL-00174,Ironwood Group 10 — Revolver,CB-BA-00010,Credit Approval,3679042.4,Credit,2025-11-17,2026-06-15,E-0195,false,Ironwood Group 10,Logistics,Small Business,Southeast,Grace Martinez
+CB-DL-00175,Bluewater Health 68 — Treasury Bundle,CB-BA-00068,Credit Approval,8277030.7,Treasury,2025-09-04,2026-04-08,E-0203,false,Bluewater Health 68,Professional Services,Middle Market,Northeast,Fatima Okafor
+CB-DL-00176,Ironwood Holdings 422 — CRE,CB-BA-00422,Proposal,2153661.12,Credit,2026-08-25,2026-12-17,E-0182,false,Ironwood Holdings 422,Hospitality,Middle Market,Northeast,Luis Ashford
+CB-DL-00177,Bluewater Holdings 30 — Revolver,CB-BA-00030,Proposal,320354.76,Treasury,2025-05-26,2025-10-23,E-0193,false,Bluewater Holdings 30,Technology,Corporate,Pacific,Julian Collins
+CB-DL-00178,Redwood Health 256 — Equipment,CB-BA-00256,Closed Won,2116938.37,Credit + Treasury,2026-01-30,2026-04-05,E-0200,true,Redwood Health 256,Technology,Middle Market,Northeast,Owen Okafor
+CB-DL-00179,Keystone Partners 143 — Equipment,CB-BA-00143,Proposal,1245531.79,Credit,2026-07-23,2027-01-22,E-0191,false,Keystone Partners 143,Hospitality,Small Business,Northeast,Nina Scott
+CB-DL-00180,Redwood Group 14 — Equipment,CB-BA-00014,Proposal,2975477.2,Treasury,2025-06-19,2025-09-21,E-0191,false,Redwood Group 14,Retail,Small Business,Northeast,Nina Scott
+CB-DL-00181,Redwood Partners 166 — CRE,CB-BA-00166,Closed Won,16956964.86,Credit,2025-08-31,2025-11-13,E-0190,true,Redwood Partners 166,Technology,Middle Market,Midwest,Layla Carter
+CB-DL-00182,Granite Partners 477 — Equipment,CB-BA-00477,Closed Lost,2502839.5,Treasury,2025-09-28,2026-02-14,E-0200,false,Granite Partners 477,Construction,Middle Market,Mountain West,Owen Okafor
+CB-DL-00183,Ironwood Holdings 483 — CRE,CB-BA-00483,Qualification,2642886.82,Credit + Treasury,2025-09-19,2025-10-13,E-0188,false,Ironwood Holdings 483,Professional Services,Middle Market,Southeast,Tom Silva
+CB-DL-00184,Granite Health 330 — Term Loan,CB-BA-00330,Closed Won,3012264.06,Treasury,2025-02-17,2025-05-30,E-0188,true,Granite Health 330,Professional Services,Small Business,Southeast,Tom Silva
+CB-DL-00185,Northwind Holdings 346 — Treasury Bundle,CB-BA-00346,Qualification,789864.75,Credit,2025-12-26,2026-08-08,E-0189,false,Northwind Holdings 346,Manufacturing,Small Business,Pacific,Priya Martinez
+CB-DL-00186,Harbor Logistics 461 — CRE,CB-BA-00461,Qualification,1209059.74,Treasury,2026-03-12,2026-09-22,E-0191,false,Harbor Logistics 461,Construction,Small Business,Midwest,Nina Scott
+CB-DL-00187,Northwind Group 505 — Treasury Bundle,CB-BA-00505,Proposal,514049.21,Credit,2026-02-06,2026-05-06,E-0185,false,Northwind Group 505,Agriculture,Small Business,Midwest,Mei Hall
+CB-DL-00188,Redwood Industries 62 — Treasury Bundle,CB-BA-00062,Qualification,682246.72,Treasury,2026-04-03,2026-10-27,E-0197,false,Redwood Industries 62,Agriculture,Middle Market,Southeast,Maya Ashford
+CB-DL-00189,Keystone Builders 485 — Treasury Bundle,CB-BA-00485,Qualification,6261280.69,Credit,2025-03-05,2025-09-21,E-0193,false,Keystone Builders 485,Construction,Corporate,Northeast,Julian Collins
+CB-DL-00190,PayCadence Logistics 377 — CRE,CB-BA-00377,Proposal,1128526.12,Treasury,2026-02-22,2026-04-22,E-0198,false,PayCadence Logistics 377,Manufacturing,Middle Market,Mountain West,Iris Allen
+CB-DL-00191,Harbor Holdings 64 — Revolver,CB-BA-00064,Proposal,1926914.3,Credit,2025-04-04,2025-08-15,E-0204,false,Harbor Holdings 64,Professional Services,Small Business,Mountain West,Iris Clark
+CB-DL-00192,Northwind Partners 463 — Term Loan,CB-BA-00463,Closed Won,1630255.44,Treasury,2025-04-20,2025-08-23,E-0184,true,Northwind Partners 463,Hospitality,Small Business,Midwest,Sofia Bailey
+CB-DL-00193,Summit Health 293 — Revolver,CB-BA-00293,Closed Won,1306958.27,Credit,2026-04-27,2026-06-04,E-0182,true,Summit Health 293,Hospitality,Middle Market,Midwest,Luis Ashford
+CB-DL-00194,Northwind Health 383 — Term Loan,CB-BA-00383,Qualification,2180440.37,Credit + Treasury,2026-02-25,2026-08-27,E-0189,false,Northwind Health 383,Agriculture,Small Business,Midwest,Priya Martinez
+CB-DL-00195,Granite Holdings 432 — Revolver,CB-BA-00432,Closed Won,3468114.54,Treasury,2026-03-24,2026-06-18,E-0195,true,Granite Holdings 432,Construction,Small Business,Northeast,Grace Martinez
+CB-DL-00196,Bluewater Logistics 188 — Equipment,CB-BA-00188,Qualification,231232.32,Treasury,2025-01-04,2025-08-13,E-0193,false,Bluewater Logistics 188,Construction,Middle Market,Pacific,Julian Collins
+CB-DL-00197,Harbor Holdings 389 — Equipment,CB-BA-00389,Proposal,931410.7,Credit,2026-02-05,2026-05-06,E-0199,false,Harbor Holdings 389,Technology,Small Business,Midwest,Hannah Roberts
+CB-DL-00198,Granite Systems 170 — Treasury Bundle,CB-BA-00170,Proposal,1663683.58,Credit + Treasury,2025-11-06,2026-04-27,E-0189,false,Granite Systems 170,Hospitality,Small Business,Midwest,Priya Martinez
+CB-DL-00199,Harbor Industries 245 — Revolver,CB-BA-00245,Credit Approval,4059584.07,Treasury,2025-12-16,2026-04-28,E-0197,false,Harbor Industries 245,Professional Services,Middle Market,Northeast,Maya Ashford
+CB-DL-00200,Keystone Foods 292 — Revolver,CB-BA-00292,Qualification,944003.2,Credit,2025-03-19,2025-08-16,E-0187,false,Keystone Foods 292,Professional Services,Small Business,Southeast,Leo King
+CB-DL-00201,Redwood Builders 212 — Equipment,CB-BA-00212,Closed Won,9184821.91,Credit + Treasury,2026-02-09,2026-03-12,E-0194,true,Redwood Builders 212,Logistics,Corporate,Mountain West,Rosa Miller
+CB-DL-00202,Meridian Logistics — Equipment,CB-BA-00001,Closed Won,1028500.14,Credit,2026-02-05,2026-06-03,E-0189,true,Meridian Logistics,Hospitality,Small Business,Midwest,Priya Martinez
+CB-DL-00203,Meridian Health 535 — Term Loan,CB-BA-00535,Credit Approval,1572697.62,Credit + Treasury,2026-02-02,2026-04-01,E-0204,false,Meridian Health 535,Retail,Small Business,Northeast,Iris Clark
+CB-DL-00204,Summit Group 235 — Revolver,CB-BA-00235,Qualification,3282502.37,Credit,2025-11-30,2026-07-17,E-0201,false,Summit Group 235,Professional Services,Small Business,Northeast,Luis Silva
+CB-DL-00205,Granite Health 433 — Term Loan,CB-BA-00433,Credit Approval,4414785.25,Credit,2025-02-08,2025-06-23,E-0186,false,Granite Health 433,Construction,Middle Market,Midwest,Hannah Young
+CB-DL-00206,Keystone Partners 157 — CRE,CB-BA-00157,Proposal,793647.51,Credit,2025-09-12,2026-03-05,E-0202,false,Keystone Partners 157,Agriculture,Middle Market,Midwest,Noah Carter
+CB-DL-00207,Keystone Health 250 — Equipment,CB-BA-00250,Credit Approval,1025192.22,Credit + Treasury,2025-05-08,2025-06-06,E-0190,false,Keystone Health 250,Professional Services,Small Business,Northeast,Layla Carter
+CB-DL-00208,Bluewater Builders 80 — Equipment,CB-BA-00080,Credit Approval,2154459.41,Credit,2025-02-01,2025-03-21,E-0185,false,Bluewater Builders 80,Technology,Middle Market,Mountain West,Mei Hall
+CB-DL-00209,Granite Logistics 482 — CRE,CB-BA-00482,Closed Won,843227.14,Treasury,2026-04-02,2026-07-11,E-0196,true,Granite Logistics 482,Manufacturing,Small Business,Northeast,Grace Bailey
+CB-DL-00210,Keystone Logistics 448 — Equipment,CB-BA-00448,Documentation,7763086.56,Credit,2026-07-02,2026-11-17,E-0205,false,Keystone Logistics 448,Hospitality,Middle Market,Southeast,Fatima Patel
+CB-DL-00211,Granite Partners 484 — CRE,CB-BA-00484,Qualification,637567.43,Credit,2026-02-06,2026-09-28,E-0189,false,Granite Partners 484,Construction,Small Business,Midwest,Priya Martinez
+CB-DL-00212,Summit Holdings 471 — Term Loan,CB-BA-00471,Credit Approval,254792.41,Credit,2025-02-18,2025-04-13,E-0194,false,Summit Holdings 471,Technology,Small Business,Midwest,Rosa Miller
+CB-DL-00213,Meridian Partners 375 — Treasury Bundle,CB-BA-00375,Qualification,2789836.76,Credit + Treasury,2026-02-05,2026-05-09,E-0181,false,Meridian Partners 375,Manufacturing,Corporate,Southeast,Wei Thomas
+CB-DL-00214,Harbor Builders 79 — Treasury Bundle,CB-BA-00079,Qualification,3297059.83,Credit + Treasury,2026-02-19,2026-07-18,E-0192,false,Harbor Builders 79,Healthcare,Small Business,Southeast,Noah Nelson
+CB-DL-00215,Bluewater Group 406 — Equipment,CB-BA-00406,Closed Won,1941003.89,Credit,2025-06-20,2025-11-22,E-0192,true,Bluewater Group 406,Logistics,Middle Market,Northeast,Noah Nelson
+CB-DL-00216,PayCadence Logistics 439 — CRE,CB-BA-00439,Closed Won,556271.92,Treasury,2026-07-29,2027-03-09,E-0202,true,PayCadence Logistics 439,Construction,Small Business,Mountain West,Noah Carter
+CB-DL-00217,Redwood Group 119 — Revolver,CB-BA-00119,Proposal,13217651.05,Credit,2025-04-27,2025-09-19,E-0204,false,Redwood Group 119,Construction,Small Business,Mountain West,Iris Clark
+CB-DL-00218,PayCadence Industries 558 — Treasury Bundle,CB-BA-00558,Closed Lost,107824.76,Credit,2025-09-21,2025-12-26,E-0186,false,PayCadence Industries 558,Professional Services,Middle Market,Mountain West,Hannah Young
+CB-DL-00219,Redwood Foods 195 — Treasury Bundle,CB-BA-00195,Credit Approval,4280063.12,Credit,2026-01-02,2026-02-05,E-0188,false,Redwood Foods 195,Professional Services,Small Business,Northeast,Tom Silva
+CB-DL-00220,Ironwood Holdings 422 — CRE,CB-BA-00422,Qualification,541332.01,Credit + Treasury,2026-02-20,2026-04-05,E-0182,false,Ironwood Holdings 422,Hospitality,Middle Market,Northeast,Luis Ashford
+CB-DL-00221,Meridian Builders 321 — Treasury Bundle,CB-BA-00321,Qualification,630643.83,Treasury,2026-04-17,2026-08-26,E-0199,false,Meridian Builders 321,Construction,Middle Market,Midwest,Hannah Roberts
+CB-DL-00222,Summit Foods 373 — Treasury Bundle,CB-BA-00373,Proposal,3375154.86,Treasury,2025-07-10,2025-09-18,E-0186,false,Summit Foods 373,Retail,Small Business,Northeast,Hannah Young
+CB-DL-00223,PayCadence Group 111 — Revolver,CB-BA-00111,Proposal,407607.36,Credit + Treasury,2026-04-04,2026-08-10,E-0194,false,PayCadence Group 111,Technology,Middle Market,Southeast,Rosa Miller
+CB-DL-00224,Keystone Logistics 459 — Treasury Bundle,CB-BA-00459,Closed Lost,5693265.29,Credit,2026-03-06,2026-10-13,E-0200,false,Keystone Logistics 459,Hospitality,Small Business,Pacific,Owen Okafor
+CB-DL-00225,Summit Industries 465 — Treasury Bundle,CB-BA-00465,Closed Won,4533315.44,Credit + Treasury,2026-04-30,2026-10-12,E-0201,true,Summit Industries 465,Retail,Corporate,Midwest,Luis Silva
+CB-DL-00226,Northwind Foods 409 — Treasury Bundle,CB-BA-00409,Qualification,2279143.84,Credit,2025-11-09,2026-02-23,E-0181,false,Northwind Foods 409,Professional Services,Small Business,Northeast,Wei Thomas
+CB-DL-00227,Redwood Holdings 440 — Term Loan,CB-BA-00440,Proposal,3761654.27,Credit,2025-11-17,2025-12-21,E-0203,false,Redwood Holdings 440,Hospitality,Small Business,Northeast,Fatima Okafor
+CB-DL-00228,Harbor Holdings 180 — Treasury Bundle,CB-BA-00180,Qualification,461471.49,Credit,2026-02-26,2026-07-08,E-0201,false,Harbor Holdings 180,Healthcare,Small Business,Pacific,Luis Silva
+CB-DL-00229,Northwind Builders 178 — Revolver,CB-BA-00178,Closed Won,5494879.72,Credit + Treasury,2026-07-11,2026-08-21,E-0202,true,Northwind Builders 178,Construction,Small Business,Pacific,Noah Carter
+CB-DL-00230,PayCadence Health 181 — CRE,CB-BA-00181,Credit Approval,1419679.5,Credit + Treasury,2026-01-14,2026-03-11,E-0205,false,PayCadence Health 181,Hospitality,Small Business,Southeast,Fatima Patel
+CB-DL-00231,Granite Group 244 — Equipment,CB-BA-00244,Qualification,1476361.48,Credit,2025-08-05,2025-09-20,E-0181,false,Granite Group 244,Manufacturing,Small Business,Southeast,Wei Thomas
+CB-DL-00232,Meridian Group 18 — CRE,CB-BA-00018,Closed Won,2069244.94,Credit,2025-04-18,2025-06-06,E-0194,true,Meridian Group 18,Agriculture,Corporate,Pacific,Rosa Miller
+CB-DL-00233,Redwood Logistics 585 — Equipment,CB-BA-00585,Credit Approval,1608354.72,Credit,2025-08-02,2026-03-28,E-0192,false,Redwood Logistics 585,Agriculture,Small Business,Midwest,Noah Nelson
+CB-DL-00234,Summit Builders 225 — Treasury Bundle,CB-BA-00225,Proposal,1766238.9,Treasury,2026-08-17,2026-12-22,E-0184,false,Summit Builders 225,Logistics,Small Business,Mountain West,Sofia Bailey
+CB-DL-00235,Harbor Industries 398 — Treasury Bundle,CB-BA-00398,Closed Won,2612968.87,Credit,2026-04-21,2026-07-15,E-0201,true,Harbor Industries 398,Hospitality,Small Business,Northeast,Luis Silva
+CB-DL-00236,Harbor Holdings 90 — CRE,CB-BA-00090,Closed Lost,198467.78,Credit + Treasury,2026-08-28,2027-02-11,E-0195,false,Harbor Holdings 90,Manufacturing,Small Business,Midwest,Grace Martinez
+CB-DL-00237,PayCadence Systems 296 — Treasury Bundle,CB-BA-00296,Credit Approval,1139710.7,Credit + Treasury,2025-03-21,2025-11-04,E-0202,false,PayCadence Systems 296,Technology,Middle Market,Mountain West,Noah Carter
+CB-DL-00238,Harbor Health 365 — Equipment,CB-BA-00365,Proposal,3590297.58,Treasury,2025-11-14,2026-02-25,E-0190,false,Harbor Health 365,Construction,Corporate,Southeast,Layla Carter
+CB-DL-00239,Keystone Holdings 45 — CRE,CB-BA-00045,Proposal,1089076.95,Treasury,2025-04-21,2025-12-04,E-0189,false,Keystone Holdings 45,Manufacturing,Middle Market,Pacific,Priya Martinez
+CB-DL-00240,Keystone Health 183 — CRE,CB-BA-00183,Closed Won,10241375.54,Credit,2025-10-20,2025-11-19,E-0187,true,Keystone Health 183,Agriculture,Small Business,Pacific,Leo King
+CB-DL-00241,PayCadence Logistics 186 — Term Loan,CB-BA-00186,Credit Approval,2174419.06,Credit,2025-02-13,2025-06-15,E-0200,false,PayCadence Logistics 186,Technology,Corporate,Pacific,Owen Okafor
+CB-DL-00242,Redwood Systems 550 — Revolver,CB-BA-00550,Proposal,804532.69,Credit,2025-07-24,2026-01-16,E-0194,false,Redwood Systems 550,Retail,Small Business,Midwest,Rosa Miller
+CB-DL-00243,Harbor Builders 399 — Equipment,CB-BA-00399,Closed Lost,744805.29,Credit + Treasury,2026-03-15,2026-09-19,E-0191,false,Harbor Builders 399,Professional Services,Middle Market,Southeast,Nina Scott
+CB-DL-00244,Meridian Group 15 — CRE,CB-BA-00015,Credit Approval,1563532.75,Credit + Treasury,2025-10-01,2026-02-24,E-0196,false,Meridian Group 15,Manufacturing,Small Business,Northeast,Grace Bailey
+CB-DL-00245,Meridian Partners 404 — Revolver,CB-BA-00404,Closed Lost,4148254.99,Credit + Treasury,2026-08-12,2026-11-04,E-0195,false,Meridian Partners 404,Construction,Small Business,Northeast,Grace Martinez
+CB-DL-00246,Ironwood Health 305 — Equipment,CB-BA-00305,Credit Approval,1760735.02,Credit + Treasury,2025-08-21,2025-11-16,E-0194,false,Ironwood Health 305,Construction,Small Business,Pacific,Rosa Miller
+CB-DL-00247,Bluewater Health 264 — Equipment,CB-BA-00264,Closed Won,1533013.41,Treasury,2025-01-22,2025-03-22,E-0181,true,Bluewater Health 264,Healthcare,Small Business,Northeast,Wei Thomas
+CB-DL-00248,Northwind Industries 221 — Equipment,CB-BA-00221,Proposal,1011342.66,Treasury,2025-09-08,2025-10-19,E-0191,false,Northwind Industries 221,Hospitality,Small Business,Midwest,Nina Scott
+CB-DL-00249,Redwood Group 98 — CRE,CB-BA-00098,Proposal,1142734.79,Treasury,2026-02-14,2026-04-09,E-0205,false,Redwood Group 98,Technology,Middle Market,Mountain West,Fatima Patel
+CB-DL-00250,Redwood Logistics 378 — CRE,CB-BA-00378,Documentation,416738.4,Credit,2025-02-23,2025-09-09,E-0195,false,Redwood Logistics 378,Construction,Middle Market,Midwest,Grace Martinez
+CB-DL-00251,Meridian Logistics 233 — Treasury Bundle,CB-BA-00233,Closed Won,1292734.04,Treasury,2026-02-01,2026-03-11,E-0183,true,Meridian Logistics 233,Agriculture,Small Business,Midwest,Iris Kim
+CB-DL-00252,Ironwood Industries 163 — Term Loan,CB-BA-00163,Documentation,1397484.59,Treasury,2025-06-27,2025-11-03,E-0183,false,Ironwood Industries 163,Professional Services,Middle Market,Midwest,Iris Kim
+CB-DL-00253,Keystone Industries 413 — Revolver,CB-BA-00413,Closed Lost,2275615.19,Credit,2026-03-27,2026-05-06,E-0185,false,Keystone Industries 413,Professional Services,Small Business,Southeast,Mei Hall
+CB-DL-00254,Keystone Systems 366 — Treasury Bundle,CB-BA-00366,Closed Won,11197990.33,Credit,2025-04-27,2025-06-27,E-0189,true,Keystone Systems 366,Professional Services,Small Business,Northeast,Priya Martinez
+CB-DL-00255,Granite Group 548 — Treasury Bundle,CB-BA-00548,Proposal,1504686.36,Credit,2025-05-03,2025-09-05,E-0182,false,Granite Group 548,Construction,Corporate,Mountain West,Luis Ashford
+CB-DL-00256,Redwood Systems 497 — Term Loan,CB-BA-00497,Qualification,1118578.71,Credit,2025-03-28,2025-05-08,E-0188,false,Redwood Systems 497,Hospitality,Small Business,Northeast,Tom Silva
+CB-DL-00257,Granite Builders 125 — Equipment,CB-BA-00125,Closed Won,3630391.23,Credit + Treasury,2026-04-24,2026-12-07,E-0199,true,Granite Builders 125,Manufacturing,Small Business,Pacific,Hannah Roberts
+CB-DL-00258,Meridian Systems 460 — Equipment,CB-BA-00460,Credit Approval,161416.23,Treasury,2026-04-08,2026-07-30,E-0198,false,Meridian Systems 460,Healthcare,Middle Market,Southeast,Iris Allen
+CB-DL-00259,Granite Holdings 432 — CRE,CB-BA-00432,Credit Approval,30169114.57,Treasury,2025-11-15,2026-05-23,E-0195,false,Granite Holdings 432,Construction,Small Business,Northeast,Grace Martinez
+CB-DL-00260,Granite Foods 124 — Treasury Bundle,CB-BA-00124,Credit Approval,6740440.69,Credit,2026-03-09,2026-10-21,E-0203,false,Granite Foods 124,Agriculture,Small Business,Midwest,Fatima Okafor
+CB-DL-00261,Keystone Logistics 447 — Term Loan,CB-BA-00447,Closed Won,6137572.07,Credit,2025-05-01,2025-09-10,E-0201,true,Keystone Logistics 447,Hospitality,Corporate,Northeast,Luis Silva
+CB-DL-00262,Keystone Industries 581 — Equipment,CB-BA-00581,Closed Won,375485.92,Credit + Treasury,2025-06-19,2025-12-26,E-0200,true,Keystone Industries 581,Manufacturing,Small Business,Southeast,Owen Okafor
+CB-DL-00263,Redwood Holdings 496 — Treasury Bundle,CB-BA-00496,Proposal,2439437.4,Credit,2026-06-23,2026-07-15,E-0188,false,Redwood Holdings 496,Hospitality,Small Business,Northeast,Tom Silva
+CB-DL-00264,Ironwood Systems 425 — Term Loan,CB-BA-00425,Proposal,2532663.0,Credit,2025-10-19,2026-03-02,E-0181,false,Ironwood Systems 425,Logistics,Small Business,Pacific,Wei Thomas
+CB-DL-00265,Keystone Logistics 104 — Treasury Bundle,CB-BA-00104,Qualification,8168116.76,Credit,2025-10-09,2026-02-10,E-0190,false,Keystone Logistics 104,Retail,Middle Market,Pacific,Layla Carter
+CB-DL-00266,Ironwood Industries 491 — Treasury Bundle,CB-BA-00491,Qualification,1304392.91,Credit,2025-07-30,2025-11-11,E-0192,false,Ironwood Industries 491,Technology,Middle Market,Midwest,Noah Nelson
+CB-DL-00267,Ironwood Systems 6 — Equipment,CB-BA-00006,Qualification,4833776.45,Treasury,2025-08-31,2025-12-23,E-0185,false,Ironwood Systems 6,Healthcare,Small Business,Midwest,Mei Hall
+CB-DL-00268,Northwind Builders 358 — CRE,CB-BA-00358,Qualification,8069674.91,Treasury,2026-02-05,2026-08-05,E-0204,false,Northwind Builders 358,Healthcare,Small Business,Pacific,Iris Clark
+CB-DL-00269,Harbor Holdings 64 — Term Loan,CB-BA-00064,Qualification,1747356.06,Credit,2025-03-24,2025-04-22,E-0204,false,Harbor Holdings 64,Professional Services,Small Business,Mountain West,Iris Clark
+CB-DL-00270,Northwind Systems 92 — Revolver,CB-BA-00092,Proposal,920340.64,Credit,2026-08-13,2026-10-31,E-0195,false,Northwind Systems 92,Manufacturing,Middle Market,Midwest,Grace Martinez
+CB-DL-00271,PayCadence Holdings 302 — Revolver,CB-BA-00302,Qualification,1256090.66,Credit,2025-04-01,2025-09-27,E-0200,false,PayCadence Holdings 302,Professional Services,Middle Market,Southeast,Owen Okafor
+CB-DL-00272,Northwind Holdings 108 — Equipment,CB-BA-00108,Documentation,3300003.93,Treasury,2025-01-16,2025-05-31,E-0193,false,Northwind Holdings 108,Manufacturing,Small Business,Northeast,Julian Collins
+CB-DL-00273,Keystone Group 123 — Revolver,CB-BA-00123,Closed Won,597797.24,Treasury,2026-07-14,2026-09-12,E-0201,true,Keystone Group 123,Healthcare,Middle Market,Midwest,Luis Silva
+CB-DL-00274,Ironwood Foods 391 — CRE,CB-BA-00391,Closed Won,3394308.94,Credit,2025-12-22,2026-02-13,E-0182,true,Ironwood Foods 391,Professional Services,Middle Market,Northeast,Luis Ashford
+CB-DL-00275,Keystone Health 561 — Term Loan,CB-BA-00561,Closed Won,11980029.95,Credit,2025-01-25,2025-05-12,E-0189,true,Keystone Health 561,Construction,Small Business,Midwest,Priya Martinez
+CB-DL-00276,PayCadence Industries 558 — Revolver,CB-BA-00558,Proposal,1574528.16,Credit,2026-07-27,2027-02-26,E-0186,false,PayCadence Industries 558,Professional Services,Middle Market,Mountain West,Hannah Young
+CB-DL-00277,Bluewater Health 68 — Treasury Bundle,CB-BA-00068,Closed Won,4187181.92,Credit,2026-05-10,2026-06-10,E-0203,true,Bluewater Health 68,Professional Services,Middle Market,Northeast,Fatima Okafor
+CB-DL-00278,Ironwood Logistics 228 — Revolver,CB-BA-00228,Proposal,560913.77,Credit,2025-07-20,2025-12-10,E-0181,false,Ironwood Logistics 228,Logistics,Small Business,Mountain West,Wei Thomas
+CB-DL-00279,Northwind Holdings 435 — Term Loan,CB-BA-00435,Proposal,7778073.29,Credit + Treasury,2025-04-02,2025-08-13,E-0197,false,Northwind Holdings 435,Manufacturing,Middle Market,Midwest,Maya Ashford
+CB-DL-00280,Meridian Health 600 — Equipment,CB-BA-00600,Closed Won,1111555.11,Treasury,2025-10-30,2026-03-17,E-0181,true,Meridian Health 600,Technology,Middle Market,Pacific,Wei Thomas
+CB-DL-00281,Ironwood Group 10 — Equipment,CB-BA-00010,Closed Won,2478435.05,Treasury,2026-07-11,2026-09-25,E-0195,true,Ironwood Group 10,Logistics,Small Business,Southeast,Grace Martinez
+CB-DL-00282,Harbor Group 283 — Revolver,CB-BA-00283,Qualification,2744697.05,Treasury,2025-05-12,2025-12-31,E-0195,false,Harbor Group 283,Logistics,Middle Market,Mountain West,Grace Martinez
+CB-DL-00283,Meridian Partners 86 — Revolver,CB-BA-00086,Qualification,448034.78,Treasury,2025-11-04,2026-01-06,E-0196,false,Meridian Partners 86,Construction,Small Business,Pacific,Grace Bailey
+CB-DL-00284,Ironwood Holdings 483 — Term Loan,CB-BA-00483,Credit Approval,3920485.96,Credit,2026-04-17,2026-06-05,E-0188,false,Ironwood Holdings 483,Professional Services,Middle Market,Southeast,Tom Silva
+CB-DL-00285,Keystone Partners 307 — Revolver,CB-BA-00307,Documentation,3697090.56,Treasury,2026-04-18,2026-07-10,E-0181,false,Keystone Partners 307,Technology,Small Business,Southeast,Wei Thomas
+CB-DL-00286,Redwood Logistics 328 — Revolver,CB-BA-00328,Documentation,3041460.29,Treasury,2026-04-07,2026-08-31,E-0201,false,Redwood Logistics 328,Logistics,Small Business,Midwest,Luis Silva
+CB-DL-00287,Redwood Industries 71 — Equipment,CB-BA-00071,Proposal,1172611.96,Credit,2025-11-17,2026-04-26,E-0193,false,Redwood Industries 71,Healthcare,Corporate,Midwest,Julian Collins
+CB-DL-00288,Northwind Foods 466 — Equipment,CB-BA-00466,Proposal,1240882.45,Treasury,2026-01-11,2026-07-19,E-0186,false,Northwind Foods 466,Hospitality,Corporate,Pacific,Hannah Young
+CB-DL-00289,PayCadence Builders 54 — Revolver,CB-BA-00054,Proposal,3008502.28,Treasury,2026-06-28,2026-11-29,E-0190,false,PayCadence Builders 54,Technology,Small Business,Northeast,Layla Carter
+CB-DL-00290,Granite Builders 12 — Equipment,CB-BA-00012,Qualification,1094702.14,Credit + Treasury,2025-01-23,2025-08-22,E-0195,false,Granite Builders 12,Retail,Middle Market,Southeast,Grace Martinez
+CB-DL-00291,Bluewater Group 507 — Term Loan,CB-BA-00507,Qualification,794826.05,Credit,2026-07-22,2026-09-01,E-0187,false,Bluewater Group 507,Manufacturing,Small Business,Pacific,Leo King
+CB-DL-00292,Summit Partners 382 — CRE,CB-BA-00382,Proposal,324097.05,Treasury,2025-04-15,2025-09-07,E-0185,false,Summit Partners 382,Retail,Small Business,Mountain West,Mei Hall
+CB-DL-00293,Harbor Holdings 573 — Term Loan,CB-BA-00573,Proposal,10226003.0,Credit + Treasury,2026-03-13,2026-05-28,E-0193,false,Harbor Holdings 573,Healthcare,Small Business,Midwest,Julian Collins
+CB-DL-00294,Bluewater Systems 209 — CRE,CB-BA-00209,Proposal,216247.24,Credit,2025-02-07,2025-05-28,E-0189,false,Bluewater Systems 209,Construction,Small Business,Midwest,Priya Martinez
+CB-DL-00295,Bluewater Systems 164 — Equipment,CB-BA-00164,Closed Lost,868787.39,Treasury,2025-04-05,2025-06-25,E-0182,false,Bluewater Systems 164,Healthcare,Corporate,Midwest,Luis Ashford
+CB-DL-00296,Harbor Holdings 28 — Equipment,CB-BA-00028,Closed Lost,1144085.87,Treasury,2025-03-10,2025-05-30,E-0205,false,Harbor Holdings 28,Retail,Middle Market,Midwest,Fatima Patel
+CB-DL-00297,Redwood Logistics 502 — Revolver,CB-BA-00502,Closed Lost,5366233.83,Credit,2025-12-13,2026-04-20,E-0191,false,Redwood Logistics 502,Professional Services,Small Business,Pacific,Nina Scott
+CB-DL-00298,Northwind Group 505 — Revolver,CB-BA-00505,Proposal,662424.73,Treasury,2025-12-03,2026-04-01,E-0185,false,Northwind Group 505,Agriculture,Small Business,Midwest,Mei Hall
+CB-DL-00299,Summit Builders 115 — CRE,CB-BA-00115,Closed Lost,5966633.58,Credit + Treasury,2026-03-12,2026-07-30,E-0196,false,Summit Builders 115,Healthcare,Small Business,Mountain West,Grace Bailey
+CB-DL-00300,Redwood Holdings 496 — Revolver,CB-BA-00496,Qualification,2339783.41,Credit + Treasury,2025-04-20,2025-12-03,E-0188,false,Redwood Holdings 496,Hospitality,Small Business,Northeast,Tom Silva
+CB-DL-00301,Meridian Health 535 — CRE,CB-BA-00535,Proposal,607659.18,Credit + Treasury,2025-04-08,2025-10-24,E-0204,false,Meridian Health 535,Retail,Small Business,Northeast,Iris Clark
+CB-DL-00302,Harbor Health 267 — Term Loan,CB-BA-00267,Qualification,6146373.29,Credit + Treasury,2025-10-23,2026-01-31,E-0181,false,Harbor Health 267,Agriculture,Small Business,Southeast,Wei Thomas
+CB-DL-00303,Summit Group 494 — Treasury Bundle,CB-BA-00494,Proposal,3673418.88,Credit + Treasury,2026-06-29,2026-12-24,E-0184,false,Summit Group 494,Logistics,Small Business,Midwest,Sofia Bailey
+CB-DL-00304,Ironwood Partners 434 — Equipment,CB-BA-00434,Documentation,3362507.74,Credit + Treasury,2026-07-12,2026-12-16,E-0181,false,Ironwood Partners 434,Logistics,Middle Market,Midwest,Wei Thomas
+CB-DL-00305,PayCadence Holdings 526 — CRE,CB-BA-00526,Proposal,4565563.96,Treasury,2025-11-22,2026-05-26,E-0189,false,PayCadence Holdings 526,Technology,Small Business,Northeast,Priya Martinez
+CB-DL-00306,Harbor Systems 357 — CRE,CB-BA-00357,Qualification,1031785.82,Credit,2025-07-15,2025-12-30,E-0194,false,Harbor Systems 357,Technology,Middle Market,Midwest,Rosa Miller
+CB-DL-00307,Summit Partners 261 — CRE,CB-BA-00261,Closed Won,8384135.65,Credit + Treasury,2025-06-23,2026-01-16,E-0201,true,Summit Partners 261,Logistics,Middle Market,Pacific,Luis Silva
+CB-DL-00308,Northwind Holdings 452 — Equipment,CB-BA-00452,Closed Won,1856742.44,Credit + Treasury,2025-04-08,2025-07-01,E-0182,true,Northwind Holdings 452,Manufacturing,Corporate,Mountain West,Luis Ashford
+CB-DL-00309,Meridian Holdings 393 — Term Loan,CB-BA-00393,Qualification,5441646.44,Credit + Treasury,2025-10-30,2026-01-29,E-0185,false,Meridian Holdings 393,Manufacturing,Small Business,Southeast,Mei Hall
+CB-DL-00310,Meridian Partners 86 — Treasury Bundle,CB-BA-00086,Qualification,2140816.84,Credit,2025-12-18,2026-06-17,E-0196,false,Meridian Partners 86,Construction,Small Business,Pacific,Grace Bailey
+CB-DL-00311,Bluewater Industries 205 — Revolver,CB-BA-00205,Qualification,1514196.42,Treasury,2026-07-27,2027-01-10,E-0205,false,Bluewater Industries 205,Professional Services,Small Business,Mountain West,Fatima Patel
+CB-DL-00312,Meridian Foods 554 — Revolver,CB-BA-00554,Proposal,4052832.86,Treasury,2025-11-29,2026-05-29,E-0187,false,Meridian Foods 554,Professional Services,Small Business,Mountain West,Leo King
+CB-DL-00313,PayCadence Holdings 526 — Term Loan,CB-BA-00526,Closed Won,5924478.57,Treasury,2026-05-05,2026-06-21,E-0189,true,PayCadence Holdings 526,Technology,Small Business,Northeast,Priya Martinez
+CB-DL-00314,Redwood Holdings 137 — Revolver,CB-BA-00137,Documentation,4138414.62,Treasury,2025-07-30,2025-10-20,E-0201,false,Redwood Holdings 137,Technology,Middle Market,Midwest,Luis Silva
+CB-DL-00315,Bluewater Holdings 449 — CRE,CB-BA-00449,Credit Approval,3452887.62,Treasury,2025-01-13,2025-08-28,E-0195,false,Bluewater Holdings 449,Logistics,Small Business,Midwest,Grace Martinez
+CB-DL-00316,Redwood Group 29 — Term Loan,CB-BA-00029,Closed Won,2090802.28,Credit,2026-07-01,2027-02-06,E-0187,true,Redwood Group 29,Manufacturing,Small Business,Pacific,Leo King
+CB-DL-00317,Keystone Builders 485 — Term Loan,CB-BA-00485,Documentation,1992638.63,Treasury,2026-02-22,2026-07-11,E-0193,false,Keystone Builders 485,Construction,Corporate,Northeast,Julian Collins
+CB-DL-00318,Bluewater Partners 277 — Equipment,CB-BA-00277,Proposal,8516848.84,Credit,2026-06-09,2026-11-30,E-0194,false,Bluewater Partners 277,Construction,Middle Market,Southeast,Rosa Miller
+CB-DL-00319,Summit Foods 429 — Revolver,CB-BA-00429,Closed Lost,2385299.91,Credit,2025-04-17,2025-11-16,E-0192,false,Summit Foods 429,Manufacturing,Small Business,Pacific,Noah Nelson
+CB-DL-00320,Meridian Builders 415 — CRE,CB-BA-00415,Closed Won,2666289.05,Credit + Treasury,2025-08-08,2026-02-20,E-0193,true,Meridian Builders 415,Agriculture,Middle Market,Mountain West,Julian Collins
+CB-DL-00321,Summit Holdings 315 — Term Loan,CB-BA-00315,Closed Lost,1696618.53,Treasury,2025-05-13,2025-10-18,E-0200,false,Summit Holdings 315,Retail,Small Business,Mountain West,Owen Okafor
+CB-DL-00322,Keystone Logistics 177 — Treasury Bundle,CB-BA-00177,Closed Lost,4571708.72,Treasury,2025-02-15,2025-05-21,E-0205,false,Keystone Logistics 177,Healthcare,Middle Market,Midwest,Fatima Patel
+CB-DL-00323,PayCadence Logistics 186 — Revolver,CB-BA-00186,Closed Won,2247406.06,Credit,2025-02-08,2025-09-08,E-0200,true,PayCadence Logistics 186,Technology,Corporate,Pacific,Owen Okafor
+CB-DL-00324,Meridian Foods 407 — Equipment,CB-BA-00407,Qualification,4391688.87,Credit + Treasury,2025-06-09,2025-12-17,E-0205,false,Meridian Foods 407,Professional Services,Middle Market,Southeast,Fatima Patel
+CB-DL-00325,Keystone Foods 596 — CRE,CB-BA-00596,Qualification,1632660.74,Credit,2025-05-19,2025-12-06,E-0195,false,Keystone Foods 596,Manufacturing,Middle Market,Southeast,Grace Martinez
+CB-DL-00326,PayCadence Holdings 536 — Treasury Bundle,CB-BA-00536,Closed Won,1606490.27,Credit + Treasury,2026-07-14,2026-12-01,E-0188,true,PayCadence Holdings 536,Professional Services,Small Business,Northeast,Tom Silva
+CB-DL-00327,Summit Systems 133 — Equipment,CB-BA-00133,Proposal,1854039.73,Credit,2025-11-14,2026-05-01,E-0181,false,Summit Systems 133,Hospitality,Corporate,Southeast,Wei Thomas
+CB-DL-00328,PayCadence Logistics 301 — CRE,CB-BA-00301,Qualification,1943493.59,Treasury,2025-02-08,2025-09-22,E-0199,false,PayCadence Logistics 301,Hospitality,Small Business,Pacific,Hannah Roberts
+CB-DL-00329,Bluewater Foods 75 — Revolver,CB-BA-00075,Qualification,1523531.9,Treasury,2026-08-23,2026-09-24,E-0199,false,Bluewater Foods 75,Hospitality,Middle Market,Southeast,Hannah Roberts
+CB-DL-00330,Granite Group 534 — Term Loan,CB-BA-00534,Closed Won,1688945.03,Treasury,2026-05-05,2026-06-09,E-0194,true,Granite Group 534,Hospitality,Small Business,Midwest,Rosa Miller
+CB-DL-00331,Summit Systems 403 — Equipment,CB-BA-00403,Closed Won,10190681.07,Credit,2026-08-17,2027-02-17,E-0182,true,Summit Systems 403,Technology,Small Business,Midwest,Luis Ashford
+CB-DL-00332,Redwood Partners 234 — CRE,CB-BA-00234,Credit Approval,1126425.81,Credit,2025-09-29,2026-03-11,E-0198,false,Redwood Partners 234,Agriculture,Middle Market,Northeast,Iris Allen
+CB-DL-00333,Harbor Industries 316 — Revolver,CB-BA-00316,Closed Won,4526825.21,Treasury,2026-06-16,2026-08-08,E-0184,true,Harbor Industries 316,Retail,Middle Market,Midwest,Sofia Bailey
+CB-DL-00334,Granite Industries 190 — Term Loan,CB-BA-00190,Proposal,983236.24,Credit + Treasury,2026-04-26,2026-05-28,E-0183,false,Granite Industries 190,Technology,Small Business,Mountain West,Iris Kim
+CB-DL-00335,Keystone Builders 485 — Term Loan,CB-BA-00485,Qualification,1027216.29,Credit + Treasury,2025-03-23,2025-08-23,E-0193,false,Keystone Builders 485,Construction,Corporate,Northeast,Julian Collins
+CB-DL-00336,Redwood Systems 556 — Equipment,CB-BA-00556,Qualification,5681952.04,Credit,2025-01-12,2025-07-16,E-0185,false,Redwood Systems 556,Hospitality,Small Business,Northeast,Mei Hall
+CB-DL-00337,Meridian Builders 493 — CRE,CB-BA-00493,Proposal,1967409.82,Credit + Treasury,2026-02-20,2026-07-20,E-0185,false,Meridian Builders 493,Professional Services,Corporate,Pacific,Mei Hall
+CB-DL-00338,Granite Partners 158 — Treasury Bundle,CB-BA-00158,Closed Won,368268.0,Credit,2025-12-01,2026-07-05,E-0182,true,Granite Partners 158,Retail,Small Business,Northeast,Luis Ashford
+CB-DL-00339,Keystone Builders 549 — CRE,CB-BA-00549,Proposal,270969.4,Credit + Treasury,2026-07-01,2026-09-30,E-0202,false,Keystone Builders 549,Technology,Middle Market,Mountain West,Noah Carter
+CB-DL-00340,Ironwood Holdings 486 — Equipment,CB-BA-00486,Qualification,2381798.74,Credit + Treasury,2025-07-12,2026-02-07,E-0200,false,Ironwood Holdings 486,Logistics,Small Business,Mountain West,Owen Okafor
+CB-DL-00341,Bluewater Builders 238 — Revolver,CB-BA-00238,Qualification,355917.43,Credit,2025-04-13,2025-11-08,E-0198,false,Bluewater Builders 238,Healthcare,Middle Market,Pacific,Iris Allen
+CB-DL-00342,Ironwood Industries 563 — Term Loan,CB-BA-00563,Qualification,883908.79,Credit,2025-12-11,2026-06-01,E-0189,false,Ironwood Industries 563,Healthcare,Middle Market,Southeast,Priya Martinez
+CB-DL-00343,PayCadence Builders 54 — CRE,CB-BA-00054,Credit Approval,2677576.92,Credit,2026-06-16,2026-11-16,E-0190,false,PayCadence Builders 54,Technology,Small Business,Northeast,Layla Carter
+CB-DL-00344,Summit Logistics 110 — CRE,CB-BA-00110,Closed Won,3838826.98,Credit + Treasury,2025-06-08,2025-10-15,E-0204,true,Summit Logistics 110,Construction,Small Business,Mountain West,Iris Clark
+CB-DL-00345,Meridian Holdings 27 — Equipment,CB-BA-00027,Credit Approval,8663209.43,Credit,2026-07-13,2026-12-23,E-0202,false,Meridian Holdings 27,Technology,Middle Market,Northeast,Noah Carter
+CB-DL-00346,Summit Logistics 515 — Treasury Bundle,CB-BA-00515,Proposal,3233502.42,Credit,2025-09-28,2025-11-02,E-0199,false,Summit Logistics 515,Healthcare,Small Business,Pacific,Hannah Roberts
+CB-DL-00347,Summit Industries 35 — Revolver,CB-BA-00035,Credit Approval,1234651.22,Credit,2025-10-20,2026-04-26,E-0197,false,Summit Industries 35,Hospitality,Middle Market,Northeast,Maya Ashford
+CB-DL-00348,Ironwood Holdings 445 — Revolver,CB-BA-00445,Closed Won,869839.85,Credit + Treasury,2025-11-06,2026-03-05,E-0187,true,Ironwood Holdings 445,Agriculture,Small Business,Midwest,Leo King
+CB-DL-00349,Harbor Industries 455 — Treasury Bundle,CB-BA-00455,Credit Approval,371710.58,Credit,2026-07-31,2026-11-03,E-0187,false,Harbor Industries 455,Logistics,Corporate,Pacific,Leo King
+CB-DL-00350,Summit Industries 465 — Revolver,CB-BA-00465,Credit Approval,1571563.87,Credit,2026-03-19,2026-09-03,E-0201,false,Summit Industries 465,Retail,Corporate,Midwest,Luis Silva
+CB-DL-00351,PayCadence Systems 76 — Term Loan,CB-BA-00076,Closed Won,747417.55,Credit,2026-07-17,2026-11-12,E-0204,true,PayCadence Systems 76,Hospitality,Small Business,Pacific,Iris Clark
+CB-DL-00352,Keystone Partners 58 — Revolver,CB-BA-00058,Credit Approval,4528443.07,Treasury,2025-01-20,2025-08-29,E-0191,false,Keystone Partners 58,Construction,Small Business,Pacific,Nina Scott
+CB-DL-00353,Harbor Industries 398 — CRE,CB-BA-00398,Proposal,910388.94,Credit + Treasury,2026-04-05,2026-05-29,E-0201,false,Harbor Industries 398,Hospitality,Small Business,Northeast,Luis Silva
+CB-DL-00354,Harbor Holdings 573 — Term Loan,CB-BA-00573,Closed Won,13766943.94,Treasury,2026-01-31,2026-07-23,E-0193,true,Harbor Holdings 573,Healthcare,Small Business,Midwest,Julian Collins
+CB-DL-00355,Keystone Builders 549 — Term Loan,CB-BA-00549,Closed Lost,2929673.7,Treasury,2025-04-14,2025-07-18,E-0202,false,Keystone Builders 549,Technology,Middle Market,Mountain West,Noah Carter
+CB-DL-00356,Redwood Group 231 — Equipment,CB-BA-00231,Closed Won,3660318.55,Credit + Treasury,2026-02-27,2026-07-15,E-0186,true,Redwood Group 231,Healthcare,Middle Market,Southeast,Hannah Young
+CB-DL-00357,Northwind Builders 442 — Term Loan,CB-BA-00442,Credit Approval,6758679.63,Treasury,2025-03-15,2025-07-15,E-0200,false,Northwind Builders 442,Professional Services,Small Business,Northeast,Owen Okafor
+CB-DL-00358,Northwind Health 311 — Term Loan,CB-BA-00311,Closed Lost,1645219.96,Credit + Treasury,2025-09-25,2026-01-17,E-0197,false,Northwind Health 311,Logistics,Small Business,Midwest,Maya Ashford
+CB-DL-00359,Redwood Systems 427 — Treasury Bundle,CB-BA-00427,Qualification,1632893.03,Credit,2026-06-18,2026-07-12,E-0196,false,Redwood Systems 427,Hospitality,Middle Market,Midwest,Grace Bailey
+CB-DL-00360,Redwood Health 95 — CRE,CB-BA-00095,Proposal,1402619.49,Credit + Treasury,2026-07-13,2026-12-18,E-0184,false,Redwood Health 95,Agriculture,Small Business,Midwest,Sofia Bailey
+CB-DL-00361,Meridian Builders 65 — CRE,CB-BA-00065,Closed Lost,1463111.59,Credit,2025-09-15,2026-02-09,E-0195,false,Meridian Builders 65,Manufacturing,Middle Market,Midwest,Grace Martinez
+CB-DL-00362,Keystone Industries 581 — CRE,CB-BA-00581,Credit Approval,656294.9,Credit + Treasury,2025-07-07,2025-08-22,E-0200,false,Keystone Industries 581,Manufacturing,Small Business,Southeast,Owen Okafor
+CB-DL-00363,Granite Foods 165 — Equipment,CB-BA-00165,Closed Won,2305859.66,Treasury,2026-06-29,2027-01-09,E-0183,true,Granite Foods 165,Technology,Small Business,Northeast,Iris Kim
+CB-DL-00364,Harbor Foods 69 — CRE,CB-BA-00069,Closed Won,1288499.18,Credit,2025-10-03,2026-03-18,E-0192,true,Harbor Foods 69,Manufacturing,Small Business,Midwest,Noah Nelson
+CB-DL-00365,Keystone Builders 589 — CRE,CB-BA-00589,Qualification,1182915.39,Treasury,2026-04-03,2026-10-13,E-0185,false,Keystone Builders 589,Professional Services,Middle Market,Southeast,Mei Hall
+CB-DL-00366,Summit Holdings 524 — Revolver,CB-BA-00524,Qualification,1941077.23,Treasury,2025-07-04,2025-10-21,E-0181,false,Summit Holdings 524,Manufacturing,Small Business,Pacific,Wei Thomas
+CB-DL-00367,Redwood Logistics 585 — Treasury Bundle,CB-BA-00585,Closed Won,1448791.17,Credit + Treasury,2025-05-28,2025-09-09,E-0192,true,Redwood Logistics 585,Agriculture,Small Business,Midwest,Noah Nelson
+CB-DL-00368,Ironwood Builders 376 — Equipment,CB-BA-00376,Qualification,1793039.78,Credit,2026-03-17,2026-11-03,E-0198,false,Ironwood Builders 376,Logistics,Small Business,Mountain West,Iris Allen
+CB-DL-00369,Summit Foods 288 — Equipment,CB-BA-00288,Closed Won,3776571.23,Credit + Treasury,2025-01-14,2025-08-18,E-0193,true,Summit Foods 288,Logistics,Middle Market,Midwest,Julian Collins
+CB-DL-00370,Bluewater Health 423 — Term Loan,CB-BA-00423,Proposal,2334297.3,Treasury,2025-08-18,2025-11-08,E-0181,false,Bluewater Health 423,Technology,Small Business,Pacific,Wei Thomas
+CB-DL-00371,Keystone Builders 513 — Equipment,CB-BA-00513,Qualification,5129554.3,Credit,2025-06-25,2026-01-18,E-0184,false,Keystone Builders 513,Construction,Middle Market,Mountain West,Sofia Bailey
+CB-DL-00372,PayCadence Logistics 146 — Equipment,CB-BA-00146,Documentation,1134793.4,Credit,2025-01-02,2025-02-19,E-0199,false,PayCadence Logistics 146,Retail,Middle Market,Southeast,Hannah Roberts
+CB-DL-00373,PayCadence Group 472 — Equipment,CB-BA-00472,Closed Won,1428217.31,Credit + Treasury,2026-06-13,2027-01-11,E-0201,true,PayCadence Group 472,Professional Services,Small Business,Southeast,Luis Silva
+CB-DL-00374,Harbor Group 184 — Treasury Bundle,CB-BA-00184,Closed Won,2048912.51,Credit,2026-07-19,2026-09-09,E-0194,true,Harbor Group 184,Logistics,Middle Market,Northeast,Rosa Miller
+CB-DL-00375,Summit Builders 56 — CRE,CB-BA-00056,Credit Approval,3781852.29,Credit,2025-12-17,2026-07-26,E-0191,false,Summit Builders 56,Healthcare,Corporate,Mountain West,Nina Scott
+CB-DL-00376,Meridian Partners 395 — Term Loan,CB-BA-00395,Qualification,4632555.0,Credit + Treasury,2026-04-26,2026-12-15,E-0200,false,Meridian Partners 395,Agriculture,Middle Market,Southeast,Owen Okafor
+CB-DL-00377,Summit Logistics 340 — CRE,CB-BA-00340,Closed Lost,1716221.0,Treasury,2025-08-15,2025-11-05,E-0205,false,Summit Logistics 340,Manufacturing,Corporate,Pacific,Fatima Patel
+CB-DL-00378,Ironwood Holdings 422 — Revolver,CB-BA-00422,Closed Won,3483508.4,Treasury,2025-12-11,2026-06-15,E-0182,true,Ironwood Holdings 422,Hospitality,Middle Market,Northeast,Luis Ashford
+CB-DL-00379,PayCadence Systems 150 — Revolver,CB-BA-00150,Closed Lost,512601.19,Credit + Treasury,2026-02-04,2026-05-12,E-0201,false,PayCadence Systems 150,Manufacturing,Small Business,Northeast,Luis Silva
+CB-DL-00380,Keystone Logistics 369 — Treasury Bundle,CB-BA-00369,Closed Won,2617477.72,Credit,2026-02-20,2026-08-25,E-0199,true,Keystone Logistics 369,Professional Services,Small Business,Pacific,Hannah Roberts
+CB-DL-00381,Keystone Builders 458 — Term Loan,CB-BA-00458,Qualification,707061.97,Treasury,2025-05-18,2025-12-17,E-0182,false,Keystone Builders 458,Manufacturing,Corporate,Northeast,Luis Ashford
+CB-DL-00382,Summit Foods 373 — CRE,CB-BA-00373,Proposal,2857602.34,Credit + Treasury,2026-03-22,2026-05-07,E-0186,false,Summit Foods 373,Retail,Small Business,Northeast,Hannah Young
+CB-DL-00383,Harbor Health 267 — Revolver,CB-BA-00267,Closed Won,5708524.84,Credit + Treasury,2026-08-09,2027-01-13,E-0181,true,Harbor Health 267,Agriculture,Small Business,Southeast,Wei Thomas
+CB-DL-00384,PayCadence Industries 551 — Treasury Bundle,CB-BA-00551,Qualification,4160782.24,Credit + Treasury,2026-06-21,2026-12-25,E-0191,false,PayCadence Industries 551,Technology,Middle Market,Pacific,Nina Scott
+CB-DL-00385,Meridian Foods 456 — Term Loan,CB-BA-00456,Closed Won,3272050.04,Treasury,2026-01-06,2026-07-15,E-0186,true,Meridian Foods 456,Healthcare,Small Business,Midwest,Hannah Young
+CB-DL-00386,Summit Foods 105 — Term Loan,CB-BA-00105,Credit Approval,725352.61,Credit,2026-01-31,2026-09-26,E-0184,false,Summit Foods 105,Retail,Middle Market,Pacific,Sofia Bailey
+CB-DL-00387,Summit Holdings 471 — Term Loan,CB-BA-00471,Proposal,1478168.42,Credit,2026-05-14,2026-07-28,E-0194,false,Summit Holdings 471,Technology,Small Business,Midwest,Rosa Miller
+CB-DL-00388,Granite Holdings 432 — Treasury Bundle,CB-BA-00432,Documentation,804318.23,Treasury,2026-02-09,2026-09-21,E-0195,false,Granite Holdings 432,Construction,Small Business,Northeast,Grace Martinez
+CB-DL-00389,Meridian Holdings 26 — Equipment,CB-BA-00026,Documentation,3114448.86,Credit,2025-03-10,2025-07-26,E-0196,false,Meridian Holdings 26,Construction,Corporate,Southeast,Grace Bailey
+CB-DL-00390,Meridian Foods 407 — CRE,CB-BA-00407,Closed Won,1419626.58,Credit + Treasury,2025-12-24,2026-04-06,E-0205,true,Meridian Foods 407,Professional Services,Middle Market,Southeast,Fatima Patel
+CB-DL-00391,Meridian Builders 493 — Revolver,CB-BA-00493,Closed Won,3288854.71,Credit + Treasury,2026-08-18,2026-11-06,E-0185,true,Meridian Builders 493,Professional Services,Corporate,Pacific,Mei Hall
+CB-DL-00392,Redwood Systems 77 — Term Loan,CB-BA-00077,Qualification,2014233.01,Treasury,2025-05-01,2025-08-25,E-0182,false,Redwood Systems 77,Agriculture,Small Business,Southeast,Luis Ashford
+CB-DL-00393,Ironwood Holdings 483 — Treasury Bundle,CB-BA-00483,Closed Lost,2269179.33,Credit + Treasury,2025-04-15,2025-08-25,E-0188,false,Ironwood Holdings 483,Professional Services,Middle Market,Southeast,Tom Silva
+CB-DL-00394,Summit Builders 498 — Treasury Bundle,CB-BA-00498,Proposal,5898636.68,Credit,2025-10-27,2026-02-26,E-0191,false,Summit Builders 498,Manufacturing,Small Business,Mountain West,Nina Scott
+CB-DL-00395,Ironwood Industries 163 — Revolver,CB-BA-00163,Documentation,1764152.71,Credit + Treasury,2025-10-04,2026-02-12,E-0183,false,Ironwood Industries 163,Professional Services,Middle Market,Midwest,Iris Kim
+CB-DL-00396,Harbor Industries 430 — CRE,CB-BA-00430,Proposal,969244.6,Treasury,2026-05-28,2026-07-08,E-0196,false,Harbor Industries 430,Healthcare,Small Business,Southeast,Grace Bailey
+CB-DL-00397,Harbor Health 267 — Revolver,CB-BA-00267,Qualification,342833.12,Credit,2025-11-13,2026-01-27,E-0181,false,Harbor Health 267,Agriculture,Small Business,Southeast,Wei Thomas
+CB-DL-00398,Granite Foods 401 — Revolver,CB-BA-00401,Qualification,1185626.57,Treasury,2025-12-28,2026-05-05,E-0198,false,Granite Foods 401,Logistics,Small Business,Pacific,Iris Allen
+CB-DL-00399,Granite Group 159 — Revolver,CB-BA-00159,Closed Won,1057736.19,Treasury,2025-11-08,2026-03-05,E-0205,true,Granite Group 159,Technology,Small Business,Southeast,Fatima Patel
+CB-DL-00400,Bluewater Builders 385 — Equipment,CB-BA-00385,Closed Won,1821858.7,Credit + Treasury,2026-06-10,2026-07-17,E-0194,true,Bluewater Builders 385,Healthcare,Middle Market,Pacific,Rosa Miller
+CB-DL-00401,Keystone Builders 485 — Equipment,CB-BA-00485,Credit Approval,436384.48,Credit + Treasury,2025-02-15,2025-06-12,E-0193,false,Keystone Builders 485,Construction,Corporate,Northeast,Julian Collins
+CB-DL-00402,Harbor Partners 424 — Equipment,CB-BA-00424,Proposal,580150.04,Credit + Treasury,2026-03-08,2026-07-17,E-0190,false,Harbor Partners 424,Logistics,Small Business,Pacific,Layla Carter
+CB-DL-00403,Bluewater Group 406 — Treasury Bundle,CB-BA-00406,Proposal,2897224.96,Treasury,2026-07-23,2027-02-13,E-0192,false,Bluewater Group 406,Logistics,Middle Market,Northeast,Noah Nelson
+CB-DL-00404,Summit Industries 35 — Revolver,CB-BA-00035,Documentation,276306.4,Credit,2025-12-12,2026-05-03,E-0197,false,Summit Industries 35,Hospitality,Middle Market,Northeast,Maya Ashford
+CB-DL-00405,Summit Systems 101 — Equipment,CB-BA-00101,Closed Won,24106953.12,Credit,2026-07-20,2027-01-17,E-0181,true,Summit Systems 101,Hospitality,Small Business,Mountain West,Wei Thomas
+CB-DL-00406,Bluewater Partners 285 — Term Loan,CB-BA-00285,Qualification,9871804.62,Treasury,2025-01-02,2025-02-27,E-0184,false,Bluewater Partners 285,Manufacturing,Small Business,Mountain West,Sofia Bailey
+CB-DL-00407,Granite Systems 74 — Term Loan,CB-BA-00074,Closed Lost,1243451.44,Treasury,2025-06-17,2026-02-12,E-0191,false,Granite Systems 74,Hospitality,Small Business,Midwest,Nina Scott
+CB-DL-00408,Keystone Partners 143 — Term Loan,CB-BA-00143,Credit Approval,3960829.14,Treasury,2026-06-01,2026-09-21,E-0191,false,Keystone Partners 143,Hospitality,Small Business,Northeast,Nina Scott
+CB-DL-00409,Summit Foods 532 — Revolver,CB-BA-00532,Qualification,1741783.38,Credit + Treasury,2026-07-26,2026-08-22,E-0195,false,Summit Foods 532,Hospitality,Small Business,Midwest,Grace Martinez
+CB-DL-00410,Meridian Builders 493 — Term Loan,CB-BA-00493,Proposal,1507679.31,Treasury,2026-05-31,2026-10-21,E-0185,false,Meridian Builders 493,Professional Services,Corporate,Pacific,Mei Hall
+CB-DL-00411,Summit Systems 133 — Revolver,CB-BA-00133,Credit Approval,3052239.58,Treasury,2026-02-22,2026-05-26,E-0181,false,Summit Systems 133,Hospitality,Corporate,Southeast,Wei Thomas
+CB-DL-00412,Bluewater Logistics 226 — Treasury Bundle,CB-BA-00226,Proposal,1143394.66,Credit,2025-01-28,2025-05-22,E-0186,false,Bluewater Logistics 226,Retail,Small Business,Southeast,Hannah Young
+CB-DL-00413,Redwood Systems 556 — Treasury Bundle,CB-BA-00556,Closed Won,2471258.28,Credit,2026-04-03,2026-11-06,E-0185,true,Redwood Systems 556,Hospitality,Small Business,Northeast,Mei Hall
+CB-DL-00414,Redwood Builders 514 — CRE,CB-BA-00514,Proposal,4648215.96,Treasury,2025-09-27,2026-02-08,E-0204,false,Redwood Builders 514,Healthcare,Middle Market,Southeast,Iris Clark
+CB-DL-00415,Harbor Builders 490 — CRE,CB-BA-00490,Documentation,5378900.74,Credit + Treasury,2026-04-24,2026-10-06,E-0203,false,Harbor Builders 490,Professional Services,Middle Market,Southeast,Fatima Okafor
+CB-DL-00416,Redwood Industries 138 — Term Loan,CB-BA-00138,Closed Lost,2607952.4,Credit + Treasury,2025-01-16,2025-05-02,E-0204,false,Redwood Industries 138,Logistics,Middle Market,Pacific,Iris Clark
+CB-DL-00417,Redwood Systems 412 — Treasury Bundle,CB-BA-00412,Closed Lost,3588370.63,Credit,2025-05-18,2025-10-19,E-0183,false,Redwood Systems 412,Agriculture,Middle Market,Pacific,Iris Kim
+CB-DL-00418,Keystone Health 544 — Treasury Bundle,CB-BA-00544,Proposal,977732.2,Credit + Treasury,2025-10-05,2026-03-04,E-0204,false,Keystone Health 544,Professional Services,Small Business,Mountain West,Iris Clark
+CB-DL-00419,Ironwood Industries 324 — Term Loan,CB-BA-00324,Credit Approval,1508125.26,Treasury,2026-02-17,2026-05-19,E-0191,false,Ironwood Industries 324,Retail,Middle Market,Pacific,Nina Scott
+CB-DL-00420,Redwood Foods 195 — Term Loan,CB-BA-00195,Closed Lost,1098304.45,Credit + Treasury,2025-09-27,2026-02-27,E-0188,false,Redwood Foods 195,Professional Services,Small Business,Northeast,Tom Silva
+CB-DL-00421,Harbor Builders 490 — Equipment,CB-BA-00490,Proposal,2530710.4,Treasury,2025-02-23,2025-05-15,E-0203,false,Harbor Builders 490,Professional Services,Middle Market,Southeast,Fatima Okafor
+CB-DL-00422,Bluewater Health 78 — Equipment,CB-BA-00078,Closed Won,1732996.63,Treasury,2026-03-16,2026-05-20,E-0200,true,Bluewater Health 78,Professional Services,Small Business,Northeast,Owen Okafor
+CB-DL-00423,Harbor Builders 399 — CRE,CB-BA-00399,Qualification,1478474.46,Treasury,2025-05-02,2025-11-15,E-0191,false,Harbor Builders 399,Professional Services,Middle Market,Southeast,Nina Scott
+CB-DL-00424,PayCadence Industries 317 — CRE,CB-BA-00317,Qualification,531157.04,Credit + Treasury,2026-04-06,2026-10-27,E-0187,false,PayCadence Industries 317,Logistics,Middle Market,Midwest,Leo King
+CB-DL-00425,Granite Partners 202 — Equipment,CB-BA-00202,Closed Won,658916.93,Treasury,2026-07-14,2026-12-07,E-0192,true,Granite Partners 202,Hospitality,Small Business,Northeast,Noah Nelson
+CB-DL-00426,Redwood Industries 62 — Equipment,CB-BA-00062,Credit Approval,5447284.65,Treasury,2025-09-11,2026-01-22,E-0197,false,Redwood Industries 62,Agriculture,Middle Market,Southeast,Maya Ashford
+CB-DL-00427,Meridian Foods 295 — Term Loan,CB-BA-00295,Qualification,2475730.17,Credit,2026-01-14,2026-04-12,E-0194,false,Meridian Foods 295,Hospitality,Small Business,Northeast,Rosa Miller
+CB-DL-00428,Keystone Industries 413 — Treasury Bundle,CB-BA-00413,Documentation,621919.22,Treasury,2025-09-17,2025-12-21,E-0185,false,Keystone Industries 413,Professional Services,Small Business,Southeast,Mei Hall
+CB-DL-00429,Keystone Systems 451 — Term Loan,CB-BA-00451,Closed Won,1270862.4,Treasury,2025-03-17,2025-07-23,E-0185,true,Keystone Systems 451,Agriculture,Small Business,Southeast,Mei Hall
+CB-DL-00430,PayCadence Health 492 — Revolver,CB-BA-00492,Qualification,2975476.71,Treasury,2026-04-05,2026-12-01,E-0189,false,PayCadence Health 492,Healthcare,Small Business,Mountain West,Priya Martinez
+CB-DL-00431,Granite Foods 165 — Term Loan,CB-BA-00165,Proposal,2307186.47,Credit + Treasury,2025-07-08,2025-08-29,E-0183,false,Granite Foods 165,Technology,Small Business,Northeast,Iris Kim
+CB-DL-00432,Granite Group 534 — Equipment,CB-BA-00534,Qualification,1268603.4,Treasury,2025-01-10,2025-02-06,E-0194,false,Granite Group 534,Hospitality,Small Business,Midwest,Rosa Miller
+CB-DL-00433,Keystone Builders 549 — Treasury Bundle,CB-BA-00549,Closed Won,933419.36,Treasury,2025-11-04,2026-06-11,E-0202,true,Keystone Builders 549,Technology,Middle Market,Mountain West,Noah Carter
+CB-DL-00434,Meridian Holdings 26 — Revolver,CB-BA-00026,Closed Won,1322982.28,Treasury,2025-12-08,2026-05-03,E-0196,true,Meridian Holdings 26,Construction,Corporate,Southeast,Grace Bailey
+CB-DL-00435,Summit Builders 115 — Treasury Bundle,CB-BA-00115,Closed Won,516576.11,Treasury,2026-03-22,2026-10-22,E-0196,true,Summit Builders 115,Healthcare,Small Business,Mountain West,Grace Bailey
+CB-DL-00436,Granite Builders 12 — Term Loan,CB-BA-00012,Qualification,436441.44,Credit + Treasury,2026-03-16,2026-05-21,E-0195,false,Granite Builders 12,Retail,Middle Market,Southeast,Grace Martinez
+CB-DL-00437,Ironwood Health 132 — Treasury Bundle,CB-BA-00132,Credit Approval,2695247.87,Credit,2026-02-15,2026-09-18,E-0188,false,Ironwood Health 132,Retail,Small Business,Pacific,Tom Silva
+CB-DL-00438,Redwood Builders 212 — Term Loan,CB-BA-00212,Qualification,683633.41,Credit + Treasury,2025-12-13,2026-03-30,E-0194,false,Redwood Builders 212,Logistics,Corporate,Mountain West,Rosa Miller
+CB-DL-00439,Harbor Partners 577 — CRE,CB-BA-00577,Closed Won,894696.25,Credit,2025-09-16,2025-12-06,E-0181,true,Harbor Partners 577,Technology,Small Business,Mountain West,Wei Thomas
+CB-DL-00440,Keystone Industries 413 — Equipment,CB-BA-00413,Closed Lost,825335.62,Treasury,2026-05-14,2026-07-27,E-0185,false,Keystone Industries 413,Professional Services,Small Business,Southeast,Mei Hall
+CB-DL-00441,Bluewater Partners 285 — Treasury Bundle,CB-BA-00285,Closed Lost,19638522.13,Treasury,2025-10-15,2026-03-21,E-0184,false,Bluewater Partners 285,Manufacturing,Small Business,Mountain West,Sofia Bailey
+CB-DL-00442,Ironwood Logistics 479 — Treasury Bundle,CB-BA-00479,Closed Won,1043008.9,Credit,2025-05-15,2025-07-30,E-0203,true,Ironwood Logistics 479,Hospitality,Small Business,Mountain West,Fatima Okafor
+CB-DL-00443,Keystone Systems 366 — Treasury Bundle,CB-BA-00366,Closed Lost,4991068.9,Treasury,2026-06-15,2027-02-01,E-0189,false,Keystone Systems 366,Professional Services,Small Business,Northeast,Priya Martinez
+CB-DL-00444,Redwood Logistics 306 — Term Loan,CB-BA-00306,Proposal,1166554.33,Treasury,2025-10-03,2026-01-31,E-0184,false,Redwood Logistics 306,Logistics,Small Business,Southeast,Sofia Bailey
+CB-DL-00445,Meridian Foods 407 — CRE,CB-BA-00407,Proposal,22327855.83,Treasury,2025-12-25,2026-03-20,E-0205,false,Meridian Foods 407,Professional Services,Middle Market,Southeast,Fatima Patel
+CB-DL-00446,Ironwood Builders 368 — Term Loan,CB-BA-00368,Credit Approval,3333908.77,Credit + Treasury,2025-08-29,2026-01-15,E-0191,false,Ironwood Builders 368,Retail,Middle Market,Midwest,Nina Scott
+CB-DL-00447,Redwood Industries 138 — CRE,CB-BA-00138,Qualification,656367.66,Treasury,2025-12-14,2026-03-22,E-0204,false,Redwood Industries 138,Logistics,Middle Market,Pacific,Iris Clark
+CB-DL-00448,Meridian Industries 5 — CRE,CB-BA-00005,Proposal,873813.53,Credit + Treasury,2026-08-17,2026-11-24,E-0185,false,Meridian Industries 5,Agriculture,Small Business,Midwest,Mei Hall
+CB-DL-00449,Summit Logistics 438 — Term Loan,CB-BA-00438,Qualification,1501429.83,Credit + Treasury,2025-05-28,2025-09-20,E-0204,false,Summit Logistics 438,Manufacturing,Middle Market,Southeast,Iris Clark
+CB-DL-00450,Keystone Health 144 — Equipment,CB-BA-00144,Closed Lost,5566767.46,Treasury,2026-08-22,2027-02-04,E-0186,false,Keystone Health 144,Agriculture,Corporate,Mountain West,Hannah Young
+CB-DL-00451,Bluewater Health 553 — Term Loan,CB-BA-00553,Qualification,2362139.09,Credit,2026-01-15,2026-09-09,E-0185,false,Bluewater Health 553,Agriculture,Small Business,Mountain West,Mei Hall
+CB-DL-00452,Bluewater Health 97 — Treasury Bundle,CB-BA-00097,Closed Won,400346.75,Treasury,2025-12-23,2026-06-14,E-0200,true,Bluewater Health 97,Technology,Small Business,Southeast,Owen Okafor
+CB-DL-00453,Summit Builders 531 — Revolver,CB-BA-00531,Closed Lost,1126282.7,Treasury,2026-06-12,2026-08-07,E-0185,false,Summit Builders 531,Agriculture,Middle Market,Pacific,Mei Hall
+CB-DL-00454,Summit Foods 21 — Equipment,CB-BA-00021,Credit Approval,979787.56,Treasury,2025-03-27,2025-09-04,E-0195,false,Summit Foods 21,Healthcare,Middle Market,Pacific,Grace Martinez
+CB-DL-00455,Keystone Logistics 555 — Treasury Bundle,CB-BA-00555,Closed Won,1529463.15,Treasury,2025-09-25,2026-04-22,E-0200,true,Keystone Logistics 555,Construction,Small Business,Midwest,Owen Okafor
+CB-DL-00456,PayCadence Builders 230 — Revolver,CB-BA-00230,Credit Approval,2843718.23,Credit,2026-01-21,2026-08-24,E-0193,false,PayCadence Builders 230,Professional Services,Middle Market,Pacific,Julian Collins
+CB-DL-00457,Ironwood Builders 384 — Treasury Bundle,CB-BA-00384,Closed Lost,3296926.97,Credit,2025-02-21,2025-07-29,E-0190,false,Ironwood Builders 384,Professional Services,Small Business,Mountain West,Layla Carter
+CB-DL-00458,Redwood Industries 62 — Equipment,CB-BA-00062,Documentation,1783536.24,Treasury,2025-09-10,2026-03-26,E-0197,false,Redwood Industries 62,Agriculture,Middle Market,Southeast,Maya Ashford
+CB-DL-00459,Keystone Builders 549 — Revolver,CB-BA-00549,Documentation,1450896.13,Treasury,2025-05-29,2026-01-12,E-0202,false,Keystone Builders 549,Technology,Middle Market,Mountain West,Noah Carter
+CB-DL-00460,PayCadence Health 280 — Treasury Bundle,CB-BA-00280,Credit Approval,329975.96,Credit,2025-10-26,2026-03-30,E-0187,false,PayCadence Health 280,Agriculture,Small Business,Northeast,Leo King
+CB-DL-00461,Meridian Health 31 — CRE,CB-BA-00031,Documentation,1321310.96,Credit + Treasury,2025-10-05,2026-02-04,E-0194,false,Meridian Health 31,Manufacturing,Middle Market,Southeast,Rosa Miller
+CB-DL-00462,Keystone Group 134 — Treasury Bundle,CB-BA-00134,Credit Approval,2363046.94,Treasury,2025-08-27,2026-03-23,E-0203,false,Keystone Group 134,Professional Services,Middle Market,Northeast,Fatima Okafor
+CB-DL-00463,Granite Health 248 — Equipment,CB-BA-00248,Credit Approval,360712.98,Treasury,2025-03-24,2025-07-26,E-0199,false,Granite Health 248,Retail,Middle Market,Midwest,Hannah Roberts
+CB-DL-00464,Ironwood Builders 384 — CRE,CB-BA-00384,Closed Won,1370125.03,Treasury,2025-03-25,2025-08-13,E-0190,true,Ironwood Builders 384,Professional Services,Small Business,Mountain West,Layla Carter
+CB-DL-00465,PayCadence Health 284 — Term Loan,CB-BA-00284,Qualification,1488194.06,Credit + Treasury,2025-11-17,2026-05-06,E-0189,false,PayCadence Health 284,Professional Services,Small Business,Southeast,Priya Martinez
+CB-DL-00466,PayCadence Logistics 301 — Equipment,CB-BA-00301,Proposal,446221.23,Credit,2026-01-06,2026-08-31,E-0199,false,PayCadence Logistics 301,Hospitality,Small Business,Pacific,Hannah Roberts
+CB-DL-00467,Summit Industries 454 — CRE,CB-BA-00454,Qualification,1827375.82,Treasury,2025-09-22,2026-05-03,E-0202,false,Summit Industries 454,Manufacturing,Middle Market,Northeast,Noah Carter
+CB-DL-00468,Harbor Builders 161 — Term Loan,CB-BA-00161,Proposal,3534345.43,Treasury,2025-11-04,2025-12-13,E-0193,false,Harbor Builders 161,Technology,Small Business,Midwest,Julian Collins
+CB-DL-00469,Keystone Logistics 459 — Equipment,CB-BA-00459,Proposal,601576.12,Treasury,2025-02-17,2025-07-04,E-0200,false,Keystone Logistics 459,Hospitality,Small Business,Pacific,Owen Okafor
+CB-DL-00470,Keystone Health 147 — Equipment,CB-BA-00147,Proposal,507976.81,Treasury,2025-10-16,2026-01-25,E-0205,false,Keystone Health 147,Professional Services,Middle Market,Mountain West,Fatima Patel
+CB-DL-00471,Northwind Builders 521 — Equipment,CB-BA-00521,Closed Won,9695306.34,Credit + Treasury,2025-07-23,2026-01-11,E-0199,true,Northwind Builders 521,Construction,Small Business,Southeast,Hannah Roberts
+CB-DL-00472,Bluewater Logistics 336 — Treasury Bundle,CB-BA-00336,Documentation,1406754.35,Treasury,2025-03-30,2025-06-02,E-0186,false,Bluewater Logistics 336,Hospitality,Small Business,Mountain West,Hannah Young
+CB-DL-00473,Keystone Builders 326 — Treasury Bundle,CB-BA-00326,Closed Lost,1939881.07,Credit,2025-05-20,2025-09-23,E-0185,false,Keystone Builders 326,Technology,Middle Market,Southeast,Mei Hall
+CB-DL-00474,Harbor Foods 61 — Term Loan,CB-BA-00061,Closed Won,1238904.73,Credit + Treasury,2025-05-11,2025-08-22,E-0183,true,Harbor Foods 61,Healthcare,Small Business,Northeast,Iris Kim
+CB-DL-00475,Granite Partners 158 — Treasury Bundle,CB-BA-00158,Qualification,3600815.51,Credit,2025-06-26,2025-09-27,E-0182,false,Granite Partners 158,Retail,Small Business,Northeast,Luis Ashford
+CB-DL-00476,Ironwood Systems 425 — CRE,CB-BA-00425,Qualification,886386.29,Credit,2025-10-20,2026-05-22,E-0181,false,Ironwood Systems 425,Logistics,Small Business,Pacific,Wei Thomas
+CB-DL-00477,Bluewater Holdings 449 — CRE,CB-BA-00449,Credit Approval,3474326.16,Credit,2026-02-28,2026-03-23,E-0195,false,Bluewater Holdings 449,Logistics,Small Business,Midwest,Grace Martinez
+CB-DL-00478,Ironwood Health 305 — Treasury Bundle,CB-BA-00305,Documentation,5425455.83,Credit,2025-06-17,2025-07-28,E-0194,false,Ironwood Health 305,Construction,Small Business,Pacific,Rosa Miller
+CB-DL-00479,Ironwood Group 584 — Term Loan,CB-BA-00584,Closed Won,1379658.21,Treasury,2025-05-24,2025-11-25,E-0198,true,Ironwood Group 584,Logistics,Middle Market,Southeast,Iris Allen
+CB-DL-00480,Keystone Builders 485 — Term Loan,CB-BA-00485,Closed Won,13691774.57,Credit + Treasury,2025-04-04,2025-08-18,E-0193,true,Keystone Builders 485,Construction,Corporate,Northeast,Julian Collins
+CB-DL-00481,Ironwood Industries 324 — Term Loan,CB-BA-00324,Closed Won,1800276.05,Credit + Treasury,2025-12-07,2026-07-11,E-0191,true,Ironwood Industries 324,Retail,Middle Market,Pacific,Nina Scott
+CB-DL-00482,Bluewater Holdings 255 — Revolver,CB-BA-00255,Documentation,327981.45,Treasury,2025-01-10,2025-06-01,E-0200,false,Bluewater Holdings 255,Manufacturing,Middle Market,Midwest,Owen Okafor
+CB-DL-00483,Summit Systems 133 — Revolver,CB-BA-00133,Qualification,2671389.46,Credit + Treasury,2025-10-11,2025-12-18,E-0181,false,Summit Systems 133,Hospitality,Corporate,Southeast,Wei Thomas
+CB-DL-00484,Bluewater Group 126 — Revolver,CB-BA-00126,Documentation,2954084.19,Credit + Treasury,2025-07-23,2025-10-29,E-0200,false,Bluewater Group 126,Retail,Corporate,Southeast,Owen Okafor
+CB-DL-00485,Northwind Group 162 — Equipment,CB-BA-00162,Proposal,6889954.8,Credit,2025-03-06,2025-04-11,E-0188,false,Northwind Group 162,Retail,Corporate,Southeast,Tom Silva
+CB-DL-00486,Ironwood Health 410 — Revolver,CB-BA-00410,Closed Won,1129623.28,Treasury,2026-02-07,2026-03-15,E-0181,true,Ironwood Health 410,Professional Services,Small Business,Pacific,Wei Thomas
+CB-DL-00487,Ironwood Industries 469 — Revolver,CB-BA-00469,Closed Won,855023.91,Credit,2025-12-18,2026-06-15,E-0205,true,Ironwood Industries 469,Hospitality,Small Business,Southeast,Fatima Patel
+CB-DL-00488,Northwind Holdings 37 — Treasury Bundle,CB-BA-00037,Proposal,4272107.84,Credit,2025-11-18,2026-02-17,E-0201,false,Northwind Holdings 37,Retail,Small Business,Pacific,Luis Silva
+CB-DL-00489,Bluewater Foods 543 — CRE,CB-BA-00543,Closed Lost,3050747.29,Treasury,2026-03-07,2026-10-05,E-0195,false,Bluewater Foods 543,Retail,Small Business,Pacific,Grace Martinez
+CB-DL-00490,PayCadence Group 152 — Equipment,CB-BA-00152,Closed Lost,10792159.52,Treasury,2025-05-01,2025-06-04,E-0184,false,PayCadence Group 152,Retail,Small Business,Southeast,Sofia Bailey
+CB-DL-00491,Harbor Builders 399 — Term Loan,CB-BA-00399,Qualification,439627.93,Credit,2026-02-08,2026-08-23,E-0191,false,Harbor Builders 399,Professional Services,Middle Market,Southeast,Nina Scott
+CB-DL-00492,Harbor Logistics 461 — Revolver,CB-BA-00461,Proposal,1858151.33,Credit + Treasury,2026-07-22,2027-02-21,E-0191,false,Harbor Logistics 461,Construction,Small Business,Midwest,Nina Scott
+CB-DL-00493,Keystone Group 312 — Treasury Bundle,CB-BA-00312,Qualification,1861646.99,Credit + Treasury,2025-09-19,2026-04-13,E-0183,false,Keystone Group 312,Retail,Small Business,Mountain West,Iris Kim
+CB-DL-00494,Meridian Health 453 — Equipment,CB-BA-00453,Documentation,2850758.87,Credit + Treasury,2025-02-16,2025-04-01,E-0193,false,Meridian Health 453,Healthcare,Corporate,Midwest,Julian Collins
+CB-DL-00495,Summit Holdings 524 — Revolver,CB-BA-00524,Proposal,3827329.79,Treasury,2025-05-15,2025-12-05,E-0181,false,Summit Holdings 524,Manufacturing,Small Business,Pacific,Wei Thomas
+CB-DL-00496,PayCadence Group 111 — CRE,CB-BA-00111,Credit Approval,1175417.24,Treasury,2025-09-30,2025-12-30,E-0194,false,PayCadence Group 111,Technology,Middle Market,Southeast,Rosa Miller
+CB-DL-00497,Meridian Group 538 — CRE,CB-BA-00538,Qualification,5832272.08,Credit,2026-02-13,2026-09-12,E-0197,false,Meridian Group 538,Technology,Small Business,Pacific,Maya Ashford
+CB-DL-00498,Ironwood Group 584 — Equipment,CB-BA-00584,Qualification,1004705.27,Treasury,2026-06-10,2026-11-25,E-0198,false,Ironwood Group 584,Logistics,Middle Market,Southeast,Iris Allen
+CB-DL-00499,Northwind Holdings 38 — Equipment,CB-BA-00038,Qualification,42210861.22,Treasury,2026-05-06,2026-11-01,E-0186,false,Northwind Holdings 38,Construction,Small Business,Southeast,Hannah Young
+CB-DL-00500,Ironwood Builders 384 — Treasury Bundle,CB-BA-00384,Credit Approval,2124345.12,Credit + Treasury,2025-09-12,2026-04-08,E-0190,false,Ironwood Builders 384,Professional Services,Small Business,Mountain West,Layla Carter

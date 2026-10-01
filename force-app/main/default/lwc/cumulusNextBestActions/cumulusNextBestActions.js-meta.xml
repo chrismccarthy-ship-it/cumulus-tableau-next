@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Cumulus Next Best Actions</masterLabel>
+    <description>Ranked worklist (who / why / score) from any semantic model. Selecting a row filters the dashboard to that entity. Re-bind to households, clients or policies without redeploying.</description>
+    <targets>
+        <target>analytics__Dashboard</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="analytics__Dashboard">
+            <property name="sdmName" type="SemanticModel" label="Semantic Model" description="Model to query." required="true"/>
+            <property name="entityField" type="SemanticDimension" label="Entity Dimension" description="Who the action is for (e.g. Household Name)." required="true"/>
+            <property name="contextField" type="SemanticDimension" label="Context Dimension" description="Optional 'why' shown under the entity (e.g. Segment, Event Type)."/>
+            <property name="scoreField" type="SemanticMeasure" label="Score Measure" description="Measure used to rank (e.g. Product Count with Avg, Opportunity Value with Sum)." required="true"/>
+            <property name="title" type="String" label="Title" default="Next Best Actions"/>
+            <property name="actionLabel" type="String" label="Action Label" default="Review" description="Text on the action pill."/>
+            <property name="lowestFirst" type="Boolean" label="Lowest score first" default="false" description="Rank ascending (e.g. fewest products = most urgent)."/>
+            <property name="topN" type="Integer" label="Rows" default="8" min="1" max="50"/>
+            <property name="format" type="String" label="Format" default="number" datasource="number,currency,percent"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

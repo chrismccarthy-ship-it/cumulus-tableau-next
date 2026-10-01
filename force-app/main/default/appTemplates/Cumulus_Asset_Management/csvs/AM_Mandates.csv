@@ -1,0 +1,284 @@
+MandateId,ClientId,Strategy,Vehicle,AUM,FeeRateBps,InceptionDate,Benchmark,Status,ClientName,ClientType,ClientTier,Region,RelationshipManagerName
+AM-MD-00001,AM-CL-0001,Multi-Asset Balanced,Commingled Fund,1235192803.98,50.0,2018-07-16,60/40 Blend,Active,Lakeshore Employees Pension 1,Sub-Advisory,Strategic,Pacific,Wei Thomas
+AM-MD-00002,AM-CL-0002,US Large Cap Equity,Separate Account,92927714.4,45.0,2020-10-31,MSCI ACWI,Active,Blue Ridge Sovereign Fund 2,Family Office,Key,EMEA,Noah Carter
+AM-MD-00003,AM-CL-0002,US Large Cap Equity,Commingled Fund,151399831.68,45.0,2010-07-06,S&P 500,Active,Blue Ridge Sovereign Fund 2,Family Office,Key,EMEA,Noah Carter
+AM-MD-00004,AM-CL-0003,US Large Cap Equity,LP,63087429.35,45.0,2017-09-11,60/40 Blend,Active,Blue Ridge Mutual Insurance 3,Foundation,Strategic,EMEA,Grace Martinez
+AM-MD-00005,AM-CL-0004,Real Assets,Commingled Fund,121061353.28,90.0,2012-03-06,Bloomberg US Agg,Terminated,Lakeshore Teachers Retirement 4,Sub-Advisory,Key,EMEA,Julian Collins
+AM-MD-00006,AM-CL-0004,Multi-Asset Balanced,Mutual Fund,601836340.19,50.0,2021-10-13,CPI+4%,Terminated,Lakeshore Teachers Retirement 4,Sub-Advisory,Key,EMEA,Julian Collins
+AM-MD-00007,AM-CL-0004,ESG Equity,Separate Account,220463472.94,55.0,2010-12-13,60/40 Blend,In Transition,Lakeshore Teachers Retirement 4,Sub-Advisory,Key,EMEA,Julian Collins
+AM-MD-00008,AM-CL-0004,Private Credit,LP,728135742.97,120.0,2012-04-22,Bloomberg US Agg,Active,Lakeshore Teachers Retirement 4,Sub-Advisory,Key,EMEA,Julian Collins
+AM-MD-00009,AM-CL-0005,Multi-Asset Balanced,Separate Account,307326524.85,50.0,2018-10-24,CPI+4%,In Transition,Blue Ridge Capital Partners 5,Sub-Advisory,Key,APAC,Rosa Miller
+AM-MD-00010,AM-CL-0005,ESG Equity,Separate Account,388440393.32,55.0,2017-12-16,MSCI ACWI,Active,Blue Ridge Capital Partners 5,Sub-Advisory,Key,APAC,Rosa Miller
+AM-MD-00011,AM-CL-0006,ESG Equity,Mutual Fund,1413739574.2,55.0,2019-03-17,60/40 Blend,In Transition,Cascade Employees Pension 6,Family Office,Standard,APAC,Sofia Bailey
+AM-MD-00012,AM-CL-0006,Multi-Asset Balanced,LP,69332012.98,50.0,2019-01-22,60/40 Blend,Active,Cascade Employees Pension 6,Family Office,Standard,APAC,Sofia Bailey
+AM-MD-00013,AM-CL-0007,Real Assets,Separate Account,633969805.38,90.0,2017-09-15,Bloomberg US Agg,Active,Ironwood Teachers Retirement 7,Insurance GA,Standard,Midwest,Fatima Okafor
+AM-MD-00014,AM-CL-0008,ESG Equity,Separate Account,332223845.67,55.0,2012-04-23,CPI+4%,Active,Granite Community Foundation 8,Insurance GA,Standard,Mountain West,Luis Silva
+AM-MD-00015,AM-CL-0008,Private Credit,Separate Account,45738012.52,120.0,2022-04-25,CPI+4%,In Transition,Granite Community Foundation 8,Insurance GA,Standard,Mountain West,Luis Silva
+AM-MD-00016,AM-CL-0008,Liability-Driven Investing,Mutual Fund,226116200.25,30.0,2017-08-07,Bloomberg US Agg,Terminated,Granite Community Foundation 8,Insurance GA,Standard,Mountain West,Luis Silva
+AM-MD-00017,AM-CL-0009,Core Fixed Income,Mutual Fund,72546067.83,35.0,2021-06-11,S&P 500,Active,Cascade Sovereign Fund 9,Corporate Pension,Strategic,Midwest,Fatima Patel
+AM-MD-00018,AM-CL-0010,Global Equity,Separate Account,169446946.56,60.0,2009-05-16,60/40 Blend,Active,Northfield Capital Partners 10,Insurance GA,Standard,Midwest,Wei Thomas
+AM-MD-00019,AM-CL-0010,US Large Cap Equity,LP,124440117.23,45.0,2023-01-22,60/40 Blend,In Transition,Northfield Capital Partners 10,Insurance GA,Standard,Midwest,Wei Thomas
+AM-MD-00020,AM-CL-0011,ESG Equity,Mutual Fund,491782820.68,55.0,2013-10-12,60/40 Blend,Active,Lakeshore Community Foundation 11,Corporate Pension,Key,Midwest,Julian Collins
+AM-MD-00021,AM-CL-0012,Core Fixed Income,Separate Account,78724261.97,35.0,2012-01-29,60/40 Blend,Terminated,Blue Ridge Community Foundation 12,Foundation,Strategic,Mountain West,Luis Silva
+AM-MD-00022,AM-CL-0012,Private Credit,LP,354597222.94,120.0,2023-06-25,MSCI ACWI,Active,Blue Ridge Community Foundation 12,Foundation,Strategic,Mountain West,Luis Silva
+AM-MD-00023,AM-CL-0013,Liability-Driven Investing,Separate Account,605890000.97,30.0,2024-06-17,Bloomberg US Agg,Active,Meridian Teachers Retirement 13,Sovereign,Standard,Northeast,Leo King
+AM-MD-00024,AM-CL-0014,US Large Cap Equity,Commingled Fund,104500037.32,45.0,2009-02-07,CPI+4%,In Transition,Granite Mutual Insurance 14,Corporate Pension,Standard,APAC,Fatima Okafor
+AM-MD-00025,AM-CL-0014,US Large Cap Equity,Separate Account,80680318.87,45.0,2012-01-25,CPI+4%,In Transition,Granite Mutual Insurance 14,Corporate Pension,Standard,APAC,Fatima Okafor
+AM-MD-00026,AM-CL-0015,Real Assets,Separate Account,109061588.94,90.0,2012-03-10,CPI+4%,Active,Northfield Teachers Retirement 15,Foundation,Key,Mountain West,Hannah Young
+AM-MD-00027,AM-CL-0016,Private Credit,Commingled Fund,191617225.25,120.0,2011-11-29,Bloomberg US Agg,Active,Ironwood Sovereign Fund 16,Sovereign,Key,Pacific,Maya Ashford
+AM-MD-00028,AM-CL-0017,Global Equity,LP,64440179.96,60.0,2018-04-25,CPI+4%,In Transition,Lakeshore Teachers Retirement 17,Family Office,Standard,EMEA,Tom Silva
+AM-MD-00029,AM-CL-0017,Multi-Asset Balanced,Commingled Fund,422205305.87,50.0,2019-06-10,Bloomberg US Agg,In Transition,Lakeshore Teachers Retirement 17,Family Office,Standard,EMEA,Tom Silva
+AM-MD-00030,AM-CL-0017,ESG Equity,LP,272633043.02,55.0,2017-08-15,MSCI ACWI,In Transition,Lakeshore Teachers Retirement 17,Family Office,Standard,EMEA,Tom Silva
+AM-MD-00031,AM-CL-0017,Core Fixed Income,LP,208480436.31,35.0,2017-04-10,60/40 Blend,Terminated,Lakeshore Teachers Retirement 17,Family Office,Standard,EMEA,Tom Silva
+AM-MD-00032,AM-CL-0018,Core Fixed Income,Separate Account,93858569.76,35.0,2017-04-27,S&P 500,Active,Meridian Mutual Insurance 18,Public Pension,Key,Pacific,Noah Carter
+AM-MD-00033,AM-CL-0018,Core Fixed Income,Commingled Fund,236629173.5,35.0,2016-02-19,60/40 Blend,In Transition,Meridian Mutual Insurance 18,Public Pension,Key,Pacific,Noah Carter
+AM-MD-00034,AM-CL-0019,ESG Equity,LP,162394236.24,55.0,2011-06-20,MSCI ACWI,In Transition,Northfield Employees Pension 19,Family Office,Key,Southeast,Iris Kim
+AM-MD-00035,AM-CL-0019,ESG Equity,Separate Account,324086657.46,55.0,2021-12-03,CPI+4%,In Transition,Northfield Employees Pension 19,Family Office,Key,Southeast,Iris Kim
+AM-MD-00036,AM-CL-0020,Private Credit,LP,92851026.04,120.0,2025-09-08,S&P 500,Active,Summit Capital Partners 20,Corporate Pension,Standard,Mountain West,Wei Thomas
+AM-MD-00037,AM-CL-0020,Multi-Asset Balanced,LP,159579539.45,50.0,2011-11-07,CPI+4%,Active,Summit Capital Partners 20,Corporate Pension,Standard,Mountain West,Wei Thomas
+AM-MD-00038,AM-CL-0021,Liability-Driven Investing,Commingled Fund,391714012.78,30.0,2014-06-10,Bloomberg US Agg,Active,Lakeshore Sovereign Fund 21,Sub-Advisory,Strategic,Pacific,Tom Silva
+AM-MD-00039,AM-CL-0021,Liability-Driven Investing,Separate Account,639259077.27,30.0,2013-06-25,MSCI ACWI,Active,Lakeshore Sovereign Fund 21,Sub-Advisory,Strategic,Pacific,Tom Silva
+AM-MD-00040,AM-CL-0022,Global Equity,Commingled Fund,1583462746.02,60.0,2020-07-31,Bloomberg US Agg,Active,Northfield Mutual Insurance 22,Foundation,Key,EMEA,Iris Allen
+AM-MD-00041,AM-CL-0022,Private Credit,LP,1736089027.96,120.0,2016-10-30,60/40 Blend,In Transition,Northfield Mutual Insurance 22,Foundation,Key,EMEA,Iris Allen
+AM-MD-00042,AM-CL-0023,Liability-Driven Investing,Separate Account,380658392.22,30.0,2022-03-07,CPI+4%,Active,Harbor Community Foundation 23,Public Pension,Key,Midwest,Sofia Bailey
+AM-MD-00043,AM-CL-0024,Core Fixed Income,Separate Account,33802041.96,35.0,2015-08-24,CPI+4%,In Transition,Granite University Endowment 24,Foundation,Standard,Mountain West,Grace Bailey
+AM-MD-00044,AM-CL-0024,Multi-Asset Balanced,LP,281573187.45,50.0,2014-09-17,60/40 Blend,Active,Granite University Endowment 24,Foundation,Standard,Mountain West,Grace Bailey
+AM-MD-00045,AM-CL-0025,Global Equity,LP,180722131.1,60.0,2016-06-25,MSCI ACWI,Active,Summit Teachers Retirement 25,Insurance GA,Standard,Midwest,Rosa Miller
+AM-MD-00046,AM-CL-0025,Liability-Driven Investing,Mutual Fund,637518579.08,30.0,2015-10-26,60/40 Blend,Active,Summit Teachers Retirement 25,Insurance GA,Standard,Midwest,Rosa Miller
+AM-MD-00047,AM-CL-0026,Private Credit,Commingled Fund,2233561907.13,120.0,2009-04-14,60/40 Blend,Active,Summit Teachers Retirement 26,Foundation,Standard,Northeast,Layla Carter
+AM-MD-00048,AM-CL-0027,Liability-Driven Investing,LP,2272302138.74,30.0,2017-07-28,CPI+4%,Active,Northfield Teachers Retirement 27,Sovereign,Key,Mountain West,Hannah Roberts
+AM-MD-00049,AM-CL-0027,Global Equity,Commingled Fund,359645932.98,60.0,2023-06-27,MSCI ACWI,In Transition,Northfield Teachers Retirement 27,Sovereign,Key,Mountain West,Hannah Roberts
+AM-MD-00050,AM-CL-0028,US Large Cap Equity,Separate Account,80955373.81,45.0,2024-06-03,CPI+4%,Active,Silverline Teachers Retirement 28,Public Pension,Key,Pacific,Layla Carter
+AM-MD-00051,AM-CL-0029,Global Equity,Commingled Fund,580826444.46,60.0,2015-02-20,S&P 500,Terminated,Granite Capital Partners 29,Sovereign,Key,Midwest,Iris Allen
+AM-MD-00052,AM-CL-0029,Liability-Driven Investing,Mutual Fund,53715560.82,30.0,2018-01-23,Bloomberg US Agg,Active,Granite Capital Partners 29,Sovereign,Key,Midwest,Iris Allen
+AM-MD-00053,AM-CL-0029,Multi-Asset Balanced,Commingled Fund,26203532.69,50.0,2017-12-30,MSCI ACWI,Active,Granite Capital Partners 29,Sovereign,Key,Midwest,Iris Allen
+AM-MD-00054,AM-CL-0029,Global Equity,Commingled Fund,769219718.94,60.0,2009-05-31,MSCI ACWI,Terminated,Granite Capital Partners 29,Sovereign,Key,Midwest,Iris Allen
+AM-MD-00055,AM-CL-0030,US Large Cap Equity,Separate Account,190791381.65,45.0,2013-09-24,60/40 Blend,Active,Meridian Capital Partners 30,Family Office,Standard,Southeast,Sofia Bailey
+AM-MD-00056,AM-CL-0030,Private Credit,Separate Account,399731152.58,120.0,2019-04-24,S&P 500,In Transition,Meridian Capital Partners 30,Family Office,Standard,Southeast,Sofia Bailey
+AM-MD-00057,AM-CL-0031,Global Equity,Separate Account,93678728.97,60.0,2021-09-21,60/40 Blend,In Transition,Blue Ridge Employees Pension 31,Sub-Advisory,Standard,Southeast,Owen Okafor
+AM-MD-00058,AM-CL-0032,Liability-Driven Investing,Commingled Fund,209031984.06,30.0,2024-06-07,S&P 500,In Transition,Meridian Sovereign Fund 32,Corporate Pension,Standard,Mountain West,Priya Martinez
+AM-MD-00059,AM-CL-0032,Multi-Asset Balanced,Commingled Fund,129769514.85,50.0,2014-03-16,60/40 Blend,Active,Meridian Sovereign Fund 32,Corporate Pension,Standard,Mountain West,Priya Martinez
+AM-MD-00060,AM-CL-0032,Private Credit,Separate Account,81216057.99,120.0,2019-04-17,MSCI ACWI,Terminated,Meridian Sovereign Fund 32,Corporate Pension,Standard,Mountain West,Priya Martinez
+AM-MD-00061,AM-CL-0032,Private Credit,Commingled Fund,282061521.82,120.0,2008-02-14,Bloomberg US Agg,Active,Meridian Sovereign Fund 32,Corporate Pension,Standard,Mountain West,Priya Martinez
+AM-MD-00062,AM-CL-0033,Core Fixed Income,Mutual Fund,47886789.01,35.0,2014-01-02,S&P 500,Active,Summit Employees Pension 33,Family Office,Standard,EMEA,Hannah Young
+AM-MD-00063,AM-CL-0034,US Large Cap Equity,LP,51933251.62,45.0,2024-12-20,S&P 500,Active,Cascade Employees Pension 34,Insurance GA,Standard,Mountain West,Mei Hall
+AM-MD-00064,AM-CL-0034,Private Credit,LP,173428735.42,120.0,2014-09-15,60/40 Blend,Terminated,Cascade Employees Pension 34,Insurance GA,Standard,Mountain West,Mei Hall
+AM-MD-00065,AM-CL-0034,Real Assets,Commingled Fund,148187277.48,90.0,2019-11-26,Bloomberg US Agg,Terminated,Cascade Employees Pension 34,Insurance GA,Standard,Mountain West,Mei Hall
+AM-MD-00066,AM-CL-0034,Private Credit,Mutual Fund,55538336.14,120.0,2016-12-09,CPI+4%,Terminated,Cascade Employees Pension 34,Insurance GA,Standard,Mountain West,Mei Hall
+AM-MD-00067,AM-CL-0035,Private Credit,Separate Account,718640403.7,120.0,2025-01-30,60/40 Blend,Active,Harbor Capital Partners 35,Endowment,Strategic,Southeast,Iris Kim
+AM-MD-00068,AM-CL-0035,Core Fixed Income,LP,324934080.46,35.0,2024-08-11,60/40 Blend,Active,Harbor Capital Partners 35,Endowment,Strategic,Southeast,Iris Kim
+AM-MD-00069,AM-CL-0036,Liability-Driven Investing,Mutual Fund,37302343.58,30.0,2014-12-02,60/40 Blend,Terminated,Harbor Teachers Retirement 36,Corporate Pension,Standard,APAC,Luis Silva
+AM-MD-00070,AM-CL-0037,ESG Equity,Commingled Fund,138991312.75,55.0,2025-07-06,60/40 Blend,Active,Harbor Capital Partners 37,Foundation,Standard,APAC,Nina Scott
+AM-MD-00071,AM-CL-0038,Private Credit,Separate Account,32542819.23,120.0,2023-10-29,CPI+4%,In Transition,Summit Capital Partners 38,Endowment,Standard,Mountain West,Sofia Bailey
+AM-MD-00072,AM-CL-0039,Global Equity,Separate Account,107763803.19,60.0,2011-10-02,Bloomberg US Agg,Terminated,Blue Ridge Mutual Insurance 39,Foundation,Key,APAC,Iris Clark
+AM-MD-00073,AM-CL-0039,US Large Cap Equity,Separate Account,87119501.43,45.0,2023-10-06,Bloomberg US Agg,Terminated,Blue Ridge Mutual Insurance 39,Foundation,Key,APAC,Iris Clark
+AM-MD-00074,AM-CL-0039,Private Credit,Separate Account,127649637.11,120.0,2025-08-28,MSCI ACWI,Active,Blue Ridge Mutual Insurance 39,Foundation,Key,APAC,Iris Clark
+AM-MD-00075,AM-CL-0039,Multi-Asset Balanced,Mutual Fund,265047064.81,50.0,2015-03-28,CPI+4%,Terminated,Blue Ridge Mutual Insurance 39,Foundation,Key,APAC,Iris Clark
+AM-MD-00076,AM-CL-0040,Private Credit,LP,91828181.57,120.0,2014-05-02,60/40 Blend,Terminated,Cascade Capital Partners 40,Corporate Pension,Key,EMEA,Luis Silva
+AM-MD-00077,AM-CL-0041,Private Credit,Commingled Fund,190075192.3,120.0,2024-01-23,Bloomberg US Agg,Active,Granite Mutual Insurance 41,Corporate Pension,Standard,APAC,Fatima Patel
+AM-MD-00078,AM-CL-0042,Real Assets,Commingled Fund,54373165.0,90.0,2022-12-09,CPI+4%,Terminated,Blue Ridge Teachers Retirement 42,Public Pension,Standard,Mountain West,Layla Carter
+AM-MD-00079,AM-CL-0043,Core Fixed Income,Separate Account,143151249.52,35.0,2017-08-14,MSCI ACWI,Active,Lakeshore Community Foundation 43,Family Office,Key,Pacific,Rosa Miller
+AM-MD-00080,AM-CL-0043,US Large Cap Equity,Mutual Fund,86732169.64,45.0,2025-03-09,CPI+4%,Active,Lakeshore Community Foundation 43,Family Office,Key,Pacific,Rosa Miller
+AM-MD-00081,AM-CL-0043,US Large Cap Equity,Separate Account,74277586.94,45.0,2021-11-10,S&P 500,Terminated,Lakeshore Community Foundation 43,Family Office,Key,Pacific,Rosa Miller
+AM-MD-00082,AM-CL-0044,Liability-Driven Investing,Separate Account,75135750.52,30.0,2010-12-29,S&P 500,Active,Blue Ridge Teachers Retirement 44,Sovereign,Key,Southeast,Fatima Patel
+AM-MD-00083,AM-CL-0044,Global Equity,Commingled Fund,235633076.95,60.0,2012-11-22,MSCI ACWI,Active,Blue Ridge Teachers Retirement 44,Sovereign,Key,Southeast,Fatima Patel
+AM-MD-00084,AM-CL-0044,Global Equity,Mutual Fund,1632426457.39,60.0,2010-10-24,Bloomberg US Agg,Active,Blue Ridge Teachers Retirement 44,Sovereign,Key,Southeast,Fatima Patel
+AM-MD-00085,AM-CL-0044,Core Fixed Income,Commingled Fund,425384208.12,35.0,2019-10-17,MSCI ACWI,In Transition,Blue Ridge Teachers Retirement 44,Sovereign,Key,Southeast,Fatima Patel
+AM-MD-00086,AM-CL-0045,Liability-Driven Investing,LP,702276144.51,30.0,2017-09-24,Bloomberg US Agg,Active,Blue Ridge Teachers Retirement 45,Family Office,Strategic,Southeast,Maya Ashford
+AM-MD-00087,AM-CL-0045,Multi-Asset Balanced,LP,141600760.21,50.0,2023-11-10,S&P 500,Terminated,Blue Ridge Teachers Retirement 45,Family Office,Strategic,Southeast,Maya Ashford
+AM-MD-00088,AM-CL-0046,Multi-Asset Balanced,Separate Account,578262689.98,50.0,2022-03-19,MSCI ACWI,Active,Summit University Endowment 46,Foundation,Standard,Pacific,Fatima Patel
+AM-MD-00089,AM-CL-0047,Global Equity,Mutual Fund,224363766.51,60.0,2020-05-29,S&P 500,Terminated,Granite Sovereign Fund 47,Endowment,Standard,Mountain West,Noah Nelson
+AM-MD-00090,AM-CL-0047,Real Assets,Separate Account,893345656.44,90.0,2024-12-28,S&P 500,Active,Granite Sovereign Fund 47,Endowment,Standard,Mountain West,Noah Nelson
+AM-MD-00091,AM-CL-0048,US Large Cap Equity,Commingled Fund,281415426.44,45.0,2014-10-19,Bloomberg US Agg,Active,Lakeshore Community Foundation 48,Family Office,Strategic,Mountain West,Grace Martinez
+AM-MD-00092,AM-CL-0048,ESG Equity,Mutual Fund,233036592.54,55.0,2023-06-27,S&P 500,In Transition,Lakeshore Community Foundation 48,Family Office,Strategic,Mountain West,Grace Martinez
+AM-MD-00093,AM-CL-0048,Global Equity,Commingled Fund,599261071.73,60.0,2025-07-18,60/40 Blend,Terminated,Lakeshore Community Foundation 48,Family Office,Strategic,Mountain West,Grace Martinez
+AM-MD-00094,AM-CL-0049,Liability-Driven Investing,Commingled Fund,52994192.3,30.0,2015-10-30,Bloomberg US Agg,In Transition,Lakeshore Sovereign Fund 49,Sub-Advisory,Key,Mountain West,Priya Martinez
+AM-MD-00095,AM-CL-0050,Core Fixed Income,LP,387460663.73,35.0,2025-09-25,Bloomberg US Agg,Active,Harbor Community Foundation 50,Endowment,Standard,Pacific,Hannah Roberts
+AM-MD-00096,AM-CL-0051,Private Credit,Commingled Fund,283733859.65,120.0,2023-05-26,Bloomberg US Agg,Active,Silverline Teachers Retirement 51,Insurance GA,Standard,EMEA,Nina Scott
+AM-MD-00097,AM-CL-0051,ESG Equity,Commingled Fund,110923798.89,55.0,2023-04-05,S&P 500,Active,Silverline Teachers Retirement 51,Insurance GA,Standard,EMEA,Nina Scott
+AM-MD-00098,AM-CL-0051,Real Assets,Mutual Fund,195821691.98,90.0,2009-03-07,60/40 Blend,Terminated,Silverline Teachers Retirement 51,Insurance GA,Standard,EMEA,Nina Scott
+AM-MD-00099,AM-CL-0051,Real Assets,Separate Account,38073258.3,90.0,2017-04-10,CPI+4%,Active,Silverline Teachers Retirement 51,Insurance GA,Standard,EMEA,Nina Scott
+AM-MD-00100,AM-CL-0052,US Large Cap Equity,Mutual Fund,377762188.34,45.0,2008-06-30,MSCI ACWI,In Transition,Lakeshore Mutual Insurance 52,Family Office,Key,Mountain West,Tom Silva
+AM-MD-00101,AM-CL-0053,US Large Cap Equity,LP,286113568.88,45.0,2019-01-13,CPI+4%,Active,Granite Sovereign Fund 53,Family Office,Standard,Northeast,Iris Clark
+AM-MD-00102,AM-CL-0053,Real Assets,Separate Account,23209327.93,90.0,2016-06-14,S&P 500,Active,Granite Sovereign Fund 53,Family Office,Standard,Northeast,Iris Clark
+AM-MD-00103,AM-CL-0054,Liability-Driven Investing,Commingled Fund,539662235.02,30.0,2017-04-29,MSCI ACWI,Active,Granite Mutual Insurance 54,Corporate Pension,Standard,Pacific,Hannah Young
+AM-MD-00104,AM-CL-0054,Liability-Driven Investing,LP,107390543.76,30.0,2025-01-18,Bloomberg US Agg,Active,Granite Mutual Insurance 54,Corporate Pension,Standard,Pacific,Hannah Young
+AM-MD-00105,AM-CL-0055,Liability-Driven Investing,Mutual Fund,55137938.17,30.0,2019-04-11,CPI+4%,In Transition,Granite Teachers Retirement 55,Sub-Advisory,Key,Northeast,Fatima Patel
+AM-MD-00106,AM-CL-0055,Core Fixed Income,LP,157904252.15,35.0,2015-04-13,60/40 Blend,Active,Granite Teachers Retirement 55,Sub-Advisory,Key,Northeast,Fatima Patel
+AM-MD-00107,AM-CL-0055,ESG Equity,Mutual Fund,1433387107.57,55.0,2008-08-26,60/40 Blend,Active,Granite Teachers Retirement 55,Sub-Advisory,Key,Northeast,Fatima Patel
+AM-MD-00108,AM-CL-0056,ESG Equity,Separate Account,994564183.96,55.0,2021-11-21,MSCI ACWI,Active,Harbor Mutual Insurance 56,Endowment,Strategic,APAC,Grace Bailey
+AM-MD-00109,AM-CL-0056,ESG Equity,Commingled Fund,91865771.09,55.0,2010-04-27,CPI+4%,Active,Harbor Mutual Insurance 56,Endowment,Strategic,APAC,Grace Bailey
+AM-MD-00110,AM-CL-0056,Private Credit,Separate Account,259421760.25,120.0,2008-08-03,60/40 Blend,Terminated,Harbor Mutual Insurance 56,Endowment,Strategic,APAC,Grace Bailey
+AM-MD-00111,AM-CL-0057,Private Credit,Mutual Fund,205707571.25,120.0,2023-12-16,60/40 Blend,Active,Lakeshore University Endowment 57,Sovereign,Standard,Mountain West,Luis Silva
+AM-MD-00112,AM-CL-0057,US Large Cap Equity,Mutual Fund,131816721.02,45.0,2021-01-16,CPI+4%,Active,Lakeshore University Endowment 57,Sovereign,Standard,Mountain West,Luis Silva
+AM-MD-00113,AM-CL-0058,Multi-Asset Balanced,Separate Account,163862349.29,50.0,2010-05-16,MSCI ACWI,Active,Harbor Teachers Retirement 58,Sub-Advisory,Standard,APAC,Fatima Patel
+AM-MD-00114,AM-CL-0058,Private Credit,Commingled Fund,318427854.89,120.0,2024-02-02,MSCI ACWI,Active,Harbor Teachers Retirement 58,Sub-Advisory,Standard,APAC,Fatima Patel
+AM-MD-00115,AM-CL-0059,Real Assets,Mutual Fund,157645391.11,90.0,2016-12-21,MSCI ACWI,Terminated,Lakeshore Teachers Retirement 59,Endowment,Strategic,Midwest,Nina Scott
+AM-MD-00116,AM-CL-0059,Liability-Driven Investing,LP,72571981.94,30.0,2008-09-08,60/40 Blend,Terminated,Lakeshore Teachers Retirement 59,Endowment,Strategic,Midwest,Nina Scott
+AM-MD-00117,AM-CL-0059,Core Fixed Income,Mutual Fund,75579151.68,35.0,2012-03-08,60/40 Blend,Active,Lakeshore Teachers Retirement 59,Endowment,Strategic,Midwest,Nina Scott
+AM-MD-00118,AM-CL-0060,Private Credit,Commingled Fund,789828784.16,120.0,2009-08-16,60/40 Blend,Terminated,Granite Teachers Retirement 60,Sovereign,Standard,Northeast,Hannah Young
+AM-MD-00119,AM-CL-0060,US Large Cap Equity,LP,2749301916.25,45.0,2021-08-13,60/40 Blend,Active,Granite Teachers Retirement 60,Sovereign,Standard,Northeast,Hannah Young
+AM-MD-00120,AM-CL-0061,Multi-Asset Balanced,Mutual Fund,147189748.27,50.0,2011-08-28,S&P 500,Active,Summit Sovereign Fund 61,Insurance GA,Key,Midwest,Iris Allen
+AM-MD-00121,AM-CL-0061,Global Equity,Separate Account,79467450.25,60.0,2020-03-04,Bloomberg US Agg,Active,Summit Sovereign Fund 61,Insurance GA,Key,Midwest,Iris Allen
+AM-MD-00122,AM-CL-0061,ESG Equity,Mutual Fund,63026081.87,55.0,2022-05-29,60/40 Blend,Active,Summit Sovereign Fund 61,Insurance GA,Key,Midwest,Iris Allen
+AM-MD-00123,AM-CL-0062,Global Equity,LP,100624284.62,60.0,2019-06-03,MSCI ACWI,Terminated,Northfield Teachers Retirement 62,Corporate Pension,Standard,Midwest,Owen Okafor
+AM-MD-00124,AM-CL-0062,Multi-Asset Balanced,Separate Account,84946492.09,50.0,2018-11-05,MSCI ACWI,Terminated,Northfield Teachers Retirement 62,Corporate Pension,Standard,Midwest,Owen Okafor
+AM-MD-00125,AM-CL-0063,Real Assets,Commingled Fund,175738221.81,90.0,2024-12-14,MSCI ACWI,In Transition,Cascade Employees Pension 63,Sovereign,Key,Mountain West,Fatima Patel
+AM-MD-00126,AM-CL-0064,Global Equity,Separate Account,1035094085.6,60.0,2021-02-23,60/40 Blend,Active,Granite Mutual Insurance 64,Sub-Advisory,Standard,Midwest,Layla Carter
+AM-MD-00127,AM-CL-0064,Real Assets,Separate Account,36069643.98,90.0,2015-05-21,Bloomberg US Agg,Active,Granite Mutual Insurance 64,Sub-Advisory,Standard,Midwest,Layla Carter
+AM-MD-00128,AM-CL-0064,ESG Equity,Mutual Fund,141769627.71,55.0,2012-10-27,S&P 500,Terminated,Granite Mutual Insurance 64,Sub-Advisory,Standard,Midwest,Layla Carter
+AM-MD-00129,AM-CL-0065,Multi-Asset Balanced,Separate Account,311102220.54,50.0,2016-12-23,MSCI ACWI,Active,Harbor Capital Partners 65,Foundation,Standard,Northeast,Iris Clark
+AM-MD-00130,AM-CL-0065,Liability-Driven Investing,Mutual Fund,266111299.78,30.0,2024-04-02,MSCI ACWI,In Transition,Harbor Capital Partners 65,Foundation,Standard,Northeast,Iris Clark
+AM-MD-00131,AM-CL-0066,Global Equity,Separate Account,23823621.38,60.0,2011-07-08,60/40 Blend,Active,Cascade Mutual Insurance 66,Family Office,Strategic,Midwest,Luis Silva
+AM-MD-00132,AM-CL-0066,Global Equity,Mutual Fund,125732582.24,60.0,2014-12-13,MSCI ACWI,Active,Cascade Mutual Insurance 66,Family Office,Strategic,Midwest,Luis Silva
+AM-MD-00133,AM-CL-0067,Global Equity,Mutual Fund,89171529.47,60.0,2024-06-13,60/40 Blend,In Transition,Silverline Employees Pension 67,Public Pension,Key,Midwest,Leo King
+AM-MD-00134,AM-CL-0067,Liability-Driven Investing,Separate Account,1422114357.84,30.0,2025-10-18,Bloomberg US Agg,Active,Silverline Employees Pension 67,Public Pension,Key,Midwest,Leo King
+AM-MD-00135,AM-CL-0068,Multi-Asset Balanced,Mutual Fund,771939406.79,50.0,2022-03-16,60/40 Blend,Terminated,Northfield Employees Pension 68,Foundation,Strategic,Midwest,Noah Carter
+AM-MD-00136,AM-CL-0068,Private Credit,Separate Account,329211937.65,120.0,2023-02-20,S&P 500,Active,Northfield Employees Pension 68,Foundation,Strategic,Midwest,Noah Carter
+AM-MD-00137,AM-CL-0068,Real Assets,LP,45483269.34,90.0,2014-05-09,60/40 Blend,Terminated,Northfield Employees Pension 68,Foundation,Strategic,Midwest,Noah Carter
+AM-MD-00138,AM-CL-0069,Multi-Asset Balanced,Commingled Fund,458551528.42,50.0,2024-05-27,60/40 Blend,Active,Northfield Community Foundation 69,Family Office,Standard,Southeast,Hannah Roberts
+AM-MD-00139,AM-CL-0069,ESG Equity,LP,394811376.01,55.0,2014-01-19,CPI+4%,Active,Northfield Community Foundation 69,Family Office,Standard,Southeast,Hannah Roberts
+AM-MD-00140,AM-CL-0069,US Large Cap Equity,Mutual Fund,44560614.46,45.0,2023-10-15,60/40 Blend,Terminated,Northfield Community Foundation 69,Family Office,Standard,Southeast,Hannah Roberts
+AM-MD-00141,AM-CL-0070,US Large Cap Equity,Commingled Fund,271097756.74,45.0,2012-02-12,60/40 Blend,Active,Cascade Capital Partners 70,Public Pension,Strategic,EMEA,Noah Nelson
+AM-MD-00142,AM-CL-0070,ESG Equity,Separate Account,181584870.68,55.0,2013-06-17,Bloomberg US Agg,Active,Cascade Capital Partners 70,Public Pension,Strategic,EMEA,Noah Nelson
+AM-MD-00143,AM-CL-0070,Core Fixed Income,Mutual Fund,36676109.44,35.0,2024-12-02,60/40 Blend,In Transition,Cascade Capital Partners 70,Public Pension,Strategic,EMEA,Noah Nelson
+AM-MD-00144,AM-CL-0071,Multi-Asset Balanced,Mutual Fund,375262556.99,50.0,2016-08-13,60/40 Blend,Terminated,Ironwood Capital Partners 71,Insurance GA,Standard,Mountain West,Iris Allen
+AM-MD-00145,AM-CL-0071,US Large Cap Equity,Commingled Fund,225788703.68,45.0,2019-03-05,CPI+4%,Active,Ironwood Capital Partners 71,Insurance GA,Standard,Mountain West,Iris Allen
+AM-MD-00146,AM-CL-0071,US Large Cap Equity,LP,219694855.09,45.0,2024-06-09,MSCI ACWI,Terminated,Ironwood Capital Partners 71,Insurance GA,Standard,Mountain West,Iris Allen
+AM-MD-00147,AM-CL-0071,Global Equity,LP,458663837.58,60.0,2025-01-31,60/40 Blend,In Transition,Ironwood Capital Partners 71,Insurance GA,Standard,Mountain West,Iris Allen
+AM-MD-00148,AM-CL-0072,Core Fixed Income,Commingled Fund,227789486.8,35.0,2013-03-19,CPI+4%,In Transition,Blue Ridge Mutual Insurance 72,Foundation,Standard,Mountain West,Fatima Okafor
+AM-MD-00149,AM-CL-0073,ESG Equity,Mutual Fund,40130464.7,55.0,2014-02-19,60/40 Blend,Active,Ironwood Employees Pension 73,Sub-Advisory,Strategic,Southeast,Hannah Roberts
+AM-MD-00150,AM-CL-0074,Multi-Asset Balanced,Mutual Fund,326280426.83,50.0,2015-06-24,MSCI ACWI,Terminated,Harbor Capital Partners 74,Sub-Advisory,Standard,Mountain West,Noah Carter
+AM-MD-00151,AM-CL-0075,Private Credit,Mutual Fund,232549824.78,120.0,2020-08-29,MSCI ACWI,Active,Harbor Teachers Retirement 75,Endowment,Standard,Mountain West,Fatima Patel
+AM-MD-00152,AM-CL-0075,Real Assets,Separate Account,304396379.42,90.0,2020-06-12,60/40 Blend,In Transition,Harbor Teachers Retirement 75,Endowment,Standard,Mountain West,Fatima Patel
+AM-MD-00153,AM-CL-0076,Multi-Asset Balanced,Separate Account,94762892.05,50.0,2010-06-15,CPI+4%,Active,Ironwood Capital Partners 76,Foundation,Key,Midwest,Nina Scott
+AM-MD-00154,AM-CL-0076,Multi-Asset Balanced,Mutual Fund,286226973.13,50.0,2009-07-01,60/40 Blend,Active,Ironwood Capital Partners 76,Foundation,Key,Midwest,Nina Scott
+AM-MD-00155,AM-CL-0077,Core Fixed Income,Separate Account,201205234.69,35.0,2008-05-18,MSCI ACWI,In Transition,Granite Teachers Retirement 77,Sovereign,Key,Midwest,Mei Hall
+AM-MD-00156,AM-CL-0078,ESG Equity,Separate Account,261315163.18,55.0,2021-09-17,60/40 Blend,Active,Lakeshore Employees Pension 78,Insurance GA,Standard,EMEA,Julian Collins
+AM-MD-00157,AM-CL-0079,Real Assets,LP,164672151.08,90.0,2018-06-18,Bloomberg US Agg,Active,Northfield Teachers Retirement 79,Foundation,Strategic,APAC,Luis Ashford
+AM-MD-00158,AM-CL-0079,Private Credit,Commingled Fund,732392358.74,120.0,2008-01-05,S&P 500,Terminated,Northfield Teachers Retirement 79,Foundation,Strategic,APAC,Luis Ashford
+AM-MD-00159,AM-CL-0079,Core Fixed Income,Commingled Fund,93811974.77,35.0,2025-05-01,60/40 Blend,In Transition,Northfield Teachers Retirement 79,Foundation,Strategic,APAC,Luis Ashford
+AM-MD-00160,AM-CL-0080,US Large Cap Equity,Commingled Fund,116889755.15,45.0,2025-01-28,MSCI ACWI,Active,Harbor Teachers Retirement 80,Insurance GA,Standard,Pacific,Layla Carter
+AM-MD-00161,AM-CL-0081,Private Credit,LP,1019630360.7,120.0,2011-02-17,MSCI ACWI,Active,Northfield Employees Pension 81,Family Office,Standard,Southeast,Wei Thomas
+AM-MD-00162,AM-CL-0082,Core Fixed Income,Separate Account,130883811.21,35.0,2023-10-24,Bloomberg US Agg,Active,Harbor Sovereign Fund 82,Foundation,Key,APAC,Iris Allen
+AM-MD-00163,AM-CL-0083,Liability-Driven Investing,Commingled Fund,289407600.37,30.0,2023-03-11,60/40 Blend,In Transition,Northfield Sovereign Fund 83,Public Pension,Strategic,APAC,Iris Allen
+AM-MD-00164,AM-CL-0084,Multi-Asset Balanced,Commingled Fund,28625666.47,50.0,2026-02-10,MSCI ACWI,In Transition,Ironwood Community Foundation 84,Sovereign,Standard,Southeast,Noah Nelson
+AM-MD-00165,AM-CL-0084,Global Equity,LP,250262858.77,60.0,2018-07-15,60/40 Blend,Terminated,Ironwood Community Foundation 84,Sovereign,Standard,Southeast,Noah Nelson
+AM-MD-00166,AM-CL-0084,Real Assets,LP,89449572.05,90.0,2012-12-25,MSCI ACWI,Active,Ironwood Community Foundation 84,Sovereign,Standard,Southeast,Noah Nelson
+AM-MD-00167,AM-CL-0084,Multi-Asset Balanced,Separate Account,247671625.67,50.0,2012-06-09,S&P 500,Active,Ironwood Community Foundation 84,Sovereign,Standard,Southeast,Noah Nelson
+AM-MD-00168,AM-CL-0085,Private Credit,Commingled Fund,186201994.05,120.0,2022-09-06,60/40 Blend,Active,Summit Community Foundation 85,Sub-Advisory,Standard,Pacific,Luis Ashford
+AM-MD-00169,AM-CL-0086,Liability-Driven Investing,Separate Account,243087024.07,30.0,2018-05-26,MSCI ACWI,Terminated,Cascade University Endowment 86,Public Pension,Standard,EMEA,Layla Carter
+AM-MD-00170,AM-CL-0086,Liability-Driven Investing,Mutual Fund,759485866.38,30.0,2020-11-12,CPI+4%,Terminated,Cascade University Endowment 86,Public Pension,Standard,EMEA,Layla Carter
+AM-MD-00171,AM-CL-0086,Multi-Asset Balanced,Separate Account,487408116.44,50.0,2009-04-14,CPI+4%,Active,Cascade University Endowment 86,Public Pension,Standard,EMEA,Layla Carter
+AM-MD-00172,AM-CL-0087,US Large Cap Equity,Mutual Fund,1200124317.1,45.0,2021-04-13,CPI+4%,Active,Summit Capital Partners 87,Family Office,Strategic,APAC,Julian Collins
+AM-MD-00173,AM-CL-0087,Liability-Driven Investing,Mutual Fund,141082452.58,30.0,2016-12-12,MSCI ACWI,Active,Summit Capital Partners 87,Family Office,Strategic,APAC,Julian Collins
+AM-MD-00174,AM-CL-0088,Real Assets,Commingled Fund,708916940.66,90.0,2021-12-04,S&P 500,Terminated,Northfield Mutual Insurance 88,Sub-Advisory,Key,Midwest,Fatima Okafor
+AM-MD-00175,AM-CL-0089,Core Fixed Income,Mutual Fund,35898907.61,35.0,2024-07-11,MSCI ACWI,Active,Blue Ridge Community Foundation 89,Endowment,Standard,Midwest,Tom Silva
+AM-MD-00176,AM-CL-0089,Real Assets,Commingled Fund,212912265.96,90.0,2009-10-10,CPI+4%,Terminated,Blue Ridge Community Foundation 89,Endowment,Standard,Midwest,Tom Silva
+AM-MD-00177,AM-CL-0090,Global Equity,LP,330336543.96,60.0,2015-10-08,Bloomberg US Agg,Active,Meridian University Endowment 90,Sovereign,Strategic,Midwest,Maya Ashford
+AM-MD-00178,AM-CL-0090,Multi-Asset Balanced,LP,259104152.51,50.0,2011-10-15,Bloomberg US Agg,Active,Meridian University Endowment 90,Sovereign,Strategic,Midwest,Maya Ashford
+AM-MD-00179,AM-CL-0091,Liability-Driven Investing,LP,572159888.28,30.0,2010-11-30,CPI+4%,Active,Northfield University Endowment 91,Insurance GA,Standard,Mountain West,Owen Okafor
+AM-MD-00180,AM-CL-0091,Multi-Asset Balanced,LP,442518638.47,50.0,2014-06-10,Bloomberg US Agg,In Transition,Northfield University Endowment 91,Insurance GA,Standard,Mountain West,Owen Okafor
+AM-MD-00181,AM-CL-0092,Real Assets,Commingled Fund,51045495.2,90.0,2022-06-12,Bloomberg US Agg,Active,Meridian Capital Partners 92,Public Pension,Key,Northeast,Noah Carter
+AM-MD-00182,AM-CL-0093,US Large Cap Equity,Commingled Fund,236660350.89,45.0,2010-02-28,Bloomberg US Agg,Terminated,Harbor Community Foundation 93,Corporate Pension,Strategic,Southeast,Maya Ashford
+AM-MD-00183,AM-CL-0093,Multi-Asset Balanced,Mutual Fund,368269898.06,50.0,2024-09-07,CPI+4%,Active,Harbor Community Foundation 93,Corporate Pension,Strategic,Southeast,Maya Ashford
+AM-MD-00184,AM-CL-0093,ESG Equity,Commingled Fund,55925957.56,55.0,2017-06-17,S&P 500,Terminated,Harbor Community Foundation 93,Corporate Pension,Strategic,Southeast,Maya Ashford
+AM-MD-00185,AM-CL-0094,Private Credit,Commingled Fund,81191574.96,120.0,2019-06-07,Bloomberg US Agg,Terminated,Granite Capital Partners 94,Family Office,Standard,Pacific,Luis Ashford
+AM-MD-00186,AM-CL-0094,Liability-Driven Investing,LP,1052182635.42,30.0,2010-01-05,60/40 Blend,Active,Granite Capital Partners 94,Family Office,Standard,Pacific,Luis Ashford
+AM-MD-00187,AM-CL-0095,US Large Cap Equity,LP,229710206.69,45.0,2012-02-11,CPI+4%,Active,Ironwood Sovereign Fund 95,Sub-Advisory,Standard,Southeast,Wei Thomas
+AM-MD-00188,AM-CL-0095,Multi-Asset Balanced,Separate Account,55313324.94,50.0,2025-01-18,MSCI ACWI,Active,Ironwood Sovereign Fund 95,Sub-Advisory,Standard,Southeast,Wei Thomas
+AM-MD-00189,AM-CL-0095,Core Fixed Income,Commingled Fund,235030524.08,35.0,2018-11-24,CPI+4%,Active,Ironwood Sovereign Fund 95,Sub-Advisory,Standard,Southeast,Wei Thomas
+AM-MD-00190,AM-CL-0095,US Large Cap Equity,Separate Account,84047000.57,45.0,2024-01-27,CPI+4%,Active,Ironwood Sovereign Fund 95,Sub-Advisory,Standard,Southeast,Wei Thomas
+AM-MD-00191,AM-CL-0096,Core Fixed Income,Mutual Fund,631502608.63,35.0,2026-01-29,S&P 500,In Transition,Cascade Teachers Retirement 96,Endowment,Strategic,APAC,Grace Bailey
+AM-MD-00192,AM-CL-0097,ESG Equity,Mutual Fund,344405337.57,55.0,2024-04-19,S&P 500,Active,Summit Capital Partners 97,Corporate Pension,Standard,Northeast,Fatima Okafor
+AM-MD-00193,AM-CL-0097,Global Equity,LP,335676383.26,60.0,2024-06-13,Bloomberg US Agg,Terminated,Summit Capital Partners 97,Corporate Pension,Standard,Northeast,Fatima Okafor
+AM-MD-00194,AM-CL-0097,Private Credit,Commingled Fund,875993924.2,120.0,2019-04-03,MSCI ACWI,Active,Summit Capital Partners 97,Corporate Pension,Standard,Northeast,Fatima Okafor
+AM-MD-00195,AM-CL-0097,US Large Cap Equity,LP,107138787.6,45.0,2015-05-25,60/40 Blend,Active,Summit Capital Partners 97,Corporate Pension,Standard,Northeast,Fatima Okafor
+AM-MD-00196,AM-CL-0098,Multi-Asset Balanced,Separate Account,69088388.06,50.0,2009-10-11,Bloomberg US Agg,Active,Summit Capital Partners 98,Corporate Pension,Key,EMEA,Luis Silva
+AM-MD-00197,AM-CL-0099,Multi-Asset Balanced,Separate Account,427343362.97,50.0,2021-03-07,S&P 500,In Transition,Cascade Teachers Retirement 99,Foundation,Key,APAC,Hannah Young
+AM-MD-00198,AM-CL-0100,Multi-Asset Balanced,Separate Account,142644175.91,50.0,2015-06-20,MSCI ACWI,In Transition,Harbor Mutual Insurance 100,Sub-Advisory,Key,EMEA,Luis Ashford
+AM-MD-00199,AM-CL-0100,Private Credit,Commingled Fund,120604817.86,120.0,2015-03-31,CPI+4%,In Transition,Harbor Mutual Insurance 100,Sub-Advisory,Key,EMEA,Luis Ashford
+AM-MD-00200,AM-CL-0100,Multi-Asset Balanced,LP,254998401.96,50.0,2019-06-19,MSCI ACWI,Active,Harbor Mutual Insurance 100,Sub-Advisory,Key,EMEA,Luis Ashford
+AM-MD-00201,AM-CL-0101,Liability-Driven Investing,LP,118666893.03,30.0,2017-09-29,MSCI ACWI,Terminated,Harbor University Endowment 101,Family Office,Key,Northeast,Luis Ashford
+AM-MD-00202,AM-CL-0102,Private Credit,Commingled Fund,84932466.85,120.0,2016-11-11,Bloomberg US Agg,Active,Granite Community Foundation 102,Endowment,Strategic,APAC,Noah Nelson
+AM-MD-00203,AM-CL-0102,Global Equity,Mutual Fund,88931256.82,60.0,2009-05-13,S&P 500,Active,Granite Community Foundation 102,Endowment,Strategic,APAC,Noah Nelson
+AM-MD-00204,AM-CL-0103,Multi-Asset Balanced,Separate Account,415148057.8,50.0,2016-02-09,S&P 500,Active,Blue Ridge University Endowment 103,Foundation,Standard,Midwest,Julian Collins
+AM-MD-00205,AM-CL-0104,Core Fixed Income,Separate Account,584714727.05,35.0,2024-10-05,MSCI ACWI,Active,Blue Ridge University Endowment 104,Sub-Advisory,Standard,Pacific,Owen Okafor
+AM-MD-00206,AM-CL-0105,Core Fixed Income,Mutual Fund,33731500.34,35.0,2009-01-13,S&P 500,Active,Northfield Community Foundation 105,Corporate Pension,Key,Midwest,Nina Scott
+AM-MD-00207,AM-CL-0105,Core Fixed Income,LP,271625222.89,35.0,2011-10-28,MSCI ACWI,Active,Northfield Community Foundation 105,Corporate Pension,Key,Midwest,Nina Scott
+AM-MD-00208,AM-CL-0105,Liability-Driven Investing,LP,85879609.57,30.0,2022-12-09,CPI+4%,Terminated,Northfield Community Foundation 105,Corporate Pension,Key,Midwest,Nina Scott
+AM-MD-00209,AM-CL-0105,ESG Equity,Mutual Fund,610212827.19,55.0,2012-07-30,S&P 500,Active,Northfield Community Foundation 105,Corporate Pension,Key,Midwest,Nina Scott
+AM-MD-00210,AM-CL-0106,Multi-Asset Balanced,LP,1412239172.59,50.0,2021-11-21,MSCI ACWI,Active,Silverline Sovereign Fund 106,Endowment,Strategic,Pacific,Mei Hall
+AM-MD-00211,AM-CL-0107,Private Credit,Commingled Fund,155790851.05,120.0,2011-03-26,Bloomberg US Agg,Active,Harbor Teachers Retirement 107,Sub-Advisory,Key,Pacific,Priya Martinez
+AM-MD-00212,AM-CL-0107,US Large Cap Equity,Commingled Fund,382962352.25,45.0,2019-08-26,S&P 500,Active,Harbor Teachers Retirement 107,Sub-Advisory,Key,Pacific,Priya Martinez
+AM-MD-00213,AM-CL-0108,Global Equity,Separate Account,144128421.33,60.0,2024-11-17,Bloomberg US Agg,Terminated,Ironwood Employees Pension 108,Family Office,Strategic,APAC,Grace Bailey
+AM-MD-00214,AM-CL-0109,US Large Cap Equity,Commingled Fund,209549430.64,45.0,2016-09-30,CPI+4%,Active,Cascade Community Foundation 109,Sub-Advisory,Standard,APAC,Luis Silva
+AM-MD-00215,AM-CL-0109,ESG Equity,Mutual Fund,341689658.61,55.0,2024-07-04,MSCI ACWI,Active,Cascade Community Foundation 109,Sub-Advisory,Standard,APAC,Luis Silva
+AM-MD-00216,AM-CL-0109,ESG Equity,Mutual Fund,607402547.21,55.0,2018-09-29,MSCI ACWI,Active,Cascade Community Foundation 109,Sub-Advisory,Standard,APAC,Luis Silva
+AM-MD-00217,AM-CL-0110,Real Assets,Separate Account,240566192.11,90.0,2011-12-13,Bloomberg US Agg,Active,Summit Community Foundation 110,Public Pension,Standard,Northeast,Grace Martinez
+AM-MD-00218,AM-CL-0110,Liability-Driven Investing,LP,100915241.37,30.0,2009-04-16,CPI+4%,Terminated,Summit Community Foundation 110,Public Pension,Standard,Northeast,Grace Martinez
+AM-MD-00219,AM-CL-0111,Multi-Asset Balanced,Commingled Fund,596329592.36,50.0,2016-04-18,MSCI ACWI,Active,Blue Ridge University Endowment 111,Sovereign,Strategic,Pacific,Iris Allen
+AM-MD-00220,AM-CL-0111,US Large Cap Equity,LP,68016665.26,45.0,2014-11-19,CPI+4%,Active,Blue Ridge University Endowment 111,Sovereign,Strategic,Pacific,Iris Allen
+AM-MD-00221,AM-CL-0111,Multi-Asset Balanced,LP,332941445.22,50.0,2017-05-20,Bloomberg US Agg,Active,Blue Ridge University Endowment 111,Sovereign,Strategic,Pacific,Iris Allen
+AM-MD-00222,AM-CL-0111,US Large Cap Equity,LP,67817385.08,45.0,2008-01-28,S&P 500,Terminated,Blue Ridge University Endowment 111,Sovereign,Strategic,Pacific,Iris Allen
+AM-MD-00223,AM-CL-0112,Multi-Asset Balanced,Commingled Fund,176690707.58,50.0,2008-10-20,CPI+4%,Active,Northfield University Endowment 112,Endowment,Standard,APAC,Fatima Okafor
+AM-MD-00224,AM-CL-0112,Multi-Asset Balanced,Mutual Fund,341046877.01,50.0,2011-08-18,MSCI ACWI,Active,Northfield University Endowment 112,Endowment,Standard,APAC,Fatima Okafor
+AM-MD-00225,AM-CL-0112,US Large Cap Equity,LP,217120067.5,45.0,2015-08-06,Bloomberg US Agg,Active,Northfield University Endowment 112,Endowment,Standard,APAC,Fatima Okafor
+AM-MD-00226,AM-CL-0113,Global Equity,Commingled Fund,324244015.65,60.0,2021-05-16,MSCI ACWI,In Transition,Harbor Teachers Retirement 113,Insurance GA,Standard,APAC,Leo King
+AM-MD-00227,AM-CL-0113,ESG Equity,LP,47763422.92,55.0,2009-04-18,CPI+4%,Active,Harbor Teachers Retirement 113,Insurance GA,Standard,APAC,Leo King
+AM-MD-00228,AM-CL-0114,Liability-Driven Investing,Commingled Fund,145316343.97,30.0,2022-08-15,CPI+4%,Terminated,Meridian Mutual Insurance 114,Family Office,Strategic,Midwest,Rosa Miller
+AM-MD-00229,AM-CL-0115,Global Equity,Mutual Fund,44876462.88,60.0,2011-08-11,MSCI ACWI,Active,Ironwood Capital Partners 115,Public Pension,Key,EMEA,Maya Ashford
+AM-MD-00230,AM-CL-0115,Global Equity,LP,41214998.75,60.0,2011-07-08,Bloomberg US Agg,Active,Ironwood Capital Partners 115,Public Pension,Key,EMEA,Maya Ashford
+AM-MD-00231,AM-CL-0116,ESG Equity,Mutual Fund,518603655.06,55.0,2023-08-27,Bloomberg US Agg,Active,Silverline Sovereign Fund 116,Sub-Advisory,Key,Pacific,Iris Allen
+AM-MD-00232,AM-CL-0117,Private Credit,Separate Account,159418070.6,120.0,2011-02-16,S&P 500,Active,Lakeshore Teachers Retirement 117,Endowment,Standard,EMEA,Wei Thomas
+AM-MD-00233,AM-CL-0117,ESG Equity,LP,229022730.51,55.0,2008-04-16,MSCI ACWI,Active,Lakeshore Teachers Retirement 117,Endowment,Standard,EMEA,Wei Thomas
+AM-MD-00234,AM-CL-0117,Core Fixed Income,Separate Account,475824806.6,35.0,2015-05-28,60/40 Blend,Active,Lakeshore Teachers Retirement 117,Endowment,Standard,EMEA,Wei Thomas
+AM-MD-00235,AM-CL-0117,Real Assets,LP,202566299.88,90.0,2009-09-27,CPI+4%,Active,Lakeshore Teachers Retirement 117,Endowment,Standard,EMEA,Wei Thomas
+AM-MD-00236,AM-CL-0118,Global Equity,LP,190736759.97,60.0,2008-05-30,60/40 Blend,Active,Silverline Community Foundation 118,Family Office,Key,Midwest,Maya Ashford
+AM-MD-00237,AM-CL-0118,Core Fixed Income,Commingled Fund,50503581.05,35.0,2017-10-11,60/40 Blend,Active,Silverline Community Foundation 118,Family Office,Key,Midwest,Maya Ashford
+AM-MD-00238,AM-CL-0118,Liability-Driven Investing,Mutual Fund,194106171.11,30.0,2008-06-06,60/40 Blend,Active,Silverline Community Foundation 118,Family Office,Key,Midwest,Maya Ashford
+AM-MD-00239,AM-CL-0118,ESG Equity,Separate Account,244692051.94,55.0,2017-07-27,S&P 500,Active,Silverline Community Foundation 118,Family Office,Key,Midwest,Maya Ashford
+AM-MD-00240,AM-CL-0119,Core Fixed Income,Mutual Fund,488541163.39,35.0,2014-12-20,Bloomberg US Agg,Active,Harbor Sovereign Fund 119,Endowment,Key,Pacific,Hannah Roberts
+AM-MD-00241,AM-CL-0119,Multi-Asset Balanced,LP,93246313.61,50.0,2008-10-09,Bloomberg US Agg,Active,Harbor Sovereign Fund 119,Endowment,Key,Pacific,Hannah Roberts
+AM-MD-00242,AM-CL-0119,Core Fixed Income,Mutual Fund,30523012.48,35.0,2022-08-25,CPI+4%,Terminated,Harbor Sovereign Fund 119,Endowment,Key,Pacific,Hannah Roberts
+AM-MD-00243,AM-CL-0120,Real Assets,Commingled Fund,48665430.16,90.0,2012-05-08,S&P 500,Active,Ironwood Capital Partners 120,Foundation,Standard,Pacific,Owen Okafor
+AM-MD-00244,AM-CL-0121,Global Equity,Mutual Fund,786753291.14,60.0,2023-07-23,S&P 500,Active,Meridian Capital Partners 121,Corporate Pension,Standard,Northeast,Iris Allen
+AM-MD-00245,AM-CL-0122,Liability-Driven Investing,LP,673235171.32,30.0,2010-11-27,60/40 Blend,Terminated,Granite Teachers Retirement 122,Insurance GA,Standard,EMEA,Luis Ashford
+AM-MD-00246,AM-CL-0122,Liability-Driven Investing,LP,242068215.28,30.0,2023-06-24,S&P 500,In Transition,Granite Teachers Retirement 122,Insurance GA,Standard,EMEA,Luis Ashford
+AM-MD-00247,AM-CL-0123,US Large Cap Equity,Commingled Fund,55363074.9,45.0,2010-09-07,Bloomberg US Agg,Terminated,Cascade Mutual Insurance 123,Sub-Advisory,Standard,Southeast,Layla Carter
+AM-MD-00248,AM-CL-0123,Real Assets,Mutual Fund,166617172.64,90.0,2019-12-20,MSCI ACWI,Active,Cascade Mutual Insurance 123,Sub-Advisory,Standard,Southeast,Layla Carter
+AM-MD-00249,AM-CL-0123,ESG Equity,LP,39249547.57,55.0,2020-01-13,60/40 Blend,Active,Cascade Mutual Insurance 123,Sub-Advisory,Standard,Southeast,Layla Carter
+AM-MD-00250,AM-CL-0124,ESG Equity,Mutual Fund,452885941.19,55.0,2009-01-05,Bloomberg US Agg,Active,Blue Ridge Community Foundation 124,Endowment,Strategic,Northeast,Iris Kim
+AM-MD-00251,AM-CL-0124,Global Equity,Separate Account,256787982.9,60.0,2023-10-10,60/40 Blend,Active,Blue Ridge Community Foundation 124,Endowment,Strategic,Northeast,Iris Kim
+AM-MD-00252,AM-CL-0124,Liability-Driven Investing,LP,176509375.41,30.0,2012-03-24,S&P 500,Active,Blue Ridge Community Foundation 124,Endowment,Strategic,Northeast,Iris Kim
+AM-MD-00253,AM-CL-0125,Real Assets,Separate Account,146569454.02,90.0,2025-12-21,Bloomberg US Agg,Terminated,Northfield Mutual Insurance 125,Insurance GA,Key,Mountain West,Luis Silva
+AM-MD-00254,AM-CL-0126,Multi-Asset Balanced,LP,397701276.72,50.0,2022-03-08,Bloomberg US Agg,In Transition,Northfield Employees Pension 126,Family Office,Strategic,Pacific,Noah Carter
+AM-MD-00255,AM-CL-0126,Private Credit,Commingled Fund,225701638.1,120.0,2019-09-02,S&P 500,Active,Northfield Employees Pension 126,Family Office,Strategic,Pacific,Noah Carter
+AM-MD-00256,AM-CL-0126,Private Credit,Mutual Fund,217867790.42,120.0,2015-02-23,60/40 Blend,Active,Northfield Employees Pension 126,Family Office,Strategic,Pacific,Noah Carter
+AM-MD-00257,AM-CL-0127,Liability-Driven Investing,Separate Account,111688176.55,30.0,2024-05-21,60/40 Blend,In Transition,Granite Community Foundation 127,Sovereign,Standard,APAC,Layla Carter
+AM-MD-00258,AM-CL-0127,Private Credit,Mutual Fund,446624990.58,120.0,2015-05-26,60/40 Blend,In Transition,Granite Community Foundation 127,Sovereign,Standard,APAC,Layla Carter
+AM-MD-00259,AM-CL-0128,Liability-Driven Investing,Mutual Fund,209371354.78,30.0,2011-10-05,Bloomberg US Agg,Active,Cascade Mutual Insurance 128,Sub-Advisory,Key,Northeast,Noah Carter
+AM-MD-00260,AM-CL-0129,ESG Equity,Commingled Fund,92136670.06,55.0,2013-06-02,Bloomberg US Agg,In Transition,Blue Ridge Mutual Insurance 129,Foundation,Key,Pacific,Luis Silva
+AM-MD-00261,AM-CL-0129,Multi-Asset Balanced,Mutual Fund,575116483.55,50.0,2011-01-19,CPI+4%,Active,Blue Ridge Mutual Insurance 129,Foundation,Key,Pacific,Luis Silva
+AM-MD-00262,AM-CL-0130,Core Fixed Income,LP,782544646.33,35.0,2014-08-22,Bloomberg US Agg,Active,Lakeshore University Endowment 130,Public Pension,Key,Northeast,Owen Okafor
+AM-MD-00263,AM-CL-0130,Multi-Asset Balanced,Mutual Fund,68252307.85,50.0,2017-09-20,S&P 500,Active,Lakeshore University Endowment 130,Public Pension,Key,Northeast,Owen Okafor
+AM-MD-00264,AM-CL-0130,Global Equity,Separate Account,586821197.82,60.0,2017-03-03,MSCI ACWI,Active,Lakeshore University Endowment 130,Public Pension,Key,Northeast,Owen Okafor
+AM-MD-00265,AM-CL-0131,Liability-Driven Investing,Commingled Fund,41815140.74,30.0,2022-12-30,MSCI ACWI,Active,Northfield Capital Partners 131,Family Office,Key,Southeast,Priya Martinez
+AM-MD-00266,AM-CL-0131,Real Assets,Separate Account,180227647.31,90.0,2016-10-10,MSCI ACWI,Active,Northfield Capital Partners 131,Family Office,Key,Southeast,Priya Martinez
+AM-MD-00267,AM-CL-0132,Private Credit,Mutual Fund,411645773.23,120.0,2021-07-08,S&P 500,Active,Blue Ridge Teachers Retirement 132,Sovereign,Standard,APAC,Fatima Patel
+AM-MD-00268,AM-CL-0132,Real Assets,Commingled Fund,86994391.06,90.0,2026-01-19,MSCI ACWI,In Transition,Blue Ridge Teachers Retirement 132,Sovereign,Standard,APAC,Fatima Patel
+AM-MD-00269,AM-CL-0132,Core Fixed Income,Separate Account,104493376.36,35.0,2021-12-09,S&P 500,In Transition,Blue Ridge Teachers Retirement 132,Sovereign,Standard,APAC,Fatima Patel
+AM-MD-00270,AM-CL-0132,Multi-Asset Balanced,Commingled Fund,778354383.96,50.0,2011-11-17,MSCI ACWI,Active,Blue Ridge Teachers Retirement 132,Sovereign,Standard,APAC,Fatima Patel
+AM-MD-00271,AM-CL-0133,Private Credit,Commingled Fund,137016568.95,120.0,2023-12-01,60/40 Blend,Active,Granite University Endowment 133,Insurance GA,Standard,Northeast,Luis Silva
+AM-MD-00272,AM-CL-0134,Real Assets,Separate Account,302689302.67,90.0,2020-07-05,Bloomberg US Agg,Terminated,Granite Sovereign Fund 134,Family Office,Standard,Midwest,Maya Ashford
+AM-MD-00273,AM-CL-0134,Liability-Driven Investing,LP,53562304.85,30.0,2014-05-08,Bloomberg US Agg,Active,Granite Sovereign Fund 134,Family Office,Standard,Midwest,Maya Ashford
+AM-MD-00274,AM-CL-0134,Liability-Driven Investing,Mutual Fund,237830461.38,30.0,2011-07-26,CPI+4%,Active,Granite Sovereign Fund 134,Family Office,Standard,Midwest,Maya Ashford
+AM-MD-00275,AM-CL-0135,Liability-Driven Investing,Separate Account,746373603.0,30.0,2020-02-28,S&P 500,In Transition,Meridian Capital Partners 135,Public Pension,Standard,Southeast,Tom Silva
+AM-MD-00276,AM-CL-0136,Global Equity,LP,321649161.07,60.0,2008-07-16,60/40 Blend,Active,Summit University Endowment 136,Insurance GA,Key,APAC,Owen Okafor
+AM-MD-00277,AM-CL-0136,ESG Equity,Mutual Fund,184955439.57,55.0,2022-02-10,60/40 Blend,Active,Summit University Endowment 136,Insurance GA,Key,APAC,Owen Okafor
+AM-MD-00278,AM-CL-0136,Global Equity,Mutual Fund,45614517.5,60.0,2019-04-16,Bloomberg US Agg,Terminated,Summit University Endowment 136,Insurance GA,Key,APAC,Owen Okafor
+AM-MD-00279,AM-CL-0137,Core Fixed Income,Commingled Fund,99927732.25,35.0,2009-07-03,Bloomberg US Agg,Active,Northfield Sovereign Fund 137,Endowment,Strategic,Mountain West,Grace Bailey
+AM-MD-00280,AM-CL-0137,Global Equity,Mutual Fund,32164978.45,60.0,2026-02-18,Bloomberg US Agg,In Transition,Northfield Sovereign Fund 137,Endowment,Strategic,Mountain West,Grace Bailey
+AM-MD-00281,AM-CL-0138,Private Credit,Mutual Fund,1489728156.8,120.0,2014-12-28,CPI+4%,Active,Cascade Employees Pension 138,Endowment,Strategic,APAC,Tom Silva
+AM-MD-00282,AM-CL-0139,Core Fixed Income,Mutual Fund,142488834.61,35.0,2009-08-04,MSCI ACWI,Active,Lakeshore Teachers Retirement 139,Foundation,Strategic,Mountain West,Fatima Okafor
+AM-MD-00283,AM-CL-0140,Core Fixed Income,Commingled Fund,453380225.82,35.0,2010-09-07,Bloomberg US Agg,Terminated,Lakeshore Teachers Retirement 140,Foundation,Key,Midwest,Wei Thomas

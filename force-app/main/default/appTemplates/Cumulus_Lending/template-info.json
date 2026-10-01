@@ -1,0 +1,29 @@
+{
+  "label": "Cumulus Lending",
+  "description": "Loan operations view: pull-through rate, time to close, stage funnel (document collection = 55% of cycle), digital abandonment, loan officer productivity, in-flight service cases.",
+  "releaseInfo": {
+    "templateVersion": "1.0",
+    "notesFile": null
+  },
+  "templateType": "App",
+  "templateSubtype": null,
+  "name": "Cumulus_Lending",
+  "namespace": null,
+  "assetVersion": 67.0,
+  "maxAppCount": null,
+  "icons": {
+    "templatePreviews": [],
+    "layoutImages": []
+  },
+  "variableDefinition": "variables.json",
+  "layoutDefinition": "layout.json",
+  "tags": {},
+  "chainDefinitions": [
+    {
+      "type": "Create",
+      "name": null,
+      "file": "create-chain.json"
+    }
+  ],
+  "templateStatus": null
+}

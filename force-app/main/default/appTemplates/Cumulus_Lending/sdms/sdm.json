@@ -1,0 +1,1023 @@
+{
+  "label": "Cumulus Lending Model ${Variables.LabelSuffix}",
+  "agentEnabled": true,
+  "app": "${App.Name}",
+  "dataspace": "default",
+  "categories": [],
+  "currency": {
+    "useOrgDefault": true
+  },
+  "fieldsOverrides": [],
+  "hasUnmapped": false,
+  "isLocked": false,
+  "lockedActions": {},
+  "queryUnrelatedDataObjects": "Union",
+  "businessPreferences": "# Cumulus Lending semantic model for the Cumulus Financial Group demo. Synthetic data, 2024-09 to 2026-08.\n# Loan operations view: pull-through rate, time to close, stage funnel (document collection = 55% of cycle), digital abandonment, loan officer productivity, in-flight service cases.\n# Ratio measures that divide across objects (e.g. Loss Ratio) should be grouped by dimensions of the denominator object.",
+  "semanticCalculatedDimensions": [],
+  "semanticCalculatedDimensionsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/calculated-dimensions",
+  "semanticCalculatedMeasurements": [
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Applications",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "count([LN_Applications])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Applications",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsGood",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Requested_Volume",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "SUM([LN_Applications].[RequestedAmount])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Requested Volume",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsGood",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Avg_Time_To_Close",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "AVG([LN_Applications].[CycleTimeDays])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Avg Time to Close (days)",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsBad",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Avg_Days_In_Stage",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "AVG([LN_Stage_Events].[DaysInStage])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Avg Days in Stage",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsBad",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    }
+  ],
+  "semanticCalculatedMeasurementsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/calculated-measurements",
+  "semanticDataObjects": [
+    {
+      "apiName": "LN_Applications",
+      "dataObjectName": "${App.DataLakeObjects.LN_Applications_DLO.Name}",
+      "dataObjectType": "Dlo",
+      "description": "LN Applications \u2014 one row per application.",
+      "filters": [],
+      "isQueryable": "Queryable",
+      "label": "LN Applications",
+      "overriddenProperties": [],
+      "primaryNameField": "ApplicationId",
+      "semanticDimensions": [
+        {
+          "apiName": "ApplicationId",
+          "dataObjectFieldName": "ApplicationId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Application ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "ApplicantName",
+          "dataObjectFieldName": "ApplicantName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Applicant Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "ProductName",
+          "dataObjectFieldName": "ProductName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Product Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Channel",
+          "dataObjectFieldName": "Channel__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Channel",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "LoanOfficerId",
+          "dataObjectFieldName": "LoanOfficerId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Loan Officer ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "BranchId",
+          "dataObjectFieldName": "BranchId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Branch ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "SubmittedDate",
+          "dataObjectFieldName": "SubmittedDate__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Submitted Date",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        },
+        {
+          "apiName": "DecisionDate",
+          "dataObjectFieldName": "DecisionDate__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Decision Date",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        },
+        {
+          "apiName": "FundedDate",
+          "dataObjectFieldName": "FundedDate__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Funded Date",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        },
+        {
+          "apiName": "Status",
+          "dataObjectFieldName": "Status__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Status",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "CurrentStage",
+          "dataObjectFieldName": "CurrentStage__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Current Stage",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "IsFunded",
+          "dataObjectFieldName": "IsFunded__c",
+          "dataType": "Boolean",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Is Funded",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Boolean"
+        },
+        {
+          "apiName": "LoanOfficerName",
+          "dataObjectFieldName": "LoanOfficerName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Loan Officer Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "BranchName",
+          "dataObjectFieldName": "BranchName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Branch Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Region",
+          "dataObjectFieldName": "Region__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Region",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "SubmittedMonth",
+          "dataObjectFieldName": "SubmittedMonth__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Submitted Month",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        }
+      ],
+      "semanticDimensionsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/data-objects/LN_Applications/dimensions",
+      "semanticMeasurements": [
+        {
+          "aggregationType": "Sum",
+          "apiName": "RequestedAmount",
+          "dataObjectFieldName": "RequestedAmount__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Requested Amount",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "CycleTimeDays",
+          "dataObjectFieldName": "CycleTimeDays__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Cycle Time Days",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "CreditScore",
+          "dataObjectFieldName": "CreditScore__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Credit Score",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "DTIRatio",
+          "dataObjectFieldName": "DTIRatio__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "DTIRatio",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "InterestRate",
+          "dataObjectFieldName": "InterestRate__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Interest Rate",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "DocumentsOutstanding",
+          "dataObjectFieldName": "DocumentsOutstanding__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Documents Outstanding",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        }
+      ],
+      "semanticMeasurementsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/data-objects/LN_Applications/measurements",
+      "shouldIncludeAllFields": true,
+      "tableType": "Standard"
+    },
+    {
+      "apiName": "LN_Stage_Events",
+      "dataObjectName": "${App.DataLakeObjects.LN_Stage_Events_DLO.Name}",
+      "dataObjectType": "Dlo",
+      "description": "LN Stage Events \u2014 one row per stage event.",
+      "filters": [],
+      "isQueryable": "Queryable",
+      "label": "LN Stage Events",
+      "overriddenProperties": [],
+      "primaryNameField": "StageEventId",
+      "semanticDimensions": [
+        {
+          "apiName": "StageEventId",
+          "dataObjectFieldName": "StageEventId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Stage Event ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "ApplicationId",
+          "dataObjectFieldName": "ApplicationId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Application ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "StageName",
+          "dataObjectFieldName": "StageName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Stage Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "EnteredDate",
+          "dataObjectFieldName": "EnteredDate__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Entered Date",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        },
+        {
+          "apiName": "ExitedDate",
+          "dataObjectFieldName": "ExitedDate__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Exited Date",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        },
+        {
+          "apiName": "ProductName",
+          "dataObjectFieldName": "ProductName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Product Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Channel",
+          "dataObjectFieldName": "Channel__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Channel",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "LoanOfficerName",
+          "dataObjectFieldName": "LoanOfficerName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Loan Officer Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Status",
+          "dataObjectFieldName": "Status__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Status",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Region",
+          "dataObjectFieldName": "Region__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Region",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        }
+      ],
+      "semanticDimensionsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/data-objects/LN_Stage_Events/dimensions",
+      "semanticMeasurements": [
+        {
+          "aggregationType": "Sum",
+          "apiName": "StageOrder",
+          "dataObjectFieldName": "StageOrder__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Stage Order",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "DaysInStage",
+          "dataObjectFieldName": "DaysInStage__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Days In Stage",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        }
+      ],
+      "semanticMeasurementsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/data-objects/LN_Stage_Events/measurements",
+      "shouldIncludeAllFields": true,
+      "tableType": "Standard"
+    },
+    {
+      "apiName": "LN_Service_Cases",
+      "dataObjectName": "${App.DataLakeObjects.LN_Service_Cases_DLO.Name}",
+      "dataObjectType": "Dlo",
+      "description": "LN Service Cases \u2014 one row per case.",
+      "filters": [],
+      "isQueryable": "Queryable",
+      "label": "LN Service Cases",
+      "overriddenProperties": [],
+      "primaryNameField": "CaseId",
+      "semanticDimensions": [
+        {
+          "apiName": "CaseId",
+          "dataObjectFieldName": "CaseId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Case ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "ApplicationId",
+          "dataObjectFieldName": "ApplicationId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Application ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "CreatedDate",
+          "dataObjectFieldName": "CreatedDate__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Created Date",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        },
+        {
+          "apiName": "CaseType",
+          "dataObjectFieldName": "CaseType__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Case Type",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Channel",
+          "dataObjectFieldName": "Channel__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Channel",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Status",
+          "dataObjectFieldName": "Status__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Status",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "AgentId",
+          "dataObjectFieldName": "AgentId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Agent ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "AgentforceHandled",
+          "dataObjectFieldName": "AgentforceHandled__c",
+          "dataType": "Boolean",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Agentforce Handled",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Boolean"
+        },
+        {
+          "apiName": "ProductName",
+          "dataObjectFieldName": "ProductName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Product Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "LoanOfficerName",
+          "dataObjectFieldName": "LoanOfficerName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Loan Officer Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Region",
+          "dataObjectFieldName": "Region__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Region",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "AgentName",
+          "dataObjectFieldName": "AgentName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Agent Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        }
+      ],
+      "semanticDimensionsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/data-objects/LN_Service_Cases/dimensions",
+      "semanticMeasurements": [
+        {
+          "aggregationType": "Sum",
+          "apiName": "HandleTimeMinutes",
+          "dataObjectFieldName": "HandleTimeMinutes__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Handle Time Minutes",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "CSAT",
+          "dataObjectFieldName": "CSAT__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "CSAT",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        }
+      ],
+      "semanticMeasurementsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/data-objects/LN_Service_Cases/measurements",
+      "shouldIncludeAllFields": true,
+      "tableType": "Standard"
+    }
+  ],
+  "semanticDataObjectsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/data-objects",
+  "semanticGroupings": [],
+  "semanticGroupingsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/groupings",
+  "semanticLogicalViews": [],
+  "semanticMetrics": [
+    {
+      "apiName": "Applications_M",
+      "label": "Loan Applications",
+      "description": "Loan Applications over time, sliceable by Product Name, Channel, Status.",
+      "measurementReference": {
+        "calculatedFieldApiName": "Applications"
+      },
+      "aggregationType": "UserAgg",
+      "timeDimensionReference": {
+        "tableFieldReference": {
+          "fieldApiName": "SubmittedDate",
+          "tableApiName": "LN_Applications"
+        }
+      },
+      "timeGrains": [
+        "Day",
+        "Week",
+        "Month",
+        "Quarter"
+      ],
+      "additionalDimensions": [
+        {
+          "tableFieldReference": {
+            "fieldApiName": "ProductName",
+            "tableApiName": "LN_Applications"
+          }
+        },
+        {
+          "tableFieldReference": {
+            "fieldApiName": "Channel",
+            "tableApiName": "LN_Applications"
+          }
+        },
+        {
+          "tableFieldReference": {
+            "fieldApiName": "Status",
+            "tableApiName": "LN_Applications"
+          }
+        }
+      ],
+      "insightsSettings": {
+        "sentiment": "SentimentTypeUpIsGood"
+      }
+    },
+    {
+      "apiName": "Funded_Volume_M",
+      "label": "Requested Volume",
+      "description": "Requested Volume over time, sliceable by Product Name, Channel, Loan Officer Name.",
+      "measurementReference": {
+        "tableFieldReference": {
+          "fieldApiName": "RequestedAmount",
+          "tableApiName": "LN_Applications"
+        }
+      },
+      "aggregationType": "Sum",
+      "timeDimensionReference": {
+        "tableFieldReference": {
+          "fieldApiName": "SubmittedDate",
+          "tableApiName": "LN_Applications"
+        }
+      },
+      "timeGrains": [
+        "Day",
+        "Week",
+        "Month",
+        "Quarter"
+      ],
+      "additionalDimensions": [
+        {
+          "tableFieldReference": {
+            "fieldApiName": "ProductName",
+            "tableApiName": "LN_Applications"
+          }
+        },
+        {
+          "tableFieldReference": {
+            "fieldApiName": "Channel",
+            "tableApiName": "LN_Applications"
+          }
+        },
+        {
+          "tableFieldReference": {
+            "fieldApiName": "LoanOfficerName",
+            "tableApiName": "LN_Applications"
+          }
+        }
+      ],
+      "insightsSettings": {
+        "sentiment": "SentimentTypeUpIsGood"
+      }
+    }
+  ],
+  "semanticModelFilters": [],
+  "semanticModelInfo": {
+    "definitionsCount": 3,
+    "maxDefinitionCount": 5000,
+    "modelHierarchyDepth": 1
+  },
+  "semanticParameters": [],
+  "semanticParametersUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/parameters",
+  "semanticRelationships": [
+    {
+      "apiName": "LN_Stage_Events_LN_Applications",
+      "cardinality": "ManyToOne",
+      "criteria": [
+        {
+          "joinOperator": "Equals",
+          "leftFieldType": "TableField",
+          "leftSemanticFieldApiName": "ApplicationId",
+          "rightFieldType": "TableField",
+          "rightSemanticFieldApiName": "ApplicationId"
+        }
+      ],
+      "isEnabled": true,
+      "isQueryable": "Queryable",
+      "joinType": "Auto",
+      "label": "LN Stage Events : LN Applications",
+      "leftSemanticDefinitionApiName": "LN_Stage_Events",
+      "rightSemanticDefinitionApiName": "LN_Applications"
+    },
+    {
+      "apiName": "LN_Service_Cases_LN_Applications",
+      "cardinality": "ManyToOne",
+      "criteria": [
+        {
+          "joinOperator": "Equals",
+          "leftFieldType": "TableField",
+          "leftSemanticFieldApiName": "ApplicationId",
+          "rightFieldType": "TableField",
+          "rightSemanticFieldApiName": "ApplicationId"
+        }
+      ],
+      "isEnabled": true,
+      "isQueryable": "Queryable",
+      "joinType": "Auto",
+      "label": "LN Service Cases : LN Applications",
+      "leftSemanticDefinitionApiName": "LN_Service_Cases",
+      "rightSemanticDefinitionApiName": "LN_Applications"
+    }
+  ],
+  "semanticRelationshipsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Lending_SDM/relationships",
+  "sourceCreation": "Workspace"
+}

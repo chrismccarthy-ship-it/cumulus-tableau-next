@@ -1,0 +1,221 @@
+DealId,DealName,ClientId,Stage,Amount,CreatedDate,CloseDate,OwnerId,Source,IsWon
+AM-DL-00001,Granite Mutual Insurance 14 — Multi-Asset Balanced,AM-CL-0014,RFP Received,80821051.17,2025-09-04,2026-04-12,E-0201,Consultant,false
+AM-DL-00002,Meridian Capital Partners 121 — Liability-Driven Investing,AM-CL-0121,Closed Won,722632093.76,2026-06-20,2027-02-27,E-0199,Consultant,true
+AM-DL-00003,Silverline Employees Pension 67 — Global Equity,AM-CL-0067,Closed Won,199578130.41,2026-07-01,2026-11-12,E-0194,RFP Database,true
+AM-DL-00004,Blue Ridge Community Foundation 124 — US Large Cap Equity,AM-CL-0124,Prospecting,119074707.71,2026-05-26,2027-04-14,E-0191,RFP Database,false
+AM-DL-00005,Lakeshore Teachers Retirement 59 — Liability-Driven Investing,AM-CL-0059,RFP Received,52705738.87,2025-05-04,2025-11-07,E-0203,Existing Client,false
+AM-DL-00006,Blue Ridge Capital Partners 5 — Liability-Driven Investing,AM-CL-0005,Closed Lost,34112883.94,2026-02-23,2026-06-05,E-0181,Direct,false
+AM-DL-00007,Meridian Mutual Insurance 18 — US Large Cap Equity,AM-CL-0018,Prospecting,98202243.0,2025-03-11,2026-02-11,E-0193,Consultant,false
+AM-DL-00008,Harbor Teachers Retirement 36 — Real Assets,AM-CL-0036,Finals Presentation,98508588.22,2025-05-08,2025-08-04,E-0181,Existing Client,false
+AM-DL-00009,Ironwood Teachers Retirement 7 — US Large Cap Equity,AM-CL-0007,Prospecting,90357368.26,2025-08-21,2026-09-18,E-0194,RFP Database,false
+AM-DL-00010,Granite Sovereign Fund 47 — US Large Cap Equity,AM-CL-0047,Closed Won,67920652.51,2026-07-18,2027-07-03,E-0201,Consultant,true
+AM-DL-00011,Granite Sovereign Fund 47 — Real Assets,AM-CL-0047,Closed Won,17493531.67,2026-02-02,2026-09-28,E-0191,RFP Database,true
+AM-DL-00012,Ironwood Teachers Retirement 7 — Real Assets,AM-CL-0007,RFP Received,192284921.92,2025-08-07,2026-06-14,E-0204,Existing Client,false
+AM-DL-00013,Summit University Endowment 136 — Private Credit,AM-CL-0136,Finals Presentation,813762627.68,2025-07-17,2026-04-16,E-0184,Direct,false
+AM-DL-00014,Cascade University Endowment 86 — Core Fixed Income,AM-CL-0086,RFP Received,271954507.31,2025-09-30,2026-07-14,E-0190,Existing Client,false
+AM-DL-00015,Summit Sovereign Fund 61 — Real Assets,AM-CL-0061,RFP Received,1101918109.87,2025-08-29,2026-02-25,E-0182,Direct,false
+AM-DL-00016,Silverline Teachers Retirement 51 — Private Credit,AM-CL-0051,Prospecting,56703145.85,2025-04-25,2026-02-03,E-0181,Existing Client,false
+AM-DL-00017,Cascade Teachers Retirement 96 — Core Fixed Income,AM-CL-0096,Closed Lost,60085078.43,2026-04-30,2027-01-21,E-0204,RFP Database,false
+AM-DL-00018,Granite Mutual Insurance 54 — Multi-Asset Balanced,AM-CL-0054,RFP Received,250396477.36,2025-05-23,2026-04-10,E-0201,Existing Client,false
+AM-DL-00019,Blue Ridge Community Foundation 124 — Private Credit,AM-CL-0124,RFP Received,157897292.13,2025-03-18,2025-10-12,E-0189,Existing Client,false
+AM-DL-00020,Summit Community Foundation 85 — Liability-Driven Investing,AM-CL-0085,Closed Lost,160863739.26,2026-05-15,2026-12-15,E-0194,Direct,false
+AM-DL-00021,Silverline Sovereign Fund 116 — ESG Equity,AM-CL-0116,Finals Presentation,88631572.52,2025-02-02,2025-06-01,E-0195,Consultant,false
+AM-DL-00022,Harbor Teachers Retirement 113 — ESG Equity,AM-CL-0113,Closed Lost,152029677.22,2026-08-29,2027-05-27,E-0205,Existing Client,false
+AM-DL-00023,Meridian Capital Partners 135 — Multi-Asset Balanced,AM-CL-0135,Closed Won,70749378.28,2026-07-25,2027-06-02,E-0186,RFP Database,true
+AM-DL-00024,Silverline Employees Pension 67 — Global Equity,AM-CL-0067,Closed Lost,56715771.72,2026-03-28,2027-02-01,E-0182,RFP Database,false
+AM-DL-00025,Lakeshore Teachers Retirement 117 — Private Credit,AM-CL-0117,RFP Received,43394176.57,2026-01-31,2026-07-12,E-0199,RFP Database,false
+AM-DL-00026,Summit Capital Partners 87 — ESG Equity,AM-CL-0087,RFP Received,213004654.12,2025-05-04,2026-06-06,E-0184,RFP Database,false
+AM-DL-00027,Cascade Teachers Retirement 96 — ESG Equity,AM-CL-0096,Closed Lost,73136666.22,2025-08-01,2026-07-19,E-0192,Existing Client,false
+AM-DL-00028,Ironwood Sovereign Fund 95 — Core Fixed Income,AM-CL-0095,RFP Received,241222756.93,2026-01-25,2026-09-25,E-0197,RFP Database,false
+AM-DL-00029,Harbor Teachers Retirement 36 — Core Fixed Income,AM-CL-0036,RFP Received,35833782.15,2025-03-09,2025-09-25,E-0198,Consultant,false
+AM-DL-00030,Granite Mutual Insurance 14 — Global Equity,AM-CL-0014,Closed Won,64926035.18,2025-05-25,2025-08-31,E-0205,RFP Database,true
+AM-DL-00031,Granite Mutual Insurance 14 — Global Equity,AM-CL-0014,RFP Received,47595524.76,2026-01-23,2027-01-02,E-0199,Existing Client,false
+AM-DL-00032,Blue Ridge Capital Partners 5 — Core Fixed Income,AM-CL-0005,Due Diligence,60407616.8,2025-07-26,2026-06-18,E-0191,Existing Client,false
+AM-DL-00033,Northfield Community Foundation 105 — Global Equity,AM-CL-0105,RFP Received,175142524.14,2026-04-25,2026-07-27,E-0190,Existing Client,false
+AM-DL-00034,Granite Community Foundation 8 — US Large Cap Equity,AM-CL-0008,Due Diligence,150468072.29,2025-06-09,2026-04-03,E-0185,Existing Client,false
+AM-DL-00035,Lakeshore Teachers Retirement 117 — US Large Cap Equity,AM-CL-0117,RFP Received,61866484.26,2025-06-08,2025-10-23,E-0190,Consultant,false
+AM-DL-00036,Meridian University Endowment 90 — Global Equity,AM-CL-0090,Finals Presentation,280003025.28,2025-04-15,2025-10-01,E-0186,Existing Client,false
+AM-DL-00037,Meridian Mutual Insurance 114 — Multi-Asset Balanced,AM-CL-0114,RFP Received,370395826.16,2025-11-09,2026-08-05,E-0192,Direct,false
+AM-DL-00038,Granite Mutual Insurance 14 — ESG Equity,AM-CL-0014,Finals Presentation,25616114.72,2026-01-17,2026-12-31,E-0188,Existing Client,false
+AM-DL-00039,Granite Mutual Insurance 14 — Core Fixed Income,AM-CL-0014,Finals Presentation,31235827.2,2025-02-18,2025-06-22,E-0199,Consultant,false
+AM-DL-00040,Granite Community Foundation 102 — Liability-Driven Investing,AM-CL-0102,Closed Lost,129883630.79,2025-10-29,2026-07-09,E-0198,Existing Client,false
+AM-DL-00041,Harbor Capital Partners 65 — Real Assets,AM-CL-0065,Closed Lost,422940960.64,2026-06-29,2027-02-18,E-0192,Existing Client,false
+AM-DL-00042,Harbor Capital Partners 74 — Liability-Driven Investing,AM-CL-0074,RFP Received,7473575.81,2026-08-04,2026-11-07,E-0198,Direct,false
+AM-DL-00043,Harbor Teachers Retirement 75 — Private Credit,AM-CL-0075,RFP Received,80690226.66,2026-03-24,2026-12-12,E-0194,Consultant,false
+AM-DL-00044,Granite Teachers Retirement 122 — Global Equity,AM-CL-0122,RFP Received,26927652.06,2025-04-16,2026-04-09,E-0195,RFP Database,false
+AM-DL-00045,Granite Teachers Retirement 122 — ESG Equity,AM-CL-0122,Closed Won,75578217.27,2025-07-05,2026-01-30,E-0200,Direct,true
+AM-DL-00046,Granite Teachers Retirement 60 — ESG Equity,AM-CL-0060,Closed Lost,757618606.57,2026-01-14,2027-02-12,E-0191,Consultant,false
+AM-DL-00047,Lakeshore Teachers Retirement 59 — Multi-Asset Balanced,AM-CL-0059,Due Diligence,100596248.62,2025-12-26,2026-09-23,E-0183,Direct,false
+AM-DL-00048,Harbor Capital Partners 35 — Real Assets,AM-CL-0035,Prospecting,145808031.5,2025-06-24,2025-09-23,E-0182,RFP Database,false
+AM-DL-00049,Cascade Employees Pension 34 — Global Equity,AM-CL-0034,Prospecting,98883030.19,2026-01-26,2026-04-13,E-0190,Direct,false
+AM-DL-00050,Granite University Endowment 133 — US Large Cap Equity,AM-CL-0133,Closed Won,230093942.93,2026-05-03,2027-02-21,E-0182,Direct,true
+AM-DL-00051,Silverline Employees Pension 67 — Multi-Asset Balanced,AM-CL-0067,RFP Received,577837977.18,2026-05-04,2027-04-22,E-0186,Existing Client,false
+AM-DL-00052,Cascade Employees Pension 34 — Liability-Driven Investing,AM-CL-0034,Closed Won,79397414.07,2025-05-24,2025-08-31,E-0204,RFP Database,true
+AM-DL-00053,Harbor Community Foundation 93 — Private Credit,AM-CL-0093,Closed Won,43783913.7,2025-05-04,2025-10-08,E-0184,Direct,true
+AM-DL-00054,Ironwood Sovereign Fund 95 — Liability-Driven Investing,AM-CL-0095,Due Diligence,691179545.25,2025-08-14,2025-12-18,E-0184,Existing Client,false
+AM-DL-00055,Ironwood Capital Partners 76 — Core Fixed Income,AM-CL-0076,RFP Received,50297761.84,2025-02-06,2025-06-20,E-0182,Direct,false
+AM-DL-00056,Harbor Teachers Retirement 107 — Private Credit,AM-CL-0107,Prospecting,233809783.91,2026-05-30,2027-02-21,E-0190,Direct,false
+AM-DL-00057,Ironwood Employees Pension 73 — Core Fixed Income,AM-CL-0073,RFP Received,321518588.53,2026-07-17,2026-10-17,E-0200,Direct,false
+AM-DL-00058,Harbor Capital Partners 65 — ESG Equity,AM-CL-0065,RFP Received,121467232.43,2026-01-05,2026-09-06,E-0186,Direct,false
+AM-DL-00059,Lakeshore Teachers Retirement 59 — Liability-Driven Investing,AM-CL-0059,Closed Lost,181917761.99,2025-02-11,2025-10-14,E-0205,Direct,false
+AM-DL-00060,Lakeshore Teachers Retirement 117 — Liability-Driven Investing,AM-CL-0117,Finals Presentation,151932006.08,2026-07-05,2026-11-27,E-0181,Consultant,false
+AM-DL-00061,Silverline Teachers Retirement 51 — Liability-Driven Investing,AM-CL-0051,Closed Won,249240108.98,2025-11-05,2026-11-11,E-0181,Consultant,true
+AM-DL-00062,Summit Capital Partners 20 — Liability-Driven Investing,AM-CL-0020,Prospecting,74930961.32,2026-05-04,2026-08-07,E-0197,Consultant,false
+AM-DL-00063,Northfield Capital Partners 131 — ESG Equity,AM-CL-0131,Prospecting,108672613.94,2026-03-29,2026-12-05,E-0191,Direct,false
+AM-DL-00064,Harbor Community Foundation 93 — Core Fixed Income,AM-CL-0093,RFP Received,28702021.71,2026-08-14,2027-07-06,E-0204,Consultant,false
+AM-DL-00065,Harbor Community Foundation 50 — Private Credit,AM-CL-0050,RFP Received,346831870.28,2026-04-20,2027-01-15,E-0190,Consultant,false
+AM-DL-00066,Blue Ridge Teachers Retirement 42 — Private Credit,AM-CL-0042,Due Diligence,61104815.72,2026-02-01,2026-09-06,E-0186,RFP Database,false
+AM-DL-00067,Harbor Teachers Retirement 113 — Liability-Driven Investing,AM-CL-0113,Prospecting,58222420.85,2026-01-17,2026-08-31,E-0186,RFP Database,false
+AM-DL-00068,Granite Community Foundation 8 — Liability-Driven Investing,AM-CL-0008,Due Diligence,57932746.48,2025-02-04,2025-11-13,E-0185,Existing Client,false
+AM-DL-00069,Northfield University Endowment 91 — Multi-Asset Balanced,AM-CL-0091,Due Diligence,242546300.11,2025-08-11,2026-06-30,E-0188,Direct,false
+AM-DL-00070,Meridian University Endowment 90 — Private Credit,AM-CL-0090,Closed Lost,101186151.06,2025-08-31,2026-04-29,E-0192,Existing Client,false
+AM-DL-00071,Meridian Sovereign Fund 32 — Liability-Driven Investing,AM-CL-0032,Due Diligence,179354677.21,2026-06-05,2026-08-21,E-0201,Consultant,false
+AM-DL-00072,Meridian Capital Partners 92 — Private Credit,AM-CL-0092,Closed Won,205905671.13,2026-04-22,2027-03-06,E-0201,Existing Client,true
+AM-DL-00073,Granite Community Foundation 127 — Multi-Asset Balanced,AM-CL-0127,Closed Lost,62552050.94,2026-07-29,2026-10-19,E-0185,Existing Client,false
+AM-DL-00074,Granite Sovereign Fund 47 — US Large Cap Equity,AM-CL-0047,Closed Lost,374899864.51,2025-09-26,2026-05-03,E-0181,Direct,false
+AM-DL-00075,Blue Ridge Teachers Retirement 42 — Multi-Asset Balanced,AM-CL-0042,Finals Presentation,120800027.09,2025-07-11,2026-06-23,E-0182,Consultant,false
+AM-DL-00076,Blue Ridge Community Foundation 89 — Multi-Asset Balanced,AM-CL-0089,Prospecting,144806310.75,2025-02-25,2025-11-14,E-0183,Direct,false
+AM-DL-00077,Summit Sovereign Fund 61 — ESG Equity,AM-CL-0061,Closed Lost,38336633.93,2025-06-05,2026-06-18,E-0185,RFP Database,false
+AM-DL-00078,Summit Capital Partners 97 — Core Fixed Income,AM-CL-0097,Finals Presentation,189862145.0,2025-04-04,2025-07-26,E-0187,RFP Database,false
+AM-DL-00079,Harbor Teachers Retirement 80 — US Large Cap Equity,AM-CL-0080,RFP Received,278991895.18,2025-12-16,2026-10-20,E-0186,Consultant,false
+AM-DL-00080,Silverline Teachers Retirement 28 — Multi-Asset Balanced,AM-CL-0028,RFP Received,539544043.43,2026-02-15,2026-06-23,E-0196,Existing Client,false
+AM-DL-00081,Silverline Sovereign Fund 106 — Real Assets,AM-CL-0106,RFP Received,58505860.15,2025-05-13,2026-06-13,E-0201,Consultant,false
+AM-DL-00082,Meridian Capital Partners 121 — Global Equity,AM-CL-0121,Finals Presentation,124950954.46,2025-07-16,2025-12-21,E-0194,Direct,false
+AM-DL-00083,Blue Ridge Community Foundation 89 — Private Credit,AM-CL-0089,Due Diligence,261848587.94,2026-04-13,2027-03-21,E-0201,Direct,false
+AM-DL-00084,Harbor Community Foundation 23 — Multi-Asset Balanced,AM-CL-0023,RFP Received,10287660.73,2026-05-15,2027-05-29,E-0181,Existing Client,false
+AM-DL-00085,Northfield University Endowment 91 — Liability-Driven Investing,AM-CL-0091,Finals Presentation,72116108.02,2026-05-20,2027-04-23,E-0198,Existing Client,false
+AM-DL-00086,Granite Teachers Retirement 60 — Core Fixed Income,AM-CL-0060,RFP Received,122799387.48,2025-08-14,2026-08-16,E-0184,Direct,false
+AM-DL-00087,Lakeshore Teachers Retirement 17 — Real Assets,AM-CL-0017,Closed Won,525277264.48,2025-01-07,2025-09-16,E-0200,Existing Client,true
+AM-DL-00088,Harbor Capital Partners 65 — ESG Equity,AM-CL-0065,Prospecting,19415228.42,2025-12-27,2026-06-14,E-0192,Consultant,false
+AM-DL-00089,Harbor Teachers Retirement 75 — Real Assets,AM-CL-0075,Prospecting,83006361.79,2025-01-12,2026-01-26,E-0195,Consultant,false
+AM-DL-00090,Cascade Mutual Insurance 66 — Multi-Asset Balanced,AM-CL-0066,Prospecting,85375712.59,2026-01-10,2026-04-18,E-0198,Consultant,false
+AM-DL-00091,Summit Capital Partners 20 — Global Equity,AM-CL-0020,Closed Won,180051588.18,2025-08-23,2025-12-27,E-0181,Direct,true
+AM-DL-00092,Cascade Mutual Insurance 66 — Liability-Driven Investing,AM-CL-0066,RFP Received,18219362.83,2025-02-25,2025-12-15,E-0197,Consultant,false
+AM-DL-00093,Cascade Sovereign Fund 9 — Private Credit,AM-CL-0009,Prospecting,211468645.43,2025-05-28,2025-12-31,E-0191,Existing Client,false
+AM-DL-00094,Lakeshore Teachers Retirement 117 — Private Credit,AM-CL-0117,Prospecting,14826167.51,2025-01-23,2025-07-16,E-0195,RFP Database,false
+AM-DL-00095,Granite Sovereign Fund 47 — ESG Equity,AM-CL-0047,RFP Received,61319363.06,2026-08-06,2027-03-20,E-0199,Consultant,false
+AM-DL-00096,Ironwood Employees Pension 73 — Real Assets,AM-CL-0073,Prospecting,154103741.51,2026-05-22,2027-02-19,E-0188,Existing Client,false
+AM-DL-00097,Lakeshore Teachers Retirement 140 — US Large Cap Equity,AM-CL-0140,RFP Received,120175511.58,2026-03-28,2026-09-09,E-0187,Consultant,false
+AM-DL-00098,Harbor Capital Partners 37 — Core Fixed Income,AM-CL-0037,Due Diligence,459364343.46,2026-06-12,2027-06-04,E-0182,Consultant,false
+AM-DL-00099,Cascade Mutual Insurance 128 — US Large Cap Equity,AM-CL-0128,Closed Won,170125481.56,2025-10-29,2026-07-17,E-0198,Consultant,true
+AM-DL-00100,Silverline Community Foundation 118 — Private Credit,AM-CL-0118,RFP Received,175454079.07,2026-01-17,2027-01-17,E-0184,Direct,false
+AM-DL-00101,Harbor Mutual Insurance 56 — Multi-Asset Balanced,AM-CL-0056,Closed Lost,88428385.12,2026-07-28,2027-07-28,E-0196,Direct,false
+AM-DL-00102,Cascade Teachers Retirement 96 — ESG Equity,AM-CL-0096,Closed Won,335712663.18,2026-07-14,2027-07-02,E-0205,Existing Client,true
+AM-DL-00103,Granite Mutual Insurance 41 — Liability-Driven Investing,AM-CL-0041,Due Diligence,169914950.75,2025-04-03,2025-12-25,E-0194,Consultant,false
+AM-DL-00104,Granite Capital Partners 29 — Core Fixed Income,AM-CL-0029,Due Diligence,80142740.51,2026-07-07,2026-12-28,E-0195,Existing Client,false
+AM-DL-00105,Summit Teachers Retirement 25 — Multi-Asset Balanced,AM-CL-0025,Finals Presentation,417876131.59,2026-07-04,2027-02-28,E-0191,Existing Client,false
+AM-DL-00106,Lakeshore University Endowment 57 — Global Equity,AM-CL-0057,Prospecting,127324628.34,2025-01-27,2025-11-25,E-0198,Direct,false
+AM-DL-00107,Lakeshore University Endowment 57 — US Large Cap Equity,AM-CL-0057,RFP Received,46513870.86,2025-08-24,2026-03-08,E-0193,Existing Client,false
+AM-DL-00108,Cascade Teachers Retirement 99 — Private Credit,AM-CL-0099,Finals Presentation,245054700.92,2025-01-08,2025-07-30,E-0196,Existing Client,false
+AM-DL-00109,Lakeshore Teachers Retirement 59 — US Large Cap Equity,AM-CL-0059,RFP Received,625488152.48,2026-06-25,2026-12-28,E-0203,RFP Database,false
+AM-DL-00110,Meridian University Endowment 90 — Core Fixed Income,AM-CL-0090,Finals Presentation,239302932.65,2025-01-30,2025-12-23,E-0203,Consultant,false
+AM-DL-00111,Northfield University Endowment 91 — ESG Equity,AM-CL-0091,Closed Won,184573068.14,2025-06-07,2025-08-23,E-0188,Consultant,true
+AM-DL-00112,Harbor Teachers Retirement 80 — Liability-Driven Investing,AM-CL-0080,RFP Received,26063592.8,2025-09-27,2026-06-11,E-0205,Consultant,false
+AM-DL-00113,Cascade Sovereign Fund 9 — Core Fixed Income,AM-CL-0009,Closed Lost,135340301.83,2025-03-19,2025-11-20,E-0204,Direct,false
+AM-DL-00114,Granite Capital Partners 29 — Multi-Asset Balanced,AM-CL-0029,Finals Presentation,175324960.62,2026-05-07,2027-02-16,E-0192,Direct,false
+AM-DL-00115,Summit Sovereign Fund 61 — Private Credit,AM-CL-0061,RFP Received,93908831.53,2026-03-18,2027-01-28,E-0187,Consultant,false
+AM-DL-00116,Cascade Employees Pension 63 — Global Equity,AM-CL-0063,Prospecting,148054686.43,2026-08-31,2027-01-21,E-0181,Existing Client,false
+AM-DL-00117,Blue Ridge University Endowment 111 — Core Fixed Income,AM-CL-0111,Due Diligence,88622919.89,2025-02-25,2025-05-19,E-0193,Consultant,false
+AM-DL-00118,Lakeshore Teachers Retirement 17 — ESG Equity,AM-CL-0017,RFP Received,345684970.62,2025-10-10,2026-06-09,E-0195,Consultant,false
+AM-DL-00119,Summit Teachers Retirement 26 — US Large Cap Equity,AM-CL-0026,Prospecting,192806151.58,2026-02-21,2026-08-31,E-0202,Existing Client,false
+AM-DL-00120,Blue Ridge Mutual Insurance 3 — Liability-Driven Investing,AM-CL-0003,RFP Received,164547835.95,2025-01-20,2025-10-09,E-0188,Consultant,false
+AM-DL-00121,Northfield Employees Pension 19 — Core Fixed Income,AM-CL-0019,Closed Lost,87339191.92,2025-10-22,2026-06-28,E-0183,Existing Client,false
+AM-DL-00122,Meridian Capital Partners 92 — Liability-Driven Investing,AM-CL-0092,Prospecting,26193808.24,2025-10-07,2026-07-16,E-0184,RFP Database,false
+AM-DL-00123,Northfield Mutual Insurance 22 — Liability-Driven Investing,AM-CL-0022,Closed Won,40233060.8,2026-04-09,2026-08-13,E-0182,RFP Database,true
+AM-DL-00124,Northfield Employees Pension 126 — US Large Cap Equity,AM-CL-0126,Prospecting,38938883.66,2025-04-13,2026-04-10,E-0181,Existing Client,false
+AM-DL-00125,Meridian Mutual Insurance 18 — Core Fixed Income,AM-CL-0018,Closed Lost,376248913.63,2026-07-18,2027-03-08,E-0184,Consultant,false
+AM-DL-00126,Northfield Community Foundation 105 — Private Credit,AM-CL-0105,Closed Lost,58565834.82,2026-03-12,2026-12-02,E-0193,Direct,false
+AM-DL-00127,Lakeshore Teachers Retirement 4 — Core Fixed Income,AM-CL-0004,Due Diligence,60198318.63,2025-08-30,2026-07-07,E-0193,Consultant,false
+AM-DL-00128,Meridian Capital Partners 30 — Liability-Driven Investing,AM-CL-0030,Prospecting,302810530.28,2026-08-29,2026-12-22,E-0200,RFP Database,false
+AM-DL-00129,Harbor Sovereign Fund 119 — Real Assets,AM-CL-0119,Prospecting,16510864.05,2026-03-04,2026-10-12,E-0181,Direct,false
+AM-DL-00130,Summit Capital Partners 97 — Real Assets,AM-CL-0097,Prospecting,74790250.36,2026-04-01,2027-02-16,E-0188,Existing Client,false
+AM-DL-00131,Cascade Community Foundation 109 — Real Assets,AM-CL-0109,Due Diligence,144997820.05,2025-05-08,2026-02-22,E-0191,RFP Database,false
+AM-DL-00132,Lakeshore Sovereign Fund 49 — Core Fixed Income,AM-CL-0049,Closed Lost,540539051.94,2025-12-18,2026-09-27,E-0203,Consultant,false
+AM-DL-00133,Harbor Teachers Retirement 113 — Global Equity,AM-CL-0113,Closed Won,235750957.48,2025-04-16,2026-02-19,E-0199,Existing Client,true
+AM-DL-00134,Northfield Employees Pension 126 — Private Credit,AM-CL-0126,RFP Received,826564803.08,2026-03-07,2026-12-21,E-0185,RFP Database,false
+AM-DL-00135,Lakeshore Sovereign Fund 21 — US Large Cap Equity,AM-CL-0021,Prospecting,40667265.15,2026-03-12,2027-01-04,E-0205,RFP Database,false
+AM-DL-00136,Blue Ridge Sovereign Fund 2 — ESG Equity,AM-CL-0002,Finals Presentation,49315585.01,2025-06-06,2026-06-26,E-0194,Consultant,false
+AM-DL-00137,Summit Teachers Retirement 25 — Core Fixed Income,AM-CL-0025,Prospecting,89337069.16,2025-02-19,2025-10-30,E-0204,RFP Database,false
+AM-DL-00138,Summit Sovereign Fund 61 — Private Credit,AM-CL-0061,RFP Received,44436443.32,2025-12-25,2026-07-07,E-0193,Direct,false
+AM-DL-00139,Cascade Teachers Retirement 96 — Global Equity,AM-CL-0096,Closed Won,309548961.17,2025-04-30,2025-08-10,E-0192,Existing Client,true
+AM-DL-00140,Northfield Teachers Retirement 79 — US Large Cap Equity,AM-CL-0079,RFP Received,20927888.66,2026-07-23,2027-02-12,E-0183,Existing Client,false
+AM-DL-00141,Lakeshore University Endowment 57 — Liability-Driven Investing,AM-CL-0057,RFP Received,85799300.8,2025-03-30,2026-04-26,E-0193,Direct,false
+AM-DL-00142,Lakeshore Teachers Retirement 4 — ESG Equity,AM-CL-0004,Closed Won,141298833.15,2025-11-09,2026-08-14,E-0204,Consultant,true
+AM-DL-00143,Blue Ridge University Endowment 111 — US Large Cap Equity,AM-CL-0111,RFP Received,189733770.27,2026-05-28,2027-06-18,E-0204,Direct,false
+AM-DL-00144,Granite Mutual Insurance 54 — Core Fixed Income,AM-CL-0054,Finals Presentation,71367221.43,2025-06-20,2026-01-11,E-0205,RFP Database,false
+AM-DL-00145,Northfield University Endowment 91 — Real Assets,AM-CL-0091,Prospecting,106614258.64,2025-06-18,2025-09-11,E-0200,Direct,false
+AM-DL-00146,Blue Ridge Teachers Retirement 45 — Real Assets,AM-CL-0045,Closed Won,40073098.63,2026-02-03,2027-02-22,E-0193,Direct,true
+AM-DL-00147,Harbor Teachers Retirement 36 — Global Equity,AM-CL-0036,Prospecting,35759257.87,2026-07-12,2027-02-24,E-0194,Existing Client,false
+AM-DL-00148,Ironwood Teachers Retirement 7 — Private Credit,AM-CL-0007,Prospecting,151665311.84,2025-12-28,2026-03-15,E-0189,Direct,false
+AM-DL-00149,Summit Employees Pension 33 — Multi-Asset Balanced,AM-CL-0033,Finals Presentation,25643568.85,2025-12-19,2026-07-18,E-0192,Consultant,false
+AM-DL-00150,Summit Community Foundation 85 — Real Assets,AM-CL-0085,Finals Presentation,82134234.45,2025-08-02,2026-08-11,E-0185,Direct,false
+AM-DL-00151,Harbor Community Foundation 50 — Core Fixed Income,AM-CL-0050,Finals Presentation,278562011.33,2025-07-24,2026-07-04,E-0195,Existing Client,false
+AM-DL-00152,Blue Ridge Mutual Insurance 72 — ESG Equity,AM-CL-0072,RFP Received,224640409.81,2025-07-20,2025-12-31,E-0182,Consultant,false
+AM-DL-00153,Ironwood Capital Partners 76 — ESG Equity,AM-CL-0076,RFP Received,223893204.74,2026-03-11,2026-11-18,E-0187,RFP Database,false
+AM-DL-00154,Blue Ridge Mutual Insurance 72 — ESG Equity,AM-CL-0072,Due Diligence,194515384.05,2026-03-21,2026-07-15,E-0192,RFP Database,false
+AM-DL-00155,Meridian Mutual Insurance 18 — Real Assets,AM-CL-0018,Closed Lost,161106358.19,2026-02-16,2026-11-09,E-0185,Direct,false
+AM-DL-00156,Harbor Capital Partners 37 — Global Equity,AM-CL-0037,RFP Received,328204911.75,2025-12-20,2026-07-08,E-0199,Existing Client,false
+AM-DL-00157,Lakeshore Sovereign Fund 49 — Real Assets,AM-CL-0049,Closed Won,133324007.1,2026-03-29,2027-02-13,E-0197,Existing Client,true
+AM-DL-00158,Lakeshore Teachers Retirement 59 — ESG Equity,AM-CL-0059,Finals Presentation,610334831.95,2025-04-14,2026-01-10,E-0187,Consultant,false
+AM-DL-00159,Lakeshore Community Foundation 43 — Real Assets,AM-CL-0043,Finals Presentation,5000000.0,2025-09-11,2026-04-14,E-0197,Existing Client,false
+AM-DL-00160,Cascade Mutual Insurance 66 — ESG Equity,AM-CL-0066,Finals Presentation,208639145.51,2025-01-22,2025-08-15,E-0181,Direct,false
+AM-DL-00161,Northfield Teachers Retirement 62 — Liability-Driven Investing,AM-CL-0062,Due Diligence,98227879.35,2025-06-21,2026-05-18,E-0204,Direct,false
+AM-DL-00162,Cascade Teachers Retirement 99 — Real Assets,AM-CL-0099,Finals Presentation,26314956.77,2025-08-27,2026-07-07,E-0205,RFP Database,false
+AM-DL-00163,Northfield Teachers Retirement 79 — ESG Equity,AM-CL-0079,RFP Received,731892835.75,2025-12-13,2026-08-28,E-0200,RFP Database,false
+AM-DL-00164,Cascade Capital Partners 40 — Core Fixed Income,AM-CL-0040,Closed Won,239865379.99,2025-07-11,2026-06-16,E-0202,Existing Client,true
+AM-DL-00165,Cascade Mutual Insurance 66 — Global Equity,AM-CL-0066,Closed Won,239124360.24,2025-05-16,2026-02-01,E-0202,Consultant,true
+AM-DL-00166,Blue Ridge Community Foundation 124 — Liability-Driven Investing,AM-CL-0124,RFP Received,133554310.2,2026-05-23,2027-01-21,E-0183,Consultant,false
+AM-DL-00167,Harbor Community Foundation 23 — Multi-Asset Balanced,AM-CL-0023,Prospecting,126032186.74,2025-10-02,2026-06-02,E-0197,Direct,false
+AM-DL-00168,Lakeshore Employees Pension 1 — US Large Cap Equity,AM-CL-0001,RFP Received,251786225.71,2026-03-15,2027-02-22,E-0203,RFP Database,false
+AM-DL-00169,Blue Ridge Teachers Retirement 44 — US Large Cap Equity,AM-CL-0044,Prospecting,76162385.16,2025-01-30,2025-12-31,E-0204,Consultant,false
+AM-DL-00170,Lakeshore Community Foundation 48 — Real Assets,AM-CL-0048,RFP Received,280609383.19,2026-05-09,2027-04-11,E-0192,RFP Database,false
+AM-DL-00171,Northfield Teachers Retirement 15 — Multi-Asset Balanced,AM-CL-0015,Closed Won,213298669.58,2025-11-08,2026-03-21,E-0195,Existing Client,true
+AM-DL-00172,Lakeshore Teachers Retirement 59 — Core Fixed Income,AM-CL-0059,Finals Presentation,164380060.05,2025-10-08,2026-09-09,E-0197,Consultant,false
+AM-DL-00173,Northfield Mutual Insurance 22 — Multi-Asset Balanced,AM-CL-0022,RFP Received,298384415.18,2025-06-11,2026-01-02,E-0188,RFP Database,false
+AM-DL-00174,Cascade Employees Pension 34 — Global Equity,AM-CL-0034,Finals Presentation,59681949.2,2025-10-21,2026-07-06,E-0192,Consultant,false
+AM-DL-00175,Granite Mutual Insurance 14 — Multi-Asset Balanced,AM-CL-0014,Closed Lost,232391384.62,2025-04-02,2026-01-31,E-0182,Existing Client,false
+AM-DL-00176,Harbor Teachers Retirement 107 — Real Assets,AM-CL-0107,RFP Received,129620050.19,2026-05-12,2026-12-12,E-0205,Consultant,false
+AM-DL-00177,Blue Ridge Community Foundation 124 — Multi-Asset Balanced,AM-CL-0124,RFP Received,105953742.31,2026-07-24,2026-12-25,E-0184,Direct,false
+AM-DL-00178,Blue Ridge Community Foundation 124 — Global Equity,AM-CL-0124,RFP Received,374772382.87,2026-06-12,2026-09-04,E-0190,Consultant,false
+AM-DL-00179,Lakeshore Community Foundation 48 — Liability-Driven Investing,AM-CL-0048,RFP Received,27001092.17,2026-02-04,2026-06-18,E-0197,RFP Database,false
+AM-DL-00180,Granite Community Foundation 127 — Core Fixed Income,AM-CL-0127,Closed Won,112271283.89,2026-06-02,2026-11-27,E-0197,RFP Database,true
+AM-DL-00181,Northfield Community Foundation 105 — US Large Cap Equity,AM-CL-0105,RFP Received,60129218.77,2025-03-15,2025-06-28,E-0195,RFP Database,false
+AM-DL-00182,Blue Ridge Community Foundation 124 — Private Credit,AM-CL-0124,Prospecting,98819913.76,2025-09-08,2026-09-15,E-0196,Consultant,false
+AM-DL-00183,Summit Capital Partners 98 — Core Fixed Income,AM-CL-0098,Due Diligence,76161631.73,2026-02-06,2026-10-07,E-0192,Existing Client,false
+AM-DL-00184,Blue Ridge Sovereign Fund 2 — Real Assets,AM-CL-0002,RFP Received,42444592.62,2025-08-15,2026-02-05,E-0184,Direct,false
+AM-DL-00185,Harbor Teachers Retirement 75 — Liability-Driven Investing,AM-CL-0075,Prospecting,568668219.12,2026-04-10,2026-11-09,E-0196,RFP Database,false
+AM-DL-00186,Northfield Employees Pension 19 — Multi-Asset Balanced,AM-CL-0019,Finals Presentation,152971644.05,2025-04-06,2025-10-01,E-0191,RFP Database,false
+AM-DL-00187,Cascade Teachers Retirement 96 — Multi-Asset Balanced,AM-CL-0096,Finals Presentation,477124931.18,2025-06-03,2025-12-19,E-0204,RFP Database,false
+AM-DL-00188,Granite Capital Partners 94 — Global Equity,AM-CL-0094,Finals Presentation,72256957.21,2026-06-11,2027-02-24,E-0187,Existing Client,false
+AM-DL-00189,Northfield Employees Pension 68 — Real Assets,AM-CL-0068,RFP Received,133403329.51,2026-02-08,2026-05-30,E-0183,Existing Client,false
+AM-DL-00190,Ironwood Employees Pension 73 — ESG Equity,AM-CL-0073,Prospecting,367913680.48,2025-06-12,2026-01-12,E-0199,Existing Client,false
+AM-DL-00191,Silverline Community Foundation 118 — Core Fixed Income,AM-CL-0118,Closed Won,223528288.56,2025-09-07,2026-06-29,E-0182,RFP Database,true
+AM-DL-00192,Northfield Employees Pension 126 — ESG Equity,AM-CL-0126,Due Diligence,50607592.34,2025-09-27,2026-03-01,E-0198,Existing Client,false
+AM-DL-00193,Blue Ridge Teachers Retirement 45 — Real Assets,AM-CL-0045,RFP Received,86835141.55,2025-01-22,2025-06-05,E-0192,Existing Client,false
+AM-DL-00194,Granite Mutual Insurance 64 — ESG Equity,AM-CL-0064,Closed Lost,58491675.6,2025-10-06,2026-05-29,E-0189,Existing Client,false
+AM-DL-00195,Summit Capital Partners 87 — Multi-Asset Balanced,AM-CL-0087,Finals Presentation,347985067.45,2025-10-17,2026-10-20,E-0189,Direct,false
+AM-DL-00196,Granite Mutual Insurance 41 — Core Fixed Income,AM-CL-0041,Prospecting,122562738.59,2025-03-24,2026-03-07,E-0187,Direct,false
+AM-DL-00197,Ironwood Community Foundation 84 — Multi-Asset Balanced,AM-CL-0084,RFP Received,98041671.78,2026-02-21,2026-06-27,E-0205,Consultant,false
+AM-DL-00198,Granite Capital Partners 29 — Multi-Asset Balanced,AM-CL-0029,RFP Received,54227925.97,2025-07-21,2026-06-24,E-0183,RFP Database,false
+AM-DL-00199,Lakeshore Teachers Retirement 59 — Global Equity,AM-CL-0059,Prospecting,57614090.96,2026-04-22,2027-01-19,E-0189,RFP Database,false
+AM-DL-00200,Northfield Community Foundation 69 — Real Assets,AM-CL-0069,RFP Received,162603853.05,2025-11-14,2026-05-26,E-0188,Existing Client,false
+AM-DL-00201,Northfield Employees Pension 68 — Liability-Driven Investing,AM-CL-0068,Closed Won,362246375.71,2025-04-19,2026-03-27,E-0196,Consultant,true
+AM-DL-00202,Summit Capital Partners 20 — Liability-Driven Investing,AM-CL-0020,Prospecting,59094793.0,2025-02-23,2026-02-20,E-0183,Existing Client,false
+AM-DL-00203,Silverline Teachers Retirement 28 — Multi-Asset Balanced,AM-CL-0028,RFP Received,51874715.93,2026-04-01,2026-08-13,E-0184,Direct,false
+AM-DL-00204,Summit Community Foundation 110 — US Large Cap Equity,AM-CL-0110,Finals Presentation,1134276460.2,2025-11-26,2026-02-28,E-0198,Consultant,false
+AM-DL-00205,Northfield Mutual Insurance 22 — Private Credit,AM-CL-0022,Finals Presentation,736602731.87,2025-05-21,2026-03-05,E-0192,Direct,false
+AM-DL-00206,Silverline Teachers Retirement 51 — Liability-Driven Investing,AM-CL-0051,Closed Won,714128303.42,2025-01-26,2025-06-08,E-0197,Existing Client,true
+AM-DL-00207,Lakeshore Teachers Retirement 59 — Core Fixed Income,AM-CL-0059,Prospecting,81230453.21,2025-02-09,2025-05-24,E-0195,Consultant,false
+AM-DL-00208,Summit Capital Partners 87 — Multi-Asset Balanced,AM-CL-0087,Prospecting,460892418.9,2025-06-06,2026-04-07,E-0199,Existing Client,false
+AM-DL-00209,Harbor Teachers Retirement 113 — Private Credit,AM-CL-0113,Closed Won,127258883.24,2025-07-07,2026-07-07,E-0201,RFP Database,true
+AM-DL-00210,Summit Employees Pension 33 — Real Assets,AM-CL-0033,RFP Received,872899239.46,2026-03-13,2026-11-05,E-0192,Consultant,false
+AM-DL-00211,Harbor Teachers Retirement 80 — Real Assets,AM-CL-0080,Closed Won,426137618.1,2025-06-27,2026-06-15,E-0205,Consultant,true
+AM-DL-00212,Harbor Sovereign Fund 82 — Real Assets,AM-CL-0082,RFP Received,76998534.15,2025-05-14,2026-04-06,E-0203,RFP Database,false
+AM-DL-00213,Northfield University Endowment 112 — Private Credit,AM-CL-0112,Prospecting,49363419.67,2026-03-08,2026-12-07,E-0183,Direct,false
+AM-DL-00214,Granite Teachers Retirement 77 — ESG Equity,AM-CL-0077,Closed Lost,171206217.95,2025-05-07,2025-08-10,E-0197,RFP Database,false
+AM-DL-00215,Cascade Employees Pension 138 — Private Credit,AM-CL-0138,RFP Received,359810258.85,2025-09-08,2026-03-10,E-0183,Direct,false
+AM-DL-00216,Summit University Endowment 136 — Global Equity,AM-CL-0136,Closed Lost,262631757.52,2026-06-03,2027-02-21,E-0205,Direct,false
+AM-DL-00217,Granite Teachers Retirement 55 — Real Assets,AM-CL-0055,Prospecting,57436098.24,2025-07-31,2026-01-22,E-0187,Existing Client,false
+AM-DL-00218,Cascade Capital Partners 40 — Real Assets,AM-CL-0040,Closed Lost,50009491.69,2025-08-23,2025-10-24,E-0198,Direct,false
+AM-DL-00219,Summit University Endowment 46 — US Large Cap Equity,AM-CL-0046,Prospecting,198282929.56,2025-06-09,2026-02-28,E-0199,Consultant,false
+AM-DL-00220,Meridian Capital Partners 135 — Core Fixed Income,AM-CL-0135,RFP Received,171655216.06,2025-10-19,2026-05-25,E-0205,Existing Client,false

@@ -1,0 +1,8 @@
+.sf/
+.sfdx/
+.localdevserver/
+node_modules/
+.env
+*.log
+buildorg-auth.json
+embed/.env

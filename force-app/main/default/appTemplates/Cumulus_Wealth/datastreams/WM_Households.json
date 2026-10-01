@@ -1,0 +1,280 @@
+{
+  "name": "WM_Households_DS",
+  "label": "WM Households DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "HouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdName"
+    },
+    {
+      "dataType": "Text",
+      "name": "PrimaryClientName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorId"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ServiceTier"
+    },
+    {
+      "dataType": "Text",
+      "name": "RiskProfile"
+    },
+    {
+      "dataType": "Date",
+      "name": "RelationshipStartDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "AUM"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "Churned"
+    },
+    {
+      "dataType": "Date",
+      "name": "ChurnDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "AnnualRevenue"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorTeam"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Number",
+      "name": "InteractionCount"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.WM_Households_DLO.Name}",
+    "label": "WM Households DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "HouseholdId",
+        "label": "Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdName",
+        "label": "Household Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PrimaryClientName",
+        "label": "Primary Client Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorId",
+        "label": "Advisor ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchId",
+        "label": "Branch ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ServiceTier",
+        "label": "Service Tier"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RiskProfile",
+        "label": "Risk Profile"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "RelationshipStartDate",
+        "label": "Relationship Start Date"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "AUM",
+        "label": "AUM"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "Churned",
+        "label": "Churned"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "ChurnDate",
+        "label": "Churn Date"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "AnnualRevenue",
+        "label": "Annual Revenue"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorName",
+        "label": "Advisor Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorTeam",
+        "label": "Advisor Team"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchName",
+        "label": "Branch Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "InteractionCount",
+        "label": "Interaction Count"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "HouseholdId",
+      "targetFieldName": "HouseholdId"
+    },
+    {
+      "sourceFieldLabel": "HouseholdName",
+      "targetFieldName": "HouseholdName"
+    },
+    {
+      "sourceFieldLabel": "PrimaryClientName",
+      "targetFieldName": "PrimaryClientName"
+    },
+    {
+      "sourceFieldLabel": "AdvisorId",
+      "targetFieldName": "AdvisorId"
+    },
+    {
+      "sourceFieldLabel": "BranchId",
+      "targetFieldName": "BranchId"
+    },
+    {
+      "sourceFieldLabel": "ServiceTier",
+      "targetFieldName": "ServiceTier"
+    },
+    {
+      "sourceFieldLabel": "RiskProfile",
+      "targetFieldName": "RiskProfile"
+    },
+    {
+      "sourceFieldLabel": "RelationshipStartDate",
+      "targetFieldName": "RelationshipStartDate"
+    },
+    {
+      "sourceFieldLabel": "AUM",
+      "targetFieldName": "AUM"
+    },
+    {
+      "sourceFieldLabel": "Churned",
+      "targetFieldName": "Churned"
+    },
+    {
+      "sourceFieldLabel": "ChurnDate",
+      "targetFieldName": "ChurnDate"
+    },
+    {
+      "sourceFieldLabel": "AnnualRevenue",
+      "targetFieldName": "AnnualRevenue"
+    },
+    {
+      "sourceFieldLabel": "AdvisorName",
+      "targetFieldName": "AdvisorName"
+    },
+    {
+      "sourceFieldLabel": "AdvisorTeam",
+      "targetFieldName": "AdvisorTeam"
+    },
+    {
+      "sourceFieldLabel": "BranchName",
+      "targetFieldName": "BranchName"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "InteractionCount",
+      "targetFieldName": "InteractionCount"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.WM_Households_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.WM_Households_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.WM_Households_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.WM_Households_CSV.FileType}"
+  }
+}

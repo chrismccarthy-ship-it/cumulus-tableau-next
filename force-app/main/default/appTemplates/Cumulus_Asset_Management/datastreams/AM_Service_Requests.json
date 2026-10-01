@@ -1,0 +1,308 @@
+{
+  "name": "AM_Service_Requests_DS",
+  "label": "AM Service Requests DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "RequestId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientId"
+    },
+    {
+      "dataType": "Text",
+      "name": "AssociateId"
+    },
+    {
+      "dataType": "Text",
+      "name": "RequestType"
+    },
+    {
+      "dataType": "Date",
+      "name": "CreatedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "ClosedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Number",
+      "name": "SLADays"
+    },
+    {
+      "dataType": "Number",
+      "name": "CycleTimeDays"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "SLABreached"
+    },
+    {
+      "dataType": "Text",
+      "name": "Channel"
+    },
+    {
+      "dataType": "Text",
+      "name": "Priority"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientType"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientTier"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ServiceAssociateName"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "IsQuarterEnd"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.AM_Service_Requests_DLO.Name}",
+    "label": "AM Service Requests DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "RequestId",
+        "label": "Request ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientId",
+        "label": "Client ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AssociateId",
+        "label": "Associate ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RequestType",
+        "label": "Request Type"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CreatedDate",
+        "label": "Created Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "ClosedDate",
+        "label": "Closed Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "SLADays",
+        "label": "SLADays"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CycleTimeDays",
+        "label": "Cycle Time Days"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "SLABreached",
+        "label": "SLABreached"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Channel",
+        "label": "Channel"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Priority",
+        "label": "Priority"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientName",
+        "label": "Client Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientType",
+        "label": "Client Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientTier",
+        "label": "Client Tier"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerName",
+        "label": "Relationship Manager Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ServiceAssociateName",
+        "label": "Service Associate Name"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "IsQuarterEnd",
+        "label": "Is Quarter End"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "RequestId",
+      "targetFieldName": "RequestId"
+    },
+    {
+      "sourceFieldLabel": "ClientId",
+      "targetFieldName": "ClientId"
+    },
+    {
+      "sourceFieldLabel": "AssociateId",
+      "targetFieldName": "AssociateId"
+    },
+    {
+      "sourceFieldLabel": "RequestType",
+      "targetFieldName": "RequestType"
+    },
+    {
+      "sourceFieldLabel": "CreatedDate",
+      "targetFieldName": "CreatedDate"
+    },
+    {
+      "sourceFieldLabel": "ClosedDate",
+      "targetFieldName": "ClosedDate"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "SLADays",
+      "targetFieldName": "SLADays"
+    },
+    {
+      "sourceFieldLabel": "CycleTimeDays",
+      "targetFieldName": "CycleTimeDays"
+    },
+    {
+      "sourceFieldLabel": "SLABreached",
+      "targetFieldName": "SLABreached"
+    },
+    {
+      "sourceFieldLabel": "Channel",
+      "targetFieldName": "Channel"
+    },
+    {
+      "sourceFieldLabel": "Priority",
+      "targetFieldName": "Priority"
+    },
+    {
+      "sourceFieldLabel": "ClientName",
+      "targetFieldName": "ClientName"
+    },
+    {
+      "sourceFieldLabel": "ClientType",
+      "targetFieldName": "ClientType"
+    },
+    {
+      "sourceFieldLabel": "ClientTier",
+      "targetFieldName": "ClientTier"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerName",
+      "targetFieldName": "RelationshipManagerName"
+    },
+    {
+      "sourceFieldLabel": "ServiceAssociateName",
+      "targetFieldName": "ServiceAssociateName"
+    },
+    {
+      "sourceFieldLabel": "IsQuarterEnd",
+      "targetFieldName": "IsQuarterEnd"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.AM_Service_Requests_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.AM_Service_Requests_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.AM_Service_Requests_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.AM_Service_Requests_CSV.FileType}"
+  }
+}

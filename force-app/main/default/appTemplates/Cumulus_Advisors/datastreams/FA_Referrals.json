@@ -1,0 +1,167 @@
+{
+  "name": "FA_Referrals_DS",
+  "label": "FA Referrals DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "ReferralId"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProspectName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ReferralSource"
+    },
+    {
+      "dataType": "Date",
+      "name": "ReferralDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Number",
+      "name": "EstimatedAUM"
+    },
+    {
+      "dataType": "Number",
+      "name": "DaysToFirstContact"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorName"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.FA_Referrals_DLO.Name}",
+    "label": "FA Referrals DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "ReferralId",
+        "label": "Referral ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorId",
+        "label": "Advisor ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProspectName",
+        "label": "Prospect Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ReferralSource",
+        "label": "Referral Source"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "ReferralDate",
+        "label": "Referral Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "EstimatedAUM",
+        "label": "Estimated AUM"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "DaysToFirstContact",
+        "label": "Days To First Contact"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorName",
+        "label": "Advisor Name"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "ReferralId",
+      "targetFieldName": "ReferralId"
+    },
+    {
+      "sourceFieldLabel": "AdvisorId",
+      "targetFieldName": "AdvisorId"
+    },
+    {
+      "sourceFieldLabel": "ProspectName",
+      "targetFieldName": "ProspectName"
+    },
+    {
+      "sourceFieldLabel": "ReferralSource",
+      "targetFieldName": "ReferralSource"
+    },
+    {
+      "sourceFieldLabel": "ReferralDate",
+      "targetFieldName": "ReferralDate"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "EstimatedAUM",
+      "targetFieldName": "EstimatedAUM"
+    },
+    {
+      "sourceFieldLabel": "DaysToFirstContact",
+      "targetFieldName": "DaysToFirstContact"
+    },
+    {
+      "sourceFieldLabel": "AdvisorName",
+      "targetFieldName": "AdvisorName"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.FA_Referrals_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.FA_Referrals_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.FA_Referrals_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.FA_Referrals_CSV.FileType}"
+  }
+}

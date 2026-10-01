@@ -1,0 +1,31 @@
+BranchId,BranchName,Region,State,BranchType
+BR-001,Cumulus NY Branch 1,Northeast,NY,Full Service
+BR-002,Cumulus NY Branch 2,Northeast,NY,Full Service
+BR-003,Cumulus MA Branch 1,Northeast,MA,Advisory
+BR-004,Cumulus MA Branch 2,Northeast,MA,Full Service
+BR-005,Cumulus CT Branch 1,Northeast,CT,Full Service
+BR-006,Cumulus CT Branch 2,Northeast,CT,Full Service
+BR-007,Cumulus FL Branch 1,Southeast,FL,Full Service
+BR-008,Cumulus FL Branch 2,Southeast,FL,Full Service
+BR-009,Cumulus GA Branch 1,Southeast,GA,Digital Hub
+BR-010,Cumulus GA Branch 2,Southeast,GA,Full Service
+BR-011,Cumulus NC Branch 1,Southeast,NC,Full Service
+BR-012,Cumulus NC Branch 2,Southeast,NC,Full Service
+BR-013,Cumulus IL Branch 1,Midwest,IL,Full Service
+BR-014,Cumulus IL Branch 2,Midwest,IL,Full Service
+BR-015,Cumulus OH Branch 1,Midwest,OH,Full Service
+BR-016,Cumulus OH Branch 2,Midwest,OH,Full Service
+BR-017,Cumulus MN Branch 1,Midwest,MN,Digital Hub
+BR-018,Cumulus MN Branch 2,Midwest,MN,Full Service
+BR-019,Cumulus CO Branch 1,Mountain West,CO,Digital Hub
+BR-020,Cumulus CO Branch 2,Mountain West,CO,Advisory
+BR-021,Cumulus UT Branch 1,Mountain West,UT,Full Service
+BR-022,Cumulus UT Branch 2,Mountain West,UT,Full Service
+BR-023,Cumulus AZ Branch 1,Mountain West,AZ,Digital Hub
+BR-024,Cumulus AZ Branch 2,Mountain West,AZ,Advisory
+BR-025,Cumulus CA Branch 1,Pacific,CA,Advisory
+BR-026,Cumulus CA Branch 2,Pacific,CA,Full Service
+BR-027,Cumulus WA Branch 1,Pacific,WA,Full Service
+BR-028,Cumulus WA Branch 2,Pacific,WA,Advisory
+BR-029,Cumulus OR Branch 1,Pacific,OR,Full Service
+BR-030,Cumulus OR Branch 2,Pacific,OR,Full Service

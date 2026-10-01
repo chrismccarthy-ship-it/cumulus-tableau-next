@@ -1,0 +1,23 @@
+<template>
+    <div class="wrap">
+        <template lwc:if={isConfigured}>
+            <div class="heading">{heading}</div>
+            <template lwc:if={error}><div class="error">{error}</div></template>
+            <ul class="list" role="listbox" aria-label={heading}>
+                <template for:each={bars} for:item="b">
+                    <li key={b.key} class="row">
+                        <button type="button" class={b.cls} data-value={b.value} onclick={handleSelect} onkeydown={handleKey}
+                                role="option" aria-pressed={b.pressed} title="Click to filter the dashboard">
+                            <span class="label">{b.label}</span>
+                            <span class="track"><span class="fill" style={b.style}></span></span>
+                            <span class="num">{b.display}</span>
+                        </button>
+                    </li>
+                </template>
+            </ul>
+        </template>
+        <template lwc:else>
+            <div class="configure">Map a semantic model, a dimension and a measure in the widget panel.</div>
+        </template>
+    </div>
+</template>

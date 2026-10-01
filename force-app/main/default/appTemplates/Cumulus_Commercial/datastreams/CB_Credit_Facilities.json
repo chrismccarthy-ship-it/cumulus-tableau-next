@@ -1,0 +1,251 @@
+{
+  "name": "CB_Credit_Facilities_DS",
+  "label": "CB Credit Facilities DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "FacilityId"
+    },
+    {
+      "dataType": "Text",
+      "name": "BusinessAccountId"
+    },
+    {
+      "dataType": "Text",
+      "name": "FacilityType"
+    },
+    {
+      "dataType": "Number",
+      "name": "CommitmentAmount"
+    },
+    {
+      "dataType": "Number",
+      "name": "OutstandingBalance"
+    },
+    {
+      "dataType": "Number",
+      "name": "UtilizationPct"
+    },
+    {
+      "dataType": "Text",
+      "name": "RiskRating"
+    },
+    {
+      "dataType": "Date",
+      "name": "MaturityDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "CovenantUtilizationMax"
+    },
+    {
+      "dataType": "Text",
+      "name": "BusinessName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Industry"
+    },
+    {
+      "dataType": "Text",
+      "name": "Segment"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerName"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "OverCovenant"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.CB_Credit_Facilities_DLO.Name}",
+    "label": "CB Credit Facilities DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "FacilityId",
+        "label": "Facility ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BusinessAccountId",
+        "label": "Business Account ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "FacilityType",
+        "label": "Facility Type"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CommitmentAmount",
+        "label": "Commitment Amount"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "OutstandingBalance",
+        "label": "Outstanding Balance"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "UtilizationPct",
+        "label": "Utilization %"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RiskRating",
+        "label": "Risk Rating"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "MaturityDate",
+        "label": "Maturity Date"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CovenantUtilizationMax",
+        "label": "Covenant Utilization Max"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BusinessName",
+        "label": "Business Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Industry",
+        "label": "Industry"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Segment",
+        "label": "Segment"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerName",
+        "label": "Relationship Manager Name"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "OverCovenant",
+        "label": "Over Covenant"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "FacilityId",
+      "targetFieldName": "FacilityId"
+    },
+    {
+      "sourceFieldLabel": "BusinessAccountId",
+      "targetFieldName": "BusinessAccountId"
+    },
+    {
+      "sourceFieldLabel": "FacilityType",
+      "targetFieldName": "FacilityType"
+    },
+    {
+      "sourceFieldLabel": "CommitmentAmount",
+      "targetFieldName": "CommitmentAmount"
+    },
+    {
+      "sourceFieldLabel": "OutstandingBalance",
+      "targetFieldName": "OutstandingBalance"
+    },
+    {
+      "sourceFieldLabel": "UtilizationPct",
+      "targetFieldName": "UtilizationPct"
+    },
+    {
+      "sourceFieldLabel": "RiskRating",
+      "targetFieldName": "RiskRating"
+    },
+    {
+      "sourceFieldLabel": "MaturityDate",
+      "targetFieldName": "MaturityDate"
+    },
+    {
+      "sourceFieldLabel": "CovenantUtilizationMax",
+      "targetFieldName": "CovenantUtilizationMax"
+    },
+    {
+      "sourceFieldLabel": "BusinessName",
+      "targetFieldName": "BusinessName"
+    },
+    {
+      "sourceFieldLabel": "Industry",
+      "targetFieldName": "Industry"
+    },
+    {
+      "sourceFieldLabel": "Segment",
+      "targetFieldName": "Segment"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerName",
+      "targetFieldName": "RelationshipManagerName"
+    },
+    {
+      "sourceFieldLabel": "OverCovenant",
+      "targetFieldName": "OverCovenant"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.CB_Credit_Facilities_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.CB_Credit_Facilities_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.CB_Credit_Facilities_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.CB_Credit_Facilities_CSV.FileType}"
+  }
+}

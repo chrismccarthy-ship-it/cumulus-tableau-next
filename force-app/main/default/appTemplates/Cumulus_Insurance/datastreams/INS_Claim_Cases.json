@@ -1,0 +1,237 @@
+{
+  "name": "INS_Claim_Cases_DS",
+  "label": "INS Claim Cases DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "CaseId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClaimId"
+    },
+    {
+      "dataType": "Text",
+      "name": "PolicyId"
+    },
+    {
+      "dataType": "Date",
+      "name": "CreatedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "CaseType"
+    },
+    {
+      "dataType": "Text",
+      "name": "Channel"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Number",
+      "name": "HandleTimeMinutes"
+    },
+    {
+      "dataType": "Number",
+      "name": "CSAT"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "AgentforceHandled"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClaimType"
+    },
+    {
+      "dataType": "Text",
+      "name": "LineOfBusiness"
+    },
+    {
+      "dataType": "Text",
+      "name": "State"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "IsCatastrophe"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.INS_Claim_Cases_DLO.Name}",
+    "label": "INS Claim Cases DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "CaseId",
+        "label": "Case ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClaimId",
+        "label": "Claim ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PolicyId",
+        "label": "Policy ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CreatedDate",
+        "label": "Created Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CaseType",
+        "label": "Case Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Channel",
+        "label": "Channel"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "HandleTimeMinutes",
+        "label": "Handle Time Minutes"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CSAT",
+        "label": "CSAT"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "AgentforceHandled",
+        "label": "Agentforce Handled"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClaimType",
+        "label": "Claim Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LineOfBusiness",
+        "label": "Line Of Business"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "State",
+        "label": "State"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "IsCatastrophe",
+        "label": "Is Catastrophe"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "CaseId",
+      "targetFieldName": "CaseId"
+    },
+    {
+      "sourceFieldLabel": "ClaimId",
+      "targetFieldName": "ClaimId"
+    },
+    {
+      "sourceFieldLabel": "PolicyId",
+      "targetFieldName": "PolicyId"
+    },
+    {
+      "sourceFieldLabel": "CreatedDate",
+      "targetFieldName": "CreatedDate"
+    },
+    {
+      "sourceFieldLabel": "CaseType",
+      "targetFieldName": "CaseType"
+    },
+    {
+      "sourceFieldLabel": "Channel",
+      "targetFieldName": "Channel"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "HandleTimeMinutes",
+      "targetFieldName": "HandleTimeMinutes"
+    },
+    {
+      "sourceFieldLabel": "CSAT",
+      "targetFieldName": "CSAT"
+    },
+    {
+      "sourceFieldLabel": "AgentforceHandled",
+      "targetFieldName": "AgentforceHandled"
+    },
+    {
+      "sourceFieldLabel": "ClaimType",
+      "targetFieldName": "ClaimType"
+    },
+    {
+      "sourceFieldLabel": "LineOfBusiness",
+      "targetFieldName": "LineOfBusiness"
+    },
+    {
+      "sourceFieldLabel": "State",
+      "targetFieldName": "State"
+    },
+    {
+      "sourceFieldLabel": "IsCatastrophe",
+      "targetFieldName": "IsCatastrophe"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.INS_Claim_Cases_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.INS_Claim_Cases_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.INS_Claim_Cases_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.INS_Claim_Cases_CSV.FileType}"
+  }
+}

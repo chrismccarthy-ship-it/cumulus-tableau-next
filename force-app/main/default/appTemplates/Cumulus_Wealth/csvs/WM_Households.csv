@@ -1,0 +1,901 @@
+HouseholdId,HouseholdName,PrimaryClientName,AdvisorId,BranchId,ServiceTier,RiskProfile,RelationshipStartDate,AUM,Churned,ChurnDate,AnnualRevenue,AdvisorName,AdvisorTeam,BranchName,Region,InteractionCount
+WM-HH-00001,Ashford Family Office,Jonathan Ashford III,E-0159,BR-021,Private Wealth,Growth,2026-07-14,40000000,false,,257115.93,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,40
+WM-HH-00002,Baker Family,Zara Baker,E-0153,BR-022,Premier,Moderate,2015-07-01,2412305.8,true,2026-03-18,25648.49,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,9
+WM-HH-00003,Clark Family,Owen Clark,E-0167,BR-029,Core,Growth,2021-01-09,373809.9,false,,3688.66,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,35
+WM-HH-00004,Parker Family,Sofia Parker,E-0157,BR-003,Core,Growth,2023-10-16,233615.26,false,,1583.63,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,38
+WM-HH-00005,Chen Family,Carlos Chen,E-0141,BR-005,Core,Growth,2021-12-16,252272.73,false,,1992.87,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,34
+WM-HH-00006,Allen Family,Zara Allen,E-0171,BR-016,Core,Growth,2024-10-14,555797.22,false,,5274.67,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,38
+WM-HH-00007,Ruiz Family,Owen Ruiz,E-0168,BR-017,Premier,Conservative,2022-04-07,1804142.06,false,,18942.95,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,32
+WM-HH-00008,Turner Family,Daniel Turner,E-0176,BR-004,Core,Growth,2025-08-29,415584.64,false,,4508.46,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,29
+WM-HH-00009,Lopez Family,Leo Lopez,E-0144,BR-027,Core,Moderate,2013-07-09,184416.87,false,,1364.75,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,35
+WM-HH-00010,Clark Family,Hannah Clark,E-0165,BR-016,Premier,Moderate,2017-06-07,1231618.71,false,,11004.33,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,39
+WM-HH-00011,Silva Family,Aisha Silva,E-0159,BR-021,Core,Aggressive,2012-02-24,779684.85,false,,7138.26,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,35
+WM-HH-00012,Jackson Family,Mateo Jackson,E-0167,BR-029,Premier,Moderate,2018-10-04,569317.08,false,,6062.01,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,36
+WM-HH-00013,Phillips Family,Diego Phillips,E-0178,BR-024,Premier,Conservative,2023-12-26,2805537.8,false,,25931.13,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,31
+WM-HH-00014,Allen Family,Diego Allen,E-0146,BR-021,Core,Growth,2014-01-26,326491.2,false,,3464.07,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,35
+WM-HH-00015,Roberts Family,Felix Roberts,E-0153,BR-022,Core,Growth,2023-03-31,234139.55,false,,1595.64,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,38
+WM-HH-00016,Ruiz Family,Felix Ruiz,E-0156,BR-012,Core,Growth,2018-09-26,411548.01,false,,3025.05,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,32
+WM-HH-00017,Garcia Family,Maya Garcia,E-0170,BR-008,Core,Moderate,2025-03-31,241430.82,false,,1542.28,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,33
+WM-HH-00018,Morris Family,Ravi Morris,E-0155,BR-025,Premier,Moderate,2015-06-23,2415015.15,false,,16868.16,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,35
+WM-HH-00019,Miller Family,Victor Miller,E-0161,BR-025,Private Wealth,Moderate,2015-05-25,8307981.95,false,,50357.32,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,39
+WM-HH-00020,Evans Family,Sara Evans,E-0158,BR-027,Premier,Moderate,2022-11-15,2724567.26,false,,21255.32,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,39
+WM-HH-00021,Allen Family,Samuel Allen,E-0141,BR-005,Private Wealth,Aggressive,2015-10-11,6283482.77,false,,39281.88,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,37
+WM-HH-00022,Roberts Family,Elena Roberts,E-0178,BR-024,Premier,Moderate,2017-05-27,1621300.64,false,,16712.85,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,33
+WM-HH-00023,Johnson Family,Yuki Johnson,E-0160,BR-014,Premier,Conservative,2012-05-11,1203072.74,false,,13041.87,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,34
+WM-HH-00024,Nguyen Family,Tom Nguyen,E-0170,BR-008,Premier,Growth,2023-04-12,1171845.14,false,,9597.13,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,34
+WM-HH-00025,Silva Family,Noah Silva,E-0180,BR-010,Premier,Conservative,2021-10-07,2069714.63,false,,15378.19,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,38
+WM-HH-00026,Moore Family,Aisha Moore,E-0153,BR-022,Private Wealth,Moderate,2025-07-11,20090636.89,true,2026-07-03,164159.07,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,12
+WM-HH-00027,Clark Family,Chloe Clark,E-0149,BR-019,Core,Moderate,2018-02-19,134081.32,false,,1392.99,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00028,Lopez Family,Sofia Lopez,E-0150,BR-009,Premier,Moderate,2013-12-24,2245087.08,false,,15073.54,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00029,Lopez Family,Sofia Lopez,E-0149,BR-019,Premier,Conservative,2023-06-15,1187996.91,false,,10409.67,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00030,Anderson Family,Diego Anderson,E-0164,BR-015,Core,Moderate,2015-03-18,907243.82,false,,8971.09,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,34
+WM-HH-00031,Wright Family,Felix Wright,E-0153,BR-022,Core,Moderate,2018-08-12,321744.03,false,,2237.11,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,30
+WM-HH-00032,Jackson Family,Ethan Jackson,E-0166,BR-007,Core,Moderate,2024-09-05,240673.3,false,,2236.13,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,32
+WM-HH-00033,Allen Family,Ava Allen,E-0174,BR-012,Premier,Conservative,2019-04-10,4592867.95,false,,36421.29,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,33
+WM-HH-00034,Adams Family,Ethan Adams,E-0170,BR-008,Core,Conservative,2011-09-26,768537.99,false,,6404.48,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,30
+WM-HH-00035,Baker Family,Hannah Baker,E-0177,BR-024,Core,Conservative,2017-07-15,349910.61,false,,3392.43,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,36
+WM-HH-00036,Silva Family,Aisha Silva,E-0178,BR-024,Private Wealth,Growth,2019-05-29,3095935.15,false,,31143.94,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,33
+WM-HH-00037,Brown Family,Carlos Brown,E-0150,BR-009,Core,Aggressive,2011-07-12,401108.83,false,,3800.19,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,40
+WM-HH-00038,Lewis Family,Owen Lewis,E-0160,BR-014,Core,Growth,2022-02-20,179867.13,false,,1906.23,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,40
+WM-HH-00039,Edwards Family,Marcus Edwards,E-0142,BR-009,Private Wealth,Moderate,2022-12-23,10435674.2,false,,87602.82,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,36
+WM-HH-00040,Wright Family,Yuki Wright,E-0166,BR-007,Core,Conservative,2014-12-30,371581.38,false,,2734.0,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,40
+WM-HH-00041,Allen Family,Priya Allen,E-0149,BR-019,Core,Moderate,2021-01-12,626487.13,false,,6450.01,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,29
+WM-HH-00042,Johnson Family,Noah Johnson,E-0179,BR-025,Core,Moderate,2023-04-16,414852.65,false,,4227.28,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,30
+WM-HH-00043,Morris Family,Ravi Morris,E-0174,BR-012,Premier,Conservative,2010-08-19,789294.14,false,,7440.43,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,40
+WM-HH-00044,Wright Family,Victor Wright,E-0170,BR-008,Premier,Moderate,2019-05-10,386295.11,false,,3821.47,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,35
+WM-HH-00045,Evans Family,Grace Evans,E-0171,BR-016,Core,Conservative,2011-01-20,261399.26,false,,2603.74,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,36
+WM-HH-00046,Nelson Family,Marcus Nelson,E-0169,BR-024,Core,Growth,2015-06-22,653668.25,true,2025-12-29,4553.13,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,12
+WM-HH-00047,Vaughn Family,Aisha Vaughn,E-0172,BR-008,Core,Moderate,2024-12-05,512509.55,false,,4013.01,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,33
+WM-HH-00048,Vaughn Family,Mei Vaughn,E-0173,BR-019,Premier,Growth,2018-01-06,1961015.81,false,,17035.1,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,31
+WM-HH-00049,Turner Family,Owen Turner,E-0154,BR-007,Premier,Moderate,2015-07-07,758001.07,false,,5979.37,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,41
+WM-HH-00050,Adams Family,Henry Adams,E-0151,BR-020,Core,Growth,2026-02-25,197828.39,false,,2089.57,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,31
+WM-HH-00051,Turner Family,Wei Turner,E-0159,BR-021,Core,Conservative,2020-01-14,681593.1,false,,4128.41,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,25
+WM-HH-00052,Young Family,Marcus Young,E-0159,BR-021,Core,Aggressive,2022-10-30,293260.89,false,,3193.33,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,40
+WM-HH-00053,Chen Family,Nora Chen,E-0148,BR-008,Core,Growth,2024-08-12,666126.25,false,,7064.1,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,34
+WM-HH-00054,Adams Family,Aisha Adams,E-0169,BR-024,Core,Moderate,2016-03-28,215860.89,false,,1450.07,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,38
+WM-HH-00055,Johnson Family,Tom Johnson,E-0146,BR-021,Core,Growth,2014-09-04,169194.61,false,,1757.66,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,26
+WM-HH-00056,Bailey Family,Amara Bailey,E-0154,BR-007,Core,Moderate,2012-11-16,525682.36,false,,4964.93,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,40
+WM-HH-00057,Roberts Family,Derek Roberts,E-0151,BR-020,Core,Conservative,2010-10-05,151475.57,false,,1244.23,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,37
+WM-HH-00058,Collins Family,Wei Collins,E-0151,BR-020,Core,Growth,2020-10-01,432895.34,false,,3760.95,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,35
+WM-HH-00059,Carter Family,Emma Carter,E-0159,BR-021,Core,Moderate,2023-04-25,176501.5,false,,1813.21,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,39
+WM-HH-00060,Wilson Family,Ines Wilson,E-0156,BR-012,Premier,Moderate,2025-03-15,2956839.05,false,,21766.04,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,36
+WM-HH-00061,Wright Family,Fatima Wright,E-0172,BR-008,Premier,Growth,2012-05-26,1845556.9,false,,20235.37,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,33
+WM-HH-00062,Hall Family,Priya Hall,E-0179,BR-025,Core,Growth,2020-05-01,405129.04,false,,3521.19,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,36
+WM-HH-00063,Kim Family,Derek Kim,E-0162,BR-019,Premier,Moderate,2017-04-08,2107317.21,false,,14321.91,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00064,Baker Family,Aisha Baker,E-0143,BR-011,Private Wealth,Aggressive,2024-10-16,25095651.88,false,,225086.08,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,36
+WM-HH-00065,Nelson Family,Jamal Nelson,E-0176,BR-004,Core,Moderate,2019-03-31,184092.14,false,,1358.43,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,40
+WM-HH-00066,Wright Family,Kenji Wright,E-0163,BR-009,Core,Conservative,2013-11-09,421912.25,false,,3844.69,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,40
+WM-HH-00067,White Family,Lauren White,E-0180,BR-010,Core,Conservative,2012-10-12,174088.38,false,,1610.45,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,36
+WM-HH-00068,Mitchell Family,Victor Mitchell,E-0170,BR-008,Core,Conservative,2023-04-14,299759.34,false,,3187.37,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,37
+WM-HH-00069,Wright Family,Ravi Wright,E-0152,BR-010,Premier,Moderate,2025-08-13,5935046.87,false,,37118.26,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,33
+WM-HH-00070,King Family,Lauren King,E-0141,BR-005,Core,Growth,2012-10-22,162364.88,false,,1640.83,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,40
+WM-HH-00071,Wilson Family,Ava Wilson,E-0171,BR-016,Premier,Moderate,2011-11-02,1148799.64,false,,6907.03,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,38
+WM-HH-00072,Chen Family,Tom Chen,E-0158,BR-027,Premier,Moderate,2022-12-20,407022.57,false,,3187.46,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,37
+WM-HH-00073,Lopez Family,Maya Lopez,E-0149,BR-019,Core,Conservative,2012-12-21,425257.08,false,,3129.57,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,34
+WM-HH-00074,Vaughn Family,Wei Vaughn,E-0168,BR-017,Private Wealth,Growth,2010-04-25,51390870.37,false,,449633.79,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,35
+WM-HH-00075,Nelson Family,Rosa Nelson,E-0153,BR-022,Core,Moderate,2022-12-22,188551.47,false,,1786.78,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,33
+WM-HH-00076,Allen Family,Mateo Allen,E-0166,BR-007,Core,Moderate,2019-11-26,479777.54,true,2025-08-18,4768.36,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,10
+WM-HH-00077,King Family,Nora King,E-0169,BR-024,Core,Growth,2010-04-20,116516.91,false,,1232.41,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,31
+WM-HH-00078,Anderson Family,Yuki Anderson,E-0175,BR-015,Core,Conservative,2022-03-21,158492.62,false,,1525.68,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,26
+WM-HH-00079,Scott Family,Amara Scott,E-0180,BR-010,Premier,Growth,2016-10-10,7220136.42,false,,58492.63,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,37
+WM-HH-00080,Baker Family,Noah Baker,E-0152,BR-010,Private Wealth,Growth,2012-08-03,6503984.45,true,2025-07-10,44675.55,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,9
+WM-HH-00081,Silva Family,Julian Silva,E-0156,BR-012,Core,Moderate,2010-08-02,189401.76,false,,1541.62,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,30
+WM-HH-00082,Edwards Family,Aisha Edwards,E-0176,BR-004,Core,Conservative,2015-04-20,383873.22,false,,3510.74,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,33
+WM-HH-00083,Roberts Family,Mateo Roberts,E-0146,BR-021,Premier,Moderate,2013-07-16,2103165.29,false,,16370.43,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,33
+WM-HH-00084,Clark Family,Priya Clark,E-0180,BR-010,Core,Moderate,2017-01-05,177305.28,false,,1521.74,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,38
+WM-HH-00085,Mitchell Family,Henry Mitchell,E-0180,BR-010,Premier,Moderate,2019-01-29,1556901.59,false,,12838.21,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,40
+WM-HH-00086,Chen Family,Grace Chen,E-0179,BR-025,Core,Growth,2023-12-10,588423.32,true,2026-07-21,4948.43,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,8
+WM-HH-00087,Okafor Family,Ava Okafor,E-0172,BR-008,Core,Growth,2010-10-17,233961.64,false,,1491.77,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,34
+WM-HH-00088,Green Family,Luis Green,E-0156,BR-012,Premier,Aggressive,2014-03-20,1987534.72,false,,14013.87,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,33
+WM-HH-00089,Nguyen Family,Jamal Nguyen,E-0180,BR-010,Core,Growth,2013-04-04,177337.36,false,,1523.8,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,38
+WM-HH-00090,White Family,Ravi White,E-0166,BR-007,Core,Growth,2023-05-11,380976.68,false,,4120.44,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,38
+WM-HH-00091,Martinez Family,Grace Martinez,E-0147,BR-008,Core,Aggressive,2019-06-07,150923.04,false,,1537.27,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,36
+WM-HH-00092,Adams Family,Daniel Adams,E-0152,BR-010,Core,Moderate,2011-03-02,446397.1,false,,3272.96,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,35
+WM-HH-00093,Wilson Family,Henry Wilson,E-0150,BR-009,Premier,Aggressive,2015-02-06,2524437.22,false,,27540.52,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,33
+WM-HH-00094,Collins Family,Wei Collins,E-0158,BR-027,Core,Moderate,2013-09-01,889394.42,false,,7096.43,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,36
+WM-HH-00095,Phillips Family,Naomi Phillips,E-0157,BR-003,Premier,Moderate,2015-02-14,315798.19,false,,3038.89,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,34
+WM-HH-00096,Morris Family,Elena Morris,E-0152,BR-010,Private Wealth,Growth,2019-10-07,16083687.37,false,,159038.2,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,42
+WM-HH-00097,Hall Family,Grace Hall,E-0163,BR-009,Core,Conservative,2021-07-09,669510.31,false,,7121.32,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,37
+WM-HH-00098,Roberts Family,Emma Roberts,E-0150,BR-009,Core,Growth,2019-06-04,238583.65,false,,2094.17,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,47
+WM-HH-00099,Morris Family,Marcus Morris,E-0162,BR-019,Core,Conservative,2014-08-30,341275.43,false,,3508.63,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,38
+WM-HH-00100,Ashford Family,Fatima Ashford,E-0157,BR-003,Core,Conservative,2020-01-08,171212.32,false,,1772.68,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,33
+WM-HH-00101,Young Family,Iris Young,E-0153,BR-022,Core,Growth,2021-02-27,732718.51,false,,7395.64,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,34
+WM-HH-00102,Young Family,Yuki Young,E-0174,BR-012,Core,Moderate,2025-10-28,972839.6,false,,7637.43,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,35
+WM-HH-00103,Wright Family,Tom Wright,E-0147,BR-008,Core,Moderate,2019-10-07,164527.14,false,,1426.9,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,36
+WM-HH-00104,Brown Family,Iris Brown,E-0145,BR-001,Core,Moderate,2019-02-07,184357.04,false,,1204.04,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,39
+WM-HH-00105,Turner Family,Chloe Turner,E-0148,BR-008,Premier,Moderate,2021-03-14,4186305.37,false,,25407.87,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,33
+WM-HH-00106,Brown Family,Luis Brown,E-0179,BR-025,Core,Growth,2011-02-28,129862.66,true,2026-08-17,1422.85,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,7
+WM-HH-00107,Johnson Family,Chloe Johnson,E-0171,BR-016,Core,Conservative,2020-02-13,256108.47,false,,2103.17,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,33
+WM-HH-00108,Allen Family,Owen Allen,E-0156,BR-012,Private Wealth,Aggressive,2025-02-02,4063895.3,false,,28599.51,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,30
+WM-HH-00109,Scott Family,Layla Scott,E-0176,BR-004,Core,Moderate,2022-05-26,76862.93,false,,572.71,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,32
+WM-HH-00110,Adams Family,Amara Adams,E-0146,BR-021,Premier,Growth,2020-07-05,1577108.44,false,,10326.39,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,32
+WM-HH-00111,Harris Family,Ravi Harris,E-0141,BR-005,Core,Moderate,2018-09-09,396381.14,false,,3842.8,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,33
+WM-HH-00112,Campbell Family,Zara Campbell,E-0144,BR-027,Core,Growth,2010-08-06,1002963.88,false,,9022.11,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,37
+WM-HH-00113,Roberts Family,Aisha Roberts,E-0144,BR-027,Core,Growth,2017-06-12,312548.21,false,,3421.11,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,36
+WM-HH-00114,Roberts Family,Samuel Roberts,E-0142,BR-009,Core,Conservative,2018-05-04,477983.48,false,,3120.74,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00115,Johnson Family,Yuki Johnson,E-0176,BR-004,Premier,Growth,2023-07-25,1326320.96,false,,8527.47,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,36
+WM-HH-00116,Okafor Family,Victor Okafor,E-0143,BR-011,Core,Moderate,2019-09-07,185877.66,false,,1223.1,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,31
+WM-HH-00117,Adams Family,Samuel Adams,E-0169,BR-024,Core,Moderate,2012-07-25,134391.9,false,,922.8,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,37
+WM-HH-00118,Lewis Family,Aisha Lewis,E-0155,BR-025,Core,Moderate,2017-03-18,642664.69,true,2025-06-20,4981.05,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,13
+WM-HH-00119,Okafor Family,Layla Okafor,E-0176,BR-004,Premier,Moderate,2011-12-05,941660.62,false,,7334.42,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,29
+WM-HH-00120,Nelson Family,Julian Nelson,E-0165,BR-016,Core,Growth,2018-05-30,605547.37,true,2026-02-01,6439.86,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,9
+WM-HH-00121,Martinez Family,Derek Martinez,E-0156,BR-012,Core,Conservative,2016-06-18,522877.46,false,,4781.03,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,36
+WM-HH-00122,Nelson Family,Grace Nelson,E-0162,BR-019,Core,Growth,2023-02-07,2283757.32,false,,21533.3,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,40
+WM-HH-00123,Phillips Family,Derek Phillips,E-0167,BR-029,Core,Moderate,2022-10-08,701623.97,false,,7302.87,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,38
+WM-HH-00124,Edwards Family,Owen Edwards,E-0147,BR-008,Core,Growth,2017-04-03,427250.5,false,,4193.46,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,44
+WM-HH-00125,Lopez Family,Layla Lopez,E-0167,BR-029,Premier,Conservative,2022-03-16,1454550.11,false,,12569.87,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,34
+WM-HH-00126,Okafor Family,Tom Okafor,E-0179,BR-025,Core,Conservative,2026-05-30,274194.64,false,,2591.4,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,32
+WM-HH-00127,Bailey Family,Olivia Bailey,E-0150,BR-009,Premier,Aggressive,2022-02-10,2922788.65,false,,20507.78,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,36
+WM-HH-00128,Young Family,Amara Young,E-0147,BR-008,Core,Moderate,2020-03-17,317968.02,false,,2812.7,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,29
+WM-HH-00129,Silva Family,Wei Silva,E-0148,BR-008,Core,Conservative,2020-05-13,1444122.17,false,,10413.8,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,38
+WM-HH-00130,Kim Family,Victor Kim,E-0174,BR-012,Private Wealth,Conservative,2012-02-11,60000000,false,,483952.62,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,31
+WM-HH-00131,Collins Family,Emma Collins,E-0171,BR-016,Core,Growth,2023-04-01,375381.2,false,,2448.75,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,32
+WM-HH-00132,Taylor Family,Elena Taylor,E-0143,BR-011,Core,Moderate,2025-01-07,1393604.18,true,2026-06-04,9359.02,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,11
+WM-HH-00133,Harris Family,Jonathan Harris,E-0165,BR-016,Core,Moderate,2024-01-08,234014.56,false,,2114.48,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,36
+WM-HH-00134,Lewis Family,Luis Lewis,E-0157,BR-003,Premier,Moderate,2022-05-10,1422728.5,false,,12391.5,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,29
+WM-HH-00135,Kim Family,Jonathan Kim,E-0158,BR-027,Core,Conservative,2022-02-15,356430.9,false,,2165.78,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,40
+WM-HH-00136,Taylor Family,Wei Taylor,E-0166,BR-007,Core,Growth,2024-12-05,195167.11,false,,1933.58,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,34
+WM-HH-00137,White Family,Nina White,E-0147,BR-008,Private Wealth,Moderate,2012-03-21,29730484.45,false,,274990.77,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,33
+WM-HH-00138,Davis Family,Wei Davis,E-0153,BR-022,Core,Moderate,2019-08-01,248491.88,false,,1949.37,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,34
+WM-HH-00139,Nguyen Family,Grace Nguyen,E-0178,BR-024,Core,Moderate,2010-08-30,232143.95,false,,2444.89,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,34
+WM-HH-00140,Chen Family,Rosa Chen,E-0180,BR-010,Private Wealth,Aggressive,2011-04-18,7992674.11,false,,70092.12,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,28
+WM-HH-00141,Hall Family,Mei Hall,E-0145,BR-001,Premier,Aggressive,2013-12-30,7397842.72,false,,50539.09,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,36
+WM-HH-00142,Green Family,Wei Green,E-0151,BR-020,Core,Moderate,2021-08-15,433902.28,false,,3332.61,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,38
+WM-HH-00143,Allen Family,Zara Allen,E-0144,BR-027,Core,Moderate,2013-10-05,229890.44,false,,2509.43,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,37
+WM-HH-00144,King Family,Victor King,E-0150,BR-009,Premier,Aggressive,2017-11-18,1120706.16,false,,8877.37,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00145,Ruiz Family,Kenji Ruiz,E-0174,BR-012,Premier,Moderate,2019-08-07,1214333.73,false,,7503.41,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,32
+WM-HH-00146,Collins Family,Naomi Collins,E-0163,BR-009,Private Wealth,Moderate,2013-09-09,16352547.18,false,,163925.33,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,39
+WM-HH-00147,Evans Family,Samuel Evans,E-0151,BR-020,Private Wealth,Growth,2013-07-15,10682360.58,false,,115782.69,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,40
+WM-HH-00148,Baker Family,Isabella Baker,E-0178,BR-024,Premier,Moderate,2013-09-25,3777102.13,false,,41023.37,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,37
+WM-HH-00149,Taylor Family,Wei Taylor,E-0161,BR-025,Premier,Growth,2013-09-12,888591.84,false,,8915.8,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,34
+WM-HH-00150,Taylor Family,Chloe Taylor,E-0167,BR-029,Core,Conservative,2023-11-26,144876.87,false,,1319.11,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,31
+WM-HH-00151,Wilson Family,Sofia Wilson,E-0157,BR-003,Core,Growth,2026-04-24,270178.74,false,,1722.8,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,33
+WM-HH-00152,Ruiz Family,Samuel Ruiz,E-0167,BR-029,Core,Conservative,2016-06-28,281378.5,false,,2251.79,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,35
+WM-HH-00153,Roberts Family,Ben Roberts,E-0143,BR-011,Private Wealth,Aggressive,2017-05-14,4914036.05,false,,36114.44,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,34
+WM-HH-00154,Campbell Family,Maya Campbell,E-0158,BR-027,Core,Moderate,2012-01-09,717924.58,false,,5988.24,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,38
+WM-HH-00155,Phillips Family,Layla Phillips,E-0163,BR-009,Premier,Conservative,2010-03-07,2313526.32,false,,15006.84,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,33
+WM-HH-00156,Collins Family,Hannah Collins,E-0147,BR-008,Private Wealth,Conservative,2013-09-05,5032085.14,false,,54071.21,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,42
+WM-HH-00157,Mitchell Family,Ava Mitchell,E-0178,BR-024,Core,Growth,2012-11-06,238038.02,false,,1671.63,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,35
+WM-HH-00158,Allen Family,Carlos Allen,E-0150,BR-009,Premier,Growth,2014-08-05,2432269.71,true,2026-05-19,19292.86,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,9
+WM-HH-00159,Campbell Family,Chloe Campbell,E-0153,BR-022,Core,Growth,2015-05-29,447140.86,false,,2981.52,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,36
+WM-HH-00160,Garcia Family,Naomi Garcia,E-0151,BR-020,Core,Growth,2017-03-25,341059.03,false,,2253.16,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,36
+WM-HH-00161,Moore Family,Layla Moore,E-0142,BR-009,Core,Moderate,2021-02-27,622053.25,false,,6364.41,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,41
+WM-HH-00162,Taylor Family,Elena Taylor,E-0157,BR-003,Core,Conservative,2025-04-02,524302.02,true,2025-09-12,3912.75,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,14
+WM-HH-00163,Wilson Family,Lauren Wilson,E-0144,BR-027,Core,Moderate,2016-05-23,358641.32,false,,2855.53,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,33
+WM-HH-00164,Chen Family,Marcus Chen,E-0171,BR-016,Private Wealth,Growth,2022-05-28,16673451.6,false,,103924.01,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,37
+WM-HH-00165,Baker Family,Nina Baker,E-0147,BR-008,Core,Moderate,2023-10-28,114113.86,false,,1250.74,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,40
+WM-HH-00166,Wilson Family,Zara Wilson,E-0155,BR-025,Core,Moderate,2015-01-24,383795.59,false,,2651.22,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,32
+WM-HH-00167,Evans Family,Nina Evans,E-0173,BR-019,Premier,Moderate,2017-05-13,2564293.78,false,,23312.81,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,34
+WM-HH-00168,Edwards Family,Luis Edwards,E-0144,BR-027,Premier,Aggressive,2014-04-04,2821483.36,false,,24648.32,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,37
+WM-HH-00169,Nguyen Family,Grace Nguyen,E-0168,BR-017,Core,Conservative,2025-07-23,779511.86,false,,8547.94,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,45
+WM-HH-00170,Baker Family,Jonathan Baker,E-0144,BR-027,Core,Moderate,2013-02-28,689789.79,false,,6685.65,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,33
+WM-HH-00171,Taylor Family,Owen Taylor,E-0144,BR-027,Premier,Moderate,2010-06-20,1481435.89,false,,10608.46,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,32
+WM-HH-00172,Collins Family,Kenji Collins,E-0175,BR-015,Premier,Moderate,2020-07-28,1432612.44,false,,14894.29,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,40
+WM-HH-00173,Kim Family,Grace Kim,E-0158,BR-027,Core,Conservative,2019-08-21,483976.61,false,,3372.68,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,34
+WM-HH-00174,Evans Family,Marcus Evans,E-0143,BR-011,Core,Growth,2026-04-22,200998.24,true,2026-05-03,2032.95,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,5
+WM-HH-00175,Martinez Family,Iris Martinez,E-0141,BR-005,Core,Growth,2020-03-12,642405.96,false,,6573.8,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,33
+WM-HH-00176,Lopez Family,Julian Lopez,E-0173,BR-019,Premier,Growth,2024-07-12,1717447.85,false,,18571.97,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,37
+WM-HH-00177,Bailey Family,Andre Bailey,E-0146,BR-021,Core,Growth,2014-05-17,280980.69,false,,2508.59,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,36
+WM-HH-00178,Lopez Family,Mei Lopez,E-0148,BR-008,Premier,Conservative,2014-12-09,11449973.88,false,,91015.57,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,36
+WM-HH-00179,Moore Family,Daniel Moore,E-0146,BR-021,Core,Conservative,2018-07-09,299261.01,false,,3020.11,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,37
+WM-HH-00180,Clark Family,Lauren Clark,E-0162,BR-019,Premier,Moderate,2012-08-10,1648528.82,false,,15595.95,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,37
+WM-HH-00181,Carter Family,Carlos Carter,E-0143,BR-011,Core,Moderate,2012-10-19,382141.71,false,,3842.3,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,35
+WM-HH-00182,Garcia Family,Emma Garcia,E-0153,BR-022,Private Wealth,Moderate,2013-06-19,22259849.13,false,,140983.39,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,33
+WM-HH-00183,Thomas Family,Daniel Thomas,E-0156,BR-012,Core,Growth,2021-03-25,3080396.66,false,,28501.54,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,35
+WM-HH-00184,Baker Family,Olivia Baker,E-0149,BR-019,Private Wealth,Growth,2025-09-26,9478197.62,false,,88805.99,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,36
+WM-HH-00185,Wilson Family,Andre Wilson,E-0155,BR-025,Core,Conservative,2016-07-05,332257.14,false,,2116.06,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,33
+WM-HH-00186,Taylor Family,Layla Taylor,E-0161,BR-025,Private Wealth,Moderate,2017-11-15,12063511.63,false,,73162.94,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,34
+WM-HH-00187,Thomas Family,Chloe Thomas,E-0160,BR-014,Core,Moderate,2019-12-11,79949.03,false,,691.51,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,39
+WM-HH-00188,Chen Family,Ben Chen,E-0155,BR-025,Premier,Growth,2019-04-20,2859430.78,false,,22869.01,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,43
+WM-HH-00189,White Family,Grace White,E-0161,BR-025,Premier,Aggressive,2026-05-02,3692386.71,false,,28960.67,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,37
+WM-HH-00190,Mitchell Family,Mateo Mitchell,E-0142,BR-009,Premier,Conservative,2011-04-13,1509748.91,false,,10857.76,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,37
+WM-HH-00191,Baker Family,Ines Baker,E-0167,BR-029,Premier,Conservative,2017-03-30,1684926.32,false,,18428.86,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,33
+WM-HH-00192,Patel Family,Rosa Patel,E-0165,BR-016,Core,Aggressive,2018-09-17,354815.75,false,,2332.46,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,25
+WM-HH-00193,Adams Family,Ines Adams,E-0175,BR-015,Core,Conservative,2024-01-26,152519.87,false,,1266.73,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,37
+WM-HH-00194,Vaughn Family,Zara Vaughn,E-0147,BR-008,Core,Moderate,2024-08-14,144721.09,false,,1239.78,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,26
+WM-HH-00195,Scott Family,Emma Scott,E-0165,BR-016,Core,Moderate,2024-09-16,248332.18,false,,2032.05,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,40
+WM-HH-00196,Bailey Family,Ines Bailey,E-0168,BR-017,Core,Aggressive,2013-01-27,400005.98,false,,4072.57,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,35
+WM-HH-00197,Collins Family,Owen Collins,E-0163,BR-009,Core,Growth,2026-06-24,200777.56,false,,2154.49,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,35
+WM-HH-00198,Kim Family,Henry Kim,E-0146,BR-021,Premier,Growth,2021-01-09,2858150.2,false,,29184.28,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,35
+WM-HH-00199,Roberts Family,Lauren Roberts,E-0147,BR-008,Premier,Moderate,2011-02-12,2348597.3,false,,16837.26,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,39
+WM-HH-00200,Silva Family,Derek Silva,E-0156,BR-012,Core,Growth,2022-08-20,610247.46,false,,3914.55,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,32
+WM-HH-00201,Okafor Family,Carlos Okafor,E-0150,BR-009,Premier,Growth,2022-05-17,1055199.98,false,,9792.66,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,30
+WM-HH-00202,Ruiz Family,Maya Ruiz,E-0143,BR-011,Core,Conservative,2020-09-07,402135.79,false,,4020.17,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,37
+WM-HH-00203,Stewart Family,Carlos Stewart,E-0143,BR-011,Premier,Growth,2021-02-25,880089.58,false,,6662.69,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,41
+WM-HH-00204,Scott Family,Victor Scott,E-0145,BR-001,Premier,Conservative,2025-05-24,4692222.57,false,,36400.44,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,36
+WM-HH-00205,Evans Family,Jonathan Evans,E-0180,BR-010,Core,Conservative,2017-12-01,1038925.3,false,,9627.77,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,37
+WM-HH-00206,Anderson Family,Victor Anderson,E-0147,BR-008,Premier,Aggressive,2021-11-25,1401538.33,false,,13197.92,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,34
+WM-HH-00207,Silva Family,Owen Silva,E-0145,BR-001,Core,Moderate,2021-04-08,164929.93,false,,1297.97,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,32
+WM-HH-00208,Edwards Family,Zara Edwards,E-0166,BR-007,Premier,Conservative,2016-05-27,3928907.79,false,,31219.0,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,33
+WM-HH-00209,Young Family,Julian Young,E-0178,BR-024,Premier,Moderate,2011-03-10,2499718.03,false,,22800.54,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,32
+WM-HH-00210,Okafor Family,Ravi Okafor,E-0177,BR-024,Premier,Conservative,2024-03-02,926377.72,false,,8692.03,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,28
+WM-HH-00211,Taylor Family,Layla Taylor,E-0149,BR-019,Core,Growth,2017-12-30,255537.94,false,,2540.18,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,39
+WM-HH-00212,Evans Family,Ava Evans,E-0176,BR-004,Private Wealth,Conservative,2014-02-02,10925267.04,false,,80741.62,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,30
+WM-HH-00213,Thomas Family,Isabella Thomas,E-0154,BR-007,Premier,Growth,2019-08-25,1341373.35,false,,12205.19,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,34
+WM-HH-00214,Morris Family,Naomi Morris,E-0146,BR-021,Premier,Growth,2021-01-28,2693984.83,false,,23242.09,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,31
+WM-HH-00215,White Family,Rosa White,E-0179,BR-025,Core,Growth,2017-04-16,210342.66,false,,1902.27,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,29
+WM-HH-00216,Bailey Family,Yuki Bailey,E-0162,BR-019,Core,Aggressive,2023-07-24,102877.2,false,,905.95,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,36
+WM-HH-00217,Walker Family,Zara Walker,E-0178,BR-024,Core,Growth,2014-03-04,207688.75,false,,1462.69,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,32
+WM-HH-00218,Bailey Family,Zara Bailey,E-0179,BR-025,Core,Moderate,2023-11-05,546203.37,true,2025-12-04,3417.7,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,11
+WM-HH-00219,Patel Family,Ava Patel,E-0164,BR-015,Core,Growth,2025-01-06,794659.38,false,,5282.42,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,37
+WM-HH-00220,Taylor Family,Samuel Taylor,E-0148,BR-008,Core,Moderate,2019-10-03,489326.86,false,,3727.43,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,42
+WM-HH-00221,Baker Family,Julian Baker,E-0172,BR-008,Core,Conservative,2019-05-13,531255.37,false,,4573.33,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,32
+WM-HH-00222,Miller Family,Elena Miller,E-0169,BR-024,Core,Growth,2010-08-28,130424.33,false,,1131.85,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,37
+WM-HH-00223,Carter Family,Mateo Carter,E-0161,BR-025,Core,Growth,2023-08-18,346206.27,false,,2231.93,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,36
+WM-HH-00224,Baker Family,Sofia Baker,E-0155,BR-025,Core,Moderate,2023-09-08,293316.41,true,2026-05-13,2448.53,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,5
+WM-HH-00225,Lewis Family,Victor Lewis,E-0167,BR-029,Core,Moderate,2024-12-13,500945.64,false,,4421.99,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,33
+WM-HH-00226,Jackson Family,Julian Jackson,E-0149,BR-019,Core,Conservative,2024-11-28,1192327.74,false,,10791.73,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,37
+WM-HH-00227,Ruiz Family,Carlos Ruiz,E-0147,BR-008,Premier,Aggressive,2015-05-10,518156.51,false,,4525.37,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,34
+WM-HH-00228,Nelson Family,Wei Nelson,E-0155,BR-025,Core,Moderate,2026-03-09,353589.39,false,,3309.39,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,32
+WM-HH-00229,Moore Family,Carlos Moore,E-0180,BR-010,Core,Growth,2022-04-17,744187.94,false,,4804.05,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,28
+WM-HH-00230,Turner Family,Sofia Turner,E-0163,BR-009,Private Wealth,Moderate,2021-06-14,14689444.92,false,,157119.58,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,39
+WM-HH-00231,Johnson Family,Mateo Johnson,E-0143,BR-011,Premier,Moderate,2013-11-06,2324745.57,false,,15349.19,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,28
+WM-HH-00232,Silva Family,Nora Silva,E-0176,BR-004,Private Wealth,Moderate,2025-07-10,10603915.2,false,,84244.75,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,29
+WM-HH-00233,Jackson Family,Nora Jackson,E-0154,BR-007,Core,Growth,2014-05-07,192895.32,false,,1444.08,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,36
+WM-HH-00234,Vaughn Family,Rosa Vaughn,E-0158,BR-027,Core,Moderate,2024-04-01,148076.74,false,,1218.79,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,33
+WM-HH-00235,Nguyen Family,Noah Nguyen,E-0177,BR-024,Core,Aggressive,2026-06-23,547026.96,false,,3837.28,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,39
+WM-HH-00236,Ashford Family,Andre Ashford,E-0162,BR-019,Core,Growth,2026-03-04,712652.56,false,,6536.41,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00237,Taylor Family,Ava Taylor,E-0141,BR-005,Private Wealth,Growth,2026-05-02,3943935.84,true,2026-08-04,30266.02,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,10
+WM-HH-00238,Stewart Family,Chloe Stewart,E-0149,BR-019,Core,Growth,2012-06-08,102866.03,false,,658.15,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,27
+WM-HH-00239,Ashford Family,Leo Ashford,E-0173,BR-019,Core,Growth,2021-09-20,556575.5,false,,3754.55,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,39
+WM-HH-00240,Morris Family,Amara Morris,E-0151,BR-020,Core,Conservative,2012-07-21,158682.77,false,,1472.97,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,35
+WM-HH-00241,Lewis Family,Tom Lewis,E-0153,BR-022,Core,Moderate,2013-08-17,252599.16,false,,2150.89,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,40
+WM-HH-00242,Carter Family,Jamal Carter,E-0173,BR-019,Core,Conservative,2025-01-28,570793.94,false,,5335.94,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00243,Taylor Family,Isabella Taylor,E-0180,BR-010,Core,Conservative,2023-11-02,817807.84,false,,8785.55,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,33
+WM-HH-00244,Jackson Family,Mei Jackson,E-0142,BR-009,Core,Moderate,2020-02-20,1028590.01,false,,10889.55,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00245,Nelson Family,Amara Nelson,E-0143,BR-011,Premier,Growth,2020-02-21,1502382.15,true,2026-01-08,15061.33,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,13
+WM-HH-00246,Edwards Family,Layla Edwards,E-0178,BR-024,Premier,Growth,2015-06-23,1397611.24,false,,13828.81,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,25
+WM-HH-00247,Turner Family,Chloe Turner,E-0168,BR-017,Private Wealth,Moderate,2016-05-28,9988176.75,false,,73932.16,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,37
+WM-HH-00248,Martinez Family,Luis Martinez,E-0180,BR-010,Core,Growth,2011-07-17,197390.75,false,,1595.57,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,36
+WM-HH-00249,Carter Family,Tom Carter,E-0145,BR-001,Premier,Moderate,2016-01-07,1356297.56,false,,11953.73,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,33
+WM-HH-00250,Edwards Family,Ava Edwards,E-0156,BR-012,Core,Conservative,2018-04-01,537930.85,false,,3387.89,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,40
+WM-HH-00251,Roberts Family,Ava Roberts,E-0169,BR-024,Core,Moderate,2015-10-10,307881.8,false,,2316.83,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,30
+WM-HH-00252,Garcia Family,Samuel Garcia,E-0151,BR-020,Private Wealth,Growth,2011-06-11,5334601.46,false,,42058.19,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,35
+WM-HH-00253,Moore Family,Tom Moore,E-0154,BR-007,Core,Conservative,2023-12-21,369570.88,false,,2774.68,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,37
+WM-HH-00254,Kim Family,Derek Kim,E-0159,BR-021,Core,Moderate,2015-08-20,394910.02,false,,2443.56,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,33
+WM-HH-00255,Taylor Family,Leo Taylor,E-0143,BR-011,Premier,Conservative,2025-12-10,6009662.41,false,,38365.48,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,37
+WM-HH-00256,Edwards Family,Zara Edwards,E-0169,BR-024,Core,Moderate,2013-08-18,277432.21,false,,2917.27,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,33
+WM-HH-00257,Roberts Family,Elena Roberts,E-0157,BR-003,Premier,Conservative,2016-08-14,3118204.68,false,,29269.53,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,39
+WM-HH-00258,Martinez Family,Mei Martinez,E-0159,BR-021,Core,Growth,2020-12-28,428023.63,false,,4444.42,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,34
+WM-HH-00259,Anderson Family,Ravi Anderson,E-0146,BR-021,Premier,Moderate,2010-12-21,1846615.64,false,,18475.89,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,38
+WM-HH-00260,Scott Family,Andre Scott,E-0170,BR-008,Private Wealth,Growth,2013-11-19,6525455.24,false,,54735.13,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,32
+WM-HH-00261,Johnson Family,Jamal Johnson,E-0147,BR-008,Core,Moderate,2021-07-07,833986.57,false,,5836.05,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,35
+WM-HH-00262,Patel Family,Victor Patel,E-0161,BR-025,Private Wealth,Growth,2026-03-21,10372600.2,false,,85240.25,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,32
+WM-HH-00263,Collins Family,Andre Collins,E-0170,BR-008,Premier,Conservative,2016-09-29,941536.54,false,,7178.63,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,31
+WM-HH-00264,Lewis Family,Diego Lewis,E-0163,BR-009,Core,Moderate,2018-03-23,471040.36,false,,4691.47,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,37
+WM-HH-00265,Davis Family,Layla Davis,E-0166,BR-007,Premier,Conservative,2023-11-02,1302746.88,false,,9428.6,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,40
+WM-HH-00266,Parker Family,Olivia Parker,E-0144,BR-027,Core,Growth,2016-01-25,800685.29,false,,5643.0,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,39
+WM-HH-00267,Wilson Family,Isabella Wilson,E-0149,BR-019,Core,Growth,2024-05-10,712053.95,false,,6706.5,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,37
+WM-HH-00268,Lewis Family,Sofia Lewis,E-0161,BR-025,Private Wealth,Conservative,2018-06-27,8004565.05,false,,68838.73,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,44
+WM-HH-00269,Garcia Family,Ava Garcia,E-0157,BR-003,Core,Moderate,2018-08-21,706561.1,false,,6648.22,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,29
+WM-HH-00270,Chen Family,Layla Chen,E-0164,BR-015,Core,Conservative,2020-05-30,228889.77,false,,1680.08,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,37
+WM-HH-00271,Wilson Family,Chloe Wilson,E-0157,BR-003,Core,Aggressive,2018-05-02,101524.44,false,,669.17,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,40
+WM-HH-00272,Nelson Family,Chloe Nelson,E-0150,BR-009,Core,Moderate,2021-01-15,481848.8,false,,5193.02,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,36
+WM-HH-00273,Thomas Family,Ethan Thomas,E-0172,BR-008,Core,Growth,2013-05-02,540466.69,false,,4300.57,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,41
+WM-HH-00274,Green Family,Diego Green,E-0155,BR-025,Private Wealth,Growth,2022-10-07,5825266.37,false,,38978.02,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,32
+WM-HH-00275,Evans Family,Ava Evans,E-0154,BR-007,Core,Growth,2015-10-30,116874.59,false,,776.59,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,32
+WM-HH-00276,Allen Family,Isabella Allen,E-0163,BR-009,Core,Moderate,2010-09-23,183062.62,false,,1508.54,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,37
+WM-HH-00277,Vaughn Family,Ben Vaughn,E-0169,BR-024,Private Wealth,Moderate,2010-03-03,5110972.88,false,,32819.51,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,35
+WM-HH-00278,Collins Family,Jonathan Collins,E-0167,BR-029,Core,Growth,2011-06-19,244212.18,false,,2085.69,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,37
+WM-HH-00279,Chen Family,Ava Chen,E-0144,BR-027,Core,Growth,2026-05-03,289470.02,false,,2188.66,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,34
+WM-HH-00280,Patel Family,Lauren Patel,E-0167,BR-029,Premier,Moderate,2014-10-28,1137851.9,false,,7706.24,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,35
+WM-HH-00281,Nelson Family,Fatima Nelson,E-0180,BR-010,Private Wealth,Growth,2012-11-02,25154323.64,false,,197443.13,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,41
+WM-HH-00282,Evans Family,Derek Evans,E-0170,BR-008,Core,Conservative,2024-04-25,950927.39,false,,8497.8,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,34
+WM-HH-00283,Hall Family,Diego Hall,E-0150,BR-009,Core,Moderate,2021-01-19,230627.62,false,,1806.0,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,32
+WM-HH-00284,Brown Family,Isabella Brown,E-0163,BR-009,Private Wealth,Moderate,2016-07-02,4842832.52,false,,45373.7,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,28
+WM-HH-00285,King Family,Carlos King,E-0160,BR-014,Premier,Moderate,2023-05-01,2587762.41,false,,28159.27,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,34
+WM-HH-00286,Anderson Family,Olivia Anderson,E-0173,BR-019,Core,Moderate,2010-04-20,117815.26,false,,855.34,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,28
+WM-HH-00287,Hall Family,Amara Hall,E-0173,BR-019,Core,Conservative,2025-02-24,325026.5,false,,3003.99,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,34
+WM-HH-00288,Adams Family,Luis Adams,E-0143,BR-011,Premier,Conservative,2018-06-25,4741388.14,false,,45668.56,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,31
+WM-HH-00289,Collins Family,Ravi Collins,E-0157,BR-003,Premier,Growth,2021-10-27,3640037.51,false,,26391.14,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,31
+WM-HH-00290,Ruiz Family,Nora Ruiz,E-0155,BR-025,Premier,Moderate,2012-08-15,1309207.91,false,,11666.55,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,39
+WM-HH-00291,Davis Family,Mei Davis,E-0164,BR-015,Core,Growth,2015-11-30,264429.99,false,,2894.15,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,40
+WM-HH-00292,Wilson Family,Grace Wilson,E-0179,BR-025,Private Wealth,Moderate,2010-04-30,13360891.82,false,,135052.0,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,34
+WM-HH-00293,Adams Family,Jonathan Adams,E-0169,BR-024,Core,Moderate,2017-08-31,363779.17,false,,2573.06,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,40
+WM-HH-00294,Thomas Family,Isabella Thomas,E-0145,BR-001,Private Wealth,Conservative,2014-06-15,14252760.68,false,,135023.29,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,36
+WM-HH-00295,Carter Family,Ravi Carter,E-0158,BR-027,Private Wealth,Moderate,2014-10-21,5651504.51,false,,42003.13,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,40
+WM-HH-00296,King Family,Julian King,E-0162,BR-019,Core,Moderate,2018-07-05,98549.74,false,,826.05,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,33
+WM-HH-00297,Roberts Family,Naomi Roberts,E-0150,BR-009,Core,Conservative,2014-11-11,1142024.8,false,,8898.58,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,33
+WM-HH-00298,Green Family,Fatima Green,E-0180,BR-010,Core,Conservative,2020-03-21,980978.87,false,,6235.39,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,31
+WM-HH-00299,Parker Family,Wei Parker,E-0163,BR-009,Core,Conservative,2016-06-23,783934.92,false,,5824.31,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,32
+WM-HH-00300,Taylor Family,Daniel Taylor,E-0145,BR-001,Core,Moderate,2011-01-16,159438.58,false,,1572.74,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,33
+WM-HH-00301,Roberts Family,Diego Roberts,E-0163,BR-009,Core,Conservative,2012-06-05,219292.93,false,,1986.53,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,30
+WM-HH-00302,Miller Family,Ben Miller,E-0179,BR-025,Core,Growth,2012-08-10,210585.6,false,,1392.81,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,34
+WM-HH-00303,Young Family,Jonathan Young,E-0162,BR-019,Core,Aggressive,2014-06-21,169026.99,false,,1419.36,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,36
+WM-HH-00304,Chen Family,Isabella Chen,E-0150,BR-009,Core,Growth,2019-02-03,851556.87,false,,5932.17,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,32
+WM-HH-00305,Wilson Family,Iris Wilson,E-0152,BR-010,Core,Moderate,2015-09-07,253118.48,false,,2407.4,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,42
+WM-HH-00306,Lopez Family,Lauren Lopez,E-0164,BR-015,Core,Growth,2023-09-05,155994.23,false,,1426.88,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,36
+WM-HH-00307,Green Family,Isabella Green,E-0160,BR-014,Premier,Moderate,2018-06-16,2856507.86,false,,31032.33,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,40
+WM-HH-00308,Brown Family,Luis Brown,E-0152,BR-010,Premier,Moderate,2011-08-27,3767007.9,false,,32417.94,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,29
+WM-HH-00309,White Family,Aisha White,E-0175,BR-015,Core,Conservative,2026-04-16,411855.11,false,,4244.47,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,40
+WM-HH-00310,Carter Family,Ava Carter,E-0160,BR-014,Core,Moderate,2022-12-16,167626.75,false,,1686.06,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,33
+WM-HH-00311,Green Family,Nina Green,E-0163,BR-009,Core,Moderate,2018-12-14,364131.28,false,,2526.8,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,34
+WM-HH-00312,Evans Family,Emma Evans,E-0147,BR-008,Private Wealth,Growth,2020-07-04,11002868.17,false,,108791.81,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,34
+WM-HH-00313,Walker Family,Priya Walker,E-0167,BR-029,Premier,Moderate,2015-08-09,2966570.25,false,,31983.44,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,33
+WM-HH-00314,Stewart Family,Maya Stewart,E-0169,BR-024,Core,Aggressive,2010-09-16,166654.47,false,,1526.41,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,33
+WM-HH-00315,Campbell Family,Naomi Campbell,E-0172,BR-008,Core,Conservative,2011-11-17,445568.55,false,,3992.97,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,31
+WM-HH-00316,Carter Family,Ava Carter,E-0144,BR-027,Premier,Growth,2021-11-26,1589071.63,true,2025-10-07,13929.32,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,12
+WM-HH-00317,Chen Family,Marcus Chen,E-0146,BR-021,Core,Growth,2014-01-09,1160088.21,false,,10656.64,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,33
+WM-HH-00318,Mitchell Family,Emma Mitchell,E-0165,BR-016,Core,Moderate,2021-10-04,348452.97,false,,2948.87,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,38
+WM-HH-00319,Carter Family,Zara Carter,E-0146,BR-021,Core,Growth,2024-01-03,256139.61,false,,1702.21,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,36
+WM-HH-00320,Thomas Family,Iris Thomas,E-0167,BR-029,Core,Aggressive,2017-05-03,838396.44,false,,7710.04,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,24
+WM-HH-00321,Nelson Family,Sofia Nelson,E-0152,BR-010,Core,Conservative,2018-01-23,442678.2,false,,3120.39,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,28
+WM-HH-00322,Parker Family,Tom Parker,E-0177,BR-024,Core,Growth,2023-02-01,180579.8,false,,1920.1,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,38
+WM-HH-00323,Okafor Family,Luis Okafor,E-0172,BR-008,Core,Aggressive,2022-03-12,355567.33,false,,3438.32,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,39
+WM-HH-00324,Phillips Family,Mateo Phillips,E-0158,BR-027,Core,Moderate,2016-04-18,897063.81,false,,7297.28,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,42
+WM-HH-00325,Ashford Family,Derek Ashford,E-0178,BR-024,Core,Moderate,2013-02-22,444216.73,false,,3434.5,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,38
+WM-HH-00326,Silva Family,Naomi Silva,E-0142,BR-009,Premier,Moderate,2013-06-16,891638.08,false,,6567.93,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,31
+WM-HH-00327,Lewis Family,Nora Lewis,E-0143,BR-011,Private Wealth,Growth,2012-12-24,22223918.42,false,,179643.75,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,37
+WM-HH-00328,Moore Family,Elena Moore,E-0167,BR-029,Private Wealth,Aggressive,2024-05-19,8412708.28,false,,51902.72,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,30
+WM-HH-00329,Collins Family,Olivia Collins,E-0153,BR-022,Premier,Conservative,2026-03-30,1475938.95,false,,14163.49,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,33
+WM-HH-00330,Green Family,Iris Green,E-0175,BR-015,Core,Growth,2013-05-02,300792.13,false,,1962.91,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,33
+WM-HH-00331,Campbell Family,Ravi Campbell,E-0175,BR-015,Core,Growth,2022-05-28,110510.61,false,,880.64,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,29
+WM-HH-00332,Edwards Family,Luis Edwards,E-0158,BR-027,Core,Growth,2010-03-11,415698.79,false,,3112.25,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,32
+WM-HH-00333,Patel Family,Leo Patel,E-0149,BR-019,Private Wealth,Conservative,2025-11-11,3424768.12,true,2025-11-05,32614.8,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,12
+WM-HH-00334,Bailey Family,Iris Bailey,E-0144,BR-027,Core,Growth,2017-09-09,303714.68,false,,2757.99,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,36
+WM-HH-00335,Ruiz Family,Maya Ruiz,E-0141,BR-005,Premier,Moderate,2026-05-03,2530523.2,false,,23082.58,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,37
+WM-HH-00336,Baker Family,Jamal Baker,E-0164,BR-015,Core,Conservative,2025-03-06,850350.43,false,,6870.96,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,35
+WM-HH-00337,Patel Family,Sofia Patel,E-0169,BR-024,Premier,Moderate,2017-05-22,1655475.72,false,,12410.22,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,38
+WM-HH-00338,Bailey Family,Ben Bailey,E-0159,BR-021,Premier,Moderate,2015-08-15,2573632.48,false,,20315.36,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,38
+WM-HH-00339,Mitchell Family,Chloe Mitchell,E-0161,BR-025,Premier,Moderate,2017-11-17,1072901.68,false,,7936.32,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,30
+WM-HH-00340,Roberts Family,Maya Roberts,E-0161,BR-025,Core,Conservative,2019-02-11,713639.41,false,,6096.57,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,36
+WM-HH-00341,Martinez Family,Mei Martinez,E-0160,BR-014,Premier,Moderate,2022-07-27,5147652.78,false,,43373.84,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,35
+WM-HH-00342,Evans Family,Olivia Evans,E-0156,BR-012,Core,Growth,2016-08-21,794931.18,false,,6150.13,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,42
+WM-HH-00343,Young Family,Rosa Young,E-0173,BR-019,Core,Moderate,2015-07-03,759626.92,false,,6120.49,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,31
+WM-HH-00344,Nelson Family,Fatima Nelson,E-0172,BR-008,Core,Moderate,2010-02-23,424030.67,false,,3022.19,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,32
+WM-HH-00345,Nelson Family,Ethan Nelson,E-0172,BR-008,Premier,Moderate,2017-12-06,1570044.66,false,,12994.88,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,37
+WM-HH-00346,Stewart Family,Tom Stewart,E-0172,BR-008,Premier,Moderate,2018-10-05,1352560.83,true,2026-01-01,11145.54,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,11
+WM-HH-00347,Clark Family,Iris Clark,E-0147,BR-008,Core,Growth,2015-12-04,428858.05,false,,4226.94,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,36
+WM-HH-00348,Morris Family,Mateo Morris,E-0175,BR-015,Core,Moderate,2017-07-18,622324.37,false,,6096.24,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,38
+WM-HH-00349,Campbell Family,Mateo Campbell,E-0144,BR-027,Core,Moderate,2013-01-19,332463.03,false,,3507.43,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,32
+WM-HH-00350,Miller Family,Naomi Miller,E-0144,BR-027,Private Wealth,Moderate,2010-04-09,4034495.43,false,,44159.33,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,35
+WM-HH-00351,Collins Family,Henry Collins,E-0170,BR-008,Private Wealth,Growth,2017-03-27,10620102.76,false,,108115.42,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,37
+WM-HH-00352,Bailey Family,Kenji Bailey,E-0152,BR-010,Core,Aggressive,2026-04-06,50000,false,,499.39,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,30
+WM-HH-00353,Roberts Family,Maya Roberts,E-0174,BR-012,Core,Moderate,2014-12-11,152059.85,false,,1524.92,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,37
+WM-HH-00354,Edwards Family,Fatima Edwards,E-0159,BR-021,Premier,Aggressive,2011-07-05,2409935.71,false,,25556.9,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,31
+WM-HH-00355,Lopez Family,Ava Lopez,E-0142,BR-009,Core,Moderate,2026-04-26,1202344.17,false,,10293.0,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,28
+WM-HH-00356,Chen Family,Sofia Chen,E-0179,BR-025,Core,Conservative,2011-05-27,299539.63,false,,2811.19,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,32
+WM-HH-00357,Mitchell Family,Naomi Mitchell,E-0162,BR-019,Core,Aggressive,2023-03-06,693808.37,false,,5519.77,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,36
+WM-HH-00358,Collins Family,Ethan Collins,E-0167,BR-029,Premier,Moderate,2018-06-07,1809550.31,false,,11817.74,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,32
+WM-HH-00359,Martinez Family,Marcus Martinez,E-0180,BR-010,Core,Growth,2017-07-07,378048.98,false,,3786.62,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,40
+WM-HH-00360,Campbell Family,Lauren Campbell,E-0155,BR-025,Premier,Aggressive,2024-12-31,1221296.92,false,,9551.06,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,34
+WM-HH-00361,Martinez Family,Aisha Martinez,E-0175,BR-015,Premier,Moderate,2020-10-06,653694.9,false,,5359.77,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,39
+WM-HH-00362,Garcia Family,Kenji Garcia,E-0145,BR-001,Core,Growth,2014-04-24,327218.99,false,,2674.09,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,43
+WM-HH-00363,Garcia Family,Ben Garcia,E-0170,BR-008,Core,Moderate,2019-07-08,275096.42,false,,1920.43,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,37
+WM-HH-00364,Clark Family,Maya Clark,E-0144,BR-027,Core,Growth,2012-06-15,1470058.68,false,,10984.68,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,35
+WM-HH-00365,White Family,Owen White,E-0165,BR-016,Core,Conservative,2013-09-26,158661.11,false,,1388.31,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,32
+WM-HH-00366,Green Family,Nora Green,E-0166,BR-007,Core,Growth,2019-07-25,1211465.84,false,,9334.18,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,41
+WM-HH-00367,Carter Family,Naomi Carter,E-0168,BR-017,Core,Moderate,2017-09-19,594855.99,false,,4274.69,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,38
+WM-HH-00368,Clark Family,Derek Clark,E-0158,BR-027,Private Wealth,Growth,2012-10-09,29609841.57,false,,219779.94,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,29
+WM-HH-00369,Baker Family,Daniel Baker,E-0145,BR-001,Core,Moderate,2011-07-14,197043.09,false,,1641.64,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,39
+WM-HH-00370,Baker Family,Fatima Baker,E-0177,BR-024,Premier,Moderate,2017-05-14,3089578.19,false,,24182.49,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,40
+WM-HH-00371,Nguyen Family,Iris Nguyen,E-0174,BR-012,Core,Conservative,2014-11-26,244707.11,false,,2266.44,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,30
+WM-HH-00372,Wilson Family,Derek Wilson,E-0175,BR-015,Core,Growth,2011-02-26,475469.81,false,,5226.61,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,38
+WM-HH-00373,Thomas Family,Jonathan Thomas,E-0170,BR-008,Premier,Moderate,2011-02-02,2751686.92,false,,28928.36,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,39
+WM-HH-00374,Nelson Family,Wei Nelson,E-0145,BR-001,Core,Conservative,2021-09-25,269872.77,false,,2408.51,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,40
+WM-HH-00375,Turner Family,Maya Turner,E-0153,BR-022,Premier,Moderate,2019-11-26,1934180.02,false,,15927.52,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,33
+WM-HH-00376,Okafor Family,Derek Okafor,E-0143,BR-011,Premier,Growth,2024-11-01,6190245.19,true,2025-09-05,45267.27,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,5
+WM-HH-00377,Moore Family,Ines Moore,E-0179,BR-025,Core,Growth,2020-10-04,482774.28,false,,4449.34,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,32
+WM-HH-00378,Moore Family,Aisha Moore,E-0142,BR-009,Premier,Conservative,2014-01-02,2900591.36,false,,20977.41,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,31
+WM-HH-00379,Walker Family,Mateo Walker,E-0168,BR-017,Core,Growth,2020-09-16,270790.81,false,,2367.7,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,35
+WM-HH-00380,Vaughn Family,Ethan Vaughn,E-0173,BR-019,Core,Aggressive,2025-05-08,763339.71,false,,5962.29,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,38
+WM-HH-00381,Collins Family,Chloe Collins,E-0142,BR-009,Premier,Moderate,2022-09-01,2413395.83,false,,20467.37,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,33
+WM-HH-00382,Wilson Family,Henry Wilson,E-0171,BR-016,Core,Conservative,2015-01-14,62298.34,false,,481.67,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,36
+WM-HH-00383,Carter Family,Jonathan Carter,E-0142,BR-009,Core,Moderate,2026-05-10,144950.64,false,,976.69,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,43
+WM-HH-00384,Baker Family,Priya Baker,E-0167,BR-029,Core,Conservative,2018-03-14,148988.74,false,,1126.61,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,34
+WM-HH-00385,Vaughn Family,Noah Vaughn,E-0168,BR-017,Core,Moderate,2019-12-08,189776.88,false,,2046.45,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,40
+WM-HH-00386,Miller Family,Andre Miller,E-0166,BR-007,Premier,Conservative,2021-04-05,913072.25,false,,7054.45,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,35
+WM-HH-00387,Jackson Family,Mei Jackson,E-0151,BR-020,Premier,Moderate,2022-12-10,1483646.58,false,,9649.93,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,35
+WM-HH-00388,Wright Family,Sofia Wright,E-0143,BR-011,Core,Conservative,2024-11-04,147579.27,false,,1458.73,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,41
+WM-HH-00389,Edwards Family,Isabella Edwards,E-0159,BR-021,Core,Growth,2014-01-09,203285.15,false,,2166.35,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,33
+WM-HH-00390,Miller Family,Nora Miller,E-0149,BR-019,Core,Moderate,2013-08-26,130557.13,false,,1200.09,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,26
+WM-HH-00391,Brown Family,Lauren Brown,E-0171,BR-016,Premier,Growth,2020-07-03,2340161.5,false,,18818.12,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,32
+WM-HH-00392,Scott Family,Marcus Scott,E-0169,BR-024,Core,Conservative,2013-05-03,579029.27,true,2026-07-08,5967.01,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,10
+WM-HH-00393,Green Family,Nina Green,E-0178,BR-024,Core,Conservative,2022-08-13,283500.1,false,,2315.62,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,35
+WM-HH-00394,Young Family,Lauren Young,E-0149,BR-019,Core,Growth,2018-08-06,370021.99,false,,3487.12,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00395,Hall Family,Mateo Hall,E-0161,BR-025,Core,Moderate,2010-03-04,318999.2,false,,2501.17,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,34
+WM-HH-00396,Collins Family,Noah Collins,E-0174,BR-012,Core,Moderate,2017-01-04,351421.47,false,,3363.86,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,39
+WM-HH-00397,Wright Family,Grace Wright,E-0152,BR-010,Premier,Moderate,2019-10-07,1881423.79,true,2025-12-18,16405.79,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,11
+WM-HH-00398,Scott Family,Derek Scott,E-0157,BR-003,Core,Moderate,2020-07-25,159346.15,false,,1213.82,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,41
+WM-HH-00399,Hall Family,Wei Hall,E-0155,BR-025,Core,Moderate,2025-01-14,226605.73,false,,2473.48,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,32
+WM-HH-00400,Davis Family,Diego Davis,E-0145,BR-001,Core,Aggressive,2019-10-29,234033.13,false,,2213.4,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,42
+WM-HH-00401,Jackson Family,Julian Jackson,E-0174,BR-012,Premier,Growth,2012-09-26,3506420.49,false,,38201.69,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,33
+WM-HH-00402,Wright Family,Maya Wright,E-0159,BR-021,Premier,Growth,2022-03-02,581700.94,false,,4662.12,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,29
+WM-HH-00403,Wilson Family,Jamal Wilson,E-0153,BR-022,Core,Moderate,2018-06-04,396148.87,false,,3186.65,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,36
+WM-HH-00404,Adams Family,Marcus Adams,E-0162,BR-019,Core,Moderate,2019-01-22,99333.78,false,,766.7,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,43
+WM-HH-00405,Wilson Family,Emma Wilson,E-0167,BR-029,Private Wealth,Moderate,2022-03-12,3123715.5,false,,32161.13,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,31
+WM-HH-00406,Clark Family,Mei Clark,E-0143,BR-011,Core,Aggressive,2024-02-21,333558.6,false,,3598.96,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,33
+WM-HH-00407,Moore Family,Chloe Moore,E-0145,BR-001,Premier,Conservative,2016-07-20,5376975.54,false,,43941.94,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,39
+WM-HH-00408,Turner Family,Tom Turner,E-0170,BR-008,Premier,Aggressive,2014-03-05,3015574.88,false,,29160.64,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,34
+WM-HH-00409,Hall Family,Layla Hall,E-0161,BR-025,Private Wealth,Moderate,2014-01-28,38392208.94,false,,377828.34,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,40
+WM-HH-00410,Lopez Family,Mateo Lopez,E-0172,BR-008,Core,Moderate,2019-01-21,836581.5,false,,5731.38,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,33
+WM-HH-00411,Stewart Family,Ethan Stewart,E-0170,BR-008,Premier,Growth,2021-07-10,3114780.11,false,,28220.81,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,30
+WM-HH-00412,Lopez Family,Ravi Lopez,E-0162,BR-019,Private Wealth,Conservative,2011-05-04,6466034.96,false,,55635.14,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00413,Miller Family,Felix Miller,E-0173,BR-019,Core,Aggressive,2024-07-27,351238.12,false,,3570.75,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,29
+WM-HH-00414,Bailey Family,Emma Bailey,E-0156,BR-012,Core,Growth,2012-10-12,386470.17,false,,2837.56,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,37
+WM-HH-00415,White Family,Rosa White,E-0142,BR-009,Core,Conservative,2022-06-13,649888.09,false,,4790.87,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,30
+WM-HH-00416,Silva Family,Emma Silva,E-0159,BR-021,Private Wealth,Moderate,2018-06-05,4387456.74,false,,31073.41,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,27
+WM-HH-00417,Edwards Family,Olivia Edwards,E-0156,BR-012,Core,Aggressive,2012-12-01,137920.26,false,,1474.1,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,38
+WM-HH-00418,Harris Family,Luis Harris,E-0180,BR-010,Private Wealth,Growth,2022-07-03,18254418.51,false,,137665.71,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,34
+WM-HH-00419,Green Family,Daniel Green,E-0173,BR-019,Premier,Aggressive,2012-07-07,1454514.65,false,,8905.57,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,27
+WM-HH-00420,Young Family,Luis Young,E-0174,BR-012,Core,Moderate,2011-08-02,197851.47,false,,1278.07,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,29
+WM-HH-00421,Evans Family,Felix Evans,E-0169,BR-024,Core,Moderate,2022-08-21,533892.64,false,,4690.84,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,29
+WM-HH-00422,Bailey Family,Marcus Bailey,E-0176,BR-004,Premier,Growth,2011-10-08,532690.92,false,,4845.86,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,38
+WM-HH-00423,Nelson Family,Leo Nelson,E-0177,BR-024,Core,Aggressive,2015-09-09,444414.72,false,,4858.48,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,31
+WM-HH-00424,Allen Family,Lauren Allen,E-0164,BR-015,Core,Growth,2024-09-30,344134.37,false,,3613.66,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,31
+WM-HH-00425,Brown Family,Diego Brown,E-0143,BR-011,Core,Growth,2020-07-14,900492.48,false,,6155.49,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,38
+WM-HH-00426,King Family,Jonathan King,E-0168,BR-017,Private Wealth,Growth,2025-12-12,12020544.74,true,2026-01-01,85683.0,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,7
+WM-HH-00427,Bailey Family,Ethan Bailey,E-0153,BR-022,Private Wealth,Conservative,2024-05-23,6022767.12,false,,45069.65,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,43
+WM-HH-00428,Chen Family,Ethan Chen,E-0147,BR-008,Premier,Conservative,2025-11-27,3065220.43,false,,30757.11,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,37
+WM-HH-00429,Jackson Family,Samuel Jackson,E-0161,BR-025,Core,Growth,2010-11-22,512008.57,false,,4912.24,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,41
+WM-HH-00430,Jackson Family,Julian Jackson,E-0168,BR-017,Core,Moderate,2011-08-22,183352.57,false,,1390.15,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,31
+WM-HH-00431,Roberts Family,Ben Roberts,E-0141,BR-005,Core,Aggressive,2024-05-10,355141.24,false,,3420.93,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,31
+WM-HH-00432,Vaughn Family,Carlos Vaughn,E-0151,BR-020,Premier,Moderate,2022-08-16,380831.05,false,,3073.67,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,35
+WM-HH-00433,Wright Family,Diego Wright,E-0159,BR-021,Core,Moderate,2025-01-16,334614.61,false,,2847.82,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,38
+WM-HH-00434,Collins Family,Emma Collins,E-0177,BR-024,Core,Moderate,2025-04-03,441503.58,false,,3525.73,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,39
+WM-HH-00435,Johnson Family,Tom Johnson,E-0146,BR-021,Core,Growth,2021-06-04,684391.18,false,,6461.95,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,32
+WM-HH-00436,Lopez Family,Nina Lopez,E-0151,BR-020,Core,Moderate,2011-05-27,118616.25,false,,1301.36,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,38
+WM-HH-00437,Phillips Family,Daniel Phillips,E-0180,BR-010,Premier,Conservative,2023-10-18,3354333.41,false,,35043.56,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,34
+WM-HH-00438,Collins Family,Leo Collins,E-0178,BR-024,Premier,Moderate,2018-10-08,2774509.28,false,,19470.68,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,30
+WM-HH-00439,Martinez Family,Victor Martinez,E-0163,BR-009,Core,Growth,2017-03-14,213281.92,false,,1325.47,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,36
+WM-HH-00440,Thomas Family,Nina Thomas,E-0171,BR-016,Core,Moderate,2014-08-30,506175.53,false,,3368.68,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,33
+WM-HH-00441,Garcia Family,Fatima Garcia,E-0178,BR-024,Core,Conservative,2011-12-26,139890.66,false,,1292.27,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,38
+WM-HH-00442,Morris Family,Rosa Morris,E-0157,BR-003,Premier,Moderate,2018-08-17,1359322.29,false,,10185.46,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,29
+WM-HH-00443,Ruiz Family,Julian Ruiz,E-0170,BR-008,Core,Growth,2010-10-07,384858.49,false,,3128.07,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,39
+WM-HH-00444,Wright Family,Naomi Wright,E-0152,BR-010,Private Wealth,Moderate,2010-05-19,9624591.53,false,,69742.87,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,29
+WM-HH-00445,Turner Family,Tom Turner,E-0147,BR-008,Core,Moderate,2023-01-20,322802.66,true,2026-07-06,2280.41,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,10
+WM-HH-00446,Kim Family,Owen Kim,E-0141,BR-005,Core,Moderate,2011-06-30,290681.48,false,,2440.27,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,35
+WM-HH-00447,Green Family,Henry Green,E-0164,BR-015,Core,Conservative,2026-06-17,589270.33,false,,4779.16,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,38
+WM-HH-00448,Clark Family,Ben Clark,E-0158,BR-027,Core,Growth,2020-05-27,336170.23,false,,2872.27,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,31
+WM-HH-00449,Thomas Family,Samuel Thomas,E-0155,BR-025,Core,Growth,2017-12-28,287066.96,false,,1993.18,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,30
+WM-HH-00450,Miller Family,Maya Miller,E-0156,BR-012,Premier,Growth,2021-12-09,2306678.82,false,,19904.87,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,39
+WM-HH-00451,Johnson Family,Julian Johnson,E-0150,BR-009,Private Wealth,Aggressive,2018-02-21,11150936.98,false,,96813.03,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,36
+WM-HH-00452,Bailey Family,Ben Bailey,E-0171,BR-016,Premier,Conservative,2015-01-06,1595888.08,false,,9951.2,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,33
+WM-HH-00453,Campbell Family,Samuel Campbell,E-0153,BR-022,Premier,Growth,2024-06-28,4569717.95,false,,44980.98,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,30
+WM-HH-00454,Taylor Family,Nora Taylor,E-0170,BR-008,Core,Moderate,2020-12-11,722567.13,false,,7751.85,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,38
+WM-HH-00455,Taylor Family,Diego Taylor,E-0148,BR-008,Core,Aggressive,2020-10-28,223664.81,false,,1348.62,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,36
+WM-HH-00456,Baker Family,Sara Baker,E-0178,BR-024,Core,Conservative,2018-06-04,153918.57,true,2025-12-01,1616.35,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,3
+WM-HH-00457,Davis Family,Ava Davis,E-0174,BR-012,Core,Growth,2022-12-13,88125.19,false,,554.67,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,37
+WM-HH-00458,Carter Family,Kenji Carter,E-0176,BR-004,Premier,Conservative,2023-07-23,1776450.79,false,,18985.36,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,49
+WM-HH-00459,White Family,Aisha White,E-0145,BR-001,Core,Moderate,2015-11-12,284429.35,false,,2201.73,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,33
+WM-HH-00460,Ashford Family,Maya Ashford,E-0165,BR-016,Core,Moderate,2023-06-28,237432.78,false,,1681.4,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,41
+WM-HH-00461,Vaughn Family,Isabella Vaughn,E-0175,BR-015,Private Wealth,Moderate,2014-02-06,12032260.74,false,,83125.26,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,34
+WM-HH-00462,Moore Family,Zara Moore,E-0162,BR-019,Core,Moderate,2017-07-10,355442.53,false,,2471.91,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,27
+WM-HH-00463,Clark Family,Daniel Clark,E-0145,BR-001,Core,Moderate,2021-06-17,695285.5,false,,5221.23,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,35
+WM-HH-00464,Chen Family,Sara Chen,E-0151,BR-020,Core,Conservative,2025-05-13,425360.52,false,,2596.18,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,36
+WM-HH-00465,Clark Family,Mei Clark,E-0143,BR-011,Core,Moderate,2010-04-01,742518.29,false,,5388.79,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,33
+WM-HH-00466,Moore Family,Ava Moore,E-0142,BR-009,Core,Moderate,2018-12-13,1080471.27,false,,9829.88,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,38
+WM-HH-00467,Anderson Family,Samuel Anderson,E-0176,BR-004,Core,Conservative,2017-05-26,553084.85,false,,5970.66,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,34
+WM-HH-00468,Johnson Family,Felix Johnson,E-0173,BR-019,Core,Moderate,2024-05-09,302155.31,false,,2712.07,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,33
+WM-HH-00469,Roberts Family,Sofia Roberts,E-0158,BR-027,Core,Moderate,2014-07-19,198665.58,false,,1993.24,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,31
+WM-HH-00470,Turner Family,Iris Turner,E-0159,BR-021,Core,Moderate,2025-06-07,210299.79,true,2025-07-25,1508.02,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,14
+WM-HH-00471,Nguyen Family,Victor Nguyen,E-0179,BR-025,Core,Moderate,2025-12-04,216667.52,false,,1530.59,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,43
+WM-HH-00472,Roberts Family,Ravi Roberts,E-0144,BR-027,Core,Growth,2020-09-03,372387.79,false,,3886.69,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,31
+WM-HH-00473,Moore Family,Ava Moore,E-0142,BR-009,Premier,Growth,2020-03-02,817723.33,false,,7530.2,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00474,Okafor Family,Mateo Okafor,E-0169,BR-024,Premier,Moderate,2015-03-10,1775183.77,false,,11735.18,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,36
+WM-HH-00475,Miller Family,Noah Miller,E-0171,BR-016,Core,Moderate,2015-09-18,546428.45,false,,3480.16,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,37
+WM-HH-00476,Evans Family,Isabella Evans,E-0144,BR-027,Core,Conservative,2017-06-15,635665.21,false,,4500.84,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,33
+WM-HH-00477,Edwards Family,Nina Edwards,E-0156,BR-012,Core,Conservative,2018-08-28,587892.38,false,,4879.66,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,36
+WM-HH-00478,Patel Family,Elena Patel,E-0150,BR-009,Core,Conservative,2011-03-12,556062.49,false,,5110.9,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,29
+WM-HH-00479,Parker Family,Lauren Parker,E-0151,BR-020,Private Wealth,Moderate,2014-01-13,23349586.52,false,,171950.01,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,31
+WM-HH-00480,Wright Family,Samuel Wright,E-0148,BR-008,Core,Aggressive,2015-10-30,279617.33,false,,2562.96,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,37
+WM-HH-00481,Harris Family,Marcus Harris,E-0174,BR-012,Core,Conservative,2023-08-22,788884.37,false,,4998.33,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,42
+WM-HH-00482,Vaughn Family,Carlos Vaughn,E-0153,BR-022,Premier,Growth,2023-05-30,1385254.67,false,,12875.95,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,34
+WM-HH-00483,Campbell Family,Ravi Campbell,E-0168,BR-017,Core,Moderate,2017-07-10,1041513.73,false,,8819.08,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,28
+WM-HH-00484,Wright Family,Ravi Wright,E-0148,BR-008,Core,Moderate,2017-06-10,3102378.38,false,,26840.25,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,39
+WM-HH-00485,Miller Family,Chloe Miller,E-0145,BR-001,Premier,Growth,2018-08-15,1540506.82,false,,14247.62,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,30
+WM-HH-00486,Silva Family,Carlos Silva,E-0149,BR-019,Private Wealth,Moderate,2014-03-01,6025281.91,false,,61649.48,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,31
+WM-HH-00487,Carter Family,Kenji Carter,E-0172,BR-008,Core,Growth,2015-02-09,257597.16,false,,1891.18,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,38
+WM-HH-00488,Young Family,Elena Young,E-0155,BR-025,Premier,Aggressive,2011-08-30,1586419.62,false,,15545.71,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,27
+WM-HH-00489,Turner Family,Chloe Turner,E-0159,BR-021,Core,Growth,2019-04-01,349404.7,false,,2939.25,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,33
+WM-HH-00490,Kim Family,Grace Kim,E-0154,BR-007,Premier,Moderate,2014-08-19,723719.73,true,2025-08-11,7212.31,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,5
+WM-HH-00491,Baker Family,Derek Baker,E-0149,BR-019,Premier,Growth,2021-07-17,785928.45,false,,5597.44,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00492,Parker Family,Jonathan Parker,E-0174,BR-012,Core,Conservative,2017-01-19,180109.56,false,,1612.14,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,38
+WM-HH-00493,Walker Family,Zara Walker,E-0161,BR-025,Private Wealth,Moderate,2016-10-06,15924058.09,false,,127688.68,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,33
+WM-HH-00494,Roberts Family,Elena Roberts,E-0169,BR-024,Premier,Aggressive,2023-05-20,1305446.27,false,,12213.02,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,38
+WM-HH-00495,Bailey Family,Kenji Bailey,E-0164,BR-015,Core,Moderate,2018-09-11,568144.05,false,,3635.1,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,39
+WM-HH-00496,Hall Family,Chloe Hall,E-0153,BR-022,Core,Moderate,2017-03-26,182583.57,false,,1325.91,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,40
+WM-HH-00497,Bailey Family,Nina Bailey,E-0161,BR-025,Core,Conservative,2023-10-31,329594.52,false,,1995.58,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,34
+WM-HH-00498,Edwards Family,Yuki Edwards,E-0155,BR-025,Core,Moderate,2019-01-04,437530.37,false,,2736.23,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,25
+WM-HH-00499,Baker Family,Owen Baker,E-0174,BR-012,Core,Moderate,2021-03-04,328100.1,false,,2839.39,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,36
+WM-HH-00500,Carter Family,Derek Carter,E-0167,BR-029,Core,Moderate,2020-11-07,369462.33,false,,2268.66,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,31
+WM-HH-00501,Wilson Family,Tom Wilson,E-0162,BR-019,Core,Moderate,2019-06-25,525287.86,false,,4850.71,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,37
+WM-HH-00502,Wright Family,Sofia Wright,E-0171,BR-016,Core,Aggressive,2014-12-17,1757484.74,false,,16169.07,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,41
+WM-HH-00503,Johnson Family,Isabella Johnson,E-0177,BR-024,Core,Growth,2013-08-27,325245.37,false,,2940.8,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,32
+WM-HH-00504,Stewart Family,Mei Stewart,E-0174,BR-012,Premier,Moderate,2013-11-08,1356295.93,false,,10176.1,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,39
+WM-HH-00505,Davis Family,Ben Davis,E-0160,BR-014,Core,Moderate,2019-01-19,338919.32,false,,3436.71,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,31
+WM-HH-00506,Nelson Family,Wei Nelson,E-0142,BR-009,Core,Moderate,2013-05-18,350481.53,false,,2305.06,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,36
+WM-HH-00507,Baker Family,Noah Baker,E-0158,BR-027,Premier,Growth,2011-01-09,1540990.1,false,,12903.9,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,44
+WM-HH-00508,Phillips Family,Daniel Phillips,E-0162,BR-019,Core,Growth,2021-07-19,327856.49,false,,2217.47,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,32
+WM-HH-00509,Baker Family,Leo Baker,E-0174,BR-012,Premier,Moderate,2018-09-01,1296349.84,false,,8899.24,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,39
+WM-HH-00510,Baker Family,Isabella Baker,E-0172,BR-008,Premier,Conservative,2024-07-31,1271617.39,false,,11787.56,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,39
+WM-HH-00511,Roberts Family,Julian Roberts,E-0144,BR-027,Premier,Conservative,2016-09-15,1420398.7,false,,12724.76,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,35
+WM-HH-00512,Thomas Family,Ravi Thomas,E-0150,BR-009,Core,Aggressive,2021-06-01,219792.8,false,,2178.81,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,29
+WM-HH-00513,Turner Family,Ava Turner,E-0152,BR-010,Premier,Conservative,2023-09-29,1841464.8,false,,17528.57,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,33
+WM-HH-00514,Scott Family,Felix Scott,E-0170,BR-008,Core,Moderate,2024-03-18,355931.89,false,,2873.04,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,31
+WM-HH-00515,Edwards Family,Nina Edwards,E-0161,BR-025,Core,Moderate,2020-09-09,274426.35,false,,2583.43,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,31
+WM-HH-00516,Evans Family,Emma Evans,E-0169,BR-024,Core,Growth,2017-03-03,291546.36,false,,2322.38,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,34
+WM-HH-00517,Campbell Family,Isabella Campbell,E-0159,BR-021,Premier,Moderate,2026-05-25,2003691.61,false,,13803.04,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,36
+WM-HH-00518,Taylor Family,Henry Taylor,E-0175,BR-015,Core,Conservative,2013-10-12,202282.1,false,,2013.82,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,38
+WM-HH-00519,Moore Family,Noah Moore,E-0168,BR-017,Core,Aggressive,2010-09-17,463444.24,false,,3088.46,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,35
+WM-HH-00520,Edwards Family,Marcus Edwards,E-0170,BR-008,Core,Growth,2018-01-27,187139.98,false,,1510.92,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,44
+WM-HH-00521,Ruiz Family,Owen Ruiz,E-0154,BR-007,Core,Growth,2015-01-09,385362.77,false,,3525.55,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,28
+WM-HH-00522,Moore Family,Henry Moore,E-0163,BR-009,Premier,Moderate,2024-12-21,4523784.54,false,,27782.07,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,35
+WM-HH-00523,Walker Family,Wei Walker,E-0156,BR-012,Core,Moderate,2024-02-21,204472.84,true,2026-08-12,1390.86,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,10
+WM-HH-00524,Okafor Family,Yuki Okafor,E-0141,BR-005,Core,Conservative,2020-09-11,267032.41,false,,1843.94,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,34
+WM-HH-00525,Clark Family,Julian Clark,E-0146,BR-021,Core,Aggressive,2013-12-31,201181.89,false,,1679.21,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,33
+WM-HH-00526,Walker Family,Iris Walker,E-0150,BR-009,Core,Moderate,2023-11-22,439032.06,false,,3135.29,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00527,Allen Family,Ben Allen,E-0165,BR-016,Core,Moderate,2012-08-21,259172.95,false,,2347.13,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,42
+WM-HH-00528,Chen Family,Derek Chen,E-0146,BR-021,Core,Aggressive,2022-07-31,260501.5,false,,2791.2,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,35
+WM-HH-00529,Taylor Family,Marcus Taylor,E-0150,BR-009,Core,Moderate,2015-10-02,297769.89,false,,3246.32,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,34
+WM-HH-00530,Wilson Family,Chloe Wilson,E-0171,BR-016,Core,Moderate,2023-07-02,593384.58,false,,4132.42,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,32
+WM-HH-00531,Davis Family,Diego Davis,E-0148,BR-008,Core,Conservative,2013-04-12,339427.8,false,,2304.29,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,36
+WM-HH-00532,Parker Family,Elena Parker,E-0168,BR-017,Premier,Moderate,2021-10-01,1873188.09,false,,11326.13,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,40
+WM-HH-00533,Taylor Family,Owen Taylor,E-0143,BR-011,Core,Moderate,2018-01-11,501300.42,false,,3764.28,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,32
+WM-HH-00534,Parker Family,Daniel Parker,E-0155,BR-025,Core,Moderate,2010-01-26,344997.66,false,,3153.68,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,34
+WM-HH-00535,Moore Family,Jonathan Moore,E-0166,BR-007,Core,Growth,2015-01-21,308147.68,false,,3214.91,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,36
+WM-HH-00536,Johnson Family,Rosa Johnson,E-0163,BR-009,Core,Moderate,2016-09-06,662638.99,false,,6451.06,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,30
+WM-HH-00537,Evans Family,Wei Evans,E-0150,BR-009,Core,Moderate,2024-08-20,214439.15,false,,1717.37,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,28
+WM-HH-00538,Davis Family,Ethan Davis,E-0168,BR-017,Premier,Growth,2017-09-21,857194.61,false,,6506.06,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,28
+WM-HH-00539,Nguyen Family,Victor Nguyen,E-0180,BR-010,Core,Growth,2025-07-08,939336.26,false,,8617.61,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,31
+WM-HH-00540,Scott Family,Aisha Scott,E-0167,BR-029,Core,Conservative,2015-12-25,299853.24,false,,1935.19,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,37
+WM-HH-00541,Anderson Family,Nora Anderson,E-0173,BR-019,Core,Growth,2013-08-06,97824.23,false,,856.61,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,36
+WM-HH-00542,Edwards Family,Mateo Edwards,E-0176,BR-004,Premier,Growth,2012-01-24,1784155.0,false,,16901.71,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,30
+WM-HH-00543,Okafor Family,Andre Okafor,E-0175,BR-015,Core,Growth,2020-06-21,406158.69,false,,4328.64,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,38
+WM-HH-00544,Collins Family,Owen Collins,E-0172,BR-008,Core,Moderate,2019-10-03,486729.3,false,,4272.88,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,36
+WM-HH-00545,Green Family,Carlos Green,E-0152,BR-010,Core,Growth,2021-09-11,367653.52,false,,3926.14,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,29
+WM-HH-00546,Nguyen Family,Priya Nguyen,E-0175,BR-015,Core,Growth,2016-12-14,753414.14,false,,6003.21,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,35
+WM-HH-00547,Patel Family,Naomi Patel,E-0176,BR-004,Core,Aggressive,2025-03-07,211135.43,false,,1388.46,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,34
+WM-HH-00548,Vaughn Family,Layla Vaughn,E-0155,BR-025,Core,Growth,2023-07-17,658372.8,false,,4982.35,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,33
+WM-HH-00549,Lewis Family,Lauren Lewis,E-0145,BR-001,Premier,Aggressive,2018-02-23,736177.35,false,,7164.4,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,40
+WM-HH-00550,Stewart Family,Carlos Stewart,E-0161,BR-025,Core,Conservative,2025-12-26,263505.64,false,,2811.25,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,31
+WM-HH-00551,Okafor Family,Chloe Okafor,E-0169,BR-024,Premier,Moderate,2012-02-05,884192.95,false,,7930.62,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,37
+WM-HH-00552,Walker Family,Chloe Walker,E-0158,BR-027,Private Wealth,Growth,2021-01-11,8399202.6,false,,83909.76,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,35
+WM-HH-00553,Edwards Family,Chloe Edwards,E-0153,BR-022,Premier,Moderate,2022-10-15,1196579.91,false,,10417.41,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,37
+WM-HH-00554,Clark Family,Diego Clark,E-0156,BR-012,Core,Moderate,2020-09-01,478372.02,false,,4090.42,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,39
+WM-HH-00555,Miller Family,Owen Miller,E-0151,BR-020,Premier,Growth,2018-11-14,1785122.38,false,,19343.65,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,41
+WM-HH-00556,Phillips Family,Elena Phillips,E-0165,BR-016,Premier,Aggressive,2018-11-21,605612.47,false,,4605.75,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,36
+WM-HH-00557,Moore Family,Maya Moore,E-0177,BR-024,Private Wealth,Aggressive,2015-07-20,19099765.22,false,,149488.85,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,32
+WM-HH-00558,Mitchell Family,Priya Mitchell,E-0142,BR-009,Core,Conservative,2022-06-17,840711.45,false,,6627.57,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,40
+WM-HH-00559,Ruiz Family,Amara Ruiz,E-0175,BR-015,Core,Moderate,2014-02-14,135902.42,false,,1489.73,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,32
+WM-HH-00560,Chen Family,Ava Chen,E-0159,BR-021,Premier,Aggressive,2014-10-08,6679871.56,false,,73432.0,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,36
+WM-HH-00561,Nelson Family,Isabella Nelson,E-0145,BR-001,Premier,Aggressive,2019-10-22,1859935.76,false,,20060.96,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,36
+WM-HH-00562,Edwards Family,Grace Edwards,E-0149,BR-019,Private Wealth,Moderate,2011-10-26,1959309.73,false,,13730.85,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00563,Allen Family,Daniel Allen,E-0148,BR-008,Core,Aggressive,2023-10-15,354324.77,false,,3770.14,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,39
+WM-HH-00564,King Family,Iris King,E-0172,BR-008,Core,Moderate,2013-09-16,205535.51,false,,2083.13,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,40
+WM-HH-00565,Davis Family,Carlos Davis,E-0156,BR-012,Core,Aggressive,2024-06-21,408835.8,false,,2822.32,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,35
+WM-HH-00566,Adams Family,Nina Adams,E-0173,BR-019,Core,Moderate,2012-09-15,827184.17,false,,5813.03,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,38
+WM-HH-00567,Young Family,Yuki Young,E-0171,BR-016,Core,Growth,2023-10-13,308282.0,false,,2826.58,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,38
+WM-HH-00568,Thomas Family,Diego Thomas,E-0146,BR-021,Private Wealth,Conservative,2015-11-03,5336615.3,false,,57876.77,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,32
+WM-HH-00569,Baker Family,Kenji Baker,E-0151,BR-020,Private Wealth,Moderate,2021-01-22,7922166.58,false,,69500.92,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,35
+WM-HH-00570,Nguyen Family,Noah Nguyen,E-0158,BR-027,Core,Conservative,2019-10-15,333896.41,false,,3642.06,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,37
+WM-HH-00571,Brown Family,Aisha Brown,E-0163,BR-009,Private Wealth,Moderate,2024-09-13,4900349.04,false,,37999.05,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,32
+WM-HH-00572,Davis Family,Marcus Davis,E-0175,BR-015,Core,Moderate,2011-03-22,220583.37,false,,1464.49,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,34
+WM-HH-00573,Morris Family,Iris Morris,E-0141,BR-005,Core,Growth,2018-05-10,168934.64,false,,1351.02,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,32
+WM-HH-00574,Evans Family,Emma Evans,E-0154,BR-007,Premier,Growth,2019-09-17,1438258.62,false,,15087.7,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,40
+WM-HH-00575,Martinez Family,Amara Martinez,E-0151,BR-020,Premier,Moderate,2026-04-22,856063.05,false,,9415.49,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,36
+WM-HH-00576,Okafor Family,Aisha Okafor,E-0150,BR-009,Core,Conservative,2014-05-23,524016.93,false,,3575.91,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00577,Campbell Family,Nora Campbell,E-0154,BR-007,Premier,Aggressive,2012-02-20,1258221.13,false,,10672.81,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,34
+WM-HH-00578,Wilson Family,Maya Wilson,E-0169,BR-024,Core,Moderate,2016-11-26,931765.7,false,,9111.46,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,40
+WM-HH-00579,King Family,Olivia King,E-0150,BR-009,Core,Moderate,2026-03-18,110083.68,false,,766.06,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,34
+WM-HH-00580,Morris Family,Aisha Morris,E-0160,BR-014,Core,Conservative,2011-04-19,314578.5,false,,2490.36,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,33
+WM-HH-00581,Okafor Family,Mei Okafor,E-0155,BR-025,Core,Growth,2015-09-11,960846.54,false,,10366.77,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,35
+WM-HH-00582,Turner Family,Nina Turner,E-0159,BR-021,Premier,Aggressive,2021-05-19,2613424.06,false,,22343.14,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,35
+WM-HH-00583,Silva Family,Leo Silva,E-0149,BR-019,Core,Growth,2025-11-06,409758.52,false,,2943.4,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,25
+WM-HH-00584,Stewart Family,Ethan Stewart,E-0146,BR-021,Core,Moderate,2019-09-07,256841.13,false,,1711.03,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,30
+WM-HH-00585,Lopez Family,Wei Lopez,E-0156,BR-012,Core,Conservative,2010-12-07,233626.91,false,,2082.51,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,31
+WM-HH-00586,Turner Family,Layla Turner,E-0173,BR-019,Core,Aggressive,2018-08-25,110832.39,false,,1038.13,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,33
+WM-HH-00587,Anderson Family,Amara Anderson,E-0151,BR-020,Core,Growth,2013-12-29,820810.6,false,,8031.48,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,38
+WM-HH-00588,Parker Family,Maya Parker,E-0165,BR-016,Core,Moderate,2022-10-24,195081.88,false,,1828.83,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,34
+WM-HH-00589,Lopez Family,Elena Lopez,E-0142,BR-009,Premier,Conservative,2010-12-15,765018.29,false,,7375.12,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,34
+WM-HH-00590,Miller Family,Lauren Miller,E-0159,BR-021,Core,Moderate,2021-05-31,461037.24,false,,4107.23,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,37
+WM-HH-00591,Parker Family,Samuel Parker,E-0151,BR-020,Core,Conservative,2012-10-06,470246.44,false,,3780.14,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,31
+WM-HH-00592,Stewart Family,Maya Stewart,E-0152,BR-010,Core,Aggressive,2023-02-13,636881.1,false,,6559.19,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,29
+WM-HH-00593,Anderson Family,Nora Anderson,E-0163,BR-009,Core,Moderate,2022-05-24,418299.43,false,,2792.69,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,33
+WM-HH-00594,Okafor Family,Iris Okafor,E-0158,BR-027,Core,Conservative,2024-11-19,139684.1,false,,1125.85,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,33
+WM-HH-00595,Scott Family,Owen Scott,E-0155,BR-025,Core,Moderate,2011-05-14,128061.14,false,,1340.35,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,47
+WM-HH-00596,Jackson Family,Derek Jackson,E-0167,BR-029,Premier,Moderate,2010-12-15,1930974.94,false,,14993.12,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,36
+WM-HH-00597,Vaughn Family,Luis Vaughn,E-0180,BR-010,Premier,Moderate,2011-09-28,2067936.18,false,,16604.45,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,32
+WM-HH-00598,Davis Family,Carlos Davis,E-0159,BR-021,Core,Aggressive,2012-06-20,318197.71,false,,3357.52,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,35
+WM-HH-00599,Carter Family,Naomi Carter,E-0169,BR-024,Core,Growth,2012-06-05,312408.26,false,,2247.79,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,36
+WM-HH-00600,Campbell Family,Julian Campbell,E-0153,BR-022,Core,Aggressive,2020-06-03,548999.96,false,,5098.06,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,38
+WM-HH-00601,Allen Family,Felix Allen,E-0151,BR-020,Core,Moderate,2020-10-10,153363.39,false,,1430.43,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,27
+WM-HH-00602,King Family,Mei King,E-0171,BR-016,Premier,Aggressive,2017-12-13,2981875.47,false,,32150.49,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,33
+WM-HH-00603,Hall Family,Derek Hall,E-0145,BR-001,Core,Moderate,2020-10-07,379287.53,false,,2743.23,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,26
+WM-HH-00604,Anderson Family,Emma Anderson,E-0170,BR-008,Core,Moderate,2012-04-14,50000,false,,371.94,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,38
+WM-HH-00605,Allen Family,Sara Allen,E-0153,BR-022,Private Wealth,Conservative,2022-10-04,6985294.99,false,,62006.34,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,39
+WM-HH-00606,Evans Family,Tom Evans,E-0142,BR-009,Core,Conservative,2025-11-21,495382.58,false,,4494.73,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00607,Lopez Family,Grace Lopez,E-0174,BR-012,Premier,Moderate,2025-10-26,5735461.89,false,,56261.7,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,33
+WM-HH-00608,Green Family,Naomi Green,E-0141,BR-005,Premier,Conservative,2016-11-24,791188.13,false,,5150.67,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,34
+WM-HH-00609,Nelson Family,Rosa Nelson,E-0164,BR-015,Core,Moderate,2012-09-25,250358.54,false,,1720.48,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,38
+WM-HH-00610,Mitchell Family,Derek Mitchell,E-0166,BR-007,Core,Conservative,2010-02-04,394831.79,false,,3890.75,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,31
+WM-HH-00611,Bailey Family,Yuki Bailey,E-0146,BR-021,Core,Growth,2026-05-26,338698.64,false,,3197.92,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,38
+WM-HH-00612,Patel Family,Isabella Patel,E-0168,BR-017,Private Wealth,Conservative,2016-10-10,32972762.27,false,,294654.19,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,38
+WM-HH-00613,Morris Family,Naomi Morris,E-0154,BR-007,Core,Moderate,2017-11-20,233168.58,false,,2458.44,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,34
+WM-HH-00614,Wilson Family,Hannah Wilson,E-0173,BR-019,Core,Moderate,2023-07-02,495354.87,false,,3368.54,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,40
+WM-HH-00615,Anderson Family,Ethan Anderson,E-0177,BR-024,Core,Moderate,2013-07-27,230479.11,false,,1627.71,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,41
+WM-HH-00616,Silva Family,Nina Silva,E-0146,BR-021,Premier,Moderate,2024-02-09,465787.41,false,,3590.82,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,36
+WM-HH-00617,Ashford Family,Ben Ashford,E-0147,BR-008,Private Wealth,Growth,2013-02-20,7972643.33,false,,63874.85,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,32
+WM-HH-00618,King Family,Maya King,E-0173,BR-019,Core,Growth,2015-11-23,421804.27,false,,4558.79,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,33
+WM-HH-00619,Thomas Family,Aisha Thomas,E-0175,BR-015,Premier,Moderate,2018-12-23,1725805.92,false,,16807.39,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,33
+WM-HH-00620,Garcia Family,Hannah Garcia,E-0179,BR-025,Premier,Growth,2010-07-04,2753761.37,false,,18056.66,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,31
+WM-HH-00621,Evans Family,Ethan Evans,E-0166,BR-007,Core,Moderate,2025-12-10,50000,false,,355.5,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,35
+WM-HH-00622,Okafor Family,Ethan Okafor,E-0160,BR-014,Core,Conservative,2017-07-12,131089.56,false,,1282.91,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,33
+WM-HH-00623,Anderson Family,Victor Anderson,E-0170,BR-008,Core,Aggressive,2015-11-22,316427.05,false,,3418.46,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,32
+WM-HH-00624,Moore Family,Derek Moore,E-0180,BR-010,Private Wealth,Moderate,2011-05-11,4863915.43,false,,31415.37,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,31
+WM-HH-00625,Scott Family,Noah Scott,E-0154,BR-007,Premier,Conservative,2020-05-13,248310.79,false,,2468.42,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,47
+WM-HH-00626,Edwards Family,Layla Edwards,E-0150,BR-009,Premier,Conservative,2010-11-14,913416.01,false,,8180.91,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00627,Johnson Family,Leo Johnson,E-0177,BR-024,Core,Moderate,2015-10-03,68531.62,false,,549.5,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,34
+WM-HH-00628,Patel Family,Fatima Patel,E-0173,BR-019,Private Wealth,Conservative,2023-08-09,1171585.06,false,,8919.69,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,33
+WM-HH-00629,Wilson Family,Noah Wilson,E-0166,BR-007,Core,Conservative,2019-01-18,141242.28,false,,1223.54,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,37
+WM-HH-00630,Wright Family,Ben Wright,E-0150,BR-009,Core,Conservative,2020-06-10,1262738.85,false,,10653.2,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,43
+WM-HH-00631,Hall Family,Derek Hall,E-0180,BR-010,Premier,Moderate,2012-11-07,734181.0,false,,7350.66,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,43
+WM-HH-00632,Chen Family,Ines Chen,E-0173,BR-019,Core,Growth,2014-04-14,124125.36,false,,756.99,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,38
+WM-HH-00633,Lewis Family,Victor Lewis,E-0171,BR-016,Premier,Moderate,2025-10-22,920034.66,false,,6291.72,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,33
+WM-HH-00634,Wilson Family,Carlos Wilson,E-0174,BR-012,Core,Aggressive,2011-05-01,402301.56,false,,4171.18,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,43
+WM-HH-00635,Wilson Family,Ines Wilson,E-0159,BR-021,Core,Conservative,2019-04-05,390349.79,false,,3252.06,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,35
+WM-HH-00636,Phillips Family,Samuel Phillips,E-0175,BR-015,Core,Moderate,2012-08-30,231749.36,false,,2543.14,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,41
+WM-HH-00637,Nguyen Family,Carlos Nguyen,E-0144,BR-027,Core,Growth,2024-06-08,347630.27,false,,3264.57,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,35
+WM-HH-00638,Phillips Family,Sara Phillips,E-0174,BR-012,Core,Conservative,2014-06-25,178280.48,false,,1505.67,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,36
+WM-HH-00639,Lopez Family,Maya Lopez,E-0170,BR-008,Private Wealth,Moderate,2015-06-26,26578857.24,false,,179731.0,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,37
+WM-HH-00640,Harris Family,Naomi Harris,E-0154,BR-007,Premier,Growth,2018-07-12,5211660.23,false,,39672.9,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,38
+WM-HH-00641,Edwards Family,Jonathan Edwards,E-0142,BR-009,Premier,Growth,2017-10-20,1356661.0,false,,12791.56,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,31
+WM-HH-00642,Taylor Family,Naomi Taylor,E-0152,BR-010,Core,Moderate,2019-11-22,400883.93,false,,4293.49,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,39
+WM-HH-00643,Vaughn Family,Daniel Vaughn,E-0151,BR-020,Core,Conservative,2010-07-14,279081.83,false,,1935.66,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,31
+WM-HH-00644,Allen Family,Lauren Allen,E-0162,BR-019,Premier,Growth,2022-08-19,2224475.12,true,2026-05-04,17867.19,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,10
+WM-HH-00645,Bailey Family,Mei Bailey,E-0148,BR-008,Core,Conservative,2011-05-07,652895.2,false,,4673.94,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,38
+WM-HH-00646,Jackson Family,Ines Jackson,E-0161,BR-025,Private Wealth,Growth,2014-05-07,8142687.65,false,,58161.76,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,37
+WM-HH-00647,Lewis Family,Emma Lewis,E-0150,BR-009,Core,Moderate,2014-10-30,306355.51,false,,3217.68,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,34
+WM-HH-00648,Clark Family,Rosa Clark,E-0142,BR-009,Premier,Moderate,2022-09-06,3822728.82,false,,40848.65,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,41
+WM-HH-00649,White Family,Noah White,E-0162,BR-019,Core,Growth,2016-05-19,210803.7,false,,1827.55,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,27
+WM-HH-00650,Garcia Family,Luis Garcia,E-0176,BR-004,Core,Moderate,2016-11-11,407947.92,false,,4334.31,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,38
+WM-HH-00651,Lopez Family,Sara Lopez,E-0173,BR-019,Premier,Moderate,2019-12-19,1538556.33,false,,12442.56,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,36
+WM-HH-00652,Lewis Family,Sara Lewis,E-0178,BR-024,Core,Conservative,2011-07-11,305207.11,false,,2848.49,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,35
+WM-HH-00653,White Family,Ben White,E-0150,BR-009,Core,Moderate,2017-06-14,263169.64,false,,2559.98,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,28
+WM-HH-00654,Stewart Family,Luis Stewart,E-0160,BR-014,Premier,Conservative,2013-07-23,2651309.52,false,,28697.87,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,38
+WM-HH-00655,Vaughn Family,Ben Vaughn,E-0167,BR-029,Core,Moderate,2020-11-01,655795.9,false,,6470.82,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,35
+WM-HH-00656,Miller Family,Ben Miller,E-0169,BR-024,Core,Conservative,2023-06-01,50000,false,,394.45,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,34
+WM-HH-00657,Mitchell Family,Olivia Mitchell,E-0145,BR-001,Core,Moderate,2015-03-16,700116.83,false,,5465.54,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,29
+WM-HH-00658,Brown Family,Mei Brown,E-0152,BR-010,Premier,Growth,2023-02-09,631985.67,false,,6400.84,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,34
+WM-HH-00659,Scott Family,Victor Scott,E-0141,BR-005,Core,Growth,2018-12-20,764391.19,false,,6150.44,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,37
+WM-HH-00660,Walker Family,Marcus Walker,E-0141,BR-005,Core,Moderate,2013-05-22,259627.22,false,,2013.16,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,31
+WM-HH-00661,Brown Family,Aisha Brown,E-0149,BR-019,Private Wealth,Moderate,2020-08-01,39601161.16,false,,365718.46,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,30
+WM-HH-00662,Ruiz Family,Victor Ruiz,E-0171,BR-016,Core,Growth,2021-03-30,151385.71,false,,1032.12,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,38
+WM-HH-00663,Kim Family,Jonathan Kim,E-0175,BR-015,Premier,Growth,2012-10-28,1321089.53,false,,14017.36,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,44
+WM-HH-00664,Kim Family,Iris Kim,E-0180,BR-010,Core,Moderate,2023-06-30,274708.15,false,,2267.66,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,28
+WM-HH-00665,Patel Family,Jonathan Patel,E-0155,BR-025,Core,Aggressive,2022-03-21,334952.46,false,,3001.82,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,35
+WM-HH-00666,Ashford Family,Rosa Ashford,E-0177,BR-024,Premier,Growth,2021-07-12,1703311.25,false,,12423.64,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,34
+WM-HH-00667,Nelson Family,Hannah Nelson,E-0148,BR-008,Private Wealth,Moderate,2017-06-11,3483801.75,false,,37370.74,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,38
+WM-HH-00668,Taylor Family,Carlos Taylor,E-0177,BR-024,Core,Moderate,2020-05-13,426253.21,false,,4671.67,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,34
+WM-HH-00669,Clark Family,Owen Clark,E-0172,BR-008,Core,Conservative,2023-06-21,390173.23,false,,3519.01,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,37
+WM-HH-00670,Ashford Family,Maya Ashford,E-0173,BR-019,Core,Conservative,2014-05-06,376343.99,false,,4028.58,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,27
+WM-HH-00671,Garcia Family,Ravi Garcia,E-0180,BR-010,Core,Growth,2012-11-06,267095.18,false,,2677.74,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,28
+WM-HH-00672,Anderson Family,Olivia Anderson,E-0179,BR-025,Premier,Conservative,2013-01-13,431699.47,false,,2667.11,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,32
+WM-HH-00673,Davis Family,Julian Davis,E-0146,BR-021,Private Wealth,Growth,2010-10-13,10943366.13,false,,78058.72,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,29
+WM-HH-00674,Okafor Family,Isabella Okafor,E-0162,BR-019,Premier,Growth,2016-11-25,1870754.65,false,,11842.09,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,36
+WM-HH-00675,Thomas Family,Owen Thomas,E-0142,BR-009,Premier,Moderate,2014-06-28,2811893.78,false,,27270.32,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,34
+WM-HH-00676,Bailey Family,Jonathan Bailey,E-0160,BR-014,Core,Growth,2018-10-09,315178.08,true,2026-01-13,2086.65,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,5
+WM-HH-00677,Young Family,Ben Young,E-0158,BR-027,Premier,Growth,2023-07-17,2382958.74,false,,14980.64,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,40
+WM-HH-00678,Vaughn Family,Priya Vaughn,E-0165,BR-016,Core,Conservative,2019-04-24,1112972.2,false,,6912.57,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,40
+WM-HH-00679,Martinez Family,Wei Martinez,E-0144,BR-027,Private Wealth,Moderate,2016-06-29,4953542.96,false,,40572.09,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,35
+WM-HH-00680,Harris Family,Mateo Harris,E-0144,BR-027,Core,Conservative,2018-10-05,772062.53,false,,7608.61,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,40
+WM-HH-00681,Bailey Family,Amara Bailey,E-0161,BR-025,Core,Conservative,2018-09-03,818576.27,false,,8282.49,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,32
+WM-HH-00682,Brown Family,Lauren Brown,E-0153,BR-022,Premier,Moderate,2010-08-04,2462534.1,false,,16686.86,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,40
+WM-HH-00683,Jackson Family,Daniel Jackson,E-0177,BR-024,Core,Growth,2011-05-05,205026.07,false,,1660.82,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,36
+WM-HH-00684,King Family,Andre King,E-0157,BR-003,Core,Moderate,2014-06-18,71152.12,false,,484.76,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,35
+WM-HH-00685,Okafor Family,Grace Okafor,E-0166,BR-007,Premier,Moderate,2011-09-29,1777626.69,false,,12906.08,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,36
+WM-HH-00686,Hall Family,Henry Hall,E-0176,BR-004,Core,Aggressive,2022-04-26,311193.01,false,,2873.4,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,36
+WM-HH-00687,Garcia Family,Jonathan Garcia,E-0170,BR-008,Private Wealth,Moderate,2025-04-13,9936778.44,false,,86494.61,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,35
+WM-HH-00688,Johnson Family,Aisha Johnson,E-0150,BR-009,Premier,Moderate,2023-11-20,966940.17,false,,9001.87,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,33
+WM-HH-00689,Patel Family,Aisha Patel,E-0174,BR-012,Core,Growth,2020-09-10,345568.98,false,,2823.99,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,28
+WM-HH-00690,Allen Family,Chloe Allen,E-0179,BR-025,Core,Conservative,2013-03-28,171182.87,false,,1408.48,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,39
+WM-HH-00691,Chen Family,Diego Chen,E-0148,BR-008,Premier,Growth,2021-05-06,3051672.55,false,,20946.95,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,33
+WM-HH-00692,Jackson Family,Ava Jackson,E-0163,BR-009,Core,Growth,2025-03-07,137346.29,false,,840.2,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,33
+WM-HH-00693,Kim Family,Samuel Kim,E-0153,BR-022,Core,Aggressive,2020-02-04,335055.4,true,2026-05-13,2388.26,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,9
+WM-HH-00694,Johnson Family,Noah Johnson,E-0148,BR-008,Core,Growth,2012-03-06,312949.57,false,,3347.37,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,42
+WM-HH-00695,Young Family,Chloe Young,E-0151,BR-020,Premier,Growth,2016-04-09,1793617.57,false,,12871.61,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,37
+WM-HH-00696,Ruiz Family,Jamal Ruiz,E-0146,BR-021,Core,Growth,2023-10-13,165487.88,false,,1134.88,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,36
+WM-HH-00697,Roberts Family,Wei Roberts,E-0172,BR-008,Core,Aggressive,2026-06-03,626359.83,false,,5444.45,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,32
+WM-HH-00698,Kim Family,Carlos Kim,E-0180,BR-010,Core,Moderate,2012-04-08,286979.72,false,,1738.6,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,38
+WM-HH-00699,Young Family,Sofia Young,E-0164,BR-015,Core,Moderate,2017-07-21,206989.03,false,,1983.98,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,40
+WM-HH-00700,Jackson Family,Kenji Jackson,E-0175,BR-015,Core,Growth,2012-09-24,689956.45,false,,5188.3,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,27
+WM-HH-00701,Silva Family,Aisha Silva,E-0172,BR-008,Core,Moderate,2012-01-29,1127095.45,false,,11388.55,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,33
+WM-HH-00702,Martinez Family,Felix Martinez,E-0169,BR-024,Private Wealth,Growth,2015-04-21,18629653.65,false,,129403.32,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,31
+WM-HH-00703,Edwards Family,Isabella Edwards,E-0169,BR-024,Core,Moderate,2020-10-05,955711.52,false,,8606.07,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,37
+WM-HH-00704,Campbell Family,Lauren Campbell,E-0178,BR-024,Core,Growth,2012-01-10,271145.56,false,,1742.86,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,31
+WM-HH-00705,Walker Family,Emma Walker,E-0154,BR-007,Premier,Growth,2022-07-24,1616311.68,false,,16475.28,Leo Evans,Team Bravo,Cumulus FL Branch 1,Southeast,38
+WM-HH-00706,Mitchell Family,Priya Mitchell,E-0141,BR-005,Core,Moderate,2022-03-28,248474.17,false,,2282.98,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,36
+WM-HH-00707,Thomas Family,Lauren Thomas,E-0162,BR-019,Premier,Growth,2020-06-29,2530608.85,false,,19236.38,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,37
+WM-HH-00708,Parker Family,Andre Parker,E-0161,BR-025,Core,Growth,2014-10-24,145834.25,false,,1513.45,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,38
+WM-HH-00709,Taylor Family,Layla Taylor,E-0151,BR-020,Core,Moderate,2018-09-22,225903.46,true,2026-05-01,2207.71,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,7
+WM-HH-00710,Wright Family,Henry Wright,E-0160,BR-014,Premier,Growth,2021-08-21,764230.63,false,,7832.81,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,38
+WM-HH-00711,Roberts Family,Noah Roberts,E-0170,BR-008,Core,Conservative,2023-10-29,139090.52,true,2025-09-08,1160.33,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,10
+WM-HH-00712,Davis Family,Tom Davis,E-0176,BR-004,Core,Growth,2016-08-12,351844.07,false,,2813.1,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,37
+WM-HH-00713,Wright Family,Zara Wright,E-0179,BR-025,Core,Conservative,2019-08-22,797691.47,false,,7895.22,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,38
+WM-HH-00714,Garcia Family,Derek Garcia,E-0149,BR-019,Premier,Growth,2018-03-17,643287.59,false,,4976.33,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00715,Allen Family,Ava Allen,E-0169,BR-024,Core,Moderate,2021-04-05,115054.63,false,,1062.66,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,25
+WM-HH-00716,Campbell Family,Isabella Campbell,E-0155,BR-025,Private Wealth,Moderate,2012-12-02,8082256.31,false,,84863.48,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,34
+WM-HH-00717,Garcia Family,Leo Garcia,E-0167,BR-029,Core,Moderate,2013-08-13,332057.4,false,,2274.12,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,36
+WM-HH-00718,Vaughn Family,Ethan Vaughn,E-0159,BR-021,Core,Aggressive,2021-08-09,165991.9,false,,1012.46,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,30
+WM-HH-00719,Lewis Family,Ethan Lewis,E-0143,BR-011,Premier,Growth,2016-07-28,2432533.64,true,2026-06-30,25296.44,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,9
+WM-HH-00720,Turner Family,Ines Turner,E-0168,BR-017,Core,Moderate,2010-05-16,579780.51,true,2025-07-05,4431.14,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,9
+WM-HH-00721,Campbell Family,Maya Campbell,E-0180,BR-010,Core,Growth,2022-05-09,110205.72,false,,1006.63,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,40
+WM-HH-00722,Campbell Family,Grace Campbell,E-0145,BR-001,Core,Moderate,2016-06-03,231933.69,false,,2096.42,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,30
+WM-HH-00723,Vaughn Family,Nora Vaughn,E-0169,BR-024,Core,Moderate,2019-05-09,144847.63,false,,1073.24,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,39
+WM-HH-00724,Roberts Family,Julian Roberts,E-0153,BR-022,Core,Moderate,2012-07-08,546819.92,false,,3591.72,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,33
+WM-HH-00725,Evans Family,Mei Evans,E-0167,BR-029,Premier,Conservative,2022-10-12,5815171.21,true,2026-04-19,41515.11,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,8
+WM-HH-00726,Silva Family,Iris Silva,E-0180,BR-010,Private Wealth,Conservative,2023-03-07,1435020.06,false,,10170.06,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,30
+WM-HH-00727,Chen Family,Ben Chen,E-0163,BR-009,Core,Growth,2011-03-20,567347.06,false,,4487.81,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,33
+WM-HH-00728,Parker Family,Iris Parker,E-0170,BR-008,Core,Aggressive,2015-03-12,262966.49,false,,1717.8,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,41
+WM-HH-00729,Morris Family,Felix Morris,E-0158,BR-027,Premier,Growth,2024-02-11,654995.27,false,,5506.01,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,34
+WM-HH-00730,Lopez Family,Ines Lopez,E-0159,BR-021,Premier,Aggressive,2022-06-26,2666627.44,false,,21642.61,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,36
+WM-HH-00731,Phillips Family,Andre Phillips,E-0169,BR-024,Core,Moderate,2015-05-06,141993.02,false,,1406.91,Priya Martinez,Team Delta,Cumulus AZ Branch 2,Mountain West,27
+WM-HH-00732,Lewis Family,Ava Lewis,E-0161,BR-025,Core,Growth,2018-06-09,63037.3,false,,611.76,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,31
+WM-HH-00733,Martinez Family,Owen Martinez,E-0143,BR-011,Premier,Moderate,2012-09-19,1609899.95,false,,14616.77,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,34
+WM-HH-00734,Chen Family,Emma Chen,E-0163,BR-009,Core,Growth,2020-09-25,78289.86,false,,684.9,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,42
+WM-HH-00735,Garcia Family,Nora Garcia,E-0151,BR-020,Core,Conservative,2011-06-05,258454.63,false,,2578.62,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,30
+WM-HH-00736,Miller Family,Diego Miller,E-0144,BR-027,Premier,Aggressive,2020-07-21,2742662.53,false,,25443.54,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,31
+WM-HH-00737,Taylor Family,Sara Taylor,E-0142,BR-009,Core,Moderate,2014-01-06,163930.88,false,,1371.03,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,35
+WM-HH-00738,Morris Family,Mateo Morris,E-0149,BR-019,Core,Moderate,2023-12-14,579910.27,false,,4226.4,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,37
+WM-HH-00739,Campbell Family,Amara Campbell,E-0143,BR-011,Private Wealth,Conservative,2016-04-29,10497172.54,false,,98117.97,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,40
+WM-HH-00740,Allen Family,Rosa Allen,E-0166,BR-007,Core,Moderate,2016-12-31,495169.6,false,,3709.58,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,33
+WM-HH-00741,Vaughn Family,Tom Vaughn,E-0159,BR-021,Core,Growth,2024-05-26,513757.08,false,,4073.94,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,34
+WM-HH-00742,Green Family,Ravi Green,E-0162,BR-019,Core,Aggressive,2021-09-23,628300.7,false,,4333.42,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,31
+WM-HH-00743,Chen Family,Priya Chen,E-0150,BR-009,Premier,Growth,2017-03-27,3534252.15,false,,33740.85,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,33
+WM-HH-00744,Nguyen Family,Maya Nguyen,E-0146,BR-021,Premier,Aggressive,2013-07-02,666933.45,false,,6364.23,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,37
+WM-HH-00745,Lewis Family,Kenji Lewis,E-0164,BR-015,Core,Growth,2010-08-22,140394.25,false,,1398.92,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,38
+WM-HH-00746,Davis Family,Isabella Davis,E-0168,BR-017,Private Wealth,Moderate,2022-11-13,10240782.49,false,,109738.56,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,39
+WM-HH-00747,Morris Family,Grace Morris,E-0141,BR-005,Core,Moderate,2016-11-29,257917.7,false,,2535.11,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,32
+WM-HH-00748,Johnson Family,Ben Johnson,E-0166,BR-007,Premier,Growth,2024-10-03,4887409.84,false,,42453.24,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,32
+WM-HH-00749,Mitchell Family,Iris Mitchell,E-0170,BR-008,Premier,Moderate,2018-12-25,626471.88,false,,4384.49,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,40
+WM-HH-00750,Silva Family,Noah Silva,E-0177,BR-024,Core,Conservative,2022-07-27,499163.63,false,,5249.43,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,37
+WM-HH-00751,Bailey Family,Iris Bailey,E-0157,BR-003,Premier,Growth,2024-10-30,625416.98,false,,3864.69,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,38
+WM-HH-00752,Thomas Family,Julian Thomas,E-0180,BR-010,Core,Growth,2017-02-09,929417.51,false,,9801.33,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,33
+WM-HH-00753,Collins Family,Aisha Collins,E-0147,BR-008,Core,Moderate,2023-03-01,363450.69,false,,3813.12,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,31
+WM-HH-00754,King Family,Layla King,E-0143,BR-011,Core,Moderate,2014-01-31,857149.1,false,,9075.99,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,34
+WM-HH-00755,Moore Family,Iris Moore,E-0165,BR-016,Core,Conservative,2022-07-03,505781.69,false,,5477.74,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,36
+WM-HH-00756,Parker Family,Sara Parker,E-0158,BR-027,Core,Moderate,2014-08-12,309493.46,false,,2125.51,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,38
+WM-HH-00757,Baker Family,Layla Baker,E-0153,BR-022,Core,Moderate,2021-06-12,144651.64,true,2025-06-28,916.46,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,7
+WM-HH-00758,Harris Family,Mei Harris,E-0145,BR-001,Core,Growth,2013-03-28,355498.91,false,,2493.16,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,37
+WM-HH-00759,Green Family,Leo Green,E-0160,BR-014,Premier,Moderate,2010-06-29,3493722.03,false,,29555.44,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,34
+WM-HH-00760,Adams Family,Diego Adams,E-0161,BR-025,Core,Moderate,2020-11-30,413696.07,false,,3810.81,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,36
+WM-HH-00761,Clark Family,Noah Clark,E-0144,BR-027,Premier,Conservative,2025-10-03,606680.16,false,,4842.52,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,36
+WM-HH-00762,Bailey Family,Ines Bailey,E-0168,BR-017,Core,Conservative,2015-03-15,1122444.96,false,,9610.66,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,32
+WM-HH-00763,Green Family,Ben Green,E-0176,BR-004,Core,Aggressive,2023-11-05,118104.9,false,,1045.66,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,30
+WM-HH-00764,Adams Family,Diego Adams,E-0176,BR-004,Premier,Growth,2022-09-28,1399860.12,false,,8737.74,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,37
+WM-HH-00765,Chen Family,Diego Chen,E-0158,BR-027,Premier,Moderate,2013-02-23,466731.33,false,,3373.66,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,36
+WM-HH-00766,Mitchell Family,Luis Mitchell,E-0161,BR-025,Core,Moderate,2025-03-05,305367.89,false,,2004.8,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,38
+WM-HH-00767,Johnson Family,Daniel Johnson,E-0161,BR-025,Premier,Aggressive,2011-02-25,2330939.65,false,,24039.28,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,33
+WM-HH-00768,Lopez Family,Henry Lopez,E-0152,BR-010,Core,Growth,2019-03-19,361825.92,false,,2515.16,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,36
+WM-HH-00769,Kim Family,Nina Kim,E-0143,BR-011,Core,Growth,2013-10-02,94085.46,false,,597.59,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,30
+WM-HH-00770,Kim Family,Victor Kim,E-0163,BR-009,Core,Aggressive,2020-06-22,580431.82,false,,4837.65,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,29
+WM-HH-00771,Green Family,Ravi Green,E-0179,BR-025,Core,Growth,2010-04-29,362082.23,false,,2238.11,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,42
+WM-HH-00772,Baker Family,Fatima Baker,E-0172,BR-008,Premier,Conservative,2025-05-21,2064061.27,false,,15433.65,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,35
+WM-HH-00773,Davis Family,Nina Davis,E-0161,BR-025,Core,Growth,2015-08-18,622121.52,false,,5224.73,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,33
+WM-HH-00774,Ashford Family,Isabella Ashford,E-0177,BR-024,Premier,Conservative,2010-12-02,2696135.89,false,,26793.56,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,41
+WM-HH-00775,Lopez Family,Andre Lopez,E-0153,BR-022,Core,Growth,2017-12-27,410338.85,false,,2648.29,Noah Baker,Team Delta,Cumulus UT Branch 2,Mountain West,35
+WM-HH-00776,Jackson Family,Kenji Jackson,E-0164,BR-015,Core,Moderate,2016-07-01,550363.92,false,,3317.97,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,36
+WM-HH-00777,Phillips Family,Julian Phillips,E-0150,BR-009,Core,Growth,2013-01-20,709884.1,false,,7261.35,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,34
+WM-HH-00778,White Family,Aisha White,E-0164,BR-015,Core,Moderate,2014-07-14,99865.48,true,2025-09-12,993.84,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,7
+WM-HH-00779,Collins Family,Iris Collins,E-0164,BR-015,Core,Moderate,2012-07-16,579064.09,false,,4888.56,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,34
+WM-HH-00780,Thomas Family,Sara Thomas,E-0145,BR-001,Core,Conservative,2014-05-25,769422.69,true,2026-03-10,7401.83,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,12
+WM-HH-00781,Wilson Family,Nina Wilson,E-0159,BR-021,Premier,Moderate,2024-11-16,2213182.16,false,,23376.57,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,33
+WM-HH-00782,Scott Family,Derek Scott,E-0141,BR-005,Core,Moderate,2016-11-27,142786.05,false,,914.89,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,33
+WM-HH-00783,Vaughn Family,Grace Vaughn,E-0162,BR-019,Core,Moderate,2017-12-07,368737.01,false,,2797.43,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,35
+WM-HH-00784,Wright Family,Luis Wright,E-0148,BR-008,Private Wealth,Moderate,2023-01-01,60000000,false,,378830.08,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,25
+WM-HH-00785,Scott Family,Andre Scott,E-0175,BR-015,Premier,Growth,2010-08-08,3710277.33,false,,36825.33,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,42
+WM-HH-00786,Lewis Family,Mateo Lewis,E-0177,BR-024,Premier,Moderate,2020-09-10,2939509.28,true,2025-06-09,27588.34,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,6
+WM-HH-00787,Anderson Family,Derek Anderson,E-0171,BR-016,Premier,Conservative,2022-04-05,1148697.79,false,,9169.68,Victor Evans,Team Alpha,Cumulus OH Branch 2,Midwest,40
+WM-HH-00788,Collins Family,Samuel Collins,E-0144,BR-027,Core,Moderate,2016-02-16,492495.69,false,,4061.22,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,43
+WM-HH-00789,Silva Family,Luis Silva,E-0141,BR-005,Core,Conservative,2016-05-16,601477.23,false,,5605.4,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,32
+WM-HH-00790,Walker Family,Nora Walker,E-0180,BR-010,Premier,Moderate,2023-02-02,1866970.47,false,,19863.22,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,33
+WM-HH-00791,Morris Family,Ava Morris,E-0164,BR-015,Core,Growth,2019-03-02,155234.59,false,,1084.86,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,34
+WM-HH-00792,Martinez Family,Daniel Martinez,E-0167,BR-029,Core,Conservative,2019-09-30,109592.95,false,,893.94,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,35
+WM-HH-00793,Phillips Family,Nina Phillips,E-0175,BR-015,Core,Moderate,2020-06-12,739879.95,false,,6612.08,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,34
+WM-HH-00794,Turner Family,Layla Turner,E-0141,BR-005,Private Wealth,Moderate,2017-07-16,12867598.27,false,,108683.44,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,33
+WM-HH-00795,Parker Family,Sofia Parker,E-0178,BR-024,Core,Growth,2011-12-10,1483058.14,false,,14285.9,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,38
+WM-HH-00796,Anderson Family,Leo Anderson,E-0149,BR-019,Private Wealth,Aggressive,2018-09-09,16387159.79,false,,146299.53,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,29
+WM-HH-00797,Parker Family,Andre Parker,E-0150,BR-009,Premier,Growth,2014-10-18,5158477.59,false,,53239.06,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,32
+WM-HH-00798,Martinez Family,Layla Martinez,E-0149,BR-019,Premier,Moderate,2016-01-20,578710.94,false,,4259.54,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,37
+WM-HH-00799,Okafor Family,Mateo Okafor,E-0152,BR-010,Core,Moderate,2011-04-20,367682.13,false,,2291.49,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,39
+WM-HH-00800,Martinez Family,Lauren Martinez,E-0164,BR-015,Core,Moderate,2023-11-09,1109099.8,false,,8593.96,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,35
+WM-HH-00801,Evans Family,Fatima Evans,E-0159,BR-021,Core,Moderate,2017-09-04,439608.86,false,,2845.11,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,35
+WM-HH-00802,Thomas Family,Daniel Thomas,E-0141,BR-005,Premier,Conservative,2020-12-17,3486908.23,false,,38021.7,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,33
+WM-HH-00803,Stewart Family,Jamal Stewart,E-0151,BR-020,Core,Conservative,2017-05-01,287563.19,false,,2149.47,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,31
+WM-HH-00804,Ashford Family,Ava Ashford,E-0142,BR-009,Core,Growth,2020-06-13,289866.75,false,,2711.69,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,32
+WM-HH-00805,Ashford Family,Fatima Ashford,E-0170,BR-008,Premier,Aggressive,2016-12-15,1134217.19,false,,7143.82,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,42
+WM-HH-00806,Walker Family,Chloe Walker,E-0167,BR-029,Core,Conservative,2025-10-03,759201.54,false,,6006.32,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,37
+WM-HH-00807,Carter Family,Ava Carter,E-0174,BR-012,Core,Moderate,2024-04-21,461914.35,true,2026-03-06,3830.81,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,14
+WM-HH-00808,Vaughn Family,Iris Vaughn,E-0162,BR-019,Core,Growth,2011-10-16,686867.04,true,2026-01-20,7332.47,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,12
+WM-HH-00809,Thomas Family,Zara Thomas,E-0143,BR-011,Core,Growth,2012-02-12,587720.57,false,,3702.88,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,32
+WM-HH-00810,Chen Family,Elena Chen,E-0152,BR-010,Premier,Growth,2019-02-14,2408116.17,false,,20482.54,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,33
+WM-HH-00811,Allen Family,Carlos Allen,E-0164,BR-015,Premier,Growth,2012-04-29,1306081.97,false,,9564.2,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,36
+WM-HH-00812,Jackson Family,Zara Jackson,E-0162,BR-019,Premier,Moderate,2021-10-07,2310695.81,false,,19958.84,Owen Edwards,Team Charlie,Cumulus CO Branch 1,Mountain West,30
+WM-HH-00813,Nguyen Family,Chloe Nguyen,E-0141,BR-005,Premier,Aggressive,2024-09-20,2547014.57,false,,20872.79,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,32
+WM-HH-00814,Vaughn Family,Mei Vaughn,E-0152,BR-010,Core,Moderate,2020-09-05,287857.3,false,,3014.41,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,34
+WM-HH-00815,Young Family,Ethan Young,E-0143,BR-011,Core,Conservative,2020-11-02,194507.51,false,,1560.29,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,38
+WM-HH-00816,Carter Family,Ethan Carter,E-0156,BR-012,Premier,Growth,2021-05-29,8253448.79,false,,72492.57,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,33
+WM-HH-00817,Morris Family,Victor Morris,E-0148,BR-008,Core,Moderate,2014-06-05,556575.83,false,,5767.28,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,25
+WM-HH-00818,Young Family,Diego Young,E-0170,BR-008,Core,Aggressive,2016-07-25,865354.11,false,,6459.61,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,40
+WM-HH-00819,Morris Family,Daniel Morris,E-0152,BR-010,Core,Conservative,2024-05-19,335421.69,false,,2788.91,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,38
+WM-HH-00820,Collins Family,Nina Collins,E-0150,BR-009,Core,Aggressive,2021-02-21,226962.94,false,,2339.61,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,34
+WM-HH-00821,Garcia Family,Layla Garcia,E-0159,BR-021,Private Wealth,Moderate,2012-01-19,29571231.55,false,,306153.37,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,33
+WM-HH-00822,Roberts Family,Nina Roberts,E-0142,BR-009,Premier,Growth,2024-05-12,2704230.77,false,,17438.57,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,39
+WM-HH-00823,Brown Family,Leo Brown,E-0148,BR-008,Core,Moderate,2023-03-21,1501103.5,false,,11766.52,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,37
+WM-HH-00824,Campbell Family,Jonathan Campbell,E-0144,BR-027,Premier,Conservative,2012-06-09,4331570.49,false,,34893.5,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,41
+WM-HH-00825,Brown Family,Ethan Brown,E-0157,BR-003,Premier,Growth,2025-01-31,1647995.89,false,,11289.8,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,39
+WM-HH-00826,Stewart Family,Fatima Stewart,E-0176,BR-004,Premier,Conservative,2022-12-31,2632900.44,false,,28096.53,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,37
+WM-HH-00827,Johnson Family,Noah Johnson,E-0144,BR-027,Core,Conservative,2014-10-05,85757.41,false,,800.06,Luis Stewart,Team Charlie,Cumulus WA Branch 1,Pacific,40
+WM-HH-00828,Okafor Family,Felix Okafor,E-0141,BR-005,Core,Growth,2023-01-03,106142.2,false,,754.82,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,30
+WM-HH-00829,Walker Family,Sara Walker,E-0175,BR-015,Private Wealth,Conservative,2016-08-22,8257421.41,false,,85351.13,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,38
+WM-HH-00830,Lopez Family,Isabella Lopez,E-0146,BR-021,Core,Moderate,2018-10-04,197471.68,false,,1822.93,Chloe Davis,Team Alpha,Cumulus UT Branch 1,Mountain West,32
+WM-HH-00831,Scott Family,Nora Scott,E-0149,BR-019,Premier,Moderate,2021-10-24,2693561.62,false,,24774.94,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,34
+WM-HH-00832,Evans Family,Noah Evans,E-0156,BR-012,Core,Moderate,2015-11-05,314665.39,false,,2882.31,Ava Ashford,Team Delta,Cumulus NC Branch 2,Southeast,38
+WM-HH-00833,Miller Family,Hannah Miller,E-0151,BR-020,Core,Conservative,2019-05-22,907028.83,false,,8606.18,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,35
+WM-HH-00834,Phillips Family,Marcus Phillips,E-0150,BR-009,Core,Conservative,2016-10-24,267482.42,false,,1735.15,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,37
+WM-HH-00835,Moore Family,Tom Moore,E-0165,BR-016,Core,Growth,2012-02-12,265409.44,false,,2555.11,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,34
+WM-HH-00836,Silva Family,Nora Silva,E-0160,BR-014,Core,Moderate,2018-12-03,151544.73,false,,1532.26,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,30
+WM-HH-00837,Nelson Family,Chloe Nelson,E-0167,BR-029,Premier,Growth,2021-04-19,1197876.06,false,,9522.57,Jamal Wilson,Team Charlie,Cumulus OR Branch 1,Pacific,35
+WM-HH-00838,Evans Family,Owen Evans,E-0145,BR-001,Premier,Growth,2013-02-03,2170324.03,false,,15851.48,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,30
+WM-HH-00839,Johnson Family,Kenji Johnson,E-0168,BR-017,Premier,Aggressive,2012-03-22,1160176.65,false,,8335.58,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,37
+WM-HH-00840,Evans Family,Jonathan Evans,E-0164,BR-015,Core,Moderate,2016-12-25,124095.97,false,,837.64,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,31
+WM-HH-00841,Young Family,Grace Young,E-0158,BR-027,Core,Growth,2013-03-25,206553.29,false,,1282.0,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,32
+WM-HH-00842,Young Family,Noah Young,E-0145,BR-001,Private Wealth,Growth,2023-09-17,30119156.44,false,,225293.95,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,31
+WM-HH-00843,Nguyen Family,Ben Nguyen,E-0165,BR-016,Core,Growth,2021-04-05,343788.48,false,,3072.59,Jamal Vaughn,Team Charlie,Cumulus OH Branch 2,Midwest,37
+WM-HH-00844,Roberts Family,Rosa Roberts,E-0148,BR-008,Premier,Aggressive,2024-02-20,1294320.22,false,,7922.53,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,37
+WM-HH-00845,Patel Family,Marcus Patel,E-0145,BR-001,Core,Moderate,2021-09-20,332384.54,false,,2750.24,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,42
+WM-HH-00846,Mitchell Family,Daniel Mitchell,E-0178,BR-024,Premier,Aggressive,2025-12-29,1985616.75,false,,19561.87,Carlos Miller,Team Charlie,Cumulus AZ Branch 2,Mountain West,33
+WM-HH-00847,Ashford Family,Mei Ashford,E-0159,BR-021,Premier,Growth,2012-03-06,2241935.53,false,,20461.62,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,33
+WM-HH-00848,Vaughn Family,Layla Vaughn,E-0175,BR-015,Premier,Conservative,2017-10-12,1536673.87,true,2026-01-10,15640.78,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,4
+WM-HH-00849,Thomas Family,Ines Thomas,E-0151,BR-020,Private Wealth,Conservative,2011-02-27,6203218.32,false,,40578.42,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,33
+WM-HH-00850,Baker Family,Jamal Baker,E-0175,BR-015,Core,Growth,2023-02-03,1452529.15,false,,14563.26,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,40
+WM-HH-00851,Lopez Family,Wei Lopez,E-0157,BR-003,Premier,Growth,2010-05-19,3600231.08,false,,38106.19,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,37
+WM-HH-00852,Scott Family,Amara Scott,E-0160,BR-014,Core,Growth,2021-07-29,781532.23,false,,4704.49,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,33
+WM-HH-00853,Patel Family,Amara Patel,E-0180,BR-010,Core,Growth,2019-06-06,389740.94,false,,3061.39,Sofia Johnson,Team Charlie,Cumulus GA Branch 2,Southeast,31
+WM-HH-00854,Ashford Family,Marcus Ashford,E-0143,BR-011,Core,Moderate,2020-07-12,506905.6,false,,3249.1,Naomi Allen,Team Delta,Cumulus NC Branch 1,Southeast,37
+WM-HH-00855,Edwards Family,Luis Edwards,E-0174,BR-012,Core,Conservative,2019-06-17,102088.11,true,2025-08-21,708.96,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,8
+WM-HH-00856,Lopez Family,Wei Lopez,E-0151,BR-020,Core,Growth,2014-06-10,290235.24,false,,2084.97,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,42
+WM-HH-00857,Evans Family,Elena Evans,E-0176,BR-004,Core,Moderate,2022-01-20,1080398.6,false,,6826.92,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,35
+WM-HH-00858,Campbell Family,Emma Campbell,E-0160,BR-014,Premier,Growth,2022-12-16,937221.24,false,,6628.05,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,35
+WM-HH-00859,Vaughn Family,Zara Vaughn,E-0141,BR-005,Core,Growth,2014-02-03,408143.92,false,,2936.86,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,30
+WM-HH-00860,Roberts Family,Olivia Roberts,E-0158,BR-027,Core,Moderate,2020-03-23,226818.1,false,,2160.52,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,44
+WM-HH-00861,Morris Family,Jonathan Morris,E-0172,BR-008,Core,Moderate,2021-09-26,405323.67,false,,2957.33,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,39
+WM-HH-00862,Wright Family,Grace Wright,E-0166,BR-007,Core,Conservative,2023-09-28,145902.53,false,,1601.19,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,37
+WM-HH-00863,Mitchell Family,Emma Mitchell,E-0176,BR-004,Core,Growth,2013-11-20,65597.51,false,,627.13,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,37
+WM-HH-00864,Mitchell Family,Hannah Mitchell,E-0175,BR-015,Premier,Growth,2024-02-23,3386721.3,true,2026-02-04,30306.34,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,7
+WM-HH-00865,Lopez Family,Samuel Lopez,E-0157,BR-003,Premier,Conservative,2016-09-10,2468364.09,false,,21239.28,Amara White,Team Charlie,Cumulus MA Branch 1,Northeast,42
+WM-HH-00866,Allen Family,Marcus Allen,E-0159,BR-021,Core,Moderate,2020-01-29,375133.02,false,,3226.13,Owen White,Team Delta,Cumulus UT Branch 1,Mountain West,34
+WM-HH-00867,Garcia Family,Victor Garcia,E-0177,BR-024,Core,Moderate,2021-10-10,948949.09,false,,8218.41,Isabella Okafor,Team Bravo,Cumulus AZ Branch 2,Mountain West,31
+WM-HH-00868,Phillips Family,Priya Phillips,E-0145,BR-001,Core,Moderate,2019-04-26,74264.67,true,2026-08-25,478.15,Priya Young,Team Alpha,Cumulus NY Branch 1,Northeast,8
+WM-HH-00869,Harris Family,Julian Harris,E-0173,BR-019,Premier,Conservative,2015-11-04,1497994.82,false,,13275.88,Noah Phillips,Team Delta,Cumulus CO Branch 1,Mountain West,32
+WM-HH-00870,Jackson Family,Tom Jackson,E-0158,BR-027,Core,Moderate,2021-10-20,574118.6,false,,5079.02,Lauren Lewis,Team Alpha,Cumulus WA Branch 1,Pacific,36
+WM-HH-00871,Edwards Family,Grace Edwards,E-0166,BR-007,Core,Growth,2017-06-16,189744.15,false,,1477.63,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,44
+WM-HH-00872,Ruiz Family,Rosa Ruiz,E-0152,BR-010,Core,Aggressive,2020-01-13,572074.68,false,,5012.49,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,39
+WM-HH-00873,Taylor Family,Priya Taylor,E-0160,BR-014,Premier,Growth,2019-11-01,1980515.55,false,,17049.52,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,38
+WM-HH-00874,Phillips Family,Yuki Phillips,E-0164,BR-015,Premier,Conservative,2026-02-03,4724839.98,false,,45493.08,Olivia Stewart,Team Delta,Cumulus OH Branch 1,Midwest,38
+WM-HH-00875,Campbell Family,Diego Campbell,E-0161,BR-025,Core,Conservative,2026-02-21,383306.58,false,,2603.16,Julian Green,Team Delta,Cumulus CA Branch 1,Pacific,38
+WM-HH-00876,Ashford Family,Priya Ashford,E-0179,BR-025,Premier,Moderate,2010-08-02,1536217.68,false,,9538.92,Sara Nelson,Team Charlie,Cumulus CA Branch 1,Pacific,37
+WM-HH-00877,Parker Family,Henry Parker,E-0152,BR-010,Premier,Growth,2026-05-14,4844589.51,false,,34752.66,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,37
+WM-HH-00878,King Family,Ava King,E-0151,BR-020,Premier,Aggressive,2025-06-02,3431776.15,false,,21286.2,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,41
+WM-HH-00879,Roberts Family,Tom Roberts,E-0160,BR-014,Premier,Moderate,2014-06-12,2047881.34,false,,18012.81,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,37
+WM-HH-00880,Mitchell Family,Sara Mitchell,E-0174,BR-012,Private Wealth,Growth,2024-08-30,7677915.07,false,,67636.9,Kenji Scott,Team Charlie,Cumulus NC Branch 2,Southeast,32
+WM-HH-00881,Nelson Family,Elena Nelson,E-0148,BR-008,Core,Growth,2019-09-22,337156.1,false,,2512.51,Julian Silva,Team Delta,Cumulus FL Branch 2,Southeast,37
+WM-HH-00882,Vaughn Family,Yuki Vaughn,E-0166,BR-007,Core,Aggressive,2011-05-04,195612.49,false,,1889.11,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,36
+WM-HH-00883,Chen Family,Owen Chen,E-0150,BR-009,Core,Aggressive,2018-06-27,557941.74,false,,6057.84,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,33
+WM-HH-00884,Okafor Family,Zara Okafor,E-0150,BR-009,Premier,Growth,2010-03-19,5949421.06,false,,39902.53,Henry Parker,Team Charlie,Cumulus GA Branch 1,Southeast,37
+WM-HH-00885,Johnson Family,Nora Johnson,E-0175,BR-015,Core,Growth,2020-05-09,953022.22,false,,6994.14,Chloe Parker,Team Charlie,Cumulus OH Branch 1,Midwest,36
+WM-HH-00886,Mitchell Family,Mei Mitchell,E-0168,BR-017,Core,Moderate,2010-03-26,155629.21,false,,1569.87,Kenji Bailey,Team Bravo,Cumulus MN Branch 1,Midwest,37
+WM-HH-00887,Young Family,Ethan Young,E-0160,BR-014,Core,Growth,2020-08-06,229466.34,false,,2033.69,Diego Silva,Team Charlie,Cumulus IL Branch 2,Midwest,37
+WM-HH-00888,Kim Family,Victor Kim,E-0147,BR-008,Private Wealth,Growth,2024-07-29,17705618.09,false,,141819.54,Yuki Vaughn,Team Alpha,Cumulus FL Branch 2,Southeast,36
+WM-HH-00889,Ruiz Family,Wei Ruiz,E-0166,BR-007,Premier,Growth,2018-11-02,2844006.07,false,,30186.64,Wei King,Team Charlie,Cumulus FL Branch 1,Southeast,36
+WM-HH-00890,Clark Family,Fatima Clark,E-0170,BR-008,Core,Conservative,2025-01-04,278241.61,false,,2021.72,Kenji Stewart,Team Delta,Cumulus FL Branch 2,Southeast,35
+WM-HH-00891,Harris Family,Yuki Harris,E-0163,BR-009,Core,Moderate,2022-11-10,644696.48,false,,6179.62,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,34
+WM-HH-00892,Ashford Family,Ethan Ashford,E-0142,BR-009,Core,Moderate,2014-06-29,527017.15,false,,3452.68,Wei Ruiz,Team Charlie,Cumulus GA Branch 1,Southeast,33
+WM-HH-00893,Phillips Family,Marcus Phillips,E-0151,BR-020,Core,Growth,2012-11-09,305543.06,false,,2116.55,Grace Carter,Team Alpha,Cumulus CO Branch 2,Mountain West,31
+WM-HH-00894,Parker Family,Fatima Parker,E-0172,BR-008,Core,Aggressive,2019-09-27,538174.49,false,,4728.76,Priya Anderson,Team Bravo,Cumulus FL Branch 2,Southeast,33
+WM-HH-00895,Lewis Family,Victor Lewis,E-0141,BR-005,Premier,Growth,2017-12-16,1594064.72,false,,13005.75,Victor Walker,Team Delta,Cumulus CT Branch 1,Northeast,45
+WM-HH-00896,Miller Family,Carlos Miller,E-0149,BR-019,Premier,Growth,2016-10-25,1237044.55,false,,9021.85,Amara Okafor,Team Bravo,Cumulus CO Branch 1,Mountain West,32
+WM-HH-00897,Collins Family,Diego Collins,E-0163,BR-009,Premier,Moderate,2018-11-01,1070134.83,false,,6772.09,Olivia Patel,Team Delta,Cumulus GA Branch 1,Southeast,36
+WM-HH-00898,Anderson Family,Leo Anderson,E-0155,BR-025,Premier,Moderate,2013-06-25,2275260.11,false,,19749.69,Sofia Parker,Team Alpha,Cumulus CA Branch 1,Pacific,34
+WM-HH-00899,Brown Family,Maya Brown,E-0152,BR-010,Core,Growth,2018-08-19,771394.71,false,,8389.74,Nina Brown,Team Alpha,Cumulus GA Branch 2,Southeast,40
+WM-HH-00900,Thomas Family,Luis Thomas,E-0176,BR-004,Private Wealth,Moderate,2010-07-15,6806921.58,false,,70333.0,Hannah Davis,Team Bravo,Cumulus MA Branch 2,Northeast,38

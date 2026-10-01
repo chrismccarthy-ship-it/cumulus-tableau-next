@@ -1,0 +1,237 @@
+{
+  "name": "LN_Service_Cases_DS",
+  "label": "LN Service Cases DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "CaseId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ApplicationId"
+    },
+    {
+      "dataType": "Date",
+      "name": "CreatedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "CaseType"
+    },
+    {
+      "dataType": "Text",
+      "name": "Channel"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Number",
+      "name": "HandleTimeMinutes"
+    },
+    {
+      "dataType": "Text",
+      "name": "AgentId"
+    },
+    {
+      "dataType": "Number",
+      "name": "CSAT"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "AgentforceHandled"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProductName"
+    },
+    {
+      "dataType": "Text",
+      "name": "LoanOfficerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "AgentName"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.LN_Service_Cases_DLO.Name}",
+    "label": "LN Service Cases DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "CaseId",
+        "label": "Case ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ApplicationId",
+        "label": "Application ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CreatedDate",
+        "label": "Created Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CaseType",
+        "label": "Case Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Channel",
+        "label": "Channel"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "HandleTimeMinutes",
+        "label": "Handle Time Minutes"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AgentId",
+        "label": "Agent ID"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CSAT",
+        "label": "CSAT"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "AgentforceHandled",
+        "label": "Agentforce Handled"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProductName",
+        "label": "Product Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LoanOfficerName",
+        "label": "Loan Officer Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AgentName",
+        "label": "Agent Name"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "CaseId",
+      "targetFieldName": "CaseId"
+    },
+    {
+      "sourceFieldLabel": "ApplicationId",
+      "targetFieldName": "ApplicationId"
+    },
+    {
+      "sourceFieldLabel": "CreatedDate",
+      "targetFieldName": "CreatedDate"
+    },
+    {
+      "sourceFieldLabel": "CaseType",
+      "targetFieldName": "CaseType"
+    },
+    {
+      "sourceFieldLabel": "Channel",
+      "targetFieldName": "Channel"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "HandleTimeMinutes",
+      "targetFieldName": "HandleTimeMinutes"
+    },
+    {
+      "sourceFieldLabel": "AgentId",
+      "targetFieldName": "AgentId"
+    },
+    {
+      "sourceFieldLabel": "CSAT",
+      "targetFieldName": "CSAT"
+    },
+    {
+      "sourceFieldLabel": "AgentforceHandled",
+      "targetFieldName": "AgentforceHandled"
+    },
+    {
+      "sourceFieldLabel": "ProductName",
+      "targetFieldName": "ProductName"
+    },
+    {
+      "sourceFieldLabel": "LoanOfficerName",
+      "targetFieldName": "LoanOfficerName"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "AgentName",
+      "targetFieldName": "AgentName"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.LN_Service_Cases_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.LN_Service_Cases_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.LN_Service_Cases_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.LN_Service_Cases_CSV.FileType}"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "INS_Clock_DS",
+  "label": "INS Clock DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Number",
+      "name": "Tick"
+    },
+    {
+      "dataType": "Text",
+      "name": "Note"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.INS_Clock_DLO.Name}",
+    "label": "INS Clock DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Number",
+        "isPrimaryKey": true,
+        "name": "Tick",
+        "label": "Tick"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Note",
+        "label": "Note"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "Tick",
+      "targetFieldName": "Tick"
+    },
+    {
+      "sourceFieldLabel": "Note",
+      "targetFieldName": "Note"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.INS_Clock_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.INS_Clock_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.INS_Clock_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.INS_Clock_CSV.FileType}"
+  }
+}

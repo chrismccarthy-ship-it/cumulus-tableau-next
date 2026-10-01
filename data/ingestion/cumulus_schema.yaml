@@ -1,0 +1,858 @@
+openapi: 3.0.3
+components:
+  schemas:
+    cumulus_branches:
+      type: object
+      properties:
+        BranchId:
+          type: string
+        BranchName:
+          type: string
+        Region:
+          type: string
+        State:
+          type: string
+        BranchType:
+          type: string
+    cumulus_employees:
+      type: object
+      properties:
+        EmployeeId:
+          type: string
+        EmployeeName:
+          type: string
+        Role:
+          type: string
+        BranchId:
+          type: string
+        HireDate:
+          type: string
+          format: date
+        Team:
+          type: string
+    rb_households:
+      type: object
+      properties:
+        HouseholdId:
+          type: string
+        HouseholdName:
+          type: string
+        Segment:
+          type: string
+        BranchId:
+          type: string
+        PrimaryBankerId:
+          type: string
+        RelationshipStartDate:
+          type: string
+          format: date
+        DigitalActive:
+          type: boolean
+        NPS:
+          type: number
+    rb_customers:
+      type: object
+      properties:
+        CustomerId:
+          type: string
+        HouseholdId:
+          type: string
+        FirstName:
+          type: string
+        LastName:
+          type: string
+        Age:
+          type: number
+        IsPrimary:
+          type: boolean
+        PreferredChannel:
+          type: string
+    rb_financial_accounts:
+      type: object
+      properties:
+        FinancialAccountId:
+          type: string
+        HouseholdId:
+          type: string
+        PrimaryOwnerId:
+          type: string
+        FinancialAccountType:
+          type: string
+        Status:
+          type: string
+        OpenDate:
+          type: string
+          format: date
+        Balance:
+          type: number
+        BranchId:
+          type: string
+        ProductName:
+          type: string
+    rb_financial_account_transactions:
+      type: object
+      properties:
+        TransactionId:
+          type: string
+        FinancialAccountId:
+          type: string
+        TransactionDate:
+          type: string
+          format: date-time
+        Amount:
+          type: number
+        TransactionType:
+          type: string
+        Merchant:
+          type: string
+        Category:
+          type: string
+        Channel:
+          type: string
+        IsDisputed:
+          type: boolean
+    rb_service_cases:
+      type: object
+      properties:
+        CaseId:
+          type: string
+        CustomerId:
+          type: string
+        FinancialAccountId:
+          type: string
+        CreatedDate:
+          type: string
+          format: date-time
+        ClosedDate:
+          type: string
+          format: date-time
+        Channel:
+          type: string
+        CaseType:
+          type: string
+        SubType:
+          type: string
+        Status:
+          type: string
+        Priority:
+          type: string
+        FirstContactResolution:
+          type: boolean
+        CSAT:
+          type: number
+        HandleTimeMinutes:
+          type: number
+        BranchId:
+          type: string
+        AgentId:
+          type: string
+        AgentforceHandled:
+          type: boolean
+    wm_securities:
+      type: object
+      properties:
+        SecurityId:
+          type: string
+        Symbol:
+          type: string
+        SecurityName:
+          type: string
+        AssetClass:
+          type: string
+        CurrentPrice:
+          type: number
+    wm_households:
+      type: object
+      properties:
+        HouseholdId:
+          type: string
+        HouseholdName:
+          type: string
+        PrimaryClientName:
+          type: string
+        AdvisorId:
+          type: string
+        BranchId:
+          type: string
+        ServiceTier:
+          type: string
+        RiskProfile:
+          type: string
+        RelationshipStartDate:
+          type: string
+          format: date
+        AUM:
+          type: number
+        Churned:
+          type: boolean
+        ChurnDate:
+          type: string
+          format: date
+        AnnualRevenue:
+          type: number
+    wm_financial_accounts:
+      type: object
+      properties:
+        FinancialAccountId:
+          type: string
+        HouseholdId:
+          type: string
+        FinancialAccountType:
+          type: string
+        Custodian:
+          type: string
+        Status:
+          type: string
+        OpenDate:
+          type: string
+          format: date
+        MarketValue:
+          type: number
+        ProductName:
+          type: string
+    wm_financial_holdings:
+      type: object
+      properties:
+        HoldingId:
+          type: string
+        FinancialAccountId:
+          type: string
+        SecurityId:
+          type: string
+        Symbol:
+          type: string
+        AssetClass:
+          type: string
+        Shares:
+          type: number
+        Price:
+          type: number
+        MarketValue:
+          type: number
+        CostBasis:
+          type: number
+        AsOfDate:
+          type: string
+          format: date
+    wm_financial_goals:
+      type: object
+      properties:
+        GoalId:
+          type: string
+        HouseholdId:
+          type: string
+        GoalType:
+          type: string
+        GoalName:
+          type: string
+        TargetValue:
+          type: number
+        ActualValue:
+          type: number
+        TargetDate:
+          type: string
+          format: date
+        Status:
+          type: string
+    wm_interactions:
+      type: object
+      properties:
+        InteractionId:
+          type: string
+        HouseholdId:
+          type: string
+        AdvisorId:
+          type: string
+        InteractionDate:
+          type: string
+          format: date-time
+        InteractionType:
+          type: string
+        DurationMinutes:
+          type: number
+        Sentiment:
+          type: string
+        SummaryGeneratedByAI:
+          type: boolean
+    wm_net_flows:
+      type: object
+      properties:
+        FlowId:
+          type: string
+        HouseholdId:
+          type: string
+        AdvisorId:
+          type: string
+        FlowMonth:
+          type: string
+          format: date
+        NetFlow:
+          type: number
+        Inflow:
+          type: number
+        Outflow:
+          type: number
+    am_clients:
+      type: object
+      properties:
+        ClientId:
+          type: string
+        ClientName:
+          type: string
+        ClientType:
+          type: string
+        Region:
+          type: string
+        RelationshipManagerId:
+          type: string
+        ServiceAssociateId:
+          type: string
+        OnboardedDate:
+          type: string
+          format: date
+        ClientTier:
+          type: string
+    am_mandates:
+      type: object
+      properties:
+        MandateId:
+          type: string
+        ClientId:
+          type: string
+        Strategy:
+          type: string
+        Vehicle:
+          type: string
+        AUM:
+          type: number
+        FeeRateBps:
+          type: number
+        InceptionDate:
+          type: string
+          format: date
+        Benchmark:
+          type: string
+        Status:
+          type: string
+    am_mandate_flows:
+      type: object
+      properties:
+        FlowId:
+          type: string
+        MandateId:
+          type: string
+        ClientId:
+          type: string
+        FlowMonth:
+          type: string
+          format: date
+        NetFlow:
+          type: number
+        MarketReturnPct:
+          type: number
+        EndingAUM:
+          type: number
+    am_financial_deals:
+      type: object
+      properties:
+        DealId:
+          type: string
+        DealName:
+          type: string
+        ClientId:
+          type: string
+        Stage:
+          type: string
+        Amount:
+          type: number
+        CreatedDate:
+          type: string
+          format: date
+        CloseDate:
+          type: string
+          format: date
+        OwnerId:
+          type: string
+        Source:
+          type: string
+        IsWon:
+          type: boolean
+    am_service_requests:
+      type: object
+      properties:
+        RequestId:
+          type: string
+        ClientId:
+          type: string
+        AssociateId:
+          type: string
+        RequestType:
+          type: string
+        CreatedDate:
+          type: string
+          format: date-time
+        ClosedDate:
+          type: string
+          format: date-time
+        Status:
+          type: string
+        SLADays:
+          type: number
+        CycleTimeDays:
+          type: number
+        SLABreached:
+          type: boolean
+        Channel:
+          type: string
+        Priority:
+          type: string
+    ins_producers:
+      type: object
+      properties:
+        ProducerId:
+          type: string
+        ProducerName:
+          type: string
+        ProducerType:
+          type: string
+        Region:
+          type: string
+        AppointedDate:
+          type: string
+          format: date
+    ins_policies:
+      type: object
+      properties:
+        PolicyId:
+          type: string
+        PolicyNumber:
+          type: string
+        NamedInsured:
+          type: string
+        LineOfBusiness:
+          type: string
+        PolicyType:
+          type: string
+        ProducerId:
+          type: string
+        State:
+          type: string
+        EffectiveDate:
+          type: string
+          format: date
+        ExpirationDate:
+          type: string
+          format: date
+        Status:
+          type: string
+        AnnualPremium:
+          type: number
+        Carrier:
+          type: string
+        RenewalOfferSent:
+          type: boolean
+        IsRenewed:
+          type: boolean
+    ins_claims:
+      type: object
+      properties:
+        ClaimId:
+          type: string
+        ClaimNumber:
+          type: string
+        PolicyId:
+          type: string
+        ClaimType:
+          type: string
+        LossDate:
+          type: string
+          format: date
+        ReportDate:
+          type: string
+          format: date
+        FinalizedDate:
+          type: string
+          format: date
+        Status:
+          type: string
+        ReserveAmount:
+          type: number
+        PaidAmount:
+          type: number
+        CycleTimeDays:
+          type: number
+        AdjusterId:
+          type: string
+        CatastropheCode:
+          type: string
+        FNOLChannel:
+          type: string
+        IsLitigated:
+          type: boolean
+    ins_claim_cases:
+      type: object
+      properties:
+        CaseId:
+          type: string
+        ClaimId:
+          type: string
+        PolicyId:
+          type: string
+        CreatedDate:
+          type: string
+          format: date-time
+        CaseType:
+          type: string
+        Channel:
+          type: string
+        Status:
+          type: string
+        HandleTimeMinutes:
+          type: number
+        CSAT:
+          type: number
+        AgentforceHandled:
+          type: boolean
+    cb_business_accounts:
+      type: object
+      properties:
+        BusinessAccountId:
+          type: string
+        BusinessName:
+          type: string
+        Industry:
+          type: string
+        Segment:
+          type: string
+        AnnualRevenue:
+          type: number
+        RelationshipManagerId:
+          type: string
+        Region:
+          type: string
+        RelationshipStartDate:
+          type: string
+          format: date
+        PrimaryOperatingAccount:
+          type: boolean
+        RelationshipProfitability:
+          type: number
+    cb_financial_deals:
+      type: object
+      properties:
+        DealId:
+          type: string
+        DealName:
+          type: string
+        BusinessAccountId:
+          type: string
+        Stage:
+          type: string
+        Amount:
+          type: number
+        Product:
+          type: string
+        CreatedDate:
+          type: string
+          format: date
+        CloseDate:
+          type: string
+          format: date
+        OwnerId:
+          type: string
+        IsWon:
+          type: boolean
+    cb_credit_facilities:
+      type: object
+      properties:
+        FacilityId:
+          type: string
+        BusinessAccountId:
+          type: string
+        FacilityType:
+          type: string
+        CommitmentAmount:
+          type: number
+        OutstandingBalance:
+          type: number
+        UtilizationPct:
+          type: number
+        RiskRating:
+          type: string
+        MaturityDate:
+          type: string
+          format: date
+        CovenantUtilizationMax:
+          type: number
+    cb_treasury_enrollments:
+      type: object
+      properties:
+        EnrollmentId:
+          type: string
+        BusinessAccountId:
+          type: string
+        ProductName:
+          type: string
+        EnrolledDate:
+          type: string
+          format: date
+        MonthlyVolume:
+          type: number
+        Status:
+          type: string
+    cb_referrals:
+      type: object
+      properties:
+        ReferralId:
+          type: string
+        BusinessAccountId:
+          type: string
+        ReferralSource:
+          type: string
+        ReferredProduct:
+          type: string
+        ReferralDate:
+          type: string
+          format: date
+        Status:
+          type: string
+        EstimatedValue:
+          type: number
+    cb_onboarding:
+      type: object
+      properties:
+        OnboardingId:
+          type: string
+        BusinessAccountId:
+          type: string
+        OnboardingType:
+          type: string
+        StartDate:
+          type: string
+          format: date
+        CompletedDate:
+          type: string
+          format: date
+        CycleTimeDays:
+          type: number
+        HasTreasuryProducts:
+          type: boolean
+        DocumentsRequested:
+          type: number
+        Status:
+          type: string
+    cb_service_cases:
+      type: object
+      properties:
+        CaseId:
+          type: string
+        BusinessAccountId:
+          type: string
+        CreatedDate:
+          type: string
+          format: date-time
+        CaseType:
+          type: string
+        Channel:
+          type: string
+        Status:
+          type: string
+        HandleTimeMinutes:
+          type: number
+        AgentId:
+          type: string
+        CSAT:
+          type: number
+        AgentforceHandled:
+          type: boolean
+    fa_book_of_business:
+      type: object
+      properties:
+        ClientHouseholdId:
+          type: string
+        HouseholdName:
+          type: string
+        PrimaryContactName:
+          type: string
+        AdvisorId:
+          type: string
+        BranchId:
+          type: string
+        AUM:
+          type: number
+        RiskProfile:
+          type: string
+        LifeStage:
+          type: string
+        ClientSince:
+          type: string
+          format: date
+        LastReviewDate:
+          type: string
+          format: date
+        ProductsHeld:
+          type: number
+    fa_activities:
+      type: object
+      properties:
+        ActivityId:
+          type: string
+        ClientHouseholdId:
+          type: string
+        AdvisorId:
+          type: string
+        ActivityDate:
+          type: string
+          format: date-time
+        ActivityType:
+          type: string
+        Outcome:
+          type: string
+        DurationMinutes:
+          type: number
+    fa_referrals:
+      type: object
+      properties:
+        ReferralId:
+          type: string
+        AdvisorId:
+          type: string
+        ProspectName:
+          type: string
+        ReferralSource:
+          type: string
+        ReferralDate:
+          type: string
+          format: date
+        Status:
+          type: string
+        EstimatedAUM:
+          type: number
+        DaysToFirstContact:
+          type: number
+    fa_life_events:
+      type: object
+      properties:
+        LifeEventId:
+          type: string
+        ClientHouseholdId:
+          type: string
+        AdvisorId:
+          type: string
+        EventType:
+          type: string
+        EventDate:
+          type: string
+          format: date
+        DetectedSource:
+          type: string
+        FollowUpDate:
+          type: string
+          format: date
+        FollowUpWithin14Days:
+          type: boolean
+        OpportunityValue:
+          type: number
+    fa_financial_goals:
+      type: object
+      properties:
+        GoalId:
+          type: string
+        ClientHouseholdId:
+          type: string
+        GoalType:
+          type: string
+        TargetValue:
+          type: number
+        ProgressPct:
+          type: number
+        TargetDate:
+          type: string
+          format: date
+        Status:
+          type: string
+    ln_applications:
+      type: object
+      properties:
+        ApplicationId:
+          type: string
+        ApplicantName:
+          type: string
+        ProductName:
+          type: string
+        RequestedAmount:
+          type: number
+        Channel:
+          type: string
+        LoanOfficerId:
+          type: string
+        BranchId:
+          type: string
+        SubmittedDate:
+          type: string
+          format: date
+        DecisionDate:
+          type: string
+          format: date
+        FundedDate:
+          type: string
+          format: date
+        Status:
+          type: string
+        CurrentStage:
+          type: string
+        CycleTimeDays:
+          type: number
+        CreditScore:
+          type: number
+        DTIRatio:
+          type: number
+        InterestRate:
+          type: number
+        IsFunded:
+          type: boolean
+        DocumentsOutstanding:
+          type: number
+    ln_stage_events:
+      type: object
+      properties:
+        StageEventId:
+          type: string
+        ApplicationId:
+          type: string
+        StageName:
+          type: string
+        StageOrder:
+          type: number
+        EnteredDate:
+          type: string
+          format: date-time
+        ExitedDate:
+          type: string
+          format: date-time
+        DaysInStage:
+          type: number
+    ln_service_cases:
+      type: object
+      properties:
+        CaseId:
+          type: string
+        ApplicationId:
+          type: string
+        CreatedDate:
+          type: string
+          format: date-time
+        CaseType:
+          type: string
+        Channel:
+          type: string
+        Status:
+          type: string
+        HandleTimeMinutes:
+          type: number
+        AgentId:
+          type: string
+        CSAT:
+          type: number
+        AgentforceHandled:
+          type: boolean

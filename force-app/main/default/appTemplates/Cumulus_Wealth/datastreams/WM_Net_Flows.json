@@ -1,0 +1,195 @@
+{
+  "name": "WM_Net_Flows_DS",
+  "label": "WM Net Flows DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "FlowId"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorId"
+    },
+    {
+      "dataType": "Date",
+      "name": "FlowMonth",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "NetFlow"
+    },
+    {
+      "dataType": "Number",
+      "name": "Inflow"
+    },
+    {
+      "dataType": "Number",
+      "name": "Outflow"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ServiceTier"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.WM_Net_Flows_DLO.Name}",
+    "label": "WM Net Flows DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "FlowId",
+        "label": "Flow ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdId",
+        "label": "Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorId",
+        "label": "Advisor ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "FlowMonth",
+        "label": "Flow Month"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "NetFlow",
+        "label": "Net Flow"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "Inflow",
+        "label": "Inflow"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "Outflow",
+        "label": "Outflow"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdName",
+        "label": "Household Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorName",
+        "label": "Advisor Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ServiceTier",
+        "label": "Service Tier"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "FlowId",
+      "targetFieldName": "FlowId"
+    },
+    {
+      "sourceFieldLabel": "HouseholdId",
+      "targetFieldName": "HouseholdId"
+    },
+    {
+      "sourceFieldLabel": "AdvisorId",
+      "targetFieldName": "AdvisorId"
+    },
+    {
+      "sourceFieldLabel": "FlowMonth",
+      "targetFieldName": "FlowMonth"
+    },
+    {
+      "sourceFieldLabel": "NetFlow",
+      "targetFieldName": "NetFlow"
+    },
+    {
+      "sourceFieldLabel": "Inflow",
+      "targetFieldName": "Inflow"
+    },
+    {
+      "sourceFieldLabel": "Outflow",
+      "targetFieldName": "Outflow"
+    },
+    {
+      "sourceFieldLabel": "HouseholdName",
+      "targetFieldName": "HouseholdName"
+    },
+    {
+      "sourceFieldLabel": "AdvisorName",
+      "targetFieldName": "AdvisorName"
+    },
+    {
+      "sourceFieldLabel": "ServiceTier",
+      "targetFieldName": "ServiceTier"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.WM_Net_Flows_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.WM_Net_Flows_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.WM_Net_Flows_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.WM_Net_Flows_CSV.FileType}"
+  }
+}

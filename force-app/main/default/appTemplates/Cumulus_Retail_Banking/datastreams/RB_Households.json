@@ -1,0 +1,265 @@
+{
+  "name": "RB_Households_DS",
+  "label": "RB Households DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "HouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Segment"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchId"
+    },
+    {
+      "dataType": "Text",
+      "name": "PrimaryBankerId"
+    },
+    {
+      "dataType": "Date",
+      "name": "RelationshipStartDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "DigitalActive"
+    },
+    {
+      "dataType": "Number",
+      "name": "NPS"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "State"
+    },
+    {
+      "dataType": "Text",
+      "name": "PrimaryBankerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "PrimaryCustomerName"
+    },
+    {
+      "dataType": "Number",
+      "name": "PrimaryCustomerAge"
+    },
+    {
+      "dataType": "Text",
+      "name": "PreferredChannel"
+    },
+    {
+      "dataType": "Number",
+      "name": "ProductCount"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.RB_Households_DLO.Name}",
+    "label": "RB Households DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "HouseholdId",
+        "label": "Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdName",
+        "label": "Household Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Segment",
+        "label": "Segment"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchId",
+        "label": "Branch ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PrimaryBankerId",
+        "label": "Primary Banker ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "RelationshipStartDate",
+        "label": "Relationship Start Date"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "DigitalActive",
+        "label": "Digital Active"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "NPS",
+        "label": "NPS"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchName",
+        "label": "Branch Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "State",
+        "label": "State"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PrimaryBankerName",
+        "label": "Primary Banker Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PrimaryCustomerName",
+        "label": "Primary Customer Name"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "PrimaryCustomerAge",
+        "label": "Primary Customer Age"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PreferredChannel",
+        "label": "Preferred Channel"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "ProductCount",
+        "label": "Product Count"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "HouseholdId",
+      "targetFieldName": "HouseholdId"
+    },
+    {
+      "sourceFieldLabel": "HouseholdName",
+      "targetFieldName": "HouseholdName"
+    },
+    {
+      "sourceFieldLabel": "Segment",
+      "targetFieldName": "Segment"
+    },
+    {
+      "sourceFieldLabel": "BranchId",
+      "targetFieldName": "BranchId"
+    },
+    {
+      "sourceFieldLabel": "PrimaryBankerId",
+      "targetFieldName": "PrimaryBankerId"
+    },
+    {
+      "sourceFieldLabel": "RelationshipStartDate",
+      "targetFieldName": "RelationshipStartDate"
+    },
+    {
+      "sourceFieldLabel": "DigitalActive",
+      "targetFieldName": "DigitalActive"
+    },
+    {
+      "sourceFieldLabel": "NPS",
+      "targetFieldName": "NPS"
+    },
+    {
+      "sourceFieldLabel": "BranchName",
+      "targetFieldName": "BranchName"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "State",
+      "targetFieldName": "State"
+    },
+    {
+      "sourceFieldLabel": "PrimaryBankerName",
+      "targetFieldName": "PrimaryBankerName"
+    },
+    {
+      "sourceFieldLabel": "PrimaryCustomerName",
+      "targetFieldName": "PrimaryCustomerName"
+    },
+    {
+      "sourceFieldLabel": "PrimaryCustomerAge",
+      "targetFieldName": "PrimaryCustomerAge"
+    },
+    {
+      "sourceFieldLabel": "PreferredChannel",
+      "targetFieldName": "PreferredChannel"
+    },
+    {
+      "sourceFieldLabel": "ProductCount",
+      "targetFieldName": "ProductCount"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.RB_Households_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.RB_Households_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.RB_Households_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.RB_Households_CSV.FileType}"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true,
+      "package": "CumulusTableauNext",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "versionDescription": "Cumulus Financial Group — Tableau Next demo assets (7 LOB workspaces, data kit, LWC dashboard extensions)"
+    }
+  ],
+  "name": "cumulus-tableau-next",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "67.0"
+}

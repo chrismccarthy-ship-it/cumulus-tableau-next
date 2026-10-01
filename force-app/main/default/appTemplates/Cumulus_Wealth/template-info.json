@@ -1,0 +1,29 @@
+{
+  "label": "Cumulus Wealth Management",
+  "description": "Advisor team lead view: AUM, net new assets, goal progress, interaction cadence vs retention. Includes the Ashford Family Office storyline.",
+  "releaseInfo": {
+    "templateVersion": "1.0",
+    "notesFile": null
+  },
+  "templateType": "App",
+  "templateSubtype": null,
+  "name": "Cumulus_Wealth",
+  "namespace": null,
+  "assetVersion": 67.0,
+  "maxAppCount": null,
+  "icons": {
+    "templatePreviews": [],
+    "layoutImages": []
+  },
+  "variableDefinition": "variables.json",
+  "layoutDefinition": "layout.json",
+  "tags": {},
+  "chainDefinitions": [
+    {
+      "type": "Create",
+      "name": null,
+      "file": "create-chain.json"
+    }
+  ],
+  "templateStatus": null
+}

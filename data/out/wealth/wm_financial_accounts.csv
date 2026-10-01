@@ -1,0 +1,1644 @@
+FinancialAccountId,HouseholdId,FinancialAccountType,Custodian,Status,OpenDate,MarketValue,ProductName
+WM-FA-000001,WM-HH-00001,Brokerage,Schwab,Open,2026-07-14,12851656.15,Cumulus Brokerage
+WM-FA-000002,WM-HH-00001,Traditional IRA,Fidelity,Open,2026-07-14,2746341.2,Cumulus Traditional IRA
+WM-FA-000003,WM-HH-00001,Trust,Schwab,Open,2026-07-14,24402002.65,Cumulus Trust
+WM-FA-000004,WM-HH-00002,Traditional IRA,Cumulus Custody,Closed,2015-07-01,1096640.56,Cumulus Traditional IRA
+WM-FA-000005,WM-HH-00002,Roth IRA,Cumulus Custody,Closed,2015-07-01,1315665.24,Cumulus Roth IRA
+WM-FA-000006,WM-HH-00003,Roth IRA,JP Morgan,Open,2021-01-09,170998.92,Cumulus Roth IRA
+WM-FA-000007,WM-HH-00003,529 Plan,Cumulus Custody,Open,2021-01-09,193781.84,Cumulus 529 Plan
+WM-FA-000008,WM-HH-00003,Brokerage,Cumulus Custody,Open,2021-01-09,9029.14,Cumulus Brokerage
+WM-FA-000009,WM-HH-00004,529 Plan,Cumulus Custody,Open,2023-10-16,169710.62,Cumulus 529 Plan
+WM-FA-000010,WM-HH-00004,Roth IRA,Cumulus Custody,Open,2023-10-16,63904.64,Cumulus Roth IRA
+WM-FA-000011,WM-HH-00005,Traditional IRA,Cumulus Custody,Open,2021-12-16,252272.73,Cumulus Traditional IRA
+WM-FA-000012,WM-HH-00006,Brokerage,Schwab,Open,2024-10-14,82023.89,Cumulus Brokerage
+WM-FA-000013,WM-HH-00006,529 Plan,Cumulus Custody,Open,2024-10-14,325325.23,Cumulus 529 Plan
+WM-FA-000014,WM-HH-00006,Trust,Cumulus Custody,Open,2024-10-14,148448.1,Cumulus Trust
+WM-FA-000015,WM-HH-00007,Brokerage,Cumulus Custody,Open,2022-04-07,1804142.06,Cumulus Brokerage
+WM-FA-000016,WM-HH-00008,Brokerage,Cumulus Custody,Open,2025-08-29,415584.64,Cumulus Brokerage
+WM-FA-000017,WM-HH-00009,Roth IRA,Schwab,Open,2013-07-09,104353.66,Cumulus Roth IRA
+WM-FA-000018,WM-HH-00009,529 Plan,Cumulus Custody,Open,2013-07-09,80063.2,Cumulus 529 Plan
+WM-FA-000019,WM-HH-00010,Traditional IRA,Cumulus Custody,Open,2017-06-07,1231618.71,Cumulus Traditional IRA
+WM-FA-000020,WM-HH-00011,Roth IRA,Cumulus Custody,Open,2012-02-24,380831.44,Cumulus Roth IRA
+WM-FA-000021,WM-HH-00011,529 Plan,Cumulus Custody,Open,2012-02-24,190726.14,Cumulus 529 Plan
+WM-FA-000022,WM-HH-00011,Trust,Cumulus Custody,Open,2012-02-24,208127.28,Cumulus Trust
+WM-FA-000023,WM-HH-00012,Brokerage,Cumulus Custody,Open,2018-10-04,569317.08,Cumulus Brokerage
+WM-FA-000024,WM-HH-00013,Roth IRA,Fidelity,Open,2023-12-26,2805537.8,Cumulus Roth IRA
+WM-FA-000025,WM-HH-00014,529 Plan,Fidelity,Open,2014-01-26,326491.2,Cumulus 529 Plan
+WM-FA-000026,WM-HH-00015,Trust,JP Morgan,Open,2023-03-31,14538.37,Cumulus Trust
+WM-FA-000027,WM-HH-00015,Traditional IRA,Cumulus Custody,Open,2023-03-31,64770.14,Cumulus Traditional IRA
+WM-FA-000028,WM-HH-00015,529 Plan,Cumulus Custody,Open,2023-03-31,154831.04,Cumulus 529 Plan
+WM-FA-000029,WM-HH-00016,Trust,Schwab,Open,2018-09-26,411548.01,Cumulus Trust
+WM-FA-000030,WM-HH-00017,Brokerage,JP Morgan,Open,2025-03-31,241430.82,Cumulus Brokerage
+WM-FA-000031,WM-HH-00018,529 Plan,Cumulus Custody,Open,2015-06-23,2146527.19,Cumulus 529 Plan
+WM-FA-000032,WM-HH-00018,Brokerage,Fidelity,Open,2015-06-23,268487.97,Cumulus Brokerage
+WM-FA-000033,WM-HH-00019,529 Plan,Fidelity,Open,2015-05-25,5287272.32,Cumulus 529 Plan
+WM-FA-000034,WM-HH-00019,Brokerage,Cumulus Custody,Open,2015-05-25,3020709.62,Cumulus Brokerage
+WM-FA-000035,WM-HH-00020,Trust,Cumulus Custody,Open,2022-11-15,1296198.38,Cumulus Trust
+WM-FA-000036,WM-HH-00020,529 Plan,Cumulus Custody,Open,2022-11-15,1428368.88,Cumulus 529 Plan
+WM-FA-000037,WM-HH-00021,Traditional IRA,JP Morgan,Open,2015-10-11,6283482.77,Cumulus Traditional IRA
+WM-FA-000038,WM-HH-00022,529 Plan,Cumulus Custody,Open,2017-05-27,11754.52,Cumulus 529 Plan
+WM-FA-000039,WM-HH-00022,Roth IRA,Cumulus Custody,Open,2017-05-27,1609546.12,Cumulus Roth IRA
+WM-FA-000040,WM-HH-00023,Trust,Cumulus Custody,Open,2012-05-11,564411.56,Cumulus Trust
+WM-FA-000041,WM-HH-00023,529 Plan,Cumulus Custody,Open,2012-05-11,638661.18,Cumulus 529 Plan
+WM-FA-000042,WM-HH-00024,Roth IRA,Cumulus Custody,Open,2023-04-12,315446.51,Cumulus Roth IRA
+WM-FA-000043,WM-HH-00024,Trust,Cumulus Custody,Open,2023-04-12,856398.64,Cumulus Trust
+WM-FA-000044,WM-HH-00025,Roth IRA,Cumulus Custody,Open,2021-10-07,613503.33,Cumulus Roth IRA
+WM-FA-000045,WM-HH-00025,Brokerage,Cumulus Custody,Open,2021-10-07,1152145.44,Cumulus Brokerage
+WM-FA-000046,WM-HH-00025,529 Plan,Cumulus Custody,Open,2021-10-07,304065.86,Cumulus 529 Plan
+WM-FA-000047,WM-HH-00026,Brokerage,Cumulus Custody,Closed,2025-07-11,3071618.69,Cumulus Brokerage
+WM-FA-000048,WM-HH-00026,Traditional IRA,Cumulus Custody,Closed,2025-07-11,17019018.2,Cumulus Traditional IRA
+WM-FA-000049,WM-HH-00027,Roth IRA,Fidelity,Open,2018-02-19,62927.25,Cumulus Roth IRA
+WM-FA-000050,WM-HH-00027,529 Plan,Cumulus Custody,Open,2018-02-19,41933.2,Cumulus 529 Plan
+WM-FA-000051,WM-HH-00027,Traditional IRA,Cumulus Custody,Open,2018-02-19,29220.87,Cumulus Traditional IRA
+WM-FA-000052,WM-HH-00028,Roth IRA,Cumulus Custody,Open,2013-12-24,2245087.08,Cumulus Roth IRA
+WM-FA-000053,WM-HH-00029,Trust,Cumulus Custody,Open,2023-06-15,373942.72,Cumulus Trust
+WM-FA-000054,WM-HH-00029,529 Plan,Cumulus Custody,Open,2023-06-15,553389.58,Cumulus 529 Plan
+WM-FA-000055,WM-HH-00029,Roth IRA,JP Morgan,Open,2023-06-15,260664.61,Cumulus Roth IRA
+WM-FA-000056,WM-HH-00030,Roth IRA,Cumulus Custody,Open,2015-03-18,19734.81,Cumulus Roth IRA
+WM-FA-000057,WM-HH-00030,Brokerage,Cumulus Custody,Open,2015-03-18,521778.18,Cumulus Brokerage
+WM-FA-000058,WM-HH-00030,Traditional IRA,JP Morgan,Open,2015-03-18,365730.83,Cumulus Traditional IRA
+WM-FA-000059,WM-HH-00031,529 Plan,Cumulus Custody,Open,2018-08-12,321744.03,Cumulus 529 Plan
+WM-FA-000060,WM-HH-00032,529 Plan,JP Morgan,Open,2024-09-05,240673.3,Cumulus 529 Plan
+WM-FA-000061,WM-HH-00033,Brokerage,JP Morgan,Open,2019-04-10,4592867.95,Cumulus Brokerage
+WM-FA-000062,WM-HH-00034,529 Plan,Fidelity,Open,2011-09-26,393774.53,Cumulus 529 Plan
+WM-FA-000063,WM-HH-00034,Trust,Cumulus Custody,Open,2011-09-26,374763.47,Cumulus Trust
+WM-FA-000064,WM-HH-00035,Roth IRA,Cumulus Custody,Open,2017-07-15,58520.58,Cumulus Roth IRA
+WM-FA-000065,WM-HH-00035,529 Plan,Cumulus Custody,Open,2017-07-15,291390.03,Cumulus 529 Plan
+WM-FA-000066,WM-HH-00036,Traditional IRA,Cumulus Custody,Open,2019-05-29,3095935.15,Cumulus Traditional IRA
+WM-FA-000067,WM-HH-00037,Brokerage,Cumulus Custody,Open,2011-07-12,401108.83,Cumulus Brokerage
+WM-FA-000068,WM-HH-00038,Roth IRA,Cumulus Custody,Open,2022-02-20,30315.81,Cumulus Roth IRA
+WM-FA-000069,WM-HH-00038,Traditional IRA,Cumulus Custody,Open,2022-02-20,149551.32,Cumulus Traditional IRA
+WM-FA-000070,WM-HH-00039,Trust,Cumulus Custody,Open,2022-12-23,6955827.9,Cumulus Trust
+WM-FA-000071,WM-HH-00039,Traditional IRA,Cumulus Custody,Open,2022-12-23,3479846.3,Cumulus Traditional IRA
+WM-FA-000072,WM-HH-00040,Trust,Cumulus Custody,Open,2014-12-30,72954.41,Cumulus Trust
+WM-FA-000073,WM-HH-00040,Roth IRA,Cumulus Custody,Open,2014-12-30,203361.27,Cumulus Roth IRA
+WM-FA-000074,WM-HH-00040,Traditional IRA,Fidelity,Open,2014-12-30,95265.7,Cumulus Traditional IRA
+WM-FA-000075,WM-HH-00041,529 Plan,JP Morgan,Open,2021-01-12,55850.33,Cumulus 529 Plan
+WM-FA-000076,WM-HH-00041,Traditional IRA,Cumulus Custody,Open,2021-01-12,177732.96,Cumulus Traditional IRA
+WM-FA-000077,WM-HH-00041,Brokerage,Cumulus Custody,Open,2021-01-12,392903.84,Cumulus Brokerage
+WM-FA-000078,WM-HH-00042,Brokerage,Cumulus Custody,Open,2023-04-16,414852.65,Cumulus Brokerage
+WM-FA-000079,WM-HH-00043,529 Plan,Schwab,Open,2010-08-19,373660.84,Cumulus 529 Plan
+WM-FA-000080,WM-HH-00043,Roth IRA,JP Morgan,Open,2010-08-19,415633.3,Cumulus Roth IRA
+WM-FA-000081,WM-HH-00044,Trust,Cumulus Custody,Open,2019-05-10,83319.43,Cumulus Trust
+WM-FA-000082,WM-HH-00044,Traditional IRA,Cumulus Custody,Open,2019-05-10,302975.68,Cumulus Traditional IRA
+WM-FA-000083,WM-HH-00045,Roth IRA,Cumulus Custody,Open,2011-01-20,182635.03,Cumulus Roth IRA
+WM-FA-000084,WM-HH-00045,529 Plan,Cumulus Custody,Open,2011-01-20,78764.23,Cumulus 529 Plan
+WM-FA-000085,WM-HH-00046,Brokerage,Fidelity,Closed,2015-06-22,458329.78,Cumulus Brokerage
+WM-FA-000086,WM-HH-00046,Trust,Fidelity,Closed,2015-06-22,195338.47,Cumulus Trust
+WM-FA-000087,WM-HH-00047,Brokerage,Cumulus Custody,Open,2024-12-05,281438.38,Cumulus Brokerage
+WM-FA-000088,WM-HH-00047,Trust,Cumulus Custody,Open,2024-12-05,231071.16,Cumulus Trust
+WM-FA-000089,WM-HH-00048,Brokerage,Cumulus Custody,Open,2018-01-06,1746669.15,Cumulus Brokerage
+WM-FA-000090,WM-HH-00048,Traditional IRA,Cumulus Custody,Open,2018-01-06,214346.66,Cumulus Traditional IRA
+WM-FA-000091,WM-HH-00049,Trust,Fidelity,Open,2015-07-07,123942.74,Cumulus Trust
+WM-FA-000092,WM-HH-00049,Roth IRA,Cumulus Custody,Open,2015-07-07,92533.83,Cumulus Roth IRA
+WM-FA-000093,WM-HH-00049,529 Plan,Schwab,Open,2015-07-07,541524.5,Cumulus 529 Plan
+WM-FA-000094,WM-HH-00050,529 Plan,Schwab,Open,2026-02-25,11744.82,Cumulus 529 Plan
+WM-FA-000095,WM-HH-00050,Trust,Cumulus Custody,Open,2026-02-25,110715.5,Cumulus Trust
+WM-FA-000096,WM-HH-00050,Roth IRA,Cumulus Custody,Open,2026-02-25,75368.08,Cumulus Roth IRA
+WM-FA-000097,WM-HH-00051,Trust,Cumulus Custody,Open,2020-01-14,411390.37,Cumulus Trust
+WM-FA-000098,WM-HH-00051,529 Plan,Cumulus Custody,Open,2020-01-14,99005.61,Cumulus 529 Plan
+WM-FA-000099,WM-HH-00051,Roth IRA,Fidelity,Open,2020-01-14,171197.12,Cumulus Roth IRA
+WM-FA-000100,WM-HH-00052,Roth IRA,Cumulus Custody,Open,2022-10-30,112031.31,Cumulus Roth IRA
+WM-FA-000101,WM-HH-00052,Trust,Cumulus Custody,Open,2022-10-30,181229.58,Cumulus Trust
+WM-FA-000102,WM-HH-00053,Brokerage,Cumulus Custody,Open,2024-08-12,49291.45,Cumulus Brokerage
+WM-FA-000103,WM-HH-00053,Roth IRA,JP Morgan,Open,2024-08-12,320595.48,Cumulus Roth IRA
+WM-FA-000104,WM-HH-00053,529 Plan,Fidelity,Open,2024-08-12,296239.31,Cumulus 529 Plan
+WM-FA-000105,WM-HH-00054,Brokerage,Cumulus Custody,Open,2016-03-28,215860.89,Cumulus Brokerage
+WM-FA-000106,WM-HH-00055,Brokerage,Cumulus Custody,Open,2014-09-04,169194.61,Cumulus Brokerage
+WM-FA-000107,WM-HH-00056,Brokerage,Schwab,Open,2012-11-16,212411.61,Cumulus Brokerage
+WM-FA-000108,WM-HH-00056,Roth IRA,Fidelity,Open,2012-11-16,107529.53,Cumulus Roth IRA
+WM-FA-000109,WM-HH-00056,529 Plan,Cumulus Custody,Open,2012-11-16,205741.21,Cumulus 529 Plan
+WM-FA-000110,WM-HH-00057,Brokerage,Cumulus Custody,Open,2010-10-05,71634.78,Cumulus Brokerage
+WM-FA-000111,WM-HH-00057,Trust,Cumulus Custody,Open,2010-10-05,79840.79,Cumulus Trust
+WM-FA-000112,WM-HH-00058,529 Plan,JP Morgan,Open,2020-10-01,318807.26,Cumulus 529 Plan
+WM-FA-000113,WM-HH-00058,Trust,Cumulus Custody,Open,2020-10-01,114088.08,Cumulus Trust
+WM-FA-000114,WM-HH-00059,Brokerage,Schwab,Open,2023-04-25,166683.87,Cumulus Brokerage
+WM-FA-000115,WM-HH-00059,529 Plan,Fidelity,Open,2023-04-25,9817.63,Cumulus 529 Plan
+WM-FA-000116,WM-HH-00060,529 Plan,Cumulus Custody,Open,2025-03-15,2956839.05,Cumulus 529 Plan
+WM-FA-000117,WM-HH-00061,529 Plan,Cumulus Custody,Open,2012-05-26,678979.64,Cumulus 529 Plan
+WM-FA-000118,WM-HH-00061,Trust,JP Morgan,Open,2012-05-26,1166577.25,Cumulus Trust
+WM-FA-000119,WM-HH-00062,Trust,Cumulus Custody,Open,2020-05-01,132923.71,Cumulus Trust
+WM-FA-000120,WM-HH-00062,Roth IRA,Cumulus Custody,Open,2020-05-01,8162.3,Cumulus Roth IRA
+WM-FA-000121,WM-HH-00062,529 Plan,Cumulus Custody,Open,2020-05-01,264043.03,Cumulus 529 Plan
+WM-FA-000122,WM-HH-00063,529 Plan,Cumulus Custody,Open,2017-04-08,1356743.19,Cumulus 529 Plan
+WM-FA-000123,WM-HH-00063,Trust,Fidelity,Open,2017-04-08,750574.03,Cumulus Trust
+WM-FA-000124,WM-HH-00064,Roth IRA,Cumulus Custody,Open,2024-10-16,25095651.88,Cumulus Roth IRA
+WM-FA-000125,WM-HH-00065,529 Plan,Schwab,Open,2019-03-31,89310.73,Cumulus 529 Plan
+WM-FA-000126,WM-HH-00065,Traditional IRA,Fidelity,Open,2019-03-31,94781.42,Cumulus Traditional IRA
+WM-FA-000127,WM-HH-00066,Brokerage,Cumulus Custody,Open,2013-11-09,190678.44,Cumulus Brokerage
+WM-FA-000128,WM-HH-00066,529 Plan,Schwab,Open,2013-11-09,231233.81,Cumulus 529 Plan
+WM-FA-000129,WM-HH-00067,Brokerage,Cumulus Custody,Open,2012-10-12,128757.27,Cumulus Brokerage
+WM-FA-000130,WM-HH-00067,529 Plan,Cumulus Custody,Open,2012-10-12,45331.11,Cumulus 529 Plan
+WM-FA-000131,WM-HH-00068,Traditional IRA,Cumulus Custody,Open,2023-04-14,299759.34,Cumulus Traditional IRA
+WM-FA-000132,WM-HH-00069,Roth IRA,Cumulus Custody,Open,2025-08-13,5935046.87,Cumulus Roth IRA
+WM-FA-000133,WM-HH-00070,Traditional IRA,Cumulus Custody,Open,2012-10-22,68169.67,Cumulus Traditional IRA
+WM-FA-000134,WM-HH-00070,Brokerage,Cumulus Custody,Open,2012-10-22,90289.11,Cumulus Brokerage
+WM-FA-000135,WM-HH-00070,529 Plan,Schwab,Open,2012-10-22,3906.1,Cumulus 529 Plan
+WM-FA-000136,WM-HH-00071,529 Plan,Fidelity,Open,2011-11-02,1148799.64,Cumulus 529 Plan
+WM-FA-000137,WM-HH-00072,Brokerage,Cumulus Custody,Open,2022-12-20,49966.33,Cumulus Brokerage
+WM-FA-000138,WM-HH-00072,Roth IRA,Fidelity,Open,2022-12-20,357056.24,Cumulus Roth IRA
+WM-FA-000139,WM-HH-00073,Brokerage,Schwab,Open,2012-12-21,425257.08,Cumulus Brokerage
+WM-FA-000140,WM-HH-00074,Traditional IRA,Cumulus Custody,Open,2010-04-25,51390870.37,Cumulus Traditional IRA
+WM-FA-000141,WM-HH-00075,Traditional IRA,Cumulus Custody,Open,2022-12-22,188551.47,Cumulus Traditional IRA
+WM-FA-000142,WM-HH-00076,Traditional IRA,Cumulus Custody,Closed,2019-11-26,197939.34,Cumulus Traditional IRA
+WM-FA-000143,WM-HH-00076,Brokerage,Cumulus Custody,Closed,2019-11-26,46632.56,Cumulus Brokerage
+WM-FA-000144,WM-HH-00076,Trust,Cumulus Custody,Closed,2019-11-26,235205.63,Cumulus Trust
+WM-FA-000145,WM-HH-00077,Brokerage,Schwab,Open,2010-04-20,17747.95,Cumulus Brokerage
+WM-FA-000146,WM-HH-00077,Roth IRA,Cumulus Custody,Open,2010-04-20,98768.97,Cumulus Roth IRA
+WM-FA-000147,WM-HH-00078,Roth IRA,Fidelity,Open,2022-03-21,105583.24,Cumulus Roth IRA
+WM-FA-000148,WM-HH-00078,Traditional IRA,Cumulus Custody,Open,2022-03-21,52909.37,Cumulus Traditional IRA
+WM-FA-000149,WM-HH-00079,Trust,Cumulus Custody,Open,2016-10-10,1419315.59,Cumulus Trust
+WM-FA-000150,WM-HH-00079,Brokerage,JP Morgan,Open,2016-10-10,5800820.83,Cumulus Brokerage
+WM-FA-000151,WM-HH-00080,Trust,Cumulus Custody,Closed,2012-08-03,6503984.45,Cumulus Trust
+WM-FA-000152,WM-HH-00081,Traditional IRA,Fidelity,Open,2010-08-02,59266.24,Cumulus Traditional IRA
+WM-FA-000153,WM-HH-00081,Brokerage,Fidelity,Open,2010-08-02,61781.44,Cumulus Brokerage
+WM-FA-000154,WM-HH-00081,Trust,JP Morgan,Open,2010-08-02,68354.08,Cumulus Trust
+WM-FA-000155,WM-HH-00082,Brokerage,Schwab,Open,2015-04-20,83095.96,Cumulus Brokerage
+WM-FA-000156,WM-HH-00082,529 Plan,Cumulus Custody,Open,2015-04-20,300777.26,Cumulus 529 Plan
+WM-FA-000157,WM-HH-00083,Roth IRA,Schwab,Open,2013-07-16,2103165.29,Cumulus Roth IRA
+WM-FA-000158,WM-HH-00084,Brokerage,Cumulus Custody,Open,2017-01-05,56594.16,Cumulus Brokerage
+WM-FA-000159,WM-HH-00084,Traditional IRA,Schwab,Open,2017-01-05,67056.51,Cumulus Traditional IRA
+WM-FA-000160,WM-HH-00084,529 Plan,Cumulus Custody,Open,2017-01-05,53654.6,Cumulus 529 Plan
+WM-FA-000161,WM-HH-00085,Traditional IRA,Cumulus Custody,Open,2019-01-29,1374495.81,Cumulus Traditional IRA
+WM-FA-000162,WM-HH-00085,529 Plan,Cumulus Custody,Open,2019-01-29,182405.78,Cumulus 529 Plan
+WM-FA-000163,WM-HH-00086,Roth IRA,Fidelity,Closed,2023-12-10,216114.66,Cumulus Roth IRA
+WM-FA-000164,WM-HH-00086,529 Plan,Cumulus Custody,Closed,2023-12-10,372308.67,Cumulus 529 Plan
+WM-FA-000165,WM-HH-00087,Trust,Schwab,Open,2010-10-17,233961.64,Cumulus Trust
+WM-FA-000166,WM-HH-00088,Trust,Fidelity,Open,2014-03-20,1071699.01,Cumulus Trust
+WM-FA-000167,WM-HH-00088,Brokerage,Cumulus Custody,Open,2014-03-20,683745.69,Cumulus Brokerage
+WM-FA-000168,WM-HH-00088,Traditional IRA,Cumulus Custody,Open,2014-03-20,232090.02,Cumulus Traditional IRA
+WM-FA-000169,WM-HH-00089,529 Plan,Cumulus Custody,Open,2013-04-04,122267.29,Cumulus 529 Plan
+WM-FA-000170,WM-HH-00089,Trust,Cumulus Custody,Open,2013-04-04,55070.08,Cumulus Trust
+WM-FA-000171,WM-HH-00090,529 Plan,Cumulus Custody,Open,2023-05-11,380976.68,Cumulus 529 Plan
+WM-FA-000172,WM-HH-00091,529 Plan,Cumulus Custody,Open,2019-06-07,150923.04,Cumulus 529 Plan
+WM-FA-000173,WM-HH-00092,Trust,Cumulus Custody,Open,2011-03-02,446397.1,Cumulus Trust
+WM-FA-000174,WM-HH-00093,Roth IRA,Cumulus Custody,Open,2015-02-06,2524437.22,Cumulus Roth IRA
+WM-FA-000175,WM-HH-00094,Roth IRA,Fidelity,Open,2013-09-01,365341.66,Cumulus Roth IRA
+WM-FA-000176,WM-HH-00094,Traditional IRA,Fidelity,Open,2013-09-01,524052.76,Cumulus Traditional IRA
+WM-FA-000177,WM-HH-00095,Roth IRA,JP Morgan,Open,2015-02-14,173482.23,Cumulus Roth IRA
+WM-FA-000178,WM-HH-00095,Trust,Cumulus Custody,Open,2015-02-14,142315.96,Cumulus Trust
+WM-FA-000179,WM-HH-00096,Brokerage,Cumulus Custody,Open,2019-10-07,9470378.41,Cumulus Brokerage
+WM-FA-000180,WM-HH-00096,529 Plan,Cumulus Custody,Open,2019-10-07,6613308.96,Cumulus 529 Plan
+WM-FA-000181,WM-HH-00097,Brokerage,Schwab,Open,2021-07-09,16684.92,Cumulus Brokerage
+WM-FA-000182,WM-HH-00097,Trust,Cumulus Custody,Open,2021-07-09,652825.39,Cumulus Trust
+WM-FA-000183,WM-HH-00098,Traditional IRA,Schwab,Open,2019-06-04,127119.15,Cumulus Traditional IRA
+WM-FA-000184,WM-HH-00098,529 Plan,Cumulus Custody,Open,2019-06-04,111464.5,Cumulus 529 Plan
+WM-FA-000185,WM-HH-00099,529 Plan,JP Morgan,Open,2014-08-30,113722.4,Cumulus 529 Plan
+WM-FA-000186,WM-HH-00099,Traditional IRA,Cumulus Custody,Open,2014-08-30,73347.25,Cumulus Traditional IRA
+WM-FA-000187,WM-HH-00099,Brokerage,Schwab,Open,2014-08-30,154205.78,Cumulus Brokerage
+WM-FA-000188,WM-HH-00100,Roth IRA,Cumulus Custody,Open,2020-01-08,98632.11,Cumulus Roth IRA
+WM-FA-000189,WM-HH-00100,Brokerage,Cumulus Custody,Open,2020-01-08,72580.21,Cumulus Brokerage
+WM-FA-000190,WM-HH-00101,Brokerage,Schwab,Open,2021-02-27,732718.51,Cumulus Brokerage
+WM-FA-000191,WM-HH-00102,Roth IRA,Cumulus Custody,Open,2025-10-28,972839.6,Cumulus Roth IRA
+WM-FA-000192,WM-HH-00103,Traditional IRA,Fidelity,Open,2019-10-07,99799.32,Cumulus Traditional IRA
+WM-FA-000193,WM-HH-00103,Brokerage,JP Morgan,Open,2019-10-07,64727.82,Cumulus Brokerage
+WM-FA-000194,WM-HH-00104,Trust,Cumulus Custody,Open,2019-02-07,72716.76,Cumulus Trust
+WM-FA-000195,WM-HH-00104,Brokerage,Cumulus Custody,Open,2019-02-07,72056.85,Cumulus Brokerage
+WM-FA-000196,WM-HH-00104,Traditional IRA,Cumulus Custody,Open,2019-02-07,39583.43,Cumulus Traditional IRA
+WM-FA-000197,WM-HH-00105,Trust,Cumulus Custody,Open,2021-03-14,4186305.37,Cumulus Trust
+WM-FA-000198,WM-HH-00106,Traditional IRA,Cumulus Custody,Closed,2011-02-28,62409.66,Cumulus Traditional IRA
+WM-FA-000199,WM-HH-00106,Trust,Schwab,Closed,2011-02-28,67453.0,Cumulus Trust
+WM-FA-000200,WM-HH-00107,Roth IRA,Cumulus Custody,Open,2020-02-13,256108.47,Cumulus Roth IRA
+WM-FA-000201,WM-HH-00108,Brokerage,Cumulus Custody,Open,2025-02-02,1995707.02,Cumulus Brokerage
+WM-FA-000202,WM-HH-00108,Trust,Fidelity,Open,2025-02-02,2068188.29,Cumulus Trust
+WM-FA-000203,WM-HH-00109,Traditional IRA,Fidelity,Open,2022-05-26,76862.93,Cumulus Traditional IRA
+WM-FA-000204,WM-HH-00110,Trust,Cumulus Custody,Open,2020-07-05,1577108.44,Cumulus Trust
+WM-FA-000205,WM-HH-00111,Trust,Cumulus Custody,Open,2018-09-09,20277.08,Cumulus Trust
+WM-FA-000206,WM-HH-00111,Roth IRA,Cumulus Custody,Open,2018-09-09,376104.06,Cumulus Roth IRA
+WM-FA-000207,WM-HH-00112,Roth IRA,Cumulus Custody,Open,2010-08-06,319723.46,Cumulus Roth IRA
+WM-FA-000208,WM-HH-00112,Traditional IRA,Cumulus Custody,Open,2010-08-06,451220.17,Cumulus Traditional IRA
+WM-FA-000209,WM-HH-00112,Trust,Schwab,Open,2010-08-06,232020.25,Cumulus Trust
+WM-FA-000210,WM-HH-00113,Trust,Cumulus Custody,Open,2017-06-12,109058.15,Cumulus Trust
+WM-FA-000211,WM-HH-00113,Brokerage,Cumulus Custody,Open,2017-06-12,131139.47,Cumulus Brokerage
+WM-FA-000212,WM-HH-00113,Roth IRA,Cumulus Custody,Open,2017-06-12,72350.59,Cumulus Roth IRA
+WM-FA-000213,WM-HH-00114,Trust,Cumulus Custody,Open,2018-05-04,127665.69,Cumulus Trust
+WM-FA-000214,WM-HH-00114,Roth IRA,Fidelity,Open,2018-05-04,186863.77,Cumulus Roth IRA
+WM-FA-000215,WM-HH-00114,Traditional IRA,Schwab,Open,2018-05-04,163454.02,Cumulus Traditional IRA
+WM-FA-000216,WM-HH-00115,Roth IRA,Cumulus Custody,Open,2023-07-25,285670.84,Cumulus Roth IRA
+WM-FA-000217,WM-HH-00115,Traditional IRA,Cumulus Custody,Open,2023-07-25,1040650.11,Cumulus Traditional IRA
+WM-FA-000218,WM-HH-00116,Roth IRA,Cumulus Custody,Open,2019-09-07,53822.18,Cumulus Roth IRA
+WM-FA-000219,WM-HH-00116,529 Plan,Cumulus Custody,Open,2019-09-07,132055.48,Cumulus 529 Plan
+WM-FA-000220,WM-HH-00117,529 Plan,Schwab,Open,2012-07-25,43100.52,Cumulus 529 Plan
+WM-FA-000221,WM-HH-00117,Trust,Fidelity,Open,2012-07-25,43477.41,Cumulus Trust
+WM-FA-000222,WM-HH-00117,Roth IRA,Cumulus Custody,Open,2012-07-25,47813.97,Cumulus Roth IRA
+WM-FA-000223,WM-HH-00118,529 Plan,Cumulus Custody,Closed,2017-03-18,49550.97,Cumulus 529 Plan
+WM-FA-000224,WM-HH-00118,Trust,Cumulus Custody,Closed,2017-03-18,286968.29,Cumulus Trust
+WM-FA-000225,WM-HH-00118,Brokerage,Schwab,Closed,2017-03-18,306145.43,Cumulus Brokerage
+WM-FA-000226,WM-HH-00119,Traditional IRA,Cumulus Custody,Open,2011-12-05,941660.62,Cumulus Traditional IRA
+WM-FA-000227,WM-HH-00120,529 Plan,Cumulus Custody,Closed,2018-05-30,274744.64,Cumulus 529 Plan
+WM-FA-000228,WM-HH-00120,Trust,Cumulus Custody,Closed,2018-05-30,231771.5,Cumulus Trust
+WM-FA-000229,WM-HH-00120,Traditional IRA,Cumulus Custody,Closed,2018-05-30,99031.23,Cumulus Traditional IRA
+WM-FA-000230,WM-HH-00121,Trust,Cumulus Custody,Open,2016-06-18,418182.79,Cumulus Trust
+WM-FA-000231,WM-HH-00121,Brokerage,Cumulus Custody,Open,2016-06-18,104694.67,Cumulus Brokerage
+WM-FA-000232,WM-HH-00122,Traditional IRA,Cumulus Custody,Open,2023-02-07,1112568.3,Cumulus Traditional IRA
+WM-FA-000233,WM-HH-00122,Roth IRA,Cumulus Custody,Open,2023-02-07,1171189.02,Cumulus Roth IRA
+WM-FA-000234,WM-HH-00123,529 Plan,Cumulus Custody,Open,2022-10-08,217340.19,Cumulus 529 Plan
+WM-FA-000235,WM-HH-00123,Brokerage,Cumulus Custody,Open,2022-10-08,484283.78,Cumulus Brokerage
+WM-FA-000236,WM-HH-00124,Roth IRA,Fidelity,Open,2017-04-03,98681.01,Cumulus Roth IRA
+WM-FA-000237,WM-HH-00124,Brokerage,Cumulus Custody,Open,2017-04-03,328569.49,Cumulus Brokerage
+WM-FA-000238,WM-HH-00125,Roth IRA,Cumulus Custody,Open,2022-03-16,1454550.11,Cumulus Roth IRA
+WM-FA-000239,WM-HH-00126,Trust,Cumulus Custody,Open,2026-05-30,274194.64,Cumulus Trust
+WM-FA-000240,WM-HH-00127,Trust,Cumulus Custody,Open,2022-02-10,2922788.65,Cumulus Trust
+WM-FA-000241,WM-HH-00128,529 Plan,Fidelity,Open,2020-03-17,272030.5,Cumulus 529 Plan
+WM-FA-000242,WM-HH-00128,Roth IRA,Cumulus Custody,Open,2020-03-17,45937.52,Cumulus Roth IRA
+WM-FA-000243,WM-HH-00129,Traditional IRA,Fidelity,Open,2020-05-13,472879.8,Cumulus Traditional IRA
+WM-FA-000244,WM-HH-00129,Roth IRA,JP Morgan,Open,2020-05-13,971242.38,Cumulus Roth IRA
+WM-FA-000245,WM-HH-00130,Trust,Cumulus Custody,Open,2012-02-11,60000000.0,Cumulus Trust
+WM-FA-000246,WM-HH-00131,Brokerage,Cumulus Custody,Open,2023-04-01,202315.95,Cumulus Brokerage
+WM-FA-000247,WM-HH-00131,Traditional IRA,JP Morgan,Open,2023-04-01,32990.57,Cumulus Traditional IRA
+WM-FA-000248,WM-HH-00131,529 Plan,Cumulus Custody,Open,2023-04-01,140074.68,Cumulus 529 Plan
+WM-FA-000249,WM-HH-00132,Brokerage,Schwab,Closed,2025-01-07,1090028.45,Cumulus Brokerage
+WM-FA-000250,WM-HH-00132,Trust,Cumulus Custody,Closed,2025-01-07,303575.73,Cumulus Trust
+WM-FA-000251,WM-HH-00133,Brokerage,Cumulus Custody,Open,2024-01-08,234014.56,Cumulus Brokerage
+WM-FA-000252,WM-HH-00134,Trust,Schwab,Open,2022-05-10,889903.05,Cumulus Trust
+WM-FA-000253,WM-HH-00134,529 Plan,Cumulus Custody,Open,2022-05-10,532825.45,Cumulus 529 Plan
+WM-FA-000254,WM-HH-00135,Brokerage,Cumulus Custody,Open,2022-02-15,258365.44,Cumulus Brokerage
+WM-FA-000255,WM-HH-00135,Roth IRA,Cumulus Custody,Open,2022-02-15,98065.47,Cumulus Roth IRA
+WM-FA-000256,WM-HH-00136,Roth IRA,Cumulus Custody,Open,2024-12-05,89697.87,Cumulus Roth IRA
+WM-FA-000257,WM-HH-00136,529 Plan,Cumulus Custody,Open,2024-12-05,105469.24,Cumulus 529 Plan
+WM-FA-000258,WM-HH-00137,Trust,Cumulus Custody,Open,2012-03-21,29730484.45,Cumulus Trust
+WM-FA-000259,WM-HH-00138,Roth IRA,Cumulus Custody,Open,2019-08-01,248491.88,Cumulus Roth IRA
+WM-FA-000260,WM-HH-00139,529 Plan,Cumulus Custody,Open,2010-08-30,184268.79,Cumulus 529 Plan
+WM-FA-000261,WM-HH-00139,Traditional IRA,Schwab,Open,2010-08-30,47875.16,Cumulus Traditional IRA
+WM-FA-000262,WM-HH-00140,Roth IRA,Cumulus Custody,Open,2011-04-18,7992674.11,Cumulus Roth IRA
+WM-FA-000263,WM-HH-00141,529 Plan,Cumulus Custody,Open,2013-12-30,4301657.15,Cumulus 529 Plan
+WM-FA-000264,WM-HH-00141,Roth IRA,Fidelity,Open,2013-12-30,3096185.57,Cumulus Roth IRA
+WM-FA-000265,WM-HH-00142,Roth IRA,Cumulus Custody,Open,2021-08-15,136666.72,Cumulus Roth IRA
+WM-FA-000266,WM-HH-00142,529 Plan,Cumulus Custody,Open,2021-08-15,297235.56,Cumulus 529 Plan
+WM-FA-000267,WM-HH-00143,Brokerage,Cumulus Custody,Open,2013-10-05,94604.3,Cumulus Brokerage
+WM-FA-000268,WM-HH-00143,Trust,Cumulus Custody,Open,2013-10-05,59326.13,Cumulus Trust
+WM-FA-000269,WM-HH-00143,Roth IRA,Cumulus Custody,Open,2013-10-05,75960.01,Cumulus Roth IRA
+WM-FA-000270,WM-HH-00144,529 Plan,Cumulus Custody,Open,2017-11-18,944324.68,Cumulus 529 Plan
+WM-FA-000271,WM-HH-00144,Traditional IRA,JP Morgan,Open,2017-11-18,176381.49,Cumulus Traditional IRA
+WM-FA-000272,WM-HH-00145,Brokerage,JP Morgan,Open,2019-08-07,1214333.73,Cumulus Brokerage
+WM-FA-000273,WM-HH-00146,Trust,Cumulus Custody,Open,2013-09-09,12604303.63,Cumulus Trust
+WM-FA-000274,WM-HH-00146,Roth IRA,Cumulus Custody,Open,2013-09-09,3748243.56,Cumulus Roth IRA
+WM-FA-000275,WM-HH-00147,Roth IRA,Fidelity,Open,2013-07-15,10682360.58,Cumulus Roth IRA
+WM-FA-000276,WM-HH-00148,529 Plan,JP Morgan,Open,2013-09-25,3777102.13,Cumulus 529 Plan
+WM-FA-000277,WM-HH-00149,Traditional IRA,Schwab,Open,2013-09-12,297168.44,Cumulus Traditional IRA
+WM-FA-000278,WM-HH-00149,Trust,JP Morgan,Open,2013-09-12,233945.73,Cumulus Trust
+WM-FA-000279,WM-HH-00149,529 Plan,Cumulus Custody,Open,2013-09-12,357477.66,Cumulus 529 Plan
+WM-FA-000280,WM-HH-00150,Trust,Cumulus Custody,Open,2023-11-26,144876.87,Cumulus Trust
+WM-FA-000281,WM-HH-00151,529 Plan,Cumulus Custody,Open,2026-04-24,170187.32,Cumulus 529 Plan
+WM-FA-000282,WM-HH-00151,Brokerage,Schwab,Open,2026-04-24,99991.42,Cumulus Brokerage
+WM-FA-000283,WM-HH-00152,Trust,Cumulus Custody,Open,2016-06-28,281378.5,Cumulus Trust
+WM-FA-000284,WM-HH-00153,Brokerage,JP Morgan,Open,2017-05-14,3627027.49,Cumulus Brokerage
+WM-FA-000285,WM-HH-00153,Traditional IRA,JP Morgan,Open,2017-05-14,1287008.56,Cumulus Traditional IRA
+WM-FA-000286,WM-HH-00154,Brokerage,Cumulus Custody,Open,2012-01-09,563804.99,Cumulus Brokerage
+WM-FA-000287,WM-HH-00154,529 Plan,Cumulus Custody,Open,2012-01-09,154119.59,Cumulus 529 Plan
+WM-FA-000288,WM-HH-00155,Traditional IRA,Cumulus Custody,Open,2010-03-07,2313526.32,Cumulus Traditional IRA
+WM-FA-000289,WM-HH-00156,Brokerage,Cumulus Custody,Open,2013-09-05,2246592.82,Cumulus Brokerage
+WM-FA-000290,WM-HH-00156,Traditional IRA,Cumulus Custody,Open,2013-09-05,32474.57,Cumulus Traditional IRA
+WM-FA-000291,WM-HH-00156,Trust,JP Morgan,Open,2013-09-05,2753017.75,Cumulus Trust
+WM-FA-000292,WM-HH-00157,Trust,Fidelity,Open,2012-11-06,238038.02,Cumulus Trust
+WM-FA-000293,WM-HH-00158,Roth IRA,Fidelity,Closed,2014-08-05,945132.65,Cumulus Roth IRA
+WM-FA-000294,WM-HH-00158,Traditional IRA,Cumulus Custody,Closed,2014-08-05,634100.51,Cumulus Traditional IRA
+WM-FA-000295,WM-HH-00158,529 Plan,Schwab,Closed,2014-08-05,853036.55,Cumulus 529 Plan
+WM-FA-000296,WM-HH-00159,Traditional IRA,Cumulus Custody,Open,2015-05-29,65984.42,Cumulus Traditional IRA
+WM-FA-000297,WM-HH-00159,529 Plan,Cumulus Custody,Open,2015-05-29,381156.44,Cumulus 529 Plan
+WM-FA-000298,WM-HH-00160,Traditional IRA,Cumulus Custody,Open,2017-03-25,341059.03,Cumulus Traditional IRA
+WM-FA-000299,WM-HH-00161,Trust,Cumulus Custody,Open,2021-02-27,299267.34,Cumulus Trust
+WM-FA-000300,WM-HH-00161,529 Plan,Cumulus Custody,Open,2021-02-27,322785.9,Cumulus 529 Plan
+WM-FA-000301,WM-HH-00162,Roth IRA,Cumulus Custody,Closed,2025-04-02,239691.23,Cumulus Roth IRA
+WM-FA-000302,WM-HH-00162,Brokerage,Cumulus Custody,Closed,2025-04-02,284610.79,Cumulus Brokerage
+WM-FA-000303,WM-HH-00163,Traditional IRA,JP Morgan,Open,2016-05-23,122730.94,Cumulus Traditional IRA
+WM-FA-000304,WM-HH-00163,529 Plan,Cumulus Custody,Open,2016-05-23,235910.37,Cumulus 529 Plan
+WM-FA-000305,WM-HH-00164,Roth IRA,Cumulus Custody,Open,2022-05-28,6112399.74,Cumulus Roth IRA
+WM-FA-000306,WM-HH-00164,Trust,Fidelity,Open,2022-05-28,5321025.44,Cumulus Trust
+WM-FA-000307,WM-HH-00164,Brokerage,Cumulus Custody,Open,2022-05-28,5240026.42,Cumulus Brokerage
+WM-FA-000308,WM-HH-00165,Roth IRA,Schwab,Open,2023-10-28,39387.87,Cumulus Roth IRA
+WM-FA-000309,WM-HH-00165,Trust,Cumulus Custody,Open,2023-10-28,74725.99,Cumulus Trust
+WM-FA-000310,WM-HH-00166,Brokerage,JP Morgan,Open,2015-01-24,189974.22,Cumulus Brokerage
+WM-FA-000311,WM-HH-00166,Traditional IRA,Cumulus Custody,Open,2015-01-24,193821.37,Cumulus Traditional IRA
+WM-FA-000312,WM-HH-00167,Roth IRA,JP Morgan,Open,2017-05-13,834183.74,Cumulus Roth IRA
+WM-FA-000313,WM-HH-00167,Brokerage,Cumulus Custody,Open,2017-05-13,1730110.04,Cumulus Brokerage
+WM-FA-000314,WM-HH-00168,Traditional IRA,JP Morgan,Open,2014-04-04,2821483.36,Cumulus Traditional IRA
+WM-FA-000315,WM-HH-00169,Trust,Cumulus Custody,Open,2025-07-23,289837.45,Cumulus Trust
+WM-FA-000316,WM-HH-00169,Traditional IRA,Fidelity,Open,2025-07-23,153065.91,Cumulus Traditional IRA
+WM-FA-000317,WM-HH-00169,529 Plan,Fidelity,Open,2025-07-23,336608.5,Cumulus 529 Plan
+WM-FA-000318,WM-HH-00170,Brokerage,Fidelity,Open,2013-02-28,172389.65,Cumulus Brokerage
+WM-FA-000319,WM-HH-00170,529 Plan,Fidelity,Open,2013-02-28,383502.06,Cumulus 529 Plan
+WM-FA-000320,WM-HH-00170,Trust,Fidelity,Open,2013-02-28,133898.09,Cumulus Trust
+WM-FA-000321,WM-HH-00171,Brokerage,Cumulus Custody,Open,2010-06-20,1037984.76,Cumulus Brokerage
+WM-FA-000322,WM-HH-00171,Traditional IRA,Cumulus Custody,Open,2010-06-20,443451.13,Cumulus Traditional IRA
+WM-FA-000323,WM-HH-00172,Brokerage,Cumulus Custody,Open,2020-07-28,270257.34,Cumulus Brokerage
+WM-FA-000324,WM-HH-00172,529 Plan,Cumulus Custody,Open,2020-07-28,118370.06,Cumulus 529 Plan
+WM-FA-000325,WM-HH-00172,Trust,Cumulus Custody,Open,2020-07-28,1043985.04,Cumulus Trust
+WM-FA-000326,WM-HH-00173,529 Plan,Fidelity,Open,2019-08-21,265381.97,Cumulus 529 Plan
+WM-FA-000327,WM-HH-00173,Brokerage,JP Morgan,Open,2019-08-21,95992.65,Cumulus Brokerage
+WM-FA-000328,WM-HH-00173,Roth IRA,Cumulus Custody,Open,2019-08-21,122601.99,Cumulus Roth IRA
+WM-FA-000329,WM-HH-00174,529 Plan,JP Morgan,Closed,2026-04-22,103890.97,Cumulus 529 Plan
+WM-FA-000330,WM-HH-00174,Roth IRA,Cumulus Custody,Closed,2026-04-22,97107.27,Cumulus Roth IRA
+WM-FA-000331,WM-HH-00175,Trust,Schwab,Open,2020-03-12,321553.11,Cumulus Trust
+WM-FA-000332,WM-HH-00175,Traditional IRA,Fidelity,Open,2020-03-12,320852.84,Cumulus Traditional IRA
+WM-FA-000333,WM-HH-00176,529 Plan,Cumulus Custody,Open,2024-07-12,1717447.85,Cumulus 529 Plan
+WM-FA-000334,WM-HH-00177,Traditional IRA,Fidelity,Open,2014-05-17,118346.67,Cumulus Traditional IRA
+WM-FA-000335,WM-HH-00177,Brokerage,JP Morgan,Open,2014-05-17,57251.13,Cumulus Brokerage
+WM-FA-000336,WM-HH-00177,Trust,Cumulus Custody,Open,2014-05-17,105382.89,Cumulus Trust
+WM-FA-000337,WM-HH-00178,529 Plan,JP Morgan,Open,2014-12-09,373697.28,Cumulus 529 Plan
+WM-FA-000338,WM-HH-00178,Roth IRA,Cumulus Custody,Open,2014-12-09,4659951.38,Cumulus Roth IRA
+WM-FA-000339,WM-HH-00178,Traditional IRA,Fidelity,Open,2014-12-09,6416325.22,Cumulus Traditional IRA
+WM-FA-000340,WM-HH-00179,Trust,Cumulus Custody,Open,2018-07-09,135133.83,Cumulus Trust
+WM-FA-000341,WM-HH-00179,529 Plan,Cumulus Custody,Open,2018-07-09,164127.17,Cumulus 529 Plan
+WM-FA-000342,WM-HH-00180,Trust,JP Morgan,Open,2012-08-10,1648528.82,Cumulus Trust
+WM-FA-000343,WM-HH-00181,Traditional IRA,Fidelity,Open,2012-10-19,75977.48,Cumulus Traditional IRA
+WM-FA-000344,WM-HH-00181,Roth IRA,Cumulus Custody,Open,2012-10-19,132902.36,Cumulus Roth IRA
+WM-FA-000345,WM-HH-00181,529 Plan,Cumulus Custody,Open,2012-10-19,173261.88,Cumulus 529 Plan
+WM-FA-000346,WM-HH-00182,Roth IRA,Cumulus Custody,Open,2013-06-19,22259849.13,Cumulus Roth IRA
+WM-FA-000347,WM-HH-00183,Trust,Fidelity,Open,2021-03-25,806018.81,Cumulus Trust
+WM-FA-000348,WM-HH-00183,Roth IRA,Cumulus Custody,Open,2021-03-25,533124.54,Cumulus Roth IRA
+WM-FA-000349,WM-HH-00183,529 Plan,Cumulus Custody,Open,2021-03-25,1741253.31,Cumulus 529 Plan
+WM-FA-000350,WM-HH-00184,Roth IRA,Cumulus Custody,Open,2025-09-26,9478197.62,Cumulus Roth IRA
+WM-FA-000351,WM-HH-00185,Traditional IRA,Cumulus Custody,Open,2016-07-05,332257.14,Cumulus Traditional IRA
+WM-FA-000352,WM-HH-00186,Brokerage,Fidelity,Open,2017-11-15,2465291.69,Cumulus Brokerage
+WM-FA-000353,WM-HH-00186,Roth IRA,Cumulus Custody,Open,2017-11-15,9598219.94,Cumulus Roth IRA
+WM-FA-000354,WM-HH-00187,Trust,JP Morgan,Open,2019-12-11,43367.59,Cumulus Trust
+WM-FA-000355,WM-HH-00187,Brokerage,Cumulus Custody,Open,2019-12-11,36581.44,Cumulus Brokerage
+WM-FA-000356,WM-HH-00188,Traditional IRA,Schwab,Open,2019-04-20,2859430.78,Cumulus Traditional IRA
+WM-FA-000357,WM-HH-00189,529 Plan,Cumulus Custody,Open,2026-05-02,1413300.08,Cumulus 529 Plan
+WM-FA-000358,WM-HH-00189,Roth IRA,Cumulus Custody,Open,2026-05-02,2279086.63,Cumulus Roth IRA
+WM-FA-000359,WM-HH-00190,Roth IRA,Fidelity,Open,2011-04-13,412110.78,Cumulus Roth IRA
+WM-FA-000360,WM-HH-00190,529 Plan,Cumulus Custody,Open,2011-04-13,1097638.13,Cumulus 529 Plan
+WM-FA-000361,WM-HH-00191,Roth IRA,Cumulus Custody,Open,2017-03-30,1088878.88,Cumulus Roth IRA
+WM-FA-000362,WM-HH-00191,Traditional IRA,Cumulus Custody,Open,2017-03-30,596047.44,Cumulus Traditional IRA
+WM-FA-000363,WM-HH-00192,Trust,Cumulus Custody,Open,2018-09-17,354815.75,Cumulus Trust
+WM-FA-000364,WM-HH-00193,Roth IRA,JP Morgan,Open,2024-01-26,152519.87,Cumulus Roth IRA
+WM-FA-000365,WM-HH-00194,Roth IRA,Cumulus Custody,Open,2024-08-14,95709.33,Cumulus Roth IRA
+WM-FA-000366,WM-HH-00194,Brokerage,Cumulus Custody,Open,2024-08-14,49011.76,Cumulus Brokerage
+WM-FA-000367,WM-HH-00195,Roth IRA,Cumulus Custody,Open,2024-09-16,58425.95,Cumulus Roth IRA
+WM-FA-000368,WM-HH-00195,529 Plan,Cumulus Custody,Open,2024-09-16,43384.57,Cumulus 529 Plan
+WM-FA-000369,WM-HH-00195,Brokerage,Fidelity,Open,2024-09-16,146521.66,Cumulus Brokerage
+WM-FA-000370,WM-HH-00196,Brokerage,Cumulus Custody,Open,2013-01-27,204704.92,Cumulus Brokerage
+WM-FA-000371,WM-HH-00196,Trust,Cumulus Custody,Open,2013-01-27,195301.05,Cumulus Trust
+WM-FA-000372,WM-HH-00197,529 Plan,Cumulus Custody,Open,2026-06-24,177043.26,Cumulus 529 Plan
+WM-FA-000373,WM-HH-00197,Roth IRA,Cumulus Custody,Open,2026-06-24,23734.3,Cumulus Roth IRA
+WM-FA-000374,WM-HH-00198,529 Plan,Cumulus Custody,Open,2021-01-09,1722819.88,Cumulus 529 Plan
+WM-FA-000375,WM-HH-00198,Brokerage,Fidelity,Open,2021-01-09,1135330.33,Cumulus Brokerage
+WM-FA-000376,WM-HH-00199,529 Plan,JP Morgan,Open,2011-02-12,770683.06,Cumulus 529 Plan
+WM-FA-000377,WM-HH-00199,Traditional IRA,Cumulus Custody,Open,2011-02-12,453128.72,Cumulus Traditional IRA
+WM-FA-000378,WM-HH-00199,Trust,Cumulus Custody,Open,2011-02-12,1124785.52,Cumulus Trust
+WM-FA-000379,WM-HH-00200,Trust,JP Morgan,Open,2022-08-20,569767.44,Cumulus Trust
+WM-FA-000380,WM-HH-00200,Brokerage,Cumulus Custody,Open,2022-08-20,6019.52,Cumulus Brokerage
+WM-FA-000381,WM-HH-00200,529 Plan,Cumulus Custody,Open,2022-08-20,34460.5,Cumulus 529 Plan
+WM-FA-000382,WM-HH-00201,Traditional IRA,Cumulus Custody,Open,2022-05-17,1055199.98,Cumulus Traditional IRA
+WM-FA-000383,WM-HH-00202,Traditional IRA,Cumulus Custody,Open,2020-09-07,325814.63,Cumulus Traditional IRA
+WM-FA-000384,WM-HH-00202,529 Plan,Fidelity,Open,2020-09-07,76321.16,Cumulus 529 Plan
+WM-FA-000385,WM-HH-00203,Roth IRA,Cumulus Custody,Open,2021-02-25,878592.81,Cumulus Roth IRA
+WM-FA-000386,WM-HH-00203,Brokerage,Cumulus Custody,Open,2021-02-25,1496.77,Cumulus Brokerage
+WM-FA-000387,WM-HH-00204,529 Plan,Cumulus Custody,Open,2025-05-24,4692222.57,Cumulus 529 Plan
+WM-FA-000388,WM-HH-00205,Traditional IRA,Cumulus Custody,Open,2017-12-01,318505.31,Cumulus Traditional IRA
+WM-FA-000389,WM-HH-00205,Trust,Cumulus Custody,Open,2017-12-01,720419.99,Cumulus Trust
+WM-FA-000390,WM-HH-00206,Traditional IRA,Cumulus Custody,Open,2021-11-25,1401538.33,Cumulus Traditional IRA
+WM-FA-000391,WM-HH-00207,Roth IRA,Cumulus Custody,Open,2021-04-08,53087.53,Cumulus Roth IRA
+WM-FA-000392,WM-HH-00207,Trust,Fidelity,Open,2021-04-08,111842.4,Cumulus Trust
+WM-FA-000393,WM-HH-00208,Brokerage,Cumulus Custody,Open,2016-05-27,1506271.49,Cumulus Brokerage
+WM-FA-000394,WM-HH-00208,Traditional IRA,Schwab,Open,2016-05-27,2422636.3,Cumulus Traditional IRA
+WM-FA-000395,WM-HH-00209,Traditional IRA,Cumulus Custody,Open,2011-03-10,1625574.04,Cumulus Traditional IRA
+WM-FA-000396,WM-HH-00209,529 Plan,Cumulus Custody,Open,2011-03-10,874143.99,Cumulus 529 Plan
+WM-FA-000397,WM-HH-00210,Roth IRA,Cumulus Custody,Open,2024-03-02,253269.58,Cumulus Roth IRA
+WM-FA-000398,WM-HH-00210,Trust,Cumulus Custody,Open,2024-03-02,259325.97,Cumulus Trust
+WM-FA-000399,WM-HH-00210,Brokerage,Fidelity,Open,2024-03-02,413782.18,Cumulus Brokerage
+WM-FA-000400,WM-HH-00211,Brokerage,Cumulus Custody,Open,2017-12-30,82955.66,Cumulus Brokerage
+WM-FA-000401,WM-HH-00211,Roth IRA,JP Morgan,Open,2017-12-30,172582.28,Cumulus Roth IRA
+WM-FA-000402,WM-HH-00212,Roth IRA,Cumulus Custody,Open,2014-02-02,616597.45,Cumulus Roth IRA
+WM-FA-000403,WM-HH-00212,Traditional IRA,Cumulus Custody,Open,2014-02-02,4999758.52,Cumulus Traditional IRA
+WM-FA-000404,WM-HH-00212,Trust,JP Morgan,Open,2014-02-02,5308911.07,Cumulus Trust
+WM-FA-000405,WM-HH-00213,Brokerage,Cumulus Custody,Open,2019-08-25,37596.07,Cumulus Brokerage
+WM-FA-000406,WM-HH-00213,Traditional IRA,Cumulus Custody,Open,2019-08-25,1303777.27,Cumulus Traditional IRA
+WM-FA-000407,WM-HH-00214,Traditional IRA,Fidelity,Open,2021-01-28,101244.84,Cumulus Traditional IRA
+WM-FA-000408,WM-HH-00214,Roth IRA,Cumulus Custody,Open,2021-01-28,1345264.5,Cumulus Roth IRA
+WM-FA-000409,WM-HH-00214,Brokerage,Cumulus Custody,Open,2021-01-28,1247475.49,Cumulus Brokerage
+WM-FA-000410,WM-HH-00215,Traditional IRA,Fidelity,Open,2017-04-16,60049.1,Cumulus Traditional IRA
+WM-FA-000411,WM-HH-00215,529 Plan,Cumulus Custody,Open,2017-04-16,91495.62,Cumulus 529 Plan
+WM-FA-000412,WM-HH-00215,Trust,Cumulus Custody,Open,2017-04-16,58797.93,Cumulus Trust
+WM-FA-000413,WM-HH-00216,529 Plan,Cumulus Custody,Open,2023-07-24,102877.2,Cumulus 529 Plan
+WM-FA-000414,WM-HH-00217,Brokerage,JP Morgan,Open,2014-03-04,207688.75,Cumulus Brokerage
+WM-FA-000415,WM-HH-00218,Roth IRA,Cumulus Custody,Closed,2023-11-05,546203.37,Cumulus Roth IRA
+WM-FA-000416,WM-HH-00219,529 Plan,Fidelity,Open,2025-01-06,794659.38,Cumulus 529 Plan
+WM-FA-000417,WM-HH-00220,Roth IRA,Cumulus Custody,Open,2019-10-03,489326.86,Cumulus Roth IRA
+WM-FA-000418,WM-HH-00221,Trust,Cumulus Custody,Open,2019-05-13,293136.92,Cumulus Trust
+WM-FA-000419,WM-HH-00221,Roth IRA,Cumulus Custody,Open,2019-05-13,238118.45,Cumulus Roth IRA
+WM-FA-000420,WM-HH-00222,Trust,Cumulus Custody,Open,2010-08-28,67901.43,Cumulus Trust
+WM-FA-000421,WM-HH-00222,Roth IRA,Cumulus Custody,Open,2010-08-28,37782.76,Cumulus Roth IRA
+WM-FA-000422,WM-HH-00222,Traditional IRA,Cumulus Custody,Open,2010-08-28,24740.14,Cumulus Traditional IRA
+WM-FA-000423,WM-HH-00223,529 Plan,Cumulus Custody,Open,2023-08-18,81148.34,Cumulus 529 Plan
+WM-FA-000424,WM-HH-00223,Trust,Schwab,Open,2023-08-18,265057.93,Cumulus Trust
+WM-FA-000425,WM-HH-00224,529 Plan,Cumulus Custody,Closed,2023-09-08,293316.41,Cumulus 529 Plan
+WM-FA-000426,WM-HH-00225,Traditional IRA,Cumulus Custody,Open,2024-12-13,273143.46,Cumulus Traditional IRA
+WM-FA-000427,WM-HH-00225,Brokerage,Cumulus Custody,Open,2024-12-13,82092.42,Cumulus Brokerage
+WM-FA-000428,WM-HH-00225,Roth IRA,Cumulus Custody,Open,2024-12-13,145709.76,Cumulus Roth IRA
+WM-FA-000429,WM-HH-00226,529 Plan,Cumulus Custody,Open,2024-11-28,862467.38,Cumulus 529 Plan
+WM-FA-000430,WM-HH-00226,Roth IRA,Cumulus Custody,Open,2024-11-28,329860.36,Cumulus Roth IRA
+WM-FA-000431,WM-HH-00227,Trust,Cumulus Custody,Open,2015-05-10,518156.51,Cumulus Trust
+WM-FA-000432,WM-HH-00228,Roth IRA,Cumulus Custody,Open,2026-03-09,306453.41,Cumulus Roth IRA
+WM-FA-000433,WM-HH-00228,Traditional IRA,Schwab,Open,2026-03-09,47135.98,Cumulus Traditional IRA
+WM-FA-000434,WM-HH-00229,Roth IRA,Cumulus Custody,Open,2022-04-17,330427.65,Cumulus Roth IRA
+WM-FA-000435,WM-HH-00229,Trust,Cumulus Custody,Open,2022-04-17,413760.29,Cumulus Trust
+WM-FA-000436,WM-HH-00230,Traditional IRA,Cumulus Custody,Open,2021-06-14,5811179.74,Cumulus Traditional IRA
+WM-FA-000437,WM-HH-00230,Roth IRA,Schwab,Open,2021-06-14,8878265.18,Cumulus Roth IRA
+WM-FA-000438,WM-HH-00231,Traditional IRA,Cumulus Custody,Open,2013-11-06,2324745.57,Cumulus Traditional IRA
+WM-FA-000439,WM-HH-00232,Roth IRA,Schwab,Open,2025-07-10,10603915.2,Cumulus Roth IRA
+WM-FA-000440,WM-HH-00233,Roth IRA,Cumulus Custody,Open,2014-05-07,192895.32,Cumulus Roth IRA
+WM-FA-000441,WM-HH-00234,Brokerage,Fidelity,Open,2024-04-01,127782.07,Cumulus Brokerage
+WM-FA-000442,WM-HH-00234,Roth IRA,Cumulus Custody,Open,2024-04-01,20294.67,Cumulus Roth IRA
+WM-FA-000443,WM-HH-00235,Brokerage,Fidelity,Open,2026-06-23,547026.96,Cumulus Brokerage
+WM-FA-000444,WM-HH-00236,Trust,Cumulus Custody,Open,2026-03-04,82914.4,Cumulus Trust
+WM-FA-000445,WM-HH-00236,Roth IRA,Cumulus Custody,Open,2026-03-04,629738.16,Cumulus Roth IRA
+WM-FA-000446,WM-HH-00237,Traditional IRA,Cumulus Custody,Closed,2026-05-02,145834.38,Cumulus Traditional IRA
+WM-FA-000447,WM-HH-00237,Brokerage,Cumulus Custody,Closed,2026-05-02,3798101.46,Cumulus Brokerage
+WM-FA-000448,WM-HH-00238,Roth IRA,Cumulus Custody,Open,2012-06-08,31944.31,Cumulus Roth IRA
+WM-FA-000449,WM-HH-00238,Traditional IRA,Cumulus Custody,Open,2012-06-08,70921.72,Cumulus Traditional IRA
+WM-FA-000450,WM-HH-00239,Roth IRA,Cumulus Custody,Open,2021-09-20,556575.5,Cumulus Roth IRA
+WM-FA-000451,WM-HH-00240,Roth IRA,Cumulus Custody,Open,2012-07-21,132008.54,Cumulus Roth IRA
+WM-FA-000452,WM-HH-00240,529 Plan,Cumulus Custody,Open,2012-07-21,26674.23,Cumulus 529 Plan
+WM-FA-000453,WM-HH-00241,Roth IRA,Cumulus Custody,Open,2013-08-17,252599.16,Cumulus Roth IRA
+WM-FA-000454,WM-HH-00242,Roth IRA,Cumulus Custody,Open,2025-01-28,534208.1,Cumulus Roth IRA
+WM-FA-000455,WM-HH-00242,Trust,Cumulus Custody,Open,2025-01-28,36585.84,Cumulus Trust
+WM-FA-000456,WM-HH-00243,Roth IRA,Fidelity,Open,2023-11-02,743199.02,Cumulus Roth IRA
+WM-FA-000457,WM-HH-00243,529 Plan,Cumulus Custody,Open,2023-11-02,74608.82,Cumulus 529 Plan
+WM-FA-000458,WM-HH-00244,Roth IRA,Cumulus Custody,Open,2020-02-20,1028590.01,Cumulus Roth IRA
+WM-FA-000459,WM-HH-00245,Trust,Cumulus Custody,Closed,2020-02-21,1145155.98,Cumulus Trust
+WM-FA-000460,WM-HH-00245,Roth IRA,Schwab,Closed,2020-02-21,357226.17,Cumulus Roth IRA
+WM-FA-000461,WM-HH-00246,Trust,Cumulus Custody,Open,2015-06-23,399621.62,Cumulus Trust
+WM-FA-000462,WM-HH-00246,Roth IRA,Cumulus Custody,Open,2015-06-23,339549.8,Cumulus Roth IRA
+WM-FA-000463,WM-HH-00246,529 Plan,Cumulus Custody,Open,2015-06-23,658439.82,Cumulus 529 Plan
+WM-FA-000464,WM-HH-00247,529 Plan,Cumulus Custody,Open,2016-05-28,9988176.75,Cumulus 529 Plan
+WM-FA-000465,WM-HH-00248,Traditional IRA,Cumulus Custody,Open,2011-07-17,126647.1,Cumulus Traditional IRA
+WM-FA-000466,WM-HH-00248,529 Plan,Fidelity,Open,2011-07-17,70743.65,Cumulus 529 Plan
+WM-FA-000467,WM-HH-00249,529 Plan,Fidelity,Open,2016-01-07,570908.0,Cumulus 529 Plan
+WM-FA-000468,WM-HH-00249,Traditional IRA,Cumulus Custody,Open,2016-01-07,440676.81,Cumulus Traditional IRA
+WM-FA-000469,WM-HH-00249,Brokerage,Cumulus Custody,Open,2016-01-07,344712.75,Cumulus Brokerage
+WM-FA-000470,WM-HH-00250,Brokerage,Cumulus Custody,Open,2018-04-01,230999.02,Cumulus Brokerage
+WM-FA-000471,WM-HH-00250,Trust,Cumulus Custody,Open,2018-04-01,306931.83,Cumulus Trust
+WM-FA-000472,WM-HH-00251,529 Plan,Cumulus Custody,Open,2015-10-10,276666.75,Cumulus 529 Plan
+WM-FA-000473,WM-HH-00251,Trust,Cumulus Custody,Open,2015-10-10,31215.05,Cumulus Trust
+WM-FA-000474,WM-HH-00252,Brokerage,Cumulus Custody,Open,2011-06-11,1213217.51,Cumulus Brokerage
+WM-FA-000475,WM-HH-00252,Traditional IRA,Cumulus Custody,Open,2011-06-11,4121383.95,Cumulus Traditional IRA
+WM-FA-000476,WM-HH-00253,Brokerage,Fidelity,Open,2023-12-21,273586.56,Cumulus Brokerage
+WM-FA-000477,WM-HH-00253,Trust,Cumulus Custody,Open,2023-12-21,95984.32,Cumulus Trust
+WM-FA-000478,WM-HH-00254,529 Plan,Schwab,Open,2015-08-20,156485.18,Cumulus 529 Plan
+WM-FA-000479,WM-HH-00254,Trust,Cumulus Custody,Open,2015-08-20,238424.84,Cumulus Trust
+WM-FA-000480,WM-HH-00255,Roth IRA,JP Morgan,Open,2025-12-10,2394039.42,Cumulus Roth IRA
+WM-FA-000481,WM-HH-00255,529 Plan,Cumulus Custody,Open,2025-12-10,713491.69,Cumulus 529 Plan
+WM-FA-000482,WM-HH-00255,Trust,JP Morgan,Open,2025-12-10,2902131.3,Cumulus Trust
+WM-FA-000483,WM-HH-00256,Traditional IRA,Cumulus Custody,Open,2013-08-18,95876.56,Cumulus Traditional IRA
+WM-FA-000484,WM-HH-00256,Roth IRA,Cumulus Custody,Open,2013-08-18,181555.65,Cumulus Roth IRA
+WM-FA-000485,WM-HH-00257,Traditional IRA,Cumulus Custody,Open,2016-08-14,1804315.43,Cumulus Traditional IRA
+WM-FA-000486,WM-HH-00257,Trust,Cumulus Custody,Open,2016-08-14,1313889.24,Cumulus Trust
+WM-FA-000487,WM-HH-00258,Trust,Cumulus Custody,Open,2020-12-28,428023.63,Cumulus Trust
+WM-FA-000488,WM-HH-00259,529 Plan,Cumulus Custody,Open,2010-12-21,749019.59,Cumulus 529 Plan
+WM-FA-000489,WM-HH-00259,Brokerage,JP Morgan,Open,2010-12-21,1097596.05,Cumulus Brokerage
+WM-FA-000490,WM-HH-00260,Brokerage,Cumulus Custody,Open,2013-11-19,2003037.25,Cumulus Brokerage
+WM-FA-000491,WM-HH-00260,Trust,Cumulus Custody,Open,2013-11-19,4522417.99,Cumulus Trust
+WM-FA-000492,WM-HH-00261,Traditional IRA,Cumulus Custody,Open,2021-07-07,833986.57,Cumulus Traditional IRA
+WM-FA-000493,WM-HH-00262,Trust,Cumulus Custody,Open,2026-03-21,10372600.2,Cumulus Trust
+WM-FA-000494,WM-HH-00263,Trust,Cumulus Custody,Open,2016-09-29,455356.82,Cumulus Trust
+WM-FA-000495,WM-HH-00263,Traditional IRA,Cumulus Custody,Open,2016-09-29,486179.72,Cumulus Traditional IRA
+WM-FA-000496,WM-HH-00264,Roth IRA,Cumulus Custody,Open,2018-03-23,471040.36,Cumulus Roth IRA
+WM-FA-000497,WM-HH-00265,Roth IRA,Cumulus Custody,Open,2023-11-02,215737.16,Cumulus Roth IRA
+WM-FA-000498,WM-HH-00265,529 Plan,Cumulus Custody,Open,2023-11-02,1087009.72,Cumulus 529 Plan
+WM-FA-000499,WM-HH-00266,Traditional IRA,Fidelity,Open,2016-01-25,237541.57,Cumulus Traditional IRA
+WM-FA-000500,WM-HH-00266,Brokerage,Cumulus Custody,Open,2016-01-25,61663.09,Cumulus Brokerage
+WM-FA-000501,WM-HH-00266,529 Plan,JP Morgan,Open,2016-01-25,501480.64,Cumulus 529 Plan
+WM-FA-000502,WM-HH-00267,Brokerage,JP Morgan,Open,2024-05-10,712053.95,Cumulus Brokerage
+WM-FA-000503,WM-HH-00268,Roth IRA,Cumulus Custody,Open,2018-06-27,1806689.41,Cumulus Roth IRA
+WM-FA-000504,WM-HH-00268,Traditional IRA,Cumulus Custody,Open,2018-06-27,6197875.64,Cumulus Traditional IRA
+WM-FA-000505,WM-HH-00269,529 Plan,Cumulus Custody,Open,2018-08-21,386740.41,Cumulus 529 Plan
+WM-FA-000506,WM-HH-00269,Brokerage,JP Morgan,Open,2018-08-21,319820.69,Cumulus Brokerage
+WM-FA-000507,WM-HH-00270,Trust,Cumulus Custody,Open,2020-05-30,129033.68,Cumulus Trust
+WM-FA-000508,WM-HH-00270,Traditional IRA,Fidelity,Open,2020-05-30,99856.09,Cumulus Traditional IRA
+WM-FA-000509,WM-HH-00271,Trust,Cumulus Custody,Open,2018-05-02,101524.44,Cumulus Trust
+WM-FA-000510,WM-HH-00272,Brokerage,Schwab,Open,2021-01-15,481848.8,Cumulus Brokerage
+WM-FA-000511,WM-HH-00273,Traditional IRA,Cumulus Custody,Open,2013-05-02,540466.69,Cumulus Traditional IRA
+WM-FA-000512,WM-HH-00274,529 Plan,JP Morgan,Open,2022-10-07,246858.22,Cumulus 529 Plan
+WM-FA-000513,WM-HH-00274,Trust,Cumulus Custody,Open,2022-10-07,4458709.29,Cumulus Trust
+WM-FA-000514,WM-HH-00274,Traditional IRA,Cumulus Custody,Open,2022-10-07,1119698.87,Cumulus Traditional IRA
+WM-FA-000515,WM-HH-00275,Roth IRA,Schwab,Open,2015-10-30,116874.59,Cumulus Roth IRA
+WM-FA-000516,WM-HH-00276,Brokerage,Cumulus Custody,Open,2010-09-23,183062.62,Cumulus Brokerage
+WM-FA-000517,WM-HH-00277,Traditional IRA,JP Morgan,Open,2010-03-03,4040301.06,Cumulus Traditional IRA
+WM-FA-000518,WM-HH-00277,529 Plan,Cumulus Custody,Open,2010-03-03,1070671.82,Cumulus 529 Plan
+WM-FA-000519,WM-HH-00278,529 Plan,Cumulus Custody,Open,2011-06-19,113311.71,Cumulus 529 Plan
+WM-FA-000520,WM-HH-00278,Roth IRA,Cumulus Custody,Open,2011-06-19,45468.74,Cumulus Roth IRA
+WM-FA-000521,WM-HH-00278,Brokerage,Cumulus Custody,Open,2011-06-19,85431.73,Cumulus Brokerage
+WM-FA-000522,WM-HH-00279,Traditional IRA,Fidelity,Open,2026-05-03,14652.51,Cumulus Traditional IRA
+WM-FA-000523,WM-HH-00279,529 Plan,Cumulus Custody,Open,2026-05-03,274817.51,Cumulus 529 Plan
+WM-FA-000524,WM-HH-00280,Trust,Cumulus Custody,Open,2014-10-28,1064244.56,Cumulus Trust
+WM-FA-000525,WM-HH-00280,Traditional IRA,Schwab,Open,2014-10-28,73607.34,Cumulus Traditional IRA
+WM-FA-000526,WM-HH-00281,Roth IRA,Cumulus Custody,Open,2012-11-02,13374716.47,Cumulus Roth IRA
+WM-FA-000527,WM-HH-00281,529 Plan,Cumulus Custody,Open,2012-11-02,11779607.16,Cumulus 529 Plan
+WM-FA-000528,WM-HH-00282,Roth IRA,JP Morgan,Open,2024-04-25,572600.5,Cumulus Roth IRA
+WM-FA-000529,WM-HH-00282,529 Plan,Cumulus Custody,Open,2024-04-25,378326.89,Cumulus 529 Plan
+WM-FA-000530,WM-HH-00283,Traditional IRA,Cumulus Custody,Open,2021-01-19,62786.75,Cumulus Traditional IRA
+WM-FA-000531,WM-HH-00283,529 Plan,Cumulus Custody,Open,2021-01-19,167840.87,Cumulus 529 Plan
+WM-FA-000532,WM-HH-00284,529 Plan,Cumulus Custody,Open,2016-07-02,2188139.24,Cumulus 529 Plan
+WM-FA-000533,WM-HH-00284,Trust,Cumulus Custody,Open,2016-07-02,2654693.28,Cumulus Trust
+WM-FA-000534,WM-HH-00285,Roth IRA,Cumulus Custody,Open,2023-05-01,2587762.41,Cumulus Roth IRA
+WM-FA-000535,WM-HH-00286,Brokerage,JP Morgan,Open,2010-04-20,117815.26,Cumulus Brokerage
+WM-FA-000536,WM-HH-00287,Brokerage,JP Morgan,Open,2025-02-24,325026.5,Cumulus Brokerage
+WM-FA-000537,WM-HH-00288,Trust,Schwab,Open,2018-06-25,4741388.14,Cumulus Trust
+WM-FA-000538,WM-HH-00289,Brokerage,Cumulus Custody,Open,2021-10-27,3640037.51,Cumulus Brokerage
+WM-FA-000539,WM-HH-00290,Traditional IRA,Fidelity,Open,2012-08-15,441895.1,Cumulus Traditional IRA
+WM-FA-000540,WM-HH-00290,529 Plan,Fidelity,Open,2012-08-15,867312.81,Cumulus 529 Plan
+WM-FA-000541,WM-HH-00291,Roth IRA,Fidelity,Open,2015-11-30,264429.99,Cumulus Roth IRA
+WM-FA-000542,WM-HH-00292,Traditional IRA,Cumulus Custody,Open,2010-04-30,8411995.41,Cumulus Traditional IRA
+WM-FA-000543,WM-HH-00292,529 Plan,Cumulus Custody,Open,2010-04-30,3662353.96,Cumulus 529 Plan
+WM-FA-000544,WM-HH-00292,Brokerage,Cumulus Custody,Open,2010-04-30,1286542.45,Cumulus Brokerage
+WM-FA-000545,WM-HH-00293,529 Plan,JP Morgan,Open,2017-08-31,333323.66,Cumulus 529 Plan
+WM-FA-000546,WM-HH-00293,Brokerage,Fidelity,Open,2017-08-31,30455.51,Cumulus Brokerage
+WM-FA-000547,WM-HH-00294,Roth IRA,Fidelity,Open,2014-06-15,14252760.68,Cumulus Roth IRA
+WM-FA-000548,WM-HH-00295,Brokerage,Cumulus Custody,Open,2014-10-21,2383587.66,Cumulus Brokerage
+WM-FA-000549,WM-HH-00295,Roth IRA,Cumulus Custody,Open,2014-10-21,1418275.51,Cumulus Roth IRA
+WM-FA-000550,WM-HH-00295,529 Plan,Schwab,Open,2014-10-21,1849641.33,Cumulus 529 Plan
+WM-FA-000551,WM-HH-00296,529 Plan,Cumulus Custody,Open,2018-07-05,98549.74,Cumulus 529 Plan
+WM-FA-000552,WM-HH-00297,529 Plan,Cumulus Custody,Open,2014-11-11,1142024.8,Cumulus 529 Plan
+WM-FA-000553,WM-HH-00298,Trust,Cumulus Custody,Open,2020-03-21,459683.75,Cumulus Trust
+WM-FA-000554,WM-HH-00298,529 Plan,Cumulus Custody,Open,2020-03-21,521295.12,Cumulus 529 Plan
+WM-FA-000555,WM-HH-00299,Brokerage,Cumulus Custody,Open,2016-06-23,783934.92,Cumulus Brokerage
+WM-FA-000556,WM-HH-00300,Brokerage,Cumulus Custody,Open,2011-01-16,159438.58,Cumulus Brokerage
+WM-FA-000557,WM-HH-00301,Traditional IRA,JP Morgan,Open,2012-06-05,219292.93,Cumulus Traditional IRA
+WM-FA-000558,WM-HH-00302,Brokerage,Cumulus Custody,Open,2012-08-10,135991.78,Cumulus Brokerage
+WM-FA-000559,WM-HH-00302,Trust,Schwab,Open,2012-08-10,66112.91,Cumulus Trust
+WM-FA-000560,WM-HH-00302,Traditional IRA,Cumulus Custody,Open,2012-08-10,8480.91,Cumulus Traditional IRA
+WM-FA-000561,WM-HH-00303,Trust,Cumulus Custody,Open,2014-06-21,65227.88,Cumulus Trust
+WM-FA-000562,WM-HH-00303,Brokerage,Cumulus Custody,Open,2014-06-21,103799.11,Cumulus Brokerage
+WM-FA-000563,WM-HH-00304,529 Plan,Cumulus Custody,Open,2019-02-03,30906.92,Cumulus 529 Plan
+WM-FA-000564,WM-HH-00304,Trust,Cumulus Custody,Open,2019-02-03,820649.95,Cumulus Trust
+WM-FA-000565,WM-HH-00305,Brokerage,Fidelity,Open,2015-09-07,182211.99,Cumulus Brokerage
+WM-FA-000566,WM-HH-00305,Traditional IRA,Cumulus Custody,Open,2015-09-07,70906.5,Cumulus Traditional IRA
+WM-FA-000567,WM-HH-00306,Brokerage,Fidelity,Open,2023-09-05,59020.39,Cumulus Brokerage
+WM-FA-000568,WM-HH-00306,Trust,Cumulus Custody,Open,2023-09-05,96973.84,Cumulus Trust
+WM-FA-000569,WM-HH-00307,529 Plan,Cumulus Custody,Open,2018-06-16,2856507.86,Cumulus 529 Plan
+WM-FA-000570,WM-HH-00308,Traditional IRA,Cumulus Custody,Open,2011-08-27,1984073.44,Cumulus Traditional IRA
+WM-FA-000571,WM-HH-00308,Brokerage,Schwab,Open,2011-08-27,1782934.46,Cumulus Brokerage
+WM-FA-000572,WM-HH-00309,Roth IRA,JP Morgan,Open,2026-04-16,411855.11,Cumulus Roth IRA
+WM-FA-000573,WM-HH-00310,Brokerage,JP Morgan,Open,2022-12-16,167626.75,Cumulus Brokerage
+WM-FA-000574,WM-HH-00311,529 Plan,Cumulus Custody,Open,2018-12-14,364131.28,Cumulus 529 Plan
+WM-FA-000575,WM-HH-00312,Roth IRA,Schwab,Open,2020-07-04,11002868.17,Cumulus Roth IRA
+WM-FA-000576,WM-HH-00313,Brokerage,Cumulus Custody,Open,2015-08-09,2966570.25,Cumulus Brokerage
+WM-FA-000577,WM-HH-00314,Roth IRA,JP Morgan,Open,2010-09-16,21387.1,Cumulus Roth IRA
+WM-FA-000578,WM-HH-00314,Brokerage,Schwab,Open,2010-09-16,42785.85,Cumulus Brokerage
+WM-FA-000579,WM-HH-00314,529 Plan,Cumulus Custody,Open,2010-09-16,102481.52,Cumulus 529 Plan
+WM-FA-000580,WM-HH-00315,Roth IRA,Cumulus Custody,Open,2011-11-17,445568.55,Cumulus Roth IRA
+WM-FA-000581,WM-HH-00316,529 Plan,Cumulus Custody,Closed,2021-11-26,511629.44,Cumulus 529 Plan
+WM-FA-000582,WM-HH-00316,Trust,Cumulus Custody,Closed,2021-11-26,1077442.19,Cumulus Trust
+WM-FA-000583,WM-HH-00317,Trust,Cumulus Custody,Open,2014-01-09,1160088.21,Cumulus Trust
+WM-FA-000584,WM-HH-00318,529 Plan,Cumulus Custody,Open,2021-10-04,348452.97,Cumulus 529 Plan
+WM-FA-000585,WM-HH-00319,Traditional IRA,JP Morgan,Open,2024-01-03,68191.1,Cumulus Traditional IRA
+WM-FA-000586,WM-HH-00319,529 Plan,Cumulus Custody,Open,2024-01-03,89384.42,Cumulus 529 Plan
+WM-FA-000587,WM-HH-00319,Roth IRA,Cumulus Custody,Open,2024-01-03,98564.09,Cumulus Roth IRA
+WM-FA-000588,WM-HH-00320,Trust,Schwab,Open,2017-05-03,222705.46,Cumulus Trust
+WM-FA-000589,WM-HH-00320,529 Plan,Schwab,Open,2017-05-03,615690.98,Cumulus 529 Plan
+WM-FA-000590,WM-HH-00321,Trust,Cumulus Custody,Open,2018-01-23,442678.2,Cumulus Trust
+WM-FA-000591,WM-HH-00322,Trust,Cumulus Custody,Open,2023-02-01,180579.8,Cumulus Trust
+WM-FA-000592,WM-HH-00323,529 Plan,Cumulus Custody,Open,2022-03-12,163171.53,Cumulus 529 Plan
+WM-FA-000593,WM-HH-00323,Trust,Cumulus Custody,Open,2022-03-12,192395.8,Cumulus Trust
+WM-FA-000594,WM-HH-00324,Brokerage,Cumulus Custody,Open,2016-04-18,111984.44,Cumulus Brokerage
+WM-FA-000595,WM-HH-00324,Trust,Cumulus Custody,Open,2016-04-18,785079.37,Cumulus Trust
+WM-FA-000596,WM-HH-00325,Roth IRA,Cumulus Custody,Open,2013-02-22,221089.48,Cumulus Roth IRA
+WM-FA-000597,WM-HH-00325,Trust,Cumulus Custody,Open,2013-02-22,8868.18,Cumulus Trust
+WM-FA-000598,WM-HH-00325,529 Plan,Cumulus Custody,Open,2013-02-22,214259.08,Cumulus 529 Plan
+WM-FA-000599,WM-HH-00326,529 Plan,JP Morgan,Open,2013-06-16,891638.08,Cumulus 529 Plan
+WM-FA-000600,WM-HH-00327,Trust,Cumulus Custody,Open,2012-12-24,6044041.3,Cumulus Trust
+WM-FA-000601,WM-HH-00327,Traditional IRA,Cumulus Custody,Open,2012-12-24,16179877.11,Cumulus Traditional IRA
+WM-FA-000602,WM-HH-00328,Traditional IRA,Cumulus Custody,Open,2024-05-19,8412708.28,Cumulus Traditional IRA
+WM-FA-000603,WM-HH-00329,Traditional IRA,Cumulus Custody,Open,2026-03-30,1475938.95,Cumulus Traditional IRA
+WM-FA-000604,WM-HH-00330,529 Plan,Fidelity,Open,2013-05-02,245453.64,Cumulus 529 Plan
+WM-FA-000605,WM-HH-00330,Traditional IRA,Cumulus Custody,Open,2013-05-02,55338.49,Cumulus Traditional IRA
+WM-FA-000606,WM-HH-00331,529 Plan,Cumulus Custody,Open,2022-05-28,90055.85,Cumulus 529 Plan
+WM-FA-000607,WM-HH-00331,Roth IRA,Cumulus Custody,Open,2022-05-28,20454.76,Cumulus Roth IRA
+WM-FA-000608,WM-HH-00332,Trust,Cumulus Custody,Open,2010-03-11,171722.2,Cumulus Trust
+WM-FA-000609,WM-HH-00332,Traditional IRA,Cumulus Custody,Open,2010-03-11,80013.61,Cumulus Traditional IRA
+WM-FA-000610,WM-HH-00332,Roth IRA,Cumulus Custody,Open,2010-03-11,163962.98,Cumulus Roth IRA
+WM-FA-000611,WM-HH-00333,Brokerage,Cumulus Custody,Closed,2025-11-11,3424768.12,Cumulus Brokerage
+WM-FA-000612,WM-HH-00334,Trust,Cumulus Custody,Open,2017-09-09,303714.68,Cumulus Trust
+WM-FA-000613,WM-HH-00335,529 Plan,Schwab,Open,2026-05-03,457311.11,Cumulus 529 Plan
+WM-FA-000614,WM-HH-00335,Roth IRA,JP Morgan,Open,2026-05-03,965382.36,Cumulus Roth IRA
+WM-FA-000615,WM-HH-00335,Trust,Cumulus Custody,Open,2026-05-03,1107829.73,Cumulus Trust
+WM-FA-000616,WM-HH-00336,Traditional IRA,JP Morgan,Open,2025-03-06,304634.41,Cumulus Traditional IRA
+WM-FA-000617,WM-HH-00336,Roth IRA,Fidelity,Open,2025-03-06,328949.81,Cumulus Roth IRA
+WM-FA-000618,WM-HH-00336,Brokerage,JP Morgan,Open,2025-03-06,216766.21,Cumulus Brokerage
+WM-FA-000619,WM-HH-00337,Traditional IRA,JP Morgan,Open,2017-05-22,125815.59,Cumulus Traditional IRA
+WM-FA-000620,WM-HH-00337,Roth IRA,JP Morgan,Open,2017-05-22,604837.62,Cumulus Roth IRA
+WM-FA-000621,WM-HH-00337,Trust,Cumulus Custody,Open,2017-05-22,924822.51,Cumulus Trust
+WM-FA-000622,WM-HH-00338,Traditional IRA,Cumulus Custody,Open,2015-08-15,686617.42,Cumulus Traditional IRA
+WM-FA-000623,WM-HH-00338,Roth IRA,Cumulus Custody,Open,2015-08-15,1887015.06,Cumulus Roth IRA
+WM-FA-000624,WM-HH-00339,Roth IRA,Cumulus Custody,Open,2017-11-17,615941.19,Cumulus Roth IRA
+WM-FA-000625,WM-HH-00339,Brokerage,Cumulus Custody,Open,2017-11-17,456960.5,Cumulus Brokerage
+WM-FA-000626,WM-HH-00340,Brokerage,Cumulus Custody,Open,2019-02-11,215319.36,Cumulus Brokerage
+WM-FA-000627,WM-HH-00340,Roth IRA,Cumulus Custody,Open,2019-02-11,448217.6,Cumulus Roth IRA
+WM-FA-000628,WM-HH-00340,Trust,Schwab,Open,2019-02-11,50102.45,Cumulus Trust
+WM-FA-000629,WM-HH-00341,Brokerage,Cumulus Custody,Open,2022-07-27,3429320.0,Cumulus Brokerage
+WM-FA-000630,WM-HH-00341,529 Plan,Cumulus Custody,Open,2022-07-27,1718332.77,Cumulus 529 Plan
+WM-FA-000631,WM-HH-00342,Traditional IRA,Cumulus Custody,Open,2016-08-21,721780.23,Cumulus Traditional IRA
+WM-FA-000632,WM-HH-00342,Trust,Cumulus Custody,Open,2016-08-21,73150.96,Cumulus Trust
+WM-FA-000633,WM-HH-00343,Traditional IRA,Cumulus Custody,Open,2015-07-03,341547.52,Cumulus Traditional IRA
+WM-FA-000634,WM-HH-00343,Roth IRA,Cumulus Custody,Open,2015-07-03,85533.57,Cumulus Roth IRA
+WM-FA-000635,WM-HH-00343,Trust,JP Morgan,Open,2015-07-03,332545.83,Cumulus Trust
+WM-FA-000636,WM-HH-00344,Trust,Fidelity,Open,2010-02-23,34074.0,Cumulus Trust
+WM-FA-000637,WM-HH-00344,Roth IRA,JP Morgan,Open,2010-02-23,77259.94,Cumulus Roth IRA
+WM-FA-000638,WM-HH-00344,529 Plan,Cumulus Custody,Open,2010-02-23,312696.73,Cumulus 529 Plan
+WM-FA-000639,WM-HH-00345,Traditional IRA,Cumulus Custody,Open,2017-12-06,864630.78,Cumulus Traditional IRA
+WM-FA-000640,WM-HH-00345,Trust,Cumulus Custody,Open,2017-12-06,705413.88,Cumulus Trust
+WM-FA-000641,WM-HH-00346,Brokerage,Cumulus Custody,Closed,2018-10-05,1352560.83,Cumulus Brokerage
+WM-FA-000642,WM-HH-00347,529 Plan,Fidelity,Open,2015-12-04,65116.74,Cumulus 529 Plan
+WM-FA-000643,WM-HH-00347,Brokerage,Cumulus Custody,Open,2015-12-04,363741.31,Cumulus Brokerage
+WM-FA-000644,WM-HH-00348,Roth IRA,Cumulus Custody,Open,2017-07-18,17131.26,Cumulus Roth IRA
+WM-FA-000645,WM-HH-00348,Trust,Cumulus Custody,Open,2017-07-18,249317.44,Cumulus Trust
+WM-FA-000646,WM-HH-00348,529 Plan,Cumulus Custody,Open,2017-07-18,355875.67,Cumulus 529 Plan
+WM-FA-000647,WM-HH-00349,529 Plan,Schwab,Open,2013-01-19,144036.58,Cumulus 529 Plan
+WM-FA-000648,WM-HH-00349,Brokerage,Schwab,Open,2013-01-19,188426.45,Cumulus Brokerage
+WM-FA-000649,WM-HH-00350,529 Plan,Cumulus Custody,Open,2010-04-09,4034495.43,Cumulus 529 Plan
+WM-FA-000650,WM-HH-00351,Roth IRA,Cumulus Custody,Open,2017-03-27,10078005.76,Cumulus Roth IRA
+WM-FA-000651,WM-HH-00351,Brokerage,Fidelity,Open,2017-03-27,542097.0,Cumulus Brokerage
+WM-FA-000652,WM-HH-00352,Trust,Schwab,Open,2026-04-06,50000.0,Cumulus Trust
+WM-FA-000653,WM-HH-00353,Brokerage,Cumulus Custody,Open,2014-12-11,79861.82,Cumulus Brokerage
+WM-FA-000654,WM-HH-00353,529 Plan,Cumulus Custody,Open,2014-12-11,72198.03,Cumulus 529 Plan
+WM-FA-000655,WM-HH-00354,Brokerage,JP Morgan,Open,2011-07-05,950071.47,Cumulus Brokerage
+WM-FA-000656,WM-HH-00354,529 Plan,JP Morgan,Open,2011-07-05,899542.39,Cumulus 529 Plan
+WM-FA-000657,WM-HH-00354,Roth IRA,Cumulus Custody,Open,2011-07-05,560321.85,Cumulus Roth IRA
+WM-FA-000658,WM-HH-00355,Trust,Cumulus Custody,Open,2026-04-26,1202344.17,Cumulus Trust
+WM-FA-000659,WM-HH-00356,Brokerage,Schwab,Open,2011-05-27,299539.63,Cumulus Brokerage
+WM-FA-000660,WM-HH-00357,Roth IRA,Cumulus Custody,Open,2023-03-06,693808.37,Cumulus Roth IRA
+WM-FA-000661,WM-HH-00358,Roth IRA,Schwab,Open,2018-06-07,1755551.57,Cumulus Roth IRA
+WM-FA-000662,WM-HH-00358,Trust,Cumulus Custody,Open,2018-06-07,53998.75,Cumulus Trust
+WM-FA-000663,WM-HH-00359,Roth IRA,JP Morgan,Open,2017-07-07,163012.28,Cumulus Roth IRA
+WM-FA-000664,WM-HH-00359,Traditional IRA,Cumulus Custody,Open,2017-07-07,215036.71,Cumulus Traditional IRA
+WM-FA-000665,WM-HH-00360,Roth IRA,Cumulus Custody,Open,2024-12-31,1221296.92,Cumulus Roth IRA
+WM-FA-000666,WM-HH-00361,Roth IRA,Cumulus Custody,Open,2020-10-06,253858.64,Cumulus Roth IRA
+WM-FA-000667,WM-HH-00361,Traditional IRA,Cumulus Custody,Open,2020-10-06,399836.26,Cumulus Traditional IRA
+WM-FA-000668,WM-HH-00362,Traditional IRA,Cumulus Custody,Open,2014-04-24,93835.25,Cumulus Traditional IRA
+WM-FA-000669,WM-HH-00362,529 Plan,Cumulus Custody,Open,2014-04-24,96487.53,Cumulus 529 Plan
+WM-FA-000670,WM-HH-00362,Trust,Schwab,Open,2014-04-24,136896.21,Cumulus Trust
+WM-FA-000671,WM-HH-00363,529 Plan,Cumulus Custody,Open,2019-07-08,119142.05,Cumulus 529 Plan
+WM-FA-000672,WM-HH-00363,Brokerage,Cumulus Custody,Open,2019-07-08,86815.71,Cumulus Brokerage
+WM-FA-000673,WM-HH-00363,Roth IRA,Cumulus Custody,Open,2019-07-08,69138.65,Cumulus Roth IRA
+WM-FA-000674,WM-HH-00364,529 Plan,Cumulus Custody,Open,2012-06-15,1470058.68,Cumulus 529 Plan
+WM-FA-000675,WM-HH-00365,Traditional IRA,Cumulus Custody,Open,2013-09-26,11460.84,Cumulus Traditional IRA
+WM-FA-000676,WM-HH-00365,Trust,Cumulus Custody,Open,2013-09-26,147200.27,Cumulus Trust
+WM-FA-000677,WM-HH-00366,Traditional IRA,Cumulus Custody,Open,2019-07-25,476157.35,Cumulus Traditional IRA
+WM-FA-000678,WM-HH-00366,Roth IRA,Cumulus Custody,Open,2019-07-25,735308.49,Cumulus Roth IRA
+WM-FA-000679,WM-HH-00367,Traditional IRA,Cumulus Custody,Open,2017-09-19,594855.99,Cumulus Traditional IRA
+WM-FA-000680,WM-HH-00368,Traditional IRA,Schwab,Open,2012-10-09,1613670.26,Cumulus Traditional IRA
+WM-FA-000681,WM-HH-00368,Roth IRA,Cumulus Custody,Open,2012-10-09,13472467.01,Cumulus Roth IRA
+WM-FA-000682,WM-HH-00368,Trust,JP Morgan,Open,2012-10-09,14523704.3,Cumulus Trust
+WM-FA-000683,WM-HH-00369,Trust,Cumulus Custody,Open,2011-07-14,197043.09,Cumulus Trust
+WM-FA-000684,WM-HH-00370,Brokerage,Cumulus Custody,Open,2017-05-14,3089578.19,Cumulus Brokerage
+WM-FA-000685,WM-HH-00371,Brokerage,Cumulus Custody,Open,2014-11-26,49467.16,Cumulus Brokerage
+WM-FA-000686,WM-HH-00371,Traditional IRA,Fidelity,Open,2014-11-26,195239.95,Cumulus Traditional IRA
+WM-FA-000687,WM-HH-00372,Trust,Schwab,Open,2011-02-26,114771.69,Cumulus Trust
+WM-FA-000688,WM-HH-00372,529 Plan,Cumulus Custody,Open,2011-02-26,360698.12,Cumulus 529 Plan
+WM-FA-000689,WM-HH-00373,Roth IRA,Schwab,Open,2011-02-02,2751686.92,Cumulus Roth IRA
+WM-FA-000690,WM-HH-00374,529 Plan,Cumulus Custody,Open,2021-09-25,121897.13,Cumulus 529 Plan
+WM-FA-000691,WM-HH-00374,Brokerage,Cumulus Custody,Open,2021-09-25,75278.58,Cumulus Brokerage
+WM-FA-000692,WM-HH-00374,Traditional IRA,Cumulus Custody,Open,2021-09-25,72697.07,Cumulus Traditional IRA
+WM-FA-000693,WM-HH-00375,Brokerage,Cumulus Custody,Open,2019-11-26,1934180.02,Cumulus Brokerage
+WM-FA-000694,WM-HH-00376,Brokerage,Cumulus Custody,Closed,2024-11-01,6190245.19,Cumulus Brokerage
+WM-FA-000695,WM-HH-00377,Brokerage,Cumulus Custody,Open,2020-10-04,298966.84,Cumulus Brokerage
+WM-FA-000696,WM-HH-00377,Roth IRA,Cumulus Custody,Open,2020-10-04,56590.07,Cumulus Roth IRA
+WM-FA-000697,WM-HH-00377,Traditional IRA,Cumulus Custody,Open,2020-10-04,127217.36,Cumulus Traditional IRA
+WM-FA-000698,WM-HH-00378,Roth IRA,Cumulus Custody,Open,2014-01-02,533248.9,Cumulus Roth IRA
+WM-FA-000699,WM-HH-00378,Trust,Cumulus Custody,Open,2014-01-02,2367342.46,Cumulus Trust
+WM-FA-000700,WM-HH-00379,Traditional IRA,Schwab,Open,2020-09-16,270790.81,Cumulus Traditional IRA
+WM-FA-000701,WM-HH-00380,Trust,Cumulus Custody,Open,2025-05-08,68793.64,Cumulus Trust
+WM-FA-000702,WM-HH-00380,Traditional IRA,Cumulus Custody,Open,2025-05-08,694546.07,Cumulus Traditional IRA
+WM-FA-000703,WM-HH-00381,Roth IRA,Cumulus Custody,Open,2022-09-01,44220.02,Cumulus Roth IRA
+WM-FA-000704,WM-HH-00381,Traditional IRA,Cumulus Custody,Open,2022-09-01,437295.45,Cumulus Traditional IRA
+WM-FA-000705,WM-HH-00381,Trust,Schwab,Open,2022-09-01,1931880.36,Cumulus Trust
+WM-FA-000706,WM-HH-00382,Trust,Cumulus Custody,Open,2015-01-14,41287.7,Cumulus Trust
+WM-FA-000707,WM-HH-00382,Roth IRA,Cumulus Custody,Open,2015-01-14,21010.64,Cumulus Roth IRA
+WM-FA-000708,WM-HH-00383,529 Plan,Schwab,Open,2026-05-10,62309.25,Cumulus 529 Plan
+WM-FA-000709,WM-HH-00383,Roth IRA,Schwab,Open,2026-05-10,82641.38,Cumulus Roth IRA
+WM-FA-000710,WM-HH-00384,Brokerage,Cumulus Custody,Open,2018-03-14,129402.43,Cumulus Brokerage
+WM-FA-000711,WM-HH-00384,Roth IRA,Cumulus Custody,Open,2018-03-14,13551.71,Cumulus Roth IRA
+WM-FA-000712,WM-HH-00384,Traditional IRA,JP Morgan,Open,2018-03-14,6034.6,Cumulus Traditional IRA
+WM-FA-000713,WM-HH-00385,Trust,Cumulus Custody,Open,2019-12-08,139495.68,Cumulus Trust
+WM-FA-000714,WM-HH-00385,Brokerage,Fidelity,Open,2019-12-08,50281.2,Cumulus Brokerage
+WM-FA-000715,WM-HH-00386,Roth IRA,Cumulus Custody,Open,2021-04-05,33450.82,Cumulus Roth IRA
+WM-FA-000716,WM-HH-00386,Traditional IRA,Cumulus Custody,Open,2021-04-05,233507.96,Cumulus Traditional IRA
+WM-FA-000717,WM-HH-00386,529 Plan,Cumulus Custody,Open,2021-04-05,646113.47,Cumulus 529 Plan
+WM-FA-000718,WM-HH-00387,529 Plan,Cumulus Custody,Open,2022-12-10,235696.55,Cumulus 529 Plan
+WM-FA-000719,WM-HH-00387,Roth IRA,Cumulus Custody,Open,2022-12-10,1247950.04,Cumulus Roth IRA
+WM-FA-000720,WM-HH-00388,529 Plan,JP Morgan,Open,2024-11-04,85513.54,Cumulus 529 Plan
+WM-FA-000721,WM-HH-00388,Brokerage,Cumulus Custody,Open,2024-11-04,62065.74,Cumulus Brokerage
+WM-FA-000722,WM-HH-00389,Trust,Cumulus Custody,Open,2014-01-09,203285.15,Cumulus Trust
+WM-FA-000723,WM-HH-00390,529 Plan,Cumulus Custody,Open,2013-08-26,130557.13,Cumulus 529 Plan
+WM-FA-000724,WM-HH-00391,Traditional IRA,Schwab,Open,2020-07-03,2340161.5,Cumulus Traditional IRA
+WM-FA-000725,WM-HH-00392,Traditional IRA,Cumulus Custody,Closed,2013-05-03,579029.27,Cumulus Traditional IRA
+WM-FA-000726,WM-HH-00393,529 Plan,Fidelity,Open,2022-08-13,156353.91,Cumulus 529 Plan
+WM-FA-000727,WM-HH-00393,Roth IRA,Schwab,Open,2022-08-13,127146.18,Cumulus Roth IRA
+WM-FA-000728,WM-HH-00394,Roth IRA,JP Morgan,Open,2018-08-06,370021.99,Cumulus Roth IRA
+WM-FA-000729,WM-HH-00395,529 Plan,Cumulus Custody,Open,2010-03-04,58456.3,Cumulus 529 Plan
+WM-FA-000730,WM-HH-00395,Brokerage,Cumulus Custody,Open,2010-03-04,130139.34,Cumulus Brokerage
+WM-FA-000731,WM-HH-00395,Roth IRA,Cumulus Custody,Open,2010-03-04,130403.57,Cumulus Roth IRA
+WM-FA-000732,WM-HH-00396,Brokerage,Cumulus Custody,Open,2017-01-04,351421.47,Cumulus Brokerage
+WM-FA-000733,WM-HH-00397,Roth IRA,JP Morgan,Closed,2019-10-07,1881423.79,Cumulus Roth IRA
+WM-FA-000734,WM-HH-00398,Roth IRA,Cumulus Custody,Open,2020-07-25,52547.22,Cumulus Roth IRA
+WM-FA-000735,WM-HH-00398,Brokerage,JP Morgan,Open,2020-07-25,106798.93,Cumulus Brokerage
+WM-FA-000736,WM-HH-00399,Brokerage,Schwab,Open,2025-01-14,86351.93,Cumulus Brokerage
+WM-FA-000737,WM-HH-00399,Roth IRA,Cumulus Custody,Open,2025-01-14,140253.8,Cumulus Roth IRA
+WM-FA-000738,WM-HH-00400,Brokerage,Cumulus Custody,Open,2019-10-29,33346.46,Cumulus Brokerage
+WM-FA-000739,WM-HH-00400,Traditional IRA,Cumulus Custody,Open,2019-10-29,103937.03,Cumulus Traditional IRA
+WM-FA-000740,WM-HH-00400,Roth IRA,Fidelity,Open,2019-10-29,96749.63,Cumulus Roth IRA
+WM-FA-000741,WM-HH-00401,Traditional IRA,Fidelity,Open,2012-09-26,3506420.49,Cumulus Traditional IRA
+WM-FA-000742,WM-HH-00402,Traditional IRA,Cumulus Custody,Open,2022-03-02,241108.71,Cumulus Traditional IRA
+WM-FA-000743,WM-HH-00402,Trust,Cumulus Custody,Open,2022-03-02,203553.34,Cumulus Trust
+WM-FA-000744,WM-HH-00402,529 Plan,Cumulus Custody,Open,2022-03-02,137038.89,Cumulus 529 Plan
+WM-FA-000745,WM-HH-00403,Traditional IRA,Cumulus Custody,Open,2018-06-04,72918.77,Cumulus Traditional IRA
+WM-FA-000746,WM-HH-00403,529 Plan,Schwab,Open,2018-06-04,323230.1,Cumulus 529 Plan
+WM-FA-000747,WM-HH-00404,Roth IRA,Cumulus Custody,Open,2019-01-22,40271.67,Cumulus Roth IRA
+WM-FA-000748,WM-HH-00404,Brokerage,Schwab,Open,2019-01-22,45363.47,Cumulus Brokerage
+WM-FA-000749,WM-HH-00404,Traditional IRA,Cumulus Custody,Open,2019-01-22,13698.64,Cumulus Traditional IRA
+WM-FA-000750,WM-HH-00405,Trust,Schwab,Open,2022-03-12,2818468.59,Cumulus Trust
+WM-FA-000751,WM-HH-00405,Traditional IRA,Cumulus Custody,Open,2022-03-12,305246.91,Cumulus Traditional IRA
+WM-FA-000752,WM-HH-00406,529 Plan,Cumulus Custody,Open,2024-02-21,200491.22,Cumulus 529 Plan
+WM-FA-000753,WM-HH-00406,Traditional IRA,Cumulus Custody,Open,2024-02-21,133067.38,Cumulus Traditional IRA
+WM-FA-000754,WM-HH-00407,Roth IRA,Cumulus Custody,Open,2016-07-20,5376975.54,Cumulus Roth IRA
+WM-FA-000755,WM-HH-00408,Traditional IRA,JP Morgan,Open,2014-03-05,707421.31,Cumulus Traditional IRA
+WM-FA-000756,WM-HH-00408,Trust,Cumulus Custody,Open,2014-03-05,2308153.56,Cumulus Trust
+WM-FA-000757,WM-HH-00409,Traditional IRA,Schwab,Open,2014-01-28,23179218.66,Cumulus Traditional IRA
+WM-FA-000758,WM-HH-00409,Trust,Cumulus Custody,Open,2014-01-28,12972548.31,Cumulus Trust
+WM-FA-000759,WM-HH-00409,Brokerage,Cumulus Custody,Open,2014-01-28,2240441.96,Cumulus Brokerage
+WM-FA-000760,WM-HH-00410,Roth IRA,Schwab,Open,2019-01-21,20306.3,Cumulus Roth IRA
+WM-FA-000761,WM-HH-00410,529 Plan,Cumulus Custody,Open,2019-01-21,573527.44,Cumulus 529 Plan
+WM-FA-000762,WM-HH-00410,Trust,Cumulus Custody,Open,2019-01-21,242747.77,Cumulus Trust
+WM-FA-000763,WM-HH-00411,529 Plan,Cumulus Custody,Open,2021-07-10,3114780.11,Cumulus 529 Plan
+WM-FA-000764,WM-HH-00412,Traditional IRA,Schwab,Open,2011-05-04,6466034.96,Cumulus Traditional IRA
+WM-FA-000765,WM-HH-00413,Brokerage,Cumulus Custody,Open,2024-07-27,351238.12,Cumulus Brokerage
+WM-FA-000766,WM-HH-00414,529 Plan,Cumulus Custody,Open,2012-10-12,176623.78,Cumulus 529 Plan
+WM-FA-000767,WM-HH-00414,Traditional IRA,Schwab,Open,2012-10-12,209846.4,Cumulus Traditional IRA
+WM-FA-000768,WM-HH-00415,529 Plan,Cumulus Custody,Open,2022-06-13,179352.64,Cumulus 529 Plan
+WM-FA-000769,WM-HH-00415,Traditional IRA,Cumulus Custody,Open,2022-06-13,139709.57,Cumulus Traditional IRA
+WM-FA-000770,WM-HH-00415,Brokerage,Schwab,Open,2022-06-13,330825.89,Cumulus Brokerage
+WM-FA-000771,WM-HH-00416,Traditional IRA,Cumulus Custody,Open,2018-06-05,3097709.95,Cumulus Traditional IRA
+WM-FA-000772,WM-HH-00416,529 Plan,Cumulus Custody,Open,2018-06-05,1289746.78,Cumulus 529 Plan
+WM-FA-000773,WM-HH-00417,Roth IRA,Cumulus Custody,Open,2012-12-01,137920.26,Cumulus Roth IRA
+WM-FA-000774,WM-HH-00418,Traditional IRA,Cumulus Custody,Open,2022-07-03,13577176.38,Cumulus Traditional IRA
+WM-FA-000775,WM-HH-00418,Brokerage,Cumulus Custody,Open,2022-07-03,4677242.13,Cumulus Brokerage
+WM-FA-000776,WM-HH-00419,Traditional IRA,Cumulus Custody,Open,2012-07-07,176364.69,Cumulus Traditional IRA
+WM-FA-000777,WM-HH-00419,Roth IRA,Cumulus Custody,Open,2012-07-07,734467.29,Cumulus Roth IRA
+WM-FA-000778,WM-HH-00419,Brokerage,Cumulus Custody,Open,2012-07-07,543682.67,Cumulus Brokerage
+WM-FA-000779,WM-HH-00420,Roth IRA,Fidelity,Open,2011-08-02,197851.47,Cumulus Roth IRA
+WM-FA-000780,WM-HH-00421,Traditional IRA,Cumulus Custody,Open,2022-08-21,533892.64,Cumulus Traditional IRA
+WM-FA-000781,WM-HH-00422,529 Plan,Cumulus Custody,Open,2011-10-08,190107.84,Cumulus 529 Plan
+WM-FA-000782,WM-HH-00422,Traditional IRA,Cumulus Custody,Open,2011-10-08,342583.08,Cumulus Traditional IRA
+WM-FA-000783,WM-HH-00423,Trust,JP Morgan,Open,2015-09-09,444414.72,Cumulus Trust
+WM-FA-000784,WM-HH-00424,529 Plan,Cumulus Custody,Open,2024-09-30,344134.37,Cumulus 529 Plan
+WM-FA-000785,WM-HH-00425,Roth IRA,Cumulus Custody,Open,2020-07-14,150186.0,Cumulus Roth IRA
+WM-FA-000786,WM-HH-00425,529 Plan,Cumulus Custody,Open,2020-07-14,525097.39,Cumulus 529 Plan
+WM-FA-000787,WM-HH-00425,Traditional IRA,Fidelity,Open,2020-07-14,225209.09,Cumulus Traditional IRA
+WM-FA-000788,WM-HH-00426,529 Plan,Cumulus Custody,Closed,2025-12-12,6070530.68,Cumulus 529 Plan
+WM-FA-000789,WM-HH-00426,Roth IRA,Cumulus Custody,Closed,2025-12-12,5950014.06,Cumulus Roth IRA
+WM-FA-000790,WM-HH-00427,Traditional IRA,Cumulus Custody,Open,2024-05-23,466229.15,Cumulus Traditional IRA
+WM-FA-000791,WM-HH-00427,Roth IRA,Schwab,Open,2024-05-23,3767021.89,Cumulus Roth IRA
+WM-FA-000792,WM-HH-00427,529 Plan,Cumulus Custody,Open,2024-05-23,1789516.09,Cumulus 529 Plan
+WM-FA-000793,WM-HH-00428,Roth IRA,Cumulus Custody,Open,2025-11-27,2800612.97,Cumulus Roth IRA
+WM-FA-000794,WM-HH-00428,Brokerage,Cumulus Custody,Open,2025-11-27,264607.46,Cumulus Brokerage
+WM-FA-000795,WM-HH-00429,Roth IRA,JP Morgan,Open,2010-11-22,464675.2,Cumulus Roth IRA
+WM-FA-000796,WM-HH-00429,Brokerage,Fidelity,Open,2010-11-22,47333.37,Cumulus Brokerage
+WM-FA-000797,WM-HH-00430,Trust,Cumulus Custody,Open,2011-08-22,183352.57,Cumulus Trust
+WM-FA-000798,WM-HH-00431,Roth IRA,Cumulus Custody,Open,2024-05-10,28525.7,Cumulus Roth IRA
+WM-FA-000799,WM-HH-00431,Traditional IRA,Cumulus Custody,Open,2024-05-10,326615.54,Cumulus Traditional IRA
+WM-FA-000800,WM-HH-00432,Brokerage,Cumulus Custody,Open,2022-08-16,208100.15,Cumulus Brokerage
+WM-FA-000801,WM-HH-00432,Roth IRA,Cumulus Custody,Open,2022-08-16,172730.91,Cumulus Roth IRA
+WM-FA-000802,WM-HH-00433,Traditional IRA,Cumulus Custody,Open,2025-01-16,334614.61,Cumulus Traditional IRA
+WM-FA-000803,WM-HH-00434,Brokerage,Cumulus Custody,Open,2025-04-03,349777.44,Cumulus Brokerage
+WM-FA-000804,WM-HH-00434,529 Plan,Cumulus Custody,Open,2025-04-03,91726.15,Cumulus 529 Plan
+WM-FA-000805,WM-HH-00435,Traditional IRA,Cumulus Custody,Open,2021-06-04,69197.81,Cumulus Traditional IRA
+WM-FA-000806,WM-HH-00435,529 Plan,Cumulus Custody,Open,2021-06-04,175431.17,Cumulus 529 Plan
+WM-FA-000807,WM-HH-00435,Brokerage,Cumulus Custody,Open,2021-06-04,439762.21,Cumulus Brokerage
+WM-FA-000808,WM-HH-00436,529 Plan,Cumulus Custody,Open,2011-05-27,45059.88,Cumulus 529 Plan
+WM-FA-000809,WM-HH-00436,Trust,Schwab,Open,2011-05-27,22017.88,Cumulus Trust
+WM-FA-000810,WM-HH-00436,Traditional IRA,Cumulus Custody,Open,2011-05-27,51538.48,Cumulus Traditional IRA
+WM-FA-000811,WM-HH-00437,Brokerage,JP Morgan,Open,2023-10-18,2884993.28,Cumulus Brokerage
+WM-FA-000812,WM-HH-00437,Trust,Cumulus Custody,Open,2023-10-18,469340.13,Cumulus Trust
+WM-FA-000813,WM-HH-00438,Trust,Fidelity,Open,2018-10-08,2774509.28,Cumulus Trust
+WM-FA-000814,WM-HH-00439,Brokerage,Schwab,Open,2017-03-14,213281.92,Cumulus Brokerage
+WM-FA-000815,WM-HH-00440,Trust,Cumulus Custody,Open,2014-08-30,8734.33,Cumulus Trust
+WM-FA-000816,WM-HH-00440,Brokerage,Cumulus Custody,Open,2014-08-30,497441.2,Cumulus Brokerage
+WM-FA-000817,WM-HH-00441,529 Plan,Cumulus Custody,Open,2011-12-26,52057.38,Cumulus 529 Plan
+WM-FA-000818,WM-HH-00441,Trust,Cumulus Custody,Open,2011-12-26,87833.29,Cumulus Trust
+WM-FA-000819,WM-HH-00442,Brokerage,Cumulus Custody,Open,2018-08-17,584430.2,Cumulus Brokerage
+WM-FA-000820,WM-HH-00442,Trust,Cumulus Custody,Open,2018-08-17,774892.09,Cumulus Trust
+WM-FA-000821,WM-HH-00443,Trust,Cumulus Custody,Open,2010-10-07,384858.49,Cumulus Trust
+WM-FA-000822,WM-HH-00444,Traditional IRA,Cumulus Custody,Open,2010-05-19,433770.27,Cumulus Traditional IRA
+WM-FA-000823,WM-HH-00444,Trust,Cumulus Custody,Open,2010-05-19,9190821.26,Cumulus Trust
+WM-FA-000824,WM-HH-00445,Roth IRA,Cumulus Custody,Closed,2023-01-20,151461.51,Cumulus Roth IRA
+WM-FA-000825,WM-HH-00445,Brokerage,Schwab,Closed,2023-01-20,171341.15,Cumulus Brokerage
+WM-FA-000826,WM-HH-00446,Brokerage,Cumulus Custody,Open,2011-06-30,290681.48,Cumulus Brokerage
+WM-FA-000827,WM-HH-00447,Roth IRA,Cumulus Custody,Open,2026-06-17,377867.31,Cumulus Roth IRA
+WM-FA-000828,WM-HH-00447,Trust,Cumulus Custody,Open,2026-06-17,211403.02,Cumulus Trust
+WM-FA-000829,WM-HH-00448,529 Plan,Cumulus Custody,Open,2020-05-27,67263.63,Cumulus 529 Plan
+WM-FA-000830,WM-HH-00448,Brokerage,Fidelity,Open,2020-05-27,156960.99,Cumulus Brokerage
+WM-FA-000831,WM-HH-00448,Trust,Schwab,Open,2020-05-27,111945.61,Cumulus Trust
+WM-FA-000832,WM-HH-00449,Trust,Cumulus Custody,Open,2017-12-28,287066.96,Cumulus Trust
+WM-FA-000833,WM-HH-00450,Roth IRA,Cumulus Custody,Open,2021-12-09,1487007.79,Cumulus Roth IRA
+WM-FA-000834,WM-HH-00450,Trust,Cumulus Custody,Open,2021-12-09,819671.03,Cumulus Trust
+WM-FA-000835,WM-HH-00451,Traditional IRA,Schwab,Open,2018-02-21,4183218.69,Cumulus Traditional IRA
+WM-FA-000836,WM-HH-00451,Roth IRA,Schwab,Open,2018-02-21,6967718.29,Cumulus Roth IRA
+WM-FA-000837,WM-HH-00452,529 Plan,JP Morgan,Open,2015-01-06,317093.46,Cumulus 529 Plan
+WM-FA-000838,WM-HH-00452,Roth IRA,Cumulus Custody,Open,2015-01-06,505197.01,Cumulus Roth IRA
+WM-FA-000839,WM-HH-00452,Trust,Fidelity,Open,2015-01-06,773597.61,Cumulus Trust
+WM-FA-000840,WM-HH-00453,Roth IRA,Cumulus Custody,Open,2024-06-28,2510619.12,Cumulus Roth IRA
+WM-FA-000841,WM-HH-00453,Trust,Cumulus Custody,Open,2024-06-28,2059098.83,Cumulus Trust
+WM-FA-000842,WM-HH-00454,529 Plan,JP Morgan,Open,2020-12-11,722567.13,Cumulus 529 Plan
+WM-FA-000843,WM-HH-00455,529 Plan,Cumulus Custody,Open,2020-10-28,223664.81,Cumulus 529 Plan
+WM-FA-000844,WM-HH-00456,Roth IRA,Cumulus Custody,Closed,2018-06-04,153918.57,Cumulus Roth IRA
+WM-FA-000845,WM-HH-00457,Brokerage,Cumulus Custody,Open,2022-12-13,88125.19,Cumulus Brokerage
+WM-FA-000846,WM-HH-00458,Trust,Cumulus Custody,Open,2023-07-23,1776450.79,Cumulus Trust
+WM-FA-000847,WM-HH-00459,Trust,Schwab,Open,2015-11-12,284429.35,Cumulus Trust
+WM-FA-000848,WM-HH-00460,Brokerage,Cumulus Custody,Open,2023-06-28,172614.04,Cumulus Brokerage
+WM-FA-000849,WM-HH-00460,Traditional IRA,Cumulus Custody,Open,2023-06-28,64818.74,Cumulus Traditional IRA
+WM-FA-000850,WM-HH-00461,Trust,Cumulus Custody,Open,2014-02-06,12032260.74,Cumulus Trust
+WM-FA-000851,WM-HH-00462,529 Plan,Cumulus Custody,Open,2017-07-10,9264.96,Cumulus 529 Plan
+WM-FA-000852,WM-HH-00462,Trust,Cumulus Custody,Open,2017-07-10,346177.57,Cumulus Trust
+WM-FA-000853,WM-HH-00463,Roth IRA,Schwab,Open,2021-06-17,695285.5,Cumulus Roth IRA
+WM-FA-000854,WM-HH-00464,529 Plan,Cumulus Custody,Open,2025-05-13,304976.6,Cumulus 529 Plan
+WM-FA-000855,WM-HH-00464,Traditional IRA,Cumulus Custody,Open,2025-05-13,120383.92,Cumulus Traditional IRA
+WM-FA-000856,WM-HH-00465,Traditional IRA,Cumulus Custody,Open,2010-04-01,742518.29,Cumulus Traditional IRA
+WM-FA-000857,WM-HH-00466,Roth IRA,Cumulus Custody,Open,2018-12-13,988171.99,Cumulus Roth IRA
+WM-FA-000858,WM-HH-00466,Brokerage,JP Morgan,Open,2018-12-13,92299.28,Cumulus Brokerage
+WM-FA-000859,WM-HH-00467,Brokerage,JP Morgan,Open,2017-05-26,553084.85,Cumulus Brokerage
+WM-FA-000860,WM-HH-00468,Traditional IRA,Fidelity,Open,2024-05-09,232324.01,Cumulus Traditional IRA
+WM-FA-000861,WM-HH-00468,Trust,Cumulus Custody,Open,2024-05-09,69831.3,Cumulus Trust
+WM-FA-000862,WM-HH-00469,529 Plan,Fidelity,Open,2014-07-19,198665.58,Cumulus 529 Plan
+WM-FA-000863,WM-HH-00470,Brokerage,Schwab,Closed,2025-06-07,210299.79,Cumulus Brokerage
+WM-FA-000864,WM-HH-00471,Brokerage,Fidelity,Open,2025-12-04,96611.21,Cumulus Brokerage
+WM-FA-000865,WM-HH-00471,Traditional IRA,Cumulus Custody,Open,2025-12-04,117279.86,Cumulus Traditional IRA
+WM-FA-000866,WM-HH-00471,Roth IRA,JP Morgan,Open,2025-12-04,2776.46,Cumulus Roth IRA
+WM-FA-000867,WM-HH-00472,Traditional IRA,JP Morgan,Open,2020-09-03,276051.93,Cumulus Traditional IRA
+WM-FA-000868,WM-HH-00472,Trust,Cumulus Custody,Open,2020-09-03,96335.86,Cumulus Trust
+WM-FA-000869,WM-HH-00473,Traditional IRA,Fidelity,Open,2020-03-02,339340.0,Cumulus Traditional IRA
+WM-FA-000870,WM-HH-00473,Trust,Cumulus Custody,Open,2020-03-02,478383.33,Cumulus Trust
+WM-FA-000871,WM-HH-00474,Brokerage,Cumulus Custody,Open,2015-03-10,1775183.77,Cumulus Brokerage
+WM-FA-000872,WM-HH-00475,Brokerage,Cumulus Custody,Open,2015-09-18,546428.45,Cumulus Brokerage
+WM-FA-000873,WM-HH-00476,Roth IRA,JP Morgan,Open,2017-06-15,332082.51,Cumulus Roth IRA
+WM-FA-000874,WM-HH-00476,529 Plan,Fidelity,Open,2017-06-15,237483.2,Cumulus 529 Plan
+WM-FA-000875,WM-HH-00476,Trust,Cumulus Custody,Open,2017-06-15,66099.51,Cumulus Trust
+WM-FA-000876,WM-HH-00477,529 Plan,Cumulus Custody,Open,2018-08-28,311303.89,Cumulus 529 Plan
+WM-FA-000877,WM-HH-00477,Roth IRA,Cumulus Custody,Open,2018-08-28,236946.38,Cumulus Roth IRA
+WM-FA-000878,WM-HH-00477,Traditional IRA,Schwab,Open,2018-08-28,39642.1,Cumulus Traditional IRA
+WM-FA-000879,WM-HH-00478,Brokerage,Cumulus Custody,Open,2011-03-12,330271.2,Cumulus Brokerage
+WM-FA-000880,WM-HH-00478,529 Plan,Fidelity,Open,2011-03-12,225791.29,Cumulus 529 Plan
+WM-FA-000881,WM-HH-00479,Roth IRA,Cumulus Custody,Open,2014-01-13,13997070.39,Cumulus Roth IRA
+WM-FA-000882,WM-HH-00479,Brokerage,Cumulus Custody,Open,2014-01-13,9352516.14,Cumulus Brokerage
+WM-FA-000883,WM-HH-00480,Trust,Cumulus Custody,Open,2015-10-30,22748.91,Cumulus Trust
+WM-FA-000884,WM-HH-00480,Brokerage,Cumulus Custody,Open,2015-10-30,256868.42,Cumulus Brokerage
+WM-FA-000885,WM-HH-00481,Roth IRA,Cumulus Custody,Open,2023-08-22,207070.6,Cumulus Roth IRA
+WM-FA-000886,WM-HH-00481,Traditional IRA,Schwab,Open,2023-08-22,581813.77,Cumulus Traditional IRA
+WM-FA-000887,WM-HH-00482,Traditional IRA,Fidelity,Open,2023-05-30,1385254.67,Cumulus Traditional IRA
+WM-FA-000888,WM-HH-00483,Trust,Cumulus Custody,Open,2017-07-10,877578.88,Cumulus Trust
+WM-FA-000889,WM-HH-00483,Traditional IRA,JP Morgan,Open,2017-07-10,163934.85,Cumulus Traditional IRA
+WM-FA-000890,WM-HH-00484,Traditional IRA,Cumulus Custody,Open,2017-06-10,3102378.38,Cumulus Traditional IRA
+WM-FA-000891,WM-HH-00485,Traditional IRA,Cumulus Custody,Open,2018-08-15,20400.69,Cumulus Traditional IRA
+WM-FA-000892,WM-HH-00485,529 Plan,Cumulus Custody,Open,2018-08-15,1104728.72,Cumulus 529 Plan
+WM-FA-000893,WM-HH-00485,Trust,Cumulus Custody,Open,2018-08-15,415377.42,Cumulus Trust
+WM-FA-000894,WM-HH-00486,529 Plan,Cumulus Custody,Open,2014-03-01,1042284.96,Cumulus 529 Plan
+WM-FA-000895,WM-HH-00486,Brokerage,JP Morgan,Open,2014-03-01,4982996.95,Cumulus Brokerage
+WM-FA-000896,WM-HH-00487,Trust,Schwab,Open,2015-02-09,82158.33,Cumulus Trust
+WM-FA-000897,WM-HH-00487,529 Plan,Cumulus Custody,Open,2015-02-09,59419.86,Cumulus 529 Plan
+WM-FA-000898,WM-HH-00487,Traditional IRA,Cumulus Custody,Open,2015-02-09,116018.98,Cumulus Traditional IRA
+WM-FA-000899,WM-HH-00488,Trust,Cumulus Custody,Open,2011-08-30,690728.52,Cumulus Trust
+WM-FA-000900,WM-HH-00488,Roth IRA,Cumulus Custody,Open,2011-08-30,895691.1,Cumulus Roth IRA
+WM-FA-000901,WM-HH-00489,Traditional IRA,Cumulus Custody,Open,2019-04-01,11386.76,Cumulus Traditional IRA
+WM-FA-000902,WM-HH-00489,Roth IRA,Cumulus Custody,Open,2019-04-01,84355.36,Cumulus Roth IRA
+WM-FA-000903,WM-HH-00489,Brokerage,JP Morgan,Open,2019-04-01,253662.58,Cumulus Brokerage
+WM-FA-000904,WM-HH-00490,Roth IRA,Fidelity,Closed,2014-08-19,278620.41,Cumulus Roth IRA
+WM-FA-000905,WM-HH-00490,Traditional IRA,Cumulus Custody,Closed,2014-08-19,445099.32,Cumulus Traditional IRA
+WM-FA-000906,WM-HH-00491,Traditional IRA,Cumulus Custody,Open,2021-07-17,395783.54,Cumulus Traditional IRA
+WM-FA-000907,WM-HH-00491,529 Plan,Cumulus Custody,Open,2021-07-17,390144.91,Cumulus 529 Plan
+WM-FA-000908,WM-HH-00492,Brokerage,JP Morgan,Open,2017-01-19,71822.23,Cumulus Brokerage
+WM-FA-000909,WM-HH-00492,Traditional IRA,Cumulus Custody,Open,2017-01-19,108287.34,Cumulus Traditional IRA
+WM-FA-000910,WM-HH-00493,Roth IRA,Cumulus Custody,Open,2016-10-06,10894580.81,Cumulus Roth IRA
+WM-FA-000911,WM-HH-00493,Brokerage,Cumulus Custody,Open,2016-10-06,5029477.28,Cumulus Brokerage
+WM-FA-000912,WM-HH-00494,529 Plan,Schwab,Open,2023-05-20,946156.68,Cumulus 529 Plan
+WM-FA-000913,WM-HH-00494,Brokerage,Schwab,Open,2023-05-20,359289.6,Cumulus Brokerage
+WM-FA-000914,WM-HH-00495,529 Plan,Fidelity,Open,2018-09-11,568144.05,Cumulus 529 Plan
+WM-FA-000915,WM-HH-00496,Brokerage,Cumulus Custody,Open,2017-03-26,114302.84,Cumulus Brokerage
+WM-FA-000916,WM-HH-00496,529 Plan,Cumulus Custody,Open,2017-03-26,68280.73,Cumulus 529 Plan
+WM-FA-000917,WM-HH-00497,529 Plan,Schwab,Open,2023-10-31,287737.06,Cumulus 529 Plan
+WM-FA-000918,WM-HH-00497,Brokerage,Cumulus Custody,Open,2023-10-31,41857.46,Cumulus Brokerage
+WM-FA-000919,WM-HH-00498,Brokerage,Cumulus Custody,Open,2019-01-04,437530.37,Cumulus Brokerage
+WM-FA-000920,WM-HH-00499,Trust,Cumulus Custody,Open,2021-03-04,193022.43,Cumulus Trust
+WM-FA-000921,WM-HH-00499,Brokerage,Cumulus Custody,Open,2021-03-04,135077.67,Cumulus Brokerage
+WM-FA-000922,WM-HH-00500,Trust,Cumulus Custody,Open,2020-11-07,369462.33,Cumulus Trust
+WM-FA-000923,WM-HH-00501,Brokerage,Schwab,Open,2019-06-25,211919.28,Cumulus Brokerage
+WM-FA-000924,WM-HH-00501,529 Plan,Cumulus Custody,Open,2019-06-25,117945.74,Cumulus 529 Plan
+WM-FA-000925,WM-HH-00501,Roth IRA,Cumulus Custody,Open,2019-06-25,195422.84,Cumulus Roth IRA
+WM-FA-000926,WM-HH-00502,Brokerage,Cumulus Custody,Open,2014-12-17,844814.49,Cumulus Brokerage
+WM-FA-000927,WM-HH-00502,529 Plan,Cumulus Custody,Open,2014-12-17,85288.64,Cumulus 529 Plan
+WM-FA-000928,WM-HH-00502,Traditional IRA,Cumulus Custody,Open,2014-12-17,827381.61,Cumulus Traditional IRA
+WM-FA-000929,WM-HH-00503,Roth IRA,Cumulus Custody,Open,2013-08-27,325245.37,Cumulus Roth IRA
+WM-FA-000930,WM-HH-00504,Brokerage,Fidelity,Open,2013-11-08,1356295.93,Cumulus Brokerage
+WM-FA-000931,WM-HH-00505,Traditional IRA,Cumulus Custody,Open,2019-01-19,174799.58,Cumulus Traditional IRA
+WM-FA-000932,WM-HH-00505,Trust,Cumulus Custody,Open,2019-01-19,164119.74,Cumulus Trust
+WM-FA-000933,WM-HH-00506,Trust,Cumulus Custody,Open,2013-05-18,350481.53,Cumulus Trust
+WM-FA-000934,WM-HH-00507,Traditional IRA,Cumulus Custody,Open,2011-01-09,799861.44,Cumulus Traditional IRA
+WM-FA-000935,WM-HH-00507,Brokerage,Cumulus Custody,Open,2011-01-09,741128.67,Cumulus Brokerage
+WM-FA-000936,WM-HH-00508,529 Plan,Fidelity,Open,2021-07-19,327856.49,Cumulus 529 Plan
+WM-FA-000937,WM-HH-00509,Brokerage,Schwab,Open,2018-09-01,1125638.93,Cumulus Brokerage
+WM-FA-000938,WM-HH-00509,529 Plan,Schwab,Open,2018-09-01,170710.92,Cumulus 529 Plan
+WM-FA-000939,WM-HH-00510,Traditional IRA,Cumulus Custody,Open,2024-07-31,785551.54,Cumulus Traditional IRA
+WM-FA-000940,WM-HH-00510,Trust,Cumulus Custody,Open,2024-07-31,486065.86,Cumulus Trust
+WM-FA-000941,WM-HH-00511,Brokerage,Cumulus Custody,Open,2016-09-15,1069560.04,Cumulus Brokerage
+WM-FA-000942,WM-HH-00511,Trust,Cumulus Custody,Open,2016-09-15,228591.77,Cumulus Trust
+WM-FA-000943,WM-HH-00511,529 Plan,Schwab,Open,2016-09-15,122246.89,Cumulus 529 Plan
+WM-FA-000944,WM-HH-00512,Traditional IRA,Cumulus Custody,Open,2021-06-01,98434.52,Cumulus Traditional IRA
+WM-FA-000945,WM-HH-00512,Brokerage,Cumulus Custody,Open,2021-06-01,50759.57,Cumulus Brokerage
+WM-FA-000946,WM-HH-00512,Trust,Cumulus Custody,Open,2021-06-01,70598.71,Cumulus Trust
+WM-FA-000947,WM-HH-00513,Brokerage,Cumulus Custody,Open,2023-09-29,1051817.73,Cumulus Brokerage
+WM-FA-000948,WM-HH-00513,Roth IRA,JP Morgan,Open,2023-09-29,789647.07,Cumulus Roth IRA
+WM-FA-000949,WM-HH-00514,529 Plan,Fidelity,Open,2024-03-18,2635.13,Cumulus 529 Plan
+WM-FA-000950,WM-HH-00514,Trust,Cumulus Custody,Open,2024-03-18,166178.36,Cumulus Trust
+WM-FA-000951,WM-HH-00514,Brokerage,Cumulus Custody,Open,2024-03-18,187118.4,Cumulus Brokerage
+WM-FA-000952,WM-HH-00515,Roth IRA,Fidelity,Open,2020-09-09,77199.29,Cumulus Roth IRA
+WM-FA-000953,WM-HH-00515,Brokerage,JP Morgan,Open,2020-09-09,197227.06,Cumulus Brokerage
+WM-FA-000954,WM-HH-00516,Brokerage,Cumulus Custody,Open,2017-03-03,177407.98,Cumulus Brokerage
+WM-FA-000955,WM-HH-00516,Roth IRA,Cumulus Custody,Open,2017-03-03,114138.39,Cumulus Roth IRA
+WM-FA-000956,WM-HH-00517,Roth IRA,Cumulus Custody,Open,2026-05-25,842013.77,Cumulus Roth IRA
+WM-FA-000957,WM-HH-00517,Traditional IRA,Cumulus Custody,Open,2026-05-25,1161677.84,Cumulus Traditional IRA
+WM-FA-000958,WM-HH-00518,529 Plan,Fidelity,Open,2013-10-12,96795.2,Cumulus 529 Plan
+WM-FA-000959,WM-HH-00518,Brokerage,Cumulus Custody,Open,2013-10-12,61758.73,Cumulus Brokerage
+WM-FA-000960,WM-HH-00518,Traditional IRA,Cumulus Custody,Open,2013-10-12,43728.16,Cumulus Traditional IRA
+WM-FA-000961,WM-HH-00519,Traditional IRA,Cumulus Custody,Open,2010-09-17,47190.95,Cumulus Traditional IRA
+WM-FA-000962,WM-HH-00519,529 Plan,Cumulus Custody,Open,2010-09-17,416253.29,Cumulus 529 Plan
+WM-FA-000963,WM-HH-00520,Brokerage,Cumulus Custody,Open,2018-01-27,187139.98,Cumulus Brokerage
+WM-FA-000964,WM-HH-00521,Roth IRA,Cumulus Custody,Open,2015-01-09,115669.02,Cumulus Roth IRA
+WM-FA-000965,WM-HH-00521,Brokerage,JP Morgan,Open,2015-01-09,269693.75,Cumulus Brokerage
+WM-FA-000966,WM-HH-00522,Brokerage,Cumulus Custody,Open,2024-12-21,4523784.54,Cumulus Brokerage
+WM-FA-000967,WM-HH-00523,Traditional IRA,Fidelity,Closed,2024-02-21,204472.84,Cumulus Traditional IRA
+WM-FA-000968,WM-HH-00524,529 Plan,Cumulus Custody,Open,2020-09-11,51846.66,Cumulus 529 Plan
+WM-FA-000969,WM-HH-00524,Roth IRA,JP Morgan,Open,2020-09-11,110553.77,Cumulus Roth IRA
+WM-FA-000970,WM-HH-00524,Traditional IRA,Cumulus Custody,Open,2020-09-11,104631.99,Cumulus Traditional IRA
+WM-FA-000971,WM-HH-00525,Trust,JP Morgan,Open,2013-12-31,105340.42,Cumulus Trust
+WM-FA-000972,WM-HH-00525,Traditional IRA,Fidelity,Open,2013-12-31,95841.47,Cumulus Traditional IRA
+WM-FA-000973,WM-HH-00526,529 Plan,Cumulus Custody,Open,2023-11-22,212092.55,Cumulus 529 Plan
+WM-FA-000974,WM-HH-00526,Brokerage,Cumulus Custody,Open,2023-11-22,226939.51,Cumulus Brokerage
+WM-FA-000975,WM-HH-00527,Trust,JP Morgan,Open,2012-08-21,203640.95,Cumulus Trust
+WM-FA-000976,WM-HH-00527,Traditional IRA,JP Morgan,Open,2012-08-21,55532.0,Cumulus Traditional IRA
+WM-FA-000977,WM-HH-00528,Brokerage,Cumulus Custody,Open,2022-07-31,43254.22,Cumulus Brokerage
+WM-FA-000978,WM-HH-00528,Traditional IRA,Cumulus Custody,Open,2022-07-31,217247.28,Cumulus Traditional IRA
+WM-FA-000979,WM-HH-00529,Brokerage,Cumulus Custody,Open,2015-10-02,133958.31,Cumulus Brokerage
+WM-FA-000980,WM-HH-00529,Traditional IRA,Cumulus Custody,Open,2015-10-02,34919.05,Cumulus Traditional IRA
+WM-FA-000981,WM-HH-00529,Trust,Schwab,Open,2015-10-02,128892.52,Cumulus Trust
+WM-FA-000982,WM-HH-00530,529 Plan,Cumulus Custody,Open,2023-07-02,451381.63,Cumulus 529 Plan
+WM-FA-000983,WM-HH-00530,Trust,Cumulus Custody,Open,2023-07-02,142002.94,Cumulus Trust
+WM-FA-000984,WM-HH-00531,Trust,Cumulus Custody,Open,2013-04-12,339427.8,Cumulus Trust
+WM-FA-000985,WM-HH-00532,Brokerage,Schwab,Open,2021-10-01,196965.0,Cumulus Brokerage
+WM-FA-000986,WM-HH-00532,Roth IRA,Cumulus Custody,Open,2021-10-01,79232.79,Cumulus Roth IRA
+WM-FA-000987,WM-HH-00532,529 Plan,Cumulus Custody,Open,2021-10-01,1596990.3,Cumulus 529 Plan
+WM-FA-000988,WM-HH-00533,Brokerage,Cumulus Custody,Open,2018-01-11,172634.1,Cumulus Brokerage
+WM-FA-000989,WM-HH-00533,529 Plan,Fidelity,Open,2018-01-11,224923.75,Cumulus 529 Plan
+WM-FA-000990,WM-HH-00533,Roth IRA,Schwab,Open,2018-01-11,103742.56,Cumulus Roth IRA
+WM-FA-000991,WM-HH-00534,Roth IRA,Cumulus Custody,Open,2010-01-26,75789.93,Cumulus Roth IRA
+WM-FA-000992,WM-HH-00534,Brokerage,Cumulus Custody,Open,2010-01-26,220267.45,Cumulus Brokerage
+WM-FA-000993,WM-HH-00534,Traditional IRA,Fidelity,Open,2010-01-26,48940.28,Cumulus Traditional IRA
+WM-FA-000994,WM-HH-00535,Traditional IRA,Cumulus Custody,Open,2015-01-21,15786.5,Cumulus Traditional IRA
+WM-FA-000995,WM-HH-00535,529 Plan,Cumulus Custody,Open,2015-01-21,292361.18,Cumulus 529 Plan
+WM-FA-000996,WM-HH-00536,Brokerage,Fidelity,Open,2016-09-06,408110.07,Cumulus Brokerage
+WM-FA-000997,WM-HH-00536,Trust,Fidelity,Open,2016-09-06,254528.91,Cumulus Trust
+WM-FA-000998,WM-HH-00537,Traditional IRA,Cumulus Custody,Open,2024-08-20,214439.15,Cumulus Traditional IRA
+WM-FA-000999,WM-HH-00538,Roth IRA,Cumulus Custody,Open,2017-09-21,553683.63,Cumulus Roth IRA
+WM-FA-001000,WM-HH-00538,Trust,Cumulus Custody,Open,2017-09-21,303510.98,Cumulus Trust
+WM-FA-001001,WM-HH-00539,Trust,Cumulus Custody,Open,2025-07-08,473261.11,Cumulus Trust
+WM-FA-001002,WM-HH-00539,529 Plan,JP Morgan,Open,2025-07-08,466075.14,Cumulus 529 Plan
+WM-FA-001003,WM-HH-00540,Traditional IRA,Fidelity,Open,2015-12-25,265292.76,Cumulus Traditional IRA
+WM-FA-001004,WM-HH-00540,Trust,Fidelity,Open,2015-12-25,34560.48,Cumulus Trust
+WM-FA-001005,WM-HH-00541,Roth IRA,Cumulus Custody,Open,2013-08-06,62153.71,Cumulus Roth IRA
+WM-FA-001006,WM-HH-00541,529 Plan,Cumulus Custody,Open,2013-08-06,35670.52,Cumulus 529 Plan
+WM-FA-001007,WM-HH-00542,Roth IRA,Schwab,Open,2012-01-24,929966.25,Cumulus Roth IRA
+WM-FA-001008,WM-HH-00542,Traditional IRA,Cumulus Custody,Open,2012-01-24,854188.76,Cumulus Traditional IRA
+WM-FA-001009,WM-HH-00543,529 Plan,Cumulus Custody,Open,2020-06-21,29683.67,Cumulus 529 Plan
+WM-FA-001010,WM-HH-00543,Roth IRA,Schwab,Open,2020-06-21,142880.51,Cumulus Roth IRA
+WM-FA-001011,WM-HH-00543,Brokerage,Cumulus Custody,Open,2020-06-21,233594.51,Cumulus Brokerage
+WM-FA-001012,WM-HH-00544,529 Plan,Cumulus Custody,Open,2019-10-03,486729.3,Cumulus 529 Plan
+WM-FA-001013,WM-HH-00545,Roth IRA,Cumulus Custody,Open,2021-09-11,137160.98,Cumulus Roth IRA
+WM-FA-001014,WM-HH-00545,Brokerage,Cumulus Custody,Open,2021-09-11,230492.54,Cumulus Brokerage
+WM-FA-001015,WM-HH-00546,Traditional IRA,JP Morgan,Open,2016-12-14,387983.47,Cumulus Traditional IRA
+WM-FA-001016,WM-HH-00546,Roth IRA,JP Morgan,Open,2016-12-14,365430.66,Cumulus Roth IRA
+WM-FA-001017,WM-HH-00547,Brokerage,JP Morgan,Open,2025-03-07,211135.43,Cumulus Brokerage
+WM-FA-001018,WM-HH-00548,Trust,Schwab,Open,2023-07-17,658372.8,Cumulus Trust
+WM-FA-001019,WM-HH-00549,Trust,Cumulus Custody,Open,2018-02-23,360883.79,Cumulus Trust
+WM-FA-001020,WM-HH-00549,Traditional IRA,Schwab,Open,2018-02-23,375293.56,Cumulus Traditional IRA
+WM-FA-001021,WM-HH-00550,Brokerage,Cumulus Custody,Open,2025-12-26,148233.37,Cumulus Brokerage
+WM-FA-001022,WM-HH-00550,Roth IRA,Schwab,Open,2025-12-26,35182.27,Cumulus Roth IRA
+WM-FA-001023,WM-HH-00550,529 Plan,Cumulus Custody,Open,2025-12-26,80090.01,Cumulus 529 Plan
+WM-FA-001024,WM-HH-00551,Trust,Cumulus Custody,Open,2012-02-05,491319.98,Cumulus Trust
+WM-FA-001025,WM-HH-00551,Traditional IRA,Cumulus Custody,Open,2012-02-05,392872.97,Cumulus Traditional IRA
+WM-FA-001026,WM-HH-00552,Trust,Cumulus Custody,Open,2021-01-11,39963.22,Cumulus Trust
+WM-FA-001027,WM-HH-00552,Roth IRA,Cumulus Custody,Open,2021-01-11,8359239.37,Cumulus Roth IRA
+WM-FA-001028,WM-HH-00553,Brokerage,Cumulus Custody,Open,2022-10-15,1196579.91,Cumulus Brokerage
+WM-FA-001029,WM-HH-00554,Roth IRA,Schwab,Open,2020-09-01,226150.54,Cumulus Roth IRA
+WM-FA-001030,WM-HH-00554,529 Plan,Cumulus Custody,Open,2020-09-01,252221.48,Cumulus 529 Plan
+WM-FA-001031,WM-HH-00555,Trust,Cumulus Custody,Open,2018-11-14,1785122.38,Cumulus Trust
+WM-FA-001032,WM-HH-00556,Traditional IRA,Fidelity,Open,2018-11-21,605612.47,Cumulus Traditional IRA
+WM-FA-001033,WM-HH-00557,Trust,Cumulus Custody,Open,2015-07-20,14803671.81,Cumulus Trust
+WM-FA-001034,WM-HH-00557,Brokerage,Cumulus Custody,Open,2015-07-20,4296093.41,Cumulus Brokerage
+WM-FA-001035,WM-HH-00558,Traditional IRA,Cumulus Custody,Open,2022-06-17,840711.45,Cumulus Traditional IRA
+WM-FA-001036,WM-HH-00559,Brokerage,Cumulus Custody,Open,2014-02-14,64872.72,Cumulus Brokerage
+WM-FA-001037,WM-HH-00559,Roth IRA,Cumulus Custody,Open,2014-02-14,71029.69,Cumulus Roth IRA
+WM-FA-001038,WM-HH-00560,Brokerage,Cumulus Custody,Open,2014-10-08,1877350.14,Cumulus Brokerage
+WM-FA-001039,WM-HH-00560,529 Plan,Cumulus Custody,Open,2014-10-08,4802521.43,Cumulus 529 Plan
+WM-FA-001040,WM-HH-00561,Traditional IRA,Cumulus Custody,Open,2019-10-22,1859935.76,Cumulus Traditional IRA
+WM-FA-001041,WM-HH-00562,Trust,Cumulus Custody,Open,2011-10-26,1959309.73,Cumulus Trust
+WM-FA-001042,WM-HH-00563,Trust,Schwab,Open,2023-10-15,103149.84,Cumulus Trust
+WM-FA-001043,WM-HH-00563,Traditional IRA,Cumulus Custody,Open,2023-10-15,169534.18,Cumulus Traditional IRA
+WM-FA-001044,WM-HH-00563,Roth IRA,Cumulus Custody,Open,2023-10-15,81640.75,Cumulus Roth IRA
+WM-FA-001045,WM-HH-00564,Roth IRA,Cumulus Custody,Open,2013-09-16,67408.32,Cumulus Roth IRA
+WM-FA-001046,WM-HH-00564,Brokerage,Cumulus Custody,Open,2013-09-16,138127.19,Cumulus Brokerage
+WM-FA-001047,WM-HH-00565,Brokerage,Schwab,Open,2024-06-21,230803.13,Cumulus Brokerage
+WM-FA-001048,WM-HH-00565,Trust,Cumulus Custody,Open,2024-06-21,178032.67,Cumulus Trust
+WM-FA-001049,WM-HH-00566,Trust,Cumulus Custody,Open,2012-09-15,827184.17,Cumulus Trust
+WM-FA-001050,WM-HH-00567,Traditional IRA,Cumulus Custody,Open,2023-10-13,308282.0,Cumulus Traditional IRA
+WM-FA-001051,WM-HH-00568,Roth IRA,Cumulus Custody,Open,2015-11-03,3223134.26,Cumulus Roth IRA
+WM-FA-001052,WM-HH-00568,Traditional IRA,Cumulus Custody,Open,2015-11-03,2113481.04,Cumulus Traditional IRA
+WM-FA-001053,WM-HH-00569,Traditional IRA,Cumulus Custody,Open,2021-01-22,4286980.72,Cumulus Traditional IRA
+WM-FA-001054,WM-HH-00569,Roth IRA,Cumulus Custody,Open,2021-01-22,3635185.86,Cumulus Roth IRA
+WM-FA-001055,WM-HH-00570,Trust,Cumulus Custody,Open,2019-10-15,333896.41,Cumulus Trust
+WM-FA-001056,WM-HH-00571,Brokerage,Fidelity,Open,2024-09-13,4900349.04,Cumulus Brokerage
+WM-FA-001057,WM-HH-00572,529 Plan,Cumulus Custody,Open,2011-03-22,220583.37,Cumulus 529 Plan
+WM-FA-001058,WM-HH-00573,Traditional IRA,Cumulus Custody,Open,2018-05-10,168934.64,Cumulus Traditional IRA
+WM-FA-001059,WM-HH-00574,Brokerage,Cumulus Custody,Open,2019-09-17,1438258.62,Cumulus Brokerage
+WM-FA-001060,WM-HH-00575,Roth IRA,Cumulus Custody,Open,2026-04-22,654946.1,Cumulus Roth IRA
+WM-FA-001061,WM-HH-00575,529 Plan,Cumulus Custody,Open,2026-04-22,201116.96,Cumulus 529 Plan
+WM-FA-001062,WM-HH-00576,Roth IRA,Cumulus Custody,Open,2014-05-23,213825.07,Cumulus Roth IRA
+WM-FA-001063,WM-HH-00576,529 Plan,Schwab,Open,2014-05-23,195663.82,Cumulus 529 Plan
+WM-FA-001064,WM-HH-00576,Brokerage,Schwab,Open,2014-05-23,114528.04,Cumulus Brokerage
+WM-FA-001065,WM-HH-00577,Trust,Fidelity,Open,2012-02-20,168972.55,Cumulus Trust
+WM-FA-001066,WM-HH-00577,Roth IRA,Cumulus Custody,Open,2012-02-20,1089248.58,Cumulus Roth IRA
+WM-FA-001067,WM-HH-00578,529 Plan,JP Morgan,Open,2016-11-26,155985.77,Cumulus 529 Plan
+WM-FA-001068,WM-HH-00578,Trust,Cumulus Custody,Open,2016-11-26,775779.92,Cumulus Trust
+WM-FA-001069,WM-HH-00579,Roth IRA,Cumulus Custody,Open,2026-03-18,8209.9,Cumulus Roth IRA
+WM-FA-001070,WM-HH-00579,529 Plan,Cumulus Custody,Open,2026-03-18,101873.78,Cumulus 529 Plan
+WM-FA-001071,WM-HH-00580,529 Plan,Cumulus Custody,Open,2011-04-19,103381.89,Cumulus 529 Plan
+WM-FA-001072,WM-HH-00580,Traditional IRA,Cumulus Custody,Open,2011-04-19,211196.62,Cumulus Traditional IRA
+WM-FA-001073,WM-HH-00581,529 Plan,JP Morgan,Open,2015-09-11,484031.37,Cumulus 529 Plan
+WM-FA-001074,WM-HH-00581,Traditional IRA,Cumulus Custody,Open,2015-09-11,476815.17,Cumulus Traditional IRA
+WM-FA-001075,WM-HH-00582,Brokerage,Cumulus Custody,Open,2021-05-19,692533.46,Cumulus Brokerage
+WM-FA-001076,WM-HH-00582,Roth IRA,Fidelity,Open,2021-05-19,682734.85,Cumulus Roth IRA
+WM-FA-001077,WM-HH-00582,Trust,Cumulus Custody,Open,2021-05-19,1238155.76,Cumulus Trust
+WM-FA-001078,WM-HH-00583,Trust,Cumulus Custody,Open,2025-11-06,287325.58,Cumulus Trust
+WM-FA-001079,WM-HH-00583,529 Plan,Cumulus Custody,Open,2025-11-06,122432.94,Cumulus 529 Plan
+WM-FA-001080,WM-HH-00584,Traditional IRA,Cumulus Custody,Open,2019-09-07,191336.2,Cumulus Traditional IRA
+WM-FA-001081,WM-HH-00584,Roth IRA,Cumulus Custody,Open,2019-09-07,65504.93,Cumulus Roth IRA
+WM-FA-001082,WM-HH-00585,Roth IRA,Cumulus Custody,Open,2010-12-07,2125.98,Cumulus Roth IRA
+WM-FA-001083,WM-HH-00585,Trust,Cumulus Custody,Open,2010-12-07,63781.37,Cumulus Trust
+WM-FA-001084,WM-HH-00585,529 Plan,Fidelity,Open,2010-12-07,167719.56,Cumulus 529 Plan
+WM-FA-001085,WM-HH-00586,Brokerage,Cumulus Custody,Open,2018-08-25,99495.01,Cumulus Brokerage
+WM-FA-001086,WM-HH-00586,Traditional IRA,Cumulus Custody,Open,2018-08-25,11337.38,Cumulus Traditional IRA
+WM-FA-001087,WM-HH-00587,529 Plan,Cumulus Custody,Open,2013-12-29,261057.86,Cumulus 529 Plan
+WM-FA-001088,WM-HH-00587,Roth IRA,Cumulus Custody,Open,2013-12-29,137699.99,Cumulus Roth IRA
+WM-FA-001089,WM-HH-00587,Traditional IRA,Cumulus Custody,Open,2013-12-29,422052.75,Cumulus Traditional IRA
+WM-FA-001090,WM-HH-00588,Traditional IRA,Cumulus Custody,Open,2022-10-24,57324.42,Cumulus Traditional IRA
+WM-FA-001091,WM-HH-00588,Trust,Cumulus Custody,Open,2022-10-24,69693.22,Cumulus Trust
+WM-FA-001092,WM-HH-00588,Roth IRA,Cumulus Custody,Open,2022-10-24,68064.25,Cumulus Roth IRA
+WM-FA-001093,WM-HH-00589,Trust,Cumulus Custody,Open,2010-12-15,264249.25,Cumulus Trust
+WM-FA-001094,WM-HH-00589,Traditional IRA,Fidelity,Open,2010-12-15,500769.04,Cumulus Traditional IRA
+WM-FA-001095,WM-HH-00590,Trust,Fidelity,Open,2021-05-31,461037.24,Cumulus Trust
+WM-FA-001096,WM-HH-00591,Roth IRA,Cumulus Custody,Open,2012-10-06,353327.81,Cumulus Roth IRA
+WM-FA-001097,WM-HH-00591,529 Plan,Cumulus Custody,Open,2012-10-06,116918.63,Cumulus 529 Plan
+WM-FA-001098,WM-HH-00592,529 Plan,Cumulus Custody,Open,2023-02-13,636881.1,Cumulus 529 Plan
+WM-FA-001099,WM-HH-00593,529 Plan,Schwab,Open,2022-05-24,92444.54,Cumulus 529 Plan
+WM-FA-001100,WM-HH-00593,Brokerage,Cumulus Custody,Open,2022-05-24,130880.75,Cumulus Brokerage
+WM-FA-001101,WM-HH-00593,Traditional IRA,Fidelity,Open,2022-05-24,194974.14,Cumulus Traditional IRA
+WM-FA-001102,WM-HH-00594,Traditional IRA,Cumulus Custody,Open,2024-11-19,139684.1,Cumulus Traditional IRA
+WM-FA-001103,WM-HH-00595,Brokerage,Schwab,Open,2011-05-14,69434.75,Cumulus Brokerage
+WM-FA-001104,WM-HH-00595,Trust,Cumulus Custody,Open,2011-05-14,34282.26,Cumulus Trust
+WM-FA-001105,WM-HH-00595,Roth IRA,Cumulus Custody,Open,2011-05-14,24344.13,Cumulus Roth IRA
+WM-FA-001106,WM-HH-00596,529 Plan,Cumulus Custody,Open,2010-12-15,1930974.94,Cumulus 529 Plan
+WM-FA-001107,WM-HH-00597,Trust,Cumulus Custody,Open,2011-09-28,2067936.18,Cumulus Trust
+WM-FA-001108,WM-HH-00598,529 Plan,Fidelity,Open,2012-06-20,318197.71,Cumulus 529 Plan
+WM-FA-001109,WM-HH-00599,Brokerage,Cumulus Custody,Open,2012-06-05,312408.26,Cumulus Brokerage
+WM-FA-001110,WM-HH-00600,529 Plan,Cumulus Custody,Open,2020-06-03,548999.96,Cumulus 529 Plan
+WM-FA-001111,WM-HH-00601,Brokerage,JP Morgan,Open,2020-10-10,104302.8,Cumulus Brokerage
+WM-FA-001112,WM-HH-00601,Roth IRA,Cumulus Custody,Open,2020-10-10,49060.59,Cumulus Roth IRA
+WM-FA-001113,WM-HH-00602,Roth IRA,Cumulus Custody,Open,2017-12-13,1115928.88,Cumulus Roth IRA
+WM-FA-001114,WM-HH-00602,Trust,Cumulus Custody,Open,2017-12-13,1161814.53,Cumulus Trust
+WM-FA-001115,WM-HH-00602,Traditional IRA,Cumulus Custody,Open,2017-12-13,704132.06,Cumulus Traditional IRA
+WM-FA-001116,WM-HH-00603,529 Plan,Cumulus Custody,Open,2020-10-07,3226.92,Cumulus 529 Plan
+WM-FA-001117,WM-HH-00603,Brokerage,Fidelity,Open,2020-10-07,195102.0,Cumulus Brokerage
+WM-FA-001118,WM-HH-00603,Trust,Cumulus Custody,Open,2020-10-07,180958.6,Cumulus Trust
+WM-FA-001119,WM-HH-00604,529 Plan,Cumulus Custody,Open,2012-04-14,14794.28,Cumulus 529 Plan
+WM-FA-001120,WM-HH-00604,Traditional IRA,Schwab,Open,2012-04-14,35205.72,Cumulus Traditional IRA
+WM-FA-001121,WM-HH-00605,Traditional IRA,Cumulus Custody,Open,2022-10-04,2334780.01,Cumulus Traditional IRA
+WM-FA-001122,WM-HH-00605,Roth IRA,Fidelity,Open,2022-10-04,4650514.97,Cumulus Roth IRA
+WM-FA-001123,WM-HH-00606,529 Plan,Cumulus Custody,Open,2025-11-21,495382.58,Cumulus 529 Plan
+WM-FA-001124,WM-HH-00607,Trust,Cumulus Custody,Open,2025-10-26,5735461.89,Cumulus Trust
+WM-FA-001125,WM-HH-00608,529 Plan,Fidelity,Open,2016-11-24,167263.66,Cumulus 529 Plan
+WM-FA-001126,WM-HH-00608,Traditional IRA,Schwab,Open,2016-11-24,623924.46,Cumulus Traditional IRA
+WM-FA-001127,WM-HH-00609,Trust,Schwab,Open,2012-09-25,250358.54,Cumulus Trust
+WM-FA-001128,WM-HH-00610,529 Plan,Cumulus Custody,Open,2010-02-04,394831.79,Cumulus 529 Plan
+WM-FA-001129,WM-HH-00611,Trust,JP Morgan,Open,2026-05-26,146702.4,Cumulus Trust
+WM-FA-001130,WM-HH-00611,Traditional IRA,Fidelity,Open,2026-05-26,191996.24,Cumulus Traditional IRA
+WM-FA-001131,WM-HH-00612,Brokerage,Cumulus Custody,Open,2016-10-10,32972762.27,Cumulus Brokerage
+WM-FA-001132,WM-HH-00613,Traditional IRA,Fidelity,Open,2017-11-20,135706.1,Cumulus Traditional IRA
+WM-FA-001133,WM-HH-00613,Trust,Fidelity,Open,2017-11-20,97462.48,Cumulus Trust
+WM-FA-001134,WM-HH-00614,Roth IRA,Cumulus Custody,Open,2023-07-02,495354.87,Cumulus Roth IRA
+WM-FA-001135,WM-HH-00615,529 Plan,Cumulus Custody,Open,2013-07-27,230479.11,Cumulus 529 Plan
+WM-FA-001136,WM-HH-00616,Traditional IRA,Cumulus Custody,Open,2024-02-09,308327.6,Cumulus Traditional IRA
+WM-FA-001137,WM-HH-00616,Roth IRA,Schwab,Open,2024-02-09,157459.82,Cumulus Roth IRA
+WM-FA-001138,WM-HH-00617,Roth IRA,Cumulus Custody,Open,2013-02-20,7972643.33,Cumulus Roth IRA
+WM-FA-001139,WM-HH-00618,Traditional IRA,Cumulus Custody,Open,2015-11-23,421804.27,Cumulus Traditional IRA
+WM-FA-001140,WM-HH-00619,529 Plan,Schwab,Open,2018-12-23,1429303.0,Cumulus 529 Plan
+WM-FA-001141,WM-HH-00619,Roth IRA,JP Morgan,Open,2018-12-23,296502.92,Cumulus Roth IRA
+WM-FA-001142,WM-HH-00620,Traditional IRA,Cumulus Custody,Open,2010-07-04,2753761.37,Cumulus Traditional IRA
+WM-FA-001143,WM-HH-00621,Traditional IRA,Fidelity,Open,2025-12-10,50000.0,Cumulus Traditional IRA
+WM-FA-001144,WM-HH-00622,529 Plan,JP Morgan,Open,2017-07-12,49731.44,Cumulus 529 Plan
+WM-FA-001145,WM-HH-00622,Trust,JP Morgan,Open,2017-07-12,8690.44,Cumulus Trust
+WM-FA-001146,WM-HH-00622,Brokerage,Cumulus Custody,Open,2017-07-12,72667.68,Cumulus Brokerage
+WM-FA-001147,WM-HH-00623,529 Plan,Cumulus Custody,Open,2015-11-22,316427.05,Cumulus 529 Plan
+WM-FA-001148,WM-HH-00624,Traditional IRA,Cumulus Custody,Open,2011-05-11,2001545.95,Cumulus Traditional IRA
+WM-FA-001149,WM-HH-00624,Roth IRA,Cumulus Custody,Open,2011-05-11,384999.01,Cumulus Roth IRA
+WM-FA-001150,WM-HH-00624,Trust,Fidelity,Open,2011-05-11,2477370.47,Cumulus Trust
+WM-FA-001151,WM-HH-00625,Traditional IRA,Cumulus Custody,Open,2020-05-13,248310.79,Cumulus Traditional IRA
+WM-FA-001152,WM-HH-00626,529 Plan,Cumulus Custody,Open,2010-11-14,848435.33,Cumulus 529 Plan
+WM-FA-001153,WM-HH-00626,Trust,Cumulus Custody,Open,2010-11-14,64980.68,Cumulus Trust
+WM-FA-001154,WM-HH-00627,Brokerage,Cumulus Custody,Open,2015-10-03,18559.23,Cumulus Brokerage
+WM-FA-001155,WM-HH-00627,Traditional IRA,Fidelity,Open,2015-10-03,49972.39,Cumulus Traditional IRA
+WM-FA-001156,WM-HH-00628,Brokerage,Cumulus Custody,Open,2023-08-09,1171585.06,Cumulus Brokerage
+WM-FA-001157,WM-HH-00629,529 Plan,Cumulus Custody,Open,2019-01-18,40846.36,Cumulus 529 Plan
+WM-FA-001158,WM-HH-00629,Roth IRA,JP Morgan,Open,2019-01-18,34592.17,Cumulus Roth IRA
+WM-FA-001159,WM-HH-00629,Brokerage,Cumulus Custody,Open,2019-01-18,65803.76,Cumulus Brokerage
+WM-FA-001160,WM-HH-00630,529 Plan,Fidelity,Open,2020-06-10,567494.96,Cumulus 529 Plan
+WM-FA-001161,WM-HH-00630,Brokerage,Cumulus Custody,Open,2020-06-10,695243.88,Cumulus Brokerage
+WM-FA-001162,WM-HH-00631,Brokerage,Cumulus Custody,Open,2012-11-07,663431.09,Cumulus Brokerage
+WM-FA-001163,WM-HH-00631,529 Plan,Cumulus Custody,Open,2012-11-07,70749.91,Cumulus 529 Plan
+WM-FA-001164,WM-HH-00632,529 Plan,JP Morgan,Open,2014-04-14,124125.36,Cumulus 529 Plan
+WM-FA-001165,WM-HH-00633,529 Plan,Cumulus Custody,Open,2025-10-22,545267.12,Cumulus 529 Plan
+WM-FA-001166,WM-HH-00633,Brokerage,Cumulus Custody,Open,2025-10-22,374767.53,Cumulus Brokerage
+WM-FA-001167,WM-HH-00634,Roth IRA,Cumulus Custody,Open,2011-05-01,402301.56,Cumulus Roth IRA
+WM-FA-001168,WM-HH-00635,529 Plan,Cumulus Custody,Open,2019-04-05,390349.79,Cumulus 529 Plan
+WM-FA-001169,WM-HH-00636,Trust,JP Morgan,Open,2012-08-30,231749.36,Cumulus Trust
+WM-FA-001170,WM-HH-00637,Traditional IRA,JP Morgan,Open,2024-06-08,86868.34,Cumulus Traditional IRA
+WM-FA-001171,WM-HH-00637,Roth IRA,Cumulus Custody,Open,2024-06-08,135094.73,Cumulus Roth IRA
+WM-FA-001172,WM-HH-00637,Trust,Cumulus Custody,Open,2024-06-08,125667.19,Cumulus Trust
+WM-FA-001173,WM-HH-00638,Roth IRA,Cumulus Custody,Open,2014-06-25,178280.48,Cumulus Roth IRA
+WM-FA-001174,WM-HH-00639,Roth IRA,Cumulus Custody,Open,2015-06-26,4138686.08,Cumulus Roth IRA
+WM-FA-001175,WM-HH-00639,Traditional IRA,Schwab,Open,2015-06-26,22440171.15,Cumulus Traditional IRA
+WM-FA-001176,WM-HH-00640,Traditional IRA,Cumulus Custody,Open,2018-07-12,2668752.01,Cumulus Traditional IRA
+WM-FA-001177,WM-HH-00640,529 Plan,Fidelity,Open,2018-07-12,2542908.22,Cumulus 529 Plan
+WM-FA-001178,WM-HH-00641,Trust,Cumulus Custody,Open,2017-10-20,1356661.0,Cumulus Trust
+WM-FA-001179,WM-HH-00642,529 Plan,Fidelity,Open,2019-11-22,193060.01,Cumulus 529 Plan
+WM-FA-001180,WM-HH-00642,Traditional IRA,Cumulus Custody,Open,2019-11-22,207823.92,Cumulus Traditional IRA
+WM-FA-001181,WM-HH-00643,Roth IRA,Fidelity,Open,2010-07-14,279081.83,Cumulus Roth IRA
+WM-FA-001182,WM-HH-00644,Trust,Cumulus Custody,Closed,2022-08-19,380583.25,Cumulus Trust
+WM-FA-001183,WM-HH-00644,Traditional IRA,Cumulus Custody,Closed,2022-08-19,1843891.87,Cumulus Traditional IRA
+WM-FA-001184,WM-HH-00645,Brokerage,Cumulus Custody,Open,2011-05-07,367906.21,Cumulus Brokerage
+WM-FA-001185,WM-HH-00645,Traditional IRA,Cumulus Custody,Open,2011-05-07,284988.99,Cumulus Traditional IRA
+WM-FA-001186,WM-HH-00646,529 Plan,JP Morgan,Open,2014-05-07,5121071.54,Cumulus 529 Plan
+WM-FA-001187,WM-HH-00646,Brokerage,Fidelity,Open,2014-05-07,3021616.1,Cumulus Brokerage
+WM-FA-001188,WM-HH-00647,Brokerage,Fidelity,Open,2014-10-30,179117.86,Cumulus Brokerage
+WM-FA-001189,WM-HH-00647,Traditional IRA,JP Morgan,Open,2014-10-30,127237.64,Cumulus Traditional IRA
+WM-FA-001190,WM-HH-00648,Roth IRA,Fidelity,Open,2022-09-06,1269294.94,Cumulus Roth IRA
+WM-FA-001191,WM-HH-00648,Traditional IRA,Cumulus Custody,Open,2022-09-06,1145261.49,Cumulus Traditional IRA
+WM-FA-001192,WM-HH-00648,Trust,Cumulus Custody,Open,2022-09-06,1408172.39,Cumulus Trust
+WM-FA-001193,WM-HH-00649,Traditional IRA,Fidelity,Open,2016-05-19,80778.43,Cumulus Traditional IRA
+WM-FA-001194,WM-HH-00649,529 Plan,Cumulus Custody,Open,2016-05-19,59758.88,Cumulus 529 Plan
+WM-FA-001195,WM-HH-00649,Roth IRA,JP Morgan,Open,2016-05-19,70266.39,Cumulus Roth IRA
+WM-FA-001196,WM-HH-00650,Brokerage,Schwab,Open,2016-11-11,200420.12,Cumulus Brokerage
+WM-FA-001197,WM-HH-00650,529 Plan,Cumulus Custody,Open,2016-11-11,207527.8,Cumulus 529 Plan
+WM-FA-001198,WM-HH-00651,Trust,Cumulus Custody,Open,2019-12-19,735370.44,Cumulus Trust
+WM-FA-001199,WM-HH-00651,Traditional IRA,Cumulus Custody,Open,2019-12-19,803185.89,Cumulus Traditional IRA
+WM-FA-001200,WM-HH-00652,Trust,Cumulus Custody,Open,2011-07-11,43304.44,Cumulus Trust
+WM-FA-001201,WM-HH-00652,Brokerage,Cumulus Custody,Open,2011-07-11,153585.9,Cumulus Brokerage
+WM-FA-001202,WM-HH-00652,Traditional IRA,Cumulus Custody,Open,2011-07-11,108316.77,Cumulus Traditional IRA
+WM-FA-001203,WM-HH-00653,Roth IRA,Schwab,Open,2017-06-14,263169.64,Cumulus Roth IRA
+WM-FA-001204,WM-HH-00654,Trust,Schwab,Open,2013-07-23,2651309.52,Cumulus Trust
+WM-FA-001205,WM-HH-00655,Trust,Cumulus Custody,Open,2020-11-01,278737.09,Cumulus Trust
+WM-FA-001206,WM-HH-00655,Traditional IRA,Fidelity,Open,2020-11-01,377058.81,Cumulus Traditional IRA
+WM-FA-001207,WM-HH-00656,Roth IRA,Fidelity,Open,2023-06-01,25325.77,Cumulus Roth IRA
+WM-FA-001208,WM-HH-00656,529 Plan,JP Morgan,Open,2023-06-01,24674.23,Cumulus 529 Plan
+WM-FA-001209,WM-HH-00657,Roth IRA,Cumulus Custody,Open,2015-03-16,175321.18,Cumulus Roth IRA
+WM-FA-001210,WM-HH-00657,Traditional IRA,JP Morgan,Open,2015-03-16,524795.66,Cumulus Traditional IRA
+WM-FA-001211,WM-HH-00658,529 Plan,Cumulus Custody,Open,2023-02-09,631985.67,Cumulus 529 Plan
+WM-FA-001212,WM-HH-00659,Brokerage,JP Morgan,Open,2018-12-20,385657.81,Cumulus Brokerage
+WM-FA-001213,WM-HH-00659,Roth IRA,Fidelity,Open,2018-12-20,378733.38,Cumulus Roth IRA
+WM-FA-001214,WM-HH-00660,Trust,Cumulus Custody,Open,2013-05-22,259627.22,Cumulus Trust
+WM-FA-001215,WM-HH-00661,Brokerage,JP Morgan,Open,2020-08-01,21866803.61,Cumulus Brokerage
+WM-FA-001216,WM-HH-00661,Traditional IRA,Cumulus Custody,Open,2020-08-01,17734357.55,Cumulus Traditional IRA
+WM-FA-001217,WM-HH-00662,Brokerage,Cumulus Custody,Open,2021-03-30,12812.41,Cumulus Brokerage
+WM-FA-001218,WM-HH-00662,Trust,Cumulus Custody,Open,2021-03-30,96093.94,Cumulus Trust
+WM-FA-001219,WM-HH-00662,Roth IRA,Cumulus Custody,Open,2021-03-30,42479.36,Cumulus Roth IRA
+WM-FA-001220,WM-HH-00663,Roth IRA,JP Morgan,Open,2012-10-28,1321089.53,Cumulus Roth IRA
+WM-FA-001221,WM-HH-00664,Traditional IRA,Cumulus Custody,Open,2023-06-30,274708.15,Cumulus Traditional IRA
+WM-FA-001222,WM-HH-00665,Traditional IRA,Cumulus Custody,Open,2022-03-21,142110.29,Cumulus Traditional IRA
+WM-FA-001223,WM-HH-00665,Roth IRA,Cumulus Custody,Open,2022-03-21,192842.17,Cumulus Roth IRA
+WM-FA-001224,WM-HH-00666,529 Plan,Cumulus Custody,Open,2021-07-12,655568.29,Cumulus 529 Plan
+WM-FA-001225,WM-HH-00666,Trust,Cumulus Custody,Open,2021-07-12,1047742.96,Cumulus Trust
+WM-FA-001226,WM-HH-00667,Roth IRA,Cumulus Custody,Open,2017-06-11,1030070.56,Cumulus Roth IRA
+WM-FA-001227,WM-HH-00667,529 Plan,Cumulus Custody,Open,2017-06-11,2453731.19,Cumulus 529 Plan
+WM-FA-001228,WM-HH-00668,Roth IRA,JP Morgan,Open,2020-05-13,390062.11,Cumulus Roth IRA
+WM-FA-001229,WM-HH-00668,Traditional IRA,Cumulus Custody,Open,2020-05-13,36191.1,Cumulus Traditional IRA
+WM-FA-001230,WM-HH-00669,Roth IRA,Schwab,Open,2023-06-21,17149.14,Cumulus Roth IRA
+WM-FA-001231,WM-HH-00669,Trust,Cumulus Custody,Open,2023-06-21,67612.21,Cumulus Trust
+WM-FA-001232,WM-HH-00669,529 Plan,Cumulus Custody,Open,2023-06-21,305411.88,Cumulus 529 Plan
+WM-FA-001233,WM-HH-00670,Traditional IRA,JP Morgan,Open,2014-05-06,376343.99,Cumulus Traditional IRA
+WM-FA-001234,WM-HH-00671,Brokerage,Cumulus Custody,Open,2012-11-06,267095.18,Cumulus Brokerage
+WM-FA-001235,WM-HH-00672,Traditional IRA,Fidelity,Open,2013-01-13,431699.47,Cumulus Traditional IRA
+WM-FA-001236,WM-HH-00673,Trust,Schwab,Open,2010-10-13,1929314.12,Cumulus Trust
+WM-FA-001237,WM-HH-00673,Traditional IRA,Fidelity,Open,2010-10-13,9014052.02,Cumulus Traditional IRA
+WM-FA-001238,WM-HH-00674,Brokerage,Cumulus Custody,Open,2016-11-25,1543985.47,Cumulus Brokerage
+WM-FA-001239,WM-HH-00674,529 Plan,Cumulus Custody,Open,2016-11-25,326769.18,Cumulus 529 Plan
+WM-FA-001240,WM-HH-00675,Brokerage,Cumulus Custody,Open,2014-06-28,1614730.02,Cumulus Brokerage
+WM-FA-001241,WM-HH-00675,529 Plan,Cumulus Custody,Open,2014-06-28,1197163.76,Cumulus 529 Plan
+WM-FA-001242,WM-HH-00676,Traditional IRA,Cumulus Custody,Closed,2018-10-09,218355.93,Cumulus Traditional IRA
+WM-FA-001243,WM-HH-00676,529 Plan,Cumulus Custody,Closed,2018-10-09,96822.15,Cumulus 529 Plan
+WM-FA-001244,WM-HH-00677,Trust,Fidelity,Open,2023-07-17,2382958.74,Cumulus Trust
+WM-FA-001245,WM-HH-00678,529 Plan,Cumulus Custody,Open,2019-04-24,616104.46,Cumulus 529 Plan
+WM-FA-001246,WM-HH-00678,Trust,Cumulus Custody,Open,2019-04-24,114040.23,Cumulus Trust
+WM-FA-001247,WM-HH-00678,Traditional IRA,Fidelity,Open,2019-04-24,382827.51,Cumulus Traditional IRA
+WM-FA-001248,WM-HH-00679,Trust,Fidelity,Open,2016-06-29,2113574.58,Cumulus Trust
+WM-FA-001249,WM-HH-00679,Roth IRA,Schwab,Open,2016-06-29,2839968.38,Cumulus Roth IRA
+WM-FA-001250,WM-HH-00680,Roth IRA,Cumulus Custody,Open,2018-10-05,157009.43,Cumulus Roth IRA
+WM-FA-001251,WM-HH-00680,Traditional IRA,Cumulus Custody,Open,2018-10-05,615053.1,Cumulus Traditional IRA
+WM-FA-001252,WM-HH-00681,529 Plan,Cumulus Custody,Open,2018-09-03,193383.32,Cumulus 529 Plan
+WM-FA-001253,WM-HH-00681,Roth IRA,Fidelity,Open,2018-09-03,625192.94,Cumulus Roth IRA
+WM-FA-001254,WM-HH-00682,Roth IRA,Cumulus Custody,Open,2010-08-04,1930235.98,Cumulus Roth IRA
+WM-FA-001255,WM-HH-00682,Trust,Fidelity,Open,2010-08-04,532298.12,Cumulus Trust
+WM-FA-001256,WM-HH-00683,Brokerage,Cumulus Custody,Open,2011-05-05,205026.07,Cumulus Brokerage
+WM-FA-001257,WM-HH-00684,529 Plan,Schwab,Open,2014-06-18,62338.95,Cumulus 529 Plan
+WM-FA-001258,WM-HH-00684,Traditional IRA,Cumulus Custody,Open,2014-06-18,8813.17,Cumulus Traditional IRA
+WM-FA-001259,WM-HH-00685,Trust,Fidelity,Open,2011-09-29,194304.49,Cumulus Trust
+WM-FA-001260,WM-HH-00685,Brokerage,Fidelity,Open,2011-09-29,1404011.24,Cumulus Brokerage
+WM-FA-001261,WM-HH-00685,529 Plan,Fidelity,Open,2011-09-29,179310.96,Cumulus 529 Plan
+WM-FA-001262,WM-HH-00686,Traditional IRA,Schwab,Open,2022-04-26,73553.43,Cumulus Traditional IRA
+WM-FA-001263,WM-HH-00686,Roth IRA,Fidelity,Open,2022-04-26,110813.39,Cumulus Roth IRA
+WM-FA-001264,WM-HH-00686,Trust,JP Morgan,Open,2022-04-26,126826.19,Cumulus Trust
+WM-FA-001265,WM-HH-00687,Traditional IRA,Cumulus Custody,Open,2025-04-13,6784340.88,Cumulus Traditional IRA
+WM-FA-001266,WM-HH-00687,Brokerage,Cumulus Custody,Open,2025-04-13,3152437.56,Cumulus Brokerage
+WM-FA-001267,WM-HH-00688,Roth IRA,JP Morgan,Open,2023-11-20,393985.2,Cumulus Roth IRA
+WM-FA-001268,WM-HH-00688,529 Plan,Cumulus Custody,Open,2023-11-20,239617.11,Cumulus 529 Plan
+WM-FA-001269,WM-HH-00688,Trust,Cumulus Custody,Open,2023-11-20,333337.86,Cumulus Trust
+WM-FA-001270,WM-HH-00689,Trust,Cumulus Custody,Open,2020-09-10,345568.98,Cumulus Trust
+WM-FA-001271,WM-HH-00690,Brokerage,Cumulus Custody,Open,2013-03-28,9050.54,Cumulus Brokerage
+WM-FA-001272,WM-HH-00690,529 Plan,Cumulus Custody,Open,2013-03-28,93538.87,Cumulus 529 Plan
+WM-FA-001273,WM-HH-00690,Traditional IRA,JP Morgan,Open,2013-03-28,68593.46,Cumulus Traditional IRA
+WM-FA-001274,WM-HH-00691,529 Plan,Cumulus Custody,Open,2021-05-06,1616510.44,Cumulus 529 Plan
+WM-FA-001275,WM-HH-00691,Trust,Schwab,Open,2021-05-06,1435162.11,Cumulus Trust
+WM-FA-001276,WM-HH-00692,529 Plan,Cumulus Custody,Open,2025-03-07,41781.6,Cumulus 529 Plan
+WM-FA-001277,WM-HH-00692,Trust,Cumulus Custody,Open,2025-03-07,21142.09,Cumulus Trust
+WM-FA-001278,WM-HH-00692,Traditional IRA,Cumulus Custody,Open,2025-03-07,74422.6,Cumulus Traditional IRA
+WM-FA-001279,WM-HH-00693,Brokerage,JP Morgan,Closed,2020-02-04,23403.78,Cumulus Brokerage
+WM-FA-001280,WM-HH-00693,529 Plan,Cumulus Custody,Closed,2020-02-04,311651.62,Cumulus 529 Plan
+WM-FA-001281,WM-HH-00694,Traditional IRA,Cumulus Custody,Open,2012-03-06,312949.57,Cumulus Traditional IRA
+WM-FA-001282,WM-HH-00695,529 Plan,Cumulus Custody,Open,2016-04-09,1793617.57,Cumulus 529 Plan
+WM-FA-001283,WM-HH-00696,529 Plan,Schwab,Open,2023-10-13,87991.21,Cumulus 529 Plan
+WM-FA-001284,WM-HH-00696,Roth IRA,Cumulus Custody,Open,2023-10-13,77496.67,Cumulus Roth IRA
+WM-FA-001285,WM-HH-00697,529 Plan,Fidelity,Open,2026-06-03,283488.11,Cumulus 529 Plan
+WM-FA-001286,WM-HH-00697,Traditional IRA,Cumulus Custody,Open,2026-06-03,342871.72,Cumulus Traditional IRA
+WM-FA-001287,WM-HH-00698,Roth IRA,Cumulus Custody,Open,2012-04-08,152906.73,Cumulus Roth IRA
+WM-FA-001288,WM-HH-00698,Brokerage,Cumulus Custody,Open,2012-04-08,134072.99,Cumulus Brokerage
+WM-FA-001289,WM-HH-00699,529 Plan,Fidelity,Open,2017-07-21,40358.22,Cumulus 529 Plan
+WM-FA-001290,WM-HH-00699,Trust,Cumulus Custody,Open,2017-07-21,166630.81,Cumulus Trust
+WM-FA-001291,WM-HH-00700,Traditional IRA,Cumulus Custody,Open,2012-09-24,258019.83,Cumulus Traditional IRA
+WM-FA-001292,WM-HH-00700,Roth IRA,Cumulus Custody,Open,2012-09-24,228059.31,Cumulus Roth IRA
+WM-FA-001293,WM-HH-00700,Brokerage,Cumulus Custody,Open,2012-09-24,203877.31,Cumulus Brokerage
+WM-FA-001294,WM-HH-00701,Traditional IRA,JP Morgan,Open,2012-01-29,453217.73,Cumulus Traditional IRA
+WM-FA-001295,WM-HH-00701,Roth IRA,Fidelity,Open,2012-01-29,319671.66,Cumulus Roth IRA
+WM-FA-001296,WM-HH-00701,Brokerage,Cumulus Custody,Open,2012-01-29,354206.06,Cumulus Brokerage
+WM-FA-001297,WM-HH-00702,Roth IRA,Cumulus Custody,Open,2015-04-21,9772992.31,Cumulus Roth IRA
+WM-FA-001298,WM-HH-00702,Trust,JP Morgan,Open,2015-04-21,8856661.34,Cumulus Trust
+WM-FA-001299,WM-HH-00703,Brokerage,Cumulus Custody,Open,2020-10-05,446416.92,Cumulus Brokerage
+WM-FA-001300,WM-HH-00703,Traditional IRA,Cumulus Custody,Open,2020-10-05,509294.6,Cumulus Traditional IRA
+WM-FA-001301,WM-HH-00704,Roth IRA,JP Morgan,Open,2012-01-10,271145.56,Cumulus Roth IRA
+WM-FA-001302,WM-HH-00705,Roth IRA,Cumulus Custody,Open,2022-07-24,419922.93,Cumulus Roth IRA
+WM-FA-001303,WM-HH-00705,529 Plan,Cumulus Custody,Open,2022-07-24,1196388.75,Cumulus 529 Plan
+WM-FA-001304,WM-HH-00706,Roth IRA,Fidelity,Open,2022-03-28,2655.38,Cumulus Roth IRA
+WM-FA-001305,WM-HH-00706,Brokerage,Cumulus Custody,Open,2022-03-28,91014.42,Cumulus Brokerage
+WM-FA-001306,WM-HH-00706,Traditional IRA,Cumulus Custody,Open,2022-03-28,154804.37,Cumulus Traditional IRA
+WM-FA-001307,WM-HH-00707,Brokerage,Cumulus Custody,Open,2020-06-29,2530608.85,Cumulus Brokerage
+WM-FA-001308,WM-HH-00708,Traditional IRA,Fidelity,Open,2014-10-24,99977.91,Cumulus Traditional IRA
+WM-FA-001309,WM-HH-00708,529 Plan,Cumulus Custody,Open,2014-10-24,45856.35,Cumulus 529 Plan
+WM-FA-001310,WM-HH-00709,Traditional IRA,Cumulus Custody,Closed,2018-09-22,30177.93,Cumulus Traditional IRA
+WM-FA-001311,WM-HH-00709,Roth IRA,JP Morgan,Closed,2018-09-22,195725.53,Cumulus Roth IRA
+WM-FA-001312,WM-HH-00710,529 Plan,Cumulus Custody,Open,2021-08-21,764230.63,Cumulus 529 Plan
+WM-FA-001313,WM-HH-00711,Traditional IRA,Cumulus Custody,Closed,2023-10-29,15164.11,Cumulus Traditional IRA
+WM-FA-001314,WM-HH-00711,529 Plan,Cumulus Custody,Closed,2023-10-29,123926.41,Cumulus 529 Plan
+WM-FA-001315,WM-HH-00712,Trust,Cumulus Custody,Open,2016-08-12,351844.07,Cumulus Trust
+WM-FA-001316,WM-HH-00713,529 Plan,Cumulus Custody,Open,2019-08-22,797691.47,Cumulus 529 Plan
+WM-FA-001317,WM-HH-00714,Roth IRA,Cumulus Custody,Open,2018-03-17,643287.59,Cumulus Roth IRA
+WM-FA-001318,WM-HH-00715,Trust,Cumulus Custody,Open,2021-04-05,38868.32,Cumulus Trust
+WM-FA-001319,WM-HH-00715,529 Plan,Cumulus Custody,Open,2021-04-05,56280.73,Cumulus 529 Plan
+WM-FA-001320,WM-HH-00715,Brokerage,Cumulus Custody,Open,2021-04-05,19905.59,Cumulus Brokerage
+WM-FA-001321,WM-HH-00716,Brokerage,Cumulus Custody,Open,2012-12-02,8082256.31,Cumulus Brokerage
+WM-FA-001322,WM-HH-00717,Roth IRA,Cumulus Custody,Open,2013-08-13,332057.4,Cumulus Roth IRA
+WM-FA-001323,WM-HH-00718,Brokerage,Cumulus Custody,Open,2021-08-09,77753.9,Cumulus Brokerage
+WM-FA-001324,WM-HH-00718,Trust,Fidelity,Open,2021-08-09,5130.03,Cumulus Trust
+WM-FA-001325,WM-HH-00718,Roth IRA,Cumulus Custody,Open,2021-08-09,83107.98,Cumulus Roth IRA
+WM-FA-001326,WM-HH-00719,Trust,Cumulus Custody,Closed,2016-07-28,1015343.99,Cumulus Trust
+WM-FA-001327,WM-HH-00719,Brokerage,Fidelity,Closed,2016-07-28,1417189.66,Cumulus Brokerage
+WM-FA-001328,WM-HH-00720,Roth IRA,Cumulus Custody,Closed,2010-05-16,205654.21,Cumulus Roth IRA
+WM-FA-001329,WM-HH-00720,Brokerage,Fidelity,Closed,2010-05-16,374126.3,Cumulus Brokerage
+WM-FA-001330,WM-HH-00721,Trust,Cumulus Custody,Open,2022-05-09,54026.23,Cumulus Trust
+WM-FA-001331,WM-HH-00721,529 Plan,Cumulus Custody,Open,2022-05-09,6063.65,Cumulus 529 Plan
+WM-FA-001332,WM-HH-00721,Brokerage,Cumulus Custody,Open,2022-05-09,50115.83,Cumulus Brokerage
+WM-FA-001333,WM-HH-00722,Roth IRA,Cumulus Custody,Open,2016-06-03,76076.95,Cumulus Roth IRA
+WM-FA-001334,WM-HH-00722,Trust,Schwab,Open,2016-06-03,155856.73,Cumulus Trust
+WM-FA-001335,WM-HH-00723,Brokerage,Cumulus Custody,Open,2019-05-09,15060.93,Cumulus Brokerage
+WM-FA-001336,WM-HH-00723,Traditional IRA,Cumulus Custody,Open,2019-05-09,129786.7,Cumulus Traditional IRA
+WM-FA-001337,WM-HH-00724,Brokerage,Cumulus Custody,Open,2012-07-08,546819.92,Cumulus Brokerage
+WM-FA-001338,WM-HH-00725,529 Plan,Cumulus Custody,Closed,2022-10-12,2432841.35,Cumulus 529 Plan
+WM-FA-001339,WM-HH-00725,Trust,Cumulus Custody,Closed,2022-10-12,1532162.13,Cumulus Trust
+WM-FA-001340,WM-HH-00725,Brokerage,Cumulus Custody,Closed,2022-10-12,1850167.73,Cumulus Brokerage
+WM-FA-001341,WM-HH-00726,Brokerage,Cumulus Custody,Open,2023-03-07,742361.18,Cumulus Brokerage
+WM-FA-001342,WM-HH-00726,Trust,Cumulus Custody,Open,2023-03-07,692658.88,Cumulus Trust
+WM-FA-001343,WM-HH-00727,529 Plan,Cumulus Custody,Open,2011-03-20,460030.22,Cumulus 529 Plan
+WM-FA-001344,WM-HH-00727,Traditional IRA,Cumulus Custody,Open,2011-03-20,107316.84,Cumulus Traditional IRA
+WM-FA-001345,WM-HH-00728,529 Plan,Cumulus Custody,Open,2015-03-12,192697.04,Cumulus 529 Plan
+WM-FA-001346,WM-HH-00728,Brokerage,Cumulus Custody,Open,2015-03-12,70269.46,Cumulus Brokerage
+WM-FA-001347,WM-HH-00729,Traditional IRA,Cumulus Custody,Open,2024-02-11,654995.27,Cumulus Traditional IRA
+WM-FA-001348,WM-HH-00730,Roth IRA,Cumulus Custody,Open,2022-06-26,2666627.44,Cumulus Roth IRA
+WM-FA-001349,WM-HH-00731,Brokerage,Schwab,Open,2015-05-06,34825.57,Cumulus Brokerage
+WM-FA-001350,WM-HH-00731,529 Plan,Cumulus Custody,Open,2015-05-06,87579.29,Cumulus 529 Plan
+WM-FA-001351,WM-HH-00731,Trust,Cumulus Custody,Open,2015-05-06,19588.16,Cumulus Trust
+WM-FA-001352,WM-HH-00732,Brokerage,Cumulus Custody,Open,2018-06-09,63037.3,Cumulus Brokerage
+WM-FA-001353,WM-HH-00733,Brokerage,Cumulus Custody,Open,2012-09-19,714213.69,Cumulus Brokerage
+WM-FA-001354,WM-HH-00733,Traditional IRA,Cumulus Custody,Open,2012-09-19,895686.26,Cumulus Traditional IRA
+WM-FA-001355,WM-HH-00734,Traditional IRA,Cumulus Custody,Open,2020-09-25,13773.11,Cumulus Traditional IRA
+WM-FA-001356,WM-HH-00734,Trust,Cumulus Custody,Open,2020-09-25,48785.57,Cumulus Trust
+WM-FA-001357,WM-HH-00734,Brokerage,Schwab,Open,2020-09-25,15731.18,Cumulus Brokerage
+WM-FA-001358,WM-HH-00735,529 Plan,Schwab,Open,2011-06-05,60641.79,Cumulus 529 Plan
+WM-FA-001359,WM-HH-00735,Traditional IRA,Cumulus Custody,Open,2011-06-05,97723.34,Cumulus Traditional IRA
+WM-FA-001360,WM-HH-00735,Trust,Cumulus Custody,Open,2011-06-05,100089.51,Cumulus Trust
+WM-FA-001361,WM-HH-00736,Trust,Cumulus Custody,Open,2020-07-21,2477937.18,Cumulus Trust
+WM-FA-001362,WM-HH-00736,Brokerage,Cumulus Custody,Open,2020-07-21,264725.35,Cumulus Brokerage
+WM-FA-001363,WM-HH-00737,529 Plan,Cumulus Custody,Open,2014-01-06,163930.88,Cumulus 529 Plan
+WM-FA-001364,WM-HH-00738,Roth IRA,Cumulus Custody,Open,2023-12-14,462194.57,Cumulus Roth IRA
+WM-FA-001365,WM-HH-00738,Traditional IRA,Cumulus Custody,Open,2023-12-14,117715.7,Cumulus Traditional IRA
+WM-FA-001366,WM-HH-00739,529 Plan,Cumulus Custody,Open,2016-04-29,10497172.54,Cumulus 529 Plan
+WM-FA-001367,WM-HH-00740,Brokerage,Schwab,Open,2016-12-31,46928.05,Cumulus Brokerage
+WM-FA-001368,WM-HH-00740,529 Plan,Cumulus Custody,Open,2016-12-31,149371.56,Cumulus 529 Plan
+WM-FA-001369,WM-HH-00740,Traditional IRA,Cumulus Custody,Open,2016-12-31,298869.98,Cumulus Traditional IRA
+WM-FA-001370,WM-HH-00741,Brokerage,Cumulus Custody,Open,2024-05-26,513757.08,Cumulus Brokerage
+WM-FA-001371,WM-HH-00742,Brokerage,Cumulus Custody,Open,2021-09-23,6388.58,Cumulus Brokerage
+WM-FA-001372,WM-HH-00742,529 Plan,Fidelity,Open,2021-09-23,621912.12,Cumulus 529 Plan
+WM-FA-001373,WM-HH-00743,Roth IRA,Cumulus Custody,Open,2017-03-27,990126.21,Cumulus Roth IRA
+WM-FA-001374,WM-HH-00743,Traditional IRA,JP Morgan,Open,2017-03-27,2544125.94,Cumulus Traditional IRA
+WM-FA-001375,WM-HH-00744,Traditional IRA,Fidelity,Open,2013-07-02,666933.45,Cumulus Traditional IRA
+WM-FA-001376,WM-HH-00745,529 Plan,Schwab,Open,2010-08-22,140394.25,Cumulus 529 Plan
+WM-FA-001377,WM-HH-00746,Trust,Fidelity,Open,2022-11-13,6020670.91,Cumulus Trust
+WM-FA-001378,WM-HH-00746,529 Plan,JP Morgan,Open,2022-11-13,4220111.57,Cumulus 529 Plan
+WM-FA-001379,WM-HH-00747,Brokerage,Cumulus Custody,Open,2016-11-29,169597.37,Cumulus Brokerage
+WM-FA-001380,WM-HH-00747,Trust,Cumulus Custody,Open,2016-11-29,88320.33,Cumulus Trust
+WM-FA-001381,WM-HH-00748,Roth IRA,Cumulus Custody,Open,2024-10-03,1600638.93,Cumulus Roth IRA
+WM-FA-001382,WM-HH-00748,Trust,Cumulus Custody,Open,2024-10-03,3286770.91,Cumulus Trust
+WM-FA-001383,WM-HH-00749,529 Plan,Cumulus Custody,Open,2018-12-25,440880.65,Cumulus 529 Plan
+WM-FA-001384,WM-HH-00749,Brokerage,JP Morgan,Open,2018-12-25,185591.23,Cumulus Brokerage
+WM-FA-001385,WM-HH-00750,Traditional IRA,Cumulus Custody,Open,2022-07-27,499163.63,Cumulus Traditional IRA
+WM-FA-001386,WM-HH-00751,Roth IRA,Fidelity,Open,2024-10-30,625416.98,Cumulus Roth IRA
+WM-FA-001387,WM-HH-00752,Trust,Schwab,Open,2017-02-09,929417.51,Cumulus Trust
+WM-FA-001388,WM-HH-00753,Roth IRA,Cumulus Custody,Open,2023-03-01,363450.69,Cumulus Roth IRA
+WM-FA-001389,WM-HH-00754,Trust,Cumulus Custody,Open,2014-01-31,857149.1,Cumulus Trust
+WM-FA-001390,WM-HH-00755,529 Plan,JP Morgan,Open,2022-07-03,13850.78,Cumulus 529 Plan
+WM-FA-001391,WM-HH-00755,Roth IRA,Cumulus Custody,Open,2022-07-03,491930.91,Cumulus Roth IRA
+WM-FA-001392,WM-HH-00756,Traditional IRA,Cumulus Custody,Open,2014-08-12,79401.7,Cumulus Traditional IRA
+WM-FA-001393,WM-HH-00756,Roth IRA,Fidelity,Open,2014-08-12,128802.4,Cumulus Roth IRA
+WM-FA-001394,WM-HH-00756,Trust,Cumulus Custody,Open,2014-08-12,101289.37,Cumulus Trust
+WM-FA-001395,WM-HH-00757,Traditional IRA,Cumulus Custody,Closed,2021-06-12,60756.29,Cumulus Traditional IRA
+WM-FA-001396,WM-HH-00757,Brokerage,JP Morgan,Closed,2021-06-12,83895.36,Cumulus Brokerage
+WM-FA-001397,WM-HH-00758,Traditional IRA,Cumulus Custody,Open,2013-03-28,168403.12,Cumulus Traditional IRA
+WM-FA-001398,WM-HH-00758,Roth IRA,JP Morgan,Open,2013-03-28,187095.8,Cumulus Roth IRA
+WM-FA-001399,WM-HH-00759,529 Plan,Cumulus Custody,Open,2010-06-29,3493722.03,Cumulus 529 Plan
+WM-FA-001400,WM-HH-00760,Traditional IRA,Schwab,Open,2020-11-30,207600.01,Cumulus Traditional IRA
+WM-FA-001401,WM-HH-00760,Trust,Cumulus Custody,Open,2020-11-30,206096.06,Cumulus Trust
+WM-FA-001402,WM-HH-00761,Traditional IRA,Cumulus Custody,Open,2025-10-03,606680.16,Cumulus Traditional IRA
+WM-FA-001403,WM-HH-00762,Trust,Cumulus Custody,Open,2015-03-15,166555.03,Cumulus Trust
+WM-FA-001404,WM-HH-00762,Traditional IRA,Cumulus Custody,Open,2015-03-15,571386.96,Cumulus Traditional IRA
+WM-FA-001405,WM-HH-00762,Brokerage,Schwab,Open,2015-03-15,384502.97,Cumulus Brokerage
+WM-FA-001406,WM-HH-00763,529 Plan,JP Morgan,Open,2023-11-05,22036.93,Cumulus 529 Plan
+WM-FA-001407,WM-HH-00763,Brokerage,Cumulus Custody,Open,2023-11-05,96067.97,Cumulus Brokerage
+WM-FA-001408,WM-HH-00764,Brokerage,Cumulus Custody,Open,2022-09-28,1399860.12,Cumulus Brokerage
+WM-FA-001409,WM-HH-00765,Roth IRA,Cumulus Custody,Open,2013-02-23,129912.37,Cumulus Roth IRA
+WM-FA-001410,WM-HH-00765,Traditional IRA,JP Morgan,Open,2013-02-23,336818.96,Cumulus Traditional IRA
+WM-FA-001411,WM-HH-00766,529 Plan,Cumulus Custody,Open,2025-03-05,90799.29,Cumulus 529 Plan
+WM-FA-001412,WM-HH-00766,Trust,Fidelity,Open,2025-03-05,214568.6,Cumulus Trust
+WM-FA-001413,WM-HH-00767,Brokerage,JP Morgan,Open,2011-02-25,2330939.65,Cumulus Brokerage
+WM-FA-001414,WM-HH-00768,529 Plan,Cumulus Custody,Open,2019-03-19,361825.92,Cumulus 529 Plan
+WM-FA-001415,WM-HH-00769,Roth IRA,Cumulus Custody,Open,2013-10-02,94085.46,Cumulus Roth IRA
+WM-FA-001416,WM-HH-00770,Roth IRA,Cumulus Custody,Open,2020-06-22,88876.32,Cumulus Roth IRA
+WM-FA-001417,WM-HH-00770,Traditional IRA,Cumulus Custody,Open,2020-06-22,491555.5,Cumulus Traditional IRA
+WM-FA-001418,WM-HH-00771,Traditional IRA,Cumulus Custody,Open,2010-04-29,242319.92,Cumulus Traditional IRA
+WM-FA-001419,WM-HH-00771,Roth IRA,Cumulus Custody,Open,2010-04-29,119762.31,Cumulus Roth IRA
+WM-FA-001420,WM-HH-00772,Traditional IRA,Cumulus Custody,Open,2025-05-21,2064061.27,Cumulus Traditional IRA
+WM-FA-001421,WM-HH-00773,Trust,Cumulus Custody,Open,2015-08-18,622121.52,Cumulus Trust
+WM-FA-001422,WM-HH-00774,Brokerage,Cumulus Custody,Open,2010-12-02,1134152.46,Cumulus Brokerage
+WM-FA-001423,WM-HH-00774,Roth IRA,Cumulus Custody,Open,2010-12-02,1561983.42,Cumulus Roth IRA
+WM-FA-001424,WM-HH-00775,Brokerage,Cumulus Custody,Open,2017-12-27,188901.87,Cumulus Brokerage
+WM-FA-001425,WM-HH-00775,529 Plan,Cumulus Custody,Open,2017-12-27,100186.71,Cumulus 529 Plan
+WM-FA-001426,WM-HH-00775,Roth IRA,Cumulus Custody,Open,2017-12-27,121250.27,Cumulus Roth IRA
+WM-FA-001427,WM-HH-00776,Brokerage,Cumulus Custody,Open,2016-07-01,167281.76,Cumulus Brokerage
+WM-FA-001428,WM-HH-00776,Traditional IRA,JP Morgan,Open,2016-07-01,190612.31,Cumulus Traditional IRA
+WM-FA-001429,WM-HH-00776,Trust,Cumulus Custody,Open,2016-07-01,192469.86,Cumulus Trust
+WM-FA-001430,WM-HH-00777,529 Plan,Cumulus Custody,Open,2013-01-20,709884.1,Cumulus 529 Plan
+WM-FA-001431,WM-HH-00778,Brokerage,Cumulus Custody,Closed,2014-07-14,36900.99,Cumulus Brokerage
+WM-FA-001432,WM-HH-00778,529 Plan,Fidelity,Closed,2014-07-14,62964.5,Cumulus 529 Plan
+WM-FA-001433,WM-HH-00779,Trust,Cumulus Custody,Open,2012-07-16,579064.09,Cumulus Trust
+WM-FA-001434,WM-HH-00780,529 Plan,Cumulus Custody,Closed,2014-05-25,769422.69,Cumulus 529 Plan
+WM-FA-001435,WM-HH-00781,Traditional IRA,Cumulus Custody,Open,2024-11-16,843207.83,Cumulus Traditional IRA
+WM-FA-001436,WM-HH-00781,Brokerage,Cumulus Custody,Open,2024-11-16,1369974.33,Cumulus Brokerage
+WM-FA-001437,WM-HH-00782,529 Plan,Schwab,Open,2016-11-27,142786.05,Cumulus 529 Plan
+WM-FA-001438,WM-HH-00783,Brokerage,Cumulus Custody,Open,2017-12-07,73775.17,Cumulus Brokerage
+WM-FA-001439,WM-HH-00783,Traditional IRA,Cumulus Custody,Open,2017-12-07,294961.83,Cumulus Traditional IRA
+WM-FA-001440,WM-HH-00784,529 Plan,Cumulus Custody,Open,2023-01-01,30541232.52,Cumulus 529 Plan
+WM-FA-001441,WM-HH-00784,Brokerage,Cumulus Custody,Open,2023-01-01,29458767.48,Cumulus Brokerage
+WM-FA-001442,WM-HH-00785,Traditional IRA,Fidelity,Open,2010-08-08,3710277.33,Cumulus Traditional IRA
+WM-FA-001443,WM-HH-00786,Roth IRA,Schwab,Closed,2020-09-10,2939509.28,Cumulus Roth IRA
+WM-FA-001444,WM-HH-00787,Roth IRA,Cumulus Custody,Open,2022-04-05,1148697.79,Cumulus Roth IRA
+WM-FA-001445,WM-HH-00788,Trust,Cumulus Custody,Open,2016-02-16,170065.31,Cumulus Trust
+WM-FA-001446,WM-HH-00788,529 Plan,Fidelity,Open,2016-02-16,322430.38,Cumulus 529 Plan
+WM-FA-001447,WM-HH-00789,Traditional IRA,Cumulus Custody,Open,2016-05-16,287277.92,Cumulus Traditional IRA
+WM-FA-001448,WM-HH-00789,Brokerage,JP Morgan,Open,2016-05-16,212464.62,Cumulus Brokerage
+WM-FA-001449,WM-HH-00789,Trust,Cumulus Custody,Open,2016-05-16,101734.69,Cumulus Trust
+WM-FA-001450,WM-HH-00790,Trust,Schwab,Open,2023-02-02,1729103.45,Cumulus Trust
+WM-FA-001451,WM-HH-00790,529 Plan,Cumulus Custody,Open,2023-02-02,9654.45,Cumulus 529 Plan
+WM-FA-001452,WM-HH-00790,Roth IRA,Cumulus Custody,Open,2023-02-02,128212.57,Cumulus Roth IRA
+WM-FA-001453,WM-HH-00791,Brokerage,Schwab,Open,2019-03-02,38687.29,Cumulus Brokerage
+WM-FA-001454,WM-HH-00791,529 Plan,Fidelity,Open,2019-03-02,116547.29,Cumulus 529 Plan
+WM-FA-001455,WM-HH-00792,Roth IRA,Cumulus Custody,Open,2019-09-30,59353.99,Cumulus Roth IRA
+WM-FA-001456,WM-HH-00792,529 Plan,Schwab,Open,2019-09-30,8676.24,Cumulus 529 Plan
+WM-FA-001457,WM-HH-00792,Traditional IRA,Cumulus Custody,Open,2019-09-30,41562.71,Cumulus Traditional IRA
+WM-FA-001458,WM-HH-00793,Trust,Schwab,Open,2020-06-12,359141.87,Cumulus Trust
+WM-FA-001459,WM-HH-00793,Brokerage,Cumulus Custody,Open,2020-06-12,380738.08,Cumulus Brokerage
+WM-FA-001460,WM-HH-00794,Brokerage,Cumulus Custody,Open,2017-07-16,12867598.27,Cumulus Brokerage
+WM-FA-001461,WM-HH-00795,Traditional IRA,Cumulus Custody,Open,2011-12-10,1483058.14,Cumulus Traditional IRA
+WM-FA-001462,WM-HH-00796,529 Plan,Cumulus Custody,Open,2018-09-09,8348294.17,Cumulus 529 Plan
+WM-FA-001463,WM-HH-00796,Roth IRA,Cumulus Custody,Open,2018-09-09,8038865.61,Cumulus Roth IRA
+WM-FA-001464,WM-HH-00797,Traditional IRA,JP Morgan,Open,2014-10-18,1701898.63,Cumulus Traditional IRA
+WM-FA-001465,WM-HH-00797,Trust,Fidelity,Open,2014-10-18,2019030.48,Cumulus Trust
+WM-FA-001466,WM-HH-00797,529 Plan,Cumulus Custody,Open,2014-10-18,1437548.47,Cumulus 529 Plan
+WM-FA-001467,WM-HH-00798,Brokerage,Cumulus Custody,Open,2016-01-20,515449.78,Cumulus Brokerage
+WM-FA-001468,WM-HH-00798,Traditional IRA,Cumulus Custody,Open,2016-01-20,63261.15,Cumulus Traditional IRA
+WM-FA-001469,WM-HH-00799,Roth IRA,Cumulus Custody,Open,2011-04-20,367682.13,Cumulus Roth IRA
+WM-FA-001470,WM-HH-00800,Trust,Cumulus Custody,Open,2023-11-09,1109099.8,Cumulus Trust
+WM-FA-001471,WM-HH-00801,529 Plan,Cumulus Custody,Open,2017-09-04,137901.63,Cumulus 529 Plan
+WM-FA-001472,WM-HH-00801,Roth IRA,Schwab,Open,2017-09-04,301707.23,Cumulus Roth IRA
+WM-FA-001473,WM-HH-00802,Brokerage,Cumulus Custody,Open,2020-12-17,688130.92,Cumulus Brokerage
+WM-FA-001474,WM-HH-00802,Trust,Cumulus Custody,Open,2020-12-17,2121006.12,Cumulus Trust
+WM-FA-001475,WM-HH-00802,529 Plan,Fidelity,Open,2020-12-17,677771.19,Cumulus 529 Plan
+WM-FA-001476,WM-HH-00803,Traditional IRA,Fidelity,Open,2017-05-01,287563.19,Cumulus Traditional IRA
+WM-FA-001477,WM-HH-00804,Roth IRA,Fidelity,Open,2020-06-13,257970.72,Cumulus Roth IRA
+WM-FA-001478,WM-HH-00804,Trust,JP Morgan,Open,2020-06-13,31896.02,Cumulus Trust
+WM-FA-001479,WM-HH-00805,Brokerage,Cumulus Custody,Open,2016-12-15,659064.15,Cumulus Brokerage
+WM-FA-001480,WM-HH-00805,529 Plan,Cumulus Custody,Open,2016-12-15,353714.26,Cumulus 529 Plan
+WM-FA-001481,WM-HH-00805,Trust,Schwab,Open,2016-12-15,121438.78,Cumulus Trust
+WM-FA-001482,WM-HH-00806,Brokerage,Cumulus Custody,Open,2025-10-03,196165.73,Cumulus Brokerage
+WM-FA-001483,WM-HH-00806,Traditional IRA,Schwab,Open,2025-10-03,242659.0,Cumulus Traditional IRA
+WM-FA-001484,WM-HH-00806,Trust,Cumulus Custody,Open,2025-10-03,320376.81,Cumulus Trust
+WM-FA-001485,WM-HH-00807,Traditional IRA,Cumulus Custody,Closed,2024-04-21,461914.35,Cumulus Traditional IRA
+WM-FA-001486,WM-HH-00808,Brokerage,Fidelity,Closed,2011-10-16,259243.5,Cumulus Brokerage
+WM-FA-001487,WM-HH-00808,Traditional IRA,JP Morgan,Closed,2011-10-16,427623.54,Cumulus Traditional IRA
+WM-FA-001488,WM-HH-00809,Brokerage,Cumulus Custody,Open,2012-02-12,587720.57,Cumulus Brokerage
+WM-FA-001489,WM-HH-00810,Traditional IRA,JP Morgan,Open,2019-02-14,2408116.17,Cumulus Traditional IRA
+WM-FA-001490,WM-HH-00811,Brokerage,Cumulus Custody,Open,2012-04-29,1306081.97,Cumulus Brokerage
+WM-FA-001491,WM-HH-00812,Trust,Cumulus Custody,Open,2021-10-07,2310695.81,Cumulus Trust
+WM-FA-001492,WM-HH-00813,529 Plan,Cumulus Custody,Open,2024-09-20,2287027.62,Cumulus 529 Plan
+WM-FA-001493,WM-HH-00813,Traditional IRA,Cumulus Custody,Open,2024-09-20,259986.95,Cumulus Traditional IRA
+WM-FA-001494,WM-HH-00814,Trust,Fidelity,Open,2020-09-05,35371.78,Cumulus Trust
+WM-FA-001495,WM-HH-00814,Roth IRA,Schwab,Open,2020-09-05,252485.53,Cumulus Roth IRA
+WM-FA-001496,WM-HH-00815,Traditional IRA,Cumulus Custody,Open,2020-11-02,194507.51,Cumulus Traditional IRA
+WM-FA-001497,WM-HH-00816,Trust,Cumulus Custody,Open,2021-05-29,8253448.79,Cumulus Trust
+WM-FA-001498,WM-HH-00817,Roth IRA,Schwab,Open,2014-06-05,121441.54,Cumulus Roth IRA
+WM-FA-001499,WM-HH-00817,Trust,Cumulus Custody,Open,2014-06-05,435134.29,Cumulus Trust
+WM-FA-001500,WM-HH-00818,Trust,Cumulus Custody,Open,2016-07-25,458289.13,Cumulus Trust
+WM-FA-001501,WM-HH-00818,Roth IRA,Cumulus Custody,Open,2016-07-25,407064.98,Cumulus Roth IRA
+WM-FA-001502,WM-HH-00819,529 Plan,Cumulus Custody,Open,2024-05-19,182239.19,Cumulus 529 Plan
+WM-FA-001503,WM-HH-00819,Brokerage,Cumulus Custody,Open,2024-05-19,153182.5,Cumulus Brokerage
+WM-FA-001504,WM-HH-00820,529 Plan,Cumulus Custody,Open,2021-02-21,30602.06,Cumulus 529 Plan
+WM-FA-001505,WM-HH-00820,Trust,Fidelity,Open,2021-02-21,59759.62,Cumulus Trust
+WM-FA-001506,WM-HH-00820,Roth IRA,Cumulus Custody,Open,2021-02-21,136601.25,Cumulus Roth IRA
+WM-FA-001507,WM-HH-00821,Trust,Cumulus Custody,Open,2012-01-19,29571231.55,Cumulus Trust
+WM-FA-001508,WM-HH-00822,Trust,Cumulus Custody,Open,2024-05-12,732653.7,Cumulus Trust
+WM-FA-001509,WM-HH-00822,Brokerage,Cumulus Custody,Open,2024-05-12,1971577.08,Cumulus Brokerage
+WM-FA-001510,WM-HH-00823,Roth IRA,Cumulus Custody,Open,2023-03-21,1150078.75,Cumulus Roth IRA
+WM-FA-001511,WM-HH-00823,529 Plan,JP Morgan,Open,2023-03-21,351024.75,Cumulus 529 Plan
+WM-FA-001512,WM-HH-00824,Roth IRA,Fidelity,Open,2012-06-09,429391.56,Cumulus Roth IRA
+WM-FA-001513,WM-HH-00824,529 Plan,Schwab,Open,2012-06-09,3902178.92,Cumulus 529 Plan
+WM-FA-001514,WM-HH-00825,Brokerage,Cumulus Custody,Open,2025-01-31,1647995.89,Cumulus Brokerage
+WM-FA-001515,WM-HH-00826,Trust,Cumulus Custody,Open,2022-12-31,2632900.44,Cumulus Trust
+WM-FA-001516,WM-HH-00827,529 Plan,Cumulus Custody,Open,2014-10-05,28100.2,Cumulus 529 Plan
+WM-FA-001517,WM-HH-00827,Roth IRA,Schwab,Open,2014-10-05,10600.18,Cumulus Roth IRA
+WM-FA-001518,WM-HH-00827,Brokerage,Schwab,Open,2014-10-05,47057.03,Cumulus Brokerage
+WM-FA-001519,WM-HH-00828,Trust,Schwab,Open,2023-01-03,74370.45,Cumulus Trust
+WM-FA-001520,WM-HH-00828,Traditional IRA,Cumulus Custody,Open,2023-01-03,31771.76,Cumulus Traditional IRA
+WM-FA-001521,WM-HH-00829,Roth IRA,Cumulus Custody,Open,2016-08-22,8257421.41,Cumulus Roth IRA
+WM-FA-001522,WM-HH-00830,Traditional IRA,Cumulus Custody,Open,2018-10-04,197471.68,Cumulus Traditional IRA
+WM-FA-001523,WM-HH-00831,Traditional IRA,Cumulus Custody,Open,2021-10-24,576846.35,Cumulus Traditional IRA
+WM-FA-001524,WM-HH-00831,Roth IRA,Cumulus Custody,Open,2021-10-24,770389.88,Cumulus Roth IRA
+WM-FA-001525,WM-HH-00831,529 Plan,Cumulus Custody,Open,2021-10-24,1346325.39,Cumulus 529 Plan
+WM-FA-001526,WM-HH-00832,Brokerage,Cumulus Custody,Open,2015-11-05,218392.33,Cumulus Brokerage
+WM-FA-001527,WM-HH-00832,529 Plan,Fidelity,Open,2015-11-05,96273.05,Cumulus 529 Plan
+WM-FA-001528,WM-HH-00833,Trust,Cumulus Custody,Open,2019-05-22,907028.83,Cumulus Trust
+WM-FA-001529,WM-HH-00834,Traditional IRA,Fidelity,Open,2016-10-24,45157.21,Cumulus Traditional IRA
+WM-FA-001530,WM-HH-00834,Roth IRA,Fidelity,Open,2016-10-24,222325.21,Cumulus Roth IRA
+WM-FA-001531,WM-HH-00835,Traditional IRA,Cumulus Custody,Open,2012-02-12,107424.92,Cumulus Traditional IRA
+WM-FA-001532,WM-HH-00835,Trust,Schwab,Open,2012-02-12,10998.45,Cumulus Trust
+WM-FA-001533,WM-HH-00835,Brokerage,Schwab,Open,2012-02-12,146986.07,Cumulus Brokerage
+WM-FA-001534,WM-HH-00836,Trust,Cumulus Custody,Open,2018-12-03,151544.73,Cumulus Trust
+WM-FA-001535,WM-HH-00837,Brokerage,Cumulus Custody,Open,2021-04-19,1197876.06,Cumulus Brokerage
+WM-FA-001536,WM-HH-00838,Trust,JP Morgan,Open,2013-02-03,2170324.03,Cumulus Trust
+WM-FA-001537,WM-HH-00839,Brokerage,Cumulus Custody,Open,2012-03-22,1054059.08,Cumulus Brokerage
+WM-FA-001538,WM-HH-00839,Traditional IRA,Cumulus Custody,Open,2012-03-22,106117.57,Cumulus Traditional IRA
+WM-FA-001539,WM-HH-00840,Brokerage,Fidelity,Open,2016-12-25,124095.97,Cumulus Brokerage
+WM-FA-001540,WM-HH-00841,Roth IRA,Fidelity,Open,2013-03-25,206553.29,Cumulus Roth IRA
+WM-FA-001541,WM-HH-00842,529 Plan,Cumulus Custody,Open,2023-09-17,17287894.5,Cumulus 529 Plan
+WM-FA-001542,WM-HH-00842,Trust,Cumulus Custody,Open,2023-09-17,12831261.93,Cumulus Trust
+WM-FA-001543,WM-HH-00843,Trust,Cumulus Custody,Open,2021-04-05,343788.48,Cumulus Trust
+WM-FA-001544,WM-HH-00844,Traditional IRA,Schwab,Open,2024-02-20,1294320.22,Cumulus Traditional IRA
+WM-FA-001545,WM-HH-00845,Roth IRA,Cumulus Custody,Open,2021-09-20,332384.54,Cumulus Roth IRA
+WM-FA-001546,WM-HH-00846,Brokerage,Fidelity,Open,2025-12-29,1702993.14,Cumulus Brokerage
+WM-FA-001547,WM-HH-00846,529 Plan,Cumulus Custody,Open,2025-12-29,282623.61,Cumulus 529 Plan
+WM-FA-001548,WM-HH-00847,Roth IRA,Fidelity,Open,2012-03-06,2241935.53,Cumulus Roth IRA
+WM-FA-001549,WM-HH-00848,Trust,Cumulus Custody,Closed,2017-10-12,836573.97,Cumulus Trust
+WM-FA-001550,WM-HH-00848,Traditional IRA,Cumulus Custody,Closed,2017-10-12,700099.9,Cumulus Traditional IRA
+WM-FA-001551,WM-HH-00849,Traditional IRA,Fidelity,Open,2011-02-27,6203218.32,Cumulus Traditional IRA
+WM-FA-001552,WM-HH-00850,Roth IRA,Cumulus Custody,Open,2023-02-03,609510.38,Cumulus Roth IRA
+WM-FA-001553,WM-HH-00850,Traditional IRA,Cumulus Custody,Open,2023-02-03,843018.76,Cumulus Traditional IRA
+WM-FA-001554,WM-HH-00851,Brokerage,Cumulus Custody,Open,2010-05-19,1752708.64,Cumulus Brokerage
+WM-FA-001555,WM-HH-00851,529 Plan,Cumulus Custody,Open,2010-05-19,1793902.99,Cumulus 529 Plan
+WM-FA-001556,WM-HH-00851,Roth IRA,Cumulus Custody,Open,2010-05-19,53619.45,Cumulus Roth IRA
+WM-FA-001557,WM-HH-00852,Brokerage,Cumulus Custody,Open,2021-07-29,649491.81,Cumulus Brokerage
+WM-FA-001558,WM-HH-00852,Trust,Cumulus Custody,Open,2021-07-29,132040.42,Cumulus Trust
+WM-FA-001559,WM-HH-00853,Brokerage,Schwab,Open,2019-06-06,150469.57,Cumulus Brokerage
+WM-FA-001560,WM-HH-00853,Roth IRA,Cumulus Custody,Open,2019-06-06,239271.37,Cumulus Roth IRA
+WM-FA-001561,WM-HH-00854,529 Plan,JP Morgan,Open,2020-07-12,426994.8,Cumulus 529 Plan
+WM-FA-001562,WM-HH-00854,Traditional IRA,Cumulus Custody,Open,2020-07-12,15355.53,Cumulus Traditional IRA
+WM-FA-001563,WM-HH-00854,Brokerage,JP Morgan,Open,2020-07-12,64555.27,Cumulus Brokerage
+WM-FA-001564,WM-HH-00855,529 Plan,Cumulus Custody,Closed,2019-06-17,102088.11,Cumulus 529 Plan
+WM-FA-001565,WM-HH-00856,Roth IRA,Cumulus Custody,Open,2014-06-10,104396.83,Cumulus Roth IRA
+WM-FA-001566,WM-HH-00856,Trust,Schwab,Open,2014-06-10,185838.41,Cumulus Trust
+WM-FA-001567,WM-HH-00857,529 Plan,Cumulus Custody,Open,2022-01-20,1080398.6,Cumulus 529 Plan
+WM-FA-001568,WM-HH-00858,Traditional IRA,Cumulus Custody,Open,2022-12-16,601185.95,Cumulus Traditional IRA
+WM-FA-001569,WM-HH-00858,Trust,Cumulus Custody,Open,2022-12-16,336035.28,Cumulus Trust
+WM-FA-001570,WM-HH-00859,Trust,Cumulus Custody,Open,2014-02-03,330102.57,Cumulus Trust
+WM-FA-001571,WM-HH-00859,529 Plan,Cumulus Custody,Open,2014-02-03,78041.35,Cumulus 529 Plan
+WM-FA-001572,WM-HH-00860,Trust,Fidelity,Open,2020-03-23,38873.89,Cumulus Trust
+WM-FA-001573,WM-HH-00860,Traditional IRA,Fidelity,Open,2020-03-23,187944.22,Cumulus Traditional IRA
+WM-FA-001574,WM-HH-00861,Trust,Cumulus Custody,Open,2021-09-26,204782.75,Cumulus Trust
+WM-FA-001575,WM-HH-00861,529 Plan,Cumulus Custody,Open,2021-09-26,53318.89,Cumulus 529 Plan
+WM-FA-001576,WM-HH-00861,Roth IRA,Cumulus Custody,Open,2021-09-26,147222.03,Cumulus Roth IRA
+WM-FA-001577,WM-HH-00862,Traditional IRA,Schwab,Open,2023-09-28,145902.53,Cumulus Traditional IRA
+WM-FA-001578,WM-HH-00863,529 Plan,Cumulus Custody,Open,2013-11-20,65597.51,Cumulus 529 Plan
+WM-FA-001579,WM-HH-00864,Roth IRA,Cumulus Custody,Closed,2024-02-23,3386721.3,Cumulus Roth IRA
+WM-FA-001580,WM-HH-00865,Trust,Cumulus Custody,Open,2016-09-10,1791881.35,Cumulus Trust
+WM-FA-001581,WM-HH-00865,Roth IRA,Fidelity,Open,2016-09-10,676482.74,Cumulus Roth IRA
+WM-FA-001582,WM-HH-00866,Roth IRA,Cumulus Custody,Open,2020-01-29,375133.02,Cumulus Roth IRA
+WM-FA-001583,WM-HH-00867,Brokerage,Cumulus Custody,Open,2021-10-10,372710.69,Cumulus Brokerage
+WM-FA-001584,WM-HH-00867,529 Plan,Cumulus Custody,Open,2021-10-10,576238.4,Cumulus 529 Plan
+WM-FA-001585,WM-HH-00868,Traditional IRA,Cumulus Custody,Closed,2019-04-26,37141.55,Cumulus Traditional IRA
+WM-FA-001586,WM-HH-00868,Brokerage,Cumulus Custody,Closed,2019-04-26,37123.12,Cumulus Brokerage
+WM-FA-001587,WM-HH-00869,Brokerage,Cumulus Custody,Open,2015-11-04,1298793.36,Cumulus Brokerage
+WM-FA-001588,WM-HH-00869,Roth IRA,JP Morgan,Open,2015-11-04,199201.46,Cumulus Roth IRA
+WM-FA-001589,WM-HH-00870,Roth IRA,Cumulus Custody,Open,2021-10-20,289937.73,Cumulus Roth IRA
+WM-FA-001590,WM-HH-00870,529 Plan,Cumulus Custody,Open,2021-10-20,284180.87,Cumulus 529 Plan
+WM-FA-001591,WM-HH-00871,529 Plan,Cumulus Custody,Open,2017-06-16,39569.77,Cumulus 529 Plan
+WM-FA-001592,WM-HH-00871,Roth IRA,Cumulus Custody,Open,2017-06-16,150174.38,Cumulus Roth IRA
+WM-FA-001593,WM-HH-00872,Trust,Cumulus Custody,Open,2020-01-13,572074.68,Cumulus Trust
+WM-FA-001594,WM-HH-00873,Trust,Cumulus Custody,Open,2019-11-01,657793.71,Cumulus Trust
+WM-FA-001595,WM-HH-00873,529 Plan,Fidelity,Open,2019-11-01,1322721.84,Cumulus 529 Plan
+WM-FA-001596,WM-HH-00874,Trust,Fidelity,Open,2026-02-03,4724839.98,Cumulus Trust
+WM-FA-001597,WM-HH-00875,Brokerage,Cumulus Custody,Open,2026-02-21,113168.07,Cumulus Brokerage
+WM-FA-001598,WM-HH-00875,Traditional IRA,Cumulus Custody,Open,2026-02-21,49956.58,Cumulus Traditional IRA
+WM-FA-001599,WM-HH-00875,Roth IRA,Cumulus Custody,Open,2026-02-21,220181.93,Cumulus Roth IRA
+WM-FA-001600,WM-HH-00876,529 Plan,Cumulus Custody,Open,2010-08-02,1536217.68,Cumulus 529 Plan
+WM-FA-001601,WM-HH-00877,Roth IRA,Schwab,Open,2026-05-14,4844589.51,Cumulus Roth IRA
+WM-FA-001602,WM-HH-00878,Traditional IRA,Cumulus Custody,Open,2025-06-02,3431776.15,Cumulus Traditional IRA
+WM-FA-001603,WM-HH-00879,Traditional IRA,Schwab,Open,2014-06-12,86611.3,Cumulus Traditional IRA
+WM-FA-001604,WM-HH-00879,529 Plan,Cumulus Custody,Open,2014-06-12,749808.06,Cumulus 529 Plan
+WM-FA-001605,WM-HH-00879,Brokerage,Cumulus Custody,Open,2014-06-12,1211461.98,Cumulus Brokerage
+WM-FA-001606,WM-HH-00880,Brokerage,Cumulus Custody,Open,2024-08-30,2248216.76,Cumulus Brokerage
+WM-FA-001607,WM-HH-00880,Roth IRA,Fidelity,Open,2024-08-30,5429698.32,Cumulus Roth IRA
+WM-FA-001608,WM-HH-00881,Brokerage,Cumulus Custody,Open,2019-09-22,337156.1,Cumulus Brokerage
+WM-FA-001609,WM-HH-00882,Brokerage,Cumulus Custody,Open,2011-05-04,81006.99,Cumulus Brokerage
+WM-FA-001610,WM-HH-00882,529 Plan,Cumulus Custody,Open,2011-05-04,114605.5,Cumulus 529 Plan
+WM-FA-001611,WM-HH-00883,Trust,Cumulus Custody,Open,2018-06-27,557941.74,Cumulus Trust
+WM-FA-001612,WM-HH-00884,Trust,Cumulus Custody,Open,2010-03-19,547807.49,Cumulus Trust
+WM-FA-001613,WM-HH-00884,529 Plan,Cumulus Custody,Open,2010-03-19,1687687.8,Cumulus 529 Plan
+WM-FA-001614,WM-HH-00884,Brokerage,Schwab,Open,2010-03-19,3713925.77,Cumulus Brokerage
+WM-FA-001615,WM-HH-00885,Brokerage,Cumulus Custody,Open,2020-05-09,953022.22,Cumulus Brokerage
+WM-FA-001616,WM-HH-00886,Traditional IRA,Fidelity,Open,2010-03-26,52217.2,Cumulus Traditional IRA
+WM-FA-001617,WM-HH-00886,Trust,Cumulus Custody,Open,2010-03-26,53383.48,Cumulus Trust
+WM-FA-001618,WM-HH-00886,529 Plan,Cumulus Custody,Open,2010-03-26,50028.53,Cumulus 529 Plan
+WM-FA-001619,WM-HH-00887,529 Plan,Fidelity,Open,2020-08-06,62210.92,Cumulus 529 Plan
+WM-FA-001620,WM-HH-00887,Brokerage,Cumulus Custody,Open,2020-08-06,167255.42,Cumulus Brokerage
+WM-FA-001621,WM-HH-00888,Brokerage,JP Morgan,Open,2024-07-29,8935889.64,Cumulus Brokerage
+WM-FA-001622,WM-HH-00888,Trust,Cumulus Custody,Open,2024-07-29,8769728.45,Cumulus Trust
+WM-FA-001623,WM-HH-00889,Roth IRA,Cumulus Custody,Open,2018-11-02,2844006.07,Cumulus Roth IRA
+WM-FA-001624,WM-HH-00890,Brokerage,Cumulus Custody,Open,2025-01-04,278241.61,Cumulus Brokerage
+WM-FA-001625,WM-HH-00891,529 Plan,Cumulus Custody,Open,2022-11-10,141554.16,Cumulus 529 Plan
+WM-FA-001626,WM-HH-00891,Brokerage,Cumulus Custody,Open,2022-11-10,503142.32,Cumulus Brokerage
+WM-FA-001627,WM-HH-00892,Roth IRA,Cumulus Custody,Open,2014-06-29,527017.15,Cumulus Roth IRA
+WM-FA-001628,WM-HH-00893,Brokerage,Cumulus Custody,Open,2012-11-09,22174.05,Cumulus Brokerage
+WM-FA-001629,WM-HH-00893,Trust,Cumulus Custody,Open,2012-11-09,283369.01,Cumulus Trust
+WM-FA-001630,WM-HH-00894,Trust,Cumulus Custody,Open,2019-09-27,242554.88,Cumulus Trust
+WM-FA-001631,WM-HH-00894,Traditional IRA,Fidelity,Open,2019-09-27,295619.61,Cumulus Traditional IRA
+WM-FA-001632,WM-HH-00895,Traditional IRA,Cumulus Custody,Open,2017-12-16,1472983.75,Cumulus Traditional IRA
+WM-FA-001633,WM-HH-00895,Roth IRA,Cumulus Custody,Open,2017-12-16,121080.98,Cumulus Roth IRA
+WM-FA-001634,WM-HH-00896,Traditional IRA,Cumulus Custody,Open,2016-10-25,1237044.55,Cumulus Traditional IRA
+WM-FA-001635,WM-HH-00897,Roth IRA,Fidelity,Open,2018-11-01,1070134.83,Cumulus Roth IRA
+WM-FA-001636,WM-HH-00898,529 Plan,Cumulus Custody,Open,2013-06-25,1504461.67,Cumulus 529 Plan
+WM-FA-001637,WM-HH-00898,Trust,Cumulus Custody,Open,2013-06-25,770798.44,Cumulus Trust
+WM-FA-001638,WM-HH-00899,Traditional IRA,Schwab,Open,2018-08-19,424305.11,Cumulus Traditional IRA
+WM-FA-001639,WM-HH-00899,Brokerage,Cumulus Custody,Open,2018-08-19,237061.71,Cumulus Brokerage
+WM-FA-001640,WM-HH-00899,Roth IRA,Cumulus Custody,Open,2018-08-19,110027.89,Cumulus Roth IRA
+WM-FA-001641,WM-HH-00900,Roth IRA,Fidelity,Open,2010-07-15,1801892.4,Cumulus Roth IRA
+WM-FA-001642,WM-HH-00900,Brokerage,Cumulus Custody,Open,2010-07-15,2503233.39,Cumulus Brokerage
+WM-FA-001643,WM-HH-00900,529 Plan,Cumulus Custody,Open,2010-07-15,2501795.79,Cumulus 529 Plan

@@ -1,0 +1,217 @@
+{
+  "label": "Total AUM",
+  "name": "AM_KPI_AUM",
+  "dataSource": {
+    "name": "${App.SemanticModels.Cumulus_Asset_Management_SDM.Name}",
+    "id": "${App.SemanticModels.Cumulus_Asset_Management_SDM.Id}",
+    "type": "SemanticModel"
+  },
+  "fields": {
+    "F1": {
+      "displayCategory": "Discrete",
+      "fieldName": "Total_AUM",
+      "function": "UserAgg",
+      "role": "Measure",
+      "type": "Field",
+      "label": "Total AUM"
+    }
+  },
+  "interactions": [],
+  "view": {
+    "label": "default",
+    "name": "AM_KPI_AUM_default",
+    "viewSpecification": {
+      "sortOrders": {
+        "columns": [],
+        "rows": [],
+        "fields": {}
+      }
+    }
+  },
+  "visualSpecification": {
+    "columns": [
+      "F1"
+    ],
+    "forecasts": {},
+    "layout": "Vizql",
+    "legends": {},
+    "marks": {
+      "fields": {},
+      "headers": {
+        "encodings": [],
+        "isAutomatic": true,
+        "stack": {
+          "isAutomatic": true,
+          "isStacked": false
+        },
+        "type": "Text"
+      },
+      "panes": {
+        "encodings": [],
+        "isAutomatic": true,
+        "stack": {
+          "isAutomatic": true,
+          "isStacked": false
+        },
+        "type": "Text"
+      }
+    },
+    "measureValues": [],
+    "referenceLines": {},
+    "rows": [],
+    "style": {
+      "axis": {
+        "fields": {}
+      },
+      "encodings": {
+        "fields": {
+          "F1": {
+            "defaults": {
+              "format": {
+                "numberFormatInfo": {
+                  "decimalPlaces": 1,
+                  "displayUnits": "Auto",
+                  "includeThousandSeparator": true,
+                  "negativeValuesFormat": "Auto",
+                  "prefix": "",
+                  "suffix": "",
+                  "type": "Number"
+                }
+              }
+            }
+          }
+        }
+      },
+      "fieldLabels": {
+        "columns": {
+          "showDividerLine": false,
+          "showLabels": true
+        },
+        "rows": {
+          "showDividerLine": false,
+          "showLabels": true
+        }
+      },
+      "fit": "Entire",
+      "fonts": {
+        "axisTickLabels": {
+          "color": "#2E2E2E",
+          "size": 13
+        },
+        "fieldLabels": {
+          "color": "#2E2E2E",
+          "size": 13
+        },
+        "headers": {
+          "color": "#2E2E2E",
+          "size": 13
+        },
+        "legendLabels": {
+          "color": "#2E2E2E",
+          "size": 13
+        },
+        "markLabels": {
+          "color": "#2E2E2E",
+          "size": 13
+        },
+        "marks": {
+          "color": "#032D60",
+          "size": 16
+        },
+        "actionableHeaders": {
+          "color": "#0250D9",
+          "size": 13
+        }
+      },
+      "headers": {
+        "columns": {
+          "mergeRepeatedCells": true,
+          "showIndex": false
+        },
+        "fields": {
+          "F1": {
+            "hiddenValues": [],
+            "isVisible": true,
+            "showMissingValues": false
+          }
+        },
+        "rows": {
+          "mergeRepeatedCells": true,
+          "showIndex": false
+        }
+      },
+      "lines": {
+        "axisLine": {
+          "color": "#C9C9C9"
+        },
+        "fieldLabelDividerLine": {
+          "color": "#C9C9C9"
+        },
+        "separatorLine": {
+          "color": "#C9C9C9"
+        },
+        "zeroLine": {
+          "color": "#E5E5E5"
+        }
+      },
+      "marks": {
+        "fields": {},
+        "headers": {
+          "color": {
+            "color": ""
+          },
+          "isAutomaticSize": true,
+          "label": {
+            "canOverlapLabels": false,
+            "marksToLabel": {
+              "type": "All"
+            },
+            "showMarkLabels": false
+          },
+          "range": {
+            "reverse": true
+          },
+          "size": {
+            "isAutomatic": true,
+            "type": "Pixel",
+            "value": 13
+          }
+        },
+        "panes": {
+          "color": {
+            "color": "#0B5CAB"
+          },
+          "isAutomaticSize": true,
+          "label": {
+            "canOverlapLabels": false,
+            "marksToLabel": {
+              "type": "All"
+            },
+            "showMarkLabels": true
+          },
+          "range": {
+            "reverse": false
+          },
+          "size": {
+            "isAutomatic": true,
+            "type": "Percentage",
+            "value": 75
+          }
+        }
+      },
+      "referenceLines": {},
+      "shading": {
+        "backgroundColor": "#FFFFFF",
+        "banding": {}
+      },
+      "showDataPlaceholder": false,
+      "title": {
+        "isVisible": true
+      }
+    }
+  },
+  "workspace": {
+    "label": "Cumulus Asset Management",
+    "name": "${App.Workspaces.Cumulus_Asset_Management_WS.Name}"
+  }
+}

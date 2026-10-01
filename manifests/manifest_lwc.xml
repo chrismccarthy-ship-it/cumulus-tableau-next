@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Dashboard extension LWCs — deploy BEFORE the dashboards that reference them (c:<component> widgets). -->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>cumulusKpiTile</members>
+        <members>cumulusNextBestActions</members>
+        <members>cumulusRankedBars</members>
+        <members>cumulusSdkUtils</members>
+        <members>cumulusThresholdBanner</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <version>67.0</version>
+</Package>

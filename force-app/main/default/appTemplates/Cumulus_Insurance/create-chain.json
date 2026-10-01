@@ -1,0 +1,441 @@
+{
+  "name": "Cumulus_Insurance_create",
+  "label": "Create Cumulus Insurance",
+  "description": null,
+  "parameters": {},
+  "dominoVariant": "sfdc_internal__UnifiedAnalyticsDominoVariant",
+  "definition": {
+    "nodes": {
+      "upload_INS_Policies": {
+        "referenceId": "upload_INS_Policies",
+        "sources": [],
+        "parameters": {
+          "name": "INS_Policies_CSV",
+          "file": "csvs/INS_Policies.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_INS_Policies": {
+        "referenceId": "upsert_INS_Policies",
+        "sources": [
+          "upload_INS_Policies"
+        ],
+        "parameters": {
+          "name": "INS_Policies_DS",
+          "file": "datastreams/INS_Policies.json",
+          "dataLakeObject": {
+            "name": "INS_Policies_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_INS_Policies": {
+        "referenceId": "run_INS_Policies",
+        "sources": [
+          "upsert_INS_Policies"
+        ],
+        "parameters": {
+          "name": "INS_Policies_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_INS_Claims": {
+        "referenceId": "upload_INS_Claims",
+        "sources": [
+          "run_INS_Policies"
+        ],
+        "parameters": {
+          "name": "INS_Claims_CSV",
+          "file": "csvs/INS_Claims.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_INS_Claims": {
+        "referenceId": "upsert_INS_Claims",
+        "sources": [
+          "upload_INS_Claims"
+        ],
+        "parameters": {
+          "name": "INS_Claims_DS",
+          "file": "datastreams/INS_Claims.json",
+          "dataLakeObject": {
+            "name": "INS_Claims_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_INS_Claims": {
+        "referenceId": "run_INS_Claims",
+        "sources": [
+          "upsert_INS_Claims"
+        ],
+        "parameters": {
+          "name": "INS_Claims_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_INS_Claim_Cases": {
+        "referenceId": "upload_INS_Claim_Cases",
+        "sources": [
+          "run_INS_Claims"
+        ],
+        "parameters": {
+          "name": "INS_Claim_Cases_CSV",
+          "file": "csvs/INS_Claim_Cases.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_INS_Claim_Cases": {
+        "referenceId": "upsert_INS_Claim_Cases",
+        "sources": [
+          "upload_INS_Claim_Cases"
+        ],
+        "parameters": {
+          "name": "INS_Claim_Cases_DS",
+          "file": "datastreams/INS_Claim_Cases.json",
+          "dataLakeObject": {
+            "name": "INS_Claim_Cases_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_INS_Claim_Cases": {
+        "referenceId": "run_INS_Claim_Cases",
+        "sources": [
+          "upsert_INS_Claim_Cases"
+        ],
+        "parameters": {
+          "name": "INS_Claim_Cases_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_INS_Clock": {
+        "referenceId": "upload_INS_Clock",
+        "sources": [
+          "run_INS_Claim_Cases"
+        ],
+        "parameters": {
+          "name": "INS_Clock_CSV",
+          "file": "csvs/INS_Clock.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload the settle clock CSV"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_INS_Clock": {
+        "referenceId": "upsert_INS_Clock",
+        "sources": [
+          "upload_INS_Clock"
+        ],
+        "parameters": {
+          "name": "INS_Clock_DS",
+          "file": "datastreams/INS_Clock.json",
+          "dataLakeObject": {
+            "name": "INS_Clock_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create the settle clock stream"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_INS_Clock": {
+        "referenceId": "run_INS_Clock",
+        "sources": [
+          "upsert_INS_Clock"
+        ],
+        "parameters": {
+          "name": "INS_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 1: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "settle_INS_Clock": {
+        "referenceId": "settle_INS_Clock",
+        "sources": [
+          "run_INS_Clock"
+        ],
+        "parameters": {
+          "name": "INS_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 2: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_workspace": {
+        "referenceId": "upsert_workspace",
+        "sources": [
+          "settle_INS_Clock"
+        ],
+        "parameters": {
+          "name": "Cumulus_Insurance_WS",
+          "label": "Cumulus Insurance",
+          "file": "workspaces/workspace.json",
+          "condition": "true",
+          "assets": [
+            {
+              "name": "Cumulus_Insurance_SDM",
+              "assetType": "SemanticModel",
+              "usageType": "Referenced"
+            }
+          ]
+        },
+        "graphNodeType": {
+          "name": "WorkspaceUpsert",
+          "label": "Create/Update a Workspace from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_sdm": {
+        "referenceId": "upsert_sdm",
+        "sources": [
+          "upsert_workspace"
+        ],
+        "parameters": {
+          "name": "Cumulus_Insurance_SDM",
+          "label": "Cumulus Insurance Model",
+          "file": "sdms/sdm.json",
+          "condition": "true"
+        },
+        "graphNodeType": {
+          "name": "SemanticModelUpsert",
+          "label": null
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_Cases_Agentforce": {
+        "referenceId": "upsert_viz_INS_Cases_Agentforce",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_Cases_Agentforce",
+          "file": "visualizations/INS_Cases_Agentforce.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_Claims_By_Status": {
+        "referenceId": "upsert_viz_INS_Claims_By_Status",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_Claims_By_Status",
+          "file": "visualizations/INS_Claims_By_Status.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_Claims_Trend": {
+        "referenceId": "upsert_viz_INS_Claims_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_Claims_Trend",
+          "file": "visualizations/INS_Claims_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_Cycle_By_CAT": {
+        "referenceId": "upsert_viz_INS_Cycle_By_CAT",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_Cycle_By_CAT",
+          "file": "visualizations/INS_Cycle_By_CAT.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_KPI_Claims": {
+        "referenceId": "upsert_viz_INS_KPI_Claims",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_KPI_Claims",
+          "file": "visualizations/INS_KPI_Claims.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_KPI_Cycle": {
+        "referenceId": "upsert_viz_INS_KPI_Cycle",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_KPI_Cycle",
+          "file": "visualizations/INS_KPI_Cycle.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_KPI_Loss_Ratio": {
+        "referenceId": "upsert_viz_INS_KPI_Loss_Ratio",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_KPI_Loss_Ratio",
+          "file": "visualizations/INS_KPI_Loss_Ratio.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_KPI_Premium": {
+        "referenceId": "upsert_viz_INS_KPI_Premium",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_KPI_Premium",
+          "file": "visualizations/INS_KPI_Premium.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_Loss_Ratio_By_LOB": {
+        "referenceId": "upsert_viz_INS_Loss_Ratio_By_LOB",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_Loss_Ratio_By_LOB",
+          "file": "visualizations/INS_Loss_Ratio_By_LOB.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_Renewals_By_Producer": {
+        "referenceId": "upsert_viz_INS_Renewals_By_Producer",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_Renewals_By_Producer",
+          "file": "visualizations/INS_Renewals_By_Producer.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Insurance_Overview": {
+        "referenceId": "upsert_dash_Cumulus_Insurance_Overview",
+        "sources": [
+          "upsert_viz_INS_Cases_Agentforce",
+          "upsert_viz_INS_Claims_By_Status",
+          "upsert_viz_INS_Claims_Trend",
+          "upsert_viz_INS_Cycle_By_CAT",
+          "upsert_viz_INS_KPI_Claims",
+          "upsert_viz_INS_KPI_Cycle",
+          "upsert_viz_INS_KPI_Loss_Ratio",
+          "upsert_viz_INS_KPI_Premium",
+          "upsert_viz_INS_Loss_Ratio_By_LOB",
+          "upsert_viz_INS_Renewals_By_Producer"
+        ],
+        "parameters": {
+          "name": "Cumulus_Insurance_Overview",
+          "label": "Cumulus Insurance Overview",
+          "file": "dashboards/Cumulus_Insurance_Overview.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      }
+    }
+  },
+  "finallyDefinition": {
+    "nodes": {}
+  }
+}

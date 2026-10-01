@@ -1,0 +1,33 @@
+{
+  "displayMessages": [],
+  "pages": [
+    {
+      "type": "Configuration",
+      "title": "Cumulus Wealth Management",
+      "layout": {
+        "type": "TwoColumn",
+        "header": {
+          "text": "Installs the Cumulus Wealth Management data (64,837 rows in 5 tables), a semantic model with metrics, and the dashboard. Allow ~45 minutes."
+        },
+        "left": {
+          "items": [
+            {
+              "type": "Variable",
+              "name": "CreateDashboard",
+              "visibility": "Visible"
+            }
+          ]
+        },
+        "right": {
+          "items": [
+            {
+              "type": "Variable",
+              "name": "LabelSuffix",
+              "visibility": "Visible"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

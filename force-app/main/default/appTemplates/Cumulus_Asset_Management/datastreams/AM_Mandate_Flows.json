@@ -1,0 +1,237 @@
+{
+  "name": "AM_Mandate_Flows_DS",
+  "label": "AM Mandate Flows DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "FlowId"
+    },
+    {
+      "dataType": "Text",
+      "name": "MandateId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientId"
+    },
+    {
+      "dataType": "Date",
+      "name": "FlowMonth",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "NetFlow"
+    },
+    {
+      "dataType": "Number",
+      "name": "MarketReturnPct"
+    },
+    {
+      "dataType": "Number",
+      "name": "EndingAUM"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientType"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientTier"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Strategy"
+    },
+    {
+      "dataType": "Text",
+      "name": "Vehicle"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.AM_Mandate_Flows_DLO.Name}",
+    "label": "AM Mandate Flows DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "FlowId",
+        "label": "Flow ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "MandateId",
+        "label": "Mandate ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientId",
+        "label": "Client ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "FlowMonth",
+        "label": "Flow Month"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "NetFlow",
+        "label": "Net Flow"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "MarketReturnPct",
+        "label": "Market Return %"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "EndingAUM",
+        "label": "Ending AUM"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientName",
+        "label": "Client Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientType",
+        "label": "Client Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientTier",
+        "label": "Client Tier"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerName",
+        "label": "Relationship Manager Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Strategy",
+        "label": "Strategy"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Vehicle",
+        "label": "Vehicle"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "FlowId",
+      "targetFieldName": "FlowId"
+    },
+    {
+      "sourceFieldLabel": "MandateId",
+      "targetFieldName": "MandateId"
+    },
+    {
+      "sourceFieldLabel": "ClientId",
+      "targetFieldName": "ClientId"
+    },
+    {
+      "sourceFieldLabel": "FlowMonth",
+      "targetFieldName": "FlowMonth"
+    },
+    {
+      "sourceFieldLabel": "NetFlow",
+      "targetFieldName": "NetFlow"
+    },
+    {
+      "sourceFieldLabel": "MarketReturnPct",
+      "targetFieldName": "MarketReturnPct"
+    },
+    {
+      "sourceFieldLabel": "EndingAUM",
+      "targetFieldName": "EndingAUM"
+    },
+    {
+      "sourceFieldLabel": "ClientName",
+      "targetFieldName": "ClientName"
+    },
+    {
+      "sourceFieldLabel": "ClientType",
+      "targetFieldName": "ClientType"
+    },
+    {
+      "sourceFieldLabel": "ClientTier",
+      "targetFieldName": "ClientTier"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerName",
+      "targetFieldName": "RelationshipManagerName"
+    },
+    {
+      "sourceFieldLabel": "Strategy",
+      "targetFieldName": "Strategy"
+    },
+    {
+      "sourceFieldLabel": "Vehicle",
+      "targetFieldName": "Vehicle"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.AM_Mandate_Flows_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.AM_Mandate_Flows_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.AM_Mandate_Flows_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.AM_Mandate_Flows_CSV.FileType}"
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "name": "FA_Life_Events_DS",
+  "label": "FA Life Events DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "LifeEventId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientHouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorId"
+    },
+    {
+      "dataType": "Text",
+      "name": "EventType"
+    },
+    {
+      "dataType": "Date",
+      "name": "EventDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "DetectedSource"
+    },
+    {
+      "dataType": "Date",
+      "name": "FollowUpDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "FollowUpWithin14Days"
+    },
+    {
+      "dataType": "Number",
+      "name": "OpportunityValue"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorName"
+    },
+    {
+      "dataType": "Text",
+      "name": "LifeStage"
+    },
+    {
+      "dataType": "Number",
+      "name": "AUM"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.FA_Life_Events_DLO.Name}",
+    "label": "FA Life Events DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "LifeEventId",
+        "label": "Life Event ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientHouseholdId",
+        "label": "Client Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorId",
+        "label": "Advisor ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "EventType",
+        "label": "Event Type"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "EventDate",
+        "label": "Event Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "DetectedSource",
+        "label": "Detected Source"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "FollowUpDate",
+        "label": "Follow Up Date"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "FollowUpWithin14Days",
+        "label": "Follow Up Within14 Days"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "OpportunityValue",
+        "label": "Opportunity Value"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdName",
+        "label": "Household Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorName",
+        "label": "Advisor Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LifeStage",
+        "label": "Life Stage"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "AUM",
+        "label": "AUM"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "LifeEventId",
+      "targetFieldName": "LifeEventId"
+    },
+    {
+      "sourceFieldLabel": "ClientHouseholdId",
+      "targetFieldName": "ClientHouseholdId"
+    },
+    {
+      "sourceFieldLabel": "AdvisorId",
+      "targetFieldName": "AdvisorId"
+    },
+    {
+      "sourceFieldLabel": "EventType",
+      "targetFieldName": "EventType"
+    },
+    {
+      "sourceFieldLabel": "EventDate",
+      "targetFieldName": "EventDate"
+    },
+    {
+      "sourceFieldLabel": "DetectedSource",
+      "targetFieldName": "DetectedSource"
+    },
+    {
+      "sourceFieldLabel": "FollowUpDate",
+      "targetFieldName": "FollowUpDate"
+    },
+    {
+      "sourceFieldLabel": "FollowUpWithin14Days",
+      "targetFieldName": "FollowUpWithin14Days"
+    },
+    {
+      "sourceFieldLabel": "OpportunityValue",
+      "targetFieldName": "OpportunityValue"
+    },
+    {
+      "sourceFieldLabel": "HouseholdName",
+      "targetFieldName": "HouseholdName"
+    },
+    {
+      "sourceFieldLabel": "AdvisorName",
+      "targetFieldName": "AdvisorName"
+    },
+    {
+      "sourceFieldLabel": "LifeStage",
+      "targetFieldName": "LifeStage"
+    },
+    {
+      "sourceFieldLabel": "AUM",
+      "targetFieldName": "AUM"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.FA_Life_Events_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.FA_Life_Events_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.FA_Life_Events_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.FA_Life_Events_CSV.FileType}"
+  }
+}

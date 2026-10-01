@@ -1,0 +1,471 @@
+{
+  "name": "Cumulus_Asset_Management_create",
+  "label": "Create Cumulus Asset Management",
+  "description": null,
+  "parameters": {},
+  "dominoVariant": "sfdc_internal__UnifiedAnalyticsDominoVariant",
+  "definition": {
+    "nodes": {
+      "upload_AM_Mandates": {
+        "referenceId": "upload_AM_Mandates",
+        "sources": [],
+        "parameters": {
+          "name": "AM_Mandates_CSV",
+          "file": "csvs/AM_Mandates.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_AM_Mandates": {
+        "referenceId": "upsert_AM_Mandates",
+        "sources": [
+          "upload_AM_Mandates"
+        ],
+        "parameters": {
+          "name": "AM_Mandates_DS",
+          "file": "datastreams/AM_Mandates.json",
+          "dataLakeObject": {
+            "name": "AM_Mandates_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_AM_Mandates": {
+        "referenceId": "run_AM_Mandates",
+        "sources": [
+          "upsert_AM_Mandates"
+        ],
+        "parameters": {
+          "name": "AM_Mandates_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_AM_Mandate_Flows": {
+        "referenceId": "upload_AM_Mandate_Flows",
+        "sources": [
+          "run_AM_Mandates"
+        ],
+        "parameters": {
+          "name": "AM_Mandate_Flows_CSV",
+          "file": "csvs/AM_Mandate_Flows.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_AM_Mandate_Flows": {
+        "referenceId": "upsert_AM_Mandate_Flows",
+        "sources": [
+          "upload_AM_Mandate_Flows"
+        ],
+        "parameters": {
+          "name": "AM_Mandate_Flows_DS",
+          "file": "datastreams/AM_Mandate_Flows.json",
+          "dataLakeObject": {
+            "name": "AM_Mandate_Flows_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_AM_Mandate_Flows": {
+        "referenceId": "run_AM_Mandate_Flows",
+        "sources": [
+          "upsert_AM_Mandate_Flows"
+        ],
+        "parameters": {
+          "name": "AM_Mandate_Flows_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_AM_Deals": {
+        "referenceId": "upload_AM_Deals",
+        "sources": [
+          "run_AM_Mandate_Flows"
+        ],
+        "parameters": {
+          "name": "AM_Deals_CSV",
+          "file": "csvs/AM_Deals.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_AM_Deals": {
+        "referenceId": "upsert_AM_Deals",
+        "sources": [
+          "upload_AM_Deals"
+        ],
+        "parameters": {
+          "name": "AM_Deals_DS",
+          "file": "datastreams/AM_Deals.json",
+          "dataLakeObject": {
+            "name": "AM_Deals_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_AM_Deals": {
+        "referenceId": "run_AM_Deals",
+        "sources": [
+          "upsert_AM_Deals"
+        ],
+        "parameters": {
+          "name": "AM_Deals_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_AM_Service_Requests": {
+        "referenceId": "upload_AM_Service_Requests",
+        "sources": [
+          "run_AM_Deals"
+        ],
+        "parameters": {
+          "name": "AM_Service_Requests_CSV",
+          "file": "csvs/AM_Service_Requests.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_AM_Service_Requests": {
+        "referenceId": "upsert_AM_Service_Requests",
+        "sources": [
+          "upload_AM_Service_Requests"
+        ],
+        "parameters": {
+          "name": "AM_Service_Requests_DS",
+          "file": "datastreams/AM_Service_Requests.json",
+          "dataLakeObject": {
+            "name": "AM_Service_Requests_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_AM_Service_Requests": {
+        "referenceId": "run_AM_Service_Requests",
+        "sources": [
+          "upsert_AM_Service_Requests"
+        ],
+        "parameters": {
+          "name": "AM_Service_Requests_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_AM_Clock": {
+        "referenceId": "upload_AM_Clock",
+        "sources": [
+          "run_AM_Service_Requests"
+        ],
+        "parameters": {
+          "name": "AM_Clock_CSV",
+          "file": "csvs/AM_Clock.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload the settle clock CSV"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_AM_Clock": {
+        "referenceId": "upsert_AM_Clock",
+        "sources": [
+          "upload_AM_Clock"
+        ],
+        "parameters": {
+          "name": "AM_Clock_DS",
+          "file": "datastreams/AM_Clock.json",
+          "dataLakeObject": {
+            "name": "AM_Clock_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create the settle clock stream"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_AM_Clock": {
+        "referenceId": "run_AM_Clock",
+        "sources": [
+          "upsert_AM_Clock"
+        ],
+        "parameters": {
+          "name": "AM_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 1: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "settle_AM_Clock": {
+        "referenceId": "settle_AM_Clock",
+        "sources": [
+          "run_AM_Clock"
+        ],
+        "parameters": {
+          "name": "AM_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 2: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_workspace": {
+        "referenceId": "upsert_workspace",
+        "sources": [
+          "settle_AM_Clock"
+        ],
+        "parameters": {
+          "name": "Cumulus_Asset_Management_WS",
+          "label": "Cumulus Asset Management",
+          "file": "workspaces/workspace.json",
+          "condition": "true",
+          "assets": [
+            {
+              "name": "Cumulus_Asset_Management_SDM",
+              "assetType": "SemanticModel",
+              "usageType": "Referenced"
+            }
+          ]
+        },
+        "graphNodeType": {
+          "name": "WorkspaceUpsert",
+          "label": "Create/Update a Workspace from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_sdm": {
+        "referenceId": "upsert_sdm",
+        "sources": [
+          "upsert_workspace"
+        ],
+        "parameters": {
+          "name": "Cumulus_Asset_Management_SDM",
+          "label": "Cumulus Asset Management Model",
+          "file": "sdms/sdm.json",
+          "condition": "true"
+        },
+        "graphNodeType": {
+          "name": "SemanticModelUpsert",
+          "label": null
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_AUM_By_Strategy": {
+        "referenceId": "upsert_viz_AM_AUM_By_Strategy",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_AUM_By_Strategy",
+          "file": "visualizations/AM_AUM_By_Strategy.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_Cycle_By_Type": {
+        "referenceId": "upsert_viz_AM_Cycle_By_Type",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_Cycle_By_Type",
+          "file": "visualizations/AM_Cycle_By_Type.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_Flows_Trend": {
+        "referenceId": "upsert_viz_AM_Flows_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_Flows_Trend",
+          "file": "visualizations/AM_Flows_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_KPI_AUM": {
+        "referenceId": "upsert_viz_AM_KPI_AUM",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_KPI_AUM",
+          "file": "visualizations/AM_KPI_AUM.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_KPI_Cycle": {
+        "referenceId": "upsert_viz_AM_KPI_Cycle",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_KPI_Cycle",
+          "file": "visualizations/AM_KPI_Cycle.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_KPI_Pipeline": {
+        "referenceId": "upsert_viz_AM_KPI_Pipeline",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_KPI_Pipeline",
+          "file": "visualizations/AM_KPI_Pipeline.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_KPI_Requests": {
+        "referenceId": "upsert_viz_AM_KPI_Requests",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_KPI_Requests",
+          "file": "visualizations/AM_KPI_Requests.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_Pipeline_By_Stage": {
+        "referenceId": "upsert_viz_AM_Pipeline_By_Stage",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_Pipeline_By_Stage",
+          "file": "visualizations/AM_Pipeline_By_Stage.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_SLA_Breaches": {
+        "referenceId": "upsert_viz_AM_SLA_Breaches",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_SLA_Breaches",
+          "file": "visualizations/AM_SLA_Breaches.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Asset_Management_Overview": {
+        "referenceId": "upsert_dash_Cumulus_Asset_Management_Overview",
+        "sources": [
+          "upsert_viz_AM_AUM_By_Strategy",
+          "upsert_viz_AM_Cycle_By_Type",
+          "upsert_viz_AM_Flows_Trend",
+          "upsert_viz_AM_KPI_AUM",
+          "upsert_viz_AM_KPI_Cycle",
+          "upsert_viz_AM_KPI_Pipeline",
+          "upsert_viz_AM_KPI_Requests",
+          "upsert_viz_AM_Pipeline_By_Stage",
+          "upsert_viz_AM_SLA_Breaches"
+        ],
+        "parameters": {
+          "name": "Cumulus_Asset_Management_Overview",
+          "label": "Cumulus Asset Management Overview",
+          "file": "dashboards/Cumulus_Asset_Management_Overview.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      }
+    }
+  },
+  "finallyDefinition": {
+    "nodes": {}
+  }
+}

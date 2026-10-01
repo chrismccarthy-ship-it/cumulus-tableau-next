@@ -1,0 +1,29 @@
+{
+  "label": "Cumulus Insurance",
+  "description": "Claims service manager view: loss ratio, claims cycle time, open claims aging, renewal rate by producer, catastrophe impact (June 2026 hail), Agentforce-handled claim cases. Includes the Elena Ruiz HO-3 storyline.",
+  "releaseInfo": {
+    "templateVersion": "1.0",
+    "notesFile": null
+  },
+  "templateType": "App",
+  "templateSubtype": null,
+  "name": "Cumulus_Insurance",
+  "namespace": null,
+  "assetVersion": 67.0,
+  "maxAppCount": null,
+  "icons": {
+    "templatePreviews": [],
+    "layoutImages": []
+  },
+  "variableDefinition": "variables.json",
+  "layoutDefinition": "layout.json",
+  "tags": {},
+  "chainDefinitions": [
+    {
+      "type": "Create",
+      "name": null,
+      "file": "create-chain.json"
+    }
+  ],
+  "templateStatus": null
+}

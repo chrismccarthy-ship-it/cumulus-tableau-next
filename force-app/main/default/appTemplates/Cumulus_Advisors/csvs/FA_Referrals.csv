@@ -1,0 +1,901 @@
+ReferralId,AdvisorId,ProspectName,ReferralSource,ReferralDate,Status,EstimatedAUM,DaysToFirstContact,AdvisorName
+FA-RF-00001,E-0172,Iris Hall,Existing Client,2025-06-14,New,345381.6,,Priya Anderson
+FA-RF-00002,E-0159,Wei Kim,Retail Branch,2025-09-28,Converted,281760.97,7,Owen White
+FA-RF-00003,E-0174,Ravi Roberts,Event,2025-05-15,Contacted,2566245.4,13,Kenji Scott
+FA-RF-00004,E-0155,Luis Roberts,Event,2025-05-20,Lost,416312.62,18,Sofia Parker
+FA-RF-00005,E-0143,Jonathan Bailey,Existing Client,2024-11-27,Converted,309381.98,9,Naomi Allen
+FA-RF-00006,E-0170,Amara Nelson,Digital Lead,2024-12-04,New,1232446.09,,Kenji Stewart
+FA-RF-00007,E-0161,Julian White,Event,2026-02-06,New,177176.28,,Julian Green
+FA-RF-00008,E-0159,Elena Stewart,Retail Branch,2026-01-01,Contacted,101242.79,17,Owen White
+FA-RF-00009,E-0150,Victor Kim,Digital Lead,2024-12-06,New,275680.7,,Henry Parker
+FA-RF-00010,E-0161,Felix Wright,Event,2025-02-24,Lost,269236.25,0,Julian Green
+FA-RF-00011,E-0153,Aisha King,Existing Client,2025-10-30,Converted,1616088.02,19,Noah Baker
+FA-RF-00012,E-0154,Ava Hall,Retail Branch,2024-12-02,Contacted,38211.52,13,Leo Evans
+FA-RF-00013,E-0159,Hannah Kim,Event,2026-03-21,New,188060.06,,Owen White
+FA-RF-00014,E-0157,Daniel Vaughn,Digital Lead,2026-04-26,New,610423.08,,Amara White
+FA-RF-00015,E-0153,Amara Walker,Retail Branch,2026-06-28,Converted,59505.94,9,Noah Baker
+FA-RF-00016,E-0164,Rosa Nguyen,Existing Client,2025-12-09,Contacted,68603.21,14,Olivia Stewart
+FA-RF-00017,E-0142,Olivia Ashford,Event,2025-10-12,Converted,831545.63,19,Wei Ruiz
+FA-RF-00018,E-0163,Mateo Garcia,Digital Lead,2026-07-19,Meeting Set,218259.2,13,Olivia Patel
+FA-RF-00019,E-0173,Layla Moore,Event,2025-10-24,Contacted,238613.5,10,Noah Phillips
+FA-RF-00020,E-0149,Andre Anderson,Existing Client,2026-03-04,New,498986.24,,Amara Okafor
+FA-RF-00021,E-0175,Derek Ruiz,Digital Lead,2026-07-11,Contacted,175155.34,8,Chloe Parker
+FA-RF-00022,E-0165,Iris Ruiz,Center of Influence,2025-07-27,Contacted,120921.93,5,Jamal Vaughn
+FA-RF-00023,E-0176,Noah Phillips,Existing Client,2025-02-19,Contacted,521661.35,12,Hannah Davis
+FA-RF-00024,E-0146,Owen Nguyen,Event,2026-08-25,Converted,169360.2,10,Chloe Davis
+FA-RF-00025,E-0162,Lauren Scott,Digital Lead,2025-05-22,New,2162250.83,,Owen Edwards
+FA-RF-00026,E-0148,Daniel Hall,Center of Influence,2026-01-17,Converted,449458.59,10,Julian Silva
+FA-RF-00027,E-0157,Derek Adams,Digital Lead,2025-08-08,Converted,1059561.14,15,Amara White
+FA-RF-00028,E-0168,Victor Vaughn,Event,2026-04-28,Meeting Set,550694.21,6,Kenji Bailey
+FA-RF-00029,E-0150,Isabella Adams,Existing Client,2026-04-15,Contacted,437470.78,6,Henry Parker
+FA-RF-00030,E-0150,Wei Collins,Existing Client,2026-08-27,Contacted,108844.2,5,Henry Parker
+FA-RF-00031,E-0180,Julian Morris,Existing Client,2026-02-21,New,212973.27,,Sofia Johnson
+FA-RF-00032,E-0161,Henry Evans,Existing Client,2025-03-19,Converted,391530.72,2,Julian Green
+FA-RF-00033,E-0150,Ravi Carter,Existing Client,2025-11-06,Contacted,327020.03,13,Henry Parker
+FA-RF-00034,E-0156,Carlos Edwards,Existing Client,2026-03-21,Contacted,93789.87,20,Ava Ashford
+FA-RF-00035,E-0165,Sofia Evans,Digital Lead,2024-10-10,Converted,789032.29,20,Jamal Vaughn
+FA-RF-00036,E-0171,Derek Jackson,Center of Influence,2025-01-24,Converted,608088.59,13,Victor Evans
+FA-RF-00037,E-0160,Grace Adams,Center of Influence,2025-06-24,Converted,108411.62,10,Diego Silva
+FA-RF-00038,E-0153,Zara Turner,Retail Branch,2024-10-25,Converted,115797.22,0,Noah Baker
+FA-RF-00039,E-0179,Sofia Martinez,Digital Lead,2025-07-03,Converted,166312.35,6,Sara Nelson
+FA-RF-00040,E-0177,Yuki Brown,Center of Influence,2026-03-13,New,72723.45,,Isabella Okafor
+FA-RF-00041,E-0150,Elena Parker,Retail Branch,2025-10-06,Meeting Set,60411.78,8,Henry Parker
+FA-RF-00042,E-0176,Diego Evans,Existing Client,2026-02-08,Contacted,35763.47,16,Hannah Davis
+FA-RF-00043,E-0179,Nora Kim,Center of Influence,2025-05-31,Contacted,356060.55,5,Sara Nelson
+FA-RF-00044,E-0150,Emma Nguyen,Center of Influence,2025-07-25,Lost,40736.94,6,Henry Parker
+FA-RF-00045,E-0157,Yuki Hall,Center of Influence,2025-03-25,Lost,232898.18,19,Amara White
+FA-RF-00046,E-0141,Noah Chen,Digital Lead,2026-07-04,Converted,493296.89,16,Victor Walker
+FA-RF-00047,E-0156,Luis Martinez,Event,2024-11-25,New,351667.8,,Ava Ashford
+FA-RF-00048,E-0154,Emma Lopez,Digital Lead,2025-02-17,Converted,111324.11,16,Leo Evans
+FA-RF-00049,E-0152,Derek Baker,Retail Branch,2024-09-23,New,930614.7,,Nina Brown
+FA-RF-00050,E-0145,Layla Miller,Existing Client,2026-03-11,Meeting Set,378212.37,0,Priya Young
+FA-RF-00051,E-0149,Nina Stewart,Digital Lead,2026-03-29,Contacted,913205.1,12,Amara Okafor
+FA-RF-00052,E-0146,Andre Walker,Digital Lead,2025-03-25,Lost,125967.98,11,Chloe Davis
+FA-RF-00053,E-0159,Samuel Edwards,Existing Client,2026-08-26,Contacted,330756.3,14,Owen White
+FA-RF-00054,E-0180,Henry Allen,Center of Influence,2026-03-07,Contacted,84976.71,19,Sofia Johnson
+FA-RF-00055,E-0180,Samuel Phillips,Digital Lead,2025-10-24,Contacted,245329.26,6,Sofia Johnson
+FA-RF-00056,E-0142,Naomi Patel,Event,2026-03-15,Contacted,365100.89,18,Wei Ruiz
+FA-RF-00057,E-0175,Jonathan Allen,Retail Branch,2025-01-29,Converted,1173205.86,2,Chloe Parker
+FA-RF-00058,E-0175,Samuel Jackson,Existing Client,2025-09-22,Contacted,173930.9,12,Chloe Parker
+FA-RF-00059,E-0152,Mei Taylor,Existing Client,2026-05-26,Contacted,12984.09,9,Nina Brown
+FA-RF-00060,E-0159,Nina Nelson,Digital Lead,2025-07-17,New,520973.13,,Owen White
+FA-RF-00061,E-0170,Luis Campbell,Retail Branch,2025-06-09,Meeting Set,142584.68,7,Kenji Stewart
+FA-RF-00062,E-0152,Maya Silva,Existing Client,2025-03-22,Contacted,788325.01,15,Nina Brown
+FA-RF-00063,E-0173,Aisha Anderson,Center of Influence,2024-11-28,New,325143.24,,Noah Phillips
+FA-RF-00064,E-0165,Andre Baker,Digital Lead,2025-10-11,Contacted,569416.42,4,Jamal Vaughn
+FA-RF-00065,E-0152,Emma White,Digital Lead,2026-07-27,Contacted,103403.58,14,Nina Brown
+FA-RF-00066,E-0153,Julian Wilson,Event,2025-12-15,Lost,663005.73,16,Noah Baker
+FA-RF-00067,E-0156,Olivia Ashford,Center of Influence,2024-11-26,Converted,371870.13,17,Ava Ashford
+FA-RF-00068,E-0145,Iris Morris,Digital Lead,2025-03-01,Lost,203555.82,17,Priya Young
+FA-RF-00069,E-0178,Mei Nelson,Retail Branch,2025-10-09,Converted,231216.21,12,Carlos Miller
+FA-RF-00070,E-0173,Marcus Phillips,Retail Branch,2026-03-24,Contacted,54640.5,14,Noah Phillips
+FA-RF-00071,E-0175,Julian Wilson,Event,2025-04-22,Converted,345646.43,7,Chloe Parker
+FA-RF-00072,E-0170,Nina Parker,Retail Branch,2025-09-29,Meeting Set,219002.73,16,Kenji Stewart
+FA-RF-00073,E-0144,Chloe Patel,Existing Client,2025-05-07,Lost,118058.64,10,Luis Stewart
+FA-RF-00074,E-0170,Samuel Allen,Center of Influence,2026-01-05,Meeting Set,2762512.01,14,Kenji Stewart
+FA-RF-00075,E-0179,Amara Allen,Event,2025-01-18,Converted,196612.49,19,Sara Nelson
+FA-RF-00076,E-0148,Henry Clark,Event,2025-11-07,New,657875.78,,Julian Silva
+FA-RF-00077,E-0148,Sara Thomas,Event,2024-10-16,Contacted,827557.35,19,Julian Silva
+FA-RF-00078,E-0155,Derek Kim,Retail Branch,2026-08-10,Contacted,775561.54,19,Sofia Parker
+FA-RF-00079,E-0141,Iris Nguyen,Event,2025-07-04,Converted,11447.23,17,Victor Walker
+FA-RF-00080,E-0180,Daniel Harris,Event,2024-12-07,Lost,100595.47,1,Sofia Johnson
+FA-RF-00081,E-0147,Fatima Carter,Digital Lead,2026-06-21,Converted,94857.96,0,Yuki Vaughn
+FA-RF-00082,E-0156,Ines Moore,Center of Influence,2024-10-06,Converted,377267.5,8,Ava Ashford
+FA-RF-00083,E-0173,Elena Silva,Retail Branch,2024-11-14,Lost,1245510.29,12,Noah Phillips
+FA-RF-00084,E-0179,Ava Nguyen,Center of Influence,2026-06-07,Contacted,122936.14,1,Sara Nelson
+FA-RF-00085,E-0166,Nora Campbell,Digital Lead,2025-07-18,Converted,662520.43,9,Wei King
+FA-RF-00086,E-0168,Zara Thomas,Center of Influence,2026-07-27,Contacted,348998.59,11,Kenji Bailey
+FA-RF-00087,E-0156,Olivia Kim,Center of Influence,2026-06-24,Converted,1412042.33,5,Ava Ashford
+FA-RF-00088,E-0165,Yuki Allen,Retail Branch,2025-07-18,Converted,393950.51,15,Jamal Vaughn
+FA-RF-00089,E-0141,Sofia Evans,Existing Client,2025-02-08,Contacted,227734.4,10,Victor Walker
+FA-RF-00090,E-0172,Mateo Thomas,Retail Branch,2026-07-25,Lost,73621.73,15,Priya Anderson
+FA-RF-00091,E-0143,Nora Taylor,Center of Influence,2024-11-24,Meeting Set,84763.55,17,Naomi Allen
+FA-RF-00092,E-0143,Derek Lewis,Existing Client,2025-11-10,Meeting Set,574775.27,21,Naomi Allen
+FA-RF-00093,E-0177,Mateo Turner,Event,2025-03-27,Converted,1869052.45,1,Isabella Okafor
+FA-RF-00094,E-0151,Henry Nguyen,Existing Client,2026-08-29,Contacted,493833.03,1,Grace Carter
+FA-RF-00095,E-0144,Emma Edwards,Retail Branch,2026-08-29,New,471012.14,,Luis Stewart
+FA-RF-00096,E-0145,Derek Campbell,Event,2024-10-29,New,545737.73,,Priya Young
+FA-RF-00097,E-0167,Sara Allen,Retail Branch,2025-12-23,Lost,488583.94,20,Jamal Wilson
+FA-RF-00098,E-0170,Andre Roberts,Digital Lead,2024-11-09,Meeting Set,87509.35,10,Kenji Stewart
+FA-RF-00099,E-0155,Hannah Wright,Digital Lead,2025-11-20,Lost,84303.53,18,Sofia Parker
+FA-RF-00100,E-0170,Leo Edwards,Center of Influence,2024-12-29,Contacted,873488.76,9,Kenji Stewart
+FA-RF-00101,E-0148,Andre Chen,Event,2024-12-01,Converted,1198521.16,1,Julian Silva
+FA-RF-00102,E-0148,Iris Moore,Retail Branch,2025-06-13,Meeting Set,356475.17,3,Julian Silva
+FA-RF-00103,E-0177,Lauren Ruiz,Event,2025-01-01,Converted,1016778.3,15,Isabella Okafor
+FA-RF-00104,E-0174,Nora Lewis,Event,2025-07-08,Converted,499895.55,17,Kenji Scott
+FA-RF-00105,E-0166,Naomi Nguyen,Existing Client,2026-04-06,New,144111.1,,Wei King
+FA-RF-00106,E-0158,Diego Scott,Center of Influence,2025-11-15,New,252675.21,,Lauren Lewis
+FA-RF-00107,E-0177,Naomi Garcia,Center of Influence,2025-05-04,Contacted,1466948.57,19,Isabella Okafor
+FA-RF-00108,E-0143,Carlos Wilson,Center of Influence,2024-12-05,Meeting Set,904056.43,15,Naomi Allen
+FA-RF-00109,E-0142,Mei Evans,Retail Branch,2024-09-15,Contacted,1087279.49,10,Wei Ruiz
+FA-RF-00110,E-0173,Ava Nelson,Retail Branch,2025-03-25,Converted,76477.22,19,Noah Phillips
+FA-RF-00111,E-0154,Tom Patel,Center of Influence,2024-10-03,Contacted,146790.81,4,Leo Evans
+FA-RF-00112,E-0162,Derek Ashford,Digital Lead,2025-12-31,Converted,163635.92,1,Owen Edwards
+FA-RF-00113,E-0176,Mei Campbell,Event,2025-06-11,Contacted,214690.17,19,Hannah Davis
+FA-RF-00114,E-0151,Emma White,Existing Client,2026-01-23,Contacted,421675.2,21,Grace Carter
+FA-RF-00115,E-0168,Rosa Evans,Digital Lead,2025-02-02,Contacted,45758.22,0,Kenji Bailey
+FA-RF-00116,E-0150,Daniel Hall,Center of Influence,2024-11-08,Lost,230505.27,14,Henry Parker
+FA-RF-00117,E-0165,Jamal Parker,Existing Client,2025-10-24,New,650240.81,,Jamal Vaughn
+FA-RF-00118,E-0174,Ravi Clark,Center of Influence,2024-12-28,Contacted,235039.14,19,Kenji Scott
+FA-RF-00119,E-0169,Nina Nelson,Event,2025-08-07,New,119817.55,,Priya Martinez
+FA-RF-00120,E-0162,Luis Clark,Center of Influence,2025-07-25,Lost,356340.19,17,Owen Edwards
+FA-RF-00121,E-0159,Sofia Turner,Center of Influence,2025-07-26,Lost,153529.02,0,Owen White
+FA-RF-00122,E-0164,Derek Bailey,Event,2025-03-16,New,172553.87,,Olivia Stewart
+FA-RF-00123,E-0168,Tom Clark,Digital Lead,2025-04-07,Lost,525025.41,8,Kenji Bailey
+FA-RF-00124,E-0166,Diego Parker,Existing Client,2024-12-31,Lost,349849.19,6,Wei King
+FA-RF-00125,E-0164,Lauren Brown,Existing Client,2026-08-28,Lost,758603.69,12,Olivia Stewart
+FA-RF-00126,E-0148,Emma Kim,Center of Influence,2025-10-09,Converted,899619.85,14,Julian Silva
+FA-RF-00127,E-0170,Nina Martinez,Center of Influence,2025-03-06,New,107187.57,,Kenji Stewart
+FA-RF-00128,E-0172,Diego King,Existing Client,2025-10-03,Contacted,457893.66,16,Priya Anderson
+FA-RF-00129,E-0179,Henry Wilson,Event,2025-04-21,Converted,529317.31,15,Sara Nelson
+FA-RF-00130,E-0151,Yuki Walker,Center of Influence,2025-06-23,Meeting Set,487119.3,15,Grace Carter
+FA-RF-00131,E-0170,Ben Miller,Existing Client,2026-07-01,New,277716.04,,Kenji Stewart
+FA-RF-00132,E-0148,Ben Edwards,Event,2025-03-27,Converted,802256.17,21,Julian Silva
+FA-RF-00133,E-0179,Olivia Vaughn,Retail Branch,2025-04-05,New,1223589.6,,Sara Nelson
+FA-RF-00134,E-0172,Ravi Hall,Existing Client,2025-08-30,Contacted,471962.03,16,Priya Anderson
+FA-RF-00135,E-0149,Yuki Young,Retail Branch,2025-03-03,Converted,265456.07,14,Amara Okafor
+FA-RF-00136,E-0161,Ethan Johnson,Digital Lead,2026-01-11,Contacted,118611.39,12,Julian Green
+FA-RF-00137,E-0167,Ines Martinez,Event,2025-03-07,Meeting Set,200106.5,3,Jamal Wilson
+FA-RF-00138,E-0162,Henry Jackson,Event,2026-04-30,Contacted,760717.28,15,Owen Edwards
+FA-RF-00139,E-0145,Fatima Patel,Digital Lead,2025-12-03,Contacted,54164.41,6,Priya Young
+FA-RF-00140,E-0156,Owen Ashford,Event,2026-05-27,New,491372.67,,Ava Ashford
+FA-RF-00141,E-0159,Derek Kim,Retail Branch,2025-07-25,Contacted,558730.38,5,Owen White
+FA-RF-00142,E-0165,Samuel Ashford,Digital Lead,2024-10-21,Contacted,468406.71,6,Jamal Vaughn
+FA-RF-00143,E-0162,Elena Ashford,Retail Branch,2025-07-15,Converted,651115.67,8,Owen Edwards
+FA-RF-00144,E-0172,Jonathan Clark,Existing Client,2025-12-01,Converted,133571.98,12,Priya Anderson
+FA-RF-00145,E-0164,Jonathan Miller,Event,2026-06-08,Converted,628519.38,4,Olivia Stewart
+FA-RF-00146,E-0161,Luis Scott,Center of Influence,2025-07-10,Contacted,121385.96,10,Julian Green
+FA-RF-00147,E-0155,Luis Hall,Digital Lead,2026-07-01,Contacted,95302.99,15,Sofia Parker
+FA-RF-00148,E-0174,Andre Baker,Existing Client,2024-09-30,Contacted,853785.67,19,Kenji Scott
+FA-RF-00149,E-0159,Jonathan Walker,Center of Influence,2026-07-22,New,683774.83,,Owen White
+FA-RF-00150,E-0174,Daniel Thomas,Event,2025-02-13,Contacted,44524.43,17,Kenji Scott
+FA-RF-00151,E-0173,Victor Stewart,Digital Lead,2025-09-09,New,492383.43,,Noah Phillips
+FA-RF-00152,E-0150,Lauren Edwards,Center of Influence,2026-03-13,Meeting Set,405910.61,14,Henry Parker
+FA-RF-00153,E-0167,Ethan Johnson,Event,2024-11-15,Converted,147260.83,6,Jamal Wilson
+FA-RF-00154,E-0156,Noah Brown,Existing Client,2025-11-26,Meeting Set,499289.32,1,Ava Ashford
+FA-RF-00155,E-0150,Tom Green,Digital Lead,2025-01-29,Meeting Set,1180193.64,13,Henry Parker
+FA-RF-00156,E-0147,Ben Stewart,Existing Client,2025-10-11,Meeting Set,167129.42,2,Yuki Vaughn
+FA-RF-00157,E-0145,Kenji Jackson,Event,2026-01-08,Converted,190919.47,5,Priya Young
+FA-RF-00158,E-0143,Ines Ashford,Retail Branch,2026-05-27,Lost,60184.34,15,Naomi Allen
+FA-RF-00159,E-0174,Ravi Hall,Existing Client,2025-10-21,Meeting Set,787669.08,2,Kenji Scott
+FA-RF-00160,E-0147,Yuki Young,Center of Influence,2026-04-09,Contacted,421545.62,19,Yuki Vaughn
+FA-RF-00161,E-0180,Julian Hall,Digital Lead,2024-12-17,New,461897.42,,Sofia Johnson
+FA-RF-00162,E-0177,Zara Campbell,Event,2024-11-11,New,97500.0,,Isabella Okafor
+FA-RF-00163,E-0156,Daniel Miller,Retail Branch,2025-07-08,New,274171.92,,Ava Ashford
+FA-RF-00164,E-0151,Isabella Wright,Center of Influence,2025-02-18,Lost,173180.39,21,Grace Carter
+FA-RF-00165,E-0152,Luis Evans,Retail Branch,2026-07-26,Lost,80049.69,14,Nina Brown
+FA-RF-00166,E-0147,Julian Bailey,Retail Branch,2026-01-18,New,317242.13,,Yuki Vaughn
+FA-RF-00167,E-0158,Hannah Ruiz,Center of Influence,2025-08-29,New,1567759.46,,Lauren Lewis
+FA-RF-00168,E-0164,Felix Garcia,Digital Lead,2026-01-09,Lost,556039.79,7,Olivia Stewart
+FA-RF-00169,E-0177,Mei Walker,Event,2026-06-09,Contacted,250498.93,1,Isabella Okafor
+FA-RF-00170,E-0169,Iris Adams,Event,2024-12-26,Converted,206372.04,0,Priya Martinez
+FA-RF-00171,E-0144,Mateo Adams,Retail Branch,2025-10-21,Converted,165224.8,18,Luis Stewart
+FA-RF-00172,E-0141,Victor Roberts,Retail Branch,2025-12-12,Contacted,249630.41,8,Victor Walker
+FA-RF-00173,E-0174,Leo Ashford,Center of Influence,2026-06-02,Lost,175030.65,12,Kenji Scott
+FA-RF-00174,E-0160,Noah Green,Center of Influence,2025-06-09,Lost,303446.83,7,Diego Silva
+FA-RF-00175,E-0146,Grace Green,Digital Lead,2025-08-04,Lost,143067.77,7,Chloe Davis
+FA-RF-00176,E-0150,Julian Vaughn,Center of Influence,2025-05-27,New,133234.72,,Henry Parker
+FA-RF-00177,E-0160,Wei White,Center of Influence,2026-02-24,Contacted,332580.53,10,Diego Silva
+FA-RF-00178,E-0149,Sara Campbell,Existing Client,2025-07-16,New,41587.34,,Amara Okafor
+FA-RF-00179,E-0154,Luis Phillips,Event,2024-10-03,Contacted,201786.73,16,Leo Evans
+FA-RF-00180,E-0176,Derek Collins,Event,2026-04-16,Converted,233658.39,2,Hannah Davis
+FA-RF-00181,E-0156,Grace Green,Digital Lead,2026-07-27,Meeting Set,192089.47,20,Ava Ashford
+FA-RF-00182,E-0157,Jonathan Young,Existing Client,2025-02-11,Meeting Set,181282.06,2,Amara White
+FA-RF-00183,E-0157,Marcus Hall,Digital Lead,2024-11-09,New,359083.55,,Amara White
+FA-RF-00184,E-0157,Andre Wilson,Existing Client,2024-10-05,Lost,89630.56,21,Amara White
+FA-RF-00185,E-0177,Sara Chen,Existing Client,2026-04-29,New,268538.11,,Isabella Okafor
+FA-RF-00186,E-0156,Daniel Parker,Existing Client,2025-11-08,Contacted,106066.27,5,Ava Ashford
+FA-RF-00187,E-0175,Nora Brown,Digital Lead,2026-07-27,New,959148.27,,Chloe Parker
+FA-RF-00188,E-0146,Luis Turner,Digital Lead,2025-01-28,New,675711.15,,Chloe Davis
+FA-RF-00189,E-0156,Samuel Ruiz,Existing Client,2024-10-15,Meeting Set,145695.14,2,Ava Ashford
+FA-RF-00190,E-0172,Zara Walker,Digital Lead,2025-12-21,Contacted,415129.79,2,Priya Anderson
+FA-RF-00191,E-0160,Mei Edwards,Digital Lead,2024-09-27,Contacted,216730.22,16,Diego Silva
+FA-RF-00192,E-0168,Ines Patel,Existing Client,2026-03-04,Contacted,976067.8,7,Kenji Bailey
+FA-RF-00193,E-0166,Amara Adams,Center of Influence,2026-05-12,Lost,211263.66,20,Wei King
+FA-RF-00194,E-0147,Maya Allen,Retail Branch,2025-05-30,New,24453.57,,Yuki Vaughn
+FA-RF-00195,E-0152,Yuki Brown,Existing Client,2025-08-08,Meeting Set,223781.24,15,Nina Brown
+FA-RF-00196,E-0160,Zara Bailey,Retail Branch,2025-05-12,Lost,1393445.83,7,Diego Silva
+FA-RF-00197,E-0162,Chloe Hall,Center of Influence,2026-02-04,Meeting Set,24310.02,14,Owen Edwards
+FA-RF-00198,E-0153,Jamal Parker,Digital Lead,2025-05-08,Converted,231166.2,9,Noah Baker
+FA-RF-00199,E-0160,Diego Nguyen,Retail Branch,2025-06-06,Lost,187850.51,8,Diego Silva
+FA-RF-00200,E-0165,Sara Carter,Existing Client,2026-06-10,New,161207.34,,Jamal Vaughn
+FA-RF-00201,E-0158,Ravi Lewis,Digital Lead,2024-11-05,New,97857.49,,Lauren Lewis
+FA-RF-00202,E-0176,Sara Harris,Digital Lead,2024-10-24,Contacted,2206654.07,2,Hannah Davis
+FA-RF-00203,E-0155,Carlos Bailey,Digital Lead,2025-07-09,Meeting Set,1325311.07,3,Sofia Parker
+FA-RF-00204,E-0174,Nora Davis,Digital Lead,2024-10-14,New,239075.01,,Kenji Scott
+FA-RF-00205,E-0150,Yuki Kim,Center of Influence,2025-03-12,Contacted,131186.36,11,Henry Parker
+FA-RF-00206,E-0162,Lauren Miller,Center of Influence,2025-07-28,Converted,261962.48,20,Owen Edwards
+FA-RF-00207,E-0169,Kenji Ashford,Event,2024-12-05,Contacted,121115.8,18,Priya Martinez
+FA-RF-00208,E-0141,Layla Bailey,Event,2025-12-24,Converted,482428.69,14,Victor Walker
+FA-RF-00209,E-0161,Maya Bailey,Digital Lead,2026-04-17,New,70660.53,,Julian Green
+FA-RF-00210,E-0168,Marcus Lewis,Retail Branch,2025-03-06,Converted,63693.96,6,Kenji Bailey
+FA-RF-00211,E-0179,Nora Martinez,Existing Client,2026-08-09,New,551916.84,,Sara Nelson
+FA-RF-00212,E-0152,Maya Ruiz,Existing Client,2025-04-05,Lost,650708.04,21,Nina Brown
+FA-RF-00213,E-0175,Owen Young,Event,2024-11-29,Converted,221628.97,20,Chloe Parker
+FA-RF-00214,E-0176,Rosa Wilson,Center of Influence,2026-02-28,Converted,1248690.01,7,Hannah Davis
+FA-RF-00215,E-0154,Lauren Martinez,Center of Influence,2024-11-06,Contacted,1198454.94,6,Leo Evans
+FA-RF-00216,E-0168,Chloe Silva,Center of Influence,2025-02-21,Converted,564818.41,14,Kenji Bailey
+FA-RF-00217,E-0143,Naomi Walker,Existing Client,2026-06-06,Converted,167632.21,4,Naomi Allen
+FA-RF-00218,E-0168,Elena Silva,Retail Branch,2026-06-11,Converted,406290.4,0,Kenji Bailey
+FA-RF-00219,E-0170,Emma Campbell,Center of Influence,2025-01-14,Meeting Set,241756.98,0,Kenji Stewart
+FA-RF-00220,E-0153,Sofia Lopez,Retail Branch,2025-12-11,Meeting Set,1838565.47,15,Noah Baker
+FA-RF-00221,E-0170,Daniel White,Digital Lead,2026-06-06,Converted,64612.5,13,Kenji Stewart
+FA-RF-00222,E-0148,Nina Campbell,Digital Lead,2025-02-05,Contacted,363465.48,11,Julian Silva
+FA-RF-00223,E-0151,Jonathan Turner,Digital Lead,2025-09-08,Lost,87577.04,1,Grace Carter
+FA-RF-00224,E-0160,Olivia Turner,Existing Client,2024-10-19,Lost,696869.29,14,Diego Silva
+FA-RF-00225,E-0144,Diego Ashford,Digital Lead,2026-03-25,New,183323.19,,Luis Stewart
+FA-RF-00226,E-0178,Julian King,Digital Lead,2026-01-29,Converted,1846311.15,16,Carlos Miller
+FA-RF-00227,E-0143,Felix Okafor,Center of Influence,2025-08-20,Meeting Set,153623.48,3,Naomi Allen
+FA-RF-00228,E-0159,Jamal Morris,Center of Influence,2024-11-18,Lost,198132.12,20,Owen White
+FA-RF-00229,E-0175,Luis Walker,Event,2026-05-04,Converted,659576.67,21,Chloe Parker
+FA-RF-00230,E-0178,Ines Ruiz,Existing Client,2026-08-27,Contacted,71934.35,12,Carlos Miller
+FA-RF-00231,E-0152,Aisha Vaughn,Center of Influence,2025-03-30,Contacted,529278.98,5,Nina Brown
+FA-RF-00232,E-0166,Samuel Okafor,Digital Lead,2025-05-05,Converted,3833086.33,2,Wei King
+FA-RF-00233,E-0141,Sofia Mitchell,Digital Lead,2025-10-02,Converted,609837.95,4,Victor Walker
+FA-RF-00234,E-0143,Elena Edwards,Center of Influence,2026-04-24,Converted,557594.22,8,Naomi Allen
+FA-RF-00235,E-0153,Fatima Silva,Existing Client,2025-08-03,Converted,399634.76,7,Noah Baker
+FA-RF-00236,E-0171,Sara Johnson,Event,2025-08-18,Contacted,209578.45,3,Victor Evans
+FA-RF-00237,E-0155,Elena Roberts,Existing Client,2026-01-01,Contacted,19605.56,6,Sofia Parker
+FA-RF-00238,E-0166,Sofia Vaughn,Digital Lead,2026-08-28,Lost,52364.67,16,Wei King
+FA-RF-00239,E-0178,Isabella Ruiz,Existing Client,2025-05-09,New,764657.15,,Carlos Miller
+FA-RF-00240,E-0143,Leo Scott,Digital Lead,2025-04-26,New,530340.28,,Naomi Allen
+FA-RF-00241,E-0168,Sara Phillips,Existing Client,2025-07-27,Contacted,161858.72,13,Kenji Bailey
+FA-RF-00242,E-0162,Iris Campbell,Center of Influence,2026-08-14,New,302966.23,,Owen Edwards
+FA-RF-00243,E-0161,Zara Patel,Retail Branch,2026-06-04,Meeting Set,577398.31,18,Julian Green
+FA-RF-00244,E-0174,Naomi Brown,Retail Branch,2026-08-18,New,47863.95,,Kenji Scott
+FA-RF-00245,E-0175,Diego Morris,Digital Lead,2024-11-28,Meeting Set,141229.7,16,Chloe Parker
+FA-RF-00246,E-0158,Felix Hall,Retail Branch,2025-04-18,Meeting Set,52097.23,14,Lauren Lewis
+FA-RF-00247,E-0170,Ava Chen,Existing Client,2024-10-18,Contacted,143037.39,7,Kenji Stewart
+FA-RF-00248,E-0142,Carlos Parker,Digital Lead,2026-07-25,Contacted,21812.71,10,Wei Ruiz
+FA-RF-00249,E-0178,Ravi Parker,Existing Client,2024-10-17,Lost,4060656.28,15,Carlos Miller
+FA-RF-00250,E-0163,Zara King,Retail Branch,2026-06-01,Lost,145180.46,13,Olivia Patel
+FA-RF-00251,E-0158,Olivia Vaughn,Event,2025-02-28,Lost,184914.18,17,Lauren Lewis
+FA-RF-00252,E-0168,Rosa Wright,Retail Branch,2026-07-04,Lost,431189.95,12,Kenji Bailey
+FA-RF-00253,E-0147,Ava Roberts,Digital Lead,2025-10-01,Contacted,323740.07,18,Yuki Vaughn
+FA-RF-00254,E-0158,Chloe Adams,Retail Branch,2024-11-16,New,368633.08,,Lauren Lewis
+FA-RF-00255,E-0152,Ava Roberts,Event,2024-09-04,New,832111.72,,Nina Brown
+FA-RF-00256,E-0178,Nora Evans,Retail Branch,2025-09-27,Converted,104559.2,13,Carlos Miller
+FA-RF-00257,E-0166,Jonathan Adams,Center of Influence,2025-09-29,Lost,280938.8,6,Wei King
+FA-RF-00258,E-0142,Julian Wright,Retail Branch,2026-05-19,New,90417.87,,Wei Ruiz
+FA-RF-00259,E-0161,Nina Jackson,Center of Influence,2026-04-27,Contacted,1144213.3,14,Julian Green
+FA-RF-00260,E-0157,Leo Allen,Digital Lead,2026-02-05,Meeting Set,80202.43,17,Amara White
+FA-RF-00261,E-0155,Maya Wright,Retail Branch,2026-07-25,Converted,699761.86,21,Sofia Parker
+FA-RF-00262,E-0167,Priya Bailey,Event,2026-05-24,Contacted,126143.4,11,Jamal Wilson
+FA-RF-00263,E-0175,Ethan Miller,Digital Lead,2025-01-21,New,285553.78,,Chloe Parker
+FA-RF-00264,E-0156,Jonathan Scott,Digital Lead,2024-09-20,Meeting Set,404370.9,8,Ava Ashford
+FA-RF-00265,E-0168,Marcus Okafor,Event,2026-02-22,New,221218.3,,Kenji Bailey
+FA-RF-00266,E-0145,Emma Jackson,Existing Client,2025-08-27,Contacted,167415.72,12,Priya Young
+FA-RF-00267,E-0164,Kenji Scott,Digital Lead,2026-05-29,Lost,273419.08,19,Olivia Stewart
+FA-RF-00268,E-0175,Layla Thomas,Retail Branch,2026-06-13,Converted,601987.55,1,Chloe Parker
+FA-RF-00269,E-0142,Sofia Allen,Event,2024-09-21,Meeting Set,262948.29,14,Wei Ruiz
+FA-RF-00270,E-0165,Luis Garcia,Event,2025-03-13,Converted,161898.52,7,Jamal Vaughn
+FA-RF-00271,E-0177,Naomi Scott,Digital Lead,2025-02-21,Meeting Set,184439.88,3,Isabella Okafor
+FA-RF-00272,E-0172,Yuki Carter,Retail Branch,2026-07-21,Contacted,111060.34,21,Priya Anderson
+FA-RF-00273,E-0163,Maya Anderson,Digital Lead,2025-07-18,Lost,387198.57,11,Olivia Patel
+FA-RF-00274,E-0155,Derek Martinez,Existing Client,2024-09-07,Lost,36684.0,19,Sofia Parker
+FA-RF-00275,E-0175,Julian Carter,Retail Branch,2024-12-20,Contacted,266399.29,18,Chloe Parker
+FA-RF-00276,E-0171,Hannah Kim,Retail Branch,2025-04-08,New,701623.73,,Victor Evans
+FA-RF-00277,E-0166,Amara Lewis,Retail Branch,2025-09-17,Contacted,554776.78,13,Wei King
+FA-RF-00278,E-0145,Owen Walker,Event,2025-11-10,Meeting Set,91782.99,3,Priya Young
+FA-RF-00279,E-0153,Diego Collins,Event,2025-01-27,New,903237.17,,Noah Baker
+FA-RF-00280,E-0153,Iris Walker,Retail Branch,2024-09-12,Lost,242583.62,20,Noah Baker
+FA-RF-00281,E-0170,Isabella Davis,Center of Influence,2026-02-28,Contacted,386761.24,4,Kenji Stewart
+FA-RF-00282,E-0180,Isabella Young,Existing Client,2025-12-01,New,1685394.7,,Sofia Johnson
+FA-RF-00283,E-0149,Felix Ashford,Center of Influence,2026-06-29,New,426081.68,,Amara Okafor
+FA-RF-00284,E-0177,Mateo Taylor,Event,2024-12-08,Contacted,264341.86,10,Isabella Okafor
+FA-RF-00285,E-0141,Noah Brown,Digital Lead,2026-08-03,Converted,800440.94,16,Victor Walker
+FA-RF-00286,E-0148,Sofia Lopez,Retail Branch,2025-10-28,Contacted,104234.06,12,Julian Silva
+FA-RF-00287,E-0167,Noah Moore,Digital Lead,2025-11-16,Converted,454472.39,21,Jamal Wilson
+FA-RF-00288,E-0151,Samuel Brown,Center of Influence,2025-03-16,Converted,64111.96,19,Grace Carter
+FA-RF-00289,E-0166,Ava Nelson,Retail Branch,2025-11-12,New,308200.4,,Wei King
+FA-RF-00290,E-0158,Wei Okafor,Existing Client,2025-09-16,Contacted,313198.29,2,Lauren Lewis
+FA-RF-00291,E-0141,Andre Davis,Existing Client,2026-01-26,New,283205.3,,Victor Walker
+FA-RF-00292,E-0152,Mateo Bailey,Event,2025-12-30,Contacted,119064.29,13,Nina Brown
+FA-RF-00293,E-0163,Tom Wright,Existing Client,2025-07-09,New,265740.65,,Olivia Patel
+FA-RF-00294,E-0153,Maya Parker,Digital Lead,2024-09-11,Converted,698815.59,9,Noah Baker
+FA-RF-00295,E-0152,Ethan Johnson,Digital Lead,2024-09-18,New,462536.78,,Nina Brown
+FA-RF-00296,E-0169,Derek Scott,Retail Branch,2025-06-01,Converted,324196.63,10,Priya Martinez
+FA-RF-00297,E-0151,Kenji Silva,Event,2024-10-14,Converted,75530.16,17,Grace Carter
+FA-RF-00298,E-0163,Jonathan Campbell,Event,2026-04-04,Contacted,259033.65,16,Olivia Patel
+FA-RF-00299,E-0150,Grace Davis,Retail Branch,2026-04-10,Contacted,1171964.38,8,Henry Parker
+FA-RF-00300,E-0165,Noah Nelson,Retail Branch,2026-02-16,Lost,344295.56,21,Jamal Vaughn
+FA-RF-00301,E-0159,Marcus Kim,Center of Influence,2025-12-13,Contacted,338424.21,18,Owen White
+FA-RF-00302,E-0168,Sara Hall,Center of Influence,2025-08-17,New,682497.14,,Kenji Bailey
+FA-RF-00303,E-0144,Marcus Silva,Retail Branch,2025-12-17,Converted,270759.73,14,Luis Stewart
+FA-RF-00304,E-0157,Nora Davis,Retail Branch,2024-12-22,Converted,894681.69,19,Amara White
+FA-RF-00305,E-0154,Olivia Brown,Center of Influence,2024-10-03,Meeting Set,234537.57,9,Leo Evans
+FA-RF-00306,E-0149,Ben Green,Center of Influence,2025-03-18,Converted,683327.32,1,Amara Okafor
+FA-RF-00307,E-0173,Tom Clark,Event,2026-01-19,Contacted,148154.73,11,Noah Phillips
+FA-RF-00308,E-0168,Luis Young,Event,2025-10-10,New,135718.8,,Kenji Bailey
+FA-RF-00309,E-0161,Derek Anderson,Event,2025-05-14,Contacted,321676.98,18,Julian Green
+FA-RF-00310,E-0174,Andre Brown,Retail Branch,2026-08-08,Meeting Set,1551092.67,18,Kenji Scott
+FA-RF-00311,E-0179,Ravi Kim,Event,2025-10-30,Meeting Set,767668.37,21,Sara Nelson
+FA-RF-00312,E-0175,Amara Chen,Center of Influence,2025-09-26,New,173210.98,,Chloe Parker
+FA-RF-00313,E-0145,Priya Carter,Digital Lead,2026-07-21,Contacted,128956.23,3,Priya Young
+FA-RF-00314,E-0165,Daniel Turner,Center of Influence,2024-10-09,Contacted,200172.2,18,Jamal Vaughn
+FA-RF-00315,E-0155,Lauren Davis,Center of Influence,2025-01-28,Contacted,214839.2,11,Sofia Parker
+FA-RF-00316,E-0158,Layla Patel,Digital Lead,2025-06-23,New,222498.48,,Lauren Lewis
+FA-RF-00317,E-0179,Noah Carter,Event,2024-12-31,Converted,789723.55,17,Sara Nelson
+FA-RF-00318,E-0160,Ethan Collins,Retail Branch,2025-03-20,New,211200.8,,Diego Silva
+FA-RF-00319,E-0161,Zara Adams,Center of Influence,2025-01-23,Lost,595272.98,5,Julian Green
+FA-RF-00320,E-0176,Sara Baker,Retail Branch,2025-12-13,Contacted,1123302.61,4,Hannah Davis
+FA-RF-00321,E-0152,Owen Campbell,Event,2026-03-30,Contacted,197542.21,21,Nina Brown
+FA-RF-00322,E-0168,Nora Harris,Center of Influence,2025-11-15,Converted,117837.52,21,Kenji Bailey
+FA-RF-00323,E-0166,Mateo Patel,Digital Lead,2025-10-22,Lost,163877.47,7,Wei King
+FA-RF-00324,E-0141,Lauren Nguyen,Digital Lead,2025-08-28,Contacted,276982.26,17,Victor Walker
+FA-RF-00325,E-0173,Maya Miller,Retail Branch,2025-03-08,Converted,128573.65,16,Noah Phillips
+FA-RF-00326,E-0175,Ben Martinez,Event,2026-04-13,Converted,250074.12,12,Chloe Parker
+FA-RF-00327,E-0161,Isabella Martinez,Event,2024-11-07,Meeting Set,142596.01,1,Julian Green
+FA-RF-00328,E-0143,Ben Taylor,Event,2024-12-18,New,673821.48,,Naomi Allen
+FA-RF-00329,E-0161,Zara Scott,Retail Branch,2026-05-17,Converted,462741.58,14,Julian Green
+FA-RF-00330,E-0148,Ethan Kim,Event,2026-02-13,Contacted,48298.83,11,Julian Silva
+FA-RF-00331,E-0173,Luis Wright,Digital Lead,2024-10-15,New,128008.66,,Noah Phillips
+FA-RF-00332,E-0177,Wei Miller,Center of Influence,2024-09-30,New,330919.08,,Isabella Okafor
+FA-RF-00333,E-0154,Nora Mitchell,Existing Client,2025-10-11,New,654454.59,,Leo Evans
+FA-RF-00334,E-0159,Noah Parker,Digital Lead,2026-06-12,Converted,1230874.64,13,Owen White
+FA-RF-00335,E-0157,Ben Ruiz,Event,2024-12-25,Contacted,1207741.13,12,Amara White
+FA-RF-00336,E-0150,Sofia Mitchell,Center of Influence,2025-09-21,Contacted,208445.01,12,Henry Parker
+FA-RF-00337,E-0161,Nora Okafor,Digital Lead,2025-02-03,New,829089.42,,Julian Green
+FA-RF-00338,E-0156,Leo Turner,Event,2024-11-07,Converted,102139.66,12,Ava Ashford
+FA-RF-00339,E-0144,Mei Vaughn,Center of Influence,2026-03-27,Meeting Set,97527.52,6,Luis Stewart
+FA-RF-00340,E-0174,Fatima Wilson,Digital Lead,2025-09-29,Contacted,2012841.99,18,Kenji Scott
+FA-RF-00341,E-0147,Priya Wright,Existing Client,2024-12-25,New,1129245.58,,Yuki Vaughn
+FA-RF-00342,E-0179,Naomi Stewart,Center of Influence,2024-10-25,Meeting Set,508960.77,0,Sara Nelson
+FA-RF-00343,E-0166,Ines Brown,Event,2025-06-18,New,3103297.38,,Wei King
+FA-RF-00344,E-0157,Fatima Anderson,Center of Influence,2025-04-16,Contacted,190423.85,3,Amara White
+FA-RF-00345,E-0165,Noah Martinez,Event,2025-06-15,Contacted,205210.42,4,Jamal Vaughn
+FA-RF-00346,E-0173,Aisha Harris,Event,2025-07-25,Lost,573000.81,10,Noah Phillips
+FA-RF-00347,E-0147,Nina Nguyen,Center of Influence,2025-09-09,Lost,164761.12,13,Yuki Vaughn
+FA-RF-00348,E-0143,Grace Nguyen,Event,2024-09-08,Contacted,150414.86,1,Naomi Allen
+FA-RF-00349,E-0153,Lauren Edwards,Existing Client,2025-03-09,Contacted,188601.2,18,Noah Baker
+FA-RF-00350,E-0160,Victor Turner,Center of Influence,2025-11-24,Converted,195962.06,2,Diego Silva
+FA-RF-00351,E-0151,Luis Chen,Event,2025-08-21,Lost,127672.11,13,Grace Carter
+FA-RF-00352,E-0143,Fatima Lewis,Center of Influence,2024-09-22,Contacted,897639.24,3,Naomi Allen
+FA-RF-00353,E-0165,Nina Anderson,Digital Lead,2025-09-20,Contacted,78825.65,11,Jamal Vaughn
+FA-RF-00354,E-0148,Owen Davis,Existing Client,2025-04-02,Converted,495262.11,7,Julian Silva
+FA-RF-00355,E-0149,Ethan Martinez,Digital Lead,2025-06-29,Converted,444113.38,16,Amara Okafor
+FA-RF-00356,E-0148,Daniel Evans,Retail Branch,2025-07-13,Contacted,187575.57,6,Julian Silva
+FA-RF-00357,E-0145,Henry Walker,Retail Branch,2025-05-12,Contacted,1716848.38,0,Priya Young
+FA-RF-00358,E-0159,Carlos Patel,Retail Branch,2024-09-29,New,420476.22,,Owen White
+FA-RF-00359,E-0173,Ben Walker,Digital Lead,2025-09-29,Contacted,824193.21,18,Noah Phillips
+FA-RF-00360,E-0153,Noah Ruiz,Retail Branch,2025-02-24,Contacted,165080.51,5,Noah Baker
+FA-RF-00361,E-0180,Victor Turner,Event,2024-11-14,Converted,132182.12,4,Sofia Johnson
+FA-RF-00362,E-0148,Andre Nelson,Center of Influence,2026-07-21,Meeting Set,324769.21,21,Julian Silva
+FA-RF-00363,E-0152,Grace Wilson,Digital Lead,2025-07-25,Contacted,60350.87,9,Nina Brown
+FA-RF-00364,E-0157,Tom Hall,Event,2025-08-01,Lost,144711.98,14,Amara White
+FA-RF-00365,E-0171,Rosa Johnson,Digital Lead,2026-01-07,Contacted,1134339.83,14,Victor Evans
+FA-RF-00366,E-0158,Mei Miller,Existing Client,2025-10-03,Converted,353425.1,7,Lauren Lewis
+FA-RF-00367,E-0180,Derek Walker,Digital Lead,2026-06-27,Converted,250106.05,1,Sofia Johnson
+FA-RF-00368,E-0178,Henry Hall,Retail Branch,2025-12-29,Lost,417763.11,1,Carlos Miller
+FA-RF-00369,E-0151,Samuel Lopez,Existing Client,2026-03-26,Lost,248163.97,4,Grace Carter
+FA-RF-00370,E-0172,Grace Moore,Center of Influence,2024-09-17,Converted,274558.51,3,Priya Anderson
+FA-RF-00371,E-0167,Nora Taylor,Existing Client,2024-12-03,Contacted,385526.78,3,Jamal Wilson
+FA-RF-00372,E-0154,Ravi Walker,Center of Influence,2026-06-09,Converted,1475077.21,5,Leo Evans
+FA-RF-00373,E-0173,Mei Clark,Digital Lead,2025-03-30,Contacted,198251.91,0,Noah Phillips
+FA-RF-00374,E-0177,Nina Scott,Retail Branch,2025-06-03,Converted,337408.46,14,Isabella Okafor
+FA-RF-00375,E-0153,Naomi Baker,Existing Client,2024-09-13,Meeting Set,80073.17,4,Noah Baker
+FA-RF-00376,E-0173,Kenji Mitchell,Event,2025-07-05,Lost,306804.01,10,Noah Phillips
+FA-RF-00377,E-0161,Aisha Brown,Existing Client,2026-07-09,Lost,3116109.87,21,Julian Green
+FA-RF-00378,E-0165,Daniel Ashford,Center of Influence,2026-08-26,New,53516.76,,Jamal Vaughn
+FA-RF-00379,E-0174,Isabella Evans,Center of Influence,2025-10-06,Lost,677645.31,20,Kenji Scott
+FA-RF-00380,E-0149,Rosa Edwards,Digital Lead,2026-04-16,Converted,246204.64,20,Amara Okafor
+FA-RF-00381,E-0154,Aisha Morris,Existing Client,2026-08-29,Meeting Set,3197976.37,8,Leo Evans
+FA-RF-00382,E-0150,Amara Collins,Event,2026-07-12,Converted,117069.27,4,Henry Parker
+FA-RF-00383,E-0161,Priya Baker,Event,2025-08-29,Lost,171998.13,0,Julian Green
+FA-RF-00384,E-0144,Daniel Miller,Center of Influence,2025-12-29,Contacted,202746.43,14,Luis Stewart
+FA-RF-00385,E-0148,Wei Parker,Existing Client,2024-11-21,Converted,653830.53,18,Julian Silva
+FA-RF-00386,E-0151,Ben Taylor,Center of Influence,2026-03-05,Contacted,372980.46,7,Grace Carter
+FA-RF-00387,E-0144,Diego Parker,Retail Branch,2025-04-05,Contacted,684143.05,19,Luis Stewart
+FA-RF-00388,E-0178,Priya Lewis,Event,2025-10-23,New,313386.22,,Carlos Miller
+FA-RF-00389,E-0158,Ben Harris,Digital Lead,2026-07-04,Converted,70189.29,9,Lauren Lewis
+FA-RF-00390,E-0146,Daniel Ashford,Existing Client,2026-02-05,Converted,819951.89,3,Chloe Davis
+FA-RF-00391,E-0169,Ava Ashford,Event,2024-12-05,Converted,202736.91,5,Priya Martinez
+FA-RF-00392,E-0175,Henry Anderson,Retail Branch,2024-11-03,Meeting Set,468483.69,19,Chloe Parker
+FA-RF-00393,E-0144,Leo Nguyen,Center of Influence,2026-05-22,Converted,142660.2,15,Luis Stewart
+FA-RF-00394,E-0173,Fatima Patel,Existing Client,2025-05-22,Converted,129195.38,7,Noah Phillips
+FA-RF-00395,E-0143,Ben Silva,Center of Influence,2026-03-29,Converted,278931.36,16,Naomi Allen
+FA-RF-00396,E-0176,Ines Martinez,Event,2026-03-10,Converted,118008.09,7,Hannah Davis
+FA-RF-00397,E-0141,Noah Miller,Retail Branch,2026-05-13,Converted,95870.5,9,Victor Walker
+FA-RF-00398,E-0142,Derek King,Retail Branch,2024-11-10,New,129966.96,,Wei Ruiz
+FA-RF-00399,E-0141,Samuel Nguyen,Event,2026-04-22,New,403358.43,,Victor Walker
+FA-RF-00400,E-0155,Nina Green,Digital Lead,2026-04-22,Converted,436036.18,15,Sofia Parker
+FA-RF-00401,E-0156,Samuel Silva,Center of Influence,2025-07-06,Contacted,282790.16,0,Ava Ashford
+FA-RF-00402,E-0167,Grace Okafor,Digital Lead,2026-01-07,Contacted,202748.22,4,Jamal Wilson
+FA-RF-00403,E-0173,Derek Hall,Event,2025-04-27,Contacted,1860959.39,10,Noah Phillips
+FA-RF-00404,E-0172,Grace Thomas,Digital Lead,2024-11-06,Contacted,837177.02,1,Priya Anderson
+FA-RF-00405,E-0171,Leo Taylor,Existing Client,2025-05-02,Lost,349955.38,12,Victor Evans
+FA-RF-00406,E-0178,Nina Stewart,Digital Lead,2026-03-27,Meeting Set,462244.66,17,Carlos Miller
+FA-RF-00407,E-0174,Felix Garcia,Digital Lead,2025-06-22,New,486522.0,,Kenji Scott
+FA-RF-00408,E-0145,Ava Morris,Center of Influence,2025-09-23,Lost,162159.23,0,Priya Young
+FA-RF-00409,E-0150,Elena Nguyen,Digital Lead,2025-02-12,Converted,89804.16,16,Henry Parker
+FA-RF-00410,E-0157,Daniel Vaughn,Digital Lead,2026-01-05,Converted,679821.02,6,Amara White
+FA-RF-00411,E-0163,Owen Vaughn,Event,2025-10-02,Contacted,356858.39,6,Olivia Patel
+FA-RF-00412,E-0144,Emma Phillips,Center of Influence,2025-04-24,Lost,87953.12,4,Luis Stewart
+FA-RF-00413,E-0176,Layla Kim,Existing Client,2024-09-20,Converted,232729.29,11,Hannah Davis
+FA-RF-00414,E-0155,Yuki Ruiz,Center of Influence,2026-02-14,Contacted,306513.76,4,Sofia Parker
+FA-RF-00415,E-0152,Olivia Campbell,Digital Lead,2026-07-25,Converted,116363.57,4,Nina Brown
+FA-RF-00416,E-0151,Ines Clark,Center of Influence,2025-12-22,Contacted,865108.57,18,Grace Carter
+FA-RF-00417,E-0164,Hannah Anderson,Event,2025-03-22,Converted,1009068.37,8,Olivia Stewart
+FA-RF-00418,E-0176,Wei Scott,Center of Influence,2025-04-27,New,214167.08,,Hannah Davis
+FA-RF-00419,E-0145,Layla Baker,Event,2025-05-29,Lost,266105.67,7,Priya Young
+FA-RF-00420,E-0152,Emma Edwards,Center of Influence,2026-01-02,Converted,432515.27,18,Nina Brown
+FA-RF-00421,E-0143,Ava Phillips,Event,2025-07-17,Converted,1326412.9,11,Naomi Allen
+FA-RF-00422,E-0146,Julian Allen,Event,2026-01-13,Converted,680369.37,1,Chloe Davis
+FA-RF-00423,E-0143,Chloe Nguyen,Existing Client,2025-02-13,Converted,640530.48,13,Naomi Allen
+FA-RF-00424,E-0146,Mateo Green,Retail Branch,2025-09-02,Meeting Set,159221.06,17,Chloe Davis
+FA-RF-00425,E-0149,Tom Wright,Event,2025-12-12,Converted,969566.33,12,Amara Okafor
+FA-RF-00426,E-0165,Derek Wilson,Existing Client,2025-04-15,Converted,252975.91,18,Jamal Vaughn
+FA-RF-00427,E-0168,Sara Taylor,Center of Influence,2024-10-24,New,20007.66,,Kenji Bailey
+FA-RF-00428,E-0173,Henry Johnson,Retail Branch,2026-01-18,Contacted,852300.29,21,Noah Phillips
+FA-RF-00429,E-0164,Felix Evans,Center of Influence,2026-06-04,Meeting Set,446338.83,21,Olivia Stewart
+FA-RF-00430,E-0176,Emma Young,Center of Influence,2025-05-11,Contacted,251774.21,18,Hannah Davis
+FA-RF-00431,E-0171,Chloe Collins,Existing Client,2025-08-30,Contacted,498846.75,7,Victor Evans
+FA-RF-00432,E-0141,Victor Ruiz,Center of Influence,2026-03-06,Contacted,179510.73,7,Victor Walker
+FA-RF-00433,E-0156,Owen Kim,Existing Client,2024-09-25,Meeting Set,678174.13,4,Ava Ashford
+FA-RF-00434,E-0175,Noah Allen,Retail Branch,2025-10-02,Lost,406072.53,20,Chloe Parker
+FA-RF-00435,E-0146,Daniel Young,Existing Client,2026-01-22,Contacted,248469.83,8,Chloe Davis
+FA-RF-00436,E-0159,Hannah Nguyen,Retail Branch,2024-12-19,Contacted,51573.53,19,Owen White
+FA-RF-00437,E-0158,Owen Wilson,Digital Lead,2024-11-11,Converted,351723.95,21,Lauren Lewis
+FA-RF-00438,E-0142,Tom Nelson,Existing Client,2024-11-14,Contacted,1024337.03,3,Wei Ruiz
+FA-RF-00439,E-0148,Diego Walker,Digital Lead,2025-06-10,Converted,516916.62,17,Julian Silva
+FA-RF-00440,E-0161,Zara Taylor,Existing Client,2025-11-05,Contacted,677985.45,13,Julian Green
+FA-RF-00441,E-0180,Layla Kim,Retail Branch,2025-02-16,Lost,55467.21,3,Sofia Johnson
+FA-RF-00442,E-0152,Olivia Hall,Digital Lead,2025-02-06,Contacted,188741.77,3,Nina Brown
+FA-RF-00443,E-0169,Priya Lewis,Center of Influence,2026-07-24,Lost,1990237.16,0,Priya Martinez
+FA-RF-00444,E-0158,Ines Ruiz,Center of Influence,2024-11-17,Converted,144848.96,2,Lauren Lewis
+FA-RF-00445,E-0147,Sara Patel,Existing Client,2026-08-16,Meeting Set,433053.15,14,Yuki Vaughn
+FA-RF-00446,E-0162,Owen Davis,Existing Client,2025-04-01,Converted,407546.98,11,Owen Edwards
+FA-RF-00447,E-0180,Ines Vaughn,Existing Client,2025-07-12,Converted,18319.37,7,Sofia Johnson
+FA-RF-00448,E-0171,Luis Ashford,Event,2025-07-20,New,362489.53,,Victor Evans
+FA-RF-00449,E-0168,Leo Wright,Event,2025-10-22,Meeting Set,391350.79,5,Kenji Bailey
+FA-RF-00450,E-0166,Nina Lewis,Center of Influence,2024-09-06,Meeting Set,138098.97,10,Wei King
+FA-RF-00451,E-0160,Sofia Chen,Retail Branch,2025-07-06,New,209879.49,,Diego Silva
+FA-RF-00452,E-0151,Isabella Johnson,Existing Client,2026-03-01,New,253509.67,,Grace Carter
+FA-RF-00453,E-0166,Samuel Brown,Digital Lead,2024-09-15,Lost,188714.36,2,Wei King
+FA-RF-00454,E-0164,Tom Ashford,Center of Influence,2026-07-01,Meeting Set,104734.93,19,Olivia Stewart
+FA-RF-00455,E-0147,Sofia Anderson,Event,2024-12-18,New,353294.44,,Yuki Vaughn
+FA-RF-00456,E-0170,Ava Brown,Retail Branch,2026-06-22,Contacted,101583.47,13,Kenji Stewart
+FA-RF-00457,E-0148,Nina Turner,Retail Branch,2025-03-19,Contacted,595118.66,14,Julian Silva
+FA-RF-00458,E-0164,Ethan Vaughn,Existing Client,2026-01-23,Contacted,357775.66,9,Olivia Stewart
+FA-RF-00459,E-0166,Sofia Martinez,Event,2024-11-28,Contacted,421839.56,6,Wei King
+FA-RF-00460,E-0144,Emma Miller,Event,2026-04-13,Converted,848882.42,15,Luis Stewart
+FA-RF-00461,E-0168,Leo Jackson,Digital Lead,2026-02-06,New,120651.22,,Kenji Bailey
+FA-RF-00462,E-0146,Iris Baker,Center of Influence,2026-04-05,Meeting Set,306601.6,9,Chloe Davis
+FA-RF-00463,E-0171,Jonathan Brown,Digital Lead,2025-01-22,New,110983.24,,Victor Evans
+FA-RF-00464,E-0146,Mateo Wilson,Existing Client,2026-05-29,Contacted,136018.46,3,Chloe Davis
+FA-RF-00465,E-0174,Owen Wilson,Retail Branch,2025-02-19,Converted,378721.04,4,Kenji Scott
+FA-RF-00466,E-0165,Samuel Ruiz,Digital Lead,2026-06-18,Converted,97502.09,19,Jamal Vaughn
+FA-RF-00467,E-0173,Carlos Phillips,Event,2025-11-05,Converted,159704.94,15,Noah Phillips
+FA-RF-00468,E-0167,Ben King,Event,2025-10-17,Meeting Set,79300.64,5,Jamal Wilson
+FA-RF-00469,E-0165,Fatima Harris,Digital Lead,2025-05-06,Meeting Set,245968.43,16,Jamal Vaughn
+FA-RF-00470,E-0164,Victor Young,Center of Influence,2024-12-19,New,53995.37,,Olivia Stewart
+FA-RF-00471,E-0150,Yuki Lewis,Center of Influence,2026-02-01,Converted,68112.03,16,Henry Parker
+FA-RF-00472,E-0172,Hannah Evans,Digital Lead,2024-12-05,New,597866.93,,Priya Anderson
+FA-RF-00473,E-0164,Ethan Ruiz,Retail Branch,2026-05-28,New,595517.36,,Olivia Stewart
+FA-RF-00474,E-0147,Felix Nguyen,Center of Influence,2025-03-27,Converted,1425212.7,16,Yuki Vaughn
+FA-RF-00475,E-0142,Elena Taylor,Event,2024-10-11,Contacted,656008.68,11,Wei Ruiz
+FA-RF-00476,E-0172,Tom Lopez,Event,2025-01-29,Converted,79997.34,14,Priya Anderson
+FA-RF-00477,E-0164,Nina Okafor,Center of Influence,2025-10-03,Contacted,313797.75,8,Olivia Stewart
+FA-RF-00478,E-0148,Nina Ashford,Center of Influence,2024-10-21,New,851783.05,,Julian Silva
+FA-RF-00479,E-0169,Nora Vaughn,Retail Branch,2025-08-21,Contacted,307427.2,15,Priya Martinez
+FA-RF-00480,E-0144,Aisha Parker,Center of Influence,2024-12-20,Contacted,235814.41,19,Luis Stewart
+FA-RF-00481,E-0143,Ava Parker,Digital Lead,2025-09-18,Contacted,448030.75,11,Naomi Allen
+FA-RF-00482,E-0158,Grace Young,Digital Lead,2025-06-24,Meeting Set,108402.46,16,Lauren Lewis
+FA-RF-00483,E-0168,Tom Wright,Event,2024-09-12,Converted,373954.88,12,Kenji Bailey
+FA-RF-00484,E-0145,Felix Turner,Event,2026-08-07,Meeting Set,1157479.07,5,Priya Young
+FA-RF-00485,E-0160,Grace Moore,Retail Branch,2025-10-11,New,103390.67,,Diego Silva
+FA-RF-00486,E-0166,Layla Wright,Existing Client,2026-08-20,Contacted,2094566.78,18,Wei King
+FA-RF-00487,E-0161,Fatima Stewart,Existing Client,2025-11-09,Converted,363850.64,2,Julian Green
+FA-RF-00488,E-0174,Felix Ruiz,Retail Branch,2026-05-29,Lost,43126.99,18,Kenji Scott
+FA-RF-00489,E-0175,Diego Kim,Digital Lead,2025-03-21,Lost,150245.1,21,Chloe Parker
+FA-RF-00490,E-0154,Samuel Jackson,Retail Branch,2025-12-14,New,598046.8,,Leo Evans
+FA-RF-00491,E-0180,Leo Walker,Center of Influence,2025-12-11,Converted,231756.27,11,Sofia Johnson
+FA-RF-00492,E-0173,Elena Evans,Center of Influence,2024-10-11,Lost,1130854.94,1,Noah Phillips
+FA-RF-00493,E-0159,Elena Campbell,Digital Lead,2025-09-27,Converted,543467.35,17,Owen White
+FA-RF-00494,E-0177,Maya Wright,Center of Influence,2025-01-05,Converted,1319281.69,19,Isabella Okafor
+FA-RF-00495,E-0152,Nora Allen,Retail Branch,2025-06-02,Converted,768014.7,12,Nina Brown
+FA-RF-00496,E-0146,Nina Thomas,Center of Influence,2026-02-23,Meeting Set,340139.24,3,Chloe Davis
+FA-RF-00497,E-0166,Grace King,Event,2025-01-06,Contacted,1939282.93,16,Wei King
+FA-RF-00498,E-0160,Jamal Nguyen,Center of Influence,2025-12-12,Lost,284287.71,2,Diego Silva
+FA-RF-00499,E-0150,Rosa Scott,Event,2025-12-27,Contacted,2438758.74,9,Henry Parker
+FA-RF-00500,E-0149,Felix Chen,Center of Influence,2026-08-24,Converted,506456.88,16,Amara Okafor
+FA-RF-00501,E-0148,Grace Garcia,Event,2026-08-03,Contacted,300867.16,11,Julian Silva
+FA-RF-00502,E-0165,Zara Martinez,Digital Lead,2026-04-25,New,1400598.44,,Jamal Vaughn
+FA-RF-00503,E-0154,Wei Harris,Center of Influence,2026-06-10,New,729146.06,,Leo Evans
+FA-RF-00504,E-0148,Mei Parker,Event,2024-12-30,Converted,694170.0,0,Julian Silva
+FA-RF-00505,E-0153,Ines Edwards,Existing Client,2025-11-18,Meeting Set,721845.51,19,Noah Baker
+FA-RF-00506,E-0144,Fatima Adams,Event,2026-01-15,Meeting Set,1164423.89,5,Luis Stewart
+FA-RF-00507,E-0179,Noah Young,Retail Branch,2025-11-22,Converted,702122.42,20,Sara Nelson
+FA-RF-00508,E-0164,Andre Vaughn,Retail Branch,2025-11-21,Contacted,80942.51,14,Olivia Stewart
+FA-RF-00509,E-0160,Isabella Ashford,Existing Client,2025-03-14,Contacted,64518.76,14,Diego Silva
+FA-RF-00510,E-0177,Ava Garcia,Digital Lead,2024-10-05,Converted,562125.1,16,Isabella Okafor
+FA-RF-00511,E-0168,Nora Miller,Event,2025-01-02,Converted,527612.38,9,Kenji Bailey
+FA-RF-00512,E-0166,Zara Vaughn,Retail Branch,2024-09-16,New,155727.16,,Wei King
+FA-RF-00513,E-0156,Amara King,Existing Client,2025-05-02,Converted,513181.87,17,Ava Ashford
+FA-RF-00514,E-0171,Jamal Chen,Event,2025-01-16,Converted,191267.27,11,Victor Evans
+FA-RF-00515,E-0179,Mateo Johnson,Existing Client,2025-12-25,Meeting Set,639471.26,10,Sara Nelson
+FA-RF-00516,E-0178,Carlos White,Retail Branch,2026-02-23,Converted,423822.66,10,Carlos Miller
+FA-RF-00517,E-0157,Jamal Wilson,Digital Lead,2025-07-28,Lost,80269.18,21,Amara White
+FA-RF-00518,E-0160,Sara Young,Event,2025-06-25,Contacted,117344.31,21,Diego Silva
+FA-RF-00519,E-0155,Jamal Chen,Digital Lead,2025-10-20,Converted,32442.99,5,Sofia Parker
+FA-RF-00520,E-0172,Diego White,Event,2026-01-21,Meeting Set,425856.46,3,Priya Anderson
+FA-RF-00521,E-0170,Ethan Johnson,Existing Client,2025-08-15,Meeting Set,168092.68,16,Kenji Stewart
+FA-RF-00522,E-0166,Hannah Parker,Existing Client,2025-04-07,New,363753.85,,Wei King
+FA-RF-00523,E-0162,Rosa Mitchell,Existing Client,2024-12-18,Meeting Set,639419.54,13,Owen Edwards
+FA-RF-00524,E-0146,Sara Clark,Event,2024-12-29,Converted,49602.41,20,Chloe Davis
+FA-RF-00525,E-0176,Zara Roberts,Event,2026-01-02,New,58066.95,,Hannah Davis
+FA-RF-00526,E-0146,Zara Turner,Existing Client,2025-02-19,Lost,3172333.38,13,Chloe Davis
+FA-RF-00527,E-0157,Rosa Moore,Center of Influence,2026-01-12,Contacted,264950.61,9,Amara White
+FA-RF-00528,E-0142,Elena Campbell,Digital Lead,2026-03-14,New,248565.66,,Wei Ruiz
+FA-RF-00529,E-0172,Ines Miller,Digital Lead,2024-11-15,Meeting Set,69164.16,10,Priya Anderson
+FA-RF-00530,E-0144,Wei Lewis,Retail Branch,2026-05-02,Converted,256085.15,6,Luis Stewart
+FA-RF-00531,E-0147,Noah Adams,Existing Client,2025-11-20,New,634349.1,,Yuki Vaughn
+FA-RF-00532,E-0171,Zara Chen,Retail Branch,2026-04-01,Meeting Set,55557.34,3,Victor Evans
+FA-RF-00533,E-0151,Marcus Moore,Retail Branch,2025-01-12,Contacted,442578.65,15,Grace Carter
+FA-RF-00534,E-0160,Tom Wright,Center of Influence,2025-03-05,Converted,90978.66,20,Diego Silva
+FA-RF-00535,E-0175,Derek Phillips,Existing Client,2026-04-16,Converted,1782057.85,1,Chloe Parker
+FA-RF-00536,E-0143,Wei Clark,Digital Lead,2026-01-14,Contacted,697128.64,18,Naomi Allen
+FA-RF-00537,E-0168,Chloe Johnson,Event,2025-12-12,Converted,63252.44,2,Kenji Bailey
+FA-RF-00538,E-0171,Hannah Thomas,Event,2026-01-21,Lost,68005.54,14,Victor Evans
+FA-RF-00539,E-0151,Noah Phillips,Retail Branch,2026-02-01,Converted,202287.03,17,Grace Carter
+FA-RF-00540,E-0163,Jamal Mitchell,Event,2025-06-20,Contacted,217769.93,20,Olivia Patel
+FA-RF-00541,E-0169,Amara Allen,Digital Lead,2026-08-23,Lost,51006.05,11,Priya Martinez
+FA-RF-00542,E-0151,Carlos Martinez,Retail Branch,2025-02-13,Contacted,168888.74,7,Grace Carter
+FA-RF-00543,E-0173,Maya Moore,Retail Branch,2026-04-12,Lost,100115.06,12,Noah Phillips
+FA-RF-00544,E-0155,Aisha Morris,Center of Influence,2026-05-08,New,311399.18,,Sofia Parker
+FA-RF-00545,E-0148,Kenji Morris,Retail Branch,2026-01-12,Converted,949700.22,19,Julian Silva
+FA-RF-00546,E-0166,Rosa Stewart,Event,2025-08-12,Lost,83192.87,10,Wei King
+FA-RF-00547,E-0173,Ravi Taylor,Digital Lead,2025-03-10,New,147426.81,,Noah Phillips
+FA-RF-00548,E-0151,Naomi Martinez,Event,2025-01-08,Lost,373037.82,6,Grace Carter
+FA-RF-00549,E-0163,Marcus Thomas,Center of Influence,2026-06-01,Lost,467750.43,15,Olivia Patel
+FA-RF-00550,E-0161,Grace Parker,Center of Influence,2025-01-05,Meeting Set,56402.41,9,Julian Green
+FA-RF-00551,E-0141,Victor Harris,Existing Client,2026-02-16,Contacted,71604.99,1,Victor Walker
+FA-RF-00552,E-0141,Carlos Jackson,Event,2025-08-26,Meeting Set,1120171.32,20,Victor Walker
+FA-RF-00553,E-0166,Jonathan Anderson,Existing Client,2026-06-10,Meeting Set,1315523.97,18,Wei King
+FA-RF-00554,E-0175,Ava Anderson,Retail Branch,2025-02-12,Lost,410052.2,11,Chloe Parker
+FA-RF-00555,E-0163,Nina Allen,Event,2024-12-20,Meeting Set,440327.7,7,Olivia Patel
+FA-RF-00556,E-0153,Felix Carter,Existing Client,2025-10-26,Converted,316821.0,14,Noah Baker
+FA-RF-00557,E-0142,Rosa Morris,Digital Lead,2026-03-20,Converted,113493.98,2,Wei Ruiz
+FA-RF-00558,E-0147,Maya Moore,Retail Branch,2024-11-01,Converted,371311.86,2,Yuki Vaughn
+FA-RF-00559,E-0141,Mei Okafor,Center of Influence,2026-04-20,Converted,51746.4,20,Victor Walker
+FA-RF-00560,E-0144,Carlos Silva,Event,2025-07-04,Meeting Set,30164.55,6,Luis Stewart
+FA-RF-00561,E-0168,Isabella Carter,Existing Client,2025-06-20,New,251609.96,,Kenji Bailey
+FA-RF-00562,E-0160,Carlos Lewis,Event,2025-12-15,Converted,75643.71,16,Diego Silva
+FA-RF-00563,E-0161,Kenji Green,Event,2026-08-11,Meeting Set,164258.32,10,Julian Green
+FA-RF-00564,E-0153,Derek Parker,Existing Client,2025-08-08,Contacted,74554.37,6,Noah Baker
+FA-RF-00565,E-0176,Chloe Davis,Center of Influence,2026-08-28,Lost,146059.15,17,Hannah Davis
+FA-RF-00566,E-0174,Layla Parker,Center of Influence,2024-09-30,Converted,762765.36,18,Kenji Scott
+FA-RF-00567,E-0162,Layla Wright,Digital Lead,2026-07-14,New,522272.44,,Owen Edwards
+FA-RF-00568,E-0154,Felix Okafor,Retail Branch,2025-09-22,Meeting Set,237197.89,8,Leo Evans
+FA-RF-00569,E-0150,Grace Thomas,Center of Influence,2025-08-18,Converted,159870.0,7,Henry Parker
+FA-RF-00570,E-0146,Hannah Evans,Digital Lead,2024-09-02,Converted,85189.68,13,Chloe Davis
+FA-RF-00571,E-0144,Victor Thomas,Retail Branch,2026-07-26,New,151231.91,,Luis Stewart
+FA-RF-00572,E-0158,Marcus Edwards,Digital Lead,2025-07-15,Meeting Set,52934.56,3,Lauren Lewis
+FA-RF-00573,E-0166,Owen Okafor,Event,2025-01-28,Meeting Set,531868.85,21,Wei King
+FA-RF-00574,E-0169,Emma Lewis,Center of Influence,2024-11-29,Converted,1118918.35,3,Priya Martinez
+FA-RF-00575,E-0177,Felix Clark,Digital Lead,2026-03-23,Lost,715330.08,5,Isabella Okafor
+FA-RF-00576,E-0142,Felix Walker,Event,2024-09-12,Converted,109720.66,0,Wei Ruiz
+FA-RF-00577,E-0178,Wei Phillips,Existing Client,2025-09-06,Converted,361277.38,15,Carlos Miller
+FA-RF-00578,E-0159,Andre Miller,Event,2025-10-14,New,3056172.13,,Owen White
+FA-RF-00579,E-0149,Andre Nelson,Existing Client,2025-05-16,Contacted,565392.95,15,Amara Okafor
+FA-RF-00580,E-0156,Leo Baker,Digital Lead,2025-03-19,Lost,341267.26,10,Ava Ashford
+FA-RF-00581,E-0170,Luis Phillips,Event,2024-10-18,Contacted,121245.41,1,Kenji Stewart
+FA-RF-00582,E-0162,Olivia Roberts,Digital Lead,2025-10-23,Converted,215493.27,0,Owen Edwards
+FA-RF-00583,E-0148,Felix Evans,Digital Lead,2025-01-18,Meeting Set,700780.73,8,Julian Silva
+FA-RF-00584,E-0162,Iris Hall,Retail Branch,2026-07-15,Converted,251539.79,11,Owen Edwards
+FA-RF-00585,E-0159,Aisha Miller,Existing Client,2026-05-13,Contacted,387749.25,14,Owen White
+FA-RF-00586,E-0150,Andre Nelson,Center of Influence,2026-01-30,Converted,654048.02,5,Henry Parker
+FA-RF-00587,E-0150,Andre King,Event,2026-05-19,Contacted,70617.98,19,Henry Parker
+FA-RF-00588,E-0162,Rosa Collins,Digital Lead,2025-03-22,Lost,482114.39,21,Owen Edwards
+FA-RF-00589,E-0156,Iris Davis,Retail Branch,2025-10-21,New,372974.92,,Ava Ashford
+FA-RF-00590,E-0169,Diego Adams,Event,2024-10-13,Contacted,1010124.25,7,Priya Martinez
+FA-RF-00591,E-0166,Yuki Hall,Event,2025-07-07,Converted,325373.3,20,Wei King
+FA-RF-00592,E-0168,Olivia Morris,Retail Branch,2025-04-14,Converted,146983.48,0,Kenji Bailey
+FA-RF-00593,E-0149,Derek Allen,Digital Lead,2025-10-09,Lost,2035012.17,15,Amara Okafor
+FA-RF-00594,E-0171,Elena Mitchell,Event,2025-04-25,Contacted,42689.0,4,Victor Evans
+FA-RF-00595,E-0153,Wei Anderson,Retail Branch,2025-02-24,Meeting Set,112970.26,4,Noah Baker
+FA-RF-00596,E-0161,Andre Davis,Digital Lead,2025-03-17,Converted,1187489.45,4,Julian Green
+FA-RF-00597,E-0168,Tom Scott,Existing Client,2026-08-23,New,731059.35,,Kenji Bailey
+FA-RF-00598,E-0180,Samuel King,Event,2025-05-30,Converted,52167.22,10,Sofia Johnson
+FA-RF-00599,E-0160,Aisha Mitchell,Center of Influence,2025-12-29,Meeting Set,339725.51,15,Diego Silva
+FA-RF-00600,E-0150,Mateo Kim,Existing Client,2026-02-18,Converted,173583.48,8,Henry Parker
+FA-RF-00601,E-0150,Felix Turner,Existing Client,2025-02-18,New,998542.51,,Henry Parker
+FA-RF-00602,E-0151,Hannah Walker,Retail Branch,2026-08-23,Lost,90636.67,2,Grace Carter
+FA-RF-00603,E-0148,Aisha Anderson,Retail Branch,2025-11-15,New,230415.03,,Julian Silva
+FA-RF-00604,E-0160,Ethan Davis,Center of Influence,2025-02-18,Contacted,810501.45,11,Diego Silva
+FA-RF-00605,E-0145,Noah Turner,Event,2025-02-10,Contacted,241498.15,0,Priya Young
+FA-RF-00606,E-0162,Derek Campbell,Digital Lead,2024-09-21,Lost,802896.6,21,Owen Edwards
+FA-RF-00607,E-0171,Rosa Collins,Center of Influence,2026-08-14,Contacted,221017.9,6,Victor Evans
+FA-RF-00608,E-0167,Victor Scott,Digital Lead,2024-11-23,Converted,279081.22,4,Jamal Wilson
+FA-RF-00609,E-0148,Sofia Bailey,Event,2025-04-05,Contacted,167197.96,20,Julian Silva
+FA-RF-00610,E-0163,Priya Moore,Event,2026-01-25,New,32202.74,,Olivia Patel
+FA-RF-00611,E-0151,Nora Lopez,Retail Branch,2026-04-23,Converted,453367.1,13,Grace Carter
+FA-RF-00612,E-0167,Emma Turner,Event,2024-11-25,Lost,42925.3,17,Jamal Wilson
+FA-RF-00613,E-0158,Amara Silva,Retail Branch,2026-07-09,Converted,974995.62,0,Lauren Lewis
+FA-RF-00614,E-0166,Rosa Young,Retail Branch,2026-02-12,New,451447.16,,Wei King
+FA-RF-00615,E-0147,Wei Phillips,Center of Influence,2025-11-05,Contacted,403634.05,9,Yuki Vaughn
+FA-RF-00616,E-0158,Jonathan Thomas,Center of Influence,2025-05-04,Contacted,950203.28,12,Lauren Lewis
+FA-RF-00617,E-0149,Iris Ruiz,Digital Lead,2026-06-10,Converted,168477.42,1,Amara Okafor
+FA-RF-00618,E-0167,Maya Vaughn,Digital Lead,2026-08-14,New,428255.31,,Jamal Wilson
+FA-RF-00619,E-0150,Tom Bailey,Center of Influence,2026-05-22,Lost,194811.69,16,Henry Parker
+FA-RF-00620,E-0154,Leo Taylor,Event,2024-12-26,Converted,2016889.49,2,Leo Evans
+FA-RF-00621,E-0146,Mateo Miller,Event,2026-01-17,Converted,374800.02,14,Chloe Davis
+FA-RF-00622,E-0177,Olivia Okafor,Center of Influence,2026-01-31,Meeting Set,1685956.3,16,Isabella Okafor
+FA-RF-00623,E-0167,Amara Garcia,Retail Branch,2026-03-10,Contacted,1862853.58,13,Jamal Wilson
+FA-RF-00624,E-0154,Priya Nelson,Retail Branch,2025-04-03,Meeting Set,68397.82,0,Leo Evans
+FA-RF-00625,E-0170,Wei King,Center of Influence,2024-10-19,Lost,237388.91,5,Kenji Stewart
+FA-RF-00626,E-0148,Emma Anderson,Event,2025-05-24,New,408358.72,,Julian Silva
+FA-RF-00627,E-0165,Samuel Wilson,Existing Client,2024-10-22,Contacted,174659.06,21,Jamal Vaughn
+FA-RF-00628,E-0176,Tom Clark,Retail Branch,2024-12-09,Contacted,133828.69,18,Hannah Davis
+FA-RF-00629,E-0162,Olivia Wright,Event,2025-08-23,Meeting Set,120829.78,3,Owen Edwards
+FA-RF-00630,E-0167,Luis Clark,Existing Client,2026-01-13,Meeting Set,166498.38,17,Jamal Wilson
+FA-RF-00631,E-0172,Leo Patel,Event,2024-09-02,New,6090438.16,,Priya Anderson
+FA-RF-00632,E-0150,Noah Walker,Digital Lead,2026-08-10,New,378393.71,,Henry Parker
+FA-RF-00633,E-0143,Noah Davis,Center of Influence,2025-07-09,Contacted,370263.74,4,Naomi Allen
+FA-RF-00634,E-0180,Olivia Adams,Center of Influence,2025-11-14,Meeting Set,842685.05,21,Sofia Johnson
+FA-RF-00635,E-0153,Samuel Bailey,Retail Branch,2024-09-03,Contacted,457589.54,1,Noah Baker
+FA-RF-00636,E-0178,Rosa Johnson,Retail Branch,2025-06-19,Converted,436656.18,14,Carlos Miller
+FA-RF-00637,E-0176,Andre Young,Center of Influence,2026-03-27,Contacted,133676.82,9,Hannah Davis
+FA-RF-00638,E-0168,Marcus Walker,Event,2025-12-27,Converted,235473.93,8,Kenji Bailey
+FA-RF-00639,E-0142,Marcus Okafor,Center of Influence,2026-07-03,Converted,468163.28,11,Wei Ruiz
+FA-RF-00640,E-0169,Noah Nguyen,Digital Lead,2026-06-12,Converted,90404.75,7,Priya Martinez
+FA-RF-00641,E-0160,Jamal Carter,Digital Lead,2024-12-14,New,296840.38,,Diego Silva
+FA-RF-00642,E-0172,Henry Patel,Center of Influence,2025-07-30,New,158994.84,,Priya Anderson
+FA-RF-00643,E-0155,Olivia Garcia,Event,2025-01-29,Contacted,510520.8,3,Sofia Parker
+FA-RF-00644,E-0150,Ines Harris,Existing Client,2026-08-11,Contacted,512826.49,11,Henry Parker
+FA-RF-00645,E-0163,Ravi Bailey,Center of Influence,2026-04-25,Converted,283161.56,21,Olivia Patel
+FA-RF-00646,E-0177,Nina Evans,Existing Client,2026-01-18,Contacted,541355.53,20,Isabella Okafor
+FA-RF-00647,E-0147,Wei Garcia,Center of Influence,2025-12-15,Converted,143898.23,2,Yuki Vaughn
+FA-RF-00648,E-0150,Elena Davis,Center of Influence,2025-12-02,Lost,258447.25,3,Henry Parker
+FA-RF-00649,E-0156,Derek Green,Digital Lead,2024-10-05,Contacted,176936.11,5,Ava Ashford
+FA-RF-00650,E-0169,Mateo Clark,Retail Branch,2024-09-12,Contacted,37563.94,17,Priya Martinez
+FA-RF-00651,E-0155,Jonathan Stewart,Event,2025-05-23,Lost,248120.18,18,Sofia Parker
+FA-RF-00652,E-0168,Ben Adams,Retail Branch,2025-12-02,Lost,125603.14,4,Kenji Bailey
+FA-RF-00653,E-0154,Ines Vaughn,Event,2025-12-07,Lost,187645.23,11,Leo Evans
+FA-RF-00654,E-0157,Nora Wright,Center of Influence,2025-06-16,Contacted,896491.45,7,Amara White
+FA-RF-00655,E-0162,Ravi Wright,Retail Branch,2025-08-29,Converted,1725077.03,3,Owen Edwards
+FA-RF-00656,E-0151,Mei Davis,Center of Influence,2025-04-05,Contacted,82330.41,16,Grace Carter
+FA-RF-00657,E-0141,Iris Collins,Existing Client,2026-02-12,Contacted,210026.47,7,Victor Walker
+FA-RF-00658,E-0168,Samuel Walker,Existing Client,2025-01-08,Contacted,139100.46,11,Kenji Bailey
+FA-RF-00659,E-0156,Emma Harris,Retail Branch,2026-03-22,Contacted,440892.64,20,Ava Ashford
+FA-RF-00660,E-0152,Daniel Wright,Existing Client,2026-07-01,Meeting Set,165002.42,16,Nina Brown
+FA-RF-00661,E-0145,Luis Bailey,Retail Branch,2026-02-06,Contacted,107078.29,15,Priya Young
+FA-RF-00662,E-0173,Nina Wright,Existing Client,2026-05-29,Meeting Set,114470.59,7,Noah Phillips
+FA-RF-00663,E-0160,Isabella Chen,Existing Client,2025-04-08,New,431165.9,,Diego Silva
+FA-RF-00664,E-0153,Emma Phillips,Center of Influence,2025-10-31,Contacted,233175.57,9,Noah Baker
+FA-RF-00665,E-0143,Nina Nelson,Existing Client,2026-03-21,Meeting Set,362273.27,16,Naomi Allen
+FA-RF-00666,E-0146,Ines Bailey,Digital Lead,2025-11-07,Contacted,1582170.96,1,Chloe Davis
+FA-RF-00667,E-0166,Ava Harris,Existing Client,2025-07-31,Meeting Set,107943.74,6,Wei King
+FA-RF-00668,E-0172,Aisha Nelson,Retail Branch,2024-09-07,New,1017018.37,,Priya Anderson
+FA-RF-00669,E-0177,Isabella Scott,Digital Lead,2025-12-25,Converted,147242.1,4,Isabella Okafor
+FA-RF-00670,E-0143,Nina Nguyen,Existing Client,2024-10-09,Contacted,488956.17,17,Naomi Allen
+FA-RF-00671,E-0161,Zara Miller,Center of Influence,2026-01-05,Converted,350486.61,16,Julian Green
+FA-RF-00672,E-0180,Marcus Wilson,Existing Client,2026-05-03,Meeting Set,455257.6,16,Sofia Johnson
+FA-RF-00673,E-0142,Nora Adams,Retail Branch,2024-11-19,New,124390.0,,Wei Ruiz
+FA-RF-00674,E-0150,Aisha Moore,Existing Client,2025-07-29,New,40819.25,,Henry Parker
+FA-RF-00675,E-0168,Naomi Campbell,Retail Branch,2025-04-07,Lost,296154.6,11,Kenji Bailey
+FA-RF-00676,E-0142,Yuki Kim,Center of Influence,2026-05-13,Converted,629461.76,0,Wei Ruiz
+FA-RF-00677,E-0151,Andre Patel,Existing Client,2024-10-21,Converted,344749.47,13,Grace Carter
+FA-RF-00678,E-0171,Lauren Scott,Retail Branch,2026-05-28,New,261839.53,,Victor Evans
+FA-RF-00679,E-0157,Zara Nelson,Center of Influence,2025-07-02,Meeting Set,379891.82,12,Amara White
+FA-RF-00680,E-0146,Ravi Stewart,Retail Branch,2026-07-12,Contacted,660938.06,10,Chloe Davis
+FA-RF-00681,E-0164,Victor Mitchell,Center of Influence,2024-12-07,Contacted,136345.59,2,Olivia Stewart
+FA-RF-00682,E-0148,Owen Wilson,Retail Branch,2025-11-22,Lost,266417.57,20,Julian Silva
+FA-RF-00683,E-0168,Ravi White,Digital Lead,2025-10-30,Lost,261901.12,1,Kenji Bailey
+FA-RF-00684,E-0153,Henry Ashford,Existing Client,2025-01-15,Contacted,3540724.5,15,Noah Baker
+FA-RF-00685,E-0166,Julian Mitchell,Center of Influence,2026-06-17,New,586888.51,,Wei King
+FA-RF-00686,E-0143,Wei Bailey,Digital Lead,2026-06-06,Meeting Set,197902.58,0,Naomi Allen
+FA-RF-00687,E-0158,Sara Lopez,Event,2025-06-01,Lost,84244.49,20,Lauren Lewis
+FA-RF-00688,E-0177,Nora White,Digital Lead,2025-04-09,New,212106.31,,Isabella Okafor
+FA-RF-00689,E-0144,Rosa Young,Center of Influence,2026-03-15,Converted,363967.09,20,Luis Stewart
+FA-RF-00690,E-0166,Lauren Okafor,Digital Lead,2024-12-27,New,1984037.69,,Wei King
+FA-RF-00691,E-0149,Ava Chen,Event,2026-05-27,Contacted,1160809.64,11,Amara Okafor
+FA-RF-00692,E-0145,Maya Parker,Event,2025-08-28,Meeting Set,68364.8,15,Priya Young
+FA-RF-00693,E-0146,Nora Anderson,Event,2025-11-12,Lost,217385.5,3,Chloe Davis
+FA-RF-00694,E-0155,Ben Edwards,Retail Branch,2024-09-26,New,228366.89,,Sofia Parker
+FA-RF-00695,E-0161,Maya Turner,Event,2025-04-10,Contacted,1615215.86,13,Julian Green
+FA-RF-00696,E-0143,Yuki Vaughn,Retail Branch,2024-09-23,Converted,653151.23,11,Naomi Allen
+FA-RF-00697,E-0143,Luis Johnson,Digital Lead,2025-07-24,New,144249.56,,Naomi Allen
+FA-RF-00698,E-0177,Andre Miller,Digital Lead,2024-10-31,Converted,341727.38,19,Isabella Okafor
+FA-RF-00699,E-0170,Wei Wilson,Existing Client,2025-06-17,New,436347.11,,Kenji Stewart
+FA-RF-00700,E-0176,Priya Patel,Center of Influence,2025-12-01,New,82288.29,,Hannah Davis
+FA-RF-00701,E-0152,Isabella Green,Center of Influence,2025-07-20,Converted,295145.21,14,Nina Brown
+FA-RF-00702,E-0169,Henry Collins,Retail Branch,2025-02-25,Converted,249883.22,4,Priya Martinez
+FA-RF-00703,E-0157,Diego Evans,Retail Branch,2025-04-07,Meeting Set,286577.13,4,Amara White
+FA-RF-00704,E-0147,Hannah Morris,Retail Branch,2025-09-25,Contacted,56907.49,12,Yuki Vaughn
+FA-RF-00705,E-0148,Jamal Carter,Center of Influence,2025-02-06,Converted,1512783.1,1,Julian Silva
+FA-RF-00706,E-0178,Rosa Roberts,Retail Branch,2025-03-12,Contacted,147585.14,3,Carlos Miller
+FA-RF-00707,E-0153,Kenji Nelson,Center of Influence,2026-04-14,New,381451.04,,Noah Baker
+FA-RF-00708,E-0162,Derek Morris,Center of Influence,2025-02-21,Converted,170746.0,19,Owen Edwards
+FA-RF-00709,E-0146,Ava Evans,Digital Lead,2024-09-14,Contacted,62000.57,19,Chloe Davis
+FA-RF-00710,E-0157,Lauren Brown,Digital Lead,2025-01-11,Contacted,593076.06,20,Amara White
+FA-RF-00711,E-0178,Nora Lopez,Existing Client,2024-09-19,Meeting Set,624830.89,14,Carlos Miller
+FA-RF-00712,E-0158,Lauren Parker,Center of Influence,2026-08-03,Lost,157363.16,0,Lauren Lewis
+FA-RF-00713,E-0153,Elena Young,Retail Branch,2025-01-20,Contacted,76651.02,20,Noah Baker
+FA-RF-00714,E-0166,Victor Wright,Event,2025-03-10,Lost,589069.79,1,Wei King
+FA-RF-00715,E-0151,Hannah Martinez,Center of Influence,2025-10-11,Meeting Set,34634.79,7,Grace Carter
+FA-RF-00716,E-0161,Priya Patel,Event,2026-05-31,Contacted,227097.02,20,Julian Green
+FA-RF-00717,E-0145,Aisha Baker,Center of Influence,2026-03-24,New,286372.52,,Priya Young
+FA-RF-00718,E-0141,Owen Vaughn,Retail Branch,2025-05-07,Contacted,355708.46,3,Victor Walker
+FA-RF-00719,E-0172,Daniel Evans,Existing Client,2025-01-12,New,417298.72,,Priya Anderson
+FA-RF-00720,E-0166,Tom Hall,Center of Influence,2025-02-05,Meeting Set,1012165.5,12,Wei King
+FA-RF-00721,E-0150,Priya Bailey,Existing Client,2025-10-22,Converted,566918.18,15,Henry Parker
+FA-RF-00722,E-0178,Daniel Green,Retail Branch,2025-07-14,Lost,60987.78,13,Carlos Miller
+FA-RF-00723,E-0155,Rosa Campbell,Digital Lead,2025-10-13,Contacted,158354.66,17,Sofia Parker
+FA-RF-00724,E-0158,Grace Chen,Retail Branch,2024-09-21,New,280213.18,,Lauren Lewis
+FA-RF-00725,E-0150,Felix Nelson,Existing Client,2024-09-21,Lost,168629.19,2,Henry Parker
+FA-RF-00726,E-0141,Mei Garcia,Digital Lead,2025-01-25,Contacted,380956.66,18,Victor Walker
+FA-RF-00727,E-0142,Henry Thomas,Digital Lead,2025-01-09,Meeting Set,60602.44,0,Wei Ruiz
+FA-RF-00728,E-0157,Samuel Johnson,Existing Client,2025-04-22,Lost,371577.38,13,Amara White
+FA-RF-00729,E-0172,Chloe Patel,Digital Lead,2026-05-19,New,65084.46,,Priya Anderson
+FA-RF-00730,E-0149,Samuel Wilson,Retail Branch,2026-02-06,Lost,161846.89,12,Amara Okafor
+FA-RF-00731,E-0174,Luis Kim,Retail Branch,2025-05-08,Meeting Set,1175340.51,16,Kenji Scott
+FA-RF-00732,E-0152,Iris Okafor,Retail Branch,2026-03-16,Lost,403937.7,8,Nina Brown
+FA-RF-00733,E-0171,Ava Brown,Retail Branch,2024-12-04,Converted,1096296.39,16,Victor Evans
+FA-RF-00734,E-0177,Fatima Chen,Center of Influence,2025-11-22,New,352718.75,,Isabella Okafor
+FA-RF-00735,E-0146,Hannah Bailey,Center of Influence,2025-11-01,Meeting Set,556646.04,20,Chloe Davis
+FA-RF-00736,E-0146,Julian White,Existing Client,2025-09-30,Converted,311877.51,10,Chloe Davis
+FA-RF-00737,E-0169,Nina Morris,Center of Influence,2026-03-19,Converted,293655.11,17,Priya Martinez
+FA-RF-00738,E-0176,Andre Carter,Retail Branch,2024-10-16,Converted,624993.64,1,Hannah Davis
+FA-RF-00739,E-0169,Daniel Green,Digital Lead,2025-11-02,New,235890.11,,Priya Martinez
+FA-RF-00740,E-0174,Luis Garcia,Retail Branch,2025-11-13,Contacted,176107.08,7,Kenji Scott
+FA-RF-00741,E-0178,Henry Harris,Existing Client,2026-06-21,Contacted,133507.97,20,Carlos Miller
+FA-RF-00742,E-0158,Chloe Lewis,Existing Client,2025-01-01,Meeting Set,325352.61,15,Lauren Lewis
+FA-RF-00743,E-0153,Maya Campbell,Retail Branch,2024-09-11,New,654066.62,,Noah Baker
+FA-RF-00744,E-0177,Luis Garcia,Center of Influence,2025-04-23,Converted,61722.98,9,Isabella Okafor
+FA-RF-00745,E-0155,Diego Jackson,Digital Lead,2026-08-25,Contacted,107360.63,7,Sofia Parker
+FA-RF-00746,E-0153,Iris Johnson,Event,2024-11-22,New,264464.26,,Noah Baker
+FA-RF-00747,E-0172,Felix Parker,Existing Client,2025-09-18,New,270915.79,,Priya Anderson
+FA-RF-00748,E-0143,Samuel Silva,Retail Branch,2026-01-10,Contacted,411278.68,5,Naomi Allen
+FA-RF-00749,E-0173,Ines Anderson,Retail Branch,2025-01-30,Converted,346588.59,1,Noah Phillips
+FA-RF-00750,E-0145,Zara Green,Digital Lead,2026-03-07,Lost,234259.31,13,Priya Young
+FA-RF-00751,E-0178,Ava Taylor,Existing Client,2025-12-27,Converted,614959.55,20,Carlos Miller
+FA-RF-00752,E-0153,Ben Clark,Event,2024-09-14,Contacted,56755.18,15,Noah Baker
+FA-RF-00753,E-0144,Amara Baker,Existing Client,2025-08-10,Meeting Set,570111.93,8,Luis Stewart
+FA-RF-00754,E-0175,Sara Chen,Digital Lead,2024-11-11,Converted,35724.43,8,Chloe Parker
+FA-RF-00755,E-0155,Mei Lopez,Center of Influence,2026-07-02,Lost,124047.43,7,Sofia Parker
+FA-RF-00756,E-0145,Olivia King,Existing Client,2025-09-19,Converted,568242.27,7,Priya Young
+FA-RF-00757,E-0176,Sofia Kim,Existing Client,2026-02-02,Converted,282351.29,10,Hannah Davis
+FA-RF-00758,E-0155,Isabella Turner,Existing Client,2025-03-28,Contacted,1218326.23,5,Sofia Parker
+FA-RF-00759,E-0171,Sofia Evans,Existing Client,2025-10-07,Contacted,112487.86,17,Victor Evans
+FA-RF-00760,E-0151,Julian Johnson,Retail Branch,2025-05-23,Contacted,527935.15,21,Grace Carter
+FA-RF-00761,E-0163,Ravi Garcia,Center of Influence,2025-10-23,Converted,1228165.71,10,Olivia Patel
+FA-RF-00762,E-0174,Noah Morris,Center of Influence,2024-12-31,New,986849.04,,Kenji Scott
+FA-RF-00763,E-0146,Ethan Campbell,Digital Lead,2026-03-22,Contacted,855533.18,21,Chloe Davis
+FA-RF-00764,E-0151,Ava Nelson,Digital Lead,2025-07-08,Lost,419442.17,10,Grace Carter
+FA-RF-00765,E-0169,Zara Adams,Event,2024-11-28,Contacted,171212.61,3,Priya Martinez
+FA-RF-00766,E-0143,Ava Green,Retail Branch,2026-03-26,Converted,353853.61,4,Naomi Allen
+FA-RF-00767,E-0159,Victor Lewis,Event,2025-07-10,Lost,594873.8,1,Owen White
+FA-RF-00768,E-0167,Wei Taylor,Event,2024-11-11,Meeting Set,4004940.86,10,Jamal Wilson
+FA-RF-00769,E-0163,Naomi Phillips,Digital Lead,2024-11-14,Lost,447895.06,1,Olivia Patel
+FA-RF-00770,E-0162,Luis Bailey,Center of Influence,2025-08-17,Lost,510024.74,13,Owen Edwards
+FA-RF-00771,E-0161,Luis Ruiz,Existing Client,2025-02-04,Converted,789454.22,5,Julian Green
+FA-RF-00772,E-0144,Luis Miller,Digital Lead,2025-09-16,Lost,27330.49,1,Luis Stewart
+FA-RF-00773,E-0147,Noah Campbell,Center of Influence,2025-07-02,Lost,152292.82,1,Yuki Vaughn
+FA-RF-00774,E-0167,Grace Parker,Retail Branch,2026-05-08,Lost,2804583.11,13,Jamal Wilson
+FA-RF-00775,E-0143,Ava Patel,Digital Lead,2026-08-04,Contacted,1035274.44,21,Naomi Allen
+FA-RF-00776,E-0173,Olivia Harris,Center of Influence,2026-07-22,Contacted,810941.87,4,Noah Phillips
+FA-RF-00777,E-0171,Ava Patel,Event,2026-06-14,Lost,523734.4,2,Victor Evans
+FA-RF-00778,E-0176,Kenji Davis,Center of Influence,2026-01-03,Contacted,59256.79,15,Hannah Davis
+FA-RF-00779,E-0176,Ravi Edwards,Existing Client,2024-12-30,Contacted,198151.56,12,Hannah Davis
+FA-RF-00780,E-0141,Samuel Nelson,Retail Branch,2025-12-12,Converted,124533.53,2,Victor Walker
+FA-RF-00781,E-0149,Priya Young,Existing Client,2025-09-22,New,768122.06,,Amara Okafor
+FA-RF-00782,E-0158,Nora Baker,Digital Lead,2024-10-14,Contacted,523550.74,15,Lauren Lewis
+FA-RF-00783,E-0155,Ava Thomas,Existing Client,2025-01-04,New,444300.69,,Sofia Parker
+FA-RF-00784,E-0151,Nora Scott,Retail Branch,2025-04-10,Contacted,117712.17,12,Grace Carter
+FA-RF-00785,E-0173,Julian Baker,Center of Influence,2025-01-29,Converted,88536.66,12,Noah Phillips
+FA-RF-00786,E-0173,Isabella Harris,Digital Lead,2025-12-24,Meeting Set,1011807.88,5,Noah Phillips
+FA-RF-00787,E-0143,Iris Harris,Center of Influence,2025-01-02,Meeting Set,2425718.08,9,Naomi Allen
+FA-RF-00788,E-0152,Aisha Morris,Retail Branch,2026-02-24,New,608764.98,,Nina Brown
+FA-RF-00789,E-0163,Diego Kim,Existing Client,2025-03-08,Meeting Set,1001780.26,13,Olivia Patel
+FA-RF-00790,E-0148,Jamal Taylor,Existing Client,2025-07-23,Lost,143579.03,17,Julian Silva
+FA-RF-00791,E-0156,Kenji Parker,Event,2026-03-31,Converted,34183.47,3,Ava Ashford
+FA-RF-00792,E-0172,Grace Morris,Center of Influence,2025-03-17,Converted,336900.12,1,Priya Anderson
+FA-RF-00793,E-0143,Lauren Young,Existing Client,2025-01-04,Contacted,1459547.11,18,Naomi Allen
+FA-RF-00794,E-0179,Priya Wright,Existing Client,2025-07-27,Contacted,207691.15,15,Sara Nelson
+FA-RF-00795,E-0161,Luis Clark,Digital Lead,2025-02-27,New,286897.73,,Julian Green
+FA-RF-00796,E-0144,Ravi Garcia,Event,2025-06-05,Converted,126773.8,8,Luis Stewart
+FA-RF-00797,E-0164,Jamal Evans,Retail Branch,2024-10-09,Lost,90142.9,19,Olivia Stewart
+FA-RF-00798,E-0155,Sofia Kim,Event,2024-10-15,Meeting Set,739392.17,8,Sofia Parker
+FA-RF-00799,E-0172,Lauren Baker,Retail Branch,2024-09-14,New,1049379.68,,Priya Anderson
+FA-RF-00800,E-0161,Carlos Hall,Retail Branch,2025-03-30,Contacted,439971.64,6,Julian Green
+FA-RF-00801,E-0141,Felix Edwards,Event,2025-03-21,New,426753.62,,Victor Walker
+FA-RF-00802,E-0172,Grace Phillips,Event,2024-09-12,Contacted,905556.54,11,Priya Anderson
+FA-RF-00803,E-0142,Mateo Bailey,Existing Client,2025-02-08,Lost,89828.92,6,Wei Ruiz
+FA-RF-00804,E-0150,Daniel Collins,Center of Influence,2024-12-11,Lost,432060.42,6,Henry Parker
+FA-RF-00805,E-0173,Samuel White,Center of Influence,2025-09-02,Contacted,96730.71,21,Noah Phillips
+FA-RF-00806,E-0142,Hannah King,Existing Client,2026-01-10,Converted,1990817.41,1,Wei Ruiz
+FA-RF-00807,E-0160,Marcus Ashford,Digital Lead,2025-08-31,Meeting Set,806988.31,19,Diego Silva
+FA-RF-00808,E-0166,Ben Patel,Event,2026-03-24,Converted,43763.33,20,Wei King
+FA-RF-00809,E-0169,Sofia Vaughn,Event,2025-07-28,Meeting Set,300747.62,8,Priya Martinez
+FA-RF-00810,E-0170,Leo Ruiz,Center of Influence,2026-03-13,New,75872.51,,Kenji Stewart
+FA-RF-00811,E-0152,Victor Edwards,Digital Lead,2026-04-23,New,350376.61,,Nina Brown
+FA-RF-00812,E-0179,Kenji Mitchell,Existing Client,2025-01-15,New,151625.83,,Sara Nelson
+FA-RF-00813,E-0163,Hannah Nelson,Existing Client,2025-08-22,New,142172.69,,Olivia Patel
+FA-RF-00814,E-0143,Mei Wright,Digital Lead,2025-10-17,Converted,539566.23,14,Naomi Allen
+FA-RF-00815,E-0153,Carlos Johnson,Existing Client,2024-09-04,Contacted,437547.3,13,Noah Baker
+FA-RF-00816,E-0174,Chloe King,Retail Branch,2025-01-20,Lost,534238.48,13,Kenji Scott
+FA-RF-00817,E-0141,Chloe White,Existing Client,2026-02-04,Meeting Set,72311.26,4,Victor Walker
+FA-RF-00818,E-0161,Wei Thomas,Center of Influence,2025-02-12,Converted,216683.63,6,Julian Green
+FA-RF-00819,E-0169,Amara White,Existing Client,2025-05-22,Converted,72938.55,9,Priya Martinez
+FA-RF-00820,E-0159,Julian Turner,Center of Influence,2026-06-20,Meeting Set,862879.72,13,Owen White
+FA-RF-00821,E-0165,Layla Okafor,Event,2026-01-11,Meeting Set,281549.27,7,Jamal Vaughn
+FA-RF-00822,E-0149,Jonathan Baker,Event,2025-11-08,Contacted,263261.78,11,Amara Okafor
+FA-RF-00823,E-0177,Kenji Taylor,Digital Lead,2026-06-17,Converted,534027.53,21,Isabella Okafor
+FA-RF-00824,E-0171,Carlos White,Retail Branch,2024-12-05,Converted,231666.9,20,Victor Evans
+FA-RF-00825,E-0177,Jonathan Thomas,Retail Branch,2024-09-18,New,104522.74,,Isabella Okafor
+FA-RF-00826,E-0146,Lauren Bailey,Existing Client,2026-01-18,Converted,158817.33,14,Chloe Davis
+FA-RF-00827,E-0142,Derek Davis,Event,2025-01-22,New,158282.9,,Wei Ruiz
+FA-RF-00828,E-0169,Priya Parker,Event,2026-04-21,Lost,75288.57,14,Priya Martinez
+FA-RF-00829,E-0177,Leo Brown,Center of Influence,2025-06-03,Contacted,36755.29,7,Isabella Okafor
+FA-RF-00830,E-0149,Noah Adams,Existing Client,2026-05-16,Converted,119400.74,5,Amara Okafor
+FA-RF-00831,E-0157,Noah Adams,Event,2026-05-07,Converted,844584.61,19,Amara White
+FA-RF-00832,E-0163,Sofia Mitchell,Existing Client,2026-05-20,Lost,137464.64,9,Olivia Patel
+FA-RF-00833,E-0153,Nina Davis,Center of Influence,2025-04-29,Lost,554475.83,20,Noah Baker
+FA-RF-00834,E-0177,Elena Lewis,Center of Influence,2026-07-01,Lost,2308377.32,1,Isabella Okafor
+FA-RF-00835,E-0146,Sofia Moore,Existing Client,2026-06-03,Meeting Set,166131.06,19,Chloe Davis
+FA-RF-00836,E-0177,Emma Campbell,Digital Lead,2026-05-06,Converted,596663.54,14,Isabella Okafor
+FA-RF-00837,E-0153,Nina Johnson,Event,2025-01-30,Meeting Set,105775.99,1,Noah Baker
+FA-RF-00838,E-0149,Jonathan Carter,Event,2026-03-23,Contacted,381339.69,19,Amara Okafor
+FA-RF-00839,E-0142,Kenji Silva,Event,2026-06-22,Converted,256926.01,19,Wei Ruiz
+FA-RF-00840,E-0161,Layla Jackson,Center of Influence,2026-04-07,Contacted,323712.89,15,Julian Green
+FA-RF-00841,E-0174,Samuel Lopez,Event,2026-05-05,Converted,109252.17,11,Kenji Scott
+FA-RF-00842,E-0159,Ethan Kim,Center of Influence,2025-10-11,Meeting Set,431182.88,19,Owen White
+FA-RF-00843,E-0141,Zara Moore,Center of Influence,2025-10-14,Converted,157014.5,13,Victor Walker
+FA-RF-00844,E-0157,Mateo Okafor,Digital Lead,2025-01-22,New,788111.53,,Amara White
+FA-RF-00845,E-0160,Carlos Harris,Event,2026-03-02,Converted,175616.85,20,Diego Silva
+FA-RF-00846,E-0175,Victor Scott,Center of Influence,2025-08-20,Lost,1995898.78,3,Chloe Parker
+FA-RF-00847,E-0145,Priya Moore,Center of Influence,2025-06-13,Contacted,239712.04,3,Priya Young
+FA-RF-00848,E-0157,Owen Jackson,Center of Influence,2026-06-04,Converted,111411.77,10,Amara White
+FA-RF-00849,E-0150,Rosa White,Digital Lead,2024-10-29,Meeting Set,41967.57,19,Henry Parker
+FA-RF-00850,E-0171,Zara Wilson,Digital Lead,2024-10-05,Contacted,1125446.39,11,Victor Evans
+FA-RF-00851,E-0163,Owen Lopez,Existing Client,2026-08-31,Contacted,112728.51,15,Olivia Patel
+FA-RF-00852,E-0161,Luis Nguyen,Center of Influence,2025-08-25,Contacted,406065.49,20,Julian Green
+FA-RF-00853,E-0154,Samuel Clark,Event,2026-08-12,Converted,80762.8,11,Leo Evans
+FA-RF-00854,E-0164,Felix Thomas,Center of Influence,2025-07-23,Contacted,101224.38,19,Olivia Stewart
+FA-RF-00855,E-0145,Julian Davis,Existing Client,2026-06-16,Lost,596970.05,14,Priya Young
+FA-RF-00856,E-0163,Tom Parker,Event,2026-08-31,Contacted,463881.81,20,Olivia Patel
+FA-RF-00857,E-0154,Marcus Bailey,Existing Client,2026-05-01,Lost,440808.64,7,Leo Evans
+FA-RF-00858,E-0155,Leo Chen,Digital Lead,2025-08-27,Converted,1618625.63,9,Sofia Parker
+FA-RF-00859,E-0149,Tom Wright,Event,2026-08-13,Contacted,2454394.42,20,Amara Okafor
+FA-RF-00860,E-0178,Daniel Johnson,Event,2025-12-06,Meeting Set,2978625.86,7,Carlos Miller
+FA-RF-00861,E-0171,Naomi Scott,Existing Client,2026-07-02,Meeting Set,257093.66,2,Victor Evans
+FA-RF-00862,E-0157,Ines Turner,Existing Client,2026-08-09,Lost,217086.0,3,Amara White
+FA-RF-00863,E-0173,Mateo Allen,Retail Branch,2025-01-14,Converted,339481.9,9,Noah Phillips
+FA-RF-00864,E-0151,Diego Green,Digital Lead,2026-02-26,Converted,156249.42,19,Grace Carter
+FA-RF-00865,E-0156,Rosa Johnson,Retail Branch,2024-10-15,Contacted,354761.91,17,Ava Ashford
+FA-RF-00866,E-0145,Priya Anderson,Digital Lead,2024-10-08,Contacted,928102.03,15,Priya Young
+FA-RF-00867,E-0154,Mateo Turner,Retail Branch,2025-09-20,New,256865.81,,Leo Evans
+FA-RF-00868,E-0152,Isabella Anderson,Digital Lead,2025-01-30,Meeting Set,235142.6,17,Nina Brown
+FA-RF-00869,E-0180,Priya Morris,Center of Influence,2025-07-08,Contacted,335772.72,2,Sofia Johnson
+FA-RF-00870,E-0160,Andre Vaughn,Digital Lead,2024-12-03,Converted,1400238.19,3,Diego Silva
+FA-RF-00871,E-0177,Elena Okafor,Existing Client,2025-10-01,Lost,488347.94,14,Isabella Okafor
+FA-RF-00872,E-0175,Owen Moore,Center of Influence,2025-02-16,Converted,346393.38,5,Chloe Parker
+FA-RF-00873,E-0155,Marcus Morris,Retail Branch,2026-01-03,Meeting Set,258000.23,18,Sofia Parker
+FA-RF-00874,E-0159,Henry Turner,Digital Lead,2025-10-28,New,79889.88,,Owen White
+FA-RF-00875,E-0179,Mateo Clark,Existing Client,2025-01-31,Contacted,382699.55,1,Sara Nelson
+FA-RF-00876,E-0167,Luis Parker,Event,2024-09-11,Meeting Set,271892.36,20,Jamal Wilson
+FA-RF-00877,E-0166,Priya Clark,Digital Lead,2024-12-12,Meeting Set,65693.41,5,Wei King
+FA-RF-00878,E-0168,Priya Ashford,Event,2026-03-16,Converted,103558.54,1,Kenji Bailey
+FA-RF-00879,E-0168,Naomi Davis,Retail Branch,2026-06-18,Converted,181681.44,20,Kenji Bailey
+FA-RF-00880,E-0170,Chloe Patel,Retail Branch,2026-03-30,Lost,459620.52,13,Kenji Stewart
+FA-RF-00881,E-0169,Derek White,Center of Influence,2025-06-14,Lost,85444.29,11,Priya Martinez
+FA-RF-00882,E-0175,Jamal Wright,Digital Lead,2026-08-04,Contacted,353507.58,2,Chloe Parker
+FA-RF-00883,E-0164,Andre Baker,Center of Influence,2025-01-15,Lost,269522.92,14,Olivia Stewart
+FA-RF-00884,E-0175,Lauren Brown,Existing Client,2025-02-10,Meeting Set,42291.65,4,Chloe Parker
+FA-RF-00885,E-0144,Lauren Bailey,Digital Lead,2025-04-04,Contacted,131195.72,17,Luis Stewart
+FA-RF-00886,E-0148,Iris Stewart,Retail Branch,2026-03-10,Contacted,938827.02,15,Julian Silva
+FA-RF-00887,E-0164,Grace Wilson,Center of Influence,2025-03-05,Meeting Set,61366.16,3,Olivia Stewart
+FA-RF-00888,E-0156,Yuki Phillips,Retail Branch,2026-05-28,Contacted,329067.85,6,Ava Ashford
+FA-RF-00889,E-0149,Elena Davis,Retail Branch,2026-04-24,Meeting Set,234565.21,13,Amara Okafor
+FA-RF-00890,E-0144,Hannah Campbell,Center of Influence,2025-11-22,Contacted,72175.32,15,Luis Stewart
+FA-RF-00891,E-0172,Layla King,Retail Branch,2025-10-18,Converted,1569284.53,15,Priya Anderson
+FA-RF-00892,E-0180,Nora Nelson,Existing Client,2024-12-21,Meeting Set,1479943.26,18,Sofia Johnson
+FA-RF-00893,E-0143,Ethan Davis,Retail Branch,2026-01-04,Meeting Set,155076.55,11,Naomi Allen
+FA-RF-00894,E-0178,Layla Miller,Event,2026-06-13,Meeting Set,472486.89,6,Carlos Miller
+FA-RF-00895,E-0180,Samuel Ruiz,Digital Lead,2025-06-15,New,190585.68,,Sofia Johnson
+FA-RF-00896,E-0160,Andre Brown,Center of Influence,2024-12-24,Lost,159589.05,8,Diego Silva
+FA-RF-00897,E-0177,Maya Lewis,Existing Client,2026-03-23,Converted,844371.43,7,Isabella Okafor
+FA-RF-00898,E-0156,Olivia Walker,Event,2026-07-26,Converted,170789.05,13,Ava Ashford
+FA-RF-00899,E-0153,Kenji Campbell,Existing Client,2025-08-10,Contacted,1795586.35,1,Noah Baker
+FA-RF-00900,E-0147,Ravi Collins,Event,2025-02-15,Contacted,238509.23,7,Yuki Vaughn

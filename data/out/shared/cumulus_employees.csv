@@ -1,0 +1,311 @@
+EmployeeId,EmployeeName,Role,BranchId,HireDate,Team
+E-0001,Emma Nguyen,Banker,BR-012,2024-07-03,Team Charlie
+E-0002,Layla Lopez,Banker,BR-026,2015-06-27,Team Delta
+E-0003,Ines Okafor,Banker,BR-030,2019-03-31,Team Alpha
+E-0004,Kenji Anderson,Banker,BR-027,2022-01-18,Team Charlie
+E-0005,Ava Johnson,Banker,BR-023,2015-10-12,Team Alpha
+E-0006,Amara Davis,Banker,BR-025,2018-03-31,Team Alpha
+E-0007,Ethan Nguyen,Banker,BR-013,2018-02-12,Team Delta
+E-0008,Rosa White,Banker,BR-006,2019-02-25,Team Charlie
+E-0009,Naomi Phillips,Banker,BR-009,2022-11-14,Team Alpha
+E-0010,Layla Roberts,Banker,BR-006,2020-12-27,Team Bravo
+E-0011,Grace Allen,Banker,BR-013,2018-01-10,Team Bravo
+E-0012,Felix Taylor,Banker,BR-027,2023-08-14,Team Alpha
+E-0013,Ethan Ashford,Banker,BR-026,2018-07-16,Team Delta
+E-0014,Luis Chen,Banker,BR-007,2025-03-29,Team Charlie
+E-0015,Naomi Turner,Banker,BR-016,2019-06-09,Team Delta
+E-0016,Tom Lopez,Banker,BR-005,2017-10-07,Team Charlie
+E-0017,Ben Nelson,Banker,BR-014,2025-01-25,Team Delta
+E-0018,Ravi Davis,Banker,BR-005,2020-09-18,Team Delta
+E-0019,Priya Stewart,Banker,BR-002,2024-08-28,Team Alpha
+E-0020,Tom Roberts,Banker,BR-006,2023-11-19,Team Delta
+E-0021,Layla Chen,Banker,BR-013,2019-04-13,Team Delta
+E-0022,Samuel Lopez,Banker,BR-018,2024-08-26,Team Alpha
+E-0023,Felix Edwards,Banker,BR-004,2022-08-24,Team Charlie
+E-0024,Nina Turner,Banker,BR-011,2016-04-01,Team Charlie
+E-0025,Owen Brown,Banker,BR-015,2015-01-14,Team Charlie
+E-0026,Nora Stewart,Banker,BR-006,2020-09-10,Team Alpha
+E-0027,Rosa Thomas,Banker,BR-027,2022-03-02,Team Bravo
+E-0028,Tom White,Banker,BR-025,2016-10-23,Team Alpha
+E-0029,Layla Taylor,Banker,BR-016,2015-03-21,Team Alpha
+E-0030,Ravi Thomas,Banker,BR-008,2015-08-26,Team Bravo
+E-0031,Ava Patel,Banker,BR-003,2023-03-17,Team Delta
+E-0032,Marcus Stewart,Banker,BR-018,2023-08-03,Team Bravo
+E-0033,Aisha Phillips,Banker,BR-016,2025-08-14,Team Bravo
+E-0034,Hannah Scott,Banker,BR-028,2021-10-20,Team Delta
+E-0035,Naomi Green,Banker,BR-025,2023-03-09,Team Bravo
+E-0036,Diego Thomas,Banker,BR-013,2026-02-28,Team Charlie
+E-0037,Fatima Scott,Banker,BR-015,2016-05-10,Team Bravo
+E-0038,Ethan Chen,Banker,BR-011,2015-03-28,Team Bravo
+E-0039,Mateo Davis,Banker,BR-001,2015-10-18,Team Alpha
+E-0040,Ethan Chen,Banker,BR-029,2015-05-09,Team Charlie
+E-0041,Marcus Wright,Banker,BR-008,2018-02-14,Team Delta
+E-0042,Naomi Green,Banker,BR-005,2023-02-10,Team Delta
+E-0043,Olivia Young,Banker,BR-026,2019-07-26,Team Bravo
+E-0044,Sofia Nguyen,Banker,BR-022,2019-11-01,Team Charlie
+E-0045,Owen Lewis,Banker,BR-015,2024-09-08,Team Alpha
+E-0046,Felix Turner,Banker,BR-021,2016-02-08,Team Alpha
+E-0047,Leo Edwards,Banker,BR-011,2023-12-24,Team Alpha
+E-0048,Olivia Johnson,Banker,BR-007,2021-01-05,Team Delta
+E-0049,Aisha Walker,Banker,BR-006,2018-02-14,Team Delta
+E-0050,Olivia Chen,Banker,BR-015,2024-01-23,Team Alpha
+E-0051,Elena Turner,Banker,BR-018,2024-05-17,Team Alpha
+E-0052,Priya Stewart,Banker,BR-028,2017-08-26,Team Bravo
+E-0053,Zara King,Banker,BR-016,2017-05-25,Team Delta
+E-0054,Elena Brown,Banker,BR-013,2015-01-09,Team Delta
+E-0055,Hannah Allen,Banker,BR-010,2019-09-29,Team Delta
+E-0056,Tom Johnson,Banker,BR-010,2017-06-10,Team Alpha
+E-0057,Mateo Collins,Banker,BR-018,2015-09-07,Team Charlie
+E-0058,Elena Ruiz,Banker,BR-019,2020-05-06,Team Bravo
+E-0059,Elena Wright,Banker,BR-003,2024-07-19,Team Bravo
+E-0060,Marcus Carter,Banker,BR-003,2022-07-28,Team Bravo
+E-0061,Leo Okafor,Service Agent,BR-029,2021-05-22,Team Bravo
+E-0062,Mateo Carter,Service Agent,BR-002,2021-12-11,Team Alpha
+E-0063,Zara Phillips,Service Agent,BR-019,2021-05-04,Team Charlie
+E-0064,Hannah Miller,Service Agent,BR-022,2023-01-12,Team Charlie
+E-0065,Olivia Lopez,Service Agent,BR-013,2016-06-20,Team Charlie
+E-0066,Henry Taylor,Service Agent,BR-030,2023-06-07,Team Alpha
+E-0067,Lauren Allen,Service Agent,BR-020,2021-04-25,Team Alpha
+E-0068,Marcus Green,Service Agent,BR-007,2020-09-03,Team Charlie
+E-0069,Aisha Jackson,Service Agent,BR-029,2015-10-09,Team Bravo
+E-0070,Ravi Anderson,Service Agent,BR-006,2019-11-30,Team Charlie
+E-0071,Julian Turner,Service Agent,BR-017,2015-02-02,Team Charlie
+E-0072,Amara Nguyen,Service Agent,BR-029,2016-07-04,Team Charlie
+E-0073,Daniel Nguyen,Service Agent,BR-024,2021-03-16,Team Bravo
+E-0074,Luis Anderson,Service Agent,BR-020,2017-05-12,Team Charlie
+E-0075,Naomi Campbell,Service Agent,BR-021,2024-07-25,Team Charlie
+E-0076,Nora King,Service Agent,BR-009,2025-02-25,Team Alpha
+E-0077,Priya Roberts,Service Agent,BR-014,2024-04-20,Team Charlie
+E-0078,Jonathan Bailey,Service Agent,BR-011,2023-08-25,Team Bravo
+E-0079,Rosa Lopez,Service Agent,BR-006,2023-04-25,Team Delta
+E-0080,Kenji Evans,Service Agent,BR-014,2021-04-16,Team Alpha
+E-0081,Daniel Chen,Service Agent,BR-029,2022-10-01,Team Bravo
+E-0082,Ines Ashford,Service Agent,BR-027,2019-02-21,Team Bravo
+E-0083,Owen Kim,Service Agent,BR-002,2018-06-16,Team Charlie
+E-0084,Jonathan Jackson,Service Agent,BR-007,2022-08-25,Team Bravo
+E-0085,Amara Nguyen,Service Agent,BR-012,2023-10-01,Team Delta
+E-0086,Julian Collins,Service Agent,BR-005,2025-05-19,Team Bravo
+E-0087,Grace Garcia,Service Agent,BR-029,2019-08-16,Team Alpha
+E-0088,Wei Collins,Service Agent,BR-030,2018-09-22,Team Delta
+E-0089,Amara Collins,Service Agent,BR-026,2017-10-13,Team Charlie
+E-0090,Grace Parker,Service Agent,BR-004,2019-04-16,Team Alpha
+E-0091,Mei Davis,Service Agent,BR-007,2024-02-27,Team Delta
+E-0092,Chloe Thomas,Service Agent,BR-027,2023-12-02,Team Bravo
+E-0093,Ethan Vaughn,Service Agent,BR-022,2017-03-02,Team Delta
+E-0094,Jamal Wilson,Service Agent,BR-028,2015-10-12,Team Charlie
+E-0095,Chloe Turner,Service Agent,BR-017,2019-06-26,Team Charlie
+E-0096,Derek Okafor,Service Agent,BR-029,2025-11-18,Team Charlie
+E-0097,Wei Nelson,Service Agent,BR-009,2015-06-06,Team Alpha
+E-0098,Layla Walker,Service Agent,BR-012,2023-03-04,Team Charlie
+E-0099,Owen Carter,Service Agent,BR-017,2016-04-18,Team Delta
+E-0100,Ava Johnson,Service Agent,BR-009,2015-07-01,Team Delta
+E-0101,Lauren Scott,Service Agent,BR-030,2024-01-17,Team Bravo
+E-0102,Ravi Walker,Service Agent,BR-003,2025-08-22,Team Charlie
+E-0103,Julian Taylor,Service Agent,BR-022,2024-07-05,Team Alpha
+E-0104,Sara Thomas,Service Agent,BR-017,2018-06-20,Team Delta
+E-0105,Isabella Clark,Service Agent,BR-023,2018-04-26,Team Bravo
+E-0106,Carlos Lewis,Service Agent,BR-022,2025-07-18,Team Delta
+E-0107,Felix Collins,Service Agent,BR-029,2016-12-13,Team Charlie
+E-0108,Leo Adams,Service Agent,BR-027,2015-01-02,Team Charlie
+E-0109,Maya Miller,Service Agent,BR-014,2023-10-24,Team Charlie
+E-0110,Henry Hall,Service Agent,BR-015,2022-07-30,Team Bravo
+E-0111,Nora Young,Service Agent,BR-026,2025-02-08,Team Bravo
+E-0112,Amara Patel,Service Agent,BR-010,2020-10-12,Team Charlie
+E-0113,Priya Stewart,Service Agent,BR-008,2022-07-18,Team Charlie
+E-0114,Ethan Johnson,Service Agent,BR-005,2015-04-11,Team Alpha
+E-0115,Olivia Young,Service Agent,BR-020,2024-07-12,Team Alpha
+E-0116,Henry Lewis,Service Agent,BR-029,2022-01-23,Team Bravo
+E-0117,Diego Parker,Service Agent,BR-013,2020-07-17,Team Delta
+E-0118,Olivia Silva,Service Agent,BR-021,2022-09-17,Team Alpha
+E-0119,Yuki Morris,Service Agent,BR-029,2016-03-12,Team Delta
+E-0120,Ethan Garcia,Service Agent,BR-026,2025-09-28,Team Delta
+E-0121,Elena Adams,Service Agent,BR-008,2025-04-15,Team Alpha
+E-0122,Henry Kim,Service Agent,BR-026,2020-03-18,Team Charlie
+E-0123,Yuki Hall,Service Agent,BR-020,2024-02-21,Team Delta
+E-0124,Kenji Hall,Service Agent,BR-029,2016-10-13,Team Delta
+E-0125,Fatima Lopez,Service Agent,BR-025,2017-10-09,Team Charlie
+E-0126,Nina Morris,Service Agent,BR-017,2020-06-07,Team Bravo
+E-0127,Luis Hall,Service Agent,BR-003,2023-01-01,Team Charlie
+E-0128,Olivia Wilson,Service Agent,BR-011,2018-08-02,Team Alpha
+E-0129,Aisha Silva,Service Agent,BR-008,2019-04-18,Team Bravo
+E-0130,Diego Miller,Service Agent,BR-003,2019-08-27,Team Delta
+E-0131,Jamal Green,Service Agent,BR-015,2019-08-31,Team Alpha
+E-0132,Naomi Lewis,Service Agent,BR-013,2025-02-23,Team Alpha
+E-0133,Yuki Baker,Service Agent,BR-013,2020-05-07,Team Alpha
+E-0134,Chloe Thomas,Service Agent,BR-025,2019-05-17,Team Delta
+E-0135,Ines Collins,Service Agent,BR-024,2021-02-14,Team Bravo
+E-0136,Andre Davis,Service Agent,BR-009,2019-11-21,Team Delta
+E-0137,Derek Harris,Service Agent,BR-011,2022-07-02,Team Delta
+E-0138,Sara Brown,Service Agent,BR-027,2020-03-29,Team Bravo
+E-0139,Julian Green,Service Agent,BR-001,2025-03-03,Team Delta
+E-0140,Mateo Baker,Service Agent,BR-022,2015-04-22,Team Alpha
+E-0141,Victor Walker,Advisor,BR-005,2024-09-20,Team Delta
+E-0142,Wei Ruiz,Advisor,BR-009,2019-04-02,Team Charlie
+E-0143,Naomi Allen,Advisor,BR-011,2018-10-14,Team Delta
+E-0144,Luis Stewart,Advisor,BR-027,2019-09-23,Team Charlie
+E-0145,Priya Young,Advisor,BR-001,2023-05-27,Team Alpha
+E-0146,Chloe Davis,Advisor,BR-021,2015-10-09,Team Alpha
+E-0147,Yuki Vaughn,Advisor,BR-008,2017-03-27,Team Alpha
+E-0148,Julian Silva,Advisor,BR-008,2016-06-01,Team Delta
+E-0149,Amara Okafor,Advisor,BR-019,2025-08-18,Team Bravo
+E-0150,Henry Parker,Advisor,BR-009,2023-08-08,Team Charlie
+E-0151,Grace Carter,Advisor,BR-020,2025-10-22,Team Alpha
+E-0152,Nina Brown,Advisor,BR-010,2016-03-18,Team Alpha
+E-0153,Noah Baker,Advisor,BR-022,2025-03-08,Team Delta
+E-0154,Leo Evans,Advisor,BR-007,2015-11-08,Team Bravo
+E-0155,Sofia Parker,Advisor,BR-025,2018-05-20,Team Alpha
+E-0156,Ava Ashford,Advisor,BR-012,2020-12-22,Team Delta
+E-0157,Amara White,Advisor,BR-003,2020-09-03,Team Charlie
+E-0158,Lauren Lewis,Advisor,BR-027,2020-06-30,Team Alpha
+E-0159,Owen White,Advisor,BR-021,2024-12-30,Team Delta
+E-0160,Diego Silva,Advisor,BR-014,2016-12-22,Team Charlie
+E-0161,Julian Green,Advisor,BR-025,2020-06-03,Team Delta
+E-0162,Owen Edwards,Advisor,BR-019,2018-01-04,Team Charlie
+E-0163,Olivia Patel,Advisor,BR-009,2024-11-20,Team Delta
+E-0164,Olivia Stewart,Advisor,BR-015,2021-05-23,Team Delta
+E-0165,Jamal Vaughn,Advisor,BR-016,2024-07-17,Team Charlie
+E-0166,Wei King,Advisor,BR-007,2018-12-24,Team Charlie
+E-0167,Jamal Wilson,Advisor,BR-029,2021-09-07,Team Charlie
+E-0168,Kenji Bailey,Advisor,BR-017,2025-08-19,Team Bravo
+E-0169,Priya Martinez,Advisor,BR-024,2019-07-23,Team Delta
+E-0170,Kenji Stewart,Advisor,BR-008,2022-09-29,Team Delta
+E-0171,Victor Evans,Advisor,BR-016,2020-01-10,Team Alpha
+E-0172,Priya Anderson,Advisor,BR-008,2019-07-15,Team Bravo
+E-0173,Noah Phillips,Advisor,BR-019,2019-02-20,Team Delta
+E-0174,Kenji Scott,Advisor,BR-012,2019-10-09,Team Charlie
+E-0175,Chloe Parker,Advisor,BR-015,2018-01-14,Team Charlie
+E-0176,Hannah Davis,Advisor,BR-004,2023-02-02,Team Bravo
+E-0177,Isabella Okafor,Advisor,BR-024,2021-01-03,Team Bravo
+E-0178,Carlos Miller,Advisor,BR-024,2020-06-06,Team Charlie
+E-0179,Sara Nelson,Advisor,BR-025,2020-11-18,Team Charlie
+E-0180,Sofia Johnson,Advisor,BR-010,2017-07-20,Team Charlie
+E-0181,Wei Thomas,Relationship Manager,BR-001,2022-12-10,Team Bravo
+E-0182,Luis Ashford,Relationship Manager,BR-002,2021-03-16,Team Charlie
+E-0183,Iris Kim,Relationship Manager,BR-021,2024-09-27,Team Delta
+E-0184,Sofia Bailey,Relationship Manager,BR-019,2018-03-10,Team Delta
+E-0185,Mei Hall,Relationship Manager,BR-011,2017-01-25,Team Alpha
+E-0186,Hannah Young,Relationship Manager,BR-004,2024-03-21,Team Alpha
+E-0187,Leo King,Relationship Manager,BR-003,2021-06-21,Team Alpha
+E-0188,Tom Silva,Relationship Manager,BR-026,2021-04-24,Team Charlie
+E-0189,Priya Martinez,Relationship Manager,BR-004,2021-04-04,Team Delta
+E-0190,Layla Carter,Relationship Manager,BR-026,2021-12-08,Team Bravo
+E-0191,Nina Scott,Relationship Manager,BR-013,2020-01-20,Team Delta
+E-0192,Noah Nelson,Relationship Manager,BR-014,2018-06-04,Team Alpha
+E-0193,Julian Collins,Relationship Manager,BR-004,2025-08-17,Team Bravo
+E-0194,Rosa Miller,Relationship Manager,BR-009,2022-05-29,Team Alpha
+E-0195,Grace Martinez,Relationship Manager,BR-006,2021-03-10,Team Alpha
+E-0196,Grace Bailey,Relationship Manager,BR-014,2020-01-20,Team Delta
+E-0197,Maya Ashford,Relationship Manager,BR-008,2018-03-26,Team Charlie
+E-0198,Iris Allen,Relationship Manager,BR-003,2022-09-16,Team Bravo
+E-0199,Hannah Roberts,Relationship Manager,BR-019,2022-06-01,Team Bravo
+E-0200,Owen Okafor,Relationship Manager,BR-018,2017-07-09,Team Bravo
+E-0201,Luis Silva,Relationship Manager,BR-003,2015-09-02,Team Bravo
+E-0202,Noah Carter,Relationship Manager,BR-024,2024-03-30,Team Charlie
+E-0203,Fatima Okafor,Relationship Manager,BR-015,2022-09-21,Team Charlie
+E-0204,Iris Clark,Relationship Manager,BR-009,2020-08-11,Team Delta
+E-0205,Fatima Patel,Relationship Manager,BR-020,2015-06-13,Team Delta
+E-0206,Ben Taylor,Loan Officer,BR-020,2017-10-22,Team Alpha
+E-0207,Priya Davis,Loan Officer,BR-022,2024-05-17,Team Alpha
+E-0208,Yuki Campbell,Loan Officer,BR-027,2018-01-08,Team Alpha
+E-0209,Yuki Stewart,Loan Officer,BR-006,2020-04-11,Team Delta
+E-0210,Luis Garcia,Loan Officer,BR-019,2019-11-21,Team Delta
+E-0211,Priya Young,Loan Officer,BR-012,2019-07-31,Team Charlie
+E-0212,Isabella Phillips,Loan Officer,BR-004,2024-08-14,Team Bravo
+E-0213,Jamal Lewis,Loan Officer,BR-023,2020-07-22,Team Charlie
+E-0214,Amara Clark,Loan Officer,BR-027,2023-07-13,Team Alpha
+E-0215,Henry Patel,Loan Officer,BR-011,2017-10-30,Team Charlie
+E-0216,Daniel Morris,Loan Officer,BR-013,2024-09-12,Team Alpha
+E-0217,Amara Green,Loan Officer,BR-015,2019-08-20,Team Alpha
+E-0218,Carlos Scott,Loan Officer,BR-012,2021-12-25,Team Delta
+E-0219,Rosa Hall,Loan Officer,BR-025,2015-07-31,Team Bravo
+E-0220,Luis Adams,Loan Officer,BR-005,2025-05-27,Team Charlie
+E-0221,Fatima Parker,Loan Officer,BR-016,2016-05-12,Team Alpha
+E-0222,Rosa Carter,Loan Officer,BR-026,2017-09-07,Team Bravo
+E-0223,Noah Adams,Loan Officer,BR-001,2021-03-12,Team Delta
+E-0224,Priya Davis,Loan Officer,BR-027,2025-03-28,Team Alpha
+E-0225,Henry Okafor,Loan Officer,BR-021,2024-05-01,Team Bravo
+E-0226,Andre Evans,Loan Officer,BR-010,2020-09-15,Team Charlie
+E-0227,Zara Young,Loan Officer,BR-016,2017-09-25,Team Delta
+E-0228,Kenji Silva,Loan Officer,BR-013,2017-02-19,Team Bravo
+E-0229,Marcus Wilson,Loan Officer,BR-025,2023-11-10,Team Delta
+E-0230,Jamal Wright,Loan Officer,BR-009,2024-03-14,Team Alpha
+E-0231,Maya Edwards,Loan Officer,BR-010,2024-05-23,Team Delta
+E-0232,Tom Hall,Loan Officer,BR-018,2020-06-06,Team Charlie
+E-0233,Jamal Adams,Loan Officer,BR-025,2021-02-03,Team Delta
+E-0234,Henry Taylor,Loan Officer,BR-028,2017-02-11,Team Bravo
+E-0235,Ava Harris,Loan Officer,BR-008,2024-08-07,Team Delta
+E-0236,Jonathan Taylor,Claims Adjuster,BR-024,2020-04-21,Team Delta
+E-0237,Emma Phillips,Claims Adjuster,BR-026,2024-03-15,Team Bravo
+E-0238,Andre Ashford,Claims Adjuster,BR-005,2020-08-19,Team Charlie
+E-0239,Sofia Hall,Claims Adjuster,BR-004,2020-11-24,Team Delta
+E-0240,Lauren Edwards,Claims Adjuster,BR-005,2019-08-07,Team Bravo
+E-0241,Marcus Young,Claims Adjuster,BR-026,2025-11-13,Team Charlie
+E-0242,Jamal Mitchell,Claims Adjuster,BR-023,2019-06-17,Team Alpha
+E-0243,Jamal Campbell,Claims Adjuster,BR-028,2020-12-25,Team Delta
+E-0244,Isabella Roberts,Claims Adjuster,BR-023,2024-12-13,Team Delta
+E-0245,Ines Ashford,Claims Adjuster,BR-020,2015-10-08,Team Bravo
+E-0246,Rosa Campbell,Claims Adjuster,BR-030,2018-03-23,Team Bravo
+E-0247,Ben Patel,Claims Adjuster,BR-014,2025-12-21,Team Alpha
+E-0248,Yuki Roberts,Claims Adjuster,BR-023,2024-10-14,Team Alpha
+E-0249,Fatima Brown,Claims Adjuster,BR-023,2018-05-11,Team Alpha
+E-0250,Jonathan Taylor,Claims Adjuster,BR-026,2015-08-18,Team Charlie
+E-0251,Chloe White,Claims Adjuster,BR-014,2016-08-19,Team Bravo
+E-0252,Samuel Lewis,Claims Adjuster,BR-019,2022-08-24,Team Bravo
+E-0253,Grace Garcia,Claims Adjuster,BR-003,2021-11-01,Team Delta
+E-0254,Julian Campbell,Claims Adjuster,BR-008,2020-07-31,Team Bravo
+E-0255,Ethan Allen,Claims Adjuster,BR-021,2017-11-06,Team Delta
+E-0256,Hannah Phillips,Claims Adjuster,BR-001,2025-01-29,Team Delta
+E-0257,Maya Campbell,Claims Adjuster,BR-018,2016-10-09,Team Alpha
+E-0258,Fatima Jackson,Claims Adjuster,BR-019,2018-05-10,Team Delta
+E-0259,Iris Lopez,Claims Adjuster,BR-015,2024-06-24,Team Charlie
+E-0260,Carlos Harris,Claims Adjuster,BR-028,2020-06-02,Team Alpha
+E-0261,Olivia Harris,Claims Adjuster,BR-019,2019-01-10,Team Charlie
+E-0262,Iris Anderson,Claims Adjuster,BR-001,2025-12-19,Team Delta
+E-0263,Luis Bailey,Claims Adjuster,BR-019,2024-09-13,Team Alpha
+E-0264,Layla Collins,Claims Adjuster,BR-016,2024-05-04,Team Charlie
+E-0265,Nina Davis,Claims Adjuster,BR-020,2023-12-29,Team Charlie
+E-0266,Ethan Roberts,Client Service Associate,BR-007,2021-12-18,Team Charlie
+E-0267,Felix Stewart,Client Service Associate,BR-024,2023-08-10,Team Bravo
+E-0268,Rosa Nguyen,Client Service Associate,BR-029,2022-01-14,Team Alpha
+E-0269,Noah Hall,Client Service Associate,BR-002,2021-07-01,Team Charlie
+E-0270,Sara Kim,Client Service Associate,BR-003,2025-03-14,Team Charlie
+E-0271,Isabella Collins,Client Service Associate,BR-014,2016-12-20,Team Bravo
+E-0272,Aisha Green,Client Service Associate,BR-029,2025-11-23,Team Charlie
+E-0273,Samuel Wright,Client Service Associate,BR-030,2018-01-21,Team Bravo
+E-0274,Hannah Young,Client Service Associate,BR-026,2018-04-23,Team Charlie
+E-0275,Daniel Allen,Client Service Associate,BR-003,2016-07-30,Team Bravo
+E-0276,Felix Edwards,Client Service Associate,BR-022,2025-12-27,Team Delta
+E-0277,Kenji White,Client Service Associate,BR-003,2023-11-13,Team Delta
+E-0278,Lauren Lopez,Client Service Associate,BR-018,2016-05-21,Team Delta
+E-0279,Ravi Campbell,Client Service Associate,BR-024,2022-07-16,Team Charlie
+E-0280,Mateo Harris,Client Service Associate,BR-027,2022-02-28,Team Charlie
+E-0281,Sofia Campbell,Client Service Associate,BR-008,2020-04-15,Team Alpha
+E-0282,Julian Adams,Client Service Associate,BR-011,2025-04-06,Team Bravo
+E-0283,Victor Chen,Client Service Associate,BR-021,2024-03-28,Team Delta
+E-0284,Iris Thomas,Client Service Associate,BR-021,2019-07-31,Team Alpha
+E-0285,Aisha Ashford,Client Service Associate,BR-002,2018-05-31,Team Delta
+E-0286,Daniel Nguyen,Client Service Associate,BR-008,2024-12-13,Team Bravo
+E-0287,Emma Allen,Client Service Associate,BR-012,2022-07-09,Team Delta
+E-0288,Mateo Collins,Client Service Associate,BR-024,2016-09-24,Team Delta
+E-0289,Victor Nguyen,Client Service Associate,BR-027,2020-06-27,Team Delta
+E-0290,Luis Ashford,Client Service Associate,BR-023,2019-02-26,Team Bravo
+E-0291,Fatima Hall,Supervisor,BR-008,2024-08-04,Team Charlie
+E-0292,Sofia Campbell,Supervisor,BR-012,2021-02-08,Team Charlie
+E-0293,Elena Clark,Supervisor,BR-009,2017-02-16,Team Alpha
+E-0294,Henry Patel,Supervisor,BR-022,2017-05-18,Team Alpha
+E-0295,Elena Moore,Supervisor,BR-008,2026-02-02,Team Bravo
+E-0296,Ava Miller,Supervisor,BR-003,2024-04-21,Team Bravo
+E-0297,Mateo Miller,Supervisor,BR-027,2024-10-02,Team Bravo
+E-0298,Jamal Morris,Supervisor,BR-005,2023-11-05,Team Alpha
+E-0299,Luis Silva,Supervisor,BR-005,2021-01-21,Team Charlie
+E-0300,Wei Okafor,Supervisor,BR-022,2024-09-18,Team Alpha
+E-0301,Aisha Bailey,Supervisor,BR-012,2023-11-10,Team Bravo
+E-0302,Mateo Taylor,Supervisor,BR-001,2016-12-14,Team Charlie
+E-0303,Elena Kim,Supervisor,BR-024,2019-09-21,Team Alpha
+E-0304,Ben Chen,Supervisor,BR-016,2020-01-11,Team Charlie
+E-0305,Nora Nelson,Supervisor,BR-004,2020-01-26,Team Bravo
+E-0306,Julian Ashford,Supervisor,BR-024,2023-10-14,Team Charlie
+E-0307,Henry Turner,Supervisor,BR-001,2015-09-07,Team Delta
+E-0308,Leo Walker,Supervisor,BR-022,2016-03-18,Team Delta
+E-0309,Diego Hall,Supervisor,BR-003,2025-01-31,Team Alpha
+E-0310,Isabella Carter,Supervisor,BR-005,2015-09-27,Team Bravo

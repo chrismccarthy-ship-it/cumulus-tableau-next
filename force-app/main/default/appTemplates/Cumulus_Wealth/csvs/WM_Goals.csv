@@ -1,0 +1,1200 @@
+GoalId,HouseholdId,GoalType,GoalName,TargetValue,ActualValue,TargetDate,Status,HouseholdName,AdvisorName
+WM-GL-000001,WM-HH-00001,Major Purchase,Major Purchase — Ashford,182908.39,139385.16,2033-07-26,On Track,Ashford Family Office,Owen White
+WM-GL-000002,WM-HH-00002,Home Purchase,Home Purchase — Baker,386158.02,86167.78,2036-12-29,On Track,Baker Family,Noah Baker
+WM-GL-000003,WM-HH-00002,Legacy,Legacy — Baker,207090.86,97362.83,2035-12-31,Off Track,Baker Family,Noah Baker
+WM-GL-000004,WM-HH-00002,Legacy,Legacy — Baker,124088.75,49096.31,2034-06-29,At Risk,Baker Family,Noah Baker
+WM-GL-000005,WM-HH-00003,Major Purchase,Major Purchase — Clark,303625.38,91211.36,2028-11-22,At Risk,Clark Family,Jamal Wilson
+WM-GL-000006,WM-HH-00003,Education,Education — Clark,220097.52,93918.45,2045-01-01,Off Track,Clark Family,Jamal Wilson
+WM-GL-000007,WM-HH-00004,Major Purchase,Major Purchase — Parker,53272.23,12199.15,2045-01-08,On Track,Parker Family,Amara White
+WM-GL-000008,WM-HH-00004,Retirement,Retirement — Parker,203253.82,107737.52,2039-11-02,On Track,Parker Family,Amara White
+WM-GL-000009,WM-HH-00009,Education,Education — Lopez,154785.17,156293.68,2027-09-23,Completed,Lopez Family,Luis Stewart
+WM-GL-000010,WM-HH-00009,Major Purchase,Major Purchase — Lopez,138335.6,65308.59,2040-09-09,On Track,Lopez Family,Luis Stewart
+WM-GL-000011,WM-HH-00010,Legacy,Legacy — Clark,213067.99,30186.53,2041-06-30,At Risk,Clark Family,Jamal Vaughn
+WM-GL-000012,WM-HH-00010,Education,Education — Clark,386129.27,135268.66,2027-05-13,On Track,Clark Family,Jamal Vaughn
+WM-GL-000013,WM-HH-00010,Education,Education — Clark,288869.94,245499.09,2038-01-06,On Track,Clark Family,Jamal Vaughn
+WM-GL-000014,WM-HH-00012,Home Purchase,Home Purchase — Jackson,71513.57,33644.48,2038-06-26,On Track,Jackson Family,Jamal Wilson
+WM-GL-000015,WM-HH-00012,Retirement,Retirement — Jackson,1270344.28,629301.17,2032-10-05,On Track,Jackson Family,Jamal Wilson
+WM-GL-000016,WM-HH-00012,Retirement,Retirement — Jackson,466680.02,403493.67,2027-12-29,Off Track,Jackson Family,Jamal Wilson
+WM-GL-000017,WM-HH-00013,Education,Education — Phillips,81377.73,31638.32,2037-09-07,At Risk,Phillips Family,Carlos Miller
+WM-GL-000018,WM-HH-00013,Home Purchase,Home Purchase — Phillips,158003.45,97834.24,2029-06-30,On Track,Phillips Family,Carlos Miller
+WM-GL-000019,WM-HH-00014,Retirement,Retirement — Allen,1030853.02,920660.67,2028-11-12,On Track,Allen Family,Chloe Davis
+WM-GL-000020,WM-HH-00014,Home Purchase,Home Purchase — Allen,464331.67,445401.92,2038-03-08,At Risk,Allen Family,Chloe Davis
+WM-GL-000021,WM-HH-00015,Retirement,Retirement — Roberts,447310.6,375842.65,2027-12-19,At Risk,Roberts Family,Noah Baker
+WM-GL-000022,WM-HH-00015,Retirement,Retirement — Roberts,225724.52,90949.68,2040-08-01,On Track,Roberts Family,Noah Baker
+WM-GL-000023,WM-HH-00016,Retirement,Retirement — Ruiz,419662.35,336452.44,2039-05-13,On Track,Ruiz Family,Ava Ashford
+WM-GL-000024,WM-HH-00017,Legacy,Legacy — Garcia,177808.29,146760.61,2037-12-23,On Track,Garcia Family,Kenji Stewart
+WM-GL-000025,WM-HH-00017,Education,Education — Garcia,199923.43,169523.84,2033-11-08,On Track,Garcia Family,Kenji Stewart
+WM-GL-000026,WM-HH-00019,Retirement,Retirement — Miller,549148.68,405402.61,2033-12-31,On Track,Miller Family,Julian Green
+WM-GL-000027,WM-HH-00020,Legacy,Legacy — Evans,89085.22,77832.09,2032-10-05,On Track,Evans Family,Lauren Lewis
+WM-GL-000028,WM-HH-00020,Retirement,Retirement — Evans,1237353.39,1004341.58,2035-06-18,On Track,Evans Family,Lauren Lewis
+WM-GL-000029,WM-HH-00021,Legacy,Legacy — Allen,299106.21,324085.27,2043-02-26,Completed,Allen Family,Victor Walker
+WM-GL-000030,WM-HH-00021,Major Purchase,Major Purchase — Allen,223547.6,155316.15,2039-03-26,On Track,Allen Family,Victor Walker
+WM-GL-000031,WM-HH-00022,Home Purchase,Home Purchase — Roberts,167223.84,136560.03,2044-09-04,Off Track,Roberts Family,Carlos Miller
+WM-GL-000032,WM-HH-00022,Education,Education — Roberts,505968.17,172794.08,2035-03-29,On Track,Roberts Family,Carlos Miller
+WM-GL-000033,WM-HH-00023,Home Purchase,Home Purchase — Johnson,334020.77,264952.53,2044-08-03,On Track,Johnson Family,Diego Silva
+WM-GL-000034,WM-HH-00023,Education,Education — Johnson,263873.29,222962.29,2044-04-01,At Risk,Johnson Family,Diego Silva
+WM-GL-000035,WM-HH-00024,Education,Education — Nguyen,83454.65,42860.33,2038-06-25,At Risk,Nguyen Family,Kenji Stewart
+WM-GL-000036,WM-HH-00024,Retirement,Retirement — Nguyen,380375.73,68018.37,2041-04-23,On Track,Nguyen Family,Kenji Stewart
+WM-GL-000037,WM-HH-00024,Education,Education — Nguyen,291837.51,281308.82,2044-02-21,At Risk,Nguyen Family,Kenji Stewart
+WM-GL-000038,WM-HH-00026,Major Purchase,Major Purchase — Moore,135205.18,127926.59,2038-10-31,On Track,Moore Family,Noah Baker
+WM-GL-000039,WM-HH-00027,Legacy,Legacy — Clark,79852.34,54834.02,2042-09-18,On Track,Clark Family,Amara Okafor
+WM-GL-000040,WM-HH-00027,Legacy,Legacy — Clark,133578.33,137133.39,2030-02-15,Completed,Clark Family,Amara Okafor
+WM-GL-000041,WM-HH-00028,Education,Education — Lopez,313817.26,113326.86,2042-05-20,On Track,Lopez Family,Henry Parker
+WM-GL-000042,WM-HH-00028,Retirement,Retirement — Lopez,468676.05,239282.13,2044-07-03,At Risk,Lopez Family,Henry Parker
+WM-GL-000043,WM-HH-00028,Home Purchase,Home Purchase — Lopez,218812.08,229749.71,2031-10-03,Completed,Lopez Family,Henry Parker
+WM-GL-000044,WM-HH-00029,Major Purchase,Major Purchase — Lopez,136438.58,126489.46,2029-10-06,At Risk,Lopez Family,Amara Okafor
+WM-GL-000045,WM-HH-00030,Legacy,Legacy — Anderson,119758.26,131406.22,2027-10-02,Completed,Anderson Family,Olivia Stewart
+WM-GL-000046,WM-HH-00030,Major Purchase,Major Purchase — Anderson,182812.19,104375.39,2027-10-18,At Risk,Anderson Family,Olivia Stewart
+WM-GL-000047,WM-HH-00030,Major Purchase,Major Purchase — Anderson,172750.64,166642.91,2030-01-25,On Track,Anderson Family,Olivia Stewart
+WM-GL-000048,WM-HH-00031,Legacy,Legacy — Wright,359695.91,84956.56,2039-08-26,At Risk,Wright Family,Noah Baker
+WM-GL-000049,WM-HH-00032,Major Purchase,Major Purchase — Jackson,47299.29,31548.95,2039-01-15,On Track,Jackson Family,Wei King
+WM-GL-000050,WM-HH-00033,Education,Education — Allen,169988.76,29705.95,2030-10-09,On Track,Allen Family,Kenji Scott
+WM-GL-000051,WM-HH-00033,Legacy,Legacy — Allen,96245.96,45408.55,2045-10-24,At Risk,Allen Family,Kenji Scott
+WM-GL-000052,WM-HH-00033,Legacy,Legacy — Allen,278481.36,50491.72,2044-08-23,On Track,Allen Family,Kenji Scott
+WM-GL-000053,WM-HH-00034,Legacy,Legacy — Adams,280703.76,77365.14,2037-05-22,On Track,Adams Family,Kenji Stewart
+WM-GL-000054,WM-HH-00035,Education,Education — Baker,350896.13,22993.8,2027-11-07,At Risk,Baker Family,Isabella Okafor
+WM-GL-000055,WM-HH-00035,Home Purchase,Home Purchase — Baker,443853.73,270847.18,2035-05-11,On Track,Baker Family,Isabella Okafor
+WM-GL-000056,WM-HH-00036,Education,Education — Silva,151401.35,151830.16,2031-11-12,Completed,Silva Family,Carlos Miller
+WM-GL-000057,WM-HH-00039,Education,Education — Edwards,100757.64,48308.32,2028-08-16,Off Track,Edwards Family,Wei Ruiz
+WM-GL-000058,WM-HH-00039,Retirement,Retirement — Edwards,254659.96,187086.75,2037-12-16,On Track,Edwards Family,Wei Ruiz
+WM-GL-000059,WM-HH-00040,Legacy,Legacy — Wright,125303.77,31025.32,2029-05-01,Off Track,Wright Family,Wei King
+WM-GL-000060,WM-HH-00041,Home Purchase,Home Purchase — Allen,488753.36,452989.67,2029-08-27,On Track,Allen Family,Amara Okafor
+WM-GL-000061,WM-HH-00042,Legacy,Legacy — Johnson,137208.48,133129.8,2043-10-09,At Risk,Johnson Family,Sara Nelson
+WM-GL-000062,WM-HH-00043,Home Purchase,Home Purchase — Morris,599023.12,423753.54,2044-09-06,On Track,Morris Family,Kenji Scott
+WM-GL-000063,WM-HH-00043,Legacy,Legacy — Morris,31454.86,8807.85,2041-09-30,Off Track,Morris Family,Kenji Scott
+WM-GL-000064,WM-HH-00046,Legacy,Legacy — Nelson,188050.72,88369.84,2045-06-26,On Track,Nelson Family,Priya Martinez
+WM-GL-000065,WM-HH-00047,Legacy,Legacy — Vaughn,328435.86,20545.11,2030-12-28,On Track,Vaughn Family,Priya Anderson
+WM-GL-000066,WM-HH-00048,Home Purchase,Home Purchase — Vaughn,230859.63,110873.17,2030-12-26,Off Track,Vaughn Family,Noah Phillips
+WM-GL-000067,WM-HH-00048,Education,Education — Vaughn,212355.68,10830.54,2035-03-16,On Track,Vaughn Family,Noah Phillips
+WM-GL-000068,WM-HH-00048,Major Purchase,Major Purchase — Vaughn,187438.75,15374.82,2044-08-25,On Track,Vaughn Family,Noah Phillips
+WM-GL-000069,WM-HH-00050,Legacy,Legacy — Adams,159901.71,52194.4,2038-09-18,On Track,Adams Family,Grace Carter
+WM-GL-000070,WM-HH-00051,Major Purchase,Major Purchase — Turner,586563.4,502575.92,2034-12-13,On Track,Turner Family,Owen White
+WM-GL-000071,WM-HH-00051,Education,Education — Turner,56411.4,45071.8,2038-12-06,On Track,Turner Family,Owen White
+WM-GL-000072,WM-HH-00052,Legacy,Legacy — Young,416785.88,64143.69,2043-11-18,At Risk,Young Family,Owen White
+WM-GL-000073,WM-HH-00052,Major Purchase,Major Purchase — Young,154265.22,79768.0,2031-11-18,On Track,Young Family,Owen White
+WM-GL-000074,WM-HH-00053,Home Purchase,Home Purchase — Chen,98755.56,97711.76,2032-03-12,At Risk,Chen Family,Julian Silva
+WM-GL-000075,WM-HH-00053,Major Purchase,Major Purchase — Chen,355626.59,301928.22,2032-05-02,At Risk,Chen Family,Julian Silva
+WM-GL-000076,WM-HH-00055,Education,Education — Johnson,191752.24,114532.24,2043-06-06,On Track,Johnson Family,Chloe Davis
+WM-GL-000077,WM-HH-00056,Major Purchase,Major Purchase — Bailey,283484.71,310431.03,2030-01-28,Completed,Bailey Family,Leo Evans
+WM-GL-000078,WM-HH-00056,Retirement,Retirement — Bailey,192501.88,194433.68,2044-04-21,Completed,Bailey Family,Leo Evans
+WM-GL-000079,WM-HH-00058,Home Purchase,Home Purchase — Collins,97238.4,71286.67,2034-09-30,On Track,Collins Family,Grace Carter
+WM-GL-000080,WM-HH-00058,Legacy,Legacy — Collins,164561.87,167301.65,2040-10-21,Completed,Collins Family,Grace Carter
+WM-GL-000081,WM-HH-00059,Legacy,Legacy — Carter,324644.6,104462.24,2035-10-09,At Risk,Carter Family,Owen White
+WM-GL-000082,WM-HH-00059,Major Purchase,Major Purchase — Carter,176110.97,180466.87,2029-04-08,Completed,Carter Family,Owen White
+WM-GL-000083,WM-HH-00060,Home Purchase,Home Purchase — Wilson,98356.6,62690.4,2034-04-24,On Track,Wilson Family,Ava Ashford
+WM-GL-000084,WM-HH-00061,Retirement,Retirement — Wright,695113.46,707699.53,2033-06-09,Completed,Wright Family,Priya Anderson
+WM-GL-000085,WM-HH-00062,Major Purchase,Major Purchase — Hall,85983.74,91590.96,2045-04-22,Completed,Hall Family,Sara Nelson
+WM-GL-000086,WM-HH-00062,Education,Education — Hall,122361.97,26611.3,2032-10-06,At Risk,Hall Family,Sara Nelson
+WM-GL-000087,WM-HH-00064,Retirement,Retirement — Baker,3725087.62,3616993.51,2035-04-30,On Track,Baker Family,Naomi Allen
+WM-GL-000088,WM-HH-00064,Major Purchase,Major Purchase — Baker,41814.16,27451.32,2037-12-16,Off Track,Baker Family,Naomi Allen
+WM-GL-000089,WM-HH-00064,Home Purchase,Home Purchase — Baker,203175.07,170618.76,2032-12-21,On Track,Baker Family,Naomi Allen
+WM-GL-000090,WM-HH-00065,Education,Education — Nelson,166085.21,130504.82,2037-09-29,At Risk,Nelson Family,Hannah Davis
+WM-GL-000091,WM-HH-00065,Home Purchase,Home Purchase — Nelson,66535.41,31246.35,2036-02-07,On Track,Nelson Family,Hannah Davis
+WM-GL-000092,WM-HH-00066,Retirement,Retirement — Wright,564108.43,173054.83,2030-10-21,On Track,Wright Family,Olivia Patel
+WM-GL-000093,WM-HH-00067,Home Purchase,Home Purchase — White,375984.08,104330.63,2043-05-23,On Track,White Family,Sofia Johnson
+WM-GL-000094,WM-HH-00068,Education,Education — Mitchell,191202.12,37476.23,2039-05-04,On Track,Mitchell Family,Kenji Stewart
+WM-GL-000095,WM-HH-00070,Education,Education — King,157812.05,170626.52,2032-09-19,Completed,King Family,Victor Walker
+WM-GL-000096,WM-HH-00070,Major Purchase,Major Purchase — King,82057.99,81110.92,2029-06-18,At Risk,King Family,Victor Walker
+WM-GL-000097,WM-HH-00071,Home Purchase,Home Purchase — Wilson,96733.64,61154.34,2045-07-07,At Risk,Wilson Family,Victor Evans
+WM-GL-000098,WM-HH-00071,Education,Education — Wilson,266462.29,131497.09,2039-07-08,On Track,Wilson Family,Victor Evans
+WM-GL-000099,WM-HH-00072,Major Purchase,Major Purchase — Chen,179340.49,9370.56,2034-10-18,Off Track,Chen Family,Lauren Lewis
+WM-GL-000100,WM-HH-00072,Major Purchase,Major Purchase — Chen,246229.47,82835.42,2037-01-10,On Track,Chen Family,Lauren Lewis
+WM-GL-000101,WM-HH-00072,Legacy,Legacy — Chen,243518.17,70455.58,2033-09-26,On Track,Chen Family,Lauren Lewis
+WM-GL-000102,WM-HH-00073,Education,Education — Lopez,61277.6,21503.97,2031-01-06,On Track,Lopez Family,Amara Okafor
+WM-GL-000103,WM-HH-00074,Retirement,Retirement — Vaughn,3263306.13,2039973.85,2043-08-30,At Risk,Vaughn Family,Kenji Bailey
+WM-GL-000104,WM-HH-00076,Retirement,Retirement — Allen,546100.36,315202.16,2045-11-24,On Track,Allen Family,Wei King
+WM-GL-000105,WM-HH-00078,Retirement,Retirement — Anderson,619787.94,271452.1,2039-12-18,On Track,Anderson Family,Chloe Parker
+WM-GL-000106,WM-HH-00078,Legacy,Legacy — Anderson,246232.1,108568.15,2034-05-10,On Track,Anderson Family,Chloe Parker
+WM-GL-000107,WM-HH-00081,Retirement,Retirement — Silva,136599.14,134019.98,2027-04-26,On Track,Silva Family,Ava Ashford
+WM-GL-000108,WM-HH-00081,Education,Education — Silva,72485.64,66259.46,2037-07-28,On Track,Silva Family,Ava Ashford
+WM-GL-000109,WM-HH-00082,Home Purchase,Home Purchase — Edwards,88458.52,48441.15,2034-05-18,On Track,Edwards Family,Hannah Davis
+WM-GL-000110,WM-HH-00083,Home Purchase,Home Purchase — Roberts,187060.66,14564.72,2042-06-15,On Track,Roberts Family,Chloe Davis
+WM-GL-000111,WM-HH-00083,Retirement,Retirement — Roberts,1276179.93,652994.82,2036-08-21,At Risk,Roberts Family,Chloe Davis
+WM-GL-000112,WM-HH-00086,Legacy,Legacy — Chen,120079.36,84086.82,2033-07-11,On Track,Chen Family,Sara Nelson
+WM-GL-000113,WM-HH-00086,Retirement,Retirement — Chen,1092070.51,1115454.27,2045-07-25,Completed,Chen Family,Sara Nelson
+WM-GL-000114,WM-HH-00086,Home Purchase,Home Purchase — Chen,125038.33,84685.17,2041-09-20,At Risk,Chen Family,Sara Nelson
+WM-GL-000115,WM-HH-00087,Education,Education — Okafor,161957.88,23594.43,2032-10-23,On Track,Okafor Family,Priya Anderson
+WM-GL-000116,WM-HH-00088,Major Purchase,Major Purchase — Green,280821.47,119125.41,2040-06-17,On Track,Green Family,Ava Ashford
+WM-GL-000117,WM-HH-00089,Home Purchase,Home Purchase — Nguyen,294944.87,91065.15,2032-07-01,Off Track,Nguyen Family,Sofia Johnson
+WM-GL-000118,WM-HH-00089,Retirement,Retirement — Nguyen,955500.85,359075.02,2037-12-28,At Risk,Nguyen Family,Sofia Johnson
+WM-GL-000119,WM-HH-00090,Education,Education — White,204213.44,149349.37,2032-10-11,On Track,White Family,Wei King
+WM-GL-000120,WM-HH-00091,Major Purchase,Major Purchase — Martinez,255874.68,153864.45,2028-02-28,On Track,Martinez Family,Yuki Vaughn
+WM-GL-000121,WM-HH-00091,Legacy,Legacy — Martinez,217538.58,163644.6,2043-03-09,On Track,Martinez Family,Yuki Vaughn
+WM-GL-000122,WM-HH-00093,Retirement,Retirement — Wilson,809949.08,169172.96,2033-03-10,On Track,Wilson Family,Henry Parker
+WM-GL-000123,WM-HH-00095,Major Purchase,Major Purchase — Phillips,321336.95,350002.2,2034-08-30,Completed,Phillips Family,Amara White
+WM-GL-000124,WM-HH-00095,Education,Education — Phillips,231195.54,89951.91,2034-03-22,Off Track,Phillips Family,Amara White
+WM-GL-000125,WM-HH-00096,Major Purchase,Major Purchase — Morris,106661.81,54595.32,2028-05-24,Off Track,Morris Family,Nina Brown
+WM-GL-000126,WM-HH-00096,Education,Education — Morris,100765.07,57552.88,2036-04-25,At Risk,Morris Family,Nina Brown
+WM-GL-000127,WM-HH-00096,Major Purchase,Major Purchase — Morris,195695.45,90682.11,2041-03-02,On Track,Morris Family,Nina Brown
+WM-GL-000128,WM-HH-00097,Legacy,Legacy — Hall,82300.56,88657.77,2045-03-18,Completed,Hall Family,Olivia Patel
+WM-GL-000129,WM-HH-00097,Legacy,Legacy — Hall,407459.84,424138.35,2030-01-02,Completed,Hall Family,Olivia Patel
+WM-GL-000130,WM-HH-00098,Legacy,Legacy — Roberts,252038.17,111585.4,2041-12-13,At Risk,Roberts Family,Henry Parker
+WM-GL-000131,WM-HH-00099,Home Purchase,Home Purchase — Morris,536475.89,427030.1,2037-04-02,On Track,Morris Family,Owen Edwards
+WM-GL-000132,WM-HH-00099,Legacy,Legacy — Morris,379127.62,360952.79,2032-05-22,On Track,Morris Family,Owen Edwards
+WM-GL-000133,WM-HH-00100,Major Purchase,Major Purchase — Ashford,399856.94,310276.36,2044-04-26,On Track,Ashford Family,Amara White
+WM-GL-000134,WM-HH-00100,Education,Education — Ashford,146765.06,130925.32,2033-10-09,On Track,Ashford Family,Amara White
+WM-GL-000135,WM-HH-00102,Retirement,Retirement — Young,323345.08,295178.22,2028-04-18,At Risk,Young Family,Kenji Scott
+WM-GL-000136,WM-HH-00103,Legacy,Legacy — Wright,764325.6,42888.78,2038-09-05,On Track,Wright Family,Yuki Vaughn
+WM-GL-000137,WM-HH-00103,Education,Education — Wright,99731.06,74425.15,2031-07-05,Off Track,Wright Family,Yuki Vaughn
+WM-GL-000138,WM-HH-00103,Legacy,Legacy — Wright,170452.98,69976.02,2044-02-09,On Track,Wright Family,Yuki Vaughn
+WM-GL-000139,WM-HH-00104,Legacy,Legacy — Brown,104913.14,114805.28,2031-10-13,Completed,Brown Family,Priya Young
+WM-GL-000140,WM-HH-00104,Education,Education — Brown,118831.61,67169.43,2036-06-22,At Risk,Brown Family,Priya Young
+WM-GL-000141,WM-HH-00105,Major Purchase,Major Purchase — Turner,122984.45,107496.69,2033-09-28,Off Track,Turner Family,Julian Silva
+WM-GL-000142,WM-HH-00105,Major Purchase,Major Purchase — Turner,210948.06,49629.4,2030-07-03,On Track,Turner Family,Julian Silva
+WM-GL-000143,WM-HH-00105,Home Purchase,Home Purchase — Turner,155503.02,64533.44,2029-01-08,On Track,Turner Family,Julian Silva
+WM-GL-000144,WM-HH-00106,Major Purchase,Major Purchase — Brown,250641.87,260963.19,2034-06-06,Completed,Brown Family,Sara Nelson
+WM-GL-000145,WM-HH-00107,Legacy,Legacy — Johnson,267630.69,55465.91,2033-07-26,At Risk,Johnson Family,Victor Evans
+WM-GL-000146,WM-HH-00109,Major Purchase,Major Purchase — Scott,185408.01,40664.89,2030-11-08,At Risk,Scott Family,Hannah Davis
+WM-GL-000147,WM-HH-00109,Home Purchase,Home Purchase — Scott,81763.61,56086.37,2028-02-09,On Track,Scott Family,Hannah Davis
+WM-GL-000148,WM-HH-00110,Education,Education — Adams,320706.65,350837.02,2032-08-16,Completed,Adams Family,Chloe Davis
+WM-GL-000149,WM-HH-00111,Major Purchase,Major Purchase — Harris,143224.9,64653.7,2035-11-23,On Track,Harris Family,Victor Walker
+WM-GL-000150,WM-HH-00111,Legacy,Legacy — Harris,102251.66,64544.63,2029-09-17,On Track,Harris Family,Victor Walker
+WM-GL-000151,WM-HH-00113,Education,Education — Roberts,337858.94,107819.41,2044-02-14,On Track,Roberts Family,Luis Stewart
+WM-GL-000152,WM-HH-00115,Legacy,Legacy — Johnson,492029.45,477195.18,2045-07-20,On Track,Johnson Family,Hannah Davis
+WM-GL-000153,WM-HH-00116,Major Purchase,Major Purchase — Okafor,199851.98,159710.75,2030-11-23,At Risk,Okafor Family,Naomi Allen
+WM-GL-000154,WM-HH-00117,Home Purchase,Home Purchase — Adams,164185.35,143073.17,2037-01-30,On Track,Adams Family,Priya Martinez
+WM-GL-000155,WM-HH-00118,Legacy,Legacy — Lewis,600220.87,472767.13,2043-07-11,At Risk,Lewis Family,Sofia Parker
+WM-GL-000156,WM-HH-00118,Legacy,Legacy — Lewis,112554.13,40721.15,2042-06-13,At Risk,Lewis Family,Sofia Parker
+WM-GL-000157,WM-HH-00119,Major Purchase,Major Purchase — Okafor,53112.6,27356.45,2030-09-17,On Track,Okafor Family,Hannah Davis
+WM-GL-000158,WM-HH-00119,Education,Education — Okafor,182234.89,12102.22,2027-06-29,On Track,Okafor Family,Hannah Davis
+WM-GL-000159,WM-HH-00120,Retirement,Retirement — Nelson,696433.56,271910.06,2038-02-19,On Track,Nelson Family,Jamal Vaughn
+WM-GL-000160,WM-HH-00120,Legacy,Legacy — Nelson,135131.86,26916.42,2027-05-09,On Track,Nelson Family,Jamal Vaughn
+WM-GL-000161,WM-HH-00121,Legacy,Legacy — Martinez,157799.37,72283.28,2042-06-24,On Track,Martinez Family,Ava Ashford
+WM-GL-000162,WM-HH-00121,Retirement,Retirement — Martinez,960972.54,372775.65,2031-11-12,On Track,Martinez Family,Ava Ashford
+WM-GL-000163,WM-HH-00122,Retirement,Retirement — Nelson,207805.22,31503.82,2035-02-11,Off Track,Nelson Family,Owen Edwards
+WM-GL-000164,WM-HH-00122,Legacy,Legacy — Nelson,160520.9,79614.35,2030-01-21,At Risk,Nelson Family,Owen Edwards
+WM-GL-000165,WM-HH-00123,Legacy,Legacy — Phillips,151487.57,102128.07,2044-06-10,At Risk,Phillips Family,Jamal Wilson
+WM-GL-000166,WM-HH-00124,Legacy,Legacy — Edwards,160729.95,110804.48,2034-07-16,At Risk,Edwards Family,Yuki Vaughn
+WM-GL-000167,WM-HH-00125,Retirement,Retirement — Lopez,289953.97,65743.17,2029-07-21,At Risk,Lopez Family,Jamal Wilson
+WM-GL-000168,WM-HH-00126,Retirement,Retirement — Okafor,238640.84,83566.48,2031-11-03,At Risk,Okafor Family,Sara Nelson
+WM-GL-000169,WM-HH-00127,Legacy,Legacy — Bailey,94279.97,88516.53,2039-03-25,Off Track,Bailey Family,Henry Parker
+WM-GL-000170,WM-HH-00128,Home Purchase,Home Purchase — Young,197639.08,135136.12,2043-06-04,At Risk,Young Family,Yuki Vaughn
+WM-GL-000171,WM-HH-00128,Major Purchase,Major Purchase — Young,560683.07,238871.85,2044-07-22,On Track,Young Family,Yuki Vaughn
+WM-GL-000172,WM-HH-00128,Major Purchase,Major Purchase — Young,243237.01,168019.75,2036-01-05,Off Track,Young Family,Yuki Vaughn
+WM-GL-000173,WM-HH-00129,Legacy,Legacy — Silva,161763.71,28821.38,2041-05-20,On Track,Silva Family,Julian Silva
+WM-GL-000174,WM-HH-00130,Education,Education — Kim,34469.82,11895.42,2042-06-05,On Track,Kim Family,Kenji Scott
+WM-GL-000175,WM-HH-00133,Retirement,Retirement — Harris,859334.66,812584.94,2029-06-06,On Track,Harris Family,Jamal Vaughn
+WM-GL-000176,WM-HH-00134,Major Purchase,Major Purchase — Lewis,472420.31,161133.16,2040-08-23,At Risk,Lewis Family,Amara White
+WM-GL-000177,WM-HH-00134,Major Purchase,Major Purchase — Lewis,122522.99,124151.01,2034-06-26,Completed,Lewis Family,Amara White
+WM-GL-000178,WM-HH-00135,Legacy,Legacy — Kim,297958.81,261813.08,2032-08-16,On Track,Kim Family,Lauren Lewis
+WM-GL-000179,WM-HH-00136,Retirement,Retirement — Taylor,318660.3,47594.91,2041-09-27,At Risk,Taylor Family,Wei King
+WM-GL-000180,WM-HH-00137,Legacy,Legacy — White,71656.19,13714.39,2035-06-25,On Track,White Family,Yuki Vaughn
+WM-GL-000181,WM-HH-00137,Legacy,Legacy — White,233157.35,142568.28,2032-08-24,At Risk,White Family,Yuki Vaughn
+WM-GL-000182,WM-HH-00137,Major Purchase,Major Purchase — White,207559.47,25401.33,2033-06-22,On Track,White Family,Yuki Vaughn
+WM-GL-000183,WM-HH-00138,Legacy,Legacy — Davis,323752.53,140405.75,2039-11-25,At Risk,Davis Family,Noah Baker
+WM-GL-000184,WM-HH-00138,Legacy,Legacy — Davis,84567.9,62471.29,2033-12-03,Off Track,Davis Family,Noah Baker
+WM-GL-000185,WM-HH-00138,Education,Education — Davis,145831.39,126433.65,2045-01-26,On Track,Davis Family,Noah Baker
+WM-GL-000186,WM-HH-00139,Education,Education — Nguyen,245091.6,161685.68,2043-04-25,On Track,Nguyen Family,Carlos Miller
+WM-GL-000187,WM-HH-00139,Legacy,Legacy — Nguyen,527226.86,310253.53,2035-07-09,On Track,Nguyen Family,Carlos Miller
+WM-GL-000188,WM-HH-00141,Retirement,Retirement — Hall,1551973.46,1565369.72,2029-04-11,Completed,Hall Family,Priya Young
+WM-GL-000189,WM-HH-00142,Major Purchase,Major Purchase — Green,128535.93,129879.98,2032-04-09,Completed,Green Family,Grace Carter
+WM-GL-000190,WM-HH-00142,Legacy,Legacy — Green,312047.18,185457.9,2034-09-09,At Risk,Green Family,Grace Carter
+WM-GL-000191,WM-HH-00143,Major Purchase,Major Purchase — Allen,189064.01,141898.62,2043-05-04,At Risk,Allen Family,Luis Stewart
+WM-GL-000192,WM-HH-00144,Legacy,Legacy — King,103991.47,55179.88,2036-06-07,On Track,King Family,Henry Parker
+WM-GL-000193,WM-HH-00144,Legacy,Legacy — King,67657.69,34999.88,2041-11-05,Off Track,King Family,Henry Parker
+WM-GL-000194,WM-HH-00145,Major Purchase,Major Purchase — Ruiz,121616.51,117534.91,2036-09-03,On Track,Ruiz Family,Kenji Scott
+WM-GL-000195,WM-HH-00146,Home Purchase,Home Purchase — Collins,91982.56,66238.67,2027-08-23,Off Track,Collins Family,Olivia Patel
+WM-GL-000196,WM-HH-00147,Home Purchase,Home Purchase — Evans,164903.07,94569.88,2045-06-13,At Risk,Evans Family,Grace Carter
+WM-GL-000197,WM-HH-00148,Major Purchase,Major Purchase — Baker,81981.91,76617.53,2038-03-26,At Risk,Baker Family,Carlos Miller
+WM-GL-000198,WM-HH-00148,Retirement,Retirement — Baker,715702.37,459915.49,2035-09-07,At Risk,Baker Family,Carlos Miller
+WM-GL-000199,WM-HH-00149,Retirement,Retirement — Taylor,355358.33,226370.6,2037-07-19,Off Track,Taylor Family,Julian Green
+WM-GL-000200,WM-HH-00150,Education,Education — Taylor,349884.51,374102.84,2041-12-05,Completed,Taylor Family,Jamal Wilson
+WM-GL-000201,WM-HH-00150,Legacy,Legacy — Taylor,313623.02,100562.16,2030-05-28,On Track,Taylor Family,Jamal Wilson
+WM-GL-000202,WM-HH-00150,Education,Education — Taylor,98096.51,102417.68,2041-09-07,Completed,Taylor Family,Jamal Wilson
+WM-GL-000203,WM-HH-00152,Major Purchase,Major Purchase — Ruiz,137814.75,79912.03,2029-04-17,On Track,Ruiz Family,Jamal Wilson
+WM-GL-000204,WM-HH-00152,Retirement,Retirement — Ruiz,345922.86,253152.85,2037-11-11,On Track,Ruiz Family,Jamal Wilson
+WM-GL-000205,WM-HH-00153,Major Purchase,Major Purchase — Roberts,111809.1,76246.02,2042-07-20,At Risk,Roberts Family,Naomi Allen
+WM-GL-000206,WM-HH-00154,Education,Education — Campbell,213411.91,158947.32,2042-01-20,At Risk,Campbell Family,Lauren Lewis
+WM-GL-000207,WM-HH-00155,Home Purchase,Home Purchase — Phillips,193339.0,71408.27,2035-08-03,On Track,Phillips Family,Olivia Patel
+WM-GL-000208,WM-HH-00155,Home Purchase,Home Purchase — Phillips,104348.42,111135.11,2041-10-06,Completed,Phillips Family,Olivia Patel
+WM-GL-000209,WM-HH-00157,Legacy,Legacy — Mitchell,187188.1,48868.49,2040-09-30,On Track,Mitchell Family,Carlos Miller
+WM-GL-000210,WM-HH-00158,Major Purchase,Major Purchase — Allen,36844.83,15924.34,2039-11-12,On Track,Allen Family,Henry Parker
+WM-GL-000211,WM-HH-00159,Major Purchase,Major Purchase — Campbell,79991.57,79765.61,2042-12-19,Off Track,Campbell Family,Noah Baker
+WM-GL-000212,WM-HH-00159,Home Purchase,Home Purchase — Campbell,182878.68,80959.66,2029-01-09,At Risk,Campbell Family,Noah Baker
+WM-GL-000213,WM-HH-00159,Major Purchase,Major Purchase — Campbell,128103.24,49846.35,2035-05-18,On Track,Campbell Family,Noah Baker
+WM-GL-000214,WM-HH-00160,Major Purchase,Major Purchase — Garcia,108275.81,69722.74,2043-09-03,Off Track,Garcia Family,Grace Carter
+WM-GL-000215,WM-HH-00161,Retirement,Retirement — Moore,474638.73,167501.22,2041-12-13,On Track,Moore Family,Wei Ruiz
+WM-GL-000216,WM-HH-00163,Retirement,Retirement — Wilson,612378.59,602665.99,2027-12-07,On Track,Wilson Family,Luis Stewart
+WM-GL-000217,WM-HH-00164,Major Purchase,Major Purchase — Chen,42404.21,39404.16,2027-07-09,At Risk,Chen Family,Victor Evans
+WM-GL-000218,WM-HH-00165,Home Purchase,Home Purchase — Baker,112559.68,67704.02,2034-12-27,On Track,Baker Family,Yuki Vaughn
+WM-GL-000219,WM-HH-00166,Major Purchase,Major Purchase — Wilson,94339.19,6680.34,2044-07-10,On Track,Wilson Family,Sofia Parker
+WM-GL-000220,WM-HH-00168,Home Purchase,Home Purchase — Edwards,210547.0,150073.25,2041-07-25,On Track,Edwards Family,Luis Stewart
+WM-GL-000221,WM-HH-00169,Home Purchase,Home Purchase — Nguyen,68338.1,40186.99,2028-07-07,At Risk,Nguyen Family,Kenji Bailey
+WM-GL-000222,WM-HH-00169,Education,Education — Nguyen,80491.15,31516.2,2032-12-11,At Risk,Nguyen Family,Kenji Bailey
+WM-GL-000223,WM-HH-00170,Education,Education — Baker,87146.66,68366.85,2043-12-15,At Risk,Baker Family,Luis Stewart
+WM-GL-000224,WM-HH-00171,Major Purchase,Major Purchase — Taylor,101805.59,30908.9,2040-05-16,On Track,Taylor Family,Luis Stewart
+WM-GL-000225,WM-HH-00171,Legacy,Legacy — Taylor,86129.12,86903.53,2035-02-11,Completed,Taylor Family,Luis Stewart
+WM-GL-000226,WM-HH-00172,Home Purchase,Home Purchase — Collins,132371.98,12671.59,2034-10-29,Off Track,Collins Family,Chloe Parker
+WM-GL-000227,WM-HH-00173,Retirement,Retirement — Kim,359329.1,254185.04,2029-01-06,At Risk,Kim Family,Lauren Lewis
+WM-GL-000228,WM-HH-00173,Home Purchase,Home Purchase — Kim,141838.05,151563.55,2034-10-02,Completed,Kim Family,Lauren Lewis
+WM-GL-000229,WM-HH-00174,Legacy,Legacy — Evans,69386.48,9522.5,2039-05-16,Off Track,Evans Family,Naomi Allen
+WM-GL-000230,WM-HH-00174,Major Purchase,Major Purchase — Evans,89151.19,31045.74,2045-07-06,On Track,Evans Family,Naomi Allen
+WM-GL-000231,WM-HH-00176,Home Purchase,Home Purchase — Lopez,228282.07,87260.39,2044-04-27,At Risk,Lopez Family,Noah Phillips
+WM-GL-000232,WM-HH-00176,Home Purchase,Home Purchase — Lopez,142841.89,59883.99,2027-03-25,At Risk,Lopez Family,Noah Phillips
+WM-GL-000233,WM-HH-00177,Retirement,Retirement — Bailey,849191.97,210313.47,2045-04-19,On Track,Bailey Family,Chloe Davis
+WM-GL-000234,WM-HH-00179,Major Purchase,Major Purchase — Moore,87528.16,5950.75,2032-02-01,On Track,Moore Family,Chloe Davis
+WM-GL-000235,WM-HH-00180,Legacy,Legacy — Clark,300217.4,109708.56,2040-04-29,On Track,Clark Family,Owen Edwards
+WM-GL-000236,WM-HH-00180,Legacy,Legacy — Clark,73973.49,23703.77,2039-08-04,On Track,Clark Family,Owen Edwards
+WM-GL-000237,WM-HH-00182,Education,Education — Garcia,85173.79,92527.06,2044-06-26,Completed,Garcia Family,Noah Baker
+WM-GL-000238,WM-HH-00183,Retirement,Retirement — Thomas,698991.46,710001.52,2031-01-26,Completed,Thomas Family,Ava Ashford
+WM-GL-000239,WM-HH-00183,Home Purchase,Home Purchase — Thomas,444838.04,459046.23,2041-07-10,Completed,Thomas Family,Ava Ashford
+WM-GL-000240,WM-HH-00184,Retirement,Retirement — Baker,1223627.53,592094.59,2034-09-17,On Track,Baker Family,Amara Okafor
+WM-GL-000241,WM-HH-00184,Retirement,Retirement — Baker,293084.47,65175.92,2040-09-11,On Track,Baker Family,Amara Okafor
+WM-GL-000242,WM-HH-00186,Major Purchase,Major Purchase — Taylor,88524.41,11114.22,2039-05-17,On Track,Taylor Family,Julian Green
+WM-GL-000243,WM-HH-00186,Legacy,Legacy — Taylor,161349.8,35428.23,2035-08-15,On Track,Taylor Family,Julian Green
+WM-GL-000244,WM-HH-00187,Retirement,Retirement — Thomas,541709.89,107293.96,2027-11-21,At Risk,Thomas Family,Diego Silva
+WM-GL-000245,WM-HH-00188,Major Purchase,Major Purchase — Chen,222450.86,225207.13,2027-05-12,Completed,Chen Family,Sofia Parker
+WM-GL-000246,WM-HH-00188,Education,Education — Chen,100588.71,82343.72,2032-03-22,At Risk,Chen Family,Sofia Parker
+WM-GL-000247,WM-HH-00189,Home Purchase,Home Purchase — White,139621.46,131741.02,2032-10-31,At Risk,White Family,Julian Green
+WM-GL-000248,WM-HH-00189,Education,Education — White,89341.09,96048.86,2037-05-15,Completed,White Family,Julian Green
+WM-GL-000249,WM-HH-00191,Education,Education — Baker,225026.22,34629.21,2029-12-30,On Track,Baker Family,Jamal Wilson
+WM-GL-000250,WM-HH-00192,Retirement,Retirement — Patel,1633726.93,389437.05,2043-08-01,On Track,Patel Family,Jamal Vaughn
+WM-GL-000251,WM-HH-00195,Education,Education — Scott,158729.72,130927.49,2038-08-30,On Track,Scott Family,Jamal Vaughn
+WM-GL-000252,WM-HH-00196,Home Purchase,Home Purchase — Bailey,219095.84,146738.48,2035-08-08,At Risk,Bailey Family,Kenji Bailey
+WM-GL-000253,WM-HH-00197,Major Purchase,Major Purchase — Collins,91781.64,99458.11,2041-07-26,Completed,Collins Family,Olivia Patel
+WM-GL-000254,WM-HH-00197,Major Purchase,Major Purchase — Collins,39806.21,29034.79,2031-09-26,At Risk,Collins Family,Olivia Patel
+WM-GL-000255,WM-HH-00199,Home Purchase,Home Purchase — Roberts,300514.75,231321.31,2029-05-28,On Track,Roberts Family,Yuki Vaughn
+WM-GL-000256,WM-HH-00199,Legacy,Legacy — Roberts,422756.07,269480.22,2039-09-27,At Risk,Roberts Family,Yuki Vaughn
+WM-GL-000257,WM-HH-00200,Major Purchase,Major Purchase — Silva,129813.12,82218.76,2036-10-03,Off Track,Silva Family,Ava Ashford
+WM-GL-000258,WM-HH-00200,Legacy,Legacy — Silva,94330.02,67961.1,2038-09-16,At Risk,Silva Family,Ava Ashford
+WM-GL-000259,WM-HH-00200,Legacy,Legacy — Silva,91100.12,81028.32,2037-09-19,On Track,Silva Family,Ava Ashford
+WM-GL-000260,WM-HH-00201,Retirement,Retirement — Okafor,423528.68,419095.55,2043-02-22,At Risk,Okafor Family,Henry Parker
+WM-GL-000261,WM-HH-00202,Home Purchase,Home Purchase — Ruiz,286492.28,15484.59,2035-12-29,On Track,Ruiz Family,Naomi Allen
+WM-GL-000262,WM-HH-00203,Major Purchase,Major Purchase — Stewart,37471.87,28429.26,2044-04-24,Off Track,Stewart Family,Naomi Allen
+WM-GL-000263,WM-HH-00204,Legacy,Legacy — Scott,79420.47,27138.98,2028-01-12,On Track,Scott Family,Priya Young
+WM-GL-000264,WM-HH-00204,Retirement,Retirement — Scott,455312.8,325420.52,2037-02-26,On Track,Scott Family,Priya Young
+WM-GL-000265,WM-HH-00205,Major Purchase,Major Purchase — Evans,84755.66,8405.88,2039-11-05,At Risk,Evans Family,Sofia Johnson
+WM-GL-000266,WM-HH-00205,Legacy,Legacy — Evans,73246.47,19022.04,2044-01-10,On Track,Evans Family,Sofia Johnson
+WM-GL-000267,WM-HH-00206,Education,Education — Anderson,109637.77,8132.38,2040-12-28,At Risk,Anderson Family,Yuki Vaughn
+WM-GL-000268,WM-HH-00207,Legacy,Legacy — Silva,124713.68,61124.79,2037-08-24,At Risk,Silva Family,Priya Young
+WM-GL-000269,WM-HH-00209,Home Purchase,Home Purchase — Young,131157.01,14025.92,2038-05-07,Off Track,Young Family,Carlos Miller
+WM-GL-000270,WM-HH-00212,Major Purchase,Major Purchase — Evans,151753.61,88581.62,2032-01-20,On Track,Evans Family,Hannah Davis
+WM-GL-000271,WM-HH-00212,Major Purchase,Major Purchase — Evans,84022.06,65619.03,2037-12-05,Off Track,Evans Family,Hannah Davis
+WM-GL-000272,WM-HH-00213,Home Purchase,Home Purchase — Thomas,73251.2,10368.19,2040-02-26,On Track,Thomas Family,Leo Evans
+WM-GL-000273,WM-HH-00214,Major Purchase,Major Purchase — Morris,169509.92,65784.4,2035-12-24,On Track,Morris Family,Chloe Davis
+WM-GL-000274,WM-HH-00214,Home Purchase,Home Purchase — Morris,111673.64,94202.4,2040-07-07,At Risk,Morris Family,Chloe Davis
+WM-GL-000275,WM-HH-00215,Education,Education — White,92441.65,72775.45,2028-07-25,On Track,White Family,Sara Nelson
+WM-GL-000276,WM-HH-00215,Major Purchase,Major Purchase — White,369632.78,298265.03,2040-04-10,On Track,White Family,Sara Nelson
+WM-GL-000277,WM-HH-00216,Retirement,Retirement — Bailey,805286.46,270539.16,2041-11-13,On Track,Bailey Family,Owen Edwards
+WM-GL-000278,WM-HH-00216,Home Purchase,Home Purchase — Bailey,185672.88,143297.0,2027-04-30,Off Track,Bailey Family,Owen Edwards
+WM-GL-000279,WM-HH-00217,Legacy,Legacy — Walker,157716.94,128177.48,2038-05-09,Off Track,Walker Family,Carlos Miller
+WM-GL-000280,WM-HH-00218,Retirement,Retirement — Bailey,849383.41,554161.34,2041-04-21,On Track,Bailey Family,Sara Nelson
+WM-GL-000281,WM-HH-00218,Major Purchase,Major Purchase — Bailey,50883.14,8076.82,2030-02-02,At Risk,Bailey Family,Sara Nelson
+WM-GL-000282,WM-HH-00218,Home Purchase,Home Purchase — Bailey,141837.91,42134.27,2040-03-20,At Risk,Bailey Family,Sara Nelson
+WM-GL-000283,WM-HH-00219,Retirement,Retirement — Patel,556705.42,86852.57,2035-04-29,On Track,Patel Family,Olivia Stewart
+WM-GL-000284,WM-HH-00219,Legacy,Legacy — Patel,77775.17,43500.28,2044-08-19,On Track,Patel Family,Olivia Stewart
+WM-GL-000285,WM-HH-00220,Legacy,Legacy — Taylor,172821.22,61150.41,2030-07-09,At Risk,Taylor Family,Julian Silva
+WM-GL-000286,WM-HH-00221,Retirement,Retirement — Baker,635958.15,36667.34,2040-12-30,Off Track,Baker Family,Priya Anderson
+WM-GL-000287,WM-HH-00221,Retirement,Retirement — Baker,544329.62,446918.05,2040-09-08,On Track,Baker Family,Priya Anderson
+WM-GL-000288,WM-HH-00223,Home Purchase,Home Purchase — Carter,126548.93,127458.46,2035-04-16,Completed,Carter Family,Julian Green
+WM-GL-000289,WM-HH-00223,Education,Education — Carter,91497.04,53516.44,2041-07-27,At Risk,Carter Family,Julian Green
+WM-GL-000290,WM-HH-00224,Home Purchase,Home Purchase — Baker,201968.17,189917.21,2044-04-25,On Track,Baker Family,Sofia Parker
+WM-GL-000291,WM-HH-00224,Legacy,Legacy — Baker,110197.1,38482.44,2033-07-08,Off Track,Baker Family,Sofia Parker
+WM-GL-000292,WM-HH-00227,Retirement,Retirement — Ruiz,3423689.29,735112.94,2033-06-25,On Track,Ruiz Family,Yuki Vaughn
+WM-GL-000293,WM-HH-00227,Home Purchase,Home Purchase — Ruiz,30638.63,29218.47,2042-02-23,At Risk,Ruiz Family,Yuki Vaughn
+WM-GL-000294,WM-HH-00229,Education,Education — Moore,213743.89,204847.66,2029-11-18,Off Track,Moore Family,Sofia Johnson
+WM-GL-000295,WM-HH-00229,Legacy,Legacy — Moore,150435.24,81998.85,2040-05-13,On Track,Moore Family,Sofia Johnson
+WM-GL-000296,WM-HH-00231,Home Purchase,Home Purchase — Johnson,102739.4,73532.81,2029-09-04,At Risk,Johnson Family,Naomi Allen
+WM-GL-000297,WM-HH-00231,Home Purchase,Home Purchase — Johnson,104505.91,71255.11,2029-02-24,On Track,Johnson Family,Naomi Allen
+WM-GL-000298,WM-HH-00231,Home Purchase,Home Purchase — Johnson,127287.15,7264.29,2039-10-14,On Track,Johnson Family,Naomi Allen
+WM-GL-000299,WM-HH-00232,Major Purchase,Major Purchase — Silva,131440.94,98900.39,2039-05-11,On Track,Silva Family,Hannah Davis
+WM-GL-000300,WM-HH-00233,Retirement,Retirement — Jackson,234716.26,154644.8,2031-08-17,Off Track,Jackson Family,Leo Evans
+WM-GL-000301,WM-HH-00233,Major Purchase,Major Purchase — Jackson,83820.98,55474.7,2039-07-04,On Track,Jackson Family,Leo Evans
+WM-GL-000302,WM-HH-00234,Retirement,Retirement — Vaughn,561904.72,511339.4,2033-12-07,At Risk,Vaughn Family,Lauren Lewis
+WM-GL-000303,WM-HH-00235,Home Purchase,Home Purchase — Nguyen,141054.05,13602.32,2042-03-22,On Track,Nguyen Family,Isabella Okafor
+WM-GL-000304,WM-HH-00236,Education,Education — Ashford,48256.28,41611.07,2036-08-14,Off Track,Ashford Family,Owen Edwards
+WM-GL-000305,WM-HH-00237,Education,Education — Taylor,79857.48,48472.72,2032-02-17,On Track,Taylor Family,Victor Walker
+WM-GL-000306,WM-HH-00238,Home Purchase,Home Purchase — Stewart,278004.69,240187.58,2038-01-03,On Track,Stewart Family,Amara Okafor
+WM-GL-000307,WM-HH-00238,Major Purchase,Major Purchase — Stewart,51132.0,5010.17,2037-03-18,At Risk,Stewart Family,Amara Okafor
+WM-GL-000308,WM-HH-00239,Home Purchase,Home Purchase — Ashford,196912.62,205915.1,2038-03-03,Completed,Ashford Family,Noah Phillips
+WM-GL-000309,WM-HH-00239,Retirement,Retirement — Ashford,693834.0,615442.04,2042-08-21,At Risk,Ashford Family,Noah Phillips
+WM-GL-000310,WM-HH-00241,Home Purchase,Home Purchase — Lewis,123236.49,112265.25,2027-10-29,At Risk,Lewis Family,Noah Baker
+WM-GL-000311,WM-HH-00245,Retirement,Retirement — Nelson,304748.83,290649.7,2038-01-20,On Track,Nelson Family,Naomi Allen
+WM-GL-000312,WM-HH-00245,Retirement,Retirement — Nelson,513784.12,183662.36,2029-12-01,On Track,Nelson Family,Naomi Allen
+WM-GL-000313,WM-HH-00247,Retirement,Retirement — Turner,515095.73,260476.29,2028-02-07,At Risk,Turner Family,Kenji Bailey
+WM-GL-000314,WM-HH-00247,Home Purchase,Home Purchase — Turner,288282.28,33583.96,2038-05-11,On Track,Turner Family,Kenji Bailey
+WM-GL-000315,WM-HH-00248,Home Purchase,Home Purchase — Martinez,168141.7,68437.72,2035-03-22,On Track,Martinez Family,Sofia Johnson
+WM-GL-000316,WM-HH-00249,Legacy,Legacy — Carter,391232.1,202641.27,2039-05-21,Off Track,Carter Family,Priya Young
+WM-GL-000317,WM-HH-00250,Retirement,Retirement — Edwards,1272314.81,469889.61,2030-09-14,On Track,Edwards Family,Ava Ashford
+WM-GL-000318,WM-HH-00251,Retirement,Retirement — Roberts,354025.3,93379.69,2037-07-04,At Risk,Roberts Family,Priya Martinez
+WM-GL-000319,WM-HH-00251,Home Purchase,Home Purchase — Roberts,256110.95,138854.21,2040-07-03,On Track,Roberts Family,Priya Martinez
+WM-GL-000320,WM-HH-00252,Legacy,Legacy — Garcia,359314.56,246617.88,2031-06-07,On Track,Garcia Family,Grace Carter
+WM-GL-000321,WM-HH-00252,Home Purchase,Home Purchase — Garcia,79561.15,84505.22,2039-06-03,Completed,Garcia Family,Grace Carter
+WM-GL-000322,WM-HH-00252,Education,Education — Garcia,227266.42,17539.57,2035-06-07,On Track,Garcia Family,Grace Carter
+WM-GL-000323,WM-HH-00253,Home Purchase,Home Purchase — Moore,174624.4,27417.52,2034-06-25,At Risk,Moore Family,Leo Evans
+WM-GL-000324,WM-HH-00254,Retirement,Retirement — Kim,1310572.04,877266.99,2028-08-21,At Risk,Kim Family,Owen White
+WM-GL-000325,WM-HH-00254,Education,Education — Kim,87709.2,18085.24,2029-08-18,At Risk,Kim Family,Owen White
+WM-GL-000326,WM-HH-00256,Education,Education — Edwards,97764.5,19336.55,2034-10-31,On Track,Edwards Family,Priya Martinez
+WM-GL-000327,WM-HH-00257,Major Purchase,Major Purchase — Roberts,242786.99,259107.63,2038-08-17,Completed,Roberts Family,Amara White
+WM-GL-000328,WM-HH-00259,Education,Education — Anderson,536241.74,238900.57,2032-07-31,On Track,Anderson Family,Chloe Davis
+WM-GL-000329,WM-HH-00259,Major Purchase,Major Purchase — Anderson,104870.19,21173.04,2028-11-25,On Track,Anderson Family,Chloe Davis
+WM-GL-000330,WM-HH-00260,Home Purchase,Home Purchase — Scott,131724.78,125727.15,2044-10-06,On Track,Scott Family,Kenji Stewart
+WM-GL-000331,WM-HH-00261,Legacy,Legacy — Johnson,50234.46,8528.04,2037-10-26,On Track,Johnson Family,Yuki Vaughn
+WM-GL-000332,WM-HH-00262,Home Purchase,Home Purchase — Patel,82548.92,21560.03,2040-03-02,On Track,Patel Family,Julian Green
+WM-GL-000333,WM-HH-00262,Legacy,Legacy — Patel,502043.26,319588.27,2028-05-22,On Track,Patel Family,Julian Green
+WM-GL-000334,WM-HH-00263,Major Purchase,Major Purchase — Collins,107476.54,35819.4,2027-03-07,On Track,Collins Family,Kenji Stewart
+WM-GL-000335,WM-HH-00264,Retirement,Retirement — Lewis,1351592.22,998012.21,2038-09-14,On Track,Lewis Family,Olivia Patel
+WM-GL-000336,WM-HH-00264,Home Purchase,Home Purchase — Lewis,446602.26,425114.02,2035-07-07,At Risk,Lewis Family,Olivia Patel
+WM-GL-000337,WM-HH-00265,Education,Education — Davis,132193.16,76397.07,2035-12-21,On Track,Davis Family,Wei King
+WM-GL-000338,WM-HH-00267,Major Purchase,Major Purchase — Wilson,120747.86,17287.25,2043-01-03,On Track,Wilson Family,Amara Okafor
+WM-GL-000339,WM-HH-00267,Home Purchase,Home Purchase — Wilson,220685.19,76336.64,2038-11-02,On Track,Wilson Family,Amara Okafor
+WM-GL-000340,WM-HH-00268,Major Purchase,Major Purchase — Lewis,499863.99,145903.09,2027-07-05,At Risk,Lewis Family,Julian Green
+WM-GL-000341,WM-HH-00269,Home Purchase,Home Purchase — Garcia,371700.57,208338.34,2033-09-08,At Risk,Garcia Family,Amara White
+WM-GL-000342,WM-HH-00270,Retirement,Retirement — Chen,400603.52,203744.67,2035-05-13,At Risk,Chen Family,Olivia Stewart
+WM-GL-000343,WM-HH-00271,Retirement,Retirement — Wilson,1189957.62,346911.44,2035-02-27,Off Track,Wilson Family,Amara White
+WM-GL-000344,WM-HH-00271,Major Purchase,Major Purchase — Wilson,767885.61,328973.0,2044-09-30,At Risk,Wilson Family,Amara White
+WM-GL-000345,WM-HH-00272,Home Purchase,Home Purchase — Nelson,122166.35,33186.71,2027-12-25,On Track,Nelson Family,Henry Parker
+WM-GL-000346,WM-HH-00272,Home Purchase,Home Purchase — Nelson,289135.47,57441.73,2029-06-27,At Risk,Nelson Family,Henry Parker
+WM-GL-000347,WM-HH-00272,Legacy,Legacy — Nelson,151750.16,31312.46,2033-08-16,On Track,Nelson Family,Henry Parker
+WM-GL-000348,WM-HH-00273,Home Purchase,Home Purchase — Thomas,324232.05,214373.79,2036-10-04,On Track,Thomas Family,Priya Anderson
+WM-GL-000349,WM-HH-00273,Retirement,Retirement — Thomas,1514752.29,1606571.73,2044-03-10,Completed,Thomas Family,Priya Anderson
+WM-GL-000350,WM-HH-00273,Legacy,Legacy — Thomas,81763.36,5543.08,2028-12-31,On Track,Thomas Family,Priya Anderson
+WM-GL-000351,WM-HH-00274,Education,Education — Green,503501.46,436567.59,2035-01-21,At Risk,Green Family,Sofia Parker
+WM-GL-000352,WM-HH-00274,Major Purchase,Major Purchase — Green,86686.68,81834.14,2032-09-02,At Risk,Green Family,Sofia Parker
+WM-GL-000353,WM-HH-00275,Home Purchase,Home Purchase — Evans,115786.07,71347.73,2039-05-22,On Track,Evans Family,Leo Evans
+WM-GL-000354,WM-HH-00276,Legacy,Legacy — Allen,136020.16,13859.57,2038-10-11,On Track,Allen Family,Olivia Patel
+WM-GL-000355,WM-HH-00277,Home Purchase,Home Purchase — Vaughn,70959.22,41831.39,2034-06-30,On Track,Vaughn Family,Priya Martinez
+WM-GL-000356,WM-HH-00278,Major Purchase,Major Purchase — Collins,70778.54,46880.89,2043-11-23,At Risk,Collins Family,Jamal Wilson
+WM-GL-000357,WM-HH-00279,Education,Education — Chen,255533.21,173992.44,2045-09-23,On Track,Chen Family,Luis Stewart
+WM-GL-000358,WM-HH-00280,Education,Education — Patel,297900.61,315175.24,2032-09-19,Completed,Patel Family,Jamal Wilson
+WM-GL-000359,WM-HH-00280,Retirement,Retirement — Patel,484709.71,103250.41,2035-03-03,Off Track,Patel Family,Jamal Wilson
+WM-GL-000360,WM-HH-00280,Legacy,Legacy — Patel,145531.29,134018.21,2030-07-07,At Risk,Patel Family,Jamal Wilson
+WM-GL-000361,WM-HH-00283,Retirement,Retirement — Hall,977034.89,359064.3,2042-07-22,On Track,Hall Family,Henry Parker
+WM-GL-000362,WM-HH-00284,Legacy,Legacy — Brown,111433.62,82354.84,2037-08-07,At Risk,Brown Family,Olivia Patel
+WM-GL-000363,WM-HH-00285,Home Purchase,Home Purchase — King,368198.09,280120.36,2043-10-11,On Track,King Family,Diego Silva
+WM-GL-000364,WM-HH-00286,Retirement,Retirement — Anderson,523191.91,513184.76,2036-03-18,On Track,Anderson Family,Noah Phillips
+WM-GL-000365,WM-HH-00288,Home Purchase,Home Purchase — Adams,59868.61,53468.66,2031-11-15,Off Track,Adams Family,Naomi Allen
+WM-GL-000366,WM-HH-00289,Home Purchase,Home Purchase — Collins,260131.07,231767.91,2035-09-28,On Track,Collins Family,Amara White
+WM-GL-000367,WM-HH-00290,Retirement,Retirement — Ruiz,156589.55,12265.85,2045-09-10,Off Track,Ruiz Family,Sofia Parker
+WM-GL-000368,WM-HH-00290,Major Purchase,Major Purchase — Ruiz,142667.38,97610.06,2030-05-05,At Risk,Ruiz Family,Sofia Parker
+WM-GL-000369,WM-HH-00292,Education,Education — Wilson,201567.94,53349.0,2039-07-11,At Risk,Wilson Family,Sara Nelson
+WM-GL-000370,WM-HH-00292,Major Purchase,Major Purchase — Wilson,325880.43,171915.31,2036-09-05,On Track,Wilson Family,Sara Nelson
+WM-GL-000371,WM-HH-00294,Education,Education — Thomas,129436.03,118445.94,2033-11-13,At Risk,Thomas Family,Priya Young
+WM-GL-000372,WM-HH-00294,Home Purchase,Home Purchase — Thomas,107844.01,114834.87,2043-08-03,Completed,Thomas Family,Priya Young
+WM-GL-000373,WM-HH-00295,Legacy,Legacy — Carter,135622.02,81818.33,2029-12-16,At Risk,Carter Family,Lauren Lewis
+WM-GL-000374,WM-HH-00295,Education,Education — Carter,249506.37,257565.23,2027-09-22,Completed,Carter Family,Lauren Lewis
+WM-GL-000375,WM-HH-00295,Home Purchase,Home Purchase — Carter,225639.13,55945.62,2043-04-20,On Track,Carter Family,Lauren Lewis
+WM-GL-000376,WM-HH-00296,Legacy,Legacy — King,175099.25,169107.37,2031-12-22,At Risk,King Family,Owen Edwards
+WM-GL-000377,WM-HH-00297,Retirement,Retirement — Roberts,1185732.95,508839.82,2042-03-08,At Risk,Roberts Family,Henry Parker
+WM-GL-000378,WM-HH-00297,Home Purchase,Home Purchase — Roberts,213511.5,132902.75,2031-09-22,At Risk,Roberts Family,Henry Parker
+WM-GL-000379,WM-HH-00298,Major Purchase,Major Purchase — Green,120379.35,64994.09,2045-03-14,At Risk,Green Family,Sofia Johnson
+WM-GL-000380,WM-HH-00299,Retirement,Retirement — Parker,801751.57,796601.21,2039-01-20,On Track,Parker Family,Olivia Patel
+WM-GL-000381,WM-HH-00300,Legacy,Legacy — Taylor,139999.79,112237.36,2042-12-04,On Track,Taylor Family,Priya Young
+WM-GL-000382,WM-HH-00301,Legacy,Legacy — Roberts,611300.0,244911.49,2034-12-14,On Track,Roberts Family,Olivia Patel
+WM-GL-000383,WM-HH-00302,Legacy,Legacy — Miller,206765.63,219124.32,2036-05-22,Completed,Miller Family,Sara Nelson
+WM-GL-000384,WM-HH-00303,Legacy,Legacy — Young,83418.06,33065.19,2027-10-31,Off Track,Young Family,Owen Edwards
+WM-GL-000385,WM-HH-00303,Major Purchase,Major Purchase — Young,127827.63,89762.66,2040-03-08,At Risk,Young Family,Owen Edwards
+WM-GL-000386,WM-HH-00303,Retirement,Retirement — Young,827625.67,170668.98,2034-11-01,At Risk,Young Family,Owen Edwards
+WM-GL-000387,WM-HH-00304,Education,Education — Chen,349014.36,71787.25,2028-07-08,On Track,Chen Family,Henry Parker
+WM-GL-000388,WM-HH-00305,Retirement,Retirement — Wilson,274844.04,80167.7,2032-07-26,On Track,Wilson Family,Nina Brown
+WM-GL-000389,WM-HH-00305,Major Purchase,Major Purchase — Wilson,175191.51,124250.28,2027-07-17,On Track,Wilson Family,Nina Brown
+WM-GL-000390,WM-HH-00305,Legacy,Legacy — Wilson,80263.8,9191.16,2031-10-08,On Track,Wilson Family,Nina Brown
+WM-GL-000391,WM-HH-00306,Education,Education — Lopez,82240.4,72925.54,2033-03-20,At Risk,Lopez Family,Olivia Stewart
+WM-GL-000392,WM-HH-00307,Legacy,Legacy — Green,59140.5,64860.56,2043-10-11,Completed,Green Family,Diego Silva
+WM-GL-000393,WM-HH-00307,Retirement,Retirement — Green,296656.1,58756.22,2037-05-30,At Risk,Green Family,Diego Silva
+WM-GL-000394,WM-HH-00308,Home Purchase,Home Purchase — Brown,84107.15,36458.72,2038-09-19,On Track,Brown Family,Nina Brown
+WM-GL-000395,WM-HH-00308,Retirement,Retirement — Brown,490537.5,396657.11,2040-11-22,At Risk,Brown Family,Nina Brown
+WM-GL-000396,WM-HH-00308,Education,Education — Brown,269167.49,152425.85,2042-01-25,Off Track,Brown Family,Nina Brown
+WM-GL-000397,WM-HH-00309,Major Purchase,Major Purchase — White,168683.42,78112.87,2038-11-20,On Track,White Family,Chloe Parker
+WM-GL-000398,WM-HH-00310,Major Purchase,Major Purchase — Carter,483119.43,409458.8,2039-01-01,On Track,Carter Family,Diego Silva
+WM-GL-000399,WM-HH-00310,Retirement,Retirement — Carter,615031.73,587692.89,2041-12-01,On Track,Carter Family,Diego Silva
+WM-GL-000400,WM-HH-00310,Home Purchase,Home Purchase — Carter,55182.58,59224.53,2036-10-28,Completed,Carter Family,Diego Silva
+WM-GL-000401,WM-HH-00311,Legacy,Legacy — Green,23321.9,12864.03,2035-11-21,On Track,Green Family,Olivia Patel
+WM-GL-000402,WM-HH-00311,Education,Education — Green,131866.93,90308.81,2041-11-09,On Track,Green Family,Olivia Patel
+WM-GL-000403,WM-HH-00312,Legacy,Legacy — Evans,100218.71,25847.31,2029-05-03,At Risk,Evans Family,Yuki Vaughn
+WM-GL-000404,WM-HH-00313,Home Purchase,Home Purchase — Walker,168687.0,121714.04,2042-09-04,On Track,Walker Family,Jamal Wilson
+WM-GL-000405,WM-HH-00315,Education,Education — Campbell,236994.04,192124.25,2037-06-25,At Risk,Campbell Family,Priya Anderson
+WM-GL-000406,WM-HH-00316,Legacy,Legacy — Carter,141187.14,108574.6,2031-09-30,On Track,Carter Family,Luis Stewart
+WM-GL-000407,WM-HH-00317,Major Purchase,Major Purchase — Chen,271869.33,51351.96,2032-04-27,Off Track,Chen Family,Chloe Davis
+WM-GL-000408,WM-HH-00318,Legacy,Legacy — Mitchell,138147.32,15249.96,2038-01-17,On Track,Mitchell Family,Jamal Vaughn
+WM-GL-000409,WM-HH-00319,Retirement,Retirement — Carter,197119.2,153397.82,2027-07-30,At Risk,Carter Family,Chloe Davis
+WM-GL-000410,WM-HH-00320,Legacy,Legacy — Thomas,1008223.5,990428.39,2039-05-02,At Risk,Thomas Family,Jamal Wilson
+WM-GL-000411,WM-HH-00321,Legacy,Legacy — Nelson,269812.46,31825.49,2043-04-11,At Risk,Nelson Family,Nina Brown
+WM-GL-000412,WM-HH-00321,Major Purchase,Major Purchase — Nelson,69667.34,49806.08,2031-12-14,On Track,Nelson Family,Nina Brown
+WM-GL-000413,WM-HH-00323,Home Purchase,Home Purchase — Okafor,140024.99,48299.5,2034-12-25,On Track,Okafor Family,Priya Anderson
+WM-GL-000414,WM-HH-00324,Major Purchase,Major Purchase — Phillips,203868.29,91527.76,2044-01-14,On Track,Phillips Family,Lauren Lewis
+WM-GL-000415,WM-HH-00324,Home Purchase,Home Purchase — Phillips,53555.04,25955.67,2039-07-22,On Track,Phillips Family,Lauren Lewis
+WM-GL-000416,WM-HH-00324,Retirement,Retirement — Phillips,523032.47,264228.43,2033-06-07,On Track,Phillips Family,Lauren Lewis
+WM-GL-000417,WM-HH-00326,Major Purchase,Major Purchase — Silva,95021.01,45532.9,2029-02-16,Off Track,Silva Family,Wei Ruiz
+WM-GL-000418,WM-HH-00326,Major Purchase,Major Purchase — Silva,111946.02,111140.35,2039-05-31,On Track,Silva Family,Wei Ruiz
+WM-GL-000419,WM-HH-00327,Retirement,Retirement — Lewis,564590.82,576421.15,2041-08-24,Completed,Lewis Family,Naomi Allen
+WM-GL-000420,WM-HH-00328,Major Purchase,Major Purchase — Moore,130917.16,143788.79,2029-10-04,Completed,Moore Family,Jamal Wilson
+WM-GL-000421,WM-HH-00328,Education,Education — Moore,66093.45,23961.88,2040-01-12,Off Track,Moore Family,Jamal Wilson
+WM-GL-000422,WM-HH-00328,Retirement,Retirement — Moore,639471.59,39511.99,2045-11-18,On Track,Moore Family,Jamal Wilson
+WM-GL-000423,WM-HH-00330,Legacy,Legacy — Green,69946.37,6121.67,2037-12-31,At Risk,Green Family,Chloe Parker
+WM-GL-000424,WM-HH-00330,Home Purchase,Home Purchase — Green,90858.21,91938.4,2027-11-02,Completed,Green Family,Chloe Parker
+WM-GL-000425,WM-HH-00330,Major Purchase,Major Purchase — Green,284932.4,264176.17,2031-05-19,At Risk,Green Family,Chloe Parker
+WM-GL-000426,WM-HH-00332,Legacy,Legacy — Edwards,468273.59,510127.94,2040-06-28,Completed,Edwards Family,Lauren Lewis
+WM-GL-000427,WM-HH-00332,Legacy,Legacy — Edwards,158773.19,135600.24,2034-11-18,At Risk,Edwards Family,Lauren Lewis
+WM-GL-000428,WM-HH-00333,Legacy,Legacy — Patel,157251.74,34999.73,2033-04-18,On Track,Patel Family,Amara Okafor
+WM-GL-000429,WM-HH-00333,Home Purchase,Home Purchase — Patel,109321.71,81576.28,2035-11-13,At Risk,Patel Family,Amara Okafor
+WM-GL-000430,WM-HH-00335,Education,Education — Ruiz,154750.03,145622.21,2035-07-27,On Track,Ruiz Family,Victor Walker
+WM-GL-000431,WM-HH-00335,Major Purchase,Major Purchase — Ruiz,170570.08,153306.47,2032-10-20,On Track,Ruiz Family,Victor Walker
+WM-GL-000432,WM-HH-00335,Education,Education — Ruiz,65680.37,70928.01,2041-09-30,Completed,Ruiz Family,Victor Walker
+WM-GL-000433,WM-HH-00337,Education,Education — Patel,189429.46,81906.73,2044-11-04,On Track,Patel Family,Priya Martinez
+WM-GL-000434,WM-HH-00338,Education,Education — Bailey,51523.34,27052.58,2041-08-13,At Risk,Bailey Family,Owen White
+WM-GL-000435,WM-HH-00338,Education,Education — Bailey,192932.43,184982.3,2028-03-28,On Track,Bailey Family,Owen White
+WM-GL-000436,WM-HH-00339,Legacy,Legacy — Mitchell,301261.42,301553.2,2035-12-24,Completed,Mitchell Family,Julian Green
+WM-GL-000437,WM-HH-00340,Home Purchase,Home Purchase — Roberts,119365.82,77716.76,2032-02-03,On Track,Roberts Family,Julian Green
+WM-GL-000438,WM-HH-00340,Major Purchase,Major Purchase — Roberts,221559.87,36769.81,2034-04-01,At Risk,Roberts Family,Julian Green
+WM-GL-000439,WM-HH-00342,Major Purchase,Major Purchase — Evans,239467.77,178124.42,2043-01-15,Off Track,Evans Family,Ava Ashford
+WM-GL-000440,WM-HH-00342,Retirement,Retirement — Evans,363581.64,399832.53,2031-09-20,Completed,Evans Family,Ava Ashford
+WM-GL-000441,WM-HH-00343,Major Purchase,Major Purchase — Young,138099.55,33161.04,2032-02-13,At Risk,Young Family,Noah Phillips
+WM-GL-000442,WM-HH-00344,Legacy,Legacy — Nelson,33883.41,14023.05,2036-04-05,On Track,Nelson Family,Priya Anderson
+WM-GL-000443,WM-HH-00344,Retirement,Retirement — Nelson,670186.73,725315.54,2031-08-03,Completed,Nelson Family,Priya Anderson
+WM-GL-000444,WM-HH-00344,Major Purchase,Major Purchase — Nelson,260685.26,169184.49,2035-11-04,Off Track,Nelson Family,Priya Anderson
+WM-GL-000445,WM-HH-00345,Retirement,Retirement — Nelson,321718.1,212099.81,2043-04-02,On Track,Nelson Family,Priya Anderson
+WM-GL-000446,WM-HH-00346,Legacy,Legacy — Stewart,73229.2,77241.25,2031-09-29,Completed,Stewart Family,Priya Anderson
+WM-GL-000447,WM-HH-00346,Home Purchase,Home Purchase — Stewart,428546.69,451885.98,2034-10-13,Completed,Stewart Family,Priya Anderson
+WM-GL-000448,WM-HH-00346,Education,Education — Stewart,188819.4,16603.37,2042-10-13,On Track,Stewart Family,Priya Anderson
+WM-GL-000449,WM-HH-00347,Education,Education — Clark,501224.02,406440.99,2030-05-31,On Track,Clark Family,Yuki Vaughn
+WM-GL-000450,WM-HH-00348,Legacy,Legacy — Morris,107236.59,99090.24,2044-06-02,On Track,Morris Family,Chloe Parker
+WM-GL-000451,WM-HH-00348,Home Purchase,Home Purchase — Morris,184635.97,114825.31,2034-10-18,On Track,Morris Family,Chloe Parker
+WM-GL-000452,WM-HH-00348,Retirement,Retirement — Morris,1652470.41,747253.19,2045-11-06,On Track,Morris Family,Chloe Parker
+WM-GL-000453,WM-HH-00349,Major Purchase,Major Purchase — Campbell,81533.65,7137.59,2032-04-24,Off Track,Campbell Family,Luis Stewart
+WM-GL-000454,WM-HH-00350,Major Purchase,Major Purchase — Miller,42378.4,44914.05,2032-08-03,Completed,Miller Family,Luis Stewart
+WM-GL-000455,WM-HH-00351,Education,Education — Collins,122397.96,114926.46,2040-11-21,At Risk,Collins Family,Kenji Stewart
+WM-GL-000456,WM-HH-00352,Legacy,Legacy — Bailey,150259.72,85634.6,2032-08-18,On Track,Bailey Family,Nina Brown
+WM-GL-000457,WM-HH-00352,Home Purchase,Home Purchase — Bailey,92288.17,58532.61,2030-04-26,On Track,Bailey Family,Nina Brown
+WM-GL-000458,WM-HH-00353,Education,Education — Roberts,1164245.98,1201422.75,2041-09-23,Completed,Roberts Family,Kenji Scott
+WM-GL-000459,WM-HH-00354,Home Purchase,Home Purchase — Edwards,332994.3,220843.64,2028-01-31,Off Track,Edwards Family,Owen White
+WM-GL-000460,WM-HH-00354,Retirement,Retirement — Edwards,1889594.81,338776.89,2028-10-13,On Track,Edwards Family,Owen White
+WM-GL-000461,WM-HH-00355,Home Purchase,Home Purchase — Lopez,132526.18,44423.72,2035-05-04,On Track,Lopez Family,Wei Ruiz
+WM-GL-000462,WM-HH-00355,Major Purchase,Major Purchase — Lopez,88235.32,85813.98,2043-10-07,On Track,Lopez Family,Wei Ruiz
+WM-GL-000463,WM-HH-00355,Legacy,Legacy — Lopez,579745.78,29337.75,2036-06-01,Off Track,Lopez Family,Wei Ruiz
+WM-GL-000464,WM-HH-00356,Retirement,Retirement — Chen,315594.17,282195.39,2039-11-27,At Risk,Chen Family,Sara Nelson
+WM-GL-000465,WM-HH-00357,Education,Education — Mitchell,118428.73,29514.45,2032-05-24,On Track,Mitchell Family,Owen Edwards
+WM-GL-000466,WM-HH-00357,Retirement,Retirement — Mitchell,469628.38,86730.55,2027-04-17,On Track,Mitchell Family,Owen Edwards
+WM-GL-000467,WM-HH-00358,Home Purchase,Home Purchase — Collins,234898.15,119481.74,2042-07-28,At Risk,Collins Family,Jamal Wilson
+WM-GL-000468,WM-HH-00358,Legacy,Legacy — Collins,157005.97,141967.81,2037-07-26,On Track,Collins Family,Jamal Wilson
+WM-GL-000469,WM-HH-00358,Major Purchase,Major Purchase — Collins,132366.42,94731.8,2028-04-07,At Risk,Collins Family,Jamal Wilson
+WM-GL-000470,WM-HH-00359,Home Purchase,Home Purchase — Martinez,63858.56,58055.31,2032-01-20,At Risk,Martinez Family,Sofia Johnson
+WM-GL-000471,WM-HH-00359,Education,Education — Martinez,133733.2,72954.1,2028-04-05,At Risk,Martinez Family,Sofia Johnson
+WM-GL-000472,WM-HH-00359,Retirement,Retirement — Martinez,2136885.08,1474437.2,2037-12-11,On Track,Martinez Family,Sofia Johnson
+WM-GL-000473,WM-HH-00360,Major Purchase,Major Purchase — Campbell,355898.6,140142.02,2037-01-26,At Risk,Campbell Family,Sofia Parker
+WM-GL-000474,WM-HH-00361,Major Purchase,Major Purchase — Martinez,285100.74,270382.64,2033-10-26,At Risk,Martinez Family,Chloe Parker
+WM-GL-000475,WM-HH-00362,Home Purchase,Home Purchase — Garcia,194590.58,202470.6,2041-04-21,Completed,Garcia Family,Priya Young
+WM-GL-000476,WM-HH-00362,Home Purchase,Home Purchase — Garcia,134638.32,91505.97,2037-09-27,On Track,Garcia Family,Priya Young
+WM-GL-000477,WM-HH-00362,Major Purchase,Major Purchase — Garcia,126522.11,94410.06,2039-07-18,At Risk,Garcia Family,Priya Young
+WM-GL-000478,WM-HH-00363,Home Purchase,Home Purchase — Garcia,44361.43,44629.42,2031-10-30,Completed,Garcia Family,Kenji Stewart
+WM-GL-000479,WM-HH-00364,Major Purchase,Major Purchase — Clark,275701.98,190339.44,2043-11-02,At Risk,Clark Family,Luis Stewart
+WM-GL-000480,WM-HH-00364,Major Purchase,Major Purchase — Clark,103394.97,68998.57,2034-11-26,At Risk,Clark Family,Luis Stewart
+WM-GL-000481,WM-HH-00366,Legacy,Legacy — Green,256825.49,171759.7,2044-04-28,On Track,Green Family,Wei King
+WM-GL-000482,WM-HH-00368,Home Purchase,Home Purchase — Clark,259427.41,265857.21,2041-12-01,Completed,Clark Family,Lauren Lewis
+WM-GL-000483,WM-HH-00368,Home Purchase,Home Purchase — Clark,216282.71,222091.31,2032-07-06,Completed,Clark Family,Lauren Lewis
+WM-GL-000484,WM-HH-00370,Major Purchase,Major Purchase — Baker,228474.66,151945.84,2030-06-23,At Risk,Baker Family,Isabella Okafor
+WM-GL-000485,WM-HH-00370,Retirement,Retirement — Baker,891167.76,535903.61,2031-05-24,On Track,Baker Family,Isabella Okafor
+WM-GL-000486,WM-HH-00371,Home Purchase,Home Purchase — Nguyen,205669.5,36655.88,2042-04-23,At Risk,Nguyen Family,Kenji Scott
+WM-GL-000487,WM-HH-00371,Retirement,Retirement — Nguyen,149556.7,61874.11,2034-12-16,At Risk,Nguyen Family,Kenji Scott
+WM-GL-000488,WM-HH-00372,Education,Education — Wilson,133748.79,66580.6,2040-12-24,At Risk,Wilson Family,Chloe Parker
+WM-GL-000489,WM-HH-00372,Major Purchase,Major Purchase — Wilson,133417.56,110334.38,2045-03-23,On Track,Wilson Family,Chloe Parker
+WM-GL-000490,WM-HH-00374,Legacy,Legacy — Nelson,192328.4,117079.07,2036-03-31,On Track,Nelson Family,Priya Young
+WM-GL-000491,WM-HH-00376,Major Purchase,Major Purchase — Okafor,45253.53,6019.51,2030-06-21,On Track,Okafor Family,Naomi Allen
+WM-GL-000492,WM-HH-00377,Legacy,Legacy — Moore,53629.32,48676.83,2029-07-10,At Risk,Moore Family,Sara Nelson
+WM-GL-000493,WM-HH-00377,Education,Education — Moore,173879.13,122929.73,2031-02-04,On Track,Moore Family,Sara Nelson
+WM-GL-000494,WM-HH-00378,Education,Education — Moore,132353.46,30335.66,2031-03-04,On Track,Moore Family,Wei Ruiz
+WM-GL-000495,WM-HH-00378,Education,Education — Moore,269239.54,108478.77,2037-04-09,At Risk,Moore Family,Wei Ruiz
+WM-GL-000496,WM-HH-00379,Major Purchase,Major Purchase — Walker,94460.88,5373.41,2036-01-06,On Track,Walker Family,Kenji Bailey
+WM-GL-000497,WM-HH-00379,Legacy,Legacy — Walker,234681.72,66295.25,2038-11-02,On Track,Walker Family,Kenji Bailey
+WM-GL-000498,WM-HH-00380,Education,Education — Vaughn,306318.98,58506.54,2035-11-25,On Track,Vaughn Family,Noah Phillips
+WM-GL-000499,WM-HH-00381,Legacy,Legacy — Collins,258616.68,72975.05,2043-04-15,On Track,Collins Family,Wei Ruiz
+WM-GL-000500,WM-HH-00381,Retirement,Retirement — Collins,374152.9,121701.11,2030-05-25,On Track,Collins Family,Wei Ruiz
+WM-GL-000501,WM-HH-00381,Major Purchase,Major Purchase — Collins,89440.76,33826.39,2035-10-26,Off Track,Collins Family,Wei Ruiz
+WM-GL-000502,WM-HH-00382,Retirement,Retirement — Wilson,329378.73,53451.43,2034-12-14,Off Track,Wilson Family,Victor Evans
+WM-GL-000503,WM-HH-00382,Legacy,Legacy — Wilson,170318.58,185841.53,2041-06-14,Completed,Wilson Family,Victor Evans
+WM-GL-000504,WM-HH-00383,Major Purchase,Major Purchase — Carter,104306.22,97994.18,2043-03-14,On Track,Carter Family,Wei Ruiz
+WM-GL-000505,WM-HH-00383,Legacy,Legacy — Carter,162134.81,143347.08,2037-06-17,At Risk,Carter Family,Wei Ruiz
+WM-GL-000506,WM-HH-00384,Education,Education — Baker,50392.12,39926.1,2045-02-08,On Track,Baker Family,Jamal Wilson
+WM-GL-000507,WM-HH-00385,Retirement,Retirement — Vaughn,846573.38,564523.07,2034-10-05,On Track,Vaughn Family,Kenji Bailey
+WM-GL-000508,WM-HH-00387,Major Purchase,Major Purchase — Jackson,102773.38,97849.34,2044-07-29,At Risk,Jackson Family,Grace Carter
+WM-GL-000509,WM-HH-00387,Home Purchase,Home Purchase — Jackson,52049.31,51673.61,2028-12-19,On Track,Jackson Family,Grace Carter
+WM-GL-000510,WM-HH-00388,Retirement,Retirement — Wright,454580.72,413779.33,2031-06-03,At Risk,Wright Family,Naomi Allen
+WM-GL-000511,WM-HH-00388,Legacy,Legacy — Wright,142052.21,142333.76,2043-08-06,Completed,Wright Family,Naomi Allen
+WM-GL-000512,WM-HH-00389,Education,Education — Edwards,57760.41,26686.36,2045-11-08,Off Track,Edwards Family,Owen White
+WM-GL-000513,WM-HH-00390,Legacy,Legacy — Miller,71718.37,71452.47,2039-04-10,On Track,Miller Family,Amara Okafor
+WM-GL-000514,WM-HH-00390,Legacy,Legacy — Miller,55933.55,25887.14,2027-10-20,On Track,Miller Family,Amara Okafor
+WM-GL-000515,WM-HH-00392,Major Purchase,Major Purchase — Scott,304809.02,50094.01,2044-12-21,On Track,Scott Family,Priya Martinez
+WM-GL-000516,WM-HH-00392,Retirement,Retirement — Scott,1163805.12,1116729.74,2041-11-29,At Risk,Scott Family,Priya Martinez
+WM-GL-000517,WM-HH-00393,Major Purchase,Major Purchase — Green,17819.77,7960.29,2035-01-15,Off Track,Green Family,Carlos Miller
+WM-GL-000518,WM-HH-00393,Retirement,Retirement — Green,645294.0,290793.53,2030-03-22,At Risk,Green Family,Carlos Miller
+WM-GL-000519,WM-HH-00393,Home Purchase,Home Purchase — Green,145843.97,145283.81,2030-03-15,Off Track,Green Family,Carlos Miller
+WM-GL-000520,WM-HH-00394,Major Purchase,Major Purchase — Young,162478.57,69941.63,2041-07-19,On Track,Young Family,Amara Okafor
+WM-GL-000521,WM-HH-00394,Major Purchase,Major Purchase — Young,85435.87,88286.98,2045-02-21,Completed,Young Family,Amara Okafor
+WM-GL-000522,WM-HH-00396,Major Purchase,Major Purchase — Collins,76974.98,49879.93,2044-11-19,Off Track,Collins Family,Kenji Scott
+WM-GL-000523,WM-HH-00396,Retirement,Retirement — Collins,153169.9,106423.93,2037-05-30,At Risk,Collins Family,Kenji Scott
+WM-GL-000524,WM-HH-00397,Legacy,Legacy — Wright,399238.16,273674.5,2043-11-10,At Risk,Wright Family,Nina Brown
+WM-GL-000525,WM-HH-00398,Legacy,Legacy — Scott,72281.99,66050.83,2036-02-25,On Track,Scott Family,Amara White
+WM-GL-000526,WM-HH-00398,Retirement,Retirement — Scott,899795.83,522498.0,2037-05-10,On Track,Scott Family,Amara White
+WM-GL-000527,WM-HH-00399,Major Purchase,Major Purchase — Hall,383444.04,419300.81,2031-04-13,Completed,Hall Family,Sofia Parker
+WM-GL-000528,WM-HH-00400,Legacy,Legacy — Davis,105933.65,60440.48,2039-04-10,At Risk,Davis Family,Priya Young
+WM-GL-000529,WM-HH-00401,Major Purchase,Major Purchase — Jackson,165382.36,71804.61,2035-04-12,On Track,Jackson Family,Kenji Scott
+WM-GL-000530,WM-HH-00401,Retirement,Retirement — Jackson,1095553.63,876465.51,2037-08-23,On Track,Jackson Family,Kenji Scott
+WM-GL-000531,WM-HH-00402,Education,Education — Wright,67172.95,65334.48,2042-11-02,At Risk,Wright Family,Owen White
+WM-GL-000532,WM-HH-00402,Home Purchase,Home Purchase — Wright,116908.78,53986.11,2037-01-14,At Risk,Wright Family,Owen White
+WM-GL-000533,WM-HH-00404,Education,Education — Adams,77016.74,67719.94,2036-06-04,At Risk,Adams Family,Owen Edwards
+WM-GL-000534,WM-HH-00405,Education,Education — Wilson,697560.94,739018.5,2044-02-16,Completed,Wilson Family,Jamal Wilson
+WM-GL-000535,WM-HH-00406,Education,Education — Clark,138904.13,42473.88,2043-10-23,At Risk,Clark Family,Naomi Allen
+WM-GL-000536,WM-HH-00406,Legacy,Legacy — Clark,84412.75,57643.69,2032-08-28,On Track,Clark Family,Naomi Allen
+WM-GL-000537,WM-HH-00407,Legacy,Legacy — Moore,131306.75,34762.92,2027-02-07,At Risk,Moore Family,Priya Young
+WM-GL-000538,WM-HH-00407,Education,Education — Moore,117042.82,80690.21,2030-09-06,On Track,Moore Family,Priya Young
+WM-GL-000539,WM-HH-00408,Home Purchase,Home Purchase — Turner,61214.41,11385.43,2030-04-19,Off Track,Turner Family,Kenji Stewart
+WM-GL-000540,WM-HH-00409,Retirement,Retirement — Hall,631895.17,522603.31,2035-03-14,At Risk,Hall Family,Julian Green
+WM-GL-000541,WM-HH-00409,Home Purchase,Home Purchase — Hall,74790.0,34518.89,2039-07-19,On Track,Hall Family,Julian Green
+WM-GL-000542,WM-HH-00410,Legacy,Legacy — Lopez,96975.26,103802.8,2034-01-19,Completed,Lopez Family,Priya Anderson
+WM-GL-000543,WM-HH-00411,Legacy,Legacy — Stewart,62898.74,49770.81,2028-02-08,On Track,Stewart Family,Kenji Stewart
+WM-GL-000544,WM-HH-00411,Legacy,Legacy — Stewart,125593.55,136891.37,2030-06-07,Completed,Stewart Family,Kenji Stewart
+WM-GL-000545,WM-HH-00411,Education,Education — Stewart,142334.64,104191.96,2036-07-17,At Risk,Stewart Family,Kenji Stewart
+WM-GL-000546,WM-HH-00412,Legacy,Legacy — Lopez,190249.46,172537.17,2042-09-12,On Track,Lopez Family,Owen Edwards
+WM-GL-000547,WM-HH-00413,Retirement,Retirement — Miller,574096.25,500144.95,2045-06-24,On Track,Miller Family,Noah Phillips
+WM-GL-000548,WM-HH-00413,Home Purchase,Home Purchase — Miller,75345.3,72536.46,2030-02-04,On Track,Miller Family,Noah Phillips
+WM-GL-000549,WM-HH-00413,Education,Education — Miller,84835.9,12980.12,2033-05-11,On Track,Miller Family,Noah Phillips
+WM-GL-000550,WM-HH-00414,Retirement,Retirement — Bailey,320255.78,68751.76,2038-04-16,At Risk,Bailey Family,Ava Ashford
+WM-GL-000551,WM-HH-00415,Retirement,Retirement — White,1291528.04,246915.33,2034-04-08,At Risk,White Family,Wei Ruiz
+WM-GL-000552,WM-HH-00416,Home Purchase,Home Purchase — Silva,247732.86,14917.13,2035-03-12,On Track,Silva Family,Owen White
+WM-GL-000553,WM-HH-00417,Major Purchase,Major Purchase — Edwards,62359.35,46612.06,2029-10-14,At Risk,Edwards Family,Ava Ashford
+WM-GL-000554,WM-HH-00418,Home Purchase,Home Purchase — Harris,25728.79,14484.19,2033-12-18,At Risk,Harris Family,Sofia Johnson
+WM-GL-000555,WM-HH-00418,Legacy,Legacy — Harris,145894.08,152457.83,2031-10-16,Completed,Harris Family,Sofia Johnson
+WM-GL-000556,WM-HH-00420,Major Purchase,Major Purchase — Young,77320.43,81046.03,2032-08-01,Completed,Young Family,Kenji Scott
+WM-GL-000557,WM-HH-00422,Legacy,Legacy — Bailey,156599.09,36997.85,2042-07-27,On Track,Bailey Family,Hannah Davis
+WM-GL-000558,WM-HH-00422,Legacy,Legacy — Bailey,134861.32,34240.65,2029-01-23,On Track,Bailey Family,Hannah Davis
+WM-GL-000559,WM-HH-00422,Major Purchase,Major Purchase — Bailey,197554.55,53775.61,2033-03-16,On Track,Bailey Family,Hannah Davis
+WM-GL-000560,WM-HH-00423,Retirement,Retirement — Nelson,746855.24,389751.84,2028-03-03,Off Track,Nelson Family,Isabella Okafor
+WM-GL-000561,WM-HH-00424,Retirement,Retirement — Allen,292897.38,89290.88,2031-03-27,On Track,Allen Family,Olivia Stewart
+WM-GL-000562,WM-HH-00425,Legacy,Legacy — Brown,174054.19,137610.15,2030-12-09,At Risk,Brown Family,Naomi Allen
+WM-GL-000563,WM-HH-00425,Home Purchase,Home Purchase — Brown,415836.66,118181.92,2044-08-25,On Track,Brown Family,Naomi Allen
+WM-GL-000564,WM-HH-00428,Legacy,Legacy — Chen,93458.14,71960.57,2042-01-04,On Track,Chen Family,Yuki Vaughn
+WM-GL-000565,WM-HH-00428,Retirement,Retirement — Chen,995854.11,641540.13,2041-07-01,At Risk,Chen Family,Yuki Vaughn
+WM-GL-000566,WM-HH-00429,Retirement,Retirement — Jackson,1536283.8,832167.11,2044-08-09,On Track,Jackson Family,Julian Green
+WM-GL-000567,WM-HH-00429,Major Purchase,Major Purchase — Jackson,253849.5,264671.61,2032-05-06,Completed,Jackson Family,Julian Green
+WM-GL-000568,WM-HH-00430,Legacy,Legacy — Jackson,94666.3,60057.0,2042-08-16,At Risk,Jackson Family,Kenji Bailey
+WM-GL-000569,WM-HH-00431,Home Purchase,Home Purchase — Roberts,220940.63,221829.26,2039-10-06,Completed,Roberts Family,Victor Walker
+WM-GL-000570,WM-HH-00432,Retirement,Retirement — Vaughn,1373493.73,731780.15,2033-06-01,On Track,Vaughn Family,Grace Carter
+WM-GL-000571,WM-HH-00432,Home Purchase,Home Purchase — Vaughn,132294.8,59162.24,2040-01-06,On Track,Vaughn Family,Grace Carter
+WM-GL-000572,WM-HH-00433,Education,Education — Wright,434896.24,200938.37,2032-03-03,On Track,Wright Family,Owen White
+WM-GL-000573,WM-HH-00434,Major Purchase,Major Purchase — Collins,79104.78,11497.09,2038-01-06,At Risk,Collins Family,Isabella Okafor
+WM-GL-000574,WM-HH-00434,Legacy,Legacy — Collins,473947.53,229460.71,2038-12-26,At Risk,Collins Family,Isabella Okafor
+WM-GL-000575,WM-HH-00435,Retirement,Retirement — Johnson,672989.45,738621.24,2036-12-03,Completed,Johnson Family,Chloe Davis
+WM-GL-000576,WM-HH-00435,Legacy,Legacy — Johnson,91018.28,16679.62,2033-07-20,At Risk,Johnson Family,Chloe Davis
+WM-GL-000577,WM-HH-00435,Education,Education — Johnson,109642.98,66299.13,2044-09-04,On Track,Johnson Family,Chloe Davis
+WM-GL-000578,WM-HH-00436,Home Purchase,Home Purchase — Lopez,308650.91,99042.72,2043-08-27,On Track,Lopez Family,Grace Carter
+WM-GL-000579,WM-HH-00437,Legacy,Legacy — Phillips,88662.86,87730.0,2027-04-20,Off Track,Phillips Family,Sofia Johnson
+WM-GL-000580,WM-HH-00438,Retirement,Retirement — Collins,1135297.41,258831.02,2040-12-29,At Risk,Collins Family,Carlos Miller
+WM-GL-000581,WM-HH-00439,Home Purchase,Home Purchase — Martinez,135423.92,135609.68,2034-10-07,Completed,Martinez Family,Olivia Patel
+WM-GL-000582,WM-HH-00439,Home Purchase,Home Purchase — Martinez,602250.76,529236.88,2041-11-23,On Track,Martinez Family,Olivia Patel
+WM-GL-000583,WM-HH-00440,Retirement,Retirement — Thomas,2340049.13,1383354.31,2035-07-29,Off Track,Thomas Family,Victor Evans
+WM-GL-000584,WM-HH-00442,Legacy,Legacy — Morris,168637.53,30130.53,2033-03-27,On Track,Morris Family,Amara White
+WM-GL-000585,WM-HH-00443,Education,Education — Ruiz,133799.45,20269.34,2037-05-19,At Risk,Ruiz Family,Kenji Stewart
+WM-GL-000586,WM-HH-00444,Legacy,Legacy — Wright,86817.74,43513.6,2031-05-14,On Track,Wright Family,Nina Brown
+WM-GL-000587,WM-HH-00444,Legacy,Legacy — Wright,142476.61,148622.75,2039-03-10,Completed,Wright Family,Nina Brown
+WM-GL-000588,WM-HH-00447,Legacy,Legacy — Green,42547.43,37087.43,2042-12-27,Off Track,Green Family,Olivia Stewart
+WM-GL-000589,WM-HH-00448,Home Purchase,Home Purchase — Clark,172284.98,11209.38,2039-02-26,At Risk,Clark Family,Lauren Lewis
+WM-GL-000590,WM-HH-00449,Major Purchase,Major Purchase — Thomas,64554.76,14373.06,2043-03-24,At Risk,Thomas Family,Sofia Parker
+WM-GL-000591,WM-HH-00450,Legacy,Legacy — Miller,235506.54,122918.84,2043-07-29,Off Track,Miller Family,Ava Ashford
+WM-GL-000592,WM-HH-00450,Legacy,Legacy — Miller,313871.6,299466.79,2038-11-15,At Risk,Miller Family,Ava Ashford
+WM-GL-000593,WM-HH-00451,Legacy,Legacy — Johnson,90569.0,12146.49,2032-12-23,At Risk,Johnson Family,Henry Parker
+WM-GL-000594,WM-HH-00451,Major Purchase,Major Purchase — Johnson,151422.43,100776.13,2028-05-03,At Risk,Johnson Family,Henry Parker
+WM-GL-000595,WM-HH-00452,Legacy,Legacy — Bailey,288673.84,270699.23,2028-04-07,On Track,Bailey Family,Victor Evans
+WM-GL-000596,WM-HH-00453,Legacy,Legacy — Campbell,93577.39,64711.52,2044-10-20,At Risk,Campbell Family,Noah Baker
+WM-GL-000597,WM-HH-00454,Retirement,Retirement — Taylor,162048.28,148860.26,2031-10-24,Off Track,Taylor Family,Kenji Stewart
+WM-GL-000598,WM-HH-00454,Home Purchase,Home Purchase — Taylor,157189.21,62390.45,2027-06-09,Off Track,Taylor Family,Kenji Stewart
+WM-GL-000599,WM-HH-00455,Retirement,Retirement — Taylor,446257.2,435459.27,2035-12-21,On Track,Taylor Family,Julian Silva
+WM-GL-000600,WM-HH-00455,Legacy,Legacy — Taylor,121982.48,22600.81,2042-06-05,On Track,Taylor Family,Julian Silva
+WM-GL-000601,WM-HH-00455,Retirement,Retirement — Taylor,826668.5,668296.78,2027-07-07,At Risk,Taylor Family,Julian Silva
+WM-GL-000602,WM-HH-00456,Education,Education — Baker,110530.45,71423.56,2028-12-27,On Track,Baker Family,Carlos Miller
+WM-GL-000603,WM-HH-00456,Retirement,Retirement — Baker,537319.33,315001.52,2033-01-26,On Track,Baker Family,Carlos Miller
+WM-GL-000604,WM-HH-00457,Legacy,Legacy — Davis,118813.73,32108.2,2038-07-04,On Track,Davis Family,Kenji Scott
+WM-GL-000605,WM-HH-00457,Education,Education — Davis,222594.23,125063.83,2033-06-03,At Risk,Davis Family,Kenji Scott
+WM-GL-000606,WM-HH-00458,Education,Education — Carter,107743.57,22829.09,2037-07-27,At Risk,Carter Family,Hannah Davis
+WM-GL-000607,WM-HH-00459,Major Purchase,Major Purchase — White,147302.88,114224.63,2043-04-04,On Track,White Family,Priya Young
+WM-GL-000608,WM-HH-00459,Home Purchase,Home Purchase — White,146808.28,27307.79,2040-12-29,Off Track,White Family,Priya Young
+WM-GL-000609,WM-HH-00460,Major Purchase,Major Purchase — Ashford,70345.17,15300.85,2039-02-05,At Risk,Ashford Family,Jamal Vaughn
+WM-GL-000610,WM-HH-00460,Education,Education — Ashford,84375.27,29043.84,2035-08-17,On Track,Ashford Family,Jamal Vaughn
+WM-GL-000611,WM-HH-00461,Retirement,Retirement — Vaughn,1492869.86,1585482.29,2044-05-24,Completed,Vaughn Family,Chloe Parker
+WM-GL-000612,WM-HH-00462,Home Purchase,Home Purchase — Moore,91684.81,76119.02,2040-10-08,On Track,Moore Family,Owen Edwards
+WM-GL-000613,WM-HH-00462,Education,Education — Moore,98957.64,93631.05,2032-08-27,At Risk,Moore Family,Owen Edwards
+WM-GL-000614,WM-HH-00463,Home Purchase,Home Purchase — Clark,493094.48,235919.17,2041-05-05,On Track,Clark Family,Priya Young
+WM-GL-000615,WM-HH-00464,Home Purchase,Home Purchase — Chen,514785.76,564203.09,2038-12-16,Completed,Chen Family,Grace Carter
+WM-GL-000616,WM-HH-00464,Retirement,Retirement — Chen,305480.63,30261.75,2041-12-20,At Risk,Chen Family,Grace Carter
+WM-GL-000617,WM-HH-00465,Education,Education — Clark,201837.65,17473.31,2045-01-09,At Risk,Clark Family,Naomi Allen
+WM-GL-000618,WM-HH-00465,Legacy,Legacy — Clark,64409.65,10988.61,2039-12-27,On Track,Clark Family,Naomi Allen
+WM-GL-000619,WM-HH-00466,Retirement,Retirement — Moore,1116743.73,136400.54,2034-03-05,At Risk,Moore Family,Wei Ruiz
+WM-GL-000620,WM-HH-00466,Education,Education — Moore,177902.4,153460.83,2038-10-28,At Risk,Moore Family,Wei Ruiz
+WM-GL-000621,WM-HH-00467,Home Purchase,Home Purchase — Anderson,261406.25,275381.59,2043-03-24,Completed,Anderson Family,Hannah Davis
+WM-GL-000622,WM-HH-00468,Home Purchase,Home Purchase — Johnson,140051.64,74029.76,2038-12-15,On Track,Johnson Family,Noah Phillips
+WM-GL-000623,WM-HH-00470,Home Purchase,Home Purchase — Turner,54530.56,3755.13,2045-08-09,On Track,Turner Family,Owen White
+WM-GL-000624,WM-HH-00470,Retirement,Retirement — Turner,158933.91,67900.32,2029-06-24,On Track,Turner Family,Owen White
+WM-GL-000625,WM-HH-00471,Legacy,Legacy — Nguyen,360976.51,349472.65,2038-04-07,On Track,Nguyen Family,Sara Nelson
+WM-GL-000626,WM-HH-00471,Education,Education — Nguyen,94495.52,47388.41,2038-01-28,At Risk,Nguyen Family,Sara Nelson
+WM-GL-000627,WM-HH-00471,Retirement,Retirement — Nguyen,334391.58,117642.42,2029-08-13,On Track,Nguyen Family,Sara Nelson
+WM-GL-000628,WM-HH-00473,Home Purchase,Home Purchase — Moore,302779.74,318573.07,2045-03-23,Completed,Moore Family,Wei Ruiz
+WM-GL-000629,WM-HH-00473,Legacy,Legacy — Moore,75698.99,44145.27,2038-03-17,On Track,Moore Family,Wei Ruiz
+WM-GL-000630,WM-HH-00475,Education,Education — Miller,153828.12,119877.88,2038-02-04,At Risk,Miller Family,Victor Evans
+WM-GL-000631,WM-HH-00476,Retirement,Retirement — Evans,2122392.87,1631827.36,2042-02-06,On Track,Evans Family,Luis Stewart
+WM-GL-000632,WM-HH-00479,Legacy,Legacy — Parker,151586.74,53483.59,2029-01-09,On Track,Parker Family,Grace Carter
+WM-GL-000633,WM-HH-00480,Major Purchase,Major Purchase — Wright,34650.43,14062.53,2027-01-15,On Track,Wright Family,Julian Silva
+WM-GL-000634,WM-HH-00481,Legacy,Legacy — Harris,37076.35,20181.33,2033-12-09,At Risk,Harris Family,Kenji Scott
+WM-GL-000635,WM-HH-00482,Home Purchase,Home Purchase — Vaughn,270166.3,83485.96,2027-06-01,On Track,Vaughn Family,Noah Baker
+WM-GL-000636,WM-HH-00483,Retirement,Retirement — Campbell,300692.66,142829.43,2045-07-12,At Risk,Campbell Family,Kenji Bailey
+WM-GL-000637,WM-HH-00485,Education,Education — Miller,118782.92,75754.5,2032-04-03,Off Track,Miller Family,Priya Young
+WM-GL-000638,WM-HH-00485,Retirement,Retirement — Miller,487296.78,35624.39,2036-05-20,At Risk,Miller Family,Priya Young
+WM-GL-000639,WM-HH-00486,Education,Education — Silva,90405.82,76348.68,2035-09-12,At Risk,Silva Family,Amara Okafor
+WM-GL-000640,WM-HH-00487,Major Purchase,Major Purchase — Carter,126943.62,13687.83,2034-08-29,On Track,Carter Family,Priya Anderson
+WM-GL-000641,WM-HH-00488,Major Purchase,Major Purchase — Young,69608.55,70607.97,2027-07-27,Completed,Young Family,Sofia Parker
+WM-GL-000642,WM-HH-00489,Legacy,Legacy — Turner,145237.9,57711.9,2033-01-17,At Risk,Turner Family,Owen White
+WM-GL-000643,WM-HH-00489,Home Purchase,Home Purchase — Turner,553963.09,546256.75,2032-09-21,At Risk,Turner Family,Owen White
+WM-GL-000644,WM-HH-00490,Legacy,Legacy — Kim,206434.96,132559.78,2032-10-03,At Risk,Kim Family,Leo Evans
+WM-GL-000645,WM-HH-00490,Retirement,Retirement — Kim,1490248.4,1092425.76,2029-03-23,At Risk,Kim Family,Leo Evans
+WM-GL-000646,WM-HH-00490,Retirement,Retirement — Kim,310109.7,248548.81,2037-08-30,On Track,Kim Family,Leo Evans
+WM-GL-000647,WM-HH-00493,Retirement,Retirement — Walker,729394.44,287657.32,2044-05-24,Off Track,Walker Family,Julian Green
+WM-GL-000648,WM-HH-00493,Legacy,Legacy — Walker,63097.85,32593.35,2045-04-12,At Risk,Walker Family,Julian Green
+WM-GL-000649,WM-HH-00494,Education,Education — Roberts,159505.12,127519.01,2039-09-06,At Risk,Roberts Family,Priya Martinez
+WM-GL-000650,WM-HH-00495,Home Purchase,Home Purchase — Bailey,85830.81,66253.89,2036-03-30,On Track,Bailey Family,Olivia Stewart
+WM-GL-000651,WM-HH-00495,Retirement,Retirement — Bailey,455899.08,238313.19,2037-07-21,Off Track,Bailey Family,Olivia Stewart
+WM-GL-000652,WM-HH-00496,Major Purchase,Major Purchase — Hall,446219.42,204387.19,2034-08-25,At Risk,Hall Family,Noah Baker
+WM-GL-000653,WM-HH-00497,Education,Education — Bailey,640068.82,96531.83,2045-01-28,At Risk,Bailey Family,Julian Green
+WM-GL-000654,WM-HH-00498,Legacy,Legacy — Edwards,199176.7,14658.4,2027-03-04,Off Track,Edwards Family,Sofia Parker
+WM-GL-000655,WM-HH-00499,Major Purchase,Major Purchase — Baker,105140.6,14396.74,2039-05-19,On Track,Baker Family,Kenji Scott
+WM-GL-000656,WM-HH-00500,Legacy,Legacy — Carter,71478.21,60805.32,2038-01-31,On Track,Carter Family,Jamal Wilson
+WM-GL-000657,WM-HH-00500,Education,Education — Carter,139083.83,86315.02,2036-02-16,On Track,Carter Family,Jamal Wilson
+WM-GL-000658,WM-HH-00500,Education,Education — Carter,113547.46,40012.26,2032-10-12,On Track,Carter Family,Jamal Wilson
+WM-GL-000659,WM-HH-00502,Retirement,Retirement — Wright,314503.38,345851.46,2031-03-05,Completed,Wright Family,Victor Evans
+WM-GL-000660,WM-HH-00502,Retirement,Retirement — Wright,524442.44,102528.5,2032-05-21,On Track,Wright Family,Victor Evans
+WM-GL-000661,WM-HH-00503,Legacy,Legacy — Johnson,144105.12,119076.81,2032-01-24,On Track,Johnson Family,Isabella Okafor
+WM-GL-000662,WM-HH-00503,Retirement,Retirement — Johnson,489040.52,485561.88,2044-05-16,On Track,Johnson Family,Isabella Okafor
+WM-GL-000663,WM-HH-00504,Home Purchase,Home Purchase — Stewart,169470.74,96614.38,2029-07-18,Off Track,Stewart Family,Kenji Scott
+WM-GL-000664,WM-HH-00505,Major Purchase,Major Purchase — Davis,162702.12,107709.7,2031-02-03,At Risk,Davis Family,Diego Silva
+WM-GL-000665,WM-HH-00506,Home Purchase,Home Purchase — Nelson,300595.7,124712.87,2038-12-07,On Track,Nelson Family,Wei Ruiz
+WM-GL-000666,WM-HH-00506,Major Purchase,Major Purchase — Nelson,393957.04,248021.85,2031-12-28,Off Track,Nelson Family,Wei Ruiz
+WM-GL-000667,WM-HH-00507,Legacy,Legacy — Baker,103378.91,68794.8,2035-10-17,At Risk,Baker Family,Lauren Lewis
+WM-GL-000668,WM-HH-00507,Education,Education — Baker,193951.23,161124.46,2043-04-17,On Track,Baker Family,Lauren Lewis
+WM-GL-000669,WM-HH-00508,Home Purchase,Home Purchase — Phillips,382195.1,414679.45,2043-02-09,Completed,Phillips Family,Owen Edwards
+WM-GL-000670,WM-HH-00508,Home Purchase,Home Purchase — Phillips,191167.53,75130.29,2038-04-27,On Track,Phillips Family,Owen Edwards
+WM-GL-000671,WM-HH-00510,Retirement,Retirement — Baker,581800.83,124829.75,2038-04-05,Off Track,Baker Family,Priya Anderson
+WM-GL-000672,WM-HH-00511,Legacy,Legacy — Roberts,608752.82,77359.78,2045-12-28,On Track,Roberts Family,Luis Stewart
+WM-GL-000673,WM-HH-00512,Retirement,Retirement — Thomas,1100405.33,927391.05,2039-10-09,At Risk,Thomas Family,Henry Parker
+WM-GL-000674,WM-HH-00513,Major Purchase,Major Purchase — Turner,222164.35,161040.01,2029-01-20,On Track,Turner Family,Nina Brown
+WM-GL-000675,WM-HH-00513,Education,Education — Turner,95808.55,67064.01,2031-02-25,On Track,Turner Family,Nina Brown
+WM-GL-000676,WM-HH-00514,Major Purchase,Major Purchase — Scott,161253.49,174216.16,2042-02-12,Completed,Scott Family,Kenji Stewart
+WM-GL-000677,WM-HH-00514,Retirement,Retirement — Scott,130994.14,21961.79,2035-07-13,On Track,Scott Family,Kenji Stewart
+WM-GL-000678,WM-HH-00515,Retirement,Retirement — Edwards,575560.36,253863.79,2028-02-11,On Track,Edwards Family,Julian Green
+WM-GL-000679,WM-HH-00515,Home Purchase,Home Purchase — Edwards,253407.3,245736.19,2031-11-03,On Track,Edwards Family,Julian Green
+WM-GL-000680,WM-HH-00516,Major Purchase,Major Purchase — Evans,172713.03,30572.58,2044-01-05,On Track,Evans Family,Priya Martinez
+WM-GL-000681,WM-HH-00516,Major Purchase,Major Purchase — Evans,130890.73,33515.77,2043-08-22,On Track,Evans Family,Priya Martinez
+WM-GL-000682,WM-HH-00518,Education,Education — Taylor,319419.46,304073.29,2042-08-19,At Risk,Taylor Family,Chloe Parker
+WM-GL-000683,WM-HH-00518,Home Purchase,Home Purchase — Taylor,74977.89,63570.11,2044-10-09,On Track,Taylor Family,Chloe Parker
+WM-GL-000684,WM-HH-00519,Legacy,Legacy — Moore,49505.06,11088.45,2035-01-04,On Track,Moore Family,Kenji Bailey
+WM-GL-000685,WM-HH-00520,Legacy,Legacy — Edwards,48422.81,42394.57,2042-03-15,On Track,Edwards Family,Kenji Stewart
+WM-GL-000686,WM-HH-00520,Retirement,Retirement — Edwards,164588.97,78387.0,2037-10-21,At Risk,Edwards Family,Kenji Stewart
+WM-GL-000687,WM-HH-00520,Legacy,Legacy — Edwards,206127.74,15794.14,2040-11-21,On Track,Edwards Family,Kenji Stewart
+WM-GL-000688,WM-HH-00521,Home Purchase,Home Purchase — Ruiz,105723.93,59770.84,2035-02-18,At Risk,Ruiz Family,Leo Evans
+WM-GL-000689,WM-HH-00521,Education,Education — Ruiz,72922.58,24524.29,2030-01-13,On Track,Ruiz Family,Leo Evans
+WM-GL-000690,WM-HH-00522,Major Purchase,Major Purchase — Moore,127651.3,10453.02,2044-08-20,On Track,Moore Family,Olivia Patel
+WM-GL-000691,WM-HH-00523,Legacy,Legacy — Walker,24874.36,24924.9,2042-11-01,Completed,Walker Family,Ava Ashford
+WM-GL-000692,WM-HH-00523,Home Purchase,Home Purchase — Walker,109440.83,99896.84,2039-02-04,On Track,Walker Family,Ava Ashford
+WM-GL-000693,WM-HH-00524,Retirement,Retirement — Okafor,740973.34,376384.71,2029-01-13,At Risk,Okafor Family,Victor Walker
+WM-GL-000694,WM-HH-00524,Education,Education — Okafor,396654.16,221906.79,2036-07-04,On Track,Okafor Family,Victor Walker
+WM-GL-000695,WM-HH-00524,Home Purchase,Home Purchase — Okafor,51856.04,54141.65,2034-05-01,Completed,Okafor Family,Victor Walker
+WM-GL-000696,WM-HH-00525,Retirement,Retirement — Clark,556251.99,251680.46,2042-03-09,At Risk,Clark Family,Chloe Davis
+WM-GL-000697,WM-HH-00525,Retirement,Retirement — Clark,357472.06,386465.93,2044-02-20,Completed,Clark Family,Chloe Davis
+WM-GL-000698,WM-HH-00526,Home Purchase,Home Purchase — Walker,174412.7,60876.27,2036-12-15,On Track,Walker Family,Henry Parker
+WM-GL-000699,WM-HH-00528,Retirement,Retirement — Chen,386178.73,129743.18,2039-01-15,On Track,Chen Family,Chloe Davis
+WM-GL-000700,WM-HH-00528,Home Purchase,Home Purchase — Chen,172641.71,120664.68,2040-03-20,Off Track,Chen Family,Chloe Davis
+WM-GL-000701,WM-HH-00528,Education,Education — Chen,102641.31,53587.98,2034-08-28,On Track,Chen Family,Chloe Davis
+WM-GL-000702,WM-HH-00529,Education,Education — Taylor,36240.38,35933.31,2044-10-15,On Track,Taylor Family,Henry Parker
+WM-GL-000703,WM-HH-00531,Education,Education — Davis,121241.43,71663.23,2033-07-31,On Track,Davis Family,Julian Silva
+WM-GL-000704,WM-HH-00532,Legacy,Legacy — Parker,54944.27,33252.1,2043-05-10,At Risk,Parker Family,Kenji Bailey
+WM-GL-000705,WM-HH-00532,Legacy,Legacy — Parker,91410.37,85872.86,2035-04-01,On Track,Parker Family,Kenji Bailey
+WM-GL-000706,WM-HH-00533,Major Purchase,Major Purchase — Taylor,177922.18,37889.16,2027-02-10,On Track,Taylor Family,Naomi Allen
+WM-GL-000707,WM-HH-00534,Retirement,Retirement — Parker,605284.03,641054.08,2031-12-10,Completed,Parker Family,Sofia Parker
+WM-GL-000708,WM-HH-00536,Retirement,Retirement — Johnson,341191.61,247199.7,2029-05-14,At Risk,Johnson Family,Olivia Patel
+WM-GL-000709,WM-HH-00536,Retirement,Retirement — Johnson,226285.07,12077.03,2034-11-01,On Track,Johnson Family,Olivia Patel
+WM-GL-000710,WM-HH-00536,Major Purchase,Major Purchase — Johnson,53067.04,22896.54,2044-05-03,On Track,Johnson Family,Olivia Patel
+WM-GL-000711,WM-HH-00537,Home Purchase,Home Purchase — Evans,305250.06,180809.92,2027-07-12,On Track,Evans Family,Henry Parker
+WM-GL-000712,WM-HH-00539,Education,Education — Nguyen,53607.68,9422.22,2042-12-24,At Risk,Nguyen Family,Sofia Johnson
+WM-GL-000713,WM-HH-00540,Education,Education — Scott,253215.89,203805.98,2040-02-17,On Track,Scott Family,Jamal Wilson
+WM-GL-000714,WM-HH-00541,Major Purchase,Major Purchase — Anderson,84880.47,54566.19,2043-06-28,At Risk,Anderson Family,Noah Phillips
+WM-GL-000715,WM-HH-00541,Legacy,Legacy — Anderson,26542.92,21082.24,2030-05-28,At Risk,Anderson Family,Noah Phillips
+WM-GL-000716,WM-HH-00542,Retirement,Retirement — Edwards,745154.47,248904.93,2043-10-25,On Track,Edwards Family,Hannah Davis
+WM-GL-000717,WM-HH-00544,Major Purchase,Major Purchase — Collins,68427.75,66062.56,2043-12-02,On Track,Collins Family,Priya Anderson
+WM-GL-000718,WM-HH-00544,Legacy,Legacy — Collins,56365.87,52612.42,2029-06-12,On Track,Collins Family,Priya Anderson
+WM-GL-000719,WM-HH-00546,Education,Education — Nguyen,301275.01,272464.42,2034-05-05,At Risk,Nguyen Family,Chloe Parker
+WM-GL-000720,WM-HH-00546,Retirement,Retirement — Nguyen,2299451.57,888310.9,2040-08-04,On Track,Nguyen Family,Chloe Parker
+WM-GL-000721,WM-HH-00547,Major Purchase,Major Purchase — Patel,260025.6,282228.61,2031-04-11,Completed,Patel Family,Hannah Davis
+WM-GL-000722,WM-HH-00548,Education,Education — Vaughn,140128.57,85389.54,2045-02-13,Off Track,Vaughn Family,Sofia Parker
+WM-GL-000723,WM-HH-00548,Retirement,Retirement — Vaughn,1009067.83,472931.81,2037-11-22,At Risk,Vaughn Family,Sofia Parker
+WM-GL-000724,WM-HH-00549,Education,Education — Lewis,273476.3,213248.39,2037-09-01,On Track,Lewis Family,Priya Young
+WM-GL-000725,WM-HH-00550,Major Purchase,Major Purchase — Stewart,170846.87,92404.43,2033-04-14,On Track,Stewart Family,Julian Green
+WM-GL-000726,WM-HH-00552,Home Purchase,Home Purchase — Walker,100904.35,100227.73,2034-08-07,At Risk,Walker Family,Lauren Lewis
+WM-GL-000727,WM-HH-00552,Home Purchase,Home Purchase — Walker,71528.84,63509.54,2032-10-25,At Risk,Walker Family,Lauren Lewis
+WM-GL-000728,WM-HH-00553,Legacy,Legacy — Edwards,876259.76,222537.37,2044-02-22,At Risk,Edwards Family,Noah Baker
+WM-GL-000729,WM-HH-00554,Home Purchase,Home Purchase — Clark,516676.88,307344.42,2028-03-08,At Risk,Clark Family,Ava Ashford
+WM-GL-000730,WM-HH-00554,Home Purchase,Home Purchase — Clark,725734.6,47248.98,2039-06-01,On Track,Clark Family,Ava Ashford
+WM-GL-000731,WM-HH-00555,Major Purchase,Major Purchase — Miller,58884.48,20964.24,2037-08-01,On Track,Miller Family,Grace Carter
+WM-GL-000732,WM-HH-00556,Home Purchase,Home Purchase — Phillips,32601.29,6992.78,2027-06-18,On Track,Phillips Family,Jamal Vaughn
+WM-GL-000733,WM-HH-00556,Legacy,Legacy — Phillips,166261.33,19214.57,2040-12-01,On Track,Phillips Family,Jamal Vaughn
+WM-GL-000734,WM-HH-00557,Legacy,Legacy — Moore,164080.39,109572.86,2033-07-31,At Risk,Moore Family,Isabella Okafor
+WM-GL-000735,WM-HH-00557,Education,Education — Moore,251490.85,233410.54,2039-02-27,On Track,Moore Family,Isabella Okafor
+WM-GL-000736,WM-HH-00558,Legacy,Legacy — Mitchell,186285.21,120449.99,2031-11-12,On Track,Mitchell Family,Wei Ruiz
+WM-GL-000737,WM-HH-00558,Legacy,Legacy — Mitchell,68890.91,75374.33,2043-11-07,Completed,Mitchell Family,Wei Ruiz
+WM-GL-000738,WM-HH-00559,Retirement,Retirement — Ruiz,263571.07,75481.79,2033-07-20,Off Track,Ruiz Family,Chloe Parker
+WM-GL-000739,WM-HH-00560,Retirement,Retirement — Chen,1272311.66,762663.59,2039-05-08,At Risk,Chen Family,Owen White
+WM-GL-000740,WM-HH-00560,Major Purchase,Major Purchase — Chen,111934.16,80689.07,2043-02-17,At Risk,Chen Family,Owen White
+WM-GL-000741,WM-HH-00561,Retirement,Retirement — Nelson,324093.83,216214.9,2031-03-11,On Track,Nelson Family,Priya Young
+WM-GL-000742,WM-HH-00561,Retirement,Retirement — Nelson,1233787.41,467468.67,2043-12-27,On Track,Nelson Family,Priya Young
+WM-GL-000743,WM-HH-00562,Major Purchase,Major Purchase — Edwards,107581.6,27771.91,2036-07-21,On Track,Edwards Family,Amara Okafor
+WM-GL-000744,WM-HH-00563,Home Purchase,Home Purchase — Allen,111736.72,94791.55,2032-11-06,At Risk,Allen Family,Julian Silva
+WM-GL-000745,WM-HH-00563,Education,Education — Allen,119937.91,24903.93,2044-04-09,At Risk,Allen Family,Julian Silva
+WM-GL-000746,WM-HH-00563,Legacy,Legacy — Allen,369327.77,123744.64,2045-04-26,On Track,Allen Family,Julian Silva
+WM-GL-000747,WM-HH-00565,Retirement,Retirement — Davis,2138270.36,645838.65,2030-09-03,On Track,Davis Family,Ava Ashford
+WM-GL-000748,WM-HH-00566,Education,Education — Adams,82147.25,37278.08,2029-02-28,On Track,Adams Family,Noah Phillips
+WM-GL-000749,WM-HH-00566,Retirement,Retirement — Adams,2391041.93,241821.35,2038-06-24,On Track,Adams Family,Noah Phillips
+WM-GL-000750,WM-HH-00567,Retirement,Retirement — Young,5632770.75,1630080.36,2043-04-08,On Track,Young Family,Victor Evans
+WM-GL-000751,WM-HH-00567,Home Purchase,Home Purchase — Young,196275.31,118610.89,2041-12-29,On Track,Young Family,Victor Evans
+WM-GL-000752,WM-HH-00568,Retirement,Retirement — Thomas,978139.21,1020814.11,2037-07-06,Completed,Thomas Family,Chloe Davis
+WM-GL-000753,WM-HH-00568,Education,Education — Thomas,261099.18,81959.74,2030-02-19,On Track,Thomas Family,Chloe Davis
+WM-GL-000754,WM-HH-00569,Major Purchase,Major Purchase — Baker,244639.58,89997.84,2034-03-07,On Track,Baker Family,Grace Carter
+WM-GL-000755,WM-HH-00570,Retirement,Retirement — Nguyen,735723.86,286803.97,2045-08-10,On Track,Nguyen Family,Lauren Lewis
+WM-GL-000756,WM-HH-00571,Legacy,Legacy — Brown,207135.09,185654.99,2043-03-07,On Track,Brown Family,Olivia Patel
+WM-GL-000757,WM-HH-00571,Legacy,Legacy — Brown,29520.2,27352.97,2033-07-22,On Track,Brown Family,Olivia Patel
+WM-GL-000758,WM-HH-00572,Retirement,Retirement — Davis,1353118.46,1314507.63,2031-08-31,On Track,Davis Family,Chloe Parker
+WM-GL-000759,WM-HH-00572,Major Purchase,Major Purchase — Davis,310416.21,261339.34,2028-02-04,On Track,Davis Family,Chloe Parker
+WM-GL-000760,WM-HH-00574,Education,Education — Evans,220230.92,73284.56,2042-02-04,On Track,Evans Family,Leo Evans
+WM-GL-000761,WM-HH-00576,Home Purchase,Home Purchase — Okafor,87138.73,90269.32,2037-11-19,Completed,Okafor Family,Henry Parker
+WM-GL-000762,WM-HH-00577,Home Purchase,Home Purchase — Campbell,161040.97,167150.21,2033-11-11,Completed,Campbell Family,Leo Evans
+WM-GL-000763,WM-HH-00577,Home Purchase,Home Purchase — Campbell,181141.72,196559.62,2027-02-02,Completed,Campbell Family,Leo Evans
+WM-GL-000764,WM-HH-00578,Legacy,Legacy — Wilson,109083.3,61174.06,2035-11-13,On Track,Wilson Family,Priya Martinez
+WM-GL-000765,WM-HH-00578,Home Purchase,Home Purchase — Wilson,216527.92,145569.08,2030-07-04,On Track,Wilson Family,Priya Martinez
+WM-GL-000766,WM-HH-00578,Education,Education — Wilson,409633.02,290247.99,2030-10-06,On Track,Wilson Family,Priya Martinez
+WM-GL-000767,WM-HH-00579,Legacy,Legacy — King,609099.73,559089.08,2032-04-23,At Risk,King Family,Henry Parker
+WM-GL-000768,WM-HH-00580,Education,Education — Morris,146874.38,117540.5,2039-04-14,At Risk,Morris Family,Diego Silva
+WM-GL-000769,WM-HH-00580,Retirement,Retirement — Morris,1398113.69,404482.72,2043-08-28,On Track,Morris Family,Diego Silva
+WM-GL-000770,WM-HH-00581,Major Purchase,Major Purchase — Okafor,121790.06,12544.22,2028-11-16,Off Track,Okafor Family,Sofia Parker
+WM-GL-000771,WM-HH-00581,Education,Education — Okafor,107045.28,22623.61,2035-05-18,At Risk,Okafor Family,Sofia Parker
+WM-GL-000772,WM-HH-00582,Legacy,Legacy — Turner,825445.76,426956.42,2042-04-11,On Track,Turner Family,Owen White
+WM-GL-000773,WM-HH-00582,Home Purchase,Home Purchase — Turner,208327.67,128767.85,2043-09-10,On Track,Turner Family,Owen White
+WM-GL-000774,WM-HH-00583,Legacy,Legacy — Silva,129481.91,37100.66,2033-06-24,On Track,Silva Family,Amara Okafor
+WM-GL-000775,WM-HH-00584,Legacy,Legacy — Stewart,32847.39,24160.57,2033-11-11,At Risk,Stewart Family,Chloe Davis
+WM-GL-000776,WM-HH-00586,Education,Education — Turner,86084.07,62965.49,2033-04-06,On Track,Turner Family,Noah Phillips
+WM-GL-000777,WM-HH-00587,Retirement,Retirement — Anderson,737975.16,198538.75,2045-02-05,On Track,Anderson Family,Grace Carter
+WM-GL-000778,WM-HH-00587,Retirement,Retirement — Anderson,749029.25,693173.85,2038-08-10,On Track,Anderson Family,Grace Carter
+WM-GL-000779,WM-HH-00588,Education,Education — Parker,155539.28,41551.13,2043-05-17,On Track,Parker Family,Jamal Vaughn
+WM-GL-000780,WM-HH-00588,Education,Education — Parker,39082.94,4168.0,2035-05-21,At Risk,Parker Family,Jamal Vaughn
+WM-GL-000781,WM-HH-00589,Home Purchase,Home Purchase — Lopez,464195.66,368286.07,2029-11-15,On Track,Lopez Family,Wei Ruiz
+WM-GL-000782,WM-HH-00589,Major Purchase,Major Purchase — Lopez,50911.73,18792.79,2043-09-04,On Track,Lopez Family,Wei Ruiz
+WM-GL-000783,WM-HH-00591,Major Purchase,Major Purchase — Parker,257883.32,127258.19,2030-08-21,On Track,Parker Family,Grace Carter
+WM-GL-000784,WM-HH-00592,Home Purchase,Home Purchase — Stewart,172575.73,53280.42,2040-05-22,At Risk,Stewart Family,Nina Brown
+WM-GL-000785,WM-HH-00592,Retirement,Retirement — Stewart,866993.54,69492.19,2038-03-06,On Track,Stewart Family,Nina Brown
+WM-GL-000786,WM-HH-00592,Education,Education — Stewart,124889.57,60346.95,2040-06-04,At Risk,Stewart Family,Nina Brown
+WM-GL-000787,WM-HH-00593,Retirement,Retirement — Anderson,212546.03,70558.17,2031-09-13,At Risk,Anderson Family,Olivia Patel
+WM-GL-000788,WM-HH-00593,Legacy,Legacy — Anderson,79646.44,44243.68,2033-09-10,On Track,Anderson Family,Olivia Patel
+WM-GL-000789,WM-HH-00593,Home Purchase,Home Purchase — Anderson,51991.62,32515.86,2041-08-26,At Risk,Anderson Family,Olivia Patel
+WM-GL-000790,WM-HH-00594,Retirement,Retirement — Okafor,328164.7,102227.2,2028-10-13,On Track,Okafor Family,Lauren Lewis
+WM-GL-000791,WM-HH-00594,Retirement,Retirement — Okafor,456917.32,244588.07,2044-08-20,On Track,Okafor Family,Lauren Lewis
+WM-GL-000792,WM-HH-00595,Home Purchase,Home Purchase — Scott,225008.48,220388.1,2037-05-21,On Track,Scott Family,Sofia Parker
+WM-GL-000793,WM-HH-00595,Major Purchase,Major Purchase — Scott,97183.81,40232.63,2027-01-15,At Risk,Scott Family,Sofia Parker
+WM-GL-000794,WM-HH-00596,Legacy,Legacy — Jackson,367750.49,247112.61,2028-08-21,On Track,Jackson Family,Jamal Wilson
+WM-GL-000795,WM-HH-00596,Education,Education — Jackson,145887.13,49634.74,2036-05-13,On Track,Jackson Family,Jamal Wilson
+WM-GL-000796,WM-HH-00597,Retirement,Retirement — Vaughn,484938.02,315792.05,2045-02-09,On Track,Vaughn Family,Sofia Johnson
+WM-GL-000797,WM-HH-00598,Major Purchase,Major Purchase — Davis,176755.87,16033.96,2041-07-08,At Risk,Davis Family,Owen White
+WM-GL-000798,WM-HH-00599,Legacy,Legacy — Carter,262500.34,115352.39,2043-11-18,On Track,Carter Family,Priya Martinez
+WM-GL-000799,WM-HH-00599,Legacy,Legacy — Carter,145328.53,156373.19,2034-12-12,Completed,Carter Family,Priya Martinez
+WM-GL-000800,WM-HH-00599,Education,Education — Carter,109082.1,36922.54,2040-08-09,On Track,Carter Family,Priya Martinez
+WM-GL-000801,WM-HH-00600,Education,Education — Campbell,105312.33,44783.71,2034-11-02,Off Track,Campbell Family,Noah Baker
+WM-GL-000802,WM-HH-00601,Education,Education — Allen,103810.01,30713.78,2040-08-20,Off Track,Allen Family,Grace Carter
+WM-GL-000803,WM-HH-00601,Legacy,Legacy — Allen,54689.24,15167.01,2027-02-03,At Risk,Allen Family,Grace Carter
+WM-GL-000804,WM-HH-00601,Major Purchase,Major Purchase — Allen,244228.64,90137.96,2038-10-07,At Risk,Allen Family,Grace Carter
+WM-GL-000805,WM-HH-00603,Retirement,Retirement — Hall,1447197.82,989667.67,2030-08-17,On Track,Hall Family,Priya Young
+WM-GL-000806,WM-HH-00605,Home Purchase,Home Purchase — Allen,737637.66,574482.93,2043-10-14,At Risk,Allen Family,Noah Baker
+WM-GL-000807,WM-HH-00606,Major Purchase,Major Purchase — Evans,86634.39,66641.37,2035-09-24,At Risk,Evans Family,Wei Ruiz
+WM-GL-000808,WM-HH-00606,Retirement,Retirement — Evans,1800971.75,1767824.18,2037-10-27,On Track,Evans Family,Wei Ruiz
+WM-GL-000809,WM-HH-00607,Legacy,Legacy — Lopez,93596.5,66806.4,2027-01-28,At Risk,Lopez Family,Kenji Scott
+WM-GL-000810,WM-HH-00607,Education,Education — Lopez,87441.66,51609.16,2044-10-07,At Risk,Lopez Family,Kenji Scott
+WM-GL-000811,WM-HH-00608,Home Purchase,Home Purchase — Green,208871.88,95774.11,2039-06-10,Off Track,Green Family,Victor Walker
+WM-GL-000812,WM-HH-00608,Retirement,Retirement — Green,604827.6,305229.36,2029-11-09,Off Track,Green Family,Victor Walker
+WM-GL-000813,WM-HH-00610,Major Purchase,Major Purchase — Mitchell,153279.06,74971.73,2043-01-13,Off Track,Mitchell Family,Wei King
+WM-GL-000814,WM-HH-00610,Major Purchase,Major Purchase — Mitchell,208905.02,39246.63,2044-02-05,At Risk,Mitchell Family,Wei King
+WM-GL-000815,WM-HH-00610,Major Purchase,Major Purchase — Mitchell,76283.01,65524.26,2040-03-08,Off Track,Mitchell Family,Wei King
+WM-GL-000816,WM-HH-00612,Retirement,Retirement — Patel,1335749.42,184532.03,2043-08-23,On Track,Patel Family,Kenji Bailey
+WM-GL-000817,WM-HH-00612,Education,Education — Patel,75927.47,33749.14,2030-05-09,On Track,Patel Family,Kenji Bailey
+WM-GL-000818,WM-HH-00612,Home Purchase,Home Purchase — Patel,67808.58,58070.22,2033-01-17,On Track,Patel Family,Kenji Bailey
+WM-GL-000819,WM-HH-00613,Retirement,Retirement — Morris,1622885.31,1187902.79,2031-01-13,At Risk,Morris Family,Leo Evans
+WM-GL-000820,WM-HH-00613,Home Purchase,Home Purchase — Morris,348924.39,111342.98,2028-10-07,At Risk,Morris Family,Leo Evans
+WM-GL-000821,WM-HH-00614,Major Purchase,Major Purchase — Wilson,140883.18,34923.96,2039-09-27,On Track,Wilson Family,Noah Phillips
+WM-GL-000822,WM-HH-00615,Home Purchase,Home Purchase — Anderson,219400.01,195234.48,2030-10-23,At Risk,Anderson Family,Isabella Okafor
+WM-GL-000823,WM-HH-00616,Education,Education — Silva,90597.43,63328.84,2037-07-05,On Track,Silva Family,Chloe Davis
+WM-GL-000824,WM-HH-00617,Education,Education — Ashford,493569.23,35248.5,2029-06-29,On Track,Ashford Family,Yuki Vaughn
+WM-GL-000825,WM-HH-00617,Retirement,Retirement — Ashford,462408.17,398201.95,2033-05-01,At Risk,Ashford Family,Yuki Vaughn
+WM-GL-000826,WM-HH-00617,Major Purchase,Major Purchase — Ashford,161526.45,15427.27,2027-08-24,Off Track,Ashford Family,Yuki Vaughn
+WM-GL-000827,WM-HH-00618,Legacy,Legacy — King,681989.07,674957.98,2044-09-18,At Risk,King Family,Noah Phillips
+WM-GL-000828,WM-HH-00618,Major Purchase,Major Purchase — King,711968.54,681228.47,2035-01-27,On Track,King Family,Noah Phillips
+WM-GL-000829,WM-HH-00619,Retirement,Retirement — Thomas,1527106.87,391285.33,2035-12-15,At Risk,Thomas Family,Chloe Parker
+WM-GL-000830,WM-HH-00621,Retirement,Retirement — Evans,1970483.76,843620.22,2039-11-18,On Track,Evans Family,Wei King
+WM-GL-000831,WM-HH-00621,Major Purchase,Major Purchase — Evans,462748.45,70115.65,2045-01-04,On Track,Evans Family,Wei King
+WM-GL-000832,WM-HH-00622,Legacy,Legacy — Okafor,334796.69,270925.31,2029-04-30,On Track,Okafor Family,Diego Silva
+WM-GL-000833,WM-HH-00623,Legacy,Legacy — Anderson,89063.15,64115.63,2031-06-02,At Risk,Anderson Family,Kenji Stewart
+WM-GL-000834,WM-HH-00624,Education,Education — Moore,202021.12,221987.58,2032-07-01,Completed,Moore Family,Sofia Johnson
+WM-GL-000835,WM-HH-00624,Education,Education — Moore,292002.96,180828.77,2034-12-16,On Track,Moore Family,Sofia Johnson
+WM-GL-000836,WM-HH-00625,Major Purchase,Major Purchase — Scott,77843.31,53994.27,2029-05-12,At Risk,Scott Family,Leo Evans
+WM-GL-000837,WM-HH-00625,Education,Education — Scott,126370.9,42818.87,2041-07-07,On Track,Scott Family,Leo Evans
+WM-GL-000838,WM-HH-00628,Major Purchase,Major Purchase — Patel,207933.87,24184.86,2037-03-16,Off Track,Patel Family,Noah Phillips
+WM-GL-000839,WM-HH-00628,Home Purchase,Home Purchase — Patel,500315.12,331790.48,2038-01-21,On Track,Patel Family,Noah Phillips
+WM-GL-000840,WM-HH-00629,Home Purchase,Home Purchase — Wilson,526017.92,238894.23,2027-10-20,On Track,Wilson Family,Wei King
+WM-GL-000841,WM-HH-00630,Major Purchase,Major Purchase — Wright,82146.81,7087.32,2044-10-12,Off Track,Wright Family,Henry Parker
+WM-GL-000842,WM-HH-00630,Home Purchase,Home Purchase — Wright,103320.48,17117.94,2042-05-31,At Risk,Wright Family,Henry Parker
+WM-GL-000843,WM-HH-00631,Home Purchase,Home Purchase — Hall,96531.43,7635.9,2035-08-26,On Track,Hall Family,Sofia Johnson
+WM-GL-000844,WM-HH-00631,Major Purchase,Major Purchase — Hall,322529.12,203497.6,2034-01-12,At Risk,Hall Family,Sofia Johnson
+WM-GL-000845,WM-HH-00631,Education,Education — Hall,50771.72,51702.24,2041-01-11,Completed,Hall Family,Sofia Johnson
+WM-GL-000846,WM-HH-00632,Legacy,Legacy — Chen,67335.06,63859.45,2031-05-11,On Track,Chen Family,Noah Phillips
+WM-GL-000847,WM-HH-00633,Major Purchase,Major Purchase — Lewis,146302.44,87401.87,2037-05-07,On Track,Lewis Family,Victor Evans
+WM-GL-000848,WM-HH-00633,Major Purchase,Major Purchase — Lewis,67877.91,11783.1,2031-04-25,Off Track,Lewis Family,Victor Evans
+WM-GL-000849,WM-HH-00634,Legacy,Legacy — Wilson,386065.55,243496.45,2045-05-17,On Track,Wilson Family,Kenji Scott
+WM-GL-000850,WM-HH-00634,Legacy,Legacy — Wilson,95317.13,53006.57,2036-03-15,At Risk,Wilson Family,Kenji Scott
+WM-GL-000851,WM-HH-00635,Major Purchase,Major Purchase — Wilson,391927.55,384403.47,2037-11-30,On Track,Wilson Family,Owen White
+WM-GL-000852,WM-HH-00635,Education,Education — Wilson,505732.46,488098.42,2037-12-18,On Track,Wilson Family,Owen White
+WM-GL-000853,WM-HH-00636,Home Purchase,Home Purchase — Phillips,49290.93,17952.25,2028-03-24,On Track,Phillips Family,Chloe Parker
+WM-GL-000854,WM-HH-00637,Major Purchase,Major Purchase — Nguyen,126791.51,111283.42,2037-01-19,At Risk,Nguyen Family,Luis Stewart
+WM-GL-000855,WM-HH-00638,Legacy,Legacy — Phillips,707464.22,705515.74,2029-05-24,Off Track,Phillips Family,Kenji Scott
+WM-GL-000856,WM-HH-00638,Legacy,Legacy — Phillips,200411.21,100143.21,2028-02-12,On Track,Phillips Family,Kenji Scott
+WM-GL-000857,WM-HH-00639,Legacy,Legacy — Lopez,136127.75,138692.29,2029-02-23,Completed,Lopez Family,Kenji Stewart
+WM-GL-000858,WM-HH-00640,Retirement,Retirement — Harris,770087.02,556172.11,2039-01-10,Off Track,Harris Family,Leo Evans
+WM-GL-000859,WM-HH-00640,Legacy,Legacy — Harris,208096.62,32228.28,2039-10-19,On Track,Harris Family,Leo Evans
+WM-GL-000860,WM-HH-00640,Legacy,Legacy — Harris,140932.29,150227.37,2028-10-15,Completed,Harris Family,Leo Evans
+WM-GL-000861,WM-HH-00642,Legacy,Legacy — Taylor,243288.65,88097.85,2038-03-18,On Track,Taylor Family,Nina Brown
+WM-GL-000862,WM-HH-00643,Retirement,Retirement — Vaughn,408479.64,72638.93,2028-03-31,On Track,Vaughn Family,Grace Carter
+WM-GL-000863,WM-HH-00644,Retirement,Retirement — Allen,448809.37,334259.15,2028-10-18,At Risk,Allen Family,Owen Edwards
+WM-GL-000864,WM-HH-00644,Major Purchase,Major Purchase — Allen,377191.96,177781.76,2040-05-07,At Risk,Allen Family,Owen Edwards
+WM-GL-000865,WM-HH-00646,Major Purchase,Major Purchase — Jackson,303089.23,88542.7,2045-07-05,On Track,Jackson Family,Julian Green
+WM-GL-000866,WM-HH-00647,Home Purchase,Home Purchase — Lewis,54230.57,29809.95,2044-10-18,On Track,Lewis Family,Henry Parker
+WM-GL-000867,WM-HH-00647,Home Purchase,Home Purchase — Lewis,190486.17,130542.94,2031-06-30,On Track,Lewis Family,Henry Parker
+WM-GL-000868,WM-HH-00648,Home Purchase,Home Purchase — Clark,168307.84,97398.59,2037-01-12,On Track,Clark Family,Wei Ruiz
+WM-GL-000869,WM-HH-00648,Home Purchase,Home Purchase — Clark,124585.71,100576.12,2039-11-23,On Track,Clark Family,Wei Ruiz
+WM-GL-000870,WM-HH-00650,Education,Education — Garcia,192134.53,35390.38,2044-04-06,At Risk,Garcia Family,Hannah Davis
+WM-GL-000871,WM-HH-00651,Legacy,Legacy — Lopez,209215.82,185575.22,2039-03-11,On Track,Lopez Family,Noah Phillips
+WM-GL-000872,WM-HH-00652,Retirement,Retirement — Lewis,1051707.51,502937.19,2034-04-10,At Risk,Lewis Family,Carlos Miller
+WM-GL-000873,WM-HH-00652,Major Purchase,Major Purchase — Lewis,225811.03,130105.57,2037-08-19,On Track,Lewis Family,Carlos Miller
+WM-GL-000874,WM-HH-00652,Legacy,Legacy — Lewis,121494.89,124073.43,2044-11-08,Completed,Lewis Family,Carlos Miller
+WM-GL-000875,WM-HH-00653,Education,Education — White,224174.95,125953.28,2045-01-14,On Track,White Family,Henry Parker
+WM-GL-000876,WM-HH-00653,Legacy,Legacy — White,293181.32,233106.52,2040-05-25,On Track,White Family,Henry Parker
+WM-GL-000877,WM-HH-00654,Home Purchase,Home Purchase — Stewart,110356.22,11573.03,2037-02-18,At Risk,Stewart Family,Diego Silva
+WM-GL-000878,WM-HH-00654,Home Purchase,Home Purchase — Stewart,59815.54,47161.59,2039-01-02,On Track,Stewart Family,Diego Silva
+WM-GL-000879,WM-HH-00655,Legacy,Legacy — Vaughn,154701.61,109036.23,2032-07-21,Off Track,Vaughn Family,Jamal Wilson
+WM-GL-000880,WM-HH-00656,Major Purchase,Major Purchase — Miller,176694.72,70425.6,2037-08-10,Off Track,Miller Family,Priya Martinez
+WM-GL-000881,WM-HH-00656,Major Purchase,Major Purchase — Miller,119720.79,110944.91,2040-12-31,On Track,Miller Family,Priya Martinez
+WM-GL-000882,WM-HH-00657,Legacy,Legacy — Mitchell,139199.21,103111.66,2038-04-27,On Track,Mitchell Family,Priya Young
+WM-GL-000883,WM-HH-00658,Retirement,Retirement — Brown,3232661.77,2619980.81,2032-10-23,Off Track,Brown Family,Nina Brown
+WM-GL-000884,WM-HH-00659,Education,Education — Scott,203740.17,108288.57,2037-12-04,At Risk,Scott Family,Victor Walker
+WM-GL-000885,WM-HH-00659,Legacy,Legacy — Scott,125963.81,111403.27,2034-01-28,At Risk,Scott Family,Victor Walker
+WM-GL-000886,WM-HH-00660,Legacy,Legacy — Walker,133072.79,136221.46,2038-11-01,Completed,Walker Family,Victor Walker
+WM-GL-000887,WM-HH-00660,Home Purchase,Home Purchase — Walker,166715.51,64149.34,2039-05-20,On Track,Walker Family,Victor Walker
+WM-GL-000888,WM-HH-00661,Major Purchase,Major Purchase — Brown,159126.89,130451.89,2042-07-27,On Track,Brown Family,Amara Okafor
+WM-GL-000889,WM-HH-00661,Major Purchase,Major Purchase — Brown,731939.68,576749.38,2038-05-24,On Track,Brown Family,Amara Okafor
+WM-GL-000890,WM-HH-00662,Retirement,Retirement — Ruiz,664806.58,698036.68,2045-07-29,Completed,Ruiz Family,Victor Evans
+WM-GL-000891,WM-HH-00662,Retirement,Retirement — Ruiz,896892.61,885906.41,2038-04-11,On Track,Ruiz Family,Victor Evans
+WM-GL-000892,WM-HH-00664,Legacy,Legacy — Kim,193527.85,55420.36,2036-03-31,On Track,Kim Family,Sofia Johnson
+WM-GL-000893,WM-HH-00665,Legacy,Legacy — Patel,64054.82,18423.26,2028-05-24,On Track,Patel Family,Sofia Parker
+WM-GL-000894,WM-HH-00666,Home Purchase,Home Purchase — Ashford,77483.85,79255.1,2034-11-26,Completed,Ashford Family,Isabella Okafor
+WM-GL-000895,WM-HH-00667,Education,Education — Nelson,244294.17,199879.14,2038-07-23,At Risk,Nelson Family,Julian Silva
+WM-GL-000896,WM-HH-00668,Legacy,Legacy — Taylor,158680.12,153545.87,2033-06-15,Off Track,Taylor Family,Isabella Okafor
+WM-GL-000897,WM-HH-00670,Education,Education — Ashford,55916.57,60192.2,2027-02-26,Completed,Ashford Family,Noah Phillips
+WM-GL-000898,WM-HH-00670,Legacy,Legacy — Ashford,129846.85,131486.44,2027-07-21,Completed,Ashford Family,Noah Phillips
+WM-GL-000899,WM-HH-00670,Legacy,Legacy — Ashford,48619.14,27949.75,2029-09-12,On Track,Ashford Family,Noah Phillips
+WM-GL-000900,WM-HH-00671,Legacy,Legacy — Garcia,283671.55,126203.46,2028-09-22,At Risk,Garcia Family,Sofia Johnson
+WM-GL-000901,WM-HH-00671,Home Purchase,Home Purchase — Garcia,145051.6,80191.71,2032-09-05,At Risk,Garcia Family,Sofia Johnson
+WM-GL-000902,WM-HH-00672,Retirement,Retirement — Anderson,838450.05,759776.51,2037-06-17,On Track,Anderson Family,Sara Nelson
+WM-GL-000903,WM-HH-00673,Retirement,Retirement — Davis,524390.35,430703.77,2045-09-25,On Track,Davis Family,Chloe Davis
+WM-GL-000904,WM-HH-00674,Retirement,Retirement — Okafor,217895.19,43316.4,2030-03-24,At Risk,Okafor Family,Owen Edwards
+WM-GL-000905,WM-HH-00675,Retirement,Retirement — Thomas,231879.75,166689.04,2040-03-13,On Track,Thomas Family,Wei Ruiz
+WM-GL-000906,WM-HH-00675,Major Purchase,Major Purchase — Thomas,73308.65,29910.42,2041-03-08,On Track,Thomas Family,Wei Ruiz
+WM-GL-000907,WM-HH-00675,Retirement,Retirement — Thomas,753358.91,416126.2,2045-01-05,Off Track,Thomas Family,Wei Ruiz
+WM-GL-000908,WM-HH-00676,Major Purchase,Major Purchase — Bailey,318000.0,68237.51,2045-03-04,On Track,Bailey Family,Diego Silva
+WM-GL-000909,WM-HH-00677,Home Purchase,Home Purchase — Young,46767.06,40609.28,2038-05-31,On Track,Young Family,Lauren Lewis
+WM-GL-000910,WM-HH-00678,Major Purchase,Major Purchase — Vaughn,215365.67,71281.8,2043-06-22,At Risk,Vaughn Family,Jamal Vaughn
+WM-GL-000911,WM-HH-00680,Education,Education — Harris,138257.36,109384.98,2029-12-20,On Track,Harris Family,Luis Stewart
+WM-GL-000912,WM-HH-00680,Major Purchase,Major Purchase — Harris,217731.02,217304.51,2032-04-21,On Track,Harris Family,Luis Stewart
+WM-GL-000913,WM-HH-00680,Legacy,Legacy — Harris,169203.11,140147.79,2038-05-04,On Track,Harris Family,Luis Stewart
+WM-GL-000914,WM-HH-00681,Major Purchase,Major Purchase — Bailey,141990.7,154654.4,2034-07-02,Completed,Bailey Family,Julian Green
+WM-GL-000915,WM-HH-00681,Home Purchase,Home Purchase — Bailey,48593.21,33141.04,2027-09-21,On Track,Bailey Family,Julian Green
+WM-GL-000916,WM-HH-00681,Retirement,Retirement — Bailey,961464.47,427758.6,2028-07-09,On Track,Bailey Family,Julian Green
+WM-GL-000917,WM-HH-00682,Major Purchase,Major Purchase — Brown,374086.77,298274.03,2030-02-25,Off Track,Brown Family,Noah Baker
+WM-GL-000918,WM-HH-00682,Retirement,Retirement — Brown,445843.27,195875.72,2044-04-09,At Risk,Brown Family,Noah Baker
+WM-GL-000919,WM-HH-00683,Home Purchase,Home Purchase — Jackson,65876.4,11760.89,2038-02-11,On Track,Jackson Family,Isabella Okafor
+WM-GL-000920,WM-HH-00685,Legacy,Legacy — Okafor,106730.46,101440.67,2033-07-04,Off Track,Okafor Family,Wei King
+WM-GL-000921,WM-HH-00685,Major Purchase,Major Purchase — Okafor,306181.87,95920.03,2044-11-02,On Track,Okafor Family,Wei King
+WM-GL-000922,WM-HH-00686,Legacy,Legacy — Hall,71562.1,77651.08,2030-03-14,Completed,Hall Family,Hannah Davis
+WM-GL-000923,WM-HH-00686,Major Purchase,Major Purchase — Hall,160841.71,150074.81,2040-01-11,Off Track,Hall Family,Hannah Davis
+WM-GL-000924,WM-HH-00687,Home Purchase,Home Purchase — Garcia,75232.75,79571.14,2044-12-20,Completed,Garcia Family,Kenji Stewart
+WM-GL-000925,WM-HH-00687,Retirement,Retirement — Garcia,394869.73,219186.09,2040-06-24,On Track,Garcia Family,Kenji Stewart
+WM-GL-000926,WM-HH-00688,Major Purchase,Major Purchase — Johnson,38605.56,9558.57,2044-07-31,At Risk,Johnson Family,Henry Parker
+WM-GL-000927,WM-HH-00688,Legacy,Legacy — Johnson,37832.2,4536.58,2037-10-09,On Track,Johnson Family,Henry Parker
+WM-GL-000928,WM-HH-00689,Education,Education — Patel,105512.8,13831.41,2039-09-03,Off Track,Patel Family,Kenji Scott
+WM-GL-000929,WM-HH-00690,Legacy,Legacy — Allen,100135.94,79946.61,2037-05-10,On Track,Allen Family,Sara Nelson
+WM-GL-000930,WM-HH-00691,Home Purchase,Home Purchase — Chen,131257.23,75043.0,2040-04-09,On Track,Chen Family,Julian Silva
+WM-GL-000931,WM-HH-00691,Major Purchase,Major Purchase — Chen,225901.48,194915.58,2041-10-28,On Track,Chen Family,Julian Silva
+WM-GL-000932,WM-HH-00692,Home Purchase,Home Purchase — Jackson,240800.13,226557.97,2031-08-16,At Risk,Jackson Family,Olivia Patel
+WM-GL-000933,WM-HH-00693,Major Purchase,Major Purchase — Kim,518897.86,131863.63,2045-07-07,Off Track,Kim Family,Noah Baker
+WM-GL-000934,WM-HH-00694,Major Purchase,Major Purchase — Johnson,214659.21,80084.86,2027-01-07,At Risk,Johnson Family,Julian Silva
+WM-GL-000935,WM-HH-00694,Retirement,Retirement — Johnson,431722.75,57778.7,2045-12-08,On Track,Johnson Family,Julian Silva
+WM-GL-000936,WM-HH-00695,Major Purchase,Major Purchase — Young,149928.4,53888.41,2038-11-04,At Risk,Young Family,Grace Carter
+WM-GL-000937,WM-HH-00696,Home Purchase,Home Purchase — Ruiz,279827.56,25328.18,2032-12-12,On Track,Ruiz Family,Chloe Davis
+WM-GL-000938,WM-HH-00697,Retirement,Retirement — Roberts,332819.19,349289.43,2030-07-02,Completed,Roberts Family,Priya Anderson
+WM-GL-000939,WM-HH-00697,Retirement,Retirement — Roberts,492401.41,350036.56,2039-05-01,On Track,Roberts Family,Priya Anderson
+WM-GL-000940,WM-HH-00698,Retirement,Retirement — Kim,308496.66,172487.01,2033-09-01,On Track,Kim Family,Sofia Johnson
+WM-GL-000941,WM-HH-00698,Retirement,Retirement — Kim,349888.78,370878.61,2033-05-04,Completed,Kim Family,Sofia Johnson
+WM-GL-000942,WM-HH-00699,Education,Education — Young,103796.02,108305.17,2029-05-13,Completed,Young Family,Olivia Stewart
+WM-GL-000943,WM-HH-00700,Legacy,Legacy — Jackson,71618.22,22238.97,2029-03-10,At Risk,Jackson Family,Chloe Parker
+WM-GL-000944,WM-HH-00700,Home Purchase,Home Purchase — Jackson,265328.09,50985.62,2044-05-28,On Track,Jackson Family,Chloe Parker
+WM-GL-000945,WM-HH-00701,Legacy,Legacy — Silva,199261.87,34463.34,2040-04-14,On Track,Silva Family,Priya Anderson
+WM-GL-000946,WM-HH-00702,Retirement,Retirement — Martinez,1005248.9,198998.29,2045-10-31,On Track,Martinez Family,Priya Martinez
+WM-GL-000947,WM-HH-00703,Retirement,Retirement — Edwards,616538.51,478497.15,2042-06-23,On Track,Edwards Family,Priya Martinez
+WM-GL-000948,WM-HH-00704,Education,Education — Campbell,215843.54,45138.94,2043-07-01,At Risk,Campbell Family,Carlos Miller
+WM-GL-000949,WM-HH-00706,Home Purchase,Home Purchase — Mitchell,517462.7,104228.65,2036-02-09,On Track,Mitchell Family,Victor Walker
+WM-GL-000950,WM-HH-00707,Education,Education — Thomas,244180.48,259015.23,2040-08-25,Completed,Thomas Family,Owen Edwards
+WM-GL-000951,WM-HH-00707,Legacy,Legacy — Thomas,238531.24,198131.16,2029-12-09,On Track,Thomas Family,Owen Edwards
+WM-GL-000952,WM-HH-00708,Home Purchase,Home Purchase — Parker,143642.79,16962.63,2037-04-03,On Track,Parker Family,Julian Green
+WM-GL-000953,WM-HH-00708,Home Purchase,Home Purchase — Parker,143138.48,57980.33,2028-06-11,At Risk,Parker Family,Julian Green
+WM-GL-000954,WM-HH-00709,Legacy,Legacy — Taylor,666187.65,654151.63,2033-10-11,On Track,Taylor Family,Grace Carter
+WM-GL-000955,WM-HH-00710,Home Purchase,Home Purchase — Wright,60221.63,10292.87,2039-04-07,At Risk,Wright Family,Diego Silva
+WM-GL-000956,WM-HH-00710,Education,Education — Wright,68733.8,34488.06,2036-08-03,On Track,Wright Family,Diego Silva
+WM-GL-000957,WM-HH-00710,Major Purchase,Major Purchase — Wright,159857.95,104033.3,2041-03-03,At Risk,Wright Family,Diego Silva
+WM-GL-000958,WM-HH-00711,Major Purchase,Major Purchase — Roberts,100258.49,47624.28,2036-04-11,On Track,Roberts Family,Kenji Stewart
+WM-GL-000959,WM-HH-00711,Home Purchase,Home Purchase — Roberts,260685.67,20469.4,2030-04-06,At Risk,Roberts Family,Kenji Stewart
+WM-GL-000960,WM-HH-00712,Retirement,Retirement — Davis,2340079.64,2308854.82,2042-10-29,At Risk,Davis Family,Hannah Davis
+WM-GL-000961,WM-HH-00713,Major Purchase,Major Purchase — Wright,114992.88,125164.67,2029-07-06,Completed,Wright Family,Sara Nelson
+WM-GL-000962,WM-HH-00714,Education,Education — Garcia,179906.53,194436.65,2027-11-11,Completed,Garcia Family,Amara Okafor
+WM-GL-000963,WM-HH-00714,Retirement,Retirement — Garcia,692556.85,655541.02,2033-05-08,At Risk,Garcia Family,Amara Okafor
+WM-GL-000964,WM-HH-00715,Retirement,Retirement — Allen,990272.71,994349.9,2035-07-03,Completed,Allen Family,Priya Martinez
+WM-GL-000965,WM-HH-00715,Education,Education — Allen,239956.77,137912.93,2028-12-08,On Track,Allen Family,Priya Martinez
+WM-GL-000966,WM-HH-00716,Education,Education — Campbell,131876.2,84856.81,2028-12-20,At Risk,Campbell Family,Sofia Parker
+WM-GL-000967,WM-HH-00718,Education,Education — Vaughn,97315.36,96615.2,2044-01-29,On Track,Vaughn Family,Owen White
+WM-GL-000968,WM-HH-00718,Retirement,Retirement — Vaughn,481366.28,440197.05,2028-12-31,On Track,Vaughn Family,Owen White
+WM-GL-000969,WM-HH-00719,Retirement,Retirement — Lewis,510963.76,196592.46,2034-11-26,On Track,Lewis Family,Naomi Allen
+WM-GL-000970,WM-HH-00719,Home Purchase,Home Purchase — Lewis,140236.87,38659.45,2031-10-22,Off Track,Lewis Family,Naomi Allen
+WM-GL-000971,WM-HH-00720,Education,Education — Turner,170634.11,149775.91,2029-12-31,Off Track,Turner Family,Kenji Bailey
+WM-GL-000972,WM-HH-00722,Major Purchase,Major Purchase — Campbell,139115.39,126084.42,2037-01-30,On Track,Campbell Family,Priya Young
+WM-GL-000973,WM-HH-00724,Legacy,Legacy — Roberts,154420.49,137792.1,2030-01-28,Off Track,Roberts Family,Noah Baker
+WM-GL-000974,WM-HH-00724,Legacy,Legacy — Roberts,251054.59,139220.05,2032-08-13,Off Track,Roberts Family,Noah Baker
+WM-GL-000975,WM-HH-00724,Home Purchase,Home Purchase — Roberts,30583.42,30498.11,2031-07-26,At Risk,Roberts Family,Noah Baker
+WM-GL-000976,WM-HH-00725,Retirement,Retirement — Evans,389847.39,285696.17,2031-06-30,On Track,Evans Family,Jamal Wilson
+WM-GL-000977,WM-HH-00725,Legacy,Legacy — Evans,136032.75,120002.23,2036-04-12,On Track,Evans Family,Jamal Wilson
+WM-GL-000978,WM-HH-00726,Home Purchase,Home Purchase — Silva,456360.82,356317.17,2039-10-15,On Track,Silva Family,Sofia Johnson
+WM-GL-000979,WM-HH-00726,Major Purchase,Major Purchase — Silva,155266.64,14735.55,2043-02-22,Off Track,Silva Family,Sofia Johnson
+WM-GL-000980,WM-HH-00727,Legacy,Legacy — Chen,232090.5,220478.17,2036-11-21,On Track,Chen Family,Olivia Patel
+WM-GL-000981,WM-HH-00727,Retirement,Retirement — Chen,809959.42,827023.37,2034-08-09,Completed,Chen Family,Olivia Patel
+WM-GL-000982,WM-HH-00728,Major Purchase,Major Purchase — Parker,80617.78,21777.37,2038-08-25,At Risk,Parker Family,Kenji Stewart
+WM-GL-000983,WM-HH-00729,Education,Education — Morris,48493.75,22652.18,2033-12-23,Off Track,Morris Family,Lauren Lewis
+WM-GL-000984,WM-HH-00729,Retirement,Retirement — Morris,672604.93,424189.09,2043-05-20,At Risk,Morris Family,Lauren Lewis
+WM-GL-000985,WM-HH-00731,Legacy,Legacy — Phillips,98801.06,97309.11,2043-05-03,On Track,Phillips Family,Priya Martinez
+WM-GL-000986,WM-HH-00733,Major Purchase,Major Purchase — Martinez,160678.57,85499.28,2040-12-22,On Track,Martinez Family,Naomi Allen
+WM-GL-000987,WM-HH-00734,Education,Education — Chen,101762.48,36624.98,2031-06-10,On Track,Chen Family,Olivia Patel
+WM-GL-000988,WM-HH-00735,Major Purchase,Major Purchase — Garcia,154078.02,113885.2,2035-08-16,At Risk,Garcia Family,Grace Carter
+WM-GL-000989,WM-HH-00737,Education,Education — Taylor,93894.37,88766.83,2039-08-19,At Risk,Taylor Family,Wei Ruiz
+WM-GL-000990,WM-HH-00737,Education,Education — Taylor,98181.04,7885.18,2040-08-30,On Track,Taylor Family,Wei Ruiz
+WM-GL-000991,WM-HH-00738,Major Purchase,Major Purchase — Morris,177955.35,15317.95,2035-09-01,Off Track,Morris Family,Amara Okafor
+WM-GL-000992,WM-HH-00739,Major Purchase,Major Purchase — Campbell,383660.4,307783.94,2044-05-13,On Track,Campbell Family,Naomi Allen
+WM-GL-000993,WM-HH-00739,Education,Education — Campbell,1293772.74,203902.92,2040-01-25,On Track,Campbell Family,Naomi Allen
+WM-GL-000994,WM-HH-00742,Education,Education — Green,215195.17,222057.91,2035-01-13,Completed,Green Family,Owen Edwards
+WM-GL-000995,WM-HH-00743,Legacy,Legacy — Chen,114333.37,67738.59,2038-12-21,At Risk,Chen Family,Henry Parker
+WM-GL-000996,WM-HH-00743,Retirement,Retirement — Chen,272114.92,26926.92,2041-12-23,Off Track,Chen Family,Henry Parker
+WM-GL-000997,WM-HH-00743,Home Purchase,Home Purchase — Chen,385736.86,80776.97,2038-05-28,On Track,Chen Family,Henry Parker
+WM-GL-000998,WM-HH-00744,Major Purchase,Major Purchase — Nguyen,150077.88,93273.08,2042-03-06,On Track,Nguyen Family,Chloe Davis
+WM-GL-000999,WM-HH-00744,Home Purchase,Home Purchase — Nguyen,291005.13,144529.2,2043-04-04,On Track,Nguyen Family,Chloe Davis
+WM-GL-001000,WM-HH-00745,Education,Education — Lewis,101836.13,34547.57,2037-10-11,At Risk,Lewis Family,Olivia Stewart
+WM-GL-001001,WM-HH-00746,Home Purchase,Home Purchase — Davis,231869.79,104116.58,2030-10-05,On Track,Davis Family,Kenji Bailey
+WM-GL-001002,WM-HH-00746,Home Purchase,Home Purchase — Davis,41454.99,31084.95,2039-03-30,On Track,Davis Family,Kenji Bailey
+WM-GL-001003,WM-HH-00747,Education,Education — Morris,284794.0,266248.98,2028-10-11,On Track,Morris Family,Victor Walker
+WM-GL-001004,WM-HH-00749,Retirement,Retirement — Mitchell,1236158.7,73558.68,2032-07-26,On Track,Mitchell Family,Kenji Stewart
+WM-GL-001005,WM-HH-00749,Legacy,Legacy — Mitchell,190236.45,189944.51,2036-09-17,On Track,Mitchell Family,Kenji Stewart
+WM-GL-001006,WM-HH-00749,Education,Education — Mitchell,328798.43,131496.83,2044-01-24,Off Track,Mitchell Family,Kenji Stewart
+WM-GL-001007,WM-HH-00750,Education,Education — Silva,339576.69,200818.99,2029-01-12,Off Track,Silva Family,Isabella Okafor
+WM-GL-001008,WM-HH-00750,Major Purchase,Major Purchase — Silva,133540.23,45504.68,2041-12-25,On Track,Silva Family,Isabella Okafor
+WM-GL-001009,WM-HH-00753,Legacy,Legacy — Collins,228290.79,82548.69,2032-01-07,On Track,Collins Family,Yuki Vaughn
+WM-GL-001010,WM-HH-00754,Major Purchase,Major Purchase — King,161796.12,50659.8,2043-08-18,At Risk,King Family,Naomi Allen
+WM-GL-001011,WM-HH-00754,Home Purchase,Home Purchase — King,160125.53,35006.98,2045-06-13,At Risk,King Family,Naomi Allen
+WM-GL-001012,WM-HH-00754,Home Purchase,Home Purchase — King,295596.77,312762.49,2034-09-08,Completed,King Family,Naomi Allen
+WM-GL-001013,WM-HH-00755,Major Purchase,Major Purchase — Moore,98645.6,50368.11,2035-04-11,At Risk,Moore Family,Jamal Vaughn
+WM-GL-001014,WM-HH-00756,Education,Education — Parker,343816.17,284371.81,2032-06-04,Off Track,Parker Family,Lauren Lewis
+WM-GL-001015,WM-HH-00758,Education,Education — Harris,570971.35,292597.53,2031-08-24,On Track,Harris Family,Priya Young
+WM-GL-001016,WM-HH-00759,Major Purchase,Major Purchase — Green,129584.42,92506.41,2036-12-17,At Risk,Green Family,Diego Silva
+WM-GL-001017,WM-HH-00760,Major Purchase,Major Purchase — Adams,121311.92,59951.21,2037-04-21,On Track,Adams Family,Julian Green
+WM-GL-001018,WM-HH-00761,Legacy,Legacy — Clark,301548.07,227780.86,2039-11-13,At Risk,Clark Family,Luis Stewart
+WM-GL-001019,WM-HH-00761,Education,Education — Clark,190683.11,92112.89,2027-01-25,On Track,Clark Family,Luis Stewart
+WM-GL-001020,WM-HH-00762,Major Purchase,Major Purchase — Bailey,113601.8,93575.9,2039-09-11,At Risk,Bailey Family,Kenji Bailey
+WM-GL-001021,WM-HH-00762,Education,Education — Bailey,152485.61,133995.33,2036-02-13,On Track,Bailey Family,Kenji Bailey
+WM-GL-001022,WM-HH-00763,Retirement,Retirement — Green,514089.46,26087.75,2027-03-03,Off Track,Green Family,Hannah Davis
+WM-GL-001023,WM-HH-00764,Legacy,Legacy — Adams,152699.42,94466.07,2035-09-16,On Track,Adams Family,Hannah Davis
+WM-GL-001024,WM-HH-00765,Home Purchase,Home Purchase — Chen,274289.73,194754.97,2029-11-10,Off Track,Chen Family,Lauren Lewis
+WM-GL-001025,WM-HH-00765,Legacy,Legacy — Chen,35852.74,16193.87,2033-05-11,On Track,Chen Family,Lauren Lewis
+WM-GL-001026,WM-HH-00766,Home Purchase,Home Purchase — Mitchell,136720.6,137308.09,2039-04-24,Completed,Mitchell Family,Julian Green
+WM-GL-001027,WM-HH-00766,Legacy,Legacy — Mitchell,285093.2,180224.29,2045-07-27,At Risk,Mitchell Family,Julian Green
+WM-GL-001028,WM-HH-00767,Major Purchase,Major Purchase — Johnson,172979.45,53645.67,2028-03-07,On Track,Johnson Family,Julian Green
+WM-GL-001029,WM-HH-00768,Legacy,Legacy — Lopez,45880.5,17130.4,2045-04-26,At Risk,Lopez Family,Nina Brown
+WM-GL-001030,WM-HH-00770,Education,Education — Kim,57861.5,23727.52,2045-08-18,At Risk,Kim Family,Olivia Patel
+WM-GL-001031,WM-HH-00770,Retirement,Retirement — Kim,1497612.27,1538512.58,2034-03-05,Completed,Kim Family,Olivia Patel
+WM-GL-001032,WM-HH-00773,Education,Education — Davis,491314.94,325089.3,2034-08-06,On Track,Davis Family,Julian Green
+WM-GL-001033,WM-HH-00773,Education,Education — Davis,284081.29,21948.45,2033-01-08,On Track,Davis Family,Julian Green
+WM-GL-001034,WM-HH-00773,Education,Education — Davis,123704.35,116341.18,2044-11-26,On Track,Davis Family,Julian Green
+WM-GL-001035,WM-HH-00774,Education,Education — Ashford,61271.74,39669.69,2043-04-12,On Track,Ashford Family,Isabella Okafor
+WM-GL-001036,WM-HH-00775,Legacy,Legacy — Lopez,82654.06,61029.3,2030-02-04,At Risk,Lopez Family,Noah Baker
+WM-GL-001037,WM-HH-00775,Education,Education — Lopez,190923.53,40892.88,2043-03-05,Off Track,Lopez Family,Noah Baker
+WM-GL-001038,WM-HH-00775,Home Purchase,Home Purchase — Lopez,201180.49,214178.67,2045-11-29,Completed,Lopez Family,Noah Baker
+WM-GL-001039,WM-HH-00776,Legacy,Legacy — Jackson,454719.44,295468.71,2028-04-07,At Risk,Jackson Family,Olivia Stewart
+WM-GL-001040,WM-HH-00777,Legacy,Legacy — Phillips,118499.96,28957.33,2042-03-05,On Track,Phillips Family,Henry Parker
+WM-GL-001041,WM-HH-00778,Home Purchase,Home Purchase — White,83409.56,50227.33,2035-08-10,Off Track,White Family,Olivia Stewart
+WM-GL-001042,WM-HH-00778,Major Purchase,Major Purchase — White,196150.74,185439.82,2042-12-01,At Risk,White Family,Olivia Stewart
+WM-GL-001043,WM-HH-00779,Retirement,Retirement — Collins,2873734.96,2338311.07,2045-10-23,On Track,Collins Family,Olivia Stewart
+WM-GL-001044,WM-HH-00779,Home Purchase,Home Purchase — Collins,84081.95,44221.4,2029-11-06,At Risk,Collins Family,Olivia Stewart
+WM-GL-001045,WM-HH-00781,Home Purchase,Home Purchase — Wilson,23528.17,22843.02,2030-12-29,On Track,Wilson Family,Owen White
+WM-GL-001046,WM-HH-00782,Retirement,Retirement — Scott,1009051.64,391915.47,2030-09-10,On Track,Scott Family,Victor Walker
+WM-GL-001047,WM-HH-00783,Home Purchase,Home Purchase — Vaughn,87088.06,54016.67,2036-05-19,On Track,Vaughn Family,Owen Edwards
+WM-GL-001048,WM-HH-00783,Home Purchase,Home Purchase — Vaughn,266793.33,112261.02,2030-09-20,On Track,Vaughn Family,Owen Edwards
+WM-GL-001049,WM-HH-00783,Home Purchase,Home Purchase — Vaughn,180991.15,111375.52,2029-07-11,Off Track,Vaughn Family,Owen Edwards
+WM-GL-001050,WM-HH-00784,Education,Education — Wright,529048.73,575440.87,2040-05-29,Completed,Wright Family,Julian Silva
+WM-GL-001051,WM-HH-00785,Major Purchase,Major Purchase — Scott,205987.11,42985.32,2029-10-01,On Track,Scott Family,Chloe Parker
+WM-GL-001052,WM-HH-00786,Education,Education — Lewis,121622.08,47195.56,2042-02-19,At Risk,Lewis Family,Isabella Okafor
+WM-GL-001053,WM-HH-00786,Major Purchase,Major Purchase — Lewis,26601.29,24731.18,2041-10-24,At Risk,Lewis Family,Isabella Okafor
+WM-GL-001054,WM-HH-00787,Major Purchase,Major Purchase — Anderson,136184.55,102456.77,2030-12-16,On Track,Anderson Family,Victor Evans
+WM-GL-001055,WM-HH-00787,Legacy,Legacy — Anderson,185570.46,125361.29,2038-04-26,On Track,Anderson Family,Victor Evans
+WM-GL-001056,WM-HH-00787,Education,Education — Anderson,94822.66,21782.1,2045-02-04,On Track,Anderson Family,Victor Evans
+WM-GL-001057,WM-HH-00788,Major Purchase,Major Purchase — Collins,135933.98,79219.2,2042-09-30,On Track,Collins Family,Luis Stewart
+WM-GL-001058,WM-HH-00789,Major Purchase,Major Purchase — Silva,174358.27,190585.47,2034-01-25,Completed,Silva Family,Victor Walker
+WM-GL-001059,WM-HH-00790,Major Purchase,Major Purchase — Walker,56009.88,24085.73,2039-01-01,On Track,Walker Family,Sofia Johnson
+WM-GL-001060,WM-HH-00791,Education,Education — Morris,96230.96,20090.5,2045-03-14,On Track,Morris Family,Olivia Stewart
+WM-GL-001061,WM-HH-00791,Education,Education — Morris,134035.78,48909.85,2039-11-16,On Track,Morris Family,Olivia Stewart
+WM-GL-001062,WM-HH-00791,Home Purchase,Home Purchase — Morris,453803.87,138857.24,2038-06-20,On Track,Morris Family,Olivia Stewart
+WM-GL-001063,WM-HH-00792,Legacy,Legacy — Martinez,123662.91,115319.26,2028-07-07,At Risk,Martinez Family,Jamal Wilson
+WM-GL-001064,WM-HH-00792,Legacy,Legacy — Martinez,102970.46,6051.04,2027-07-11,On Track,Martinez Family,Jamal Wilson
+WM-GL-001065,WM-HH-00794,Home Purchase,Home Purchase — Turner,193872.57,169310.91,2038-10-30,At Risk,Turner Family,Victor Walker
+WM-GL-001066,WM-HH-00794,Legacy,Legacy — Turner,98370.62,30742.06,2035-09-01,On Track,Turner Family,Victor Walker
+WM-GL-001067,WM-HH-00795,Major Purchase,Major Purchase — Parker,83385.82,24842.76,2038-11-16,At Risk,Parker Family,Carlos Miller
+WM-GL-001068,WM-HH-00796,Education,Education — Anderson,52502.85,4033.91,2041-11-25,On Track,Anderson Family,Amara Okafor
+WM-GL-001069,WM-HH-00796,Retirement,Retirement — Anderson,1473537.98,1465476.79,2031-02-17,On Track,Anderson Family,Amara Okafor
+WM-GL-001070,WM-HH-00796,Legacy,Legacy — Anderson,62081.23,7646.45,2032-12-09,At Risk,Anderson Family,Amara Okafor
+WM-GL-001071,WM-HH-00797,Home Purchase,Home Purchase — Parker,333724.39,34078.99,2027-03-08,On Track,Parker Family,Henry Parker
+WM-GL-001072,WM-HH-00797,Major Purchase,Major Purchase — Parker,130754.65,30614.7,2027-06-04,At Risk,Parker Family,Henry Parker
+WM-GL-001073,WM-HH-00801,Home Purchase,Home Purchase — Evans,151486.78,108226.34,2030-10-13,On Track,Evans Family,Owen White
+WM-GL-001074,WM-HH-00802,Home Purchase,Home Purchase — Thomas,159223.59,112650.97,2043-03-22,On Track,Thomas Family,Victor Walker
+WM-GL-001075,WM-HH-00802,Major Purchase,Major Purchase — Thomas,110173.87,67863.48,2042-10-16,At Risk,Thomas Family,Victor Walker
+WM-GL-001076,WM-HH-00802,Education,Education — Thomas,109251.23,48829.28,2035-02-10,On Track,Thomas Family,Victor Walker
+WM-GL-001077,WM-HH-00803,Retirement,Retirement — Stewart,503733.4,540727.32,2033-01-21,Completed,Stewart Family,Grace Carter
+WM-GL-001078,WM-HH-00803,Retirement,Retirement — Stewart,3268689.71,2888289.27,2035-04-22,On Track,Stewart Family,Grace Carter
+WM-GL-001079,WM-HH-00804,Major Purchase,Major Purchase — Ashford,196179.93,50542.46,2031-04-21,On Track,Ashford Family,Wei Ruiz
+WM-GL-001080,WM-HH-00806,Education,Education — Walker,210282.81,135151.62,2035-11-13,On Track,Walker Family,Jamal Wilson
+WM-GL-001081,WM-HH-00807,Home Purchase,Home Purchase — Carter,147147.59,138509.19,2043-11-26,Off Track,Carter Family,Kenji Scott
+WM-GL-001082,WM-HH-00808,Home Purchase,Home Purchase — Vaughn,178626.07,15454.67,2028-03-25,On Track,Vaughn Family,Owen Edwards
+WM-GL-001083,WM-HH-00808,Education,Education — Vaughn,82233.55,32460.45,2033-03-13,At Risk,Vaughn Family,Owen Edwards
+WM-GL-001084,WM-HH-00809,Legacy,Legacy — Thomas,124259.73,104112.35,2044-12-24,On Track,Thomas Family,Naomi Allen
+WM-GL-001085,WM-HH-00809,Legacy,Legacy — Thomas,211045.96,172996.69,2038-03-01,At Risk,Thomas Family,Naomi Allen
+WM-GL-001086,WM-HH-00810,Major Purchase,Major Purchase — Chen,51500.64,41274.87,2038-09-22,Off Track,Chen Family,Nina Brown
+WM-GL-001087,WM-HH-00811,Retirement,Retirement — Allen,2420452.11,1287356.77,2040-11-11,At Risk,Allen Family,Olivia Stewart
+WM-GL-001088,WM-HH-00813,Legacy,Legacy — Nguyen,164186.4,91499.97,2045-03-08,At Risk,Nguyen Family,Victor Walker
+WM-GL-001089,WM-HH-00814,Education,Education — Vaughn,56203.32,48931.31,2044-02-26,At Risk,Vaughn Family,Nina Brown
+WM-GL-001090,WM-HH-00815,Education,Education — Young,114419.84,6623.03,2037-06-30,Off Track,Young Family,Naomi Allen
+WM-GL-001091,WM-HH-00817,Major Purchase,Major Purchase — Morris,151279.64,72771.25,2031-04-07,Off Track,Morris Family,Julian Silva
+WM-GL-001092,WM-HH-00817,Major Purchase,Major Purchase — Morris,105997.35,25968.94,2035-04-06,On Track,Morris Family,Julian Silva
+WM-GL-001093,WM-HH-00818,Major Purchase,Major Purchase — Young,457538.23,221564.28,2036-12-24,On Track,Young Family,Kenji Stewart
+WM-GL-001094,WM-HH-00818,Retirement,Retirement — Young,641567.68,174543.17,2045-10-15,On Track,Young Family,Kenji Stewart
+WM-GL-001095,WM-HH-00819,Home Purchase,Home Purchase — Morris,250977.91,83802.68,2043-02-06,On Track,Morris Family,Nina Brown
+WM-GL-001096,WM-HH-00819,Education,Education — Morris,90512.93,84303.2,2045-03-21,At Risk,Morris Family,Nina Brown
+WM-GL-001097,WM-HH-00820,Home Purchase,Home Purchase — Collins,201041.21,143668.26,2037-06-12,Off Track,Collins Family,Henry Parker
+WM-GL-001098,WM-HH-00820,Retirement,Retirement — Collins,1339431.95,1079306.01,2028-07-19,On Track,Collins Family,Henry Parker
+WM-GL-001099,WM-HH-00822,Retirement,Retirement — Roberts,1533185.87,753873.36,2035-12-19,At Risk,Roberts Family,Wei Ruiz
+WM-GL-001100,WM-HH-00822,Legacy,Legacy — Roberts,293704.37,318556.63,2045-09-21,Completed,Roberts Family,Wei Ruiz
+WM-GL-001101,WM-HH-00823,Retirement,Retirement — Brown,272419.58,133368.13,2041-10-17,On Track,Brown Family,Julian Silva
+WM-GL-001102,WM-HH-00823,Major Purchase,Major Purchase — Brown,124264.34,47020.99,2042-06-26,On Track,Brown Family,Julian Silva
+WM-GL-001103,WM-HH-00824,Home Purchase,Home Purchase — Campbell,90376.59,41597.68,2041-08-22,At Risk,Campbell Family,Luis Stewart
+WM-GL-001104,WM-HH-00824,Major Purchase,Major Purchase — Campbell,182151.91,158822.87,2028-10-28,At Risk,Campbell Family,Luis Stewart
+WM-GL-001105,WM-HH-00825,Education,Education — Brown,210024.84,151497.48,2041-06-20,On Track,Brown Family,Amara White
+WM-GL-001106,WM-HH-00826,Home Purchase,Home Purchase — Stewart,146568.47,43865.09,2041-08-29,On Track,Stewart Family,Hannah Davis
+WM-GL-001107,WM-HH-00826,Education,Education — Stewart,233064.66,185223.7,2040-04-17,At Risk,Stewart Family,Hannah Davis
+WM-GL-001108,WM-HH-00827,Education,Education — Johnson,869714.21,606877.58,2031-11-13,On Track,Johnson Family,Luis Stewart
+WM-GL-001109,WM-HH-00828,Major Purchase,Major Purchase — Okafor,84904.18,22180.44,2037-01-24,Off Track,Okafor Family,Victor Walker
+WM-GL-001110,WM-HH-00830,Home Purchase,Home Purchase — Lopez,234672.69,14497.01,2032-06-13,At Risk,Lopez Family,Chloe Davis
+WM-GL-001111,WM-HH-00831,Home Purchase,Home Purchase — Scott,199386.84,89219.27,2035-10-21,On Track,Scott Family,Amara Okafor
+WM-GL-001112,WM-HH-00832,Legacy,Legacy — Evans,113684.16,17639.51,2041-07-26,On Track,Evans Family,Ava Ashford
+WM-GL-001113,WM-HH-00832,Education,Education — Evans,141557.49,71522.42,2039-08-22,On Track,Evans Family,Ava Ashford
+WM-GL-001114,WM-HH-00833,Retirement,Retirement — Miller,217402.33,19512.05,2042-05-31,On Track,Miller Family,Grace Carter
+WM-GL-001115,WM-HH-00833,Education,Education — Miller,144944.01,59733.45,2036-07-04,On Track,Miller Family,Grace Carter
+WM-GL-001116,WM-HH-00834,Education,Education — Phillips,617325.96,648214.32,2034-05-19,Completed,Phillips Family,Henry Parker
+WM-GL-001117,WM-HH-00835,Legacy,Legacy — Moore,72381.54,66908.08,2034-03-05,Off Track,Moore Family,Jamal Vaughn
+WM-GL-001118,WM-HH-00836,Education,Education — Silva,360989.0,266846.86,2043-09-11,Off Track,Silva Family,Diego Silva
+WM-GL-001119,WM-HH-00837,Legacy,Legacy — Nelson,61851.09,43335.43,2035-02-19,At Risk,Nelson Family,Jamal Wilson
+WM-GL-001120,WM-HH-00837,Major Purchase,Major Purchase — Nelson,185050.39,111277.17,2040-03-29,Off Track,Nelson Family,Jamal Wilson
+WM-GL-001121,WM-HH-00838,Legacy,Legacy — Evans,337370.15,249590.78,2040-01-09,On Track,Evans Family,Priya Young
+WM-GL-001122,WM-HH-00838,Home Purchase,Home Purchase — Evans,252309.96,17727.35,2044-10-31,Off Track,Evans Family,Priya Young
+WM-GL-001123,WM-HH-00839,Education,Education — Johnson,143466.28,130613.14,2038-12-10,Off Track,Johnson Family,Kenji Bailey
+WM-GL-001124,WM-HH-00839,Major Purchase,Major Purchase — Johnson,104882.19,16971.64,2044-02-27,Off Track,Johnson Family,Kenji Bailey
+WM-GL-001125,WM-HH-00840,Home Purchase,Home Purchase — Evans,305436.41,34309.5,2027-10-20,At Risk,Evans Family,Olivia Stewart
+WM-GL-001126,WM-HH-00841,Legacy,Legacy — Young,88882.35,73338.99,2031-01-24,At Risk,Young Family,Lauren Lewis
+WM-GL-001127,WM-HH-00841,Education,Education — Young,151756.12,61993.2,2035-12-22,On Track,Young Family,Lauren Lewis
+WM-GL-001128,WM-HH-00842,Home Purchase,Home Purchase — Young,129065.45,80432.27,2043-09-08,At Risk,Young Family,Priya Young
+WM-GL-001129,WM-HH-00843,Retirement,Retirement — Nguyen,1019643.6,407623.14,2038-12-13,On Track,Nguyen Family,Jamal Vaughn
+WM-GL-001130,WM-HH-00843,Major Purchase,Major Purchase — Nguyen,80056.94,30356.98,2037-07-21,On Track,Nguyen Family,Jamal Vaughn
+WM-GL-001131,WM-HH-00845,Home Purchase,Home Purchase — Patel,225295.65,171415.35,2040-05-01,On Track,Patel Family,Priya Young
+WM-GL-001132,WM-HH-00845,Home Purchase,Home Purchase — Patel,221290.97,127969.91,2028-05-17,On Track,Patel Family,Priya Young
+WM-GL-001133,WM-HH-00846,Major Purchase,Major Purchase — Mitchell,72994.08,43159.81,2036-08-19,Off Track,Mitchell Family,Carlos Miller
+WM-GL-001134,WM-HH-00846,Education,Education — Mitchell,80149.56,16492.11,2044-11-11,On Track,Mitchell Family,Carlos Miller
+WM-GL-001135,WM-HH-00846,Home Purchase,Home Purchase — Mitchell,270831.2,230842.69,2042-01-11,At Risk,Mitchell Family,Carlos Miller
+WM-GL-001136,WM-HH-00848,Legacy,Legacy — Vaughn,53073.43,35266.8,2039-07-09,At Risk,Vaughn Family,Chloe Parker
+WM-GL-001137,WM-HH-00848,Retirement,Retirement — Vaughn,351408.06,92191.15,2044-09-12,On Track,Vaughn Family,Chloe Parker
+WM-GL-001138,WM-HH-00849,Retirement,Retirement — Thomas,400870.82,30379.57,2045-02-10,On Track,Thomas Family,Grace Carter
+WM-GL-001139,WM-HH-00851,Retirement,Retirement — Lopez,523900.92,310237.39,2041-07-12,At Risk,Lopez Family,Amara White
+WM-GL-001140,WM-HH-00851,Major Purchase,Major Purchase — Lopez,27011.62,2161.42,2040-12-19,On Track,Lopez Family,Amara White
+WM-GL-001141,WM-HH-00853,Legacy,Legacy — Patel,560902.54,172380.87,2030-07-14,On Track,Patel Family,Sofia Johnson
+WM-GL-001142,WM-HH-00854,Retirement,Retirement — Ashford,479953.03,74794.45,2041-03-21,On Track,Ashford Family,Naomi Allen
+WM-GL-001143,WM-HH-00855,Home Purchase,Home Purchase — Edwards,25906.93,7085.07,2034-01-18,Off Track,Edwards Family,Kenji Scott
+WM-GL-001144,WM-HH-00855,Home Purchase,Home Purchase — Edwards,63495.07,55245.18,2044-01-17,At Risk,Edwards Family,Kenji Scott
+WM-GL-001145,WM-HH-00856,Education,Education — Lopez,112164.11,82599.27,2029-04-11,Off Track,Lopez Family,Grace Carter
+WM-GL-001146,WM-HH-00856,Retirement,Retirement — Lopez,1441246.1,170078.43,2036-04-22,At Risk,Lopez Family,Grace Carter
+WM-GL-001147,WM-HH-00858,Retirement,Retirement — Campbell,1493601.7,559283.08,2030-01-12,On Track,Campbell Family,Diego Silva
+WM-GL-001148,WM-HH-00858,Retirement,Retirement — Campbell,280139.29,119349.06,2033-01-09,On Track,Campbell Family,Diego Silva
+WM-GL-001149,WM-HH-00859,Legacy,Legacy — Vaughn,167819.67,128816.01,2044-04-29,At Risk,Vaughn Family,Victor Walker
+WM-GL-001150,WM-HH-00860,Home Purchase,Home Purchase — Roberts,320078.02,277343.43,2045-12-01,At Risk,Roberts Family,Lauren Lewis
+WM-GL-001151,WM-HH-00861,Retirement,Retirement — Morris,710674.57,425998.08,2030-11-05,At Risk,Morris Family,Priya Anderson
+WM-GL-001152,WM-HH-00864,Major Purchase,Major Purchase — Mitchell,68320.32,32641.24,2032-01-03,On Track,Mitchell Family,Chloe Parker
+WM-GL-001153,WM-HH-00865,Home Purchase,Home Purchase — Lopez,298277.19,289790.82,2036-01-04,On Track,Lopez Family,Amara White
+WM-GL-001154,WM-HH-00866,Education,Education — Allen,98393.66,39905.83,2036-12-20,On Track,Allen Family,Owen White
+WM-GL-001155,WM-HH-00866,Education,Education — Allen,565438.54,384031.02,2042-04-12,At Risk,Allen Family,Owen White
+WM-GL-001156,WM-HH-00866,Major Purchase,Major Purchase — Allen,437425.12,358739.42,2032-08-08,At Risk,Allen Family,Owen White
+WM-GL-001157,WM-HH-00868,Legacy,Legacy — Phillips,80746.75,61589.91,2032-02-06,On Track,Phillips Family,Priya Young
+WM-GL-001158,WM-HH-00868,Home Purchase,Home Purchase — Phillips,474681.47,503346.44,2034-09-24,Completed,Phillips Family,Priya Young
+WM-GL-001159,WM-HH-00868,Retirement,Retirement — Phillips,1036671.54,868321.6,2037-09-20,On Track,Phillips Family,Priya Young
+WM-GL-001160,WM-HH-00869,Education,Education — Harris,87770.69,16042.48,2027-05-11,On Track,Harris Family,Noah Phillips
+WM-GL-001161,WM-HH-00869,Legacy,Legacy — Harris,140739.73,109325.79,2030-02-21,At Risk,Harris Family,Noah Phillips
+WM-GL-001162,WM-HH-00869,Retirement,Retirement — Harris,621534.56,661366.36,2037-08-16,Completed,Harris Family,Noah Phillips
+WM-GL-001163,WM-HH-00870,Home Purchase,Home Purchase — Jackson,984954.65,533646.54,2027-11-08,On Track,Jackson Family,Lauren Lewis
+WM-GL-001164,WM-HH-00870,Education,Education — Jackson,68905.98,59854.76,2042-11-18,On Track,Jackson Family,Lauren Lewis
+WM-GL-001165,WM-HH-00871,Retirement,Retirement — Edwards,326249.99,174282.12,2043-11-10,On Track,Edwards Family,Wei King
+WM-GL-001166,WM-HH-00872,Home Purchase,Home Purchase — Ruiz,118019.84,74246.25,2043-03-21,On Track,Ruiz Family,Nina Brown
+WM-GL-001167,WM-HH-00874,Education,Education — Phillips,178256.27,188728.99,2039-12-08,Completed,Phillips Family,Olivia Stewart
+WM-GL-001168,WM-HH-00874,Retirement,Retirement — Phillips,1422680.11,1341478.89,2032-06-30,On Track,Phillips Family,Olivia Stewart
+WM-GL-001169,WM-HH-00874,Education,Education — Phillips,267440.49,73356.63,2041-09-13,On Track,Phillips Family,Olivia Stewart
+WM-GL-001170,WM-HH-00875,Legacy,Legacy — Campbell,224814.99,180744.51,2032-03-11,On Track,Campbell Family,Julian Green
+WM-GL-001171,WM-HH-00875,Legacy,Legacy — Campbell,263631.64,258479.45,2037-09-12,Off Track,Campbell Family,Julian Green
+WM-GL-001172,WM-HH-00877,Legacy,Legacy — Parker,704608.4,622285.83,2028-12-01,On Track,Parker Family,Nina Brown
+WM-GL-001173,WM-HH-00877,Major Purchase,Major Purchase — Parker,79506.21,59568.59,2045-04-20,At Risk,Parker Family,Nina Brown
+WM-GL-001174,WM-HH-00877,Retirement,Retirement — Parker,499434.69,180840.71,2034-10-12,Off Track,Parker Family,Nina Brown
+WM-GL-001175,WM-HH-00878,Legacy,Legacy — King,157064.1,11362.82,2043-11-13,On Track,King Family,Grace Carter
+WM-GL-001176,WM-HH-00880,Legacy,Legacy — Mitchell,191285.58,201176.18,2039-06-19,Completed,Mitchell Family,Kenji Scott
+WM-GL-001177,WM-HH-00880,Retirement,Retirement — Mitchell,501179.53,46131.84,2032-11-03,On Track,Mitchell Family,Kenji Scott
+WM-GL-001178,WM-HH-00881,Home Purchase,Home Purchase — Nelson,75637.58,40026.76,2039-09-29,At Risk,Nelson Family,Julian Silva
+WM-GL-001179,WM-HH-00882,Home Purchase,Home Purchase — Vaughn,393129.04,306481.65,2027-05-06,On Track,Vaughn Family,Wei King
+WM-GL-001180,WM-HH-00883,Retirement,Retirement — Chen,1062666.36,598905.9,2030-02-13,At Risk,Chen Family,Henry Parker
+WM-GL-001181,WM-HH-00884,Retirement,Retirement — Okafor,493841.49,406933.19,2028-05-18,At Risk,Okafor Family,Henry Parker
+WM-GL-001182,WM-HH-00885,Retirement,Retirement — Johnson,850017.26,719455.38,2034-10-18,On Track,Johnson Family,Chloe Parker
+WM-GL-001183,WM-HH-00887,Legacy,Legacy — Young,63710.67,50100.88,2034-08-06,On Track,Young Family,Diego Silva
+WM-GL-001184,WM-HH-00887,Major Purchase,Major Purchase — Young,298978.76,233835.99,2028-01-20,At Risk,Young Family,Diego Silva
+WM-GL-001185,WM-HH-00887,Retirement,Retirement — Young,929111.45,309068.5,2027-09-30,At Risk,Young Family,Diego Silva
+WM-GL-001186,WM-HH-00889,Home Purchase,Home Purchase — Ruiz,133319.02,72693.1,2029-09-07,At Risk,Ruiz Family,Wei King
+WM-GL-001187,WM-HH-00889,Major Purchase,Major Purchase — Ruiz,234306.67,158481.83,2038-12-13,On Track,Ruiz Family,Wei King
+WM-GL-001188,WM-HH-00890,Education,Education — Clark,107935.46,10560.16,2031-09-02,On Track,Clark Family,Kenji Stewart
+WM-GL-001189,WM-HH-00891,Home Purchase,Home Purchase — Harris,171956.38,45509.76,2043-06-09,On Track,Harris Family,Olivia Patel
+WM-GL-001190,WM-HH-00892,Retirement,Retirement — Ashford,1155739.39,814394.11,2034-11-30,On Track,Ashford Family,Wei Ruiz
+WM-GL-001191,WM-HH-00892,Home Purchase,Home Purchase — Ashford,223441.92,154690.79,2031-05-10,At Risk,Ashford Family,Wei Ruiz
+WM-GL-001192,WM-HH-00893,Home Purchase,Home Purchase — Phillips,122499.23,24606.98,2034-11-28,On Track,Phillips Family,Grace Carter
+WM-GL-001193,WM-HH-00894,Legacy,Legacy — Parker,179036.75,127894.22,2043-10-14,On Track,Parker Family,Priya Anderson
+WM-GL-001194,WM-HH-00894,Legacy,Legacy — Parker,101666.11,57808.59,2042-06-21,On Track,Parker Family,Priya Anderson
+WM-GL-001195,WM-HH-00896,Legacy,Legacy — Miller,307612.7,165592.43,2042-08-09,On Track,Miller Family,Amara Okafor
+WM-GL-001196,WM-HH-00898,Major Purchase,Major Purchase — Anderson,54485.63,42481.25,2043-04-05,At Risk,Anderson Family,Sofia Parker
+WM-GL-001197,WM-HH-00899,Major Purchase,Major Purchase — Brown,242044.23,107912.44,2035-05-04,On Track,Brown Family,Nina Brown
+WM-GL-001198,WM-HH-00900,Retirement,Retirement — Thomas,695597.84,61138.21,2027-02-03,At Risk,Thomas Family,Hannah Davis
+WM-GL-001199,WM-HH-00900,Home Purchase,Home Purchase — Thomas,161446.34,46540.55,2032-10-01,At Risk,Thomas Family,Hannah Davis

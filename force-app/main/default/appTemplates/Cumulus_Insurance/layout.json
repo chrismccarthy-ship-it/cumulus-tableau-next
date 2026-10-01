@@ -1,0 +1,33 @@
+{
+  "displayMessages": [],
+  "pages": [
+    {
+      "type": "Configuration",
+      "title": "Cumulus Insurance",
+      "layout": {
+        "type": "TwoColumn",
+        "header": {
+          "text": "Installs the Cumulus Insurance data (10,595 rows in 3 tables), a semantic model with metrics, and the dashboard. Allow ~33 minutes."
+        },
+        "left": {
+          "items": [
+            {
+              "type": "Variable",
+              "name": "CreateDashboard",
+              "visibility": "Visible"
+            }
+          ]
+        },
+        "right": {
+          "items": [
+            {
+              "type": "Variable",
+              "name": "LabelSuffix",
+              "visibility": "Visible"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

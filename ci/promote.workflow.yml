@@ -1,0 +1,53 @@
+# Copy this file to .github/workflows/promote.yml when the GitHub repo exists (it could not be written into .github/ from the cloud session).
+# Sandbox → production promotion for Tableau Next assets, as a pipeline.
+# Secrets: SFDX_AUTH_URL_SANDBOX / SFDX_AUTH_URL_PROD  (sf org auth show-sfdx-auth-url -o <alias> --no-prompt)
+# PRs validate against production (--dry-run); pushes to main deploy. Manual runs can pick a target.
+name: promote-tableau-next
+on:
+  pull_request:
+    paths: ["force-app/**", "manifests/**"]
+  push:
+    branches: [main]
+    paths: ["force-app/**", "manifests/**"]
+  workflow_dispatch:
+    inputs:
+      target:
+        description: "Target org (secret suffix)"
+        default: PROD
+        type: choice
+        options: [PROD, SANDBOX]
+
+jobs:
+  validate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm install -g @salesforce/cli && sf version
+
+      - name: Authenticate target org
+        env:
+          AUTH_URL: ${{ github.event_name == 'workflow_dispatch' && inputs.target == 'SANDBOX' && secrets.SFDX_AUTH_URL_SANDBOX || secrets.SFDX_AUTH_URL_PROD }}
+        run: |
+          printf '%s' "$AUTH_URL" > auth.txt
+          sf org login sfdx-url --sfdx-url-file auth.txt --alias target --set-default
+          rm auth.txt
+
+      - name: Preflight templates & manifests
+        run: |
+          python3 atf/preflight.py
+          python3 scripts/build_manifests.py && git diff --exit-code manifests/ || (echo "::error::manifests out of date — run scripts/build_manifests.py" && exit 1)
+
+      - name: Validate (PR) — LWC then assets
+        if: github.event_name == 'pull_request'
+        run: |
+          sf project deploy start --manifest manifests/manifest_lwc.xml    -o target --dry-run --wait 30
+          sf project deploy start --manifest manifests/manifest_assets.xml -o target --dry-run --wait 30
+
+      - name: Deploy (main / manual) — LWC then assets
+        if: github.event_name != 'pull_request'
+        run: |
+          sf project deploy start --manifest manifests/manifest_lwc.xml    -o target --wait 30
+          sf project deploy start --manifest manifests/manifest_assets.xml -o target --wait 30
+          bash scripts/verify.sh target

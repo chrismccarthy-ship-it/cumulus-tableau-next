@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Cumulus Ranked Bars</masterLabel>
+    <description>Top-N ranked bars for any dimension and measure. Click a bar to filter the rest of the dashboard on that value; click again to clear.</description>
+    <targets>
+        <target>analytics__Dashboard</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="analytics__Dashboard">
+            <property name="sdmName" type="SemanticModel" label="Semantic Model" description="Model to query." required="true"/>
+            <property name="dimensionField" type="SemanticDimension" label="Group-by Dimension" description="Dimension to rank by." required="true"/>
+            <property name="measureField" type="SemanticMeasure" label="Measure" description="Measure to aggregate." required="true"/>
+            <property name="title" type="String" label="Title" description="Optional heading."/>
+            <property name="topN" type="Integer" label="Top N" default="10" min="1" max="50" description="How many bars to show."/>
+            <property name="format" type="String" label="Format" default="number" datasource="number,currency,percent" description="Number formatting."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

@@ -1,0 +1,238 @@
+{
+  "name": "CB_Onboarding_DS",
+  "label": "CB Onboarding DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "OnboardingId"
+    },
+    {
+      "dataType": "Text",
+      "name": "BusinessAccountId"
+    },
+    {
+      "dataType": "Text",
+      "name": "OnboardingType"
+    },
+    {
+      "dataType": "Date",
+      "name": "StartDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "CompletedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "CycleTimeDays"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "HasTreasuryProducts"
+    },
+    {
+      "dataType": "Number",
+      "name": "DocumentsRequested"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Text",
+      "name": "BusinessName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Industry"
+    },
+    {
+      "dataType": "Text",
+      "name": "Segment"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerName"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.CB_Onboarding_DLO.Name}",
+    "label": "CB Onboarding DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "OnboardingId",
+        "label": "Onboarding ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BusinessAccountId",
+        "label": "Business Account ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "OnboardingType",
+        "label": "Onboarding Type"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "StartDate",
+        "label": "Start Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CompletedDate",
+        "label": "Completed Date"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "CycleTimeDays",
+        "label": "Cycle Time Days"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "HasTreasuryProducts",
+        "label": "Has Treasury Products"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "DocumentsRequested",
+        "label": "Documents Requested"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BusinessName",
+        "label": "Business Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Industry",
+        "label": "Industry"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Segment",
+        "label": "Segment"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerName",
+        "label": "Relationship Manager Name"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "OnboardingId",
+      "targetFieldName": "OnboardingId"
+    },
+    {
+      "sourceFieldLabel": "BusinessAccountId",
+      "targetFieldName": "BusinessAccountId"
+    },
+    {
+      "sourceFieldLabel": "OnboardingType",
+      "targetFieldName": "OnboardingType"
+    },
+    {
+      "sourceFieldLabel": "StartDate",
+      "targetFieldName": "StartDate"
+    },
+    {
+      "sourceFieldLabel": "CompletedDate",
+      "targetFieldName": "CompletedDate"
+    },
+    {
+      "sourceFieldLabel": "CycleTimeDays",
+      "targetFieldName": "CycleTimeDays"
+    },
+    {
+      "sourceFieldLabel": "HasTreasuryProducts",
+      "targetFieldName": "HasTreasuryProducts"
+    },
+    {
+      "sourceFieldLabel": "DocumentsRequested",
+      "targetFieldName": "DocumentsRequested"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "BusinessName",
+      "targetFieldName": "BusinessName"
+    },
+    {
+      "sourceFieldLabel": "Industry",
+      "targetFieldName": "Industry"
+    },
+    {
+      "sourceFieldLabel": "Segment",
+      "targetFieldName": "Segment"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerName",
+      "targetFieldName": "RelationshipManagerName"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.CB_Onboarding_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.CB_Onboarding_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.CB_Onboarding_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.CB_Onboarding_CSV.FileType}"
+  }
+}

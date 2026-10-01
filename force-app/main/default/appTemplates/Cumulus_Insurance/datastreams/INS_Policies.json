@@ -1,0 +1,280 @@
+{
+  "name": "INS_Policies_DS",
+  "label": "INS Policies DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "PolicyId"
+    },
+    {
+      "dataType": "Text",
+      "name": "PolicyNumber"
+    },
+    {
+      "dataType": "Text",
+      "name": "NamedInsured"
+    },
+    {
+      "dataType": "Text",
+      "name": "LineOfBusiness"
+    },
+    {
+      "dataType": "Text",
+      "name": "PolicyType"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProducerId"
+    },
+    {
+      "dataType": "Text",
+      "name": "State"
+    },
+    {
+      "dataType": "Date",
+      "name": "EffectiveDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "ExpirationDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Number",
+      "name": "AnnualPremium"
+    },
+    {
+      "dataType": "Text",
+      "name": "Carrier"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "RenewalOfferSent"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "IsRenewed"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProducerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProducerType"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProducerRegion"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.INS_Policies_DLO.Name}",
+    "label": "INS Policies DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "PolicyId",
+        "label": "Policy ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PolicyNumber",
+        "label": "Policy Number"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "NamedInsured",
+        "label": "Named Insured"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LineOfBusiness",
+        "label": "Line Of Business"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PolicyType",
+        "label": "Policy Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProducerId",
+        "label": "Producer ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "State",
+        "label": "State"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "EffectiveDate",
+        "label": "Effective Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "ExpirationDate",
+        "label": "Expiration Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "AnnualPremium",
+        "label": "Annual Premium"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Carrier",
+        "label": "Carrier"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "RenewalOfferSent",
+        "label": "Renewal Offer Sent"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "IsRenewed",
+        "label": "Is Renewed"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProducerName",
+        "label": "Producer Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProducerType",
+        "label": "Producer Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProducerRegion",
+        "label": "Producer Region"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "PolicyId",
+      "targetFieldName": "PolicyId"
+    },
+    {
+      "sourceFieldLabel": "PolicyNumber",
+      "targetFieldName": "PolicyNumber"
+    },
+    {
+      "sourceFieldLabel": "NamedInsured",
+      "targetFieldName": "NamedInsured"
+    },
+    {
+      "sourceFieldLabel": "LineOfBusiness",
+      "targetFieldName": "LineOfBusiness"
+    },
+    {
+      "sourceFieldLabel": "PolicyType",
+      "targetFieldName": "PolicyType"
+    },
+    {
+      "sourceFieldLabel": "ProducerId",
+      "targetFieldName": "ProducerId"
+    },
+    {
+      "sourceFieldLabel": "State",
+      "targetFieldName": "State"
+    },
+    {
+      "sourceFieldLabel": "EffectiveDate",
+      "targetFieldName": "EffectiveDate"
+    },
+    {
+      "sourceFieldLabel": "ExpirationDate",
+      "targetFieldName": "ExpirationDate"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "AnnualPremium",
+      "targetFieldName": "AnnualPremium"
+    },
+    {
+      "sourceFieldLabel": "Carrier",
+      "targetFieldName": "Carrier"
+    },
+    {
+      "sourceFieldLabel": "RenewalOfferSent",
+      "targetFieldName": "RenewalOfferSent"
+    },
+    {
+      "sourceFieldLabel": "IsRenewed",
+      "targetFieldName": "IsRenewed"
+    },
+    {
+      "sourceFieldLabel": "ProducerName",
+      "targetFieldName": "ProducerName"
+    },
+    {
+      "sourceFieldLabel": "ProducerType",
+      "targetFieldName": "ProducerType"
+    },
+    {
+      "sourceFieldLabel": "ProducerRegion",
+      "targetFieldName": "ProducerRegion"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.INS_Policies_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.INS_Policies_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.INS_Policies_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.INS_Policies_CSV.FileType}"
+  }
+}

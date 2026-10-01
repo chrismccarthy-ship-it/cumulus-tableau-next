@@ -1,0 +1,223 @@
+{
+  "name": "RB_Financial_Accounts_DS",
+  "label": "RB Financial Accounts DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "FinancialAccountId"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "PrimaryOwnerId"
+    },
+    {
+      "dataType": "Text",
+      "name": "FinancialAccountType"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Date",
+      "name": "OpenDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "Balance"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchId"
+    },
+    {
+      "dataType": "Text",
+      "name": "ProductName"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Segment"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchName"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.RB_Financial_Accounts_DLO.Name}",
+    "label": "RB Financial Accounts DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "FinancialAccountId",
+        "label": "Financial Account ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdId",
+        "label": "Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PrimaryOwnerId",
+        "label": "Primary Owner ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "FinancialAccountType",
+        "label": "Financial Account Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "OpenDate",
+        "label": "Open Date"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "Balance",
+        "label": "Balance"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchId",
+        "label": "Branch ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ProductName",
+        "label": "Product Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdName",
+        "label": "Household Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Segment",
+        "label": "Segment"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchName",
+        "label": "Branch Name"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "FinancialAccountId",
+      "targetFieldName": "FinancialAccountId"
+    },
+    {
+      "sourceFieldLabel": "HouseholdId",
+      "targetFieldName": "HouseholdId"
+    },
+    {
+      "sourceFieldLabel": "PrimaryOwnerId",
+      "targetFieldName": "PrimaryOwnerId"
+    },
+    {
+      "sourceFieldLabel": "FinancialAccountType",
+      "targetFieldName": "FinancialAccountType"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "OpenDate",
+      "targetFieldName": "OpenDate"
+    },
+    {
+      "sourceFieldLabel": "Balance",
+      "targetFieldName": "Balance"
+    },
+    {
+      "sourceFieldLabel": "BranchId",
+      "targetFieldName": "BranchId"
+    },
+    {
+      "sourceFieldLabel": "ProductName",
+      "targetFieldName": "ProductName"
+    },
+    {
+      "sourceFieldLabel": "HouseholdName",
+      "targetFieldName": "HouseholdName"
+    },
+    {
+      "sourceFieldLabel": "Segment",
+      "targetFieldName": "Segment"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "BranchName",
+      "targetFieldName": "BranchName"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.RB_Financial_Accounts_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.RB_Financial_Accounts_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.RB_Financial_Accounts_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.RB_Financial_Accounts_CSV.FileType}"
+  }
+}

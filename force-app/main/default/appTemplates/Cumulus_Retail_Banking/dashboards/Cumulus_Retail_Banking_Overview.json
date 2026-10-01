@@ -1,0 +1,679 @@
+{
+  "name": "Cumulus_Retail_Banking_Overview",
+  "label": "Cumulus Retail Banking Overview ${Variables.LabelSuffix}",
+  "description": "Cumulus Retail Banking \u2014 service and business KPIs for the Cumulus Financial Group demo.",
+  "customConfig": {
+    "queryCacheEnabled": true,
+    "queryCacheStaleness": "30min"
+  },
+  "layouts": [
+    {
+      "columnCount": 96,
+      "maxWidth": 1600,
+      "name": "default",
+      "pages": [
+        {
+          "label": "Overview",
+          "name": "overview",
+          "widgets": [
+            {
+              "name": "hdr",
+              "column": 0,
+              "row": 0,
+              "colspan": 64,
+              "rowspan": 5
+            },
+            {
+              "name": "flt_Region",
+              "column": 64,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 5
+            },
+            {
+              "name": "flt_Channel",
+              "column": 80,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 5
+            },
+            {
+              "name": "x_banner",
+              "column": 0,
+              "row": 5,
+              "colspan": 96,
+              "rowspan": 5
+            },
+            {
+              "name": "k_cases",
+              "column": 0,
+              "row": 10,
+              "colspan": 24,
+              "rowspan": 14
+            },
+            {
+              "name": "k_fcr",
+              "column": 24,
+              "row": 10,
+              "colspan": 24,
+              "rowspan": 14
+            },
+            {
+              "name": "k_aht",
+              "column": 48,
+              "row": 10,
+              "colspan": 24,
+              "rowspan": 14
+            },
+            {
+              "name": "k_csat",
+              "column": 72,
+              "row": 10,
+              "colspan": 24,
+              "rowspan": 14
+            },
+            {
+              "name": "x_nba",
+              "column": 0,
+              "row": 24,
+              "colspan": 28,
+              "rowspan": 34
+            },
+            {
+              "name": "w_RB_Disputes_Trend",
+              "column": 28,
+              "row": 24,
+              "colspan": 68,
+              "rowspan": 34
+            },
+            {
+              "name": "w_RB_Cases_Trend",
+              "column": 0,
+              "row": 58,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_RB_Disputes_By_Branch",
+              "column": 32,
+              "row": 58,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_RB_Cases_By_Channel",
+              "column": 64,
+              "row": 58,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_RB_CSAT_By_Type",
+              "column": 0,
+              "row": 86,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_RB_AHT_By_Agentforce",
+              "column": 32,
+              "row": 86,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_RB_Deposits_By_Segment",
+              "column": 64,
+              "row": 86,
+              "colspan": 32,
+              "rowspan": 28
+            }
+          ]
+        }
+      ],
+      "rowHeight": 10,
+      "style": {
+        "backgroundColor": "#EEF2F7",
+        "cellSpacingX": 12,
+        "cellSpacingY": 12,
+        "gutterColor": "#EEF2F7"
+      }
+    }
+  ],
+  "style": {
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#D9E1EC",
+      "borderEdges": [],
+      "borderRadius": 12,
+      "borderWidth": 1
+    }
+  },
+  "widgets": {
+    "hdr": {
+      "actions": [],
+      "name": "hdr",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#032D60",
+              "size": "22px",
+              "bold": true
+            },
+            "insert": "Service Command Center",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#5C6B82",
+              "size": "13px"
+            },
+            "insert": "Branch service manager view \u2014 cases, resolution, satisfaction, cross-sell",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ]
+      }
+    },
+    "flt_Region": {
+      "actions": [],
+      "label": "Region",
+      "name": "flt_Region",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Id}"
+      },
+      "parameters": {
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "Region",
+          "objectName": "RB_Service_Cases",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "viewType": "list",
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      }
+    },
+    "flt_Channel": {
+      "actions": [],
+      "label": "Channel",
+      "name": "flt_Channel",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Id}"
+      },
+      "parameters": {
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "Channel",
+          "objectName": "RB_Service_Cases",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "viewType": "list",
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      }
+    },
+    "x_banner": {
+      "actions": [],
+      "name": "x_banner",
+      "label": "cumulusThresholdBanner",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusThresholdBanner",
+        "properties": {
+          "measureField": {
+            "name": "Avg_CSAT",
+            "aggregation": "UserAgg",
+            "label": "Avg CSAT"
+          },
+          "threshold": "3.5",
+          "belowIsBad": true,
+          "alertMessage": "CSAT below the 3.5 target \u2014 Card Dispute cases score lowest",
+          "okMessage": "CSAT at or above target",
+          "format": "number",
+          "focusDimension": {
+            "name": "RB_Service_Cases.CaseType",
+            "label": "Case Type"
+          },
+          "focusValue": "Card Dispute",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Id}",
+            "label": "Cumulus Retail Banking Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusThresholdBanner",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_cases": {
+      "actions": [],
+      "name": "k_cases",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Case_Count",
+            "aggregation": "UserAgg",
+            "label": "Service Cases"
+          },
+          "title": "Service Cases",
+          "accentColor": "#0B5CAB",
+          "sentiment": "UpIsBad",
+          "format": "number",
+          "target": "",
+          "trendDimension": {
+            "name": "RB_Service_Cases.CreatedMonth",
+            "label": "Created Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Id}",
+            "label": "Cumulus Retail Banking Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_fcr": {
+      "actions": [],
+      "name": "k_fcr",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "FCR_Rate",
+            "aggregation": "UserAgg",
+            "label": "FCR Rate"
+          },
+          "title": "First-Contact Resolution",
+          "accentColor": "#1BAF7A",
+          "sentiment": "UpIsGood",
+          "format": "percent",
+          "target": "0.75",
+          "trendDimension": {
+            "name": "RB_Service_Cases.CreatedMonth",
+            "label": "Created Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Id}",
+            "label": "Cumulus Retail Banking Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_aht": {
+      "actions": [],
+      "name": "k_aht",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Avg_Handle_Time",
+            "aggregation": "UserAgg",
+            "label": "Avg Handle Time"
+          },
+          "title": "Avg Handle Time (min)",
+          "accentColor": "#EDA100",
+          "sentiment": "UpIsBad",
+          "format": "number",
+          "target": "15",
+          "trendDimension": {
+            "name": "RB_Service_Cases.CreatedMonth",
+            "label": "Created Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Id}",
+            "label": "Cumulus Retail Banking Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_csat": {
+      "actions": [],
+      "name": "k_csat",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Avg_CSAT",
+            "aggregation": "UserAgg",
+            "label": "Avg CSAT"
+          },
+          "title": "Avg CSAT",
+          "accentColor": "#EB6834",
+          "sentiment": "UpIsGood",
+          "format": "number",
+          "target": "3.5",
+          "trendDimension": {
+            "name": "RB_Service_Cases.CreatedMonth",
+            "label": "Created Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Id}",
+            "label": "Cumulus Retail Banking Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "x_nba": {
+      "actions": [],
+      "name": "x_nba",
+      "label": "cumulusNextBestActions",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusNextBestActions",
+        "properties": {
+          "entityField": {
+            "name": "RB_Households.HouseholdName",
+            "label": "Household Name"
+          },
+          "contextField": {
+            "name": "RB_Households.Segment",
+            "label": "Segment"
+          },
+          "scoreField": {
+            "name": "RB_Households.ProductCount",
+            "aggregation": "Avg",
+            "label": "Product Count"
+          },
+          "title": "Cross-sell: fewest products",
+          "actionLabel": "Call",
+          "lowestFirst": true,
+          "topN": 8,
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Retail_Banking_SDM.Id}",
+            "label": "Cumulus Retail Banking Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusNextBestActions",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_RB_Disputes_Trend": {
+      "actions": [],
+      "name": "w_RB_Disputes_Trend",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.RB_Disputes_Trend.Id}",
+        "name": "${App.Visualizations.RB_Disputes_Trend.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_RB_Cases_Trend": {
+      "actions": [],
+      "name": "w_RB_Cases_Trend",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.RB_Cases_Trend.Id}",
+        "name": "${App.Visualizations.RB_Cases_Trend.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_RB_Disputes_By_Branch": {
+      "actions": [],
+      "name": "w_RB_Disputes_By_Branch",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.RB_Disputes_By_Branch.Id}",
+        "name": "${App.Visualizations.RB_Disputes_By_Branch.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_RB_Cases_By_Channel": {
+      "actions": [],
+      "name": "w_RB_Cases_By_Channel",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.RB_Cases_By_Channel.Id}",
+        "name": "${App.Visualizations.RB_Cases_By_Channel.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_RB_CSAT_By_Type": {
+      "actions": [],
+      "name": "w_RB_CSAT_By_Type",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.RB_CSAT_By_Type.Id}",
+        "name": "${App.Visualizations.RB_CSAT_By_Type.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_RB_AHT_By_Agentforce": {
+      "actions": [],
+      "name": "w_RB_AHT_By_Agentforce",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.RB_AHT_By_Agentforce.Id}",
+        "name": "${App.Visualizations.RB_AHT_By_Agentforce.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_RB_Deposits_By_Segment": {
+      "actions": [],
+      "name": "w_RB_Deposits_By_Segment",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.RB_Deposits_By_Segment.Id}",
+        "name": "${App.Visualizations.RB_Deposits_By_Segment.Name}"
+      },
+      "type": "visualization"
+    }
+  },
+  "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Retail_Banking_WS.Name}"
+}

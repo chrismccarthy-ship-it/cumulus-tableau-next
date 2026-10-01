@@ -1,0 +1,414 @@
+{
+  "name": "Cumulus_Lending_Overview",
+  "label": "Cumulus Lending Overview ${Variables.LabelSuffix}",
+  "description": "Cumulus Lending \u2014 service and business KPIs for the Cumulus Financial Group demo.",
+  "customConfig": {
+    "queryCacheEnabled": true,
+    "queryCacheStaleness": "30min"
+  },
+  "layouts": [
+    {
+      "columnCount": 96,
+      "maxWidth": 1600,
+      "name": "default",
+      "pages": [
+        {
+          "label": "Overview",
+          "name": "overview",
+          "widgets": [
+            {
+              "name": "hdr",
+              "column": 0,
+              "row": 0,
+              "colspan": 96,
+              "rowspan": 6
+            },
+            {
+              "name": "x_banner",
+              "column": 0,
+              "row": 6,
+              "colspan": 96,
+              "rowspan": 5
+            },
+            {
+              "name": "w_LN_KPI_Apps",
+              "column": 0,
+              "row": 11,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_LN_KPI_Volume",
+              "column": 24,
+              "row": 11,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_LN_KPI_TTC",
+              "column": 48,
+              "row": 11,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_LN_KPI_Stage",
+              "column": 72,
+              "row": 11,
+              "colspan": 24,
+              "rowspan": 9
+            },
+            {
+              "name": "w_LN_Apps_Trend",
+              "column": 0,
+              "row": 20,
+              "colspan": 96,
+              "rowspan": 30
+            },
+            {
+              "name": "w_LN_Days_By_Stage",
+              "column": 0,
+              "row": 50,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_LN_Status_By_Channel",
+              "column": 32,
+              "row": 50,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_LN_Volume_By_Product",
+              "column": 64,
+              "row": 50,
+              "colspan": 32,
+              "rowspan": 28
+            },
+            {
+              "name": "w_LN_LO_Leaderboard",
+              "column": 0,
+              "row": 78,
+              "colspan": 32,
+              "rowspan": 28
+            }
+          ]
+        }
+      ],
+      "rowHeight": 10,
+      "style": {
+        "backgroundColor": "#EEF2F7",
+        "cellSpacingX": 12,
+        "cellSpacingY": 12,
+        "gutterColor": "#EEF2F7"
+      }
+    }
+  ],
+  "style": {
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#D9E1EC",
+      "borderEdges": [],
+      "borderRadius": 12,
+      "borderWidth": 1
+    }
+  },
+  "widgets": {
+    "hdr": {
+      "actions": [],
+      "name": "hdr",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#032D60",
+              "size": "22px",
+              "bold": true
+            },
+            "insert": "Cumulus Lending Overview",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#5C6B82",
+              "size": "13px"
+            },
+            "insert": "",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ]
+      }
+    },
+    "x_banner": {
+      "actions": [],
+      "name": "x_banner",
+      "label": "cumulusThresholdBanner",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusThresholdBanner",
+        "properties": {
+          "measureField": {
+            "name": "Avg_Time_To_Close",
+            "aggregation": "UserAgg",
+            "label": "Avg Time to Close"
+          },
+          "threshold": "30",
+          "alertMessage": "Time to close above 30 days \u2014 document collection is the bottleneck",
+          "okMessage": "Time to close within target",
+          "format": "number",
+          "focusDimension": {
+            "name": "LN_Applications.Channel",
+            "label": "Channel"
+          },
+          "focusValue": "Branch",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E5E5E5",
+          "borderEdges": [],
+          "borderRadius": 8,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusThresholdBanner",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_LN_KPI_Apps": {
+      "actions": [],
+      "name": "w_LN_KPI_Apps",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_KPI_Apps.Id}",
+        "name": "${App.Visualizations.LN_KPI_Apps.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_LN_KPI_Volume": {
+      "actions": [],
+      "name": "w_LN_KPI_Volume",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_KPI_Volume.Id}",
+        "name": "${App.Visualizations.LN_KPI_Volume.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_LN_KPI_TTC": {
+      "actions": [],
+      "name": "w_LN_KPI_TTC",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_KPI_TTC.Id}",
+        "name": "${App.Visualizations.LN_KPI_TTC.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_LN_KPI_Stage": {
+      "actions": [],
+      "name": "w_LN_KPI_Stage",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_KPI_Stage.Id}",
+        "name": "${App.Visualizations.LN_KPI_Stage.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_LN_Apps_Trend": {
+      "actions": [],
+      "name": "w_LN_Apps_Trend",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_Apps_Trend.Id}",
+        "name": "${App.Visualizations.LN_Apps_Trend.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_LN_Days_By_Stage": {
+      "actions": [],
+      "name": "w_LN_Days_By_Stage",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_Days_By_Stage.Id}",
+        "name": "${App.Visualizations.LN_Days_By_Stage.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_LN_Status_By_Channel": {
+      "actions": [],
+      "name": "w_LN_Status_By_Channel",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_Status_By_Channel.Id}",
+        "name": "${App.Visualizations.LN_Status_By_Channel.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_LN_Volume_By_Product": {
+      "actions": [],
+      "name": "w_LN_Volume_By_Product",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_Volume_By_Product.Id}",
+        "name": "${App.Visualizations.LN_Volume_By_Product.Name}"
+      },
+      "type": "visualization"
+    },
+    "w_LN_LO_Leaderboard": {
+      "actions": [],
+      "name": "w_LN_LO_Leaderboard",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#D9E1EC",
+          "borderEdges": [],
+          "borderRadius": 12,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_LO_Leaderboard.Id}",
+        "name": "${App.Visualizations.LN_LO_Leaderboard.Name}"
+      },
+      "type": "visualization"
+    }
+  },
+  "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Lending_WS.Name}"
+}

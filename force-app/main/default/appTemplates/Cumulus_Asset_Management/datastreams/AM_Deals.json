@@ -1,0 +1,252 @@
+{
+  "name": "AM_Deals_DS",
+  "label": "AM Deals DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "DealId"
+    },
+    {
+      "dataType": "Text",
+      "name": "DealName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientId"
+    },
+    {
+      "dataType": "Text",
+      "name": "Stage"
+    },
+    {
+      "dataType": "Number",
+      "name": "Amount"
+    },
+    {
+      "dataType": "Date",
+      "name": "CreatedDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "CloseDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "OwnerId"
+    },
+    {
+      "dataType": "Text",
+      "name": "Source"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "IsWon"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientName"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientType"
+    },
+    {
+      "dataType": "Text",
+      "name": "ClientTier"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerName"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.AM_Deals_DLO.Name}",
+    "label": "AM Deals DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "DealId",
+        "label": "Deal ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "DealName",
+        "label": "Deal Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientId",
+        "label": "Client ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Stage",
+        "label": "Stage"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "Amount",
+        "label": "Amount"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CreatedDate",
+        "label": "Created Date"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CloseDate",
+        "label": "Close Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "OwnerId",
+        "label": "Owner ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Source",
+        "label": "Source"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "IsWon",
+        "label": "Is Won"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientName",
+        "label": "Client Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientType",
+        "label": "Client Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "ClientTier",
+        "label": "Client Tier"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerName",
+        "label": "Relationship Manager Name"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "DealId",
+      "targetFieldName": "DealId"
+    },
+    {
+      "sourceFieldLabel": "DealName",
+      "targetFieldName": "DealName"
+    },
+    {
+      "sourceFieldLabel": "ClientId",
+      "targetFieldName": "ClientId"
+    },
+    {
+      "sourceFieldLabel": "Stage",
+      "targetFieldName": "Stage"
+    },
+    {
+      "sourceFieldLabel": "Amount",
+      "targetFieldName": "Amount"
+    },
+    {
+      "sourceFieldLabel": "CreatedDate",
+      "targetFieldName": "CreatedDate"
+    },
+    {
+      "sourceFieldLabel": "CloseDate",
+      "targetFieldName": "CloseDate"
+    },
+    {
+      "sourceFieldLabel": "OwnerId",
+      "targetFieldName": "OwnerId"
+    },
+    {
+      "sourceFieldLabel": "Source",
+      "targetFieldName": "Source"
+    },
+    {
+      "sourceFieldLabel": "IsWon",
+      "targetFieldName": "IsWon"
+    },
+    {
+      "sourceFieldLabel": "ClientName",
+      "targetFieldName": "ClientName"
+    },
+    {
+      "sourceFieldLabel": "ClientType",
+      "targetFieldName": "ClientType"
+    },
+    {
+      "sourceFieldLabel": "ClientTier",
+      "targetFieldName": "ClientTier"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerName",
+      "targetFieldName": "RelationshipManagerName"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.AM_Deals_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.AM_Deals_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.AM_Deals_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.AM_Deals_CSV.FileType}"
+  }
+}

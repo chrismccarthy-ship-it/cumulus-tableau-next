@@ -1,0 +1,141 @@
+ClientId,ClientName,ClientType,Region,RelationshipManagerId,ServiceAssociateId,OnboardedDate,ClientTier
+AM-CL-0001,Lakeshore Employees Pension 1,Sub-Advisory,Pacific,E-0181,E-0279,2021-08-29,Strategic
+AM-CL-0002,Blue Ridge Sovereign Fund 2,Family Office,EMEA,E-0202,E-0268,2022-02-06,Key
+AM-CL-0003,Blue Ridge Mutual Insurance 3,Foundation,EMEA,E-0195,E-0280,2024-02-08,Strategic
+AM-CL-0004,Lakeshore Teachers Retirement 4,Sub-Advisory,EMEA,E-0193,E-0272,2019-02-06,Key
+AM-CL-0005,Blue Ridge Capital Partners 5,Sub-Advisory,APAC,E-0194,E-0277,2010-02-12,Key
+AM-CL-0006,Cascade Employees Pension 6,Family Office,APAC,E-0184,E-0284,2023-02-18,Standard
+AM-CL-0007,Ironwood Teachers Retirement 7,Insurance GA,Midwest,E-0203,E-0280,2011-02-26,Standard
+AM-CL-0008,Granite Community Foundation 8,Insurance GA,Mountain West,E-0201,E-0279,2022-12-16,Standard
+AM-CL-0009,Cascade Sovereign Fund 9,Corporate Pension,Midwest,E-0205,E-0279,2013-09-18,Strategic
+AM-CL-0010,Northfield Capital Partners 10,Insurance GA,Midwest,E-0181,E-0275,2024-06-05,Standard
+AM-CL-0011,Lakeshore Community Foundation 11,Corporate Pension,Midwest,E-0193,E-0271,2015-07-02,Key
+AM-CL-0012,Blue Ridge Community Foundation 12,Foundation,Mountain West,E-0201,E-0289,2026-04-27,Strategic
+AM-CL-0013,Meridian Teachers Retirement 13,Sovereign,Northeast,E-0187,E-0277,2018-05-06,Standard
+AM-CL-0014,Granite Mutual Insurance 14,Corporate Pension,APAC,E-0203,E-0288,2024-10-29,Standard
+AM-CL-0015,Northfield Teachers Retirement 15,Foundation,Mountain West,E-0186,E-0287,2013-10-28,Key
+AM-CL-0016,Ironwood Sovereign Fund 16,Sovereign,Pacific,E-0197,E-0269,2014-08-03,Key
+AM-CL-0017,Lakeshore Teachers Retirement 17,Family Office,EMEA,E-0188,E-0281,2022-09-21,Standard
+AM-CL-0018,Meridian Mutual Insurance 18,Public Pension,Pacific,E-0202,E-0266,2022-12-18,Key
+AM-CL-0019,Northfield Employees Pension 19,Family Office,Southeast,E-0183,E-0283,2012-12-15,Key
+AM-CL-0020,Summit Capital Partners 20,Corporate Pension,Mountain West,E-0181,E-0266,2010-02-18,Standard
+AM-CL-0021,Lakeshore Sovereign Fund 21,Sub-Advisory,Pacific,E-0188,E-0286,2008-07-14,Strategic
+AM-CL-0022,Northfield Mutual Insurance 22,Foundation,EMEA,E-0198,E-0273,2011-12-24,Key
+AM-CL-0023,Harbor Community Foundation 23,Public Pension,Midwest,E-0184,E-0285,2026-01-07,Key
+AM-CL-0024,Granite University Endowment 24,Foundation,Mountain West,E-0196,E-0282,2016-12-02,Standard
+AM-CL-0025,Summit Teachers Retirement 25,Insurance GA,Midwest,E-0194,E-0287,2013-03-06,Standard
+AM-CL-0026,Summit Teachers Retirement 26,Foundation,Northeast,E-0190,E-0266,2025-01-17,Standard
+AM-CL-0027,Northfield Teachers Retirement 27,Sovereign,Mountain West,E-0199,E-0271,2015-09-03,Key
+AM-CL-0028,Silverline Teachers Retirement 28,Public Pension,Pacific,E-0190,E-0279,2012-08-13,Key
+AM-CL-0029,Granite Capital Partners 29,Sovereign,Midwest,E-0198,E-0266,2011-07-12,Key
+AM-CL-0030,Meridian Capital Partners 30,Family Office,Southeast,E-0184,E-0275,2017-01-26,Standard
+AM-CL-0031,Blue Ridge Employees Pension 31,Sub-Advisory,Southeast,E-0200,E-0276,2008-09-20,Standard
+AM-CL-0032,Meridian Sovereign Fund 32,Corporate Pension,Mountain West,E-0189,E-0279,2026-01-17,Standard
+AM-CL-0033,Summit Employees Pension 33,Family Office,EMEA,E-0186,E-0266,2023-11-14,Standard
+AM-CL-0034,Cascade Employees Pension 34,Insurance GA,Mountain West,E-0185,E-0271,2019-02-12,Standard
+AM-CL-0035,Harbor Capital Partners 35,Endowment,Southeast,E-0183,E-0267,2008-12-04,Strategic
+AM-CL-0036,Harbor Teachers Retirement 36,Corporate Pension,APAC,E-0201,E-0267,2023-12-13,Standard
+AM-CL-0037,Harbor Capital Partners 37,Foundation,APAC,E-0191,E-0282,2012-11-15,Standard
+AM-CL-0038,Summit Capital Partners 38,Endowment,Mountain West,E-0184,E-0288,2024-02-24,Standard
+AM-CL-0039,Blue Ridge Mutual Insurance 39,Foundation,APAC,E-0204,E-0275,2021-10-28,Key
+AM-CL-0040,Cascade Capital Partners 40,Corporate Pension,EMEA,E-0201,E-0268,2026-01-26,Key
+AM-CL-0041,Granite Mutual Insurance 41,Corporate Pension,APAC,E-0205,E-0279,2021-08-24,Standard
+AM-CL-0042,Blue Ridge Teachers Retirement 42,Public Pension,Mountain West,E-0190,E-0286,2024-02-01,Standard
+AM-CL-0043,Lakeshore Community Foundation 43,Family Office,Pacific,E-0194,E-0267,2019-12-08,Key
+AM-CL-0044,Blue Ridge Teachers Retirement 44,Sovereign,Southeast,E-0205,E-0282,2025-04-02,Key
+AM-CL-0045,Blue Ridge Teachers Retirement 45,Family Office,Southeast,E-0197,E-0269,2018-06-10,Strategic
+AM-CL-0046,Summit University Endowment 46,Foundation,Pacific,E-0205,E-0270,2008-02-28,Standard
+AM-CL-0047,Granite Sovereign Fund 47,Endowment,Mountain West,E-0192,E-0266,2010-05-16,Standard
+AM-CL-0048,Lakeshore Community Foundation 48,Family Office,Mountain West,E-0195,E-0284,2019-10-20,Strategic
+AM-CL-0049,Lakeshore Sovereign Fund 49,Sub-Advisory,Mountain West,E-0189,E-0289,2013-04-06,Key
+AM-CL-0050,Harbor Community Foundation 50,Endowment,Pacific,E-0199,E-0276,2024-06-24,Standard
+AM-CL-0051,Silverline Teachers Retirement 51,Insurance GA,EMEA,E-0191,E-0272,2021-03-30,Standard
+AM-CL-0052,Lakeshore Mutual Insurance 52,Family Office,Mountain West,E-0188,E-0285,2020-01-31,Key
+AM-CL-0053,Granite Sovereign Fund 53,Family Office,Northeast,E-0204,E-0271,2010-01-22,Standard
+AM-CL-0054,Granite Mutual Insurance 54,Corporate Pension,Pacific,E-0186,E-0290,2024-10-06,Standard
+AM-CL-0055,Granite Teachers Retirement 55,Sub-Advisory,Northeast,E-0205,E-0268,2011-03-14,Key
+AM-CL-0056,Harbor Mutual Insurance 56,Endowment,APAC,E-0196,E-0288,2013-01-13,Strategic
+AM-CL-0057,Lakeshore University Endowment 57,Sovereign,Mountain West,E-0201,E-0281,2022-05-31,Standard
+AM-CL-0058,Harbor Teachers Retirement 58,Sub-Advisory,APAC,E-0205,E-0280,2022-11-11,Standard
+AM-CL-0059,Lakeshore Teachers Retirement 59,Endowment,Midwest,E-0191,E-0273,2009-04-02,Strategic
+AM-CL-0060,Granite Teachers Retirement 60,Sovereign,Northeast,E-0186,E-0284,2021-09-29,Standard
+AM-CL-0061,Summit Sovereign Fund 61,Insurance GA,Midwest,E-0198,E-0290,2016-01-08,Key
+AM-CL-0062,Northfield Teachers Retirement 62,Corporate Pension,Midwest,E-0200,E-0278,2012-05-04,Standard
+AM-CL-0063,Cascade Employees Pension 63,Sovereign,Mountain West,E-0205,E-0284,2017-07-10,Key
+AM-CL-0064,Granite Mutual Insurance 64,Sub-Advisory,Midwest,E-0190,E-0274,2023-12-16,Standard
+AM-CL-0065,Harbor Capital Partners 65,Foundation,Northeast,E-0204,E-0286,2023-01-10,Standard
+AM-CL-0066,Cascade Mutual Insurance 66,Family Office,Midwest,E-0201,E-0278,2012-09-26,Strategic
+AM-CL-0067,Silverline Employees Pension 67,Public Pension,Midwest,E-0187,E-0275,2009-06-05,Key
+AM-CL-0068,Northfield Employees Pension 68,Foundation,Midwest,E-0202,E-0283,2024-06-22,Strategic
+AM-CL-0069,Northfield Community Foundation 69,Family Office,Southeast,E-0199,E-0274,2016-09-18,Standard
+AM-CL-0070,Cascade Capital Partners 70,Public Pension,EMEA,E-0192,E-0282,2014-09-12,Strategic
+AM-CL-0071,Ironwood Capital Partners 71,Insurance GA,Mountain West,E-0198,E-0279,2024-08-16,Standard
+AM-CL-0072,Blue Ridge Mutual Insurance 72,Foundation,Mountain West,E-0203,E-0286,2018-03-25,Standard
+AM-CL-0073,Ironwood Employees Pension 73,Sub-Advisory,Southeast,E-0199,E-0269,2025-10-13,Strategic
+AM-CL-0074,Harbor Capital Partners 74,Sub-Advisory,Mountain West,E-0202,E-0280,2025-09-07,Standard
+AM-CL-0075,Harbor Teachers Retirement 75,Endowment,Mountain West,E-0205,E-0270,2019-10-08,Standard
+AM-CL-0076,Ironwood Capital Partners 76,Foundation,Midwest,E-0191,E-0282,2009-01-25,Key
+AM-CL-0077,Granite Teachers Retirement 77,Sovereign,Midwest,E-0185,E-0282,2010-09-16,Key
+AM-CL-0078,Lakeshore Employees Pension 78,Insurance GA,EMEA,E-0193,E-0278,2011-08-02,Standard
+AM-CL-0079,Northfield Teachers Retirement 79,Foundation,APAC,E-0182,E-0270,2015-12-14,Strategic
+AM-CL-0080,Harbor Teachers Retirement 80,Insurance GA,Pacific,E-0190,E-0275,2025-10-23,Standard
+AM-CL-0081,Northfield Employees Pension 81,Family Office,Southeast,E-0181,E-0267,2025-01-12,Standard
+AM-CL-0082,Harbor Sovereign Fund 82,Foundation,APAC,E-0198,E-0275,2023-04-20,Key
+AM-CL-0083,Northfield Sovereign Fund 83,Public Pension,APAC,E-0198,E-0287,2022-07-14,Strategic
+AM-CL-0084,Ironwood Community Foundation 84,Sovereign,Southeast,E-0192,E-0287,2018-12-29,Standard
+AM-CL-0085,Summit Community Foundation 85,Sub-Advisory,Pacific,E-0182,E-0267,2019-01-03,Standard
+AM-CL-0086,Cascade University Endowment 86,Public Pension,EMEA,E-0190,E-0268,2018-07-05,Standard
+AM-CL-0087,Summit Capital Partners 87,Family Office,APAC,E-0193,E-0290,2009-09-07,Strategic
+AM-CL-0088,Northfield Mutual Insurance 88,Sub-Advisory,Midwest,E-0203,E-0271,2013-08-30,Key
+AM-CL-0089,Blue Ridge Community Foundation 89,Endowment,Midwest,E-0188,E-0280,2021-10-02,Standard
+AM-CL-0090,Meridian University Endowment 90,Sovereign,Midwest,E-0197,E-0267,2025-08-24,Strategic
+AM-CL-0091,Northfield University Endowment 91,Insurance GA,Mountain West,E-0200,E-0285,2022-08-26,Standard
+AM-CL-0092,Meridian Capital Partners 92,Public Pension,Northeast,E-0202,E-0284,2018-11-03,Key
+AM-CL-0093,Harbor Community Foundation 93,Corporate Pension,Southeast,E-0197,E-0275,2022-05-28,Strategic
+AM-CL-0094,Granite Capital Partners 94,Family Office,Pacific,E-0182,E-0271,2018-07-01,Standard
+AM-CL-0095,Ironwood Sovereign Fund 95,Sub-Advisory,Southeast,E-0181,E-0280,2017-10-16,Standard
+AM-CL-0096,Cascade Teachers Retirement 96,Endowment,APAC,E-0196,E-0272,2022-02-24,Strategic
+AM-CL-0097,Summit Capital Partners 97,Corporate Pension,Northeast,E-0203,E-0289,2016-05-11,Standard
+AM-CL-0098,Summit Capital Partners 98,Corporate Pension,EMEA,E-0201,E-0268,2013-05-15,Key
+AM-CL-0099,Cascade Teachers Retirement 99,Foundation,APAC,E-0186,E-0279,2024-01-21,Key
+AM-CL-0100,Harbor Mutual Insurance 100,Sub-Advisory,EMEA,E-0182,E-0284,2018-09-10,Key
+AM-CL-0101,Harbor University Endowment 101,Family Office,Northeast,E-0182,E-0289,2013-08-29,Key
+AM-CL-0102,Granite Community Foundation 102,Endowment,APAC,E-0192,E-0277,2016-06-09,Strategic
+AM-CL-0103,Blue Ridge University Endowment 103,Foundation,Midwest,E-0193,E-0289,2018-01-02,Standard
+AM-CL-0104,Blue Ridge University Endowment 104,Sub-Advisory,Pacific,E-0200,E-0279,2018-12-11,Standard
+AM-CL-0105,Northfield Community Foundation 105,Corporate Pension,Midwest,E-0191,E-0284,2019-12-28,Key
+AM-CL-0106,Silverline Sovereign Fund 106,Endowment,Pacific,E-0185,E-0272,2020-11-07,Strategic
+AM-CL-0107,Harbor Teachers Retirement 107,Sub-Advisory,Pacific,E-0189,E-0281,2008-08-28,Key
+AM-CL-0108,Ironwood Employees Pension 108,Family Office,APAC,E-0196,E-0272,2019-06-10,Strategic
+AM-CL-0109,Cascade Community Foundation 109,Sub-Advisory,APAC,E-0201,E-0288,2024-11-24,Standard
+AM-CL-0110,Summit Community Foundation 110,Public Pension,Northeast,E-0195,E-0286,2020-01-18,Standard
+AM-CL-0111,Blue Ridge University Endowment 111,Sovereign,Pacific,E-0198,E-0270,2013-04-20,Strategic
+AM-CL-0112,Northfield University Endowment 112,Endowment,APAC,E-0203,E-0289,2025-10-24,Standard
+AM-CL-0113,Harbor Teachers Retirement 113,Insurance GA,APAC,E-0187,E-0270,2021-04-02,Standard
+AM-CL-0114,Meridian Mutual Insurance 114,Family Office,Midwest,E-0194,E-0278,2014-06-10,Strategic
+AM-CL-0115,Ironwood Capital Partners 115,Public Pension,EMEA,E-0197,E-0274,2015-01-30,Key
+AM-CL-0116,Silverline Sovereign Fund 116,Sub-Advisory,Pacific,E-0198,E-0272,2023-09-08,Key
+AM-CL-0117,Lakeshore Teachers Retirement 117,Endowment,EMEA,E-0181,E-0289,2009-03-21,Standard
+AM-CL-0118,Silverline Community Foundation 118,Family Office,Midwest,E-0197,E-0274,2016-06-28,Key
+AM-CL-0119,Harbor Sovereign Fund 119,Endowment,Pacific,E-0199,E-0285,2008-05-28,Key
+AM-CL-0120,Ironwood Capital Partners 120,Foundation,Pacific,E-0200,E-0279,2014-09-25,Standard
+AM-CL-0121,Meridian Capital Partners 121,Corporate Pension,Northeast,E-0198,E-0285,2019-02-27,Standard
+AM-CL-0122,Granite Teachers Retirement 122,Insurance GA,EMEA,E-0182,E-0276,2020-03-30,Standard
+AM-CL-0123,Cascade Mutual Insurance 123,Sub-Advisory,Southeast,E-0190,E-0272,2011-11-06,Standard
+AM-CL-0124,Blue Ridge Community Foundation 124,Endowment,Northeast,E-0183,E-0270,2018-04-16,Strategic
+AM-CL-0125,Northfield Mutual Insurance 125,Insurance GA,Mountain West,E-0201,E-0286,2025-09-30,Key
+AM-CL-0126,Northfield Employees Pension 126,Family Office,Pacific,E-0202,E-0270,2011-05-22,Strategic
+AM-CL-0127,Granite Community Foundation 127,Sovereign,APAC,E-0190,E-0266,2023-09-15,Standard
+AM-CL-0128,Cascade Mutual Insurance 128,Sub-Advisory,Northeast,E-0202,E-0286,2023-06-26,Key
+AM-CL-0129,Blue Ridge Mutual Insurance 129,Foundation,Pacific,E-0201,E-0273,2016-02-04,Key
+AM-CL-0130,Lakeshore University Endowment 130,Public Pension,Northeast,E-0200,E-0273,2009-05-23,Key
+AM-CL-0131,Northfield Capital Partners 131,Family Office,Southeast,E-0189,E-0285,2025-04-09,Key
+AM-CL-0132,Blue Ridge Teachers Retirement 132,Sovereign,APAC,E-0205,E-0273,2010-03-13,Standard
+AM-CL-0133,Granite University Endowment 133,Insurance GA,Northeast,E-0201,E-0275,2025-03-12,Standard
+AM-CL-0134,Granite Sovereign Fund 134,Family Office,Midwest,E-0197,E-0281,2020-11-19,Standard
+AM-CL-0135,Meridian Capital Partners 135,Public Pension,Southeast,E-0188,E-0287,2019-06-01,Standard
+AM-CL-0136,Summit University Endowment 136,Insurance GA,APAC,E-0200,E-0287,2016-09-15,Key
+AM-CL-0137,Northfield Sovereign Fund 137,Endowment,Mountain West,E-0196,E-0284,2023-03-15,Strategic
+AM-CL-0138,Cascade Employees Pension 138,Endowment,APAC,E-0188,E-0271,2009-01-09,Strategic
+AM-CL-0139,Lakeshore Teachers Retirement 139,Foundation,Mountain West,E-0203,E-0266,2008-01-21,Strategic
+AM-CL-0140,Lakeshore Teachers Retirement 140,Foundation,Midwest,E-0181,E-0272,2020-04-16,Key

@@ -1,0 +1,181 @@
+{
+  "name": "WM_Goals_DS",
+  "label": "WM Goals DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "GoalId"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "GoalType"
+    },
+    {
+      "dataType": "Text",
+      "name": "GoalName"
+    },
+    {
+      "dataType": "Number",
+      "name": "TargetValue"
+    },
+    {
+      "dataType": "Number",
+      "name": "ActualValue"
+    },
+    {
+      "dataType": "Date",
+      "name": "TargetDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Text",
+      "name": "Status"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorName"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.WM_Goals_DLO.Name}",
+    "label": "WM Goals DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "GoalId",
+        "label": "Goal ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdId",
+        "label": "Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "GoalType",
+        "label": "Goal Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "GoalName",
+        "label": "Goal Name"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "TargetValue",
+        "label": "Target Value"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "ActualValue",
+        "label": "Actual Value"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "TargetDate",
+        "label": "Target Date"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Status",
+        "label": "Status"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdName",
+        "label": "Household Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorName",
+        "label": "Advisor Name"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "GoalId",
+      "targetFieldName": "GoalId"
+    },
+    {
+      "sourceFieldLabel": "HouseholdId",
+      "targetFieldName": "HouseholdId"
+    },
+    {
+      "sourceFieldLabel": "GoalType",
+      "targetFieldName": "GoalType"
+    },
+    {
+      "sourceFieldLabel": "GoalName",
+      "targetFieldName": "GoalName"
+    },
+    {
+      "sourceFieldLabel": "TargetValue",
+      "targetFieldName": "TargetValue"
+    },
+    {
+      "sourceFieldLabel": "ActualValue",
+      "targetFieldName": "ActualValue"
+    },
+    {
+      "sourceFieldLabel": "TargetDate",
+      "targetFieldName": "TargetDate"
+    },
+    {
+      "sourceFieldLabel": "Status",
+      "targetFieldName": "Status"
+    },
+    {
+      "sourceFieldLabel": "HouseholdName",
+      "targetFieldName": "HouseholdName"
+    },
+    {
+      "sourceFieldLabel": "AdvisorName",
+      "targetFieldName": "AdvisorName"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.WM_Goals_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.WM_Goals_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.WM_Goals_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.WM_Goals_CSV.FileType}"
+  }
+}

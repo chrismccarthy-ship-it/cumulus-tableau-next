@@ -1,0 +1,401 @@
+ReferralId,BusinessAccountId,ReferralSource,ReferredProduct,ReferralDate,Status,EstimatedValue
+CB-RF-00001,CB-BA-00509,CPA Partner,Commercial Card,2026-01-10,Converted,23681.72
+CB-RF-00002,CB-BA-00512,Existing Client,Credit Facility,2026-07-17,Declined,22928.86
+CB-RF-00003,CB-BA-00364,Digital,Commercial Card,2026-07-22,In Progress,35333.42
+CB-RF-00004,CB-BA-00323,CPA Partner,Commercial Card,2024-10-18,Converted,32173.15
+CB-RF-00005,CB-BA-00145,CPA Partner,Commercial Card,2025-01-03,Converted,39183.83
+CB-RF-00006,CB-BA-00545,Wealth Advisor,Credit Facility,2025-08-12,Converted,11923.34
+CB-RF-00007,CB-BA-00123,Digital,Commercial Card,2025-05-18,In Progress,7645.52
+CB-RF-00008,CB-BA-00128,Wealth Advisor,Merchant Services,2024-10-06,New,47794.0
+CB-RF-00009,CB-BA-00115,Digital,Credit Facility,2026-05-29,Declined,6956.36
+CB-RF-00010,CB-BA-00153,CPA Partner,Merchant Services,2024-11-01,Converted,42231.8
+CB-RF-00011,CB-BA-00119,Digital,Treasury,2025-12-10,New,169654.17
+CB-RF-00012,CB-BA-00380,Retail Branch,Commercial Card,2025-01-26,Declined,43293.44
+CB-RF-00013,CB-BA-00276,Wealth Advisor,Merchant Services,2026-01-23,In Progress,62756.76
+CB-RF-00014,CB-BA-00114,Wealth Advisor,Treasury,2025-06-21,Declined,87114.89
+CB-RF-00015,CB-BA-00159,Existing Client,Merchant Services,2025-06-20,Declined,27174.08
+CB-RF-00016,CB-BA-00469,CPA Partner,Commercial Card,2024-09-20,Declined,22967.04
+CB-RF-00017,CB-BA-00502,Wealth Advisor,Credit Facility,2026-02-17,Converted,103952.27
+CB-RF-00018,CB-BA-00473,Wealth Advisor,Treasury,2026-05-07,In Progress,28885.09
+CB-RF-00019,CB-BA-00358,Retail Branch,Commercial Card,2025-11-07,In Progress,105541.69
+CB-RF-00020,CB-BA-00256,Digital,Treasury,2024-12-16,Converted,111727.6
+CB-RF-00021,CB-BA-00483,Existing Client,Commercial Card,2025-03-04,Declined,58914.64
+CB-RF-00022,CB-BA-00082,Retail Branch,Credit Facility,2025-05-10,In Progress,17194.81
+CB-RF-00023,CB-BA-00301,Existing Client,Credit Facility,2026-07-07,Declined,36217.22
+CB-RF-00024,CB-BA-00118,Existing Client,Commercial Card,2025-01-02,New,132321.41
+CB-RF-00025,CB-BA-00457,Retail Branch,Merchant Services,2025-02-12,Converted,116369.08
+CB-RF-00026,CB-BA-00299,Existing Client,Treasury,2024-09-30,Declined,31066.1
+CB-RF-00027,CB-BA-00527,CPA Partner,Treasury,2026-08-15,In Progress,45995.75
+CB-RF-00028,CB-BA-00516,CPA Partner,Treasury,2025-07-25,Converted,157916.57
+CB-RF-00029,CB-BA-00110,Wealth Advisor,Merchant Services,2026-02-17,Converted,8860.06
+CB-RF-00030,CB-BA-00039,Wealth Advisor,Commercial Card,2025-04-10,In Progress,18123.11
+CB-RF-00031,CB-BA-00231,Wealth Advisor,Commercial Card,2026-05-05,In Progress,30437.04
+CB-RF-00032,CB-BA-00297,CPA Partner,Treasury,2024-10-10,New,78497.35
+CB-RF-00033,CB-BA-00451,Wealth Advisor,Treasury,2026-04-02,Converted,45245.79
+CB-RF-00034,CB-BA-00554,Existing Client,Credit Facility,2026-01-30,Converted,135758.14
+CB-RF-00035,CB-BA-00494,Retail Branch,Commercial Card,2025-10-13,Declined,109722.61
+CB-RF-00036,CB-BA-00267,Existing Client,Commercial Card,2025-02-17,In Progress,147210.35
+CB-RF-00037,CB-BA-00584,Digital,Credit Facility,2026-02-08,Converted,11384.01
+CB-RF-00038,CB-BA-00373,Wealth Advisor,Merchant Services,2025-04-18,Converted,135466.03
+CB-RF-00039,CB-BA-00201,Existing Client,Commercial Card,2025-08-11,Converted,63554.62
+CB-RF-00040,CB-BA-00133,Retail Branch,Credit Facility,2026-01-26,Converted,18858.07
+CB-RF-00041,CB-BA-00060,Existing Client,Commercial Card,2026-05-06,New,22286.89
+CB-RF-00042,CB-BA-00434,Digital,Treasury,2025-11-12,Converted,95874.65
+CB-RF-00043,CB-BA-00298,Wealth Advisor,Treasury,2026-07-10,Converted,47742.05
+CB-RF-00044,CB-BA-00136,Digital,Credit Facility,2025-03-28,Converted,29192.59
+CB-RF-00045,CB-BA-00047,CPA Partner,Credit Facility,2025-05-16,Converted,35972.74
+CB-RF-00046,CB-BA-00048,Wealth Advisor,Credit Facility,2025-08-24,New,353999.54
+CB-RF-00047,CB-BA-00011,Wealth Advisor,Credit Facility,2024-10-17,Converted,113040.85
+CB-RF-00048,CB-BA-00063,Digital,Commercial Card,2025-04-28,New,89741.32
+CB-RF-00049,CB-BA-00023,Retail Branch,Merchant Services,2025-02-12,New,39854.69
+CB-RF-00050,CB-BA-00499,CPA Partner,Credit Facility,2026-06-21,Declined,41435.3
+CB-RF-00051,CB-BA-00080,Digital,Treasury,2024-11-07,Declined,41450.32
+CB-RF-00052,CB-BA-00070,Existing Client,Treasury,2025-10-02,Converted,134614.12
+CB-RF-00053,CB-BA-00397,Existing Client,Treasury,2025-01-20,Converted,21642.14
+CB-RF-00054,CB-BA-00263,Retail Branch,Treasury,2026-03-07,Declined,36341.91
+CB-RF-00055,CB-BA-00132,Existing Client,Merchant Services,2024-12-06,Converted,37914.07
+CB-RF-00056,CB-BA-00391,Digital,Credit Facility,2026-05-22,Declined,20209.28
+CB-RF-00057,CB-BA-00080,CPA Partner,Merchant Services,2025-06-14,Declined,27818.18
+CB-RF-00058,CB-BA-00034,Existing Client,Merchant Services,2025-03-25,New,74258.71
+CB-RF-00059,CB-BA-00599,Retail Branch,Commercial Card,2026-05-29,Converted,138378.81
+CB-RF-00060,CB-BA-00551,Wealth Advisor,Commercial Card,2026-03-19,In Progress,14571.99
+CB-RF-00061,CB-BA-00038,CPA Partner,Commercial Card,2026-07-05,In Progress,25502.52
+CB-RF-00062,CB-BA-00304,Digital,Commercial Card,2025-11-06,Declined,23754.41
+CB-RF-00063,CB-BA-00498,Wealth Advisor,Treasury,2025-04-09,New,32420.32
+CB-RF-00064,CB-BA-00040,CPA Partner,Commercial Card,2025-08-27,Converted,59930.23
+CB-RF-00065,CB-BA-00400,Wealth Advisor,Credit Facility,2024-10-29,Declined,77946.99
+CB-RF-00066,CB-BA-00532,CPA Partner,Merchant Services,2024-12-05,Converted,37297.48
+CB-RF-00067,CB-BA-00069,CPA Partner,Merchant Services,2026-08-22,Converted,12758.05
+CB-RF-00068,CB-BA-00318,Existing Client,Treasury,2025-08-10,Declined,12498.95
+CB-RF-00069,CB-BA-00260,Wealth Advisor,Merchant Services,2025-10-14,Declined,15106.45
+CB-RF-00070,CB-BA-00043,Wealth Advisor,Merchant Services,2025-04-07,New,66360.24
+CB-RF-00071,CB-BA-00256,Digital,Commercial Card,2024-12-09,In Progress,25364.77
+CB-RF-00072,CB-BA-00130,Existing Client,Credit Facility,2024-09-10,In Progress,129747.51
+CB-RF-00073,CB-BA-00145,Retail Branch,Merchant Services,2026-06-21,In Progress,52461.67
+CB-RF-00074,CB-BA-00450,Wealth Advisor,Merchant Services,2026-06-01,Declined,26552.07
+CB-RF-00075,CB-BA-00256,Retail Branch,Treasury,2026-03-23,Converted,18109.23
+CB-RF-00076,CB-BA-00414,CPA Partner,Credit Facility,2024-10-21,In Progress,71058.65
+CB-RF-00077,CB-BA-00233,Digital,Merchant Services,2024-10-08,Declined,25330.14
+CB-RF-00078,CB-BA-00114,Digital,Commercial Card,2025-04-23,New,43807.19
+CB-RF-00079,CB-BA-00135,Digital,Treasury,2025-11-24,Declined,54718.87
+CB-RF-00080,CB-BA-00256,Retail Branch,Merchant Services,2025-02-08,Converted,48669.63
+CB-RF-00081,CB-BA-00471,Existing Client,Credit Facility,2026-05-01,Converted,51564.69
+CB-RF-00082,CB-BA-00147,Wealth Advisor,Commercial Card,2026-08-31,In Progress,29592.83
+CB-RF-00083,CB-BA-00474,Existing Client,Commercial Card,2025-01-26,In Progress,13651.64
+CB-RF-00084,CB-BA-00467,Digital,Credit Facility,2026-04-11,Converted,35924.73
+CB-RF-00085,CB-BA-00469,Wealth Advisor,Treasury,2025-01-19,In Progress,31120.95
+CB-RF-00086,CB-BA-00411,Wealth Advisor,Commercial Card,2026-08-27,New,66937.86
+CB-RF-00087,CB-BA-00265,Wealth Advisor,Credit Facility,2025-12-10,Declined,9820.49
+CB-RF-00088,CB-BA-00384,CPA Partner,Merchant Services,2025-11-26,In Progress,26187.01
+CB-RF-00089,CB-BA-00292,Retail Branch,Commercial Card,2024-10-21,Converted,61623.5
+CB-RF-00090,CB-BA-00492,Existing Client,Treasury,2024-11-28,Converted,71160.21
+CB-RF-00091,CB-BA-00548,CPA Partner,Treasury,2025-09-23,Converted,50587.92
+CB-RF-00092,CB-BA-00052,Digital,Commercial Card,2026-07-14,Converted,21006.44
+CB-RF-00093,CB-BA-00287,CPA Partner,Treasury,2025-04-12,Converted,24038.49
+CB-RF-00094,CB-BA-00182,CPA Partner,Treasury,2025-01-05,Converted,36083.04
+CB-RF-00095,CB-BA-00464,Retail Branch,Merchant Services,2025-12-06,Converted,9439.42
+CB-RF-00096,CB-BA-00130,Retail Branch,Credit Facility,2026-06-16,In Progress,71895.57
+CB-RF-00097,CB-BA-00513,Existing Client,Treasury,2025-04-04,In Progress,48112.25
+CB-RF-00098,CB-BA-00010,Wealth Advisor,Merchant Services,2025-01-12,Converted,107634.67
+CB-RF-00099,CB-BA-00015,Retail Branch,Merchant Services,2026-05-27,Converted,74622.9
+CB-RF-00100,CB-BA-00455,CPA Partner,Merchant Services,2025-06-22,Converted,58727.76
+CB-RF-00101,CB-BA-00506,Retail Branch,Merchant Services,2024-09-13,In Progress,31035.2
+CB-RF-00102,CB-BA-00564,Wealth Advisor,Treasury,2024-11-05,Converted,32987.13
+CB-RF-00103,CB-BA-00047,Retail Branch,Merchant Services,2025-12-01,Converted,32152.17
+CB-RF-00104,CB-BA-00272,Wealth Advisor,Credit Facility,2025-07-20,Declined,16930.09
+CB-RF-00105,CB-BA-00528,Digital,Credit Facility,2026-03-08,New,24264.81
+CB-RF-00106,CB-BA-00269,CPA Partner,Merchant Services,2026-04-01,Converted,419893.45
+CB-RF-00107,CB-BA-00258,Wealth Advisor,Credit Facility,2026-06-04,In Progress,26518.86
+CB-RF-00108,CB-BA-00090,Retail Branch,Merchant Services,2026-03-13,In Progress,58912.26
+CB-RF-00109,CB-BA-00114,CPA Partner,Credit Facility,2025-08-08,Declined,171771.67
+CB-RF-00110,CB-BA-00315,Retail Branch,Merchant Services,2025-01-29,Converted,81356.62
+CB-RF-00111,CB-BA-00204,Retail Branch,Credit Facility,2025-05-19,In Progress,78237.65
+CB-RF-00112,CB-BA-00339,CPA Partner,Merchant Services,2025-08-09,Converted,74308.39
+CB-RF-00113,CB-BA-00567,CPA Partner,Credit Facility,2025-05-28,Converted,79666.79
+CB-RF-00114,CB-BA-00007,CPA Partner,Treasury,2024-12-24,Declined,22116.42
+CB-RF-00115,CB-BA-00436,Wealth Advisor,Commercial Card,2025-09-09,Declined,21523.99
+CB-RF-00116,CB-BA-00434,Wealth Advisor,Commercial Card,2025-10-30,In Progress,5953.74
+CB-RF-00117,CB-BA-00044,Digital,Treasury,2024-09-30,Converted,134445.89
+CB-RF-00118,CB-BA-00201,Wealth Advisor,Credit Facility,2025-08-16,Converted,145415.5
+CB-RF-00119,CB-BA-00305,CPA Partner,Credit Facility,2026-01-16,Converted,83342.43
+CB-RF-00120,CB-BA-00187,Retail Branch,Treasury,2025-10-18,New,97464.77
+CB-RF-00121,CB-BA-00571,CPA Partner,Commercial Card,2024-10-09,New,30337.55
+CB-RF-00122,CB-BA-00140,Existing Client,Commercial Card,2025-12-16,Declined,62646.29
+CB-RF-00123,CB-BA-00287,Wealth Advisor,Credit Facility,2026-06-06,New,47460.93
+CB-RF-00124,CB-BA-00173,CPA Partner,Merchant Services,2024-11-26,New,57005.03
+CB-RF-00125,CB-BA-00082,Retail Branch,Merchant Services,2025-07-06,In Progress,23900.72
+CB-RF-00126,CB-BA-00178,Retail Branch,Treasury,2024-09-03,Converted,21350.76
+CB-RF-00127,CB-BA-00126,CPA Partner,Merchant Services,2026-08-04,Declined,27604.69
+CB-RF-00128,CB-BA-00165,Existing Client,Merchant Services,2026-05-08,Converted,12241.18
+CB-RF-00129,CB-BA-00495,CPA Partner,Treasury,2026-06-20,Declined,19559.44
+CB-RF-00130,CB-BA-00347,Digital,Treasury,2025-05-23,In Progress,17183.4
+CB-RF-00131,CB-BA-00590,Existing Client,Merchant Services,2026-08-02,Declined,59995.62
+CB-RF-00132,CB-BA-00203,Retail Branch,Merchant Services,2025-08-04,Declined,69456.22
+CB-RF-00133,CB-BA-00540,Wealth Advisor,Merchant Services,2026-01-02,Converted,16199.58
+CB-RF-00134,CB-BA-00476,Wealth Advisor,Treasury,2025-06-02,Declined,28212.54
+CB-RF-00135,CB-BA-00190,Retail Branch,Credit Facility,2026-06-05,Converted,127758.38
+CB-RF-00136,CB-BA-00494,Wealth Advisor,Commercial Card,2025-12-27,Converted,50628.45
+CB-RF-00137,CB-BA-00087,Existing Client,Credit Facility,2026-03-07,Converted,80654.16
+CB-RF-00138,CB-BA-00097,Digital,Credit Facility,2026-04-06,Declined,41774.91
+CB-RF-00139,CB-BA-00098,Existing Client,Commercial Card,2025-05-03,Converted,30569.8
+CB-RF-00140,CB-BA-00108,Retail Branch,Commercial Card,2025-06-20,In Progress,36424.51
+CB-RF-00141,CB-BA-00355,CPA Partner,Merchant Services,2026-03-16,In Progress,51561.52
+CB-RF-00142,CB-BA-00294,CPA Partner,Merchant Services,2025-03-14,Declined,24403.08
+CB-RF-00143,CB-BA-00215,Existing Client,Commercial Card,2026-02-27,New,23403.38
+CB-RF-00144,CB-BA-00008,Retail Branch,Commercial Card,2024-12-22,Converted,6036.93
+CB-RF-00145,CB-BA-00345,CPA Partner,Treasury,2026-05-09,Converted,61011.44
+CB-RF-00146,CB-BA-00407,Digital,Treasury,2026-02-22,Converted,69961.6
+CB-RF-00147,CB-BA-00148,Digital,Commercial Card,2025-03-21,Declined,114818.28
+CB-RF-00148,CB-BA-00277,Digital,Credit Facility,2025-01-31,In Progress,39547.95
+CB-RF-00149,CB-BA-00324,Wealth Advisor,Treasury,2026-08-30,Converted,33411.25
+CB-RF-00150,CB-BA-00443,Wealth Advisor,Treasury,2026-01-06,Converted,15766.88
+CB-RF-00151,CB-BA-00477,Retail Branch,Commercial Card,2025-04-19,Converted,22714.74
+CB-RF-00152,CB-BA-00495,Existing Client,Merchant Services,2026-04-28,Converted,3039.83
+CB-RF-00153,CB-BA-00453,CPA Partner,Commercial Card,2026-06-29,Converted,23553.39
+CB-RF-00154,CB-BA-00001,CPA Partner,Merchant Services,2025-10-22,Converted,72359.27
+CB-RF-00155,CB-BA-00313,Retail Branch,Merchant Services,2026-02-25,New,21335.18
+CB-RF-00156,CB-BA-00300,Existing Client,Treasury,2025-07-04,New,35978.12
+CB-RF-00157,CB-BA-00477,CPA Partner,Merchant Services,2025-09-20,New,63113.01
+CB-RF-00158,CB-BA-00049,Retail Branch,Credit Facility,2025-06-08,Converted,97993.19
+CB-RF-00159,CB-BA-00099,Existing Client,Credit Facility,2024-12-16,Converted,121398.91
+CB-RF-00160,CB-BA-00529,Retail Branch,Commercial Card,2026-07-28,Converted,443987.51
+CB-RF-00161,CB-BA-00416,Retail Branch,Credit Facility,2024-12-26,Converted,7572.76
+CB-RF-00162,CB-BA-00226,CPA Partner,Treasury,2024-09-05,Converted,23854.31
+CB-RF-00163,CB-BA-00053,Wealth Advisor,Credit Facility,2026-01-13,New,52944.47
+CB-RF-00164,CB-BA-00106,Digital,Merchant Services,2025-06-19,Converted,26192.96
+CB-RF-00165,CB-BA-00060,Wealth Advisor,Commercial Card,2026-05-11,Declined,77584.01
+CB-RF-00166,CB-BA-00076,Retail Branch,Credit Facility,2025-10-15,Declined,12387.14
+CB-RF-00167,CB-BA-00191,Digital,Merchant Services,2025-07-05,Declined,10748.55
+CB-RF-00168,CB-BA-00064,Existing Client,Merchant Services,2026-04-23,New,19051.85
+CB-RF-00169,CB-BA-00403,CPA Partner,Credit Facility,2024-12-08,Converted,71562.29
+CB-RF-00170,CB-BA-00118,Wealth Advisor,Treasury,2025-03-12,Declined,155536.18
+CB-RF-00171,CB-BA-00330,Retail Branch,Credit Facility,2025-01-03,New,35232.91
+CB-RF-00172,CB-BA-00091,Existing Client,Commercial Card,2025-09-13,Declined,22760.28
+CB-RF-00173,CB-BA-00166,Retail Branch,Commercial Card,2025-03-02,In Progress,111744.02
+CB-RF-00174,CB-BA-00437,Retail Branch,Treasury,2026-02-19,Declined,113493.51
+CB-RF-00175,CB-BA-00594,Wealth Advisor,Treasury,2026-06-25,In Progress,36046.77
+CB-RF-00176,CB-BA-00325,Retail Branch,Treasury,2025-06-30,Converted,134548.62
+CB-RF-00177,CB-BA-00372,Digital,Merchant Services,2026-03-16,Converted,14948.64
+CB-RF-00178,CB-BA-00229,Retail Branch,Merchant Services,2024-09-26,In Progress,48557.4
+CB-RF-00179,CB-BA-00128,Digital,Treasury,2026-01-01,Converted,270943.99
+CB-RF-00180,CB-BA-00271,Wealth Advisor,Merchant Services,2025-08-20,In Progress,35990.97
+CB-RF-00181,CB-BA-00516,CPA Partner,Credit Facility,2025-08-24,Declined,20946.49
+CB-RF-00182,CB-BA-00291,CPA Partner,Commercial Card,2024-12-11,Converted,63608.7
+CB-RF-00183,CB-BA-00117,Digital,Credit Facility,2025-05-08,Converted,86782.93
+CB-RF-00184,CB-BA-00020,CPA Partner,Merchant Services,2026-02-12,Converted,34947.89
+CB-RF-00185,CB-BA-00592,Existing Client,Commercial Card,2025-08-30,In Progress,9820.93
+CB-RF-00186,CB-BA-00580,Digital,Treasury,2025-02-03,Converted,107721.5
+CB-RF-00187,CB-BA-00434,CPA Partner,Credit Facility,2026-01-12,Converted,6261.88
+CB-RF-00188,CB-BA-00283,Digital,Credit Facility,2024-10-24,Converted,17037.01
+CB-RF-00189,CB-BA-00301,Retail Branch,Treasury,2025-04-14,In Progress,76175.25
+CB-RF-00190,CB-BA-00563,Wealth Advisor,Treasury,2026-06-29,Declined,25501.22
+CB-RF-00191,CB-BA-00217,Wealth Advisor,Commercial Card,2024-09-07,In Progress,247628.71
+CB-RF-00192,CB-BA-00165,Existing Client,Treasury,2024-11-05,Declined,64834.76
+CB-RF-00193,CB-BA-00278,Digital,Credit Facility,2025-11-15,Declined,63981.63
+CB-RF-00194,CB-BA-00570,Wealth Advisor,Commercial Card,2025-05-22,Declined,91953.7
+CB-RF-00195,CB-BA-00233,Existing Client,Commercial Card,2025-05-22,In Progress,52400.43
+CB-RF-00196,CB-BA-00112,CPA Partner,Credit Facility,2026-08-03,Declined,12369.86
+CB-RF-00197,CB-BA-00348,Wealth Advisor,Merchant Services,2026-01-12,Converted,13480.97
+CB-RF-00198,CB-BA-00280,Existing Client,Commercial Card,2025-03-06,In Progress,122204.25
+CB-RF-00199,CB-BA-00027,Digital,Credit Facility,2024-12-19,In Progress,138366.22
+CB-RF-00200,CB-BA-00574,Wealth Advisor,Commercial Card,2026-08-21,In Progress,48671.84
+CB-RF-00201,CB-BA-00112,Wealth Advisor,Commercial Card,2025-07-21,In Progress,34897.89
+CB-RF-00202,CB-BA-00537,Existing Client,Credit Facility,2024-10-31,Converted,133310.43
+CB-RF-00203,CB-BA-00362,Retail Branch,Commercial Card,2025-03-16,Declined,88369.83
+CB-RF-00204,CB-BA-00345,CPA Partner,Commercial Card,2025-01-23,Converted,251712.46
+CB-RF-00205,CB-BA-00137,Existing Client,Treasury,2025-07-04,Converted,12222.88
+CB-RF-00206,CB-BA-00246,Existing Client,Treasury,2025-07-17,Converted,30503.04
+CB-RF-00207,CB-BA-00327,Digital,Credit Facility,2024-10-21,Converted,37429.45
+CB-RF-00208,CB-BA-00589,Retail Branch,Treasury,2024-11-19,Declined,18407.77
+CB-RF-00209,CB-BA-00393,Wealth Advisor,Commercial Card,2025-01-02,Declined,59961.68
+CB-RF-00210,CB-BA-00471,Existing Client,Credit Facility,2025-02-15,Converted,38439.36
+CB-RF-00211,CB-BA-00145,Digital,Merchant Services,2025-03-30,New,43060.69
+CB-RF-00212,CB-BA-00572,CPA Partner,Merchant Services,2025-01-17,In Progress,107436.94
+CB-RF-00213,CB-BA-00353,Retail Branch,Treasury,2024-10-02,In Progress,34317.18
+CB-RF-00214,CB-BA-00375,Digital,Treasury,2026-02-20,Declined,71873.19
+CB-RF-00215,CB-BA-00493,Existing Client,Merchant Services,2024-09-05,Declined,20230.59
+CB-RF-00216,CB-BA-00128,Wealth Advisor,Treasury,2024-12-20,Converted,48516.1
+CB-RF-00217,CB-BA-00522,Existing Client,Commercial Card,2026-08-17,In Progress,13083.18
+CB-RF-00218,CB-BA-00229,Retail Branch,Credit Facility,2025-01-09,Converted,71583.8
+CB-RF-00219,CB-BA-00107,Retail Branch,Merchant Services,2025-04-30,Declined,37435.62
+CB-RF-00220,CB-BA-00355,Wealth Advisor,Commercial Card,2025-04-21,Converted,72778.41
+CB-RF-00221,CB-BA-00092,Digital,Credit Facility,2026-08-02,New,19896.32
+CB-RF-00222,CB-BA-00279,Digital,Merchant Services,2025-10-30,Declined,163671.8
+CB-RF-00223,CB-BA-00117,Wealth Advisor,Credit Facility,2026-08-12,Converted,272870.42
+CB-RF-00224,CB-BA-00258,Existing Client,Credit Facility,2026-07-15,Declined,31735.77
+CB-RF-00225,CB-BA-00334,Digital,Merchant Services,2026-04-17,Declined,112090.5
+CB-RF-00226,CB-BA-00590,Wealth Advisor,Treasury,2026-02-15,In Progress,313248.67
+CB-RF-00227,CB-BA-00009,Retail Branch,Credit Facility,2026-08-15,Converted,120488.75
+CB-RF-00228,CB-BA-00267,Retail Branch,Commercial Card,2025-01-31,Converted,38100.64
+CB-RF-00229,CB-BA-00315,Digital,Merchant Services,2025-02-01,New,11252.0
+CB-RF-00230,CB-BA-00019,Retail Branch,Commercial Card,2025-05-16,In Progress,43909.54
+CB-RF-00231,CB-BA-00517,Digital,Treasury,2026-03-31,New,22909.75
+CB-RF-00232,CB-BA-00587,Retail Branch,Merchant Services,2025-04-05,Converted,21418.62
+CB-RF-00233,CB-BA-00134,CPA Partner,Credit Facility,2025-07-14,Declined,15901.4
+CB-RF-00234,CB-BA-00536,Digital,Treasury,2026-06-06,Converted,15061.28
+CB-RF-00235,CB-BA-00311,Wealth Advisor,Treasury,2024-09-14,Converted,50609.91
+CB-RF-00236,CB-BA-00515,Digital,Merchant Services,2025-09-23,Converted,44423.86
+CB-RF-00237,CB-BA-00297,Wealth Advisor,Treasury,2025-08-16,New,19169.1
+CB-RF-00238,CB-BA-00163,Retail Branch,Merchant Services,2024-09-02,Converted,17051.19
+CB-RF-00239,CB-BA-00518,Retail Branch,Credit Facility,2026-05-26,New,195748.93
+CB-RF-00240,CB-BA-00559,Digital,Credit Facility,2026-08-10,Converted,85317.23
+CB-RF-00241,CB-BA-00211,CPA Partner,Treasury,2024-09-03,Converted,108225.69
+CB-RF-00242,CB-BA-00336,Wealth Advisor,Commercial Card,2026-05-17,In Progress,11345.53
+CB-RF-00243,CB-BA-00519,Retail Branch,Credit Facility,2026-08-09,In Progress,96001.55
+CB-RF-00244,CB-BA-00388,Retail Branch,Credit Facility,2025-11-21,Converted,46334.18
+CB-RF-00245,CB-BA-00058,Wealth Advisor,Commercial Card,2026-04-24,Declined,51956.65
+CB-RF-00246,CB-BA-00401,Existing Client,Commercial Card,2026-02-07,In Progress,300433.62
+CB-RF-00247,CB-BA-00453,CPA Partner,Treasury,2024-11-16,New,44478.84
+CB-RF-00248,CB-BA-00441,Wealth Advisor,Commercial Card,2024-09-09,In Progress,55763.33
+CB-RF-00249,CB-BA-00423,Wealth Advisor,Credit Facility,2026-08-15,Converted,178403.49
+CB-RF-00250,CB-BA-00245,CPA Partner,Commercial Card,2025-11-22,In Progress,30567.92
+CB-RF-00251,CB-BA-00100,Wealth Advisor,Commercial Card,2024-10-26,In Progress,253030.42
+CB-RF-00252,CB-BA-00412,CPA Partner,Treasury,2025-01-27,New,13048.16
+CB-RF-00253,CB-BA-00572,Retail Branch,Merchant Services,2025-12-25,In Progress,60513.87
+CB-RF-00254,CB-BA-00295,Existing Client,Merchant Services,2025-01-09,Converted,128362.07
+CB-RF-00255,CB-BA-00232,Wealth Advisor,Commercial Card,2026-05-31,Converted,242565.2
+CB-RF-00256,CB-BA-00056,CPA Partner,Merchant Services,2025-05-23,New,9649.71
+CB-RF-00257,CB-BA-00065,Retail Branch,Treasury,2024-12-19,Converted,90782.64
+CB-RF-00258,CB-BA-00387,CPA Partner,Credit Facility,2025-01-10,Converted,11374.09
+CB-RF-00259,CB-BA-00225,Existing Client,Treasury,2024-09-19,Converted,32208.57
+CB-RF-00260,CB-BA-00530,Existing Client,Credit Facility,2026-05-11,Converted,51810.05
+CB-RF-00261,CB-BA-00059,Existing Client,Commercial Card,2026-03-22,Converted,31573.03
+CB-RF-00262,CB-BA-00238,CPA Partner,Credit Facility,2025-03-29,Converted,130050.59
+CB-RF-00263,CB-BA-00034,CPA Partner,Treasury,2025-04-20,Converted,18100.55
+CB-RF-00264,CB-BA-00232,CPA Partner,Credit Facility,2025-12-25,In Progress,14613.38
+CB-RF-00265,CB-BA-00509,Existing Client,Treasury,2026-07-23,New,33226.81
+CB-RF-00266,CB-BA-00100,Wealth Advisor,Commercial Card,2026-08-15,Converted,63969.91
+CB-RF-00267,CB-BA-00081,Existing Client,Merchant Services,2024-11-04,In Progress,22837.78
+CB-RF-00268,CB-BA-00383,Existing Client,Treasury,2024-10-09,Declined,39567.08
+CB-RF-00269,CB-BA-00359,Existing Client,Credit Facility,2026-06-05,Declined,59334.59
+CB-RF-00270,CB-BA-00067,CPA Partner,Merchant Services,2026-06-23,In Progress,34255.29
+CB-RF-00271,CB-BA-00396,Existing Client,Merchant Services,2025-11-05,Converted,226917.14
+CB-RF-00272,CB-BA-00111,Retail Branch,Merchant Services,2026-01-18,Converted,54431.17
+CB-RF-00273,CB-BA-00348,Digital,Commercial Card,2025-11-17,New,32675.01
+CB-RF-00274,CB-BA-00064,Existing Client,Merchant Services,2024-10-20,New,54349.08
+CB-RF-00275,CB-BA-00451,CPA Partner,Treasury,2025-11-09,Declined,75206.49
+CB-RF-00276,CB-BA-00323,Retail Branch,Treasury,2024-12-18,Converted,25625.14
+CB-RF-00277,CB-BA-00246,CPA Partner,Commercial Card,2025-11-23,Declined,35339.31
+CB-RF-00278,CB-BA-00369,Existing Client,Treasury,2025-11-30,Converted,364383.7
+CB-RF-00279,CB-BA-00039,CPA Partner,Treasury,2026-06-02,Converted,19939.63
+CB-RF-00280,CB-BA-00307,Digital,Merchant Services,2024-09-18,In Progress,40537.4
+CB-RF-00281,CB-BA-00428,Wealth Advisor,Merchant Services,2026-05-19,Declined,30235.83
+CB-RF-00282,CB-BA-00011,Digital,Commercial Card,2025-07-11,In Progress,20717.95
+CB-RF-00283,CB-BA-00571,Existing Client,Credit Facility,2024-09-30,Converted,6618.04
+CB-RF-00284,CB-BA-00429,Existing Client,Treasury,2026-02-10,Declined,71280.72
+CB-RF-00285,CB-BA-00024,Wealth Advisor,Merchant Services,2025-06-05,In Progress,24898.54
+CB-RF-00286,CB-BA-00379,Wealth Advisor,Credit Facility,2025-03-03,Converted,25032.27
+CB-RF-00287,CB-BA-00212,Existing Client,Merchant Services,2024-09-18,Declined,35718.4
+CB-RF-00288,CB-BA-00380,Existing Client,Treasury,2026-01-21,In Progress,35048.92
+CB-RF-00289,CB-BA-00013,CPA Partner,Treasury,2026-05-17,New,29157.53
+CB-RF-00290,CB-BA-00544,CPA Partner,Merchant Services,2026-06-02,Converted,17188.24
+CB-RF-00291,CB-BA-00198,Existing Client,Credit Facility,2024-10-17,Converted,75930.47
+CB-RF-00292,CB-BA-00354,Existing Client,Credit Facility,2026-04-07,In Progress,23816.95
+CB-RF-00293,CB-BA-00311,Existing Client,Merchant Services,2025-08-09,Converted,12577.65
+CB-RF-00294,CB-BA-00311,Retail Branch,Merchant Services,2026-06-01,In Progress,34682.12
+CB-RF-00295,CB-BA-00517,CPA Partner,Credit Facility,2026-04-13,Declined,89678.36
+CB-RF-00296,CB-BA-00433,Wealth Advisor,Treasury,2025-03-22,Converted,141765.13
+CB-RF-00297,CB-BA-00071,Wealth Advisor,Merchant Services,2026-05-06,Converted,31181.43
+CB-RF-00298,CB-BA-00175,CPA Partner,Merchant Services,2025-01-02,New,38808.09
+CB-RF-00299,CB-BA-00536,CPA Partner,Credit Facility,2025-11-27,In Progress,54047.02
+CB-RF-00300,CB-BA-00197,Retail Branch,Credit Facility,2025-01-09,Converted,303801.94
+CB-RF-00301,CB-BA-00591,CPA Partner,Merchant Services,2026-01-21,Converted,25512.64
+CB-RF-00302,CB-BA-00468,Wealth Advisor,Credit Facility,2024-12-18,In Progress,56412.42
+CB-RF-00303,CB-BA-00222,Wealth Advisor,Merchant Services,2026-07-10,Declined,59531.52
+CB-RF-00304,CB-BA-00142,Existing Client,Treasury,2025-01-01,In Progress,147321.42
+CB-RF-00305,CB-BA-00319,CPA Partner,Credit Facility,2026-08-15,Converted,163769.16
+CB-RF-00306,CB-BA-00489,Digital,Credit Facility,2024-12-30,Converted,101901.76
+CB-RF-00307,CB-BA-00250,Wealth Advisor,Merchant Services,2026-06-02,Converted,7523.18
+CB-RF-00308,CB-BA-00333,CPA Partner,Commercial Card,2026-08-26,Converted,28810.76
+CB-RF-00309,CB-BA-00090,Retail Branch,Merchant Services,2025-10-23,In Progress,101867.29
+CB-RF-00310,CB-BA-00437,Wealth Advisor,Commercial Card,2024-11-25,Converted,51789.55
+CB-RF-00311,CB-BA-00316,Digital,Treasury,2025-09-22,Converted,40220.43
+CB-RF-00312,CB-BA-00541,Wealth Advisor,Commercial Card,2025-03-13,In Progress,80557.14
+CB-RF-00313,CB-BA-00087,Wealth Advisor,Credit Facility,2025-01-06,In Progress,28434.54
+CB-RF-00314,CB-BA-00422,Digital,Credit Facility,2026-03-22,In Progress,126337.47
+CB-RF-00315,CB-BA-00250,Wealth Advisor,Merchant Services,2025-04-14,Converted,100506.33
+CB-RF-00316,CB-BA-00337,Digital,Credit Facility,2026-04-25,Converted,6129.18
+CB-RF-00317,CB-BA-00092,Digital,Credit Facility,2025-03-29,Declined,51782.9
+CB-RF-00318,CB-BA-00413,Existing Client,Commercial Card,2025-01-17,Converted,59156.43
+CB-RF-00319,CB-BA-00258,Digital,Commercial Card,2025-02-15,In Progress,91989.82
+CB-RF-00320,CB-BA-00587,CPA Partner,Credit Facility,2025-08-14,Converted,19605.09
+CB-RF-00321,CB-BA-00439,Existing Client,Commercial Card,2024-12-07,In Progress,170903.37
+CB-RF-00322,CB-BA-00537,Digital,Merchant Services,2025-04-30,In Progress,28390.44
+CB-RF-00323,CB-BA-00413,Wealth Advisor,Treasury,2026-01-02,New,341989.61
+CB-RF-00324,CB-BA-00001,Digital,Treasury,2025-04-29,New,73670.14
+CB-RF-00325,CB-BA-00408,Wealth Advisor,Treasury,2025-08-05,Declined,153939.68
+CB-RF-00326,CB-BA-00529,CPA Partner,Credit Facility,2025-11-04,Declined,11278.24
+CB-RF-00327,CB-BA-00486,Wealth Advisor,Commercial Card,2026-03-18,In Progress,17624.64
+CB-RF-00328,CB-BA-00191,CPA Partner,Credit Facility,2025-10-05,In Progress,14646.25
+CB-RF-00329,CB-BA-00301,CPA Partner,Commercial Card,2025-05-25,In Progress,44912.6
+CB-RF-00330,CB-BA-00567,Digital,Commercial Card,2024-10-12,In Progress,130979.73
+CB-RF-00331,CB-BA-00472,Digital,Commercial Card,2025-11-10,Converted,65090.36
+CB-RF-00332,CB-BA-00500,Retail Branch,Merchant Services,2024-10-03,Converted,70133.02
+CB-RF-00333,CB-BA-00290,Digital,Merchant Services,2025-10-22,New,30668.38
+CB-RF-00334,CB-BA-00532,Existing Client,Credit Facility,2024-11-03,Declined,79497.48
+CB-RF-00335,CB-BA-00210,CPA Partner,Credit Facility,2024-12-25,Converted,108586.0
+CB-RF-00336,CB-BA-00513,CPA Partner,Merchant Services,2024-10-20,Converted,52536.54
+CB-RF-00337,CB-BA-00382,Wealth Advisor,Treasury,2025-10-09,Converted,9127.97
+CB-RF-00338,CB-BA-00054,Digital,Merchant Services,2024-12-17,Converted,27443.58
+CB-RF-00339,CB-BA-00207,Retail Branch,Credit Facility,2026-03-12,Declined,19622.93
+CB-RF-00340,CB-BA-00005,Retail Branch,Credit Facility,2025-05-04,In Progress,85183.72
+CB-RF-00341,CB-BA-00191,Wealth Advisor,Commercial Card,2024-10-08,Converted,13116.69
+CB-RF-00342,CB-BA-00378,Digital,Credit Facility,2025-08-03,Converted,188646.88
+CB-RF-00343,CB-BA-00356,Existing Client,Merchant Services,2024-10-26,Converted,60161.91
+CB-RF-00344,CB-BA-00508,Existing Client,Commercial Card,2026-02-09,Converted,451203.51
+CB-RF-00345,CB-BA-00568,CPA Partner,Treasury,2024-12-12,Converted,118715.48
+CB-RF-00346,CB-BA-00324,CPA Partner,Commercial Card,2025-12-15,In Progress,42430.02
+CB-RF-00347,CB-BA-00080,Existing Client,Treasury,2026-02-25,Declined,371177.14
+CB-RF-00348,CB-BA-00154,Existing Client,Commercial Card,2024-12-21,New,51458.01
+CB-RF-00349,CB-BA-00382,Existing Client,Credit Facility,2026-01-10,In Progress,34080.15
+CB-RF-00350,CB-BA-00047,Existing Client,Treasury,2026-01-16,Declined,19715.36
+CB-RF-00351,CB-BA-00126,Wealth Advisor,Commercial Card,2026-06-10,Declined,125186.62
+CB-RF-00352,CB-BA-00357,CPA Partner,Treasury,2025-07-09,Declined,32519.0
+CB-RF-00353,CB-BA-00285,CPA Partner,Treasury,2026-05-17,Converted,76884.02
+CB-RF-00354,CB-BA-00220,Digital,Treasury,2025-09-21,Declined,8135.29
+CB-RF-00355,CB-BA-00026,Retail Branch,Commercial Card,2024-11-20,Converted,33022.1
+CB-RF-00356,CB-BA-00052,CPA Partner,Treasury,2025-05-02,In Progress,42606.32
+CB-RF-00357,CB-BA-00154,Digital,Credit Facility,2026-05-25,Converted,47659.75
+CB-RF-00358,CB-BA-00434,CPA Partner,Treasury,2026-08-31,Converted,14282.68
+CB-RF-00359,CB-BA-00253,Wealth Advisor,Commercial Card,2025-02-02,Declined,24152.3
+CB-RF-00360,CB-BA-00430,Retail Branch,Treasury,2025-05-27,Converted,39838.34
+CB-RF-00361,CB-BA-00056,Retail Branch,Treasury,2026-02-01,Declined,36731.09
+CB-RF-00362,CB-BA-00048,Digital,Commercial Card,2025-12-24,Converted,18365.94
+CB-RF-00363,CB-BA-00363,Existing Client,Treasury,2026-07-04,Converted,217746.27
+CB-RF-00364,CB-BA-00259,Wealth Advisor,Credit Facility,2025-11-04,Converted,36944.34
+CB-RF-00365,CB-BA-00561,Wealth Advisor,Credit Facility,2025-02-22,Declined,18057.27
+CB-RF-00366,CB-BA-00488,Retail Branch,Treasury,2025-11-22,Converted,14026.89
+CB-RF-00367,CB-BA-00388,Retail Branch,Treasury,2026-04-03,Declined,75826.03
+CB-RF-00368,CB-BA-00171,CPA Partner,Commercial Card,2025-11-26,Declined,192088.72
+CB-RF-00369,CB-BA-00021,Wealth Advisor,Credit Facility,2026-06-03,In Progress,34737.85
+CB-RF-00370,CB-BA-00435,CPA Partner,Credit Facility,2025-02-19,Converted,40022.75
+CB-RF-00371,CB-BA-00289,Retail Branch,Commercial Card,2025-08-20,In Progress,33424.56
+CB-RF-00372,CB-BA-00437,Wealth Advisor,Commercial Card,2025-04-26,In Progress,156238.34
+CB-RF-00373,CB-BA-00142,Retail Branch,Credit Facility,2026-08-22,Converted,90250.15
+CB-RF-00374,CB-BA-00337,Retail Branch,Merchant Services,2026-06-12,Converted,14302.93
+CB-RF-00375,CB-BA-00266,Retail Branch,Merchant Services,2026-01-16,Converted,26159.55
+CB-RF-00376,CB-BA-00490,Wealth Advisor,Credit Facility,2025-01-05,New,174508.68
+CB-RF-00377,CB-BA-00364,Wealth Advisor,Treasury,2025-03-30,In Progress,29837.41
+CB-RF-00378,CB-BA-00528,Digital,Merchant Services,2025-06-30,In Progress,18957.38
+CB-RF-00379,CB-BA-00083,Retail Branch,Merchant Services,2026-04-23,Converted,20921.85
+CB-RF-00380,CB-BA-00332,Wealth Advisor,Credit Facility,2025-08-26,Converted,94884.22
+CB-RF-00381,CB-BA-00022,Wealth Advisor,Merchant Services,2026-08-16,Converted,127852.53
+CB-RF-00382,CB-BA-00524,Wealth Advisor,Credit Facility,2025-06-10,New,20601.71
+CB-RF-00383,CB-BA-00184,Wealth Advisor,Commercial Card,2025-07-08,In Progress,27621.99
+CB-RF-00384,CB-BA-00396,Retail Branch,Merchant Services,2026-04-18,Declined,51576.9
+CB-RF-00385,CB-BA-00206,Existing Client,Commercial Card,2025-02-06,Converted,77124.95
+CB-RF-00386,CB-BA-00562,Existing Client,Commercial Card,2025-11-17,Declined,139133.72
+CB-RF-00387,CB-BA-00153,Retail Branch,Merchant Services,2025-10-27,In Progress,23738.53
+CB-RF-00388,CB-BA-00166,CPA Partner,Credit Facility,2026-02-07,In Progress,38751.65
+CB-RF-00389,CB-BA-00203,Existing Client,Credit Facility,2025-03-17,Converted,69303.94
+CB-RF-00390,CB-BA-00204,Digital,Treasury,2026-08-29,Declined,32298.63
+CB-RF-00391,CB-BA-00289,CPA Partner,Merchant Services,2025-03-24,New,66773.92
+CB-RF-00392,CB-BA-00433,Digital,Commercial Card,2026-05-13,Converted,22079.09
+CB-RF-00393,CB-BA-00320,Retail Branch,Merchant Services,2025-04-09,Converted,97240.82
+CB-RF-00394,CB-BA-00543,Retail Branch,Credit Facility,2026-02-05,Declined,43028.24
+CB-RF-00395,CB-BA-00129,Wealth Advisor,Treasury,2026-01-09,New,96805.84
+CB-RF-00396,CB-BA-00141,Wealth Advisor,Merchant Services,2026-03-30,In Progress,56386.78
+CB-RF-00397,CB-BA-00319,CPA Partner,Treasury,2025-07-14,Declined,38337.82
+CB-RF-00398,CB-BA-00378,Retail Branch,Commercial Card,2024-11-25,Converted,18818.79
+CB-RF-00399,CB-BA-00193,Wealth Advisor,Merchant Services,2024-10-01,In Progress,104299.38
+CB-RF-00400,CB-BA-00002,Existing Client,Credit Facility,2025-12-16,Converted,35341.6

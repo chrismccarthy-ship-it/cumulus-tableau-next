@@ -1,0 +1,294 @@
+{
+  "name": "FA_Book_Of_Business_DS",
+  "label": "FA Book Of Business DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "ClientHouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdName"
+    },
+    {
+      "dataType": "Text",
+      "name": "PrimaryContactName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorId"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchId"
+    },
+    {
+      "dataType": "Number",
+      "name": "AUM"
+    },
+    {
+      "dataType": "Text",
+      "name": "RiskProfile"
+    },
+    {
+      "dataType": "Text",
+      "name": "LifeStage"
+    },
+    {
+      "dataType": "Date",
+      "name": "ClientSince",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Date",
+      "name": "LastReviewDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "ProductsHeld"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorName"
+    },
+    {
+      "dataType": "Text",
+      "name": "AdvisorTeam"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Number",
+      "name": "GoalCount"
+    },
+    {
+      "dataType": "Number",
+      "name": "GoalsAtRisk"
+    },
+    {
+      "dataType": "Number",
+      "name": "ActivityCount"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.FA_Book_Of_Business_DLO.Name}",
+    "label": "FA Book Of Business DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "ClientHouseholdId",
+        "label": "Client Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdName",
+        "label": "Household Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "PrimaryContactName",
+        "label": "Primary Contact Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorId",
+        "label": "Advisor ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchId",
+        "label": "Branch ID"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "AUM",
+        "label": "AUM"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RiskProfile",
+        "label": "Risk Profile"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "LifeStage",
+        "label": "Life Stage"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "ClientSince",
+        "label": "Client Since"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "LastReviewDate",
+        "label": "Last Review Date"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "ProductsHeld",
+        "label": "Products Held"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorName",
+        "label": "Advisor Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "AdvisorTeam",
+        "label": "Advisor Team"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchName",
+        "label": "Branch Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "GoalCount",
+        "label": "Goal Count"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "GoalsAtRisk",
+        "label": "Goals At Risk"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "ActivityCount",
+        "label": "Activity Count"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "ClientHouseholdId",
+      "targetFieldName": "ClientHouseholdId"
+    },
+    {
+      "sourceFieldLabel": "HouseholdName",
+      "targetFieldName": "HouseholdName"
+    },
+    {
+      "sourceFieldLabel": "PrimaryContactName",
+      "targetFieldName": "PrimaryContactName"
+    },
+    {
+      "sourceFieldLabel": "AdvisorId",
+      "targetFieldName": "AdvisorId"
+    },
+    {
+      "sourceFieldLabel": "BranchId",
+      "targetFieldName": "BranchId"
+    },
+    {
+      "sourceFieldLabel": "AUM",
+      "targetFieldName": "AUM"
+    },
+    {
+      "sourceFieldLabel": "RiskProfile",
+      "targetFieldName": "RiskProfile"
+    },
+    {
+      "sourceFieldLabel": "LifeStage",
+      "targetFieldName": "LifeStage"
+    },
+    {
+      "sourceFieldLabel": "ClientSince",
+      "targetFieldName": "ClientSince"
+    },
+    {
+      "sourceFieldLabel": "LastReviewDate",
+      "targetFieldName": "LastReviewDate"
+    },
+    {
+      "sourceFieldLabel": "ProductsHeld",
+      "targetFieldName": "ProductsHeld"
+    },
+    {
+      "sourceFieldLabel": "AdvisorName",
+      "targetFieldName": "AdvisorName"
+    },
+    {
+      "sourceFieldLabel": "AdvisorTeam",
+      "targetFieldName": "AdvisorTeam"
+    },
+    {
+      "sourceFieldLabel": "BranchName",
+      "targetFieldName": "BranchName"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "GoalCount",
+      "targetFieldName": "GoalCount"
+    },
+    {
+      "sourceFieldLabel": "GoalsAtRisk",
+      "targetFieldName": "GoalsAtRisk"
+    },
+    {
+      "sourceFieldLabel": "ActivityCount",
+      "targetFieldName": "ActivityCount"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.FA_Book_Of_Business_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.FA_Book_Of_Business_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.FA_Book_Of_Business_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.FA_Book_Of_Business_CSV.FileType}"
+  }
+}

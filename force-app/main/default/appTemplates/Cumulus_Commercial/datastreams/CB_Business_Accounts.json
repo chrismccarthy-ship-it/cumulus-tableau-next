@@ -1,0 +1,265 @@
+{
+  "name": "CB_Business_Accounts_DS",
+  "label": "CB Business Accounts DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "BusinessAccountId"
+    },
+    {
+      "dataType": "Text",
+      "name": "BusinessName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Industry"
+    },
+    {
+      "dataType": "Text",
+      "name": "Segment"
+    },
+    {
+      "dataType": "Number",
+      "name": "AnnualRevenue"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerId"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Date",
+      "name": "RelationshipStartDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "PrimaryOperatingAccount"
+    },
+    {
+      "dataType": "Number",
+      "name": "RelationshipProfitability"
+    },
+    {
+      "dataType": "Text",
+      "name": "RelationshipManagerName"
+    },
+    {
+      "dataType": "Number",
+      "name": "TreasuryProductCount"
+    },
+    {
+      "dataType": "Text",
+      "name": "TreasuryProducts"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "HasTreasuryProducts"
+    },
+    {
+      "dataType": "Number",
+      "name": "ReferralCount"
+    },
+    {
+      "dataType": "Number",
+      "name": "ConvertedReferrals"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.CB_Business_Accounts_DLO.Name}",
+    "label": "CB Business Accounts DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "BusinessAccountId",
+        "label": "Business Account ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BusinessName",
+        "label": "Business Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Industry",
+        "label": "Industry"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Segment",
+        "label": "Segment"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "AnnualRevenue",
+        "label": "Annual Revenue"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerId",
+        "label": "Relationship Manager ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "RelationshipStartDate",
+        "label": "Relationship Start Date"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "PrimaryOperatingAccount",
+        "label": "Primary Operating Account"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "RelationshipProfitability",
+        "label": "Relationship Profitability"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "RelationshipManagerName",
+        "label": "Relationship Manager Name"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "TreasuryProductCount",
+        "label": "Treasury Product Count"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "TreasuryProducts",
+        "label": "Treasury Products"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "HasTreasuryProducts",
+        "label": "Has Treasury Products"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "ReferralCount",
+        "label": "Referral Count"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "ConvertedReferrals",
+        "label": "Converted Referrals"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "BusinessAccountId",
+      "targetFieldName": "BusinessAccountId"
+    },
+    {
+      "sourceFieldLabel": "BusinessName",
+      "targetFieldName": "BusinessName"
+    },
+    {
+      "sourceFieldLabel": "Industry",
+      "targetFieldName": "Industry"
+    },
+    {
+      "sourceFieldLabel": "Segment",
+      "targetFieldName": "Segment"
+    },
+    {
+      "sourceFieldLabel": "AnnualRevenue",
+      "targetFieldName": "AnnualRevenue"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerId",
+      "targetFieldName": "RelationshipManagerId"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "RelationshipStartDate",
+      "targetFieldName": "RelationshipStartDate"
+    },
+    {
+      "sourceFieldLabel": "PrimaryOperatingAccount",
+      "targetFieldName": "PrimaryOperatingAccount"
+    },
+    {
+      "sourceFieldLabel": "RelationshipProfitability",
+      "targetFieldName": "RelationshipProfitability"
+    },
+    {
+      "sourceFieldLabel": "RelationshipManagerName",
+      "targetFieldName": "RelationshipManagerName"
+    },
+    {
+      "sourceFieldLabel": "TreasuryProductCount",
+      "targetFieldName": "TreasuryProductCount"
+    },
+    {
+      "sourceFieldLabel": "TreasuryProducts",
+      "targetFieldName": "TreasuryProducts"
+    },
+    {
+      "sourceFieldLabel": "HasTreasuryProducts",
+      "targetFieldName": "HasTreasuryProducts"
+    },
+    {
+      "sourceFieldLabel": "ReferralCount",
+      "targetFieldName": "ReferralCount"
+    },
+    {
+      "sourceFieldLabel": "ConvertedReferrals",
+      "targetFieldName": "ConvertedReferrals"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.CB_Business_Accounts_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.CB_Business_Accounts_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.CB_Business_Accounts_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.CB_Business_Accounts_CSV.FileType}"
+  }
+}

@@ -1,0 +1,26 @@
+<template>
+    <div class="wrap">
+        <template lwc:if={isConfigured}>
+            <div class="heading"><span>{title}</span><span class="sub">{scoreLabel}</span></div>
+            <template lwc:if={error}><div class="error">{error}</div></template>
+            <ol class="list" aria-label={title}>
+                <template for:each={list} for:item="it">
+                    <li key={it.key}>
+                        <button type="button" class={it.cls} data-value={it.entity} onclick={handleSelect} onkeydown={handleKey} aria-pressed={it.pressed}>
+                            <span class="rank">{it.rank}</span>
+                            <span class="body">
+                                <span class="entity">{it.entity}</span>
+                                <template lwc:if={hasContext}><span class="context">{it.context}</span></template>
+                            </span>
+                            <span class="score">{it.score}</span>
+                            <span class="action">{actionLabel}</span>
+                        </button>
+                    </li>
+                </template>
+            </ol>
+        </template>
+        <template lwc:else>
+            <div class="configure">Map a semantic model, an entity dimension and a score measure in the widget panel.</div>
+        </template>
+    </div>
+</template>

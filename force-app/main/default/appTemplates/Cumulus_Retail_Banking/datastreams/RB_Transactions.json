@@ -1,0 +1,223 @@
+{
+  "name": "RB_Transactions_DS",
+  "label": "RB Transactions DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "TransactionId"
+    },
+    {
+      "dataType": "Text",
+      "name": "FinancialAccountId"
+    },
+    {
+      "dataType": "Date",
+      "name": "TransactionDate",
+      "format": "yyyy-MM-dd"
+    },
+    {
+      "dataType": "Number",
+      "name": "Amount"
+    },
+    {
+      "dataType": "Text",
+      "name": "TransactionType"
+    },
+    {
+      "dataType": "Text",
+      "name": "Merchant"
+    },
+    {
+      "dataType": "Text",
+      "name": "Category"
+    },
+    {
+      "dataType": "Text",
+      "name": "Channel"
+    },
+    {
+      "dataType": "Boolean",
+      "name": "IsDisputed"
+    },
+    {
+      "dataType": "Text",
+      "name": "FinancialAccountType"
+    },
+    {
+      "dataType": "Text",
+      "name": "HouseholdId"
+    },
+    {
+      "dataType": "Text",
+      "name": "BranchName"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.RB_Transactions_DLO.Name}",
+    "label": "RB Transactions DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "TransactionId",
+        "label": "Transaction ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "FinancialAccountId",
+        "label": "Financial Account ID"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "TransactionDate",
+        "label": "Transaction Date"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "Amount",
+        "label": "Amount"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "TransactionType",
+        "label": "Transaction Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Merchant",
+        "label": "Merchant"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Category",
+        "label": "Category"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Channel",
+        "label": "Channel"
+      },
+      {
+        "dataType": "Boolean",
+        "isPrimaryKey": false,
+        "name": "IsDisputed",
+        "label": "Is Disputed"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "FinancialAccountType",
+        "label": "Financial Account Type"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "HouseholdId",
+        "label": "Household ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "BranchName",
+        "label": "Branch Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "TransactionId",
+      "targetFieldName": "TransactionId"
+    },
+    {
+      "sourceFieldLabel": "FinancialAccountId",
+      "targetFieldName": "FinancialAccountId"
+    },
+    {
+      "sourceFieldLabel": "TransactionDate",
+      "targetFieldName": "TransactionDate"
+    },
+    {
+      "sourceFieldLabel": "Amount",
+      "targetFieldName": "Amount"
+    },
+    {
+      "sourceFieldLabel": "TransactionType",
+      "targetFieldName": "TransactionType"
+    },
+    {
+      "sourceFieldLabel": "Merchant",
+      "targetFieldName": "Merchant"
+    },
+    {
+      "sourceFieldLabel": "Category",
+      "targetFieldName": "Category"
+    },
+    {
+      "sourceFieldLabel": "Channel",
+      "targetFieldName": "Channel"
+    },
+    {
+      "sourceFieldLabel": "IsDisputed",
+      "targetFieldName": "IsDisputed"
+    },
+    {
+      "sourceFieldLabel": "FinancialAccountType",
+      "targetFieldName": "FinancialAccountType"
+    },
+    {
+      "sourceFieldLabel": "HouseholdId",
+      "targetFieldName": "HouseholdId"
+    },
+    {
+      "sourceFieldLabel": "BranchName",
+      "targetFieldName": "BranchName"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.RB_Transactions_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.RB_Transactions_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.RB_Transactions_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.RB_Transactions_CSV.FileType}"
+  }
+}
