@@ -180,7 +180,8 @@ def lob_wealth(shared):
         "calcs": [("Total_AUM", "Total AUM", "SUM([WM_Households].[AUM])", "SentimentTypeUpIsGood"),
                   ("Net_New_Assets", "Net New Assets", "SUM([WM_Net_Flows].[NetFlow])", "SentimentTypeUpIsGood"),
                   ("Household_Count", "Households", "count([WM_Households])", "SentimentTypeUpIsGood"),
-                  ("Interactions_Per_Household", "Interactions per Household", "count([WM_Interactions]) / count([WM_Households])", "SentimentTypeUpIsGood")],
+                  ("Interactions_Per_Household", "Interactions per Household", "count([WM_Interactions]) / count([WM_Households])", "SentimentTypeUpIsGood"),
+                  ("Churn_Rate", "Household Churn Rate", "COUNT(IF [WM_Households].[Churned] = true THEN [WM_Households].[HouseholdId] END) / COUNT([WM_Households].[HouseholdId])", "SentimentTypeUpIsBad")],
         "metrics": [("Net_New_Assets_M", "Net New Assets", "WM_Net_Flows", "NetFlow", "Sum", "FlowMonth", ["AdvisorName", "ServiceTier", "Region"], "SentimentTypeUpIsGood"),
                     ("AUM_M", "Assets Under Management", "WM_Households", "AUM", "Sum", "RelationshipStartDate", ["AdvisorName", "RiskProfile", "ServiceTier"], "SentimentTypeUpIsGood")],
     }
@@ -211,7 +212,8 @@ def lob_asset_mgmt(shared):
         "calcs": [("Total_AUM", "Total AUM", "SUM([AM_Mandates].[AUM])", "SentimentTypeUpIsGood"),
                   ("Request_Count", "Service Requests", "count([AM_Service_Requests])", "SentimentTypeUpIsBad"),
                   ("Avg_Cycle_Time", "Avg Cycle Time (days)", "AVG([AM_Service_Requests].[CycleTimeDays])", "SentimentTypeUpIsBad"),
-                  ("Pipeline_Amount", "Pipeline Amount", "SUM([AM_Deals].[Amount])", "SentimentTypeUpIsGood")],
+                  ("Pipeline_Amount", "Pipeline Amount", "SUM([AM_Deals].[Amount])", "SentimentTypeUpIsGood"),
+                  ("SLA_Breach_Rate", "SLA Breach Rate", "COUNT(IF [AM_Service_Requests].[SLABreached] = true THEN [AM_Service_Requests].[RequestId] END) / COUNT([AM_Service_Requests].[RequestId])", "SentimentTypeUpIsBad")],
         "metrics": [("Net_Flows_M", "Net Flows", "AM_Mandate_Flows", "NetFlow", "Sum", "FlowMonth", ["Strategy", "ClientType", "Region"], "SentimentTypeUpIsGood"),
                     ("Requests_M", "Service Requests", "AM_Service_Requests", "calc:Request_Count", "UserAgg", "CreatedDate", ["RequestType", "ClientTier", "Priority"], "SentimentTypeUpIsBad")],
     }
@@ -239,7 +241,8 @@ def lob_insurance(shared):
                   ("Total_Paid", "Total Paid", "SUM([INS_Claims].[PaidAmount])", "SentimentTypeUpIsBad"),
                   ("Written_Premium", "Written Premium", "SUM([INS_Policies].[AnnualPremium])", "SentimentTypeUpIsGood"),
                   ("Loss_Ratio", "Loss Ratio", "SUM([INS_Claims].[PaidAmount]) / SUM([INS_Policies].[AnnualPremium])", "SentimentTypeUpIsBad"),
-                  ("Avg_Claim_Cycle_Time", "Avg Claim Cycle Time (days)", "AVG([INS_Claims].[CycleTimeDays])", "SentimentTypeUpIsBad")],
+                  ("Avg_Claim_Cycle_Time", "Avg Claim Cycle Time (days)", "AVG([INS_Claims].[CycleTimeDays])", "SentimentTypeUpIsBad"),
+                  ("Open_Claims", "Open Claims", "COUNT(IF [INS_Claims].[Status] <> 'Closed' THEN [INS_Claims].[ClaimId] END)", "SentimentTypeUpIsBad")],
         "metrics": [("Claims_M", "Claims Reported", "INS_Claims", "calc:Claim_Count", "UserAgg", "ReportDate", ["LineOfBusiness", "State", "ClaimType"], "SentimentTypeUpIsBad"),
                     ("Premium_M", "Written Premium", "INS_Policies", "AnnualPremium", "Sum", "EffectiveDate", ["LineOfBusiness", "Carrier", "ProducerType"], "SentimentTypeUpIsGood")],
     }
@@ -275,7 +278,8 @@ def lob_commercial(shared):
         "calcs": [("Pipeline_Amount", "Pipeline Amount", "SUM([CB_Deals].[Amount])", "SentimentTypeUpIsGood"),
                   ("Total_Commitments", "Total Commitments", "SUM([CB_Credit_Facilities].[CommitmentAmount])", "SentimentTypeUpIsGood"),
                   ("Avg_Utilization", "Avg Utilization %", "AVG([CB_Credit_Facilities].[UtilizationPct])", "SentimentTypeUpIsBad"),
-                  ("Avg_Onboarding_Days", "Avg Onboarding Days", "AVG([CB_Onboarding].[CycleTimeDays])", "SentimentTypeUpIsBad")],
+                  ("Avg_Onboarding_Days", "Avg Onboarding Days", "AVG([CB_Onboarding].[CycleTimeDays])", "SentimentTypeUpIsBad"),
+                  ("Over_Covenant_Facilities", "Facilities Over Covenant", "COUNT(IF [CB_Credit_Facilities].[OverCovenant] = true THEN [CB_Credit_Facilities].[FacilityId] END)", "SentimentTypeUpIsBad")],
         "metrics": [("Pipeline_M", "Deal Pipeline", "CB_Deals", "Amount", "Sum", "CreatedDate", ["Stage", "Product", "Segment"], "SentimentTypeUpIsGood"),
                     ("Onboarding_Cycle_M", "Onboarding Cycle Time", "CB_Onboarding", "calc:Avg_Onboarding_Days", "UserAgg", "StartDate", ["OnboardingType", "HasTreasuryProducts", "Segment"], "SentimentTypeUpIsBad")],
     }
@@ -306,7 +310,8 @@ def lob_advisors(shared):
                   ("Activities", "Activities", "count([FA_Activities])", "SentimentTypeUpIsGood"),
                   ("Life_Events", "Life Events", "count([FA_Life_Events])", "SentimentTypeUpIsGood"),
                   ("Life_Event_Opportunity", "Life Event Opportunity Value", "SUM([FA_Life_Events].[OpportunityValue])", "SentimentTypeUpIsGood"),
-                  ("Referral_Count", "Referrals", "count([FA_Referrals])", "SentimentTypeUpIsGood")],
+                  ("Referral_Count", "Referrals", "count([FA_Referrals])", "SentimentTypeUpIsGood"),
+                  ("Followup_Rate", "Life Event Follow-up Rate (14 days)", "COUNT(IF [FA_Life_Events].[FollowUpWithin14Days] = true THEN [FA_Life_Events].[LifeEventId] END) / COUNT([FA_Life_Events].[LifeEventId])", "SentimentTypeUpIsGood")],
         "metrics": [("Activities_M", "Client Activities", "FA_Activities", "calc:Activities", "UserAgg", "ActivityDate", ["ActivityType", "AdvisorName", "LifeStage"], "SentimentTypeUpIsGood"),
                     ("Referrals_M", "Referrals", "FA_Referrals", "calc:Referral_Count", "UserAgg", "ReferralDate", ["ReferralSource", "Status", "AdvisorName"], "SentimentTypeUpIsGood")],
     }
@@ -333,7 +338,8 @@ def lob_lending(shared):
         "calcs": [("Applications", "Applications", "count([LN_Applications])", "SentimentTypeUpIsGood"),
                   ("Requested_Volume", "Requested Volume", "SUM([LN_Applications].[RequestedAmount])", "SentimentTypeUpIsGood"),
                   ("Avg_Time_To_Close", "Avg Time to Close (days)", "AVG([LN_Applications].[CycleTimeDays])", "SentimentTypeUpIsBad"),
-                  ("Avg_Days_In_Stage", "Avg Days in Stage", "AVG([LN_Stage_Events].[DaysInStage])", "SentimentTypeUpIsBad")],
+                  ("Avg_Days_In_Stage", "Avg Days in Stage", "AVG([LN_Stage_Events].[DaysInStage])", "SentimentTypeUpIsBad"),
+                  ("Pull_Through_Rate", "Pull-Through Rate", "COUNT(IF [LN_Applications].[IsFunded] = true THEN [LN_Applications].[ApplicationId] END) / COUNT([LN_Applications].[ApplicationId])", "SentimentTypeUpIsGood")],
         "metrics": [("Applications_M", "Loan Applications", "LN_Applications", "calc:Applications", "UserAgg", "SubmittedDate", ["ProductName", "Channel", "Status"], "SentimentTypeUpIsGood"),
                     ("Funded_Volume_M", "Requested Volume", "LN_Applications", "RequestedAmount", "Sum", "SubmittedDate", ["ProductName", "Channel", "LoanOfficerName"], "SentimentTypeUpIsGood")],
     }
@@ -388,6 +394,58 @@ def datastream_json(t, cols, types, label_suffix="${Variables.LabelSuffix}"):
     }
 
 
+# ---------------------------------------------------------------------------------------------------
+# Fields added for the redesigned dashboards (Oct 2026): month grains for every KPI trend, state codes
+# for the map extension, and the measures the new tiles/charts need. Applied to live models by
+# scripts/add_model_fields.py and baked into sdm.json for fresh installs.
+#   month grain : LEFT(STR([Obj].[Date]), 7)  (DATETRUNC returns DateTime, rejected by the authoring API)
+#   state code  : MID([Obj].[BranchName], 9, 2) ("Cumulus GA Branch 1" -> "GA")
+# ---------------------------------------------------------------------------------------------------
+EXTRA_DIMS = {
+    "Cumulus_Retail_Banking": [("Case_State", "Case State", "MID([RB_Service_Cases].[BranchName], 9, 2)"),
+                               ("Account_Open_Month", "Account Open Month", "LEFT(STR([RB_Financial_Accounts].[OpenDate]), 7)")],
+    "Cumulus_Wealth": [("Interaction_Month", "Interaction Month", "LEFT(STR([WM_Interactions].[InteractionDate]), 7)"),
+                       ("Churn_Month", "Churn Month", "LEFT(STR([WM_Households].[ChurnDate]), 7)"),
+                       ("Household_State", "Household State", "MID([WM_Households].[BranchName], 9, 2)")],
+    "Cumulus_Asset_Management": [("Request_Month", "Request Month", "LEFT(STR([AM_Service_Requests].[CreatedDate]), 7)"),
+                                 ("Deal_Month", "Deal Month", "LEFT(STR([AM_Deals].[CreatedDate]), 7)")],
+    "Cumulus_Insurance": [("Report_Month", "Report Month", "LEFT(STR([INS_Claims].[ReportDate]), 7)"),
+                          ("Case_Month", "Case Month", "LEFT(STR([INS_Claim_Cases].[CreatedDate]), 7)")],
+    "Cumulus_Commercial": [("Deal_Month", "Deal Month", "LEFT(STR([CB_Deals].[CreatedDate]), 7)"),
+                           ("Onboarding_Month", "Onboarding Month", "LEFT(STR([CB_Onboarding].[StartDate]), 7)"),
+                           ("Maturity_Month", "Maturity Month", "LEFT(STR([CB_Credit_Facilities].[MaturityDate]), 7)"),
+                           ("Case_Month", "Case Month", "LEFT(STR([CB_Service_Cases].[CreatedDate]), 7)")],
+    "Cumulus_Advisors": [("Event_Month", "Event Month", "LEFT(STR([FA_Life_Events].[EventDate]), 7)"),
+                         ("Activity_Month", "Activity Month", "LEFT(STR([FA_Activities].[ActivityDate]), 7)"),
+                         ("Client_Since_Month", "Client Since Month", "LEFT(STR([FA_Book_Of_Business].[ClientSince]), 7)"),
+                         ("Household_State", "Household State", "MID([FA_Book_Of_Business].[BranchName], 9, 2)")],
+    "Cumulus_Lending": [("Application_State", "Application State", "MID([LN_Applications].[BranchName], 9, 2)")],
+}
+EXTRA_CALCS = {
+    "Cumulus_Wealth": [("Churned_Households", "Churned Households", "COUNT(IF [WM_Households].[Churned] = true THEN [WM_Households].[HouseholdId] END)", "SentimentTypeUpIsBad"),
+                       ("Interaction_Count", "Interactions", "COUNT([WM_Interactions].[InteractionId])", "SentimentTypeUpIsGood"),
+                       ("Inflow_Total", "Inflows", "SUM([WM_Net_Flows].[Inflow])", "SentimentTypeUpIsGood"),
+                       ("Outflow_Total", "Outflows", "SUM([WM_Net_Flows].[Outflow])", "SentimentTypeUpIsBad"),
+                       ("Goals_On_Track_Rate", "Goals On Track", "COUNT(IF [WM_Goals].[Status] = 'On Track' THEN [WM_Goals].[GoalId] END) / COUNT([WM_Goals].[GoalId])", "SentimentTypeUpIsGood"),
+                       # windowed net flows (anchored to the data's last month, 2026-08) — the Semantic Query API caps results at 5,000 rows and has no
+                       # public filter predicate, so household-level "last N months" numbers come from these measures instead of household × month rows
+                       ("Net_Flow_L1M", "Net Flow (last month)", "SUM(IF [WM_Net_Flows].[FlowMonth] >= DATE('2026-08-01') THEN [WM_Net_Flows].[NetFlow] END)", "SentimentTypeUpIsGood"),
+                       ("Net_Flow_L3M", "Net Flow (3 months)", "SUM(IF [WM_Net_Flows].[FlowMonth] >= DATE('2026-06-01') THEN [WM_Net_Flows].[NetFlow] END)", "SentimentTypeUpIsGood"),
+                       ("Net_Flow_L6M", "Net Flow (6 months)", "SUM(IF [WM_Net_Flows].[FlowMonth] >= DATE('2026-03-01') THEN [WM_Net_Flows].[NetFlow] END)", "SentimentTypeUpIsGood"),
+                       ("Net_Flow_L12M", "Net Flow (12 months)", "SUM(IF [WM_Net_Flows].[FlowMonth] >= DATE('2025-09-01') THEN [WM_Net_Flows].[NetFlow] END)", "SentimentTypeUpIsGood")],
+    "Cumulus_Asset_Management": [("Ending_AUM", "Ending AUM", "SUM([AM_Mandate_Flows].[EndingAUM])", "SentimentTypeUpIsGood"),
+                                 ("Won_Amount", "Won Amount", "SUM(IF [AM_Deals].[IsWon] = true THEN [AM_Deals].[Amount] END)", "SentimentTypeUpIsGood")],
+    "Cumulus_Insurance": [("CAT_Claims", "Catastrophe Claims", "COUNT(IF [INS_Claims].[IsCatastrophe] = true THEN [INS_Claims].[ClaimId] END)", "SentimentTypeUpIsBad"),
+                          ("Avg_Paid", "Avg Paid Amount", "AVG([INS_Claims].[PaidAmount])", "SentimentTypeUpIsBad")],
+    "Cumulus_Commercial": [("Won_Amount", "Won Amount", "SUM(IF [CB_Deals].[IsWon] = true THEN [CB_Deals].[Amount] END)", "SentimentTypeUpIsGood"),
+                           ("Win_Rate", "Win Rate", "COUNT(IF [CB_Deals].[IsWon] = true THEN [CB_Deals].[DealId] END) / COUNT([CB_Deals].[DealId])", "SentimentTypeUpIsGood"),
+                           ("Facility_Count", "Facilities", "COUNT([CB_Credit_Facilities].[FacilityId])", "SentimentTypeUpIsGood"),
+                           ("Avg_Monthly_Deal_Flow", "Avg Monthly Deal Flow", "SUM([CB_Deals].[Amount]) / COUNTD(LEFT(STR([CB_Deals].[CreatedDate]), 7))", "SentimentTypeUpIsGood")],
+    "Cumulus_Advisors": [("Household_Count", "Households", "COUNT([FA_Book_Of_Business].[ClientHouseholdId])", "SentimentTypeUpIsGood")],
+    "Cumulus_Lending": [("Funded_Count", "Funded Applications", "COUNT(IF [LN_Applications].[IsFunded] = true THEN [LN_Applications].[ApplicationId] END)", "SentimentTypeUpIsGood")],
+}
+
+
 def sdm_json(name, lob, tables_meta):
     def dim(c, typ):
         return {"apiName": c, "dataObjectFieldName": c + "__c", "dataType": typ, "displayCategory": "Discrete", "isPrimaryKey": False, "isQueryable": "Queryable",
@@ -411,7 +469,9 @@ def sdm_json(name, lob, tables_meta):
             for (l, lf, r, rf) in lob["relationships"]]
     calcs = [{"aggregationType": "UserAgg", "apiName": api, "dataType": "Number", "decimalPlace": 2, "directionality": "Up", "displayCategory": "Continuous", "expression": expr, "filters": [],
               "isOverrideBase": False, "isQueryable": "Queryable", "isVisible": True, "label": lab, "level": "AggregateFunction", "overriddenProperties": [], "semanticDataType": "None",
-              "sentiment": sent, "shouldTreatNullsAsZeros": False, "sortOrder": "None", "totalAggregationType": "Sum"} for (api, lab, expr, sent) in lob["calcs"]]
+              "sentiment": sent, "shouldTreatNullsAsZeros": False, "sortOrder": "None", "totalAggregationType": "Sum"} for (api, lab, expr, sent) in lob["calcs"] + EXTRA_CALCS.get(name, [])]
+    cdims = [{"apiName": api, "label": lab, "expression": expr, "dataType": "Text", "displayCategory": "Discrete", "isQueryable": "Queryable", "isVisible": True,
+              "semanticDataType": "None", "sortOrder": "None", "overriddenProperties": [], "filters": []} for (api, lab, expr) in EXTRA_DIMS.get(name, [])]
     metrics = []
     for (api, lab, tbl, fld, agg, tdim, dims, sent) in lob["metrics"]:
         # fld = "calc:<CalculatedMeasureApiName>" references a calculated measure (aggregationType must be UserAgg);
@@ -427,7 +487,7 @@ def sdm_json(name, lob, tables_meta):
     return {"label": f"{lob['label']} Model ${{Variables.LabelSuffix}}", "agentEnabled": True, "app": "${App.Name}", "dataspace": "default", "categories": [], "currency": {"useOrgDefault": True},
             "fieldsOverrides": [], "hasUnmapped": False, "isLocked": False, "lockedActions": {}, "queryUnrelatedDataObjects": "Union",
             "businessPreferences": f"# {lob['label']} semantic model for the Cumulus Financial Group demo. Synthetic data, 2024-09 to 2026-08.\n# {lob['description']}\n# Ratio measures that divide across objects (e.g. Loss Ratio) should be grouped by dimensions of the denominator object.",
-            "semanticCalculatedDimensions": [], "semanticCalculatedDimensionsUrl": f"/services/data/v67.0/ssot/semantic/models/{name}_SDM/calculated-dimensions",
+            "semanticCalculatedDimensions": cdims, "semanticCalculatedDimensionsUrl": f"/services/data/v67.0/ssot/semantic/models/{name}_SDM/calculated-dimensions",
             "semanticCalculatedMeasurements": calcs, "semanticCalculatedMeasurementsUrl": f"/services/data/v67.0/ssot/semantic/models/{name}_SDM/calculated-measurements",
             "semanticDataObjects": objs, "semanticDataObjectsUrl": f"/services/data/v67.0/ssot/semantic/models/{name}_SDM/data-objects",
             "semanticGroupings": [], "semanticGroupingsUrl": f"/services/data/v67.0/ssot/semantic/models/{name}_SDM/groupings", "semanticLogicalViews": [],

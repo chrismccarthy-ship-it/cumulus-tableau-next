@@ -1,13 +1,13 @@
-.wrap { height: 100%; padding: 0.5rem 0.75rem; box-sizing: border-box; overflow: auto; font-family: inherit; }
-.heading { font-size: 0.85rem; font-weight: 600; color: #2e2e2e; margin-bottom: 0.4rem; }
+.wrap { height: 100%; padding: 0.75rem 0.9rem; box-sizing: border-box; overflow: auto; font-family: inherit; border-radius: 16px; background: linear-gradient(180deg, #f3f7fd 0%, #ffffff 40%); }
+.heading { font-size: 0.9rem; font-weight: 700; color: #032d60; margin-bottom: 0.6rem; }
 .list { list-style: none; margin: 0; padding: 0; }
-.row { margin: 0.15rem 0; }
-.bar { display: grid; grid-template-columns: 38% 1fr 4.5rem; align-items: center; gap: 0.5rem; width: 100%; border: 1px solid transparent; border-radius: 6px; background: transparent; padding: 0.2rem 0.3rem; cursor: pointer; text-align: left; font: inherit; color: #2e2e2e; }
-.bar:hover, .bar:focus-visible { background: #f3f7fb; border-color: #c9d6e5; outline: none; }
-.bar.selected { background: #e6f0fb; border-color: #0b5cab; }
-.label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.8rem; }
-.track { height: 0.7rem; background: #eef1f4; border-radius: 4px; overflow: hidden; }
-.fill { display: block; height: 100%; background: #0b5cab; border-radius: 4px; }
-.selected .fill { background: #032d60; }
-.num { font-size: 0.8rem; text-align: right; font-variant-numeric: tabular-nums; }
+.row { margin: 0.2rem 0; }
+.bar { display: grid; grid-template-columns: 38% 1fr 4.5rem; align-items: center; gap: 0.6rem; width: 100%; border: 1px solid transparent; border-radius: 10px; background: transparent; padding: 0.3rem 0.4rem; cursor: pointer; text-align: left; font: inherit; color: #2e2e2e; }
+.bar:hover, .bar:focus-visible { background: #fff; border-color: #c9d6e5; box-shadow: 0 1px 3px rgba(3,45,96,.08); outline: none; }
+.bar.selected { background: #fff; border-color: #0b5cab; box-shadow: 0 0 0 2px #e3edf9; }
+.label { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.8rem; font-weight: 500; }
+.track { height: 0.8rem; background: #e9eef5; border-radius: 999px; overflow: hidden; }
+.fill { display: block; height: 100%; background: linear-gradient(90deg, #0b5cab, #5aa0ea); border-radius: 999px; }
+.selected .fill { background: linear-gradient(90deg, #032d60, #0b5cab); }
+.num { font-size: 0.8rem; font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; color: #032d60; }
 .error, .configure { font-size: 0.8rem; color: #5c5c5c; }

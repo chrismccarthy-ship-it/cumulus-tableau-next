@@ -1,5 +1,5 @@
 {
-  "label": "Funded Volume by Loan Officer",
+  "label": "Loan Officer Leaderboard",
   "name": "LN_LO_Leaderboard",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
@@ -145,11 +145,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -266,7 +266,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

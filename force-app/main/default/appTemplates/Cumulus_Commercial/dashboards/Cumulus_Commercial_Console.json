@@ -1,0 +1,83 @@
+{
+  "name": "Cumulus_Commercial_Console",
+  "label": "Relationship Desk Console ${Variables.LabelSuffix}",
+  "description": "Relationship Desk Console \u2014 full-page console extension with AI-driven insights and actions.",
+  "customConfig": {
+    "queryCacheEnabled": true,
+    "queryCacheStaleness": "30min"
+  },
+  "layouts": [
+    {
+      "columnCount": 96,
+      "maxWidth": 1800,
+      "name": "default",
+      "pages": [
+        {
+          "label": "Console",
+          "name": "console",
+          "widgets": [
+            {
+              "name": "console",
+              "column": 0,
+              "row": 0,
+              "colspan": 96,
+              "rowspan": 150
+            }
+          ]
+        }
+      ],
+      "rowHeight": 10,
+      "style": {
+        "backgroundColor": "#F0F3F8",
+        "cellSpacingX": 0,
+        "cellSpacingY": 0,
+        "gutterColor": "#F0F3F8"
+      }
+    }
+  ],
+  "style": {
+    "widgetStyle": {
+      "backgroundColor": "#F0F3F8",
+      "borderColor": "#F0F3F8",
+      "borderEdges": [],
+      "borderRadius": 16,
+      "borderWidth": 0
+    }
+  },
+  "widgets": {
+    "console": {
+      "actions": [],
+      "name": "console",
+      "label": "cumulusLobConsole",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusLobConsole",
+        "properties": {
+          "title": "Relationship Desk Console",
+          "accentColor": "#2563EB",
+          "headerFrom": "#1E3A8A",
+          "headerTo": "#F59E0B",
+          "config": "{\"entity\": {\"field\": \"CB_Deals.RelationshipManagerName\", \"label\": \"Relationship Manager\"}, \"month\": \"Deal_Month\", \"region\": {\"field\": \"CB_Deals.Region\", \"label\": \"Region\"}, \"kpis\": [{\"name\": \"CB_Deals.DealId\", \"agg\": \"Count\", \"label\": \"Deals\", \"format\": \"number\", \"upGood\": true, \"weight\": true}, {\"name\": \"Pipeline_Amount\", \"label\": \"Pipeline\", \"format\": \"currency\", \"upGood\": true}, {\"name\": \"Won_Amount\", \"label\": \"Won\", \"format\": \"currency\", \"upGood\": true}, {\"name\": \"Win_Rate\", \"label\": \"Win rate\", \"format\": \"percent\", \"upGood\": true, \"primary\": true}], \"extra\": {\"dims\": [\"CB_Credit_Facilities.RelationshipManagerName\"], \"kpis\": [{\"name\": \"Total_Commitments\", \"label\": \"Commitments\", \"format\": \"currency\", \"upGood\": true}, {\"name\": \"Avg_Utilization\", \"label\": \"Utilization %\", \"format\": \"number\", \"upGood\": false}]}, \"persona\": \"RM desk lead\", \"domain\": \"Relationship Insights\", \"modelLabel\": \"Cumulus Commercial Banking\", \"slack\": \"commercial-desk\"}",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Commercial_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Commercial_SDM.Id}",
+            "label": "Cumulus Commercial Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#F0F3F8",
+          "borderColor": "#F0F3F8",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusLobConsole",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    }
+  },
+  "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Commercial_WS.Name}"
+}

@@ -1,5 +1,5 @@
 {
-  "label": "Applications by Month and Channel",
+  "label": "Applications by Month",
   "name": "LN_Apps_Trend",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
@@ -22,14 +22,6 @@
       "role": "Measure",
       "type": "Field",
       "label": "Applications"
-    },
-    "F3": {
-      "fieldName": "Channel",
-      "objectName": "LN_Applications",
-      "role": "Dimension",
-      "type": "Field",
-      "label": "Channel",
-      "displayCategory": "Discrete"
     }
   },
   "interactions": [],
@@ -63,13 +55,8 @@
         "type": "Text"
       },
       "panes": {
-        "encodings": [
-          {
-            "fieldKey": "F3",
-            "type": "Color"
-          }
-        ],
-        "isAutomatic": false,
+        "encodings": [],
+        "isAutomatic": true,
         "stack": {
           "isAutomatic": true,
           "isStacked": false
@@ -138,11 +125,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -232,7 +219,7 @@
         },
         "panes": {
           "color": {
-            "color": "#0B5CAB"
+            "color": "#0891B2"
           },
           "isAutomaticSize": true,
           "label": {
@@ -247,8 +234,8 @@
           },
           "size": {
             "isAutomatic": true,
-            "type": "Percentage",
-            "value": 75
+            "type": "Pixel",
+            "value": 3
           }
         }
       },
@@ -259,7 +246,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

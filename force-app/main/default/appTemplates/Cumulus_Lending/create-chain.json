@@ -279,70 +279,6 @@
         },
         "runAs": "CurrentUser"
       },
-      "upsert_viz_LN_KPI_Apps": {
-        "referenceId": "upsert_viz_LN_KPI_Apps",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "LN_KPI_Apps",
-          "file": "visualizations/LN_KPI_Apps.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_LN_KPI_Stage": {
-        "referenceId": "upsert_viz_LN_KPI_Stage",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "LN_KPI_Stage",
-          "file": "visualizations/LN_KPI_Stage.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_LN_KPI_TTC": {
-        "referenceId": "upsert_viz_LN_KPI_TTC",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "LN_KPI_TTC",
-          "file": "visualizations/LN_KPI_TTC.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_LN_KPI_Volume": {
-        "referenceId": "upsert_viz_LN_KPI_Volume",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "LN_KPI_Volume",
-          "file": "visualizations/LN_KPI_Volume.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
       "upsert_viz_LN_LO_Leaderboard": {
         "referenceId": "upsert_viz_LN_LO_Leaderboard",
         "sources": [
@@ -351,6 +287,22 @@
         "parameters": {
           "name": "LN_LO_Leaderboard",
           "file": "visualizations/LN_LO_Leaderboard.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_LN_Pull_Through_By_Channel": {
+        "referenceId": "upsert_viz_LN_Pull_Through_By_Channel",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_Pull_Through_By_Channel",
+          "file": "visualizations/LN_Pull_Through_By_Channel.json",
           "condition": "${Variables.CreateDashboard}"
         },
         "graphNodeType": {
@@ -375,6 +327,22 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_LN_Time_To_Close_By_State": {
+        "referenceId": "upsert_viz_LN_Time_To_Close_By_State",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "LN_Time_To_Close_By_State",
+          "file": "visualizations/LN_Time_To_Close_By_State.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_viz_LN_Volume_By_Product": {
         "referenceId": "upsert_viz_LN_Volume_By_Product",
         "sources": [
@@ -391,17 +359,38 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_dash_Cumulus_Lending_Console": {
+        "referenceId": "upsert_dash_Cumulus_Lending_Console",
+        "sources": [
+          "upsert_viz_LN_Apps_Trend",
+          "upsert_viz_LN_Days_By_Stage",
+          "upsert_viz_LN_LO_Leaderboard",
+          "upsert_viz_LN_Pull_Through_By_Channel",
+          "upsert_viz_LN_Status_By_Channel",
+          "upsert_viz_LN_Time_To_Close_By_State",
+          "upsert_viz_LN_Volume_By_Product"
+        ],
+        "parameters": {
+          "name": "Cumulus_Lending_Console",
+          "label": "Cumulus Lending Console",
+          "file": "dashboards/Cumulus_Lending_Console.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_dash_Cumulus_Lending_Overview": {
         "referenceId": "upsert_dash_Cumulus_Lending_Overview",
         "sources": [
           "upsert_viz_LN_Apps_Trend",
           "upsert_viz_LN_Days_By_Stage",
-          "upsert_viz_LN_KPI_Apps",
-          "upsert_viz_LN_KPI_Stage",
-          "upsert_viz_LN_KPI_TTC",
-          "upsert_viz_LN_KPI_Volume",
           "upsert_viz_LN_LO_Leaderboard",
+          "upsert_viz_LN_Pull_Through_By_Channel",
           "upsert_viz_LN_Status_By_Channel",
+          "upsert_viz_LN_Time_To_Close_By_State",
           "upsert_viz_LN_Volume_By_Product"
         ],
         "parameters": {

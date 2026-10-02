@@ -310,6 +310,22 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_FA_Activities_Trend": {
+        "referenceId": "upsert_viz_FA_Activities_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_Activities_Trend",
+          "file": "visualizations/FA_Activities_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_viz_FA_Book_By_Stage": {
         "referenceId": "upsert_viz_FA_Book_By_Stage",
         "sources": [
@@ -318,70 +334,6 @@
         "parameters": {
           "name": "FA_Book_By_Stage",
           "file": "visualizations/FA_Book_By_Stage.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_FA_KPI_AUM": {
-        "referenceId": "upsert_viz_FA_KPI_AUM",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "FA_KPI_AUM",
-          "file": "visualizations/FA_KPI_AUM.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_FA_KPI_Activities": {
-        "referenceId": "upsert_viz_FA_KPI_Activities",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "FA_KPI_Activities",
-          "file": "visualizations/FA_KPI_Activities.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_FA_KPI_Life_Events": {
-        "referenceId": "upsert_viz_FA_KPI_Life_Events",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "FA_KPI_Life_Events",
-          "file": "visualizations/FA_KPI_Life_Events.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_FA_KPI_Opportunity": {
-        "referenceId": "upsert_viz_FA_KPI_Opportunity",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "FA_KPI_Opportunity",
-          "file": "visualizations/FA_KPI_Opportunity.json",
           "condition": "${Variables.CreateDashboard}"
         },
         "graphNodeType": {
@@ -422,6 +374,22 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_FA_Opportunity_By_State": {
+        "referenceId": "upsert_viz_FA_Opportunity_By_State",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "FA_Opportunity_By_State",
+          "file": "visualizations/FA_Opportunity_By_State.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_viz_FA_Referral_Funnel": {
         "referenceId": "upsert_viz_FA_Referral_Funnel",
         "sources": [
@@ -438,17 +406,38 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_dash_Cumulus_Advisors_Console": {
+        "referenceId": "upsert_dash_Cumulus_Advisors_Console",
+        "sources": [
+          "upsert_viz_FA_Activities_By_Advisor",
+          "upsert_viz_FA_Activities_Trend",
+          "upsert_viz_FA_Book_By_Stage",
+          "upsert_viz_FA_Life_Events_Followup",
+          "upsert_viz_FA_Life_Events_Source",
+          "upsert_viz_FA_Opportunity_By_State",
+          "upsert_viz_FA_Referral_Funnel"
+        ],
+        "parameters": {
+          "name": "Cumulus_Advisors_Console",
+          "label": "Cumulus Advisors Console",
+          "file": "dashboards/Cumulus_Advisors_Console.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_dash_Cumulus_Advisors_Overview": {
         "referenceId": "upsert_dash_Cumulus_Advisors_Overview",
         "sources": [
           "upsert_viz_FA_Activities_By_Advisor",
+          "upsert_viz_FA_Activities_Trend",
           "upsert_viz_FA_Book_By_Stage",
-          "upsert_viz_FA_KPI_AUM",
-          "upsert_viz_FA_KPI_Activities",
-          "upsert_viz_FA_KPI_Life_Events",
-          "upsert_viz_FA_KPI_Opportunity",
           "upsert_viz_FA_Life_Events_Followup",
           "upsert_viz_FA_Life_Events_Source",
+          "upsert_viz_FA_Opportunity_By_State",
           "upsert_viz_FA_Referral_Funnel"
         ],
         "parameters": {

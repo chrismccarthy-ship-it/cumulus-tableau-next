@@ -20,97 +20,195 @@
               "name": "hdr",
               "column": 0,
               "row": 0,
-              "colspan": 96,
+              "colspan": 64,
+              "rowspan": 5
+            },
+            {
+              "name": "flt_Region",
+              "column": 64,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 5
+            },
+            {
+              "name": "flt_ServiceTier",
+              "column": 80,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 5
+            },
+            {
+              "name": "k_aum",
+              "column": 0,
+              "row": 5,
+              "colspan": 24,
+              "rowspan": 16
+            },
+            {
+              "name": "k_nna",
+              "column": 24,
+              "row": 5,
+              "colspan": 24,
+              "rowspan": 16
+            },
+            {
+              "name": "k_churn",
+              "column": 48,
+              "row": 5,
+              "colspan": 24,
+              "rowspan": 16
+            },
+            {
+              "name": "k_int",
+              "column": 72,
+              "row": 5,
+              "colspan": 24,
+              "rowspan": 16
+            },
+            {
+              "name": "x_map",
+              "column": 0,
+              "row": 21,
+              "colspan": 60,
+              "rowspan": 38
+            },
+            {
+              "name": "t_WM_Churn_By_State",
+              "column": 60,
+              "row": 21,
+              "colspan": 36,
               "rowspan": 6
             },
             {
-              "name": "w_WM_KPI_AUM",
+              "name": "w_WM_Churn_By_State",
+              "column": 60,
+              "row": 27,
+              "colspan": 36,
+              "rowspan": 32
+            },
+            {
+              "name": "x_bars",
               "column": 0,
-              "row": 6,
-              "colspan": 24,
-              "rowspan": 9
-            },
-            {
-              "name": "w_WM_KPI_NNA",
-              "column": 24,
-              "row": 6,
-              "colspan": 24,
-              "rowspan": 9
-            },
-            {
-              "name": "w_WM_KPI_Households",
-              "column": 48,
-              "row": 6,
-              "colspan": 24,
-              "rowspan": 9
-            },
-            {
-              "name": "w_WM_KPI_Interactions",
-              "column": 72,
-              "row": 6,
-              "colspan": 24,
-              "rowspan": 9
-            },
-            {
-              "name": "x_kpi",
-              "column": 0,
-              "row": 15,
+              "row": 59,
               "colspan": 28,
               "rowspan": 34
             },
             {
-              "name": "w_WM_Net_Flows_Trend",
+              "name": "t_WM_Net_Flows_Trend",
               "column": 28,
-              "row": 15,
+              "row": 59,
               "colspan": 68,
-              "rowspan": 34
+              "rowspan": 6
             },
             {
-              "name": "w_WM_AUM_By_Advisor",
-              "column": 0,
-              "row": 49,
-              "colspan": 32,
+              "name": "w_WM_Net_Flows_Trend",
+              "column": 28,
+              "row": 65,
+              "colspan": 68,
               "rowspan": 28
+            },
+            {
+              "name": "t_WM_Inflows_Trend",
+              "column": 0,
+              "row": 93,
+              "colspan": 32,
+              "rowspan": 6
+            },
+            {
+              "name": "w_WM_Inflows_Trend",
+              "column": 0,
+              "row": 99,
+              "colspan": 32,
+              "rowspan": 24
+            },
+            {
+              "name": "t_WM_Outflows_Trend",
+              "column": 32,
+              "row": 93,
+              "colspan": 32,
+              "rowspan": 6
+            },
+            {
+              "name": "w_WM_Outflows_Trend",
+              "column": 32,
+              "row": 99,
+              "colspan": 32,
+              "rowspan": 24
+            },
+            {
+              "name": "t_WM_Interactions_Churn",
+              "column": 64,
+              "row": 93,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_WM_Interactions_Churn",
-              "column": 32,
-              "row": 49,
+              "column": 64,
+              "row": 99,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
             },
             {
-              "name": "w_WM_Allocation",
-              "column": 64,
-              "row": 49,
+              "name": "t_WM_Goals_Status",
+              "column": 0,
+              "row": 123,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 6
             },
             {
               "name": "w_WM_Goals_Status",
               "column": 0,
-              "row": 77,
+              "row": 129,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_WM_Allocation",
+              "column": 32,
+              "row": 123,
+              "colspan": 32,
+              "rowspan": 6
+            },
+            {
+              "name": "w_WM_Allocation",
+              "column": 32,
+              "row": 129,
+              "colspan": 32,
+              "rowspan": 24
+            },
+            {
+              "name": "t_WM_AUM_By_Tier",
+              "column": 64,
+              "row": 123,
+              "colspan": 32,
+              "rowspan": 6
+            },
+            {
+              "name": "w_WM_AUM_By_Tier",
+              "column": 64,
+              "row": 129,
+              "colspan": 32,
+              "rowspan": 24
             }
           ]
         }
       ],
       "rowHeight": 10,
       "style": {
-        "backgroundColor": "#EEF2F7",
-        "cellSpacingX": 12,
-        "cellSpacingY": 12,
-        "gutterColor": "#EEF2F7"
+        "backgroundColor": "#EEF0FB",
+        "cellSpacingX": 14,
+        "cellSpacingY": 14,
+        "gutterColor": "#EEF0FB"
       }
     }
   ],
   "style": {
     "widgetStyle": {
       "backgroundColor": "#FFFFFF",
-      "borderColor": "#D9E1EC",
+      "borderColor": "#E3E9F1",
       "borderEdges": [],
-      "borderRadius": 12,
+      "borderRadius": 16,
       "borderWidth": 1
     }
   },
@@ -128,11 +226,11 @@
         "content": [
           {
             "attributes": {
-              "color": "#032D60",
-              "size": "22px",
+              "color": "#2E1F8F",
+              "size": "26px",
               "bold": true
             },
-            "insert": "Cumulus Wealth Overview",
+            "insert": "Advisor Team Command Center",
             "rules": []
           },
           {
@@ -144,10 +242,10 @@
           },
           {
             "attributes": {
-              "color": "#5C6B82",
+              "color": "#4B4590",
               "size": "13px"
             },
-            "insert": "",
+            "insert": "Advisor team lead view \u2014 assets, flows, retention, goal health",
             "rules": []
           },
           {
@@ -157,104 +255,81 @@
             "insert": "\n",
             "rules": []
           }
-        ]
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#E3E5FA",
+          "borderColor": "#E3E5FA",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
       }
     },
-    "w_WM_KPI_AUM": {
+    "flt_Region": {
       "actions": [],
-      "name": "w_WM_KPI_AUM",
+      "label": "Region",
+      "name": "flt_Region",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}"
+      },
       "parameters": {
-        "legendPosition": "Bottom",
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "Region",
+          "objectName": "WM_Households",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
         "receiveFilterSource": {
           "filterMode": "all",
           "widgetIds": []
         },
+        "viewType": "list",
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
-      },
-      "source": {
-        "id": "${App.Visualizations.WM_KPI_AUM.Id}",
-        "name": "${App.Visualizations.WM_KPI_AUM.Name}"
-      },
-      "type": "visualization"
+      }
     },
-    "w_WM_KPI_NNA": {
+    "flt_ServiceTier": {
       "actions": [],
-      "name": "w_WM_KPI_NNA",
+      "label": "Service Tier",
+      "name": "flt_ServiceTier",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}"
+      },
       "parameters": {
-        "legendPosition": "Bottom",
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "ServiceTier",
+          "objectName": "WM_Households",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
         "receiveFilterSource": {
           "filterMode": "all",
           "widgetIds": []
         },
+        "viewType": "list",
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
-      },
-      "source": {
-        "id": "${App.Visualizations.WM_KPI_NNA.Id}",
-        "name": "${App.Visualizations.WM_KPI_NNA.Name}"
-      },
-      "type": "visualization"
+      }
     },
-    "w_WM_KPI_Households": {
+    "k_aum": {
       "actions": [],
-      "name": "w_WM_KPI_Households",
-      "parameters": {
-        "legendPosition": "Bottom",
-        "receiveFilterSource": {
-          "filterMode": "all",
-          "widgetIds": []
-        },
-        "widgetStyle": {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
-          "borderEdges": [],
-          "borderRadius": 12,
-          "borderWidth": 1
-        }
-      },
-      "source": {
-        "id": "${App.Visualizations.WM_KPI_Households.Id}",
-        "name": "${App.Visualizations.WM_KPI_Households.Name}"
-      },
-      "type": "visualization"
-    },
-    "w_WM_KPI_Interactions": {
-      "actions": [],
-      "name": "w_WM_KPI_Interactions",
-      "parameters": {
-        "legendPosition": "Bottom",
-        "receiveFilterSource": {
-          "filterMode": "all",
-          "widgetIds": []
-        },
-        "widgetStyle": {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
-          "borderEdges": [],
-          "borderRadius": 12,
-          "borderWidth": 1
-        }
-      },
-      "source": {
-        "id": "${App.Visualizations.WM_KPI_Interactions.Id}",
-        "name": "${App.Visualizations.WM_KPI_Interactions.Name}"
-      },
-      "type": "visualization"
-    },
-    "x_kpi": {
-      "actions": [],
-      "name": "x_kpi",
+      "name": "k_aum",
       "label": "cumulusKpiTile",
       "parameters": {
         "fullyQualifiedName": "c:cumulusKpiTile",
@@ -264,9 +339,310 @@
             "aggregation": "UserAgg",
             "label": "Total AUM"
           },
-          "title": "AUM vs Target",
-          "target": "1500000000",
+          "title": "Assets Under Management",
+          "accentColor": "#6D5BD0",
           "sentiment": "UpIsGood",
+          "format": "currency",
+          "target": "",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "WM_Net_Flows.FlowMonth",
+            "label": "Flow Month"
+          },
+          "trendMeasureField": {
+            "name": "Net_New_Assets",
+            "aggregation": "UserAgg",
+            "label": "Net New Assets"
+          },
+          "trendLabel": "monthly net flows",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_nna": {
+      "actions": [],
+      "name": "k_nna",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Net_New_Assets",
+            "aggregation": "UserAgg",
+            "label": "Net New Assets"
+          },
+          "title": "Net New Assets",
+          "accentColor": "#0EA5E9",
+          "sentiment": "UpIsGood",
+          "format": "currency",
+          "target": "",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "WM_Net_Flows.FlowMonth",
+            "label": "Flow Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_churn": {
+      "actions": [],
+      "name": "k_churn",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Churn_Rate",
+            "aggregation": "UserAgg",
+            "label": "Churn Rate"
+          },
+          "title": "Household Churn Rate",
+          "accentColor": "#EC4899",
+          "sentiment": "UpIsBad",
+          "format": "percent",
+          "target": "0.05",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "Churn_Month",
+            "label": "Churn Month"
+          },
+          "trendMeasureField": {
+            "name": "Churned_Households",
+            "aggregation": "UserAgg",
+            "label": "Churned Households"
+          },
+          "trendLabel": "households churned per month",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_int": {
+      "actions": [],
+      "name": "k_int",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Interactions_Per_Household",
+            "aggregation": "UserAgg",
+            "label": "Interactions per Household"
+          },
+          "title": "Interactions per Household",
+          "accentColor": "#10B981",
+          "sentiment": "UpIsGood",
+          "format": "number",
+          "target": "30",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "Interaction_Month",
+            "label": "Interaction Month"
+          },
+          "trendMeasureField": {
+            "name": "Interaction_Count",
+            "aggregation": "UserAgg",
+            "label": "Interactions"
+          },
+          "trendLabel": "interactions per month",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "x_map": {
+      "actions": [],
+      "name": "x_map",
+      "label": "cumulusStateMap",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusStateMap",
+        "properties": {
+          "dimensionField": {
+            "name": "Household_State",
+            "label": "Household State"
+          },
+          "measureField": {
+            "name": "Churn_Rate",
+            "aggregation": "UserAgg",
+            "label": "Churn Rate"
+          },
+          "title": "Where the book lives \u2014 and where it leaks",
+          "subtitle": "Shade = household churn rate \u00b7 bubble = AUM by state",
+          "format": "percent",
+          "lowColor": "#E4E1FA",
+          "highColor": "#EC4899",
+          "bubbleColor": "#0EA5E9",
+          "showLabels": true,
+          "bubbleMeasureField": {
+            "name": "Total_AUM",
+            "aggregation": "UserAgg",
+            "label": "AUM"
+          },
+          "bubbleFormat": "currency",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusStateMap",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "t_WM_Churn_By_State": {
+      "actions": [],
+      "name": "t_WM_Churn_By_State",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Highest-churn states",
+          "subtitle": "Share of households churned, by state",
+          "accentColor": "#BE123C",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_WM_Churn_By_State": {
+      "actions": [],
+      "name": "w_WM_Churn_By_State",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_Churn_By_State.Id}",
+        "name": "${App.Visualizations.WM_Churn_By_State.Name}"
+      },
+      "type": "visualization"
+    },
+    "x_bars": {
+      "actions": [],
+      "name": "x_bars",
+      "label": "cumulusRankedBars",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusRankedBars",
+        "properties": {
+          "dimensionField": {
+            "name": "WM_Households.AdvisorName",
+            "label": "Advisor Name"
+          },
+          "measureField": {
+            "name": "WM_Households.AUM",
+            "aggregation": "Sum",
+            "label": "AUM"
+          },
+          "title": "AUM by advisor (click to filter)",
+          "topN": 10,
           "format": "currency",
           "sdmName": {
             "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
@@ -276,14 +652,45 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#E5E5E5",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 8,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
       "source": {
-        "name": "c:cumulusKpiTile",
+        "name": "c:cumulusRankedBars",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "t_WM_Net_Flows_Trend": {
+      "actions": [],
+      "name": "t_WM_Net_Flows_Trend",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "July's $45M inflow is one Private Wealth mandate",
+          "subtitle": "Net new assets per month by service tier",
+          "accentColor": "#6D5BD0",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
         "namespace": "c",
         "type": "LightningWebComponent"
       },
@@ -300,9 +707,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -312,9 +719,40 @@
       },
       "type": "visualization"
     },
-    "w_WM_AUM_By_Advisor": {
+    "t_WM_Inflows_Trend": {
       "actions": [],
-      "name": "w_WM_AUM_By_Advisor",
+      "name": "t_WM_Inflows_Trend",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Gross inflows run $25\u201345M a month",
+          "subtitle": "Inflows per month",
+          "accentColor": "#0EA5E9",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_WM_Inflows_Trend": {
+      "actions": [],
+      "name": "w_WM_Inflows_Trend",
       "parameters": {
         "legendPosition": "Bottom",
         "receiveFilterSource": {
@@ -323,17 +761,102 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
       "source": {
-        "id": "${App.Visualizations.WM_AUM_By_Advisor.Id}",
-        "name": "${App.Visualizations.WM_AUM_By_Advisor.Name}"
+        "id": "${App.Visualizations.WM_Inflows_Trend.Id}",
+        "name": "${App.Visualizations.WM_Inflows_Trend.Name}"
       },
       "type": "visualization"
+    },
+    "t_WM_Outflows_Trend": {
+      "actions": [],
+      "name": "t_WM_Outflows_Trend",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Outflows are steady \u2014 the swings are on the inflow side",
+          "subtitle": "Outflows per month",
+          "accentColor": "#EC4899",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_WM_Outflows_Trend": {
+      "actions": [],
+      "name": "w_WM_Outflows_Trend",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_Outflows_Trend.Id}",
+        "name": "${App.Visualizations.WM_Outflows_Trend.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_WM_Interactions_Churn": {
+      "actions": [],
+      "name": "t_WM_Interactions_Churn",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Churned households had a quarter of the interactions",
+          "subtitle": "Average interactions per household, retained vs churned",
+          "accentColor": "#10B981",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_WM_Interactions_Churn": {
       "actions": [],
@@ -346,9 +869,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -358,28 +881,36 @@
       },
       "type": "visualization"
     },
-    "w_WM_Allocation": {
+    "t_WM_Goals_Status": {
       "actions": [],
-      "name": "w_WM_Allocation",
+      "name": "t_WM_Goals_Status",
+      "label": "cumulusChartHeadline",
       "parameters": {
-        "legendPosition": "Bottom",
-        "receiveFilterSource": {
-          "filterMode": "all",
-          "widgetIds": []
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Four in ten goals are at risk or off track",
+          "subtitle": "Client goals by status and type",
+          "accentColor": "#F59E0B",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#FFFFFF",
           "borderEdges": [],
-          "borderRadius": 12,
-          "borderWidth": 1
+          "borderRadius": 16,
+          "borderWidth": 0
         }
       },
       "source": {
-        "id": "${App.Visualizations.WM_Allocation.Id}",
-        "name": "${App.Visualizations.WM_Allocation.Name}"
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
       },
-      "type": "visualization"
+      "type": "extension"
     },
     "w_WM_Goals_Status": {
       "actions": [],
@@ -392,15 +923,123 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
       "source": {
         "id": "${App.Visualizations.WM_Goals_Status.Id}",
         "name": "${App.Visualizations.WM_Goals_Status.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_WM_Allocation": {
+      "actions": [],
+      "name": "t_WM_Allocation",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Equity is 55% of client assets",
+          "subtitle": "Market value by asset class",
+          "accentColor": "#0F766E",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_WM_Allocation": {
+      "actions": [],
+      "name": "w_WM_Allocation",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_Allocation.Id}",
+        "name": "${App.Visualizations.WM_Allocation.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_WM_AUM_By_Tier": {
+      "actions": [],
+      "name": "t_WM_AUM_By_Tier",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Private Wealth is 61% of AUM",
+          "subtitle": "Assets under management by service tier",
+          "accentColor": "#B45309",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Wealth_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Wealth_SDM.Id}",
+            "label": "Cumulus Wealth Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_WM_AUM_By_Tier": {
+      "actions": [],
+      "name": "w_WM_AUM_By_Tier",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.WM_AUM_By_Tier.Id}",
+        "name": "${App.Visualizations.WM_AUM_By_Tier.Name}"
       },
       "type": "visualization"
     }

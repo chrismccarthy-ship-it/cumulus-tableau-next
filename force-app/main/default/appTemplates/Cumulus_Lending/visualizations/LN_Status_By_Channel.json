@@ -1,5 +1,5 @@
 {
-  "label": "Applications by Channel and Status",
+  "label": "Applications by Channel",
   "name": "LN_Status_By_Channel",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
@@ -144,11 +144,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -265,7 +265,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

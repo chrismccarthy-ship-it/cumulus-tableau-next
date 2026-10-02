@@ -2,11 +2,19 @@
 <!-- Dashboard extension LWCs — deploy BEFORE the dashboards that reference them (c:<component> widgets). -->
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>cumulusActionModal</members>
+        <members>cumulusChartHeadline</members>
+        <members>cumulusConsoleData</members>
         <members>cumulusKpiTile</members>
+        <members>cumulusLobConsole</members>
         <members>cumulusNextBestActions</members>
         <members>cumulusRankedBars</members>
+        <members>cumulusRetailConsole</members>
         <members>cumulusSdkUtils</members>
+        <members>cumulusStateMap</members>
         <members>cumulusThresholdBanner</members>
+        <members>cumulusUsStates</members>
+        <members>cumulusWealthConsole</members>
         <name>LightningComponentBundle</name>
     </types>
     <version>67.0</version>

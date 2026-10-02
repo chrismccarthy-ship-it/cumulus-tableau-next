@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Cumulus LOB Console</masterLabel>
+    <description>Config-driven console: headless-insight banner, KPI trend cards, editable AI insights with actions, and an entity table with Analyze / Case / Review / Flow / Report per row. Works for any Cumulus model.</description>
+    <targets><target>analytics__Dashboard</target></targets>
+    <targetConfigs>
+        <targetConfig targets="analytics__Dashboard">
+            <property name="sdmName" type="SemanticModel" label="Semantic Model" description="Model to query." required="true"/>
+            <property name="config" type="String" label="Console config (JSON)" description="entity, month, region, kpis[], extra, persona, domain, modelLabel, slack, target — see component docs." required="true"/>
+            <property name="title" type="String" label="Title" default="Command Center" description="Header title."/>
+            <property name="accentColor" type="String" label="Accent colour" default="#0B5CAB" description="Hex accent."/>
+            <property name="headerFrom" type="String" label="Header gradient from" default="#0B2A4A" description="Hex."/>
+            <property name="headerTo" type="String" label="Header gradient to" default="#2563EB" description="Hex."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

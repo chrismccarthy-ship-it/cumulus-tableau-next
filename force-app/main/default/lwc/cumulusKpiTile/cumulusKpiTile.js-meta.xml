@@ -12,7 +12,11 @@
             <property name="sdmName" type="SemanticModel" label="Semantic Model" description="Model to query." required="true"/>
             <property name="measureField" type="SemanticMeasure" label="Measure" description="Measure to aggregate (choose the aggregation in the panel)." required="true"/>
             <property name="trendDimension" type="SemanticDimension" label="Trend dimension" description="Optional month/date dimension: draws a sparkline and a vs-prior-period delta."/>
-            <property name="accentColor" type="String" label="Accent colour" default="#0B5CAB" description="Hex colour for the tile's stripe and sparkline."/>
+            <property name="trendMeasureField" type="SemanticMeasure" label="Trend measure (optional)" description="Measure drawn in the sparkline when it should differ from the headline measure (e.g. monthly net flows under an AUM total)."/>
+            <property name="trendLabel" type="String" label="Trend caption" description="Optional caption under the sparkline."/>
+            <property name="strongThreshold" type="Integer" label="Strong-change threshold (%)" default="10" min="1" max="100" description="Percent change vs prior month that gets the strong tint."/>
+            <property name="moderateThreshold" type="Integer" label="Moderate-change threshold (%)" default="3" min="0" max="100" description="Percent change that gets a coloured outline."/>
+            <property name="accentColor" type="String" label="Accent colour" default="#0B5CAB" description="Neutral hex colour for this tile; significant changes switch to green/red automatically."/>
             <property name="title" type="String" label="Title" description="Optional tile heading; defaults to the measure label."/>
             <property name="target" type="String" label="Target" description="Optional numeric target to compare against."/>
             <property name="sentiment" type="String" label="Sentiment" default="UpIsGood" datasource="UpIsGood,UpIsBad" description="Whether a higher value is good or bad."/>

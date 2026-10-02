@@ -4,11 +4,11 @@
             <div class="heading">{heading}</div>
             <div class="value">{display}</div>
             <div class="meta">
-                <template lwc:if={periodDelta}>
+                <template lwc:if={periodText}>
                     <span class={pillClass}>{periodText}</span>
                 </template>
                 <template lwc:if={hasTarget}>
-                    <span class="delta">{deltaText}</span>
+                    <span class="delta">{targetText}</span>
                 </template>
             </div>
             <template lwc:if={sparkPath}>
@@ -17,6 +17,9 @@
                     <path class="line" d={sparkPath}></path>
                     <circle class="end" cx={sparkEnd.cx} cy={sparkEnd.cy} r="2.5"></circle>
                 </svg>
+                <template lwc:if={sparkCaption}>
+                    <div class="caption">{sparkCaption}</div>
+                </template>
             </template>
             <template lwc:if={error}>
                 <div class="error">{error}</div>

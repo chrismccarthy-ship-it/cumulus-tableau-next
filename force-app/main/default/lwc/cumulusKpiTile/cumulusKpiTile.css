@@ -1,13 +1,26 @@
-.tile { --accent: #0b5cab; height: 100%; display: flex; flex-direction: column; justify-content: center; gap: 0.2rem; padding: 0.75rem 1rem; border-left: 5px solid var(--accent); box-sizing: border-box; font-family: inherit; background: linear-gradient(90deg, color-mix(in srgb, var(--accent) 7%, #fff), #fff 45%); }
-.heading { font-size: 0.8rem; font-weight: 600; color: #444; }
-.value { font-size: 2.6rem; font-weight: 700; color: #032d60; line-height: 1.05; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
-.meta { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; font-size: 0.75rem; color: #5c5c5c; }
-.pill { display: inline-block; padding: 0.1rem 0.5rem; border-radius: 999px; font-weight: 600; background: #eef2f7; color: #2e2e2e; }
-.pill-good { background: #e2f4ea; color: #1a7f4b; }
-.pill-bad { background: #fbe6e6; color: #b83232; }
-.delta { color: #5c5c5c; }
-.spark { width: 100%; height: 40px; margin-top: 0.35rem; display: block; }
-.spark .area { fill: var(--accent); opacity: 0.12; }
-.spark .line { fill: none; stroke: var(--accent); stroke-width: 1.5; vector-effect: non-scaling-stroke; }
-.spark .end { fill: var(--accent); }
+/* --accent: the tile's neutral colour; --tone: green/red when the change is significant, else the accent */
+.tile { --accent: #0b5cab; --tone: var(--accent); height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; gap: 0.3rem;
+        padding: 0.9rem 1rem 0.6rem; box-sizing: border-box; font-family: inherit; border-radius: 16px; background: #fff; border: 1px solid #e3e9f1; }
+/* < 3% change: quiet card, accent-coloured number */
+.tier-flat .value { color: var(--accent); }
+/* 3–10%: coloured outline */
+.tier-moderate { border: 1.5px solid color-mix(in srgb, var(--tone) 55%, #fff); background: linear-gradient(160deg, color-mix(in srgb, var(--tone) 7%, #fff), #fff 70%); }
+.tier-moderate .value { color: var(--tone); }
+/* >= 10%: strong tint, bold coloured number */
+.tier-strong { border: 2px solid color-mix(in srgb, var(--tone) 45%, #fff);
+               background: linear-gradient(160deg, color-mix(in srgb, var(--tone) 18%, #fff) 0%, color-mix(in srgb, var(--tone) 7%, #fff) 60%, #fff 100%); }
+.tier-strong .value { color: var(--tone); }
+.heading { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.02em; color: #4b5b73; }
+.value { font-size: 2.7rem; font-weight: 800; line-height: 1.05; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; }
+.meta { display: flex; flex-direction: column; justify-content: center; gap: 0.3rem; align-items: center; font-size: 0.75rem; color: #5c6b82; }
+.pill { display: inline-block; padding: 0.18rem 0.65rem; border-radius: 999px; font-weight: 700; background: color-mix(in srgb, var(--tone) 12%, #fff); color: var(--tone); }
+.pill-good { background: #dff5e8; color: #15803d; }
+.pill-bad { background: #fde2e2; color: #b42318; }
+.pill-flat { background: color-mix(in srgb, var(--accent) 12%, #fff); color: color-mix(in srgb, var(--accent) 85%, #000); }
+.delta { color: #5c6b82; }
+.spark { width: 100%; max-width: 280px; height: 44px; margin-top: 0.35rem; display: block; }
+.spark .area { fill: var(--tone); opacity: 0.16; }
+.spark .line { fill: none; stroke: var(--tone); stroke-width: 2; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+.spark .end { fill: var(--tone); stroke: #fff; stroke-width: 1.5; }
+.caption { font-size: 0.68rem; color: #8a96a8; margin-top: -0.1rem; }
 .error, .configure { font-size: 0.8rem; color: #5c5c5c; }

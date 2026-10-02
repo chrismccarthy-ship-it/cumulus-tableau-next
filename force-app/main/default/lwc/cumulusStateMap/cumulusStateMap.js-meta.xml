@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Cumulus State Map</masterLabel>
+    <description>US state choropleth (shade = measure) with optional proportional bubbles (second measure). Accepts state codes, state names, "Cumulus GA Branch 1" names or Cumulus region names. Click a state to filter the dashboard.</description>
+    <targets>
+        <target>analytics__Dashboard</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="analytics__Dashboard">
+            <property name="sdmName" type="SemanticModel" label="Semantic Model" description="Model to query." required="true"/>
+            <property name="dimensionField" type="SemanticDimension" label="State / Region dimension" description="State code, state name, branch name or Cumulus region." required="true"/>
+            <property name="measureField" type="SemanticMeasure" label="Shade measure" description="Drives the colour scale." required="true"/>
+            <property name="bubbleMeasureField" type="SemanticMeasure" label="Bubble measure (optional)" description="Drives bubble size at each state's centroid."/>
+            <property name="title" type="String" label="Title" description="Optional heading."/>
+            <property name="subtitle" type="String" label="Subtitle" description="Optional one-line explanation."/>
+            <property name="format" type="String" label="Shade format" default="number" datasource="number,currency,percent" description="Number formatting for the shade measure."/>
+            <property name="bubbleFormat" type="String" label="Bubble format" default="number" datasource="number,currency,percent" description="Number formatting for the bubble measure."/>
+            <property name="lowColor" type="String" label="Low colour" default="#DBEAFE" description="Hex colour for the lowest value."/>
+            <property name="highColor" type="String" label="High colour" default="#1D4ED8" description="Hex colour for the highest value."/>
+            <property name="bubbleColor" type="String" label="Bubble colour" default="#F59E0B" description="Hex colour for bubbles."/>
+            <property name="showLabels" type="Boolean" label="Show state codes" default="false" description="Print the two-letter code on states that have data."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

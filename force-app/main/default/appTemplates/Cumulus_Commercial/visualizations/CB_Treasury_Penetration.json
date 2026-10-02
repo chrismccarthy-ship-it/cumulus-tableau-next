@@ -1,5 +1,5 @@
 {
-  "label": "Accounts by Treasury Product Count",
+  "label": "Treasury Penetration",
   "name": "CB_Treasury_Penetration",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Commercial_SDM.Name}",
@@ -113,11 +113,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -228,7 +228,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

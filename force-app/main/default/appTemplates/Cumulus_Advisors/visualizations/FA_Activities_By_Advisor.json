@@ -144,11 +144,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -265,7 +265,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

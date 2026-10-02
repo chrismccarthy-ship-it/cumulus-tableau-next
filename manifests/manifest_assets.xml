@@ -13,79 +13,76 @@
     </types>
     <types>
         <members>AM_AUM_By_Strategy</members>
+        <members>AM_Breach_By_Region</members>
         <members>AM_Cycle_By_Type</members>
         <members>AM_Flows_Trend</members>
-        <members>AM_KPI_AUM</members>
-        <members>AM_KPI_Cycle</members>
-        <members>AM_KPI_Pipeline</members>
-        <members>AM_KPI_Requests</members>
         <members>AM_Pipeline_By_Stage</members>
+        <members>AM_Requests_Trend</members>
         <members>AM_SLA_Breaches</members>
         <members>CB_Cases_By_Type</members>
-        <members>CB_KPI_Commitments</members>
-        <members>CB_KPI_Onboarding</members>
-        <members>CB_KPI_Pipeline</members>
-        <members>CB_KPI_Util</members>
+        <members>CB_Commitments_By_Industry</members>
+        <members>CB_Deal_Flow</members>
         <members>CB_Onboarding_Treasury</members>
         <members>CB_Pipeline_By_Stage</members>
         <members>CB_Treasury_Penetration</members>
         <members>CB_Utilization_By_Rating</members>
+        <members>CB_Utilization_By_Region</members>
+        <members>CB_Winrate_By_Segment</members>
         <members>FA_Activities_By_Advisor</members>
+        <members>FA_Activities_Trend</members>
         <members>FA_Book_By_Stage</members>
-        <members>FA_KPI_AUM</members>
-        <members>FA_KPI_Activities</members>
-        <members>FA_KPI_Life_Events</members>
-        <members>FA_KPI_Opportunity</members>
         <members>FA_Life_Events_Followup</members>
         <members>FA_Life_Events_Source</members>
+        <members>FA_Opportunity_By_State</members>
         <members>FA_Referral_Funnel</members>
         <members>INS_Cases_Agentforce</members>
+        <members>INS_Claims_By_State</members>
         <members>INS_Claims_By_Status</members>
         <members>INS_Claims_Trend</members>
         <members>INS_Cycle_By_CAT</members>
-        <members>INS_KPI_Claims</members>
-        <members>INS_KPI_Cycle</members>
-        <members>INS_KPI_Loss_Ratio</members>
-        <members>INS_KPI_Premium</members>
         <members>INS_Loss_Ratio_By_LOB</members>
+        <members>INS_Loss_Ratio_By_State</members>
         <members>INS_Renewals_By_Producer</members>
         <members>LN_Apps_Trend</members>
         <members>LN_Days_By_Stage</members>
-        <members>LN_KPI_Apps</members>
-        <members>LN_KPI_Stage</members>
-        <members>LN_KPI_TTC</members>
-        <members>LN_KPI_Volume</members>
         <members>LN_LO_Leaderboard</members>
+        <members>LN_Pull_Through_By_Channel</members>
         <members>LN_Status_By_Channel</members>
+        <members>LN_Time_To_Close_By_State</members>
         <members>LN_Volume_By_Product</members>
         <members>RB_AHT_By_Agentforce</members>
         <members>RB_CSAT_By_Type</members>
-        <members>RB_Cases_By_Branch</members>
         <members>RB_Cases_By_Channel</members>
         <members>RB_Cases_Trend</members>
-        <members>RB_Deposits_By_Region</members>
-        <members>RB_KPI_AHT</members>
-        <members>RB_KPI_CSAT</members>
-        <members>RB_KPI_Cases</members>
-        <members>RB_KPI_Deposits</members>
-        <members>WM_AUM_By_Advisor</members>
+        <members>RB_Channel_Trend</members>
+        <members>RB_Deposits_By_Segment</members>
+        <members>RB_Disputes_By_Branch</members>
+        <members>RB_Disputes_Trend</members>
+        <members>RB_FCR_By_State</members>
+        <members>WM_AUM_By_Tier</members>
         <members>WM_Allocation</members>
+        <members>WM_Churn_By_State</members>
         <members>WM_Goals_Status</members>
+        <members>WM_Inflows_Trend</members>
         <members>WM_Interactions_Churn</members>
-        <members>WM_KPI_AUM</members>
-        <members>WM_KPI_Households</members>
-        <members>WM_KPI_Interactions</members>
-        <members>WM_KPI_NNA</members>
         <members>WM_Net_Flows_Trend</members>
+        <members>WM_Outflows_Trend</members>
         <name>AnalyticsVisualization</name>
     </types>
     <types>
+        <members>Cumulus_Advisors_Console</members>
         <members>Cumulus_Advisors_Overview</members>
+        <members>Cumulus_Asset_Management_Console</members>
         <members>Cumulus_Asset_Management_Overview</members>
+        <members>Cumulus_Commercial_Console</members>
         <members>Cumulus_Commercial_Overview</members>
+        <members>Cumulus_Insurance_Console</members>
         <members>Cumulus_Insurance_Overview</members>
+        <members>Cumulus_Lending_Console</members>
         <members>Cumulus_Lending_Overview</members>
         <members>Cumulus_Retail_Banking_Overview</members>
+        <members>Cumulus_Retail_RVP_Console</members>
+        <members>Cumulus_Wealth_Advisor_Console</members>
         <members>Cumulus_Wealth_Overview</members>
         <name>AnalyticsDashboard</name>
     </types>

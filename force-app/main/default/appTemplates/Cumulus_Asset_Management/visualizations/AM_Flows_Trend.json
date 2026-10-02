@@ -1,5 +1,5 @@
 {
-  "label": "Net Flows by Month and Strategy",
+  "label": "Net Flows by Month",
   "name": "AM_Flows_Trend",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Asset_Management_SDM.Name}",
@@ -23,14 +23,6 @@
       "label": "Net Flow",
       "displayCategory": "Continuous",
       "function": "Sum"
-    },
-    "F3": {
-      "fieldName": "Strategy",
-      "objectName": "AM_Mandate_Flows",
-      "role": "Dimension",
-      "type": "Field",
-      "label": "Strategy",
-      "displayCategory": "Discrete"
     }
   },
   "interactions": [],
@@ -64,13 +56,8 @@
         "type": "Text"
       },
       "panes": {
-        "encodings": [
-          {
-            "fieldKey": "F3",
-            "type": "Color"
-          }
-        ],
-        "isAutomatic": false,
+        "encodings": [],
+        "isAutomatic": true,
         "stack": {
           "isAutomatic": true,
           "isStacked": false
@@ -139,11 +126,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -233,7 +220,7 @@
         },
         "panes": {
           "color": {
-            "color": "#0B5CAB"
+            "color": "#0F766E"
           },
           "isAutomaticSize": true,
           "label": {
@@ -248,8 +235,8 @@
           },
           "size": {
             "isAutomatic": true,
-            "type": "Percentage",
-            "value": 75
+            "type": "Pixel",
+            "value": 3
           }
         }
       },
@@ -260,7 +247,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "label": "Requested Volume by Product",
+  "label": "Volume by Product",
   "name": "LN_Volume_By_Product",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
@@ -113,11 +113,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -228,7 +228,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

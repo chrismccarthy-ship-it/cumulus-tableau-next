@@ -1,5 +1,5 @@
 {
-  "label": "Life Events by Detection Source",
+  "label": "Opportunity by Source",
   "name": "FA_Life_Events_Source",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Advisors_SDM.Name}",
@@ -132,11 +132,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -226,7 +226,7 @@
         },
         "panes": {
           "color": {
-            "color": "#0B5CAB"
+            "color": "#BE123C"
           },
           "isAutomaticSize": true,
           "label": {
@@ -253,7 +253,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

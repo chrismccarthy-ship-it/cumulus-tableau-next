@@ -1,5 +1,5 @@
 {
-  "label": "Onboarding Days: With vs Without Treasury",
+  "label": "Onboarding Days by Treasury",
   "name": "CB_Onboarding_Treasury",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Commercial_SDM.Name}",
@@ -145,11 +145,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -266,7 +266,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

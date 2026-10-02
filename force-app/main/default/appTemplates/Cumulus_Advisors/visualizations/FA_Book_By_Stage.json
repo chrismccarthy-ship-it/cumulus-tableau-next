@@ -1,5 +1,5 @@
 {
-  "label": "Book AUM by Life Stage and Risk",
+  "label": "Book by Life Stage",
   "name": "FA_Book_By_Stage",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Advisors_SDM.Name}",
@@ -145,11 +145,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -266,7 +266,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

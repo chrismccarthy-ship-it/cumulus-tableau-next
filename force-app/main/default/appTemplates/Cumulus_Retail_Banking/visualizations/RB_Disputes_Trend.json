@@ -125,11 +125,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -219,9 +219,9 @@
         },
         "panes": {
           "color": {
-            "color": "#0B5CAB"
+            "color": "#1E9BE8"
           },
-          "isAutomaticSize": false,
+          "isAutomaticSize": true,
           "label": {
             "canOverlapLabels": false,
             "marksToLabel": {
@@ -233,9 +233,9 @@
             "reverse": false
           },
           "size": {
-            "isAutomatic": false,
+            "isAutomatic": true,
             "type": "Pixel",
-            "value": 2
+            "value": 3
           }
         }
       },
@@ -246,7 +246,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

@@ -9,11 +9,11 @@
   "fields": {
     "F1": {
       "displayCategory": "Continuous",
-      "fieldName": "Claim_Count",
+      "fieldName": "Open_Claims",
       "function": "UserAgg",
       "role": "Measure",
       "type": "Field",
-      "label": "Claim Count"
+      "label": "Open Claims"
     },
     "F2": {
       "fieldName": "Status",
@@ -112,11 +112,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -227,7 +227,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

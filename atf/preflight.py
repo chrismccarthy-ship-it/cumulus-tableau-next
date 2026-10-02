@@ -129,6 +129,7 @@ def check_template(d):
             if r[side] not in names or r["criteria"][0][fld] not in fields[r[side]]:
                 fails.append(f"relationship {r['apiName']} references unknown object/field")
     calc_names = {c["apiName"] for c in sdm["semanticCalculatedMeasurements"]}
+    calc_names = set(calc_names) | {c["apiName"] for c in sdm.get("semanticCalculatedDimensions", [])}
     for mtc in sdm["semanticMetrics"]:
         mref = mtc.get("measurementReference", {})
         if "calculatedFieldApiName" in mref:

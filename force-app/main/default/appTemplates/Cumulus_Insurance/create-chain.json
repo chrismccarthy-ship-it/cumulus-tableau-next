@@ -263,6 +263,22 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_INS_Claims_By_State": {
+        "referenceId": "upsert_viz_INS_Claims_By_State",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_Claims_By_State",
+          "file": "visualizations/INS_Claims_By_State.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_viz_INS_Claims_By_Status": {
         "referenceId": "upsert_viz_INS_Claims_By_Status",
         "sources": [
@@ -311,70 +327,6 @@
         },
         "runAs": "CurrentUser"
       },
-      "upsert_viz_INS_KPI_Claims": {
-        "referenceId": "upsert_viz_INS_KPI_Claims",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "INS_KPI_Claims",
-          "file": "visualizations/INS_KPI_Claims.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_INS_KPI_Cycle": {
-        "referenceId": "upsert_viz_INS_KPI_Cycle",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "INS_KPI_Cycle",
-          "file": "visualizations/INS_KPI_Cycle.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_INS_KPI_Loss_Ratio": {
-        "referenceId": "upsert_viz_INS_KPI_Loss_Ratio",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "INS_KPI_Loss_Ratio",
-          "file": "visualizations/INS_KPI_Loss_Ratio.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_INS_KPI_Premium": {
-        "referenceId": "upsert_viz_INS_KPI_Premium",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "INS_KPI_Premium",
-          "file": "visualizations/INS_KPI_Premium.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
       "upsert_viz_INS_Loss_Ratio_By_LOB": {
         "referenceId": "upsert_viz_INS_Loss_Ratio_By_LOB",
         "sources": [
@@ -383,6 +335,22 @@
         "parameters": {
           "name": "INS_Loss_Ratio_By_LOB",
           "file": "visualizations/INS_Loss_Ratio_By_LOB.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_INS_Loss_Ratio_By_State": {
+        "referenceId": "upsert_viz_INS_Loss_Ratio_By_State",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "INS_Loss_Ratio_By_State",
+          "file": "visualizations/INS_Loss_Ratio_By_State.json",
           "condition": "${Variables.CreateDashboard}"
         },
         "graphNodeType": {
@@ -407,18 +375,40 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_dash_Cumulus_Insurance_Console": {
+        "referenceId": "upsert_dash_Cumulus_Insurance_Console",
+        "sources": [
+          "upsert_viz_INS_Cases_Agentforce",
+          "upsert_viz_INS_Claims_By_State",
+          "upsert_viz_INS_Claims_By_Status",
+          "upsert_viz_INS_Claims_Trend",
+          "upsert_viz_INS_Cycle_By_CAT",
+          "upsert_viz_INS_Loss_Ratio_By_LOB",
+          "upsert_viz_INS_Loss_Ratio_By_State",
+          "upsert_viz_INS_Renewals_By_Producer"
+        ],
+        "parameters": {
+          "name": "Cumulus_Insurance_Console",
+          "label": "Cumulus Insurance Console",
+          "file": "dashboards/Cumulus_Insurance_Console.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_dash_Cumulus_Insurance_Overview": {
         "referenceId": "upsert_dash_Cumulus_Insurance_Overview",
         "sources": [
           "upsert_viz_INS_Cases_Agentforce",
+          "upsert_viz_INS_Claims_By_State",
           "upsert_viz_INS_Claims_By_Status",
           "upsert_viz_INS_Claims_Trend",
           "upsert_viz_INS_Cycle_By_CAT",
-          "upsert_viz_INS_KPI_Claims",
-          "upsert_viz_INS_KPI_Cycle",
-          "upsert_viz_INS_KPI_Loss_Ratio",
-          "upsert_viz_INS_KPI_Premium",
           "upsert_viz_INS_Loss_Ratio_By_LOB",
+          "upsert_viz_INS_Loss_Ratio_By_State",
           "upsert_viz_INS_Renewals_By_Producer"
         ],
         "parameters": {

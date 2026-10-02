@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Cumulus Wealth Advisor Console</masterLabel>
+    <description>Wealth Performance console with advisor drill-down: KPI trend cards, tabs (Assets, Pipeline, Risk, Engagement), editable AI insights with actions, and an advisor/client table with Analyze, Schedule Review, Create Case, Launch Flow and Report.</description>
+    <targets><target>analytics__Dashboard</target></targets>
+    <targetConfigs>
+        <targetConfig targets="analytics__Dashboard">
+            <property name="sdmName" type="SemanticModel" label="Semantic Model" description="Cumulus Wealth Management model." required="true"/>
+            <property name="title" type="String" label="Title" default="Wealth Performance" description="Header title for the team view."/>
+            <property name="advisor" type="String" label="Default advisor" description="Optional advisor to open directly (drill-down)."/>
+            <property name="accentColor" type="String" label="Accent colour" default="#1D4ED8" description="Hex accent."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

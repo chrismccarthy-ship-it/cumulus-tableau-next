@@ -358,6 +358,22 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_RB_Channel_Trend": {
+        "referenceId": "upsert_viz_RB_Channel_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "RB_Channel_Trend",
+          "file": "visualizations/RB_Channel_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_viz_RB_Deposits_By_Segment": {
         "referenceId": "upsert_viz_RB_Deposits_By_Segment",
         "sources": [
@@ -406,6 +422,22 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_RB_FCR_By_State": {
+        "referenceId": "upsert_viz_RB_FCR_By_State",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "RB_FCR_By_State",
+          "file": "visualizations/RB_FCR_By_State.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_dash_Cumulus_Retail_Banking_Overview": {
         "referenceId": "upsert_dash_Cumulus_Retail_Banking_Overview",
         "sources": [
@@ -413,14 +445,41 @@
           "upsert_viz_RB_CSAT_By_Type",
           "upsert_viz_RB_Cases_By_Channel",
           "upsert_viz_RB_Cases_Trend",
+          "upsert_viz_RB_Channel_Trend",
           "upsert_viz_RB_Deposits_By_Segment",
           "upsert_viz_RB_Disputes_By_Branch",
-          "upsert_viz_RB_Disputes_Trend"
+          "upsert_viz_RB_Disputes_Trend",
+          "upsert_viz_RB_FCR_By_State"
         ],
         "parameters": {
           "name": "Cumulus_Retail_Banking_Overview",
           "label": "Cumulus Retail Banking Overview",
           "file": "dashboards/Cumulus_Retail_Banking_Overview.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Retail_RVP_Console": {
+        "referenceId": "upsert_dash_Cumulus_Retail_RVP_Console",
+        "sources": [
+          "upsert_viz_RB_AHT_By_Agentforce",
+          "upsert_viz_RB_CSAT_By_Type",
+          "upsert_viz_RB_Cases_By_Channel",
+          "upsert_viz_RB_Cases_Trend",
+          "upsert_viz_RB_Channel_Trend",
+          "upsert_viz_RB_Deposits_By_Segment",
+          "upsert_viz_RB_Disputes_By_Branch",
+          "upsert_viz_RB_Disputes_Trend",
+          "upsert_viz_RB_FCR_By_State"
+        ],
+        "parameters": {
+          "name": "Cumulus_Retail_RVP_Console",
+          "label": "Cumulus Retail RVP Console",
+          "file": "dashboards/Cumulus_Retail_RVP_Console.json",
           "condition": "${Variables.CreateDashboard}"
         },
         "graphNodeType": {

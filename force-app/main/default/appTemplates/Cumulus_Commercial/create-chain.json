@@ -357,14 +357,14 @@
         },
         "runAs": "CurrentUser"
       },
-      "upsert_viz_CB_KPI_Commitments": {
-        "referenceId": "upsert_viz_CB_KPI_Commitments",
+      "upsert_viz_CB_Commitments_By_Industry": {
+        "referenceId": "upsert_viz_CB_Commitments_By_Industry",
         "sources": [
           "upsert_sdm"
         ],
         "parameters": {
-          "name": "CB_KPI_Commitments",
-          "file": "visualizations/CB_KPI_Commitments.json",
+          "name": "CB_Commitments_By_Industry",
+          "file": "visualizations/CB_Commitments_By_Industry.json",
           "condition": "${Variables.CreateDashboard}"
         },
         "graphNodeType": {
@@ -373,46 +373,14 @@
         },
         "runAs": "CurrentUser"
       },
-      "upsert_viz_CB_KPI_Onboarding": {
-        "referenceId": "upsert_viz_CB_KPI_Onboarding",
+      "upsert_viz_CB_Deal_Flow": {
+        "referenceId": "upsert_viz_CB_Deal_Flow",
         "sources": [
           "upsert_sdm"
         ],
         "parameters": {
-          "name": "CB_KPI_Onboarding",
-          "file": "visualizations/CB_KPI_Onboarding.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_CB_KPI_Pipeline": {
-        "referenceId": "upsert_viz_CB_KPI_Pipeline",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "CB_KPI_Pipeline",
-          "file": "visualizations/CB_KPI_Pipeline.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_CB_KPI_Util": {
-        "referenceId": "upsert_viz_CB_KPI_Util",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "CB_KPI_Util",
-          "file": "visualizations/CB_KPI_Util.json",
+          "name": "CB_Deal_Flow",
+          "file": "visualizations/CB_Deal_Flow.json",
           "condition": "${Variables.CreateDashboard}"
         },
         "graphNodeType": {
@@ -485,18 +453,75 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_CB_Utilization_By_Region": {
+        "referenceId": "upsert_viz_CB_Utilization_By_Region",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CB_Utilization_By_Region",
+          "file": "visualizations/CB_Utilization_By_Region.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CB_Winrate_By_Segment": {
+        "referenceId": "upsert_viz_CB_Winrate_By_Segment",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CB_Winrate_By_Segment",
+          "file": "visualizations/CB_Winrate_By_Segment.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Commercial_Console": {
+        "referenceId": "upsert_dash_Cumulus_Commercial_Console",
+        "sources": [
+          "upsert_viz_CB_Cases_By_Type",
+          "upsert_viz_CB_Commitments_By_Industry",
+          "upsert_viz_CB_Deal_Flow",
+          "upsert_viz_CB_Onboarding_Treasury",
+          "upsert_viz_CB_Pipeline_By_Stage",
+          "upsert_viz_CB_Treasury_Penetration",
+          "upsert_viz_CB_Utilization_By_Rating",
+          "upsert_viz_CB_Utilization_By_Region",
+          "upsert_viz_CB_Winrate_By_Segment"
+        ],
+        "parameters": {
+          "name": "Cumulus_Commercial_Console",
+          "label": "Cumulus Commercial Console",
+          "file": "dashboards/Cumulus_Commercial_Console.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_dash_Cumulus_Commercial_Overview": {
         "referenceId": "upsert_dash_Cumulus_Commercial_Overview",
         "sources": [
           "upsert_viz_CB_Cases_By_Type",
-          "upsert_viz_CB_KPI_Commitments",
-          "upsert_viz_CB_KPI_Onboarding",
-          "upsert_viz_CB_KPI_Pipeline",
-          "upsert_viz_CB_KPI_Util",
+          "upsert_viz_CB_Commitments_By_Industry",
+          "upsert_viz_CB_Deal_Flow",
           "upsert_viz_CB_Onboarding_Treasury",
           "upsert_viz_CB_Pipeline_By_Stage",
           "upsert_viz_CB_Treasury_Penetration",
-          "upsert_viz_CB_Utilization_By_Rating"
+          "upsert_viz_CB_Utilization_By_Rating",
+          "upsert_viz_CB_Utilization_By_Region",
+          "upsert_viz_CB_Winrate_By_Segment"
         ],
         "parameters": {
           "name": "Cumulus_Commercial_Overview",

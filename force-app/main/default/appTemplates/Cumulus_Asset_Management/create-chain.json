@@ -310,6 +310,22 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_AM_Breach_By_Region": {
+        "referenceId": "upsert_viz_AM_Breach_By_Region",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_Breach_By_Region",
+          "file": "visualizations/AM_Breach_By_Region.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_viz_AM_Cycle_By_Type": {
         "referenceId": "upsert_viz_AM_Cycle_By_Type",
         "sources": [
@@ -342,70 +358,6 @@
         },
         "runAs": "CurrentUser"
       },
-      "upsert_viz_AM_KPI_AUM": {
-        "referenceId": "upsert_viz_AM_KPI_AUM",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "AM_KPI_AUM",
-          "file": "visualizations/AM_KPI_AUM.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_AM_KPI_Cycle": {
-        "referenceId": "upsert_viz_AM_KPI_Cycle",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "AM_KPI_Cycle",
-          "file": "visualizations/AM_KPI_Cycle.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_AM_KPI_Pipeline": {
-        "referenceId": "upsert_viz_AM_KPI_Pipeline",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "AM_KPI_Pipeline",
-          "file": "visualizations/AM_KPI_Pipeline.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_AM_KPI_Requests": {
-        "referenceId": "upsert_viz_AM_KPI_Requests",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "AM_KPI_Requests",
-          "file": "visualizations/AM_KPI_Requests.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
       "upsert_viz_AM_Pipeline_By_Stage": {
         "referenceId": "upsert_viz_AM_Pipeline_By_Stage",
         "sources": [
@@ -414,6 +366,22 @@
         "parameters": {
           "name": "AM_Pipeline_By_Stage",
           "file": "visualizations/AM_Pipeline_By_Stage.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_AM_Requests_Trend": {
+        "referenceId": "upsert_viz_AM_Requests_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "AM_Requests_Trend",
+          "file": "visualizations/AM_Requests_Trend.json",
           "condition": "${Variables.CreateDashboard}"
         },
         "graphNodeType": {
@@ -438,17 +406,38 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_dash_Cumulus_Asset_Management_Console": {
+        "referenceId": "upsert_dash_Cumulus_Asset_Management_Console",
+        "sources": [
+          "upsert_viz_AM_AUM_By_Strategy",
+          "upsert_viz_AM_Breach_By_Region",
+          "upsert_viz_AM_Cycle_By_Type",
+          "upsert_viz_AM_Flows_Trend",
+          "upsert_viz_AM_Pipeline_By_Stage",
+          "upsert_viz_AM_Requests_Trend",
+          "upsert_viz_AM_SLA_Breaches"
+        ],
+        "parameters": {
+          "name": "Cumulus_Asset_Management_Console",
+          "label": "Cumulus Asset Management Console",
+          "file": "dashboards/Cumulus_Asset_Management_Console.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_dash_Cumulus_Asset_Management_Overview": {
         "referenceId": "upsert_dash_Cumulus_Asset_Management_Overview",
         "sources": [
           "upsert_viz_AM_AUM_By_Strategy",
+          "upsert_viz_AM_Breach_By_Region",
           "upsert_viz_AM_Cycle_By_Type",
           "upsert_viz_AM_Flows_Trend",
-          "upsert_viz_AM_KPI_AUM",
-          "upsert_viz_AM_KPI_Cycle",
-          "upsert_viz_AM_KPI_Pipeline",
-          "upsert_viz_AM_KPI_Requests",
           "upsert_viz_AM_Pipeline_By_Stage",
+          "upsert_viz_AM_Requests_Trend",
           "upsert_viz_AM_SLA_Breaches"
         ],
         "parameters": {

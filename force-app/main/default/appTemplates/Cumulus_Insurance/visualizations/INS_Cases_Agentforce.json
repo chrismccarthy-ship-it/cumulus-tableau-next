@@ -1,5 +1,5 @@
 {
-  "label": "Claim Cases: Agentforce vs Human (CSAT)",
+  "label": "Claim Case CSAT",
   "name": "INS_Cases_Agentforce",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
@@ -132,11 +132,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -226,7 +226,7 @@
         },
         "panes": {
           "color": {
-            "color": "#0B5CAB"
+            "color": "#0F766E"
           },
           "isAutomaticSize": true,
           "label": {
@@ -253,7 +253,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

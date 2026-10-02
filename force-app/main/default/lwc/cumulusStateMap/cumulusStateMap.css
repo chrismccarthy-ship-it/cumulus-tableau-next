@@ -1,0 +1,18 @@
+.wrap { height: 100%; display: flex; flex-direction: column; padding: 0.75rem 1rem; box-sizing: border-box; font-family: inherit; background: #fff; border-radius: 16px; }
+.heading { font-size: 1rem; font-weight: 700; color: #1a2233; }
+.sub { font-size: 0.75rem; color: #7b889c; margin-top: 0.1rem; }
+.mapbox { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; margin-top: 0.4rem; }
+.map { width: 100%; height: 100%; max-height: 100%; display: block; }
+.state { stroke: #fff; stroke-width: 1.2; stroke-linejoin: round; transition: opacity .15s; outline: none; }
+.state.has { cursor: pointer; }
+.state.has:hover, .state.has:focus-visible { stroke: #1a2233; stroke-width: 1.8; }
+.state.selected { stroke: #1a2233; stroke-width: 2.2; }
+.state.dim { opacity: 0.45; }
+.bubble { fill-opacity: 0.55; stroke: #fff; stroke-width: 1.5; cursor: pointer; pointer-events: all; }
+.label { font-size: 13px; font-weight: 700; fill: #1a2233; paint-order: stroke; stroke: #fff; stroke-width: 3px; pointer-events: none; }
+.label.region { font-size: 15px; font-weight: 800; stroke-width: 4px; }
+.legend { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; font-size: 0.72rem; color: #5c6b82; margin-top: 0.3rem; }
+.ramp { display: inline-block; width: 110px; height: 9px; border-radius: 5px; }
+.bubkey i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin: 0 0.3rem 0 0.6rem; vertical-align: -1px; opacity: .7; }
+.hint { margin-left: auto; color: #9aa6b8; }
+.error, .configure { font-size: 0.8rem; color: #5c5c5c; }

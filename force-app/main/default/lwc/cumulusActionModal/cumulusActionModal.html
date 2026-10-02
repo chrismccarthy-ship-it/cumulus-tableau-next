@@ -1,0 +1,129 @@
+<template>
+    <div class="backdrop" onclick={close}>
+        <div class="modal" style={accentStyle} onclick={stop} role="dialog" aria-modal="true" aria-label={headerTitle}>
+            <div class="head">
+                <span class="icon">{headerIcon}</span>
+                <div class="titles"><div class="title">{headerTitle}</div><div class="sub">{headerSub}</div></div>
+                <button class="x" onclick={close} aria-label="Close">✕</button>
+            </div>
+            <template lwc:if={status}><div class={statusClass}>{status}</div></template>
+
+            <!-- ============ SCHEDULE REVIEW ============ -->
+            <template lwc:if={isSchedule}>
+                <div class="progress"><span style={progressStyle}></span></div>
+                <div class="tabs"><span class={tabTopicClass}>TOPIC</span><span class={tabScheduleClass}>SCHEDULE</span><span class={tabConfirmClass}>CONFIRM</span></div>
+                <div class="body">
+                    <template lwc:if={step1}>
+                        <h2>Meeting Context</h2><p class="hint">Review context for this meeting.</p>
+                        <label>Meeting topic</label><input type="text" value={topic} oninput={onTopic} data-bind="topic"/>
+                        <label>Background</label><textarea rows="4" value={background} oninput={onBackground} data-bind="background"></textarea>
+                        <label>In scope</label><input type="text" value={scope} oninput={onScope} data-bind="scope"/>
+                    </template>
+                    <template lwc:if={step2}>
+                        <h2>Meeting Details</h2><p class="hint">Set the meeting parameters.</p>
+                        <label>Date</label><input type="date" value={meetingDate} oninput={onDate} data-bind="meetingDate"/>
+                        <div class="hint small">{meetingDateLabel}</div>
+                        <label>Duration</label>
+                        <select onchange={onDuration}>
+                            <template for:each={durationOptions} for:item="o"><option key={o.value} value={o.value} selected={o.selected}>{o.label}</option></template>
+                        </select>
+                        <label>Attendees</label><textarea rows="2" value={attendees} oninput={onAttendees} data-bind="attendees"></textarea>
+                    </template>
+                    <template lwc:if={step3}>
+                        <h2>Review &amp; Schedule</h2><p class="hint">{confirmSummary}</p>
+                        <div class="agenda-head"><label>Agenda notes</label>
+                            <button class="btn ai" onclick={draftAgenda} disabled={drafting}><span class="spark">✦</span> {draftLabel}</button>
+                        </div>
+                        <textarea rows="8" value={agenda} oninput={onAgenda} placeholder="Add agenda notes, or let Agentforce draft them from the insights on the dashboard." data-bind="agenda"></textarea>
+                        <div class="okbox">✓ A calendar invite will be created and sent to all listed attendees with the dashboard insight attached.</div>
+                    </template>
+                </div>
+                <div class="foot">
+                    <span class="stepl">{stepLabel}</span>
+                    <template lwc:if={step1}><button class="btn" onclick={close}>Cancel</button><button class="btn primary" onclick={next}>Next →</button></template>
+                    <template lwc:if={step2}><button class="btn" onclick={back}>← Back</button><button class="btn" onclick={close}>Cancel</button><button class="btn primary" onclick={next}>Next →</button></template>
+                    <template lwc:if={step3}><button class="btn" onclick={back}>← Back</button><button class="btn" onclick={close}>Cancel</button><button class="btn go" onclick={schedule} disabled={busy}>Schedule Meeting</button></template>
+                </div>
+            </template>
+
+            <!-- ============ ANALYZE ============ -->
+            <template lwc:if={isAnalyze}>
+                <div class="body chat">
+                    <div class="bubble q"><textarea rows="3" value={question} oninput={onQuestion} data-bind="question"></textarea><button class="btn tiny" onclick={reAsk}>↻ Re-run</button></div>
+                    <div class="bubble a">
+                        <p class="summary">{analysis.summary}</p>
+                        <h3>Key findings</h3>
+                        <ul><template for:each={analysis.findings} for:item="f"><li key={f}>{f}</li></template></ul>
+                        <template lwc:if={hasBars}>
+                            <div class="bars"><template for:each={bars} for:item="b">
+                                <div class="bar" key={b.label}><span class="bl">{b.label}</span><span class="track"><span class="fill" style={b.style}></span></span><span class="bv">{b.value}</span></div>
+                            </template></div>
+                        </template>
+                        <h3>Recommended actions</h3>
+                        <ul><template for:each={analysis.actions} for:item="a"><li key={a.title}><b>{a.title}:</b> {a.body}</li></template></ul>
+                        <p class="caveat">{analysis.caveat}</p>
+                        <div class="row">
+                            <button class="btn go" onclick={createReport}>Create Report</button>
+                            <button class="btn" onclick={caseFromAnalysis}>⊕ Create Case</button>
+                            <button class="btn" onclick={flowFromAnalysis}>⇶ Launch Flow / Apex</button>
+                        </div>
+                    </div>
+                    <div class="ask"><input type="text" placeholder="Ask a follow-up about performance, attainment, or recommendations…" value={followUp} oninput={onFollowUp} data-bind="followUp"/><button class="btn primary" onclick={askFollowUp}>Ask</button></div>
+                </div>
+            </template>
+
+            <!-- ============ REPORT ============ -->
+            <template lwc:if={isReport}>
+                <div class="body report">
+                    <div class="rhead"><div><div class="rtitle">{reportTitle}</div><div class="rsub">{generatedLine}</div></div>
+                        <div class="row"><button class="btn light" onclick={exportPdf}>Export PDF</button><button class="btn light" onclick={email} disabled={busy}>Email report</button><button class="btn light" onclick={slack}>Share to Slack</button></div></div>
+                    <div class="rq"><div class="rlabel">Analysis question</div><div>{question}</div></div>
+                    <div class="rlabel">Agentforce analysis</div>
+                    <p class="summary">{analysis.summary}</p>
+                    <div class="rlabel">Key findings</div>
+                    <ul><template for:each={analysis.findings} for:item="f"><li key={f}>{f}</li></template></ul>
+                    <template lwc:if={hasBars}>
+                        <div class="bars"><template for:each={bars} for:item="b">
+                            <div class="bar" key={b.label}><span class="bl">{b.label}</span><span class="track"><span class="fill" style={b.style}></span></span><span class="bv">{b.value}</span></div>
+                        </template></div>
+                    </template>
+                    <div class="rlabel">Recommended actions</div>
+                    <ul><template for:each={analysis.actions} for:item="a"><li key={a.title}><b>{a.title}:</b> {a.body}</li></template></ul>
+                    <p class="caveat">{analysis.caveat}</p>
+                </div>
+                <div class="foot"><button class="btn" onclick={backToAnalysis}>← Back to analysis</button><button class="btn primary" onclick={close}>Done</button></div>
+            </template>
+
+            <!-- ============ FLOW ============ -->
+            <template lwc:if={isFlow}>
+                <div class="body">
+                    <template lwc:if={flowRunning}>
+                        <lightning-flow flow-api-name={selectedFlow} flow-input-variables={flowInputs} onstatuschange={handleFlowStatus}></lightning-flow>
+                    </template>
+                    <template lwc:else>
+                        <h2>Launch a screen flow</h2><p class="hint">Runs inline with the insight passed as input variables (InsightTitle, InsightBody, SubjectName) when the flow declares them.</p>
+                        <label>Flow</label>
+                        <select onchange={onFlow}><option value="">Select a flow…</option>
+                            <template for:each={flowOptions} for:item="o"><option key={o.value} value={o.value} selected={o.selected}>{o.label}</option></template>
+                        </select>
+                    </template>
+                </div>
+                <div class="foot"><button class="btn" onclick={close}>Close</button><template lwc:if={flowRunning}></template><template lwc:else><button class="btn primary" onclick={runFlow} disabled={canRunFlowDisabled}>Run Flow</button></template></div>
+            </template>
+
+            <!-- ============ CASE / TASK ============ -->
+            <template lwc:if={isCase}>
+                <div class="body"><h2>Create Case</h2><p class="hint">Pre-filled from the insight; the Case is created in this org.</p>
+                    <label>Subject</label><input type="text" value={caseSubject} oninput={onCaseSubject} data-bind="caseSubject"/>
+                    <label>Description</label><textarea rows="6" value={caseDescription} oninput={onCaseDescription} data-bind="caseDescription"></textarea></div>
+                <div class="foot"><button class="btn" onclick={close}>Cancel</button><button class="btn go" onclick={saveCase} disabled={busy}>Create Case</button></div>
+            </template>
+            <template lwc:if={isTask}>
+                <div class="body"><h2>Create Action Item</h2><p class="hint">Creates a Task assigned to you, due in 7 days.</p>
+                    <label>Subject</label><input type="text" value={caseSubject} oninput={onCaseSubject} data-bind="caseSubject"/>
+                    <label>Details</label><textarea rows="6" value={caseDescription} oninput={onCaseDescription} data-bind="caseDescription"></textarea></div>
+                <div class="foot"><button class="btn" onclick={close}>Cancel</button><button class="btn go" onclick={saveTask} disabled={busy}>Create Action Item</button></div>
+            </template>
+        </div>
+    </div>
+</template>

@@ -1,5 +1,5 @@
 {
-  "label": "Utilization by Risk Rating",
+  "label": "Utilization by Rating",
   "name": "CB_Utilization_By_Rating",
   "dataSource": {
     "name": "${App.SemanticModels.Cumulus_Commercial_SDM.Name}",
@@ -23,14 +23,6 @@
       "label": "Utilization %",
       "displayCategory": "Continuous",
       "function": "Avg"
-    },
-    "F3": {
-      "fieldName": "OverCovenant",
-      "objectName": "CB_Credit_Facilities",
-      "role": "Dimension",
-      "type": "Field",
-      "label": "Over Covenant",
-      "displayCategory": "Discrete"
     }
   },
   "interactions": [],
@@ -70,16 +62,11 @@
         "type": "Text"
       },
       "panes": {
-        "encodings": [
-          {
-            "fieldKey": "F3",
-            "type": "Color"
-          }
-        ],
-        "isAutomatic": false,
+        "encodings": [],
+        "isAutomatic": true,
         "stack": {
-          "isAutomatic": false,
-          "isStacked": true
+          "isAutomatic": true,
+          "isStacked": false
         },
         "type": "Bar"
       }
@@ -145,11 +132,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -239,7 +226,7 @@
         },
         "panes": {
           "color": {
-            "color": "#0B5CAB"
+            "color": "#16A34A"
           },
           "isAutomaticSize": true,
           "label": {
@@ -266,7 +253,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

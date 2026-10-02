@@ -1,10 +1,10 @@
-.banner { height: 100%; display: flex; align-items: center; gap: 0.75rem; padding: 0.5rem 0.9rem; box-sizing: border-box; border-radius: 8px; font-family: inherit; }
-.banner.ok { background: #eaf7ee; color: #1f5a2e; border: 1px solid #b7e0c3; }
-.banner.alert { background: #fdecec; color: #8c1616; border: 1px solid #f5b7b7; }
-.icon { width: 0.7rem; height: 0.7rem; border-radius: 50%; background: currentColor; flex: none; }
+.banner { height: 100%; display: flex; align-items: center; gap: 0.9rem; padding: 0.6rem 1.1rem; box-sizing: border-box; border-radius: 16px; font-family: inherit; }
+.banner.ok { background: linear-gradient(90deg, #d7f3e3 0%, #eefaf3 60%, #ffffff 100%); color: #14532d; border: 1px solid #a9e2bf; }
+.banner.alert { background: linear-gradient(90deg, #fcd5d5 0%, #fdeaea 60%, #ffffff 100%); color: #7f1d1d; border: 1px solid #f3a9a9; }
+.icon { width: 0.9rem; height: 0.9rem; border-radius: 50%; background: currentColor; flex: none; box-shadow: 0 0 0 4px rgba(255,255,255,.7); }
 .text { display: flex; flex-direction: column; flex: 1; min-width: 0; }
-.msg { font-weight: 600; font-size: 0.9rem; }
+.msg { font-weight: 700; font-size: 0.95rem; }
 .detail { font-size: 0.78rem; opacity: 0.85; }
-.focus { font: inherit; font-size: 0.78rem; border: 1px solid currentColor; background: transparent; color: inherit; border-radius: 999px; padding: 0.2rem 0.7rem; cursor: pointer; }
-.focus:hover, .focus:focus-visible { background: rgba(0,0,0,0.05); outline: none; }
+.focus { font: inherit; font-size: 0.78rem; font-weight: 600; border: 0; background: #fff; color: inherit; border-radius: 999px; padding: 0.35rem 0.9rem; cursor: pointer; box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+.focus:hover, .focus:focus-visible { box-shadow: 0 0 0 2px currentColor; outline: none; }
 .configure { font-size: 0.8rem; color: #5c5c5c; padding: 0.5rem; }

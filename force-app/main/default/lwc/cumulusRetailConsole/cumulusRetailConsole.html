@@ -1,0 +1,118 @@
+<template>
+    <div class="root" style={rootStyle}>
+        <template lwc:if={isConfigured}>
+            <!-- header -->
+            <div class="topbar">
+                <span class="who">👤 {title}</span>
+                <div class="filters">
+                    <label>Period <select onchange={onPeriod}><template for:each={periodOptions} for:item="o"><option key={o.value} value={o.value} selected={o.selected}>{o.label}</option></template></select></label>
+                    <label>Region <select onchange={onRegion}><template for:each={regionOptions} for:item="o"><option key={o.value} value={o.value} selected={o.selected}>{o.label}</option></template></select></label>
+                </div>
+            </div>
+            <div class="tabs">
+                <button class={tabInsightsClass} data-tab="insights" onclick={setTab}>✦ Tableau Agent Headless Insights</button>
+                <button class={tabTableClass} data-tab="table" onclick={setTab}>▦ Data Table</button>
+                <template lwc:if={hasReport}><button class={tabReportClass} data-tab="report" onclick={setTab}>▤ Report</button></template>
+            </div>
+            <template lwc:if={error}><div class="error">{error}</div></template>
+
+            <!-- ============ INSIGHTS TAB ============ -->
+            <template lwc:if={tabInsights}>
+                <div class="banner">
+                    <span class="chip">✦ TABLEAU AGENT HEADLESS INSIGHT</span>
+                    <div class="btitle">{banner.title}</div>
+                    <div class="bsub">{banner.sub}</div>
+                </div>
+                <div class="kpis">
+                    <template for:each={kpis} for:item="k">
+                        <div class={k.cls} key={k.key}>
+                            <div class="kv">{k.text}</div><div class="kl">{k.label}</div><div class="ks">{k.sub}</div>
+                            <template lwc:if={k.hasSpark}><svg class="spark" viewBox="0 0 200 40" preserveAspectRatio="none"><path class="area" d={k.area}></path><path class="line" d={k.line}></path><circle class="end" cx={k.endx} cy={k.endy} r="2.5"></circle></svg></template>
+                        </div>
+                    </template>
+                </div>
+                <div class="split">
+                    <div class="left">
+                        <div class="lhead"><span>AI-driven insights</span><button class="mini" onclick={regenerate} title="Regenerate from the live data">↻ Regenerate</button></div>
+                        <template for:each={insightCards} for:item="i">
+                            <div class={i.cls} key={i.id}>
+                                <template lwc:if={i.isEditing}>
+                                    <input class="edit" type="text" value={editing.title} oninput={onEditTitle} data-bind="title"/>
+                                    <textarea class="edit" rows="5" value={editing.body} oninput={onEditBody} data-bind="body"></textarea>
+                                    <div class="acts"><button class="act go" onclick={saveInsight}>Save</button><button class="act" onclick={cancelEdit}>Cancel</button></div>
+                                </template>
+                                <template lwc:else>
+                                    <div class="ihead"><span class="iicon">{i.icon}</span><span class="ititle">{i.title}</span><button class="pencil" data-id={i.id} onclick={editInsight} title="Edit insight">✎</button></div>
+                                    <p class="ibody">{i.body}</p>
+                                    <div class="acts">
+                                        <template lwc:if={i.btnCase}><button class="act red" data-action="case" data-id={i.id} onclick={insightAction}>⚑ Escalate</button></template>
+                                        <template lwc:if={i.btnSchedule}><button class="act amber" data-action="schedule" data-id={i.id} onclick={insightAction}>📅 Schedule Review</button></template>
+                                        <template lwc:if={i.btnTask}><button class="act" data-action="task" data-id={i.id} onclick={insightAction}>👤 {i.taskLabel}</button></template>
+                                        <button class="act" data-action="flow" data-id={i.id} onclick={insightAction}>⇶ Launch Flow</button>
+                                    </div>
+                                </template>
+                            </div>
+                        </template>
+                    </div>
+                    <div class="right">
+                        <div class="thead"><div><div class="ttitle">Branch Service Performance</div><div class="tsub">Click Analyze to deep-dive a branch · {periodLabel}</div></div></div>
+                        <div class="tscroll">
+                            <table>
+                                <thead><tr><th>Status</th><th>Branch</th><th>Region</th><th class="r">Cases</th><th class="r">FCR</th><th class="r">CSAT</th><th class="r">AHT</th><th class="r">Disputes</th><th class="r">New accts</th><th>Actions</th></tr></thead>
+                                <tbody>
+                                    <template for:each={branches} for:item="b">
+                                        <tr key={b.branch}>
+                                            <td><span class={b.badgeClass}>{b.badge}</span></td>
+                                            <td class="bname">{b.short}</td><td class="muted">{b.region}</td>
+                                            <td class="r">{b.casesText}</td><td class="r"><span class={b.fcrClass}>{b.fcrText}</span></td><td class="r"><span class={b.csatClass}>{b.csatText}</span></td><td class="r">{b.ahtText}</td><td class="r">{b.disputesText}</td><td class="r">{b.acctText}</td>
+                                            <td class="actions">
+                                                <button class="act teal" data-action="analyze" data-branch={b.branch} onclick={rowAction}>✦ Analyze</button>
+                                                <button class="act" data-action="case" data-branch={b.branch} onclick={rowAction}>⊕ Create Case</button>
+                                                <button class="act" data-action="coach" data-branch={b.branch} onclick={rowAction}>📅 Schedule Coaching</button>
+                                                <button class="act" data-action="flow" data-branch={b.branch} onclick={rowAction}>⇶ Launch Flow</button>
+                                                <button class="act" data-action="report" data-branch={b.branch} onclick={rowAction}>▤ Branch Report</button>
+                                            </td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </template>
+
+            <!-- ============ DATA TABLE TAB ============ -->
+            <template lwc:if={tabTable}>
+                <div class="right full">
+                    <div class="thead"><div><div class="ttitle">All branches</div><div class="tsub">{periodLabel}</div></div></div>
+                    <table>
+                        <thead><tr><th>Status</th><th>Branch</th><th>Region</th><th class="r">Cases</th><th class="r">FCR</th><th class="r">CSAT</th><th class="r">AHT</th><th class="r">Disputes</th><th class="r">Households</th><th class="r">Products/HH</th><th class="r">NPS</th><th class="r">New accts</th></tr></thead>
+                        <tbody><template for:each={branches} for:item="b"><tr key={b.branch}><td><span class={b.badgeClass}>{b.badge}</span></td><td class="bname">{b.short}</td><td class="muted">{b.region}</td><td class="r">{b.casesText}</td><td class="r">{b.fcrText}</td><td class="r">{b.csatText}</td><td class="r">{b.ahtText}</td><td class="r">{b.disputesText}</td><td class="r">{b.hhText}</td><td class="r">{b.productsText}</td><td class="r">{b.npsText}</td><td class="r">{b.acctText}</td></tr></template></tbody>
+                    </table>
+                </div>
+            </template>
+
+            <!-- ============ REPORT TAB ============ -->
+            <template lwc:if={tabReport}>
+                <template lwc:if={hasReport}>
+                    <div class="reportcard">
+                        <div class="rhead"><div><div class="rtitle">Report: {lastReport.question}</div><div class="rsub">{reportLine}</div></div>
+                            <div class="racts"><button class="act light" onclick={openReportModal}>Open · Export PDF · Email · Slack</button><button class="act light" onclick={closeReport}>✕ Close report</button></div></div>
+                        <div class="rq"><div class="rlabel">Analysis question</div>{lastReport.question}</div>
+                        <div class="rlabel">Agentforce analysis</div><p class="summary">{lastReport.analysis.summary}</p>
+                        <div class="rlabel">Key findings</div><ul><template for:each={lastReport.analysis.findings} for:item="f"><li key={f}>{f}</li></template></ul>
+                        <div class="bars"><template for:each={reportBars} for:item="b"><div class="bar" key={b.label}><span class="bl">{b.label}</span><span class="track"><span class="fill" style={b.style}></span></span><span class="bv">{b.value}</span></div></template></div>
+                        <div class="rlabel">Recommended actions</div><ul><template for:each={lastReport.analysis.actions} for:item="a"><li key={a.title}><b>{a.title}:</b> {a.body}</li></template></ul>
+                        <p class="caveat">{lastReport.analysis.caveat}</p>
+                    </div>
+                </template>
+            </template>
+
+            <template lwc:if={modalOpen}>
+                <c-cumulus-action-modal mode={modalMode} context={modalContext} accent={accent} onclose={closeModal} ondone={onModalDone} onreask={onReask}></c-cumulus-action-modal>
+            </template>
+            <div class="footnote">Data 360 · Cumulus Retail Banking Tableau Next semantic model · insights are generated from the live model (headless-insight simulation) and can be edited at any time</div>
+        </template>
+        <template lwc:else><div class="configure">Select the Cumulus Retail Banking semantic model in the widget panel.</div></template>
+    </div>
+</template>

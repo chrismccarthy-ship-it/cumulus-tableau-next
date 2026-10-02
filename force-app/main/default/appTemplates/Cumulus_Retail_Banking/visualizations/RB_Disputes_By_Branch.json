@@ -131,11 +131,11 @@
       "fieldLabels": {
         "columns": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         },
         "rows": {
           "showDividerLine": false,
-          "showLabels": true
+          "showLabels": false
         }
       },
       "fit": "Entire",
@@ -225,7 +225,7 @@
         },
         "panes": {
           "color": {
-            "color": "#0B5CAB"
+            "color": "#64748B"
           },
           "isAutomaticSize": true,
           "label": {
@@ -252,7 +252,7 @@
       },
       "showDataPlaceholder": false,
       "title": {
-        "isVisible": true
+        "isVisible": false
       }
     }
   },

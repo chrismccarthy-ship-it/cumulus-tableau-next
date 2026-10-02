@@ -1,0 +1,7 @@
+<template>
+    <div class="head" style={style}>
+        <div class="title">{title}</div>
+        <template lwc:if={subtitle}><div class="sub">{subtitle}</div></template>
+        <template lwc:if={hasStat}><div class="stat">{statText}</div></template>
+    </div>
+</template>

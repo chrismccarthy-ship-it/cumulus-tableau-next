@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>67.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Cumulus Retail RVP Console</masterLabel>
+    <description>RVP console: headless-insight banner, KPI trend cards, editable AI insights with actions, and a branch table with Analyze / Create Case / Schedule Coaching / Launch Flow / Branch Report.</description>
+    <targets><target>analytics__Dashboard</target></targets>
+    <targetConfigs>
+        <targetConfig targets="analytics__Dashboard">
+            <property name="sdmName" type="SemanticModel" label="Semantic Model" description="Cumulus Retail Banking model." required="true"/>
+            <property name="title" type="String" label="Title" default="RVP – Retail Sales Performance" description="Header title."/>
+            <property name="region" type="String" label="Default region" description="Optional region to pre-select."/>
+            <property name="accentColor" type="String" label="Accent colour" default="#0F766E" description="Hex accent."/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

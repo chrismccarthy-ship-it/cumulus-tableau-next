@@ -13,7 +13,34 @@
   "lockedActions": {},
   "queryUnrelatedDataObjects": "Union",
   "businessPreferences": "# Cumulus Retail Banking semantic model for the Cumulus Financial Group demo. Synthetic data, 2024-09 to 2026-08.\n# Branch service manager view: deposits, product penetration, service cases (channel, FCR, CSAT, Agentforce), transactions and disputes. Includes the Lauren Bailey storyline.\n# Ratio measures that divide across objects (e.g. Loss Ratio) should be grouped by dimensions of the denominator object.",
-  "semanticCalculatedDimensions": [],
+  "semanticCalculatedDimensions": [
+    {
+      "apiName": "Case_State",
+      "label": "Case State",
+      "expression": "MID([RB_Service_Cases].[BranchName], 9, 2)",
+      "dataType": "Text",
+      "displayCategory": "Discrete",
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "semanticDataType": "None",
+      "sortOrder": "None",
+      "overriddenProperties": [],
+      "filters": []
+    },
+    {
+      "apiName": "Account_Open_Month",
+      "label": "Account Open Month",
+      "expression": "LEFT(STR([RB_Financial_Accounts].[OpenDate]), 7)",
+      "dataType": "Text",
+      "displayCategory": "Discrete",
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "semanticDataType": "None",
+      "sortOrder": "None",
+      "overriddenProperties": [],
+      "filters": []
+    }
+  ],
   "semanticCalculatedDimensionsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Retail_Banking_SDM/calculated-dimensions",
   "semanticCalculatedMeasurements": [
     {

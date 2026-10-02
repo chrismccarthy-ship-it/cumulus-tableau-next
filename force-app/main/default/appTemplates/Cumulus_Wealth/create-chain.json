@@ -341,14 +341,14 @@
         },
         "runAs": "CurrentUser"
       },
-      "upsert_viz_WM_AUM_By_Advisor": {
-        "referenceId": "upsert_viz_WM_AUM_By_Advisor",
+      "upsert_viz_WM_AUM_By_Tier": {
+        "referenceId": "upsert_viz_WM_AUM_By_Tier",
         "sources": [
           "upsert_sdm"
         ],
         "parameters": {
-          "name": "WM_AUM_By_Advisor",
-          "file": "visualizations/WM_AUM_By_Advisor.json",
+          "name": "WM_AUM_By_Tier",
+          "file": "visualizations/WM_AUM_By_Tier.json",
           "condition": "${Variables.CreateDashboard}"
         },
         "graphNodeType": {
@@ -373,6 +373,22 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_WM_Churn_By_State": {
+        "referenceId": "upsert_viz_WM_Churn_By_State",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_Churn_By_State",
+          "file": "visualizations/WM_Churn_By_State.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_viz_WM_Goals_Status": {
         "referenceId": "upsert_viz_WM_Goals_Status",
         "sources": [
@@ -381,6 +397,22 @@
         "parameters": {
           "name": "WM_Goals_Status",
           "file": "visualizations/WM_Goals_Status.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_WM_Inflows_Trend": {
+        "referenceId": "upsert_viz_WM_Inflows_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_Inflows_Trend",
+          "file": "visualizations/WM_Inflows_Trend.json",
           "condition": "${Variables.CreateDashboard}"
         },
         "graphNodeType": {
@@ -405,70 +437,6 @@
         },
         "runAs": "CurrentUser"
       },
-      "upsert_viz_WM_KPI_AUM": {
-        "referenceId": "upsert_viz_WM_KPI_AUM",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "WM_KPI_AUM",
-          "file": "visualizations/WM_KPI_AUM.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_WM_KPI_Households": {
-        "referenceId": "upsert_viz_WM_KPI_Households",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "WM_KPI_Households",
-          "file": "visualizations/WM_KPI_Households.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_WM_KPI_Interactions": {
-        "referenceId": "upsert_viz_WM_KPI_Interactions",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "WM_KPI_Interactions",
-          "file": "visualizations/WM_KPI_Interactions.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
-      "upsert_viz_WM_KPI_NNA": {
-        "referenceId": "upsert_viz_WM_KPI_NNA",
-        "sources": [
-          "upsert_sdm"
-        ],
-        "parameters": {
-          "name": "WM_KPI_NNA",
-          "file": "visualizations/WM_KPI_NNA.json",
-          "condition": "${Variables.CreateDashboard}"
-        },
-        "graphNodeType": {
-          "name": "VisualizationUpsert",
-          "label": "Create/Update a Visualization from a Template"
-        },
-        "runAs": "CurrentUser"
-      },
       "upsert_viz_WM_Net_Flows_Trend": {
         "referenceId": "upsert_viz_WM_Net_Flows_Trend",
         "sources": [
@@ -485,18 +453,57 @@
         },
         "runAs": "CurrentUser"
       },
+      "upsert_viz_WM_Outflows_Trend": {
+        "referenceId": "upsert_viz_WM_Outflows_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "WM_Outflows_Trend",
+          "file": "visualizations/WM_Outflows_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Wealth_Advisor_Console": {
+        "referenceId": "upsert_dash_Cumulus_Wealth_Advisor_Console",
+        "sources": [
+          "upsert_viz_WM_AUM_By_Tier",
+          "upsert_viz_WM_Allocation",
+          "upsert_viz_WM_Churn_By_State",
+          "upsert_viz_WM_Goals_Status",
+          "upsert_viz_WM_Inflows_Trend",
+          "upsert_viz_WM_Interactions_Churn",
+          "upsert_viz_WM_Net_Flows_Trend",
+          "upsert_viz_WM_Outflows_Trend"
+        ],
+        "parameters": {
+          "name": "Cumulus_Wealth_Advisor_Console",
+          "label": "Cumulus Wealth Advisor Console",
+          "file": "dashboards/Cumulus_Wealth_Advisor_Console.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
       "upsert_dash_Cumulus_Wealth_Overview": {
         "referenceId": "upsert_dash_Cumulus_Wealth_Overview",
         "sources": [
-          "upsert_viz_WM_AUM_By_Advisor",
+          "upsert_viz_WM_AUM_By_Tier",
           "upsert_viz_WM_Allocation",
+          "upsert_viz_WM_Churn_By_State",
           "upsert_viz_WM_Goals_Status",
+          "upsert_viz_WM_Inflows_Trend",
           "upsert_viz_WM_Interactions_Churn",
-          "upsert_viz_WM_KPI_AUM",
-          "upsert_viz_WM_KPI_Households",
-          "upsert_viz_WM_KPI_Interactions",
-          "upsert_viz_WM_KPI_NNA",
-          "upsert_viz_WM_Net_Flows_Trend"
+          "upsert_viz_WM_Net_Flows_Trend",
+          "upsert_viz_WM_Outflows_Trend"
         ],
         "parameters": {
           "name": "Cumulus_Wealth_Overview",

@@ -1,0 +1,83 @@
+{
+  "name": "Cumulus_Insurance_Console",
+  "label": "Claims Service Console ${Variables.LabelSuffix}",
+  "description": "Claims Service Console \u2014 full-page console extension with AI-driven insights and actions.",
+  "customConfig": {
+    "queryCacheEnabled": true,
+    "queryCacheStaleness": "30min"
+  },
+  "layouts": [
+    {
+      "columnCount": 96,
+      "maxWidth": 1800,
+      "name": "default",
+      "pages": [
+        {
+          "label": "Console",
+          "name": "console",
+          "widgets": [
+            {
+              "name": "console",
+              "column": 0,
+              "row": 0,
+              "colspan": 96,
+              "rowspan": 150
+            }
+          ]
+        }
+      ],
+      "rowHeight": 10,
+      "style": {
+        "backgroundColor": "#F5F0FB",
+        "cellSpacingX": 0,
+        "cellSpacingY": 0,
+        "gutterColor": "#F5F0FB"
+      }
+    }
+  ],
+  "style": {
+    "widgetStyle": {
+      "backgroundColor": "#F5F0FB",
+      "borderColor": "#F5F0FB",
+      "borderEdges": [],
+      "borderRadius": 16,
+      "borderWidth": 0
+    }
+  },
+  "widgets": {
+    "console": {
+      "actions": [],
+      "name": "console",
+      "label": "cumulusLobConsole",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusLobConsole",
+        "properties": {
+          "title": "Claims Service Console",
+          "accentColor": "#7C3AED",
+          "headerFrom": "#2E1065",
+          "headerTo": "#DB2777",
+          "config": "{\"entity\": {\"field\": \"INS_Claims.State\", \"label\": \"State\"}, \"month\": \"INS_Claims.LossMonth\", \"region\": {\"field\": \"INS_Claims.LineOfBusiness\", \"label\": \"Line\"}, \"kpis\": [{\"name\": \"Claim_Count\", \"label\": \"Claims\", \"format\": \"number\", \"upGood\": false, \"weight\": true}, {\"name\": \"Total_Paid\", \"label\": \"Paid\", \"format\": \"currency\", \"upGood\": false}, {\"name\": \"Avg_Claim_Cycle_Time\", \"label\": \"Avg cycle (days)\", \"format\": \"number\", \"upGood\": false, \"primary\": true}, {\"name\": \"Open_Claims\", \"label\": \"Open claims\", \"format\": \"number\", \"upGood\": false}, {\"name\": \"CAT_Claims\", \"label\": \"Catastrophe claims\", \"format\": \"number\", \"upGood\": false}], \"target\": {\"kpi\": \"Avg_Claim_Cycle_Time\", \"value\": 14}, \"persona\": \"Claims service manager\", \"domain\": \"Claims Insights\", \"modelLabel\": \"Cumulus Insurance\", \"slack\": \"claims-leadership\"}",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#F5F0FB",
+          "borderColor": "#F5F0FB",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusLobConsole",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    }
+  },
+  "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Insurance_WS.Name}"
+}

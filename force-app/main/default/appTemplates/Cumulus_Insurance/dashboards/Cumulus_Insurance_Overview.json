@@ -20,104 +20,195 @@
               "name": "hdr",
               "column": 0,
               "row": 0,
-              "colspan": 96,
-              "rowspan": 6
+              "colspan": 64,
+              "rowspan": 5
+            },
+            {
+              "name": "flt_LineOfBusiness",
+              "column": 64,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 5
+            },
+            {
+              "name": "flt_State",
+              "column": 80,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 5
             },
             {
               "name": "x_banner",
               "column": 0,
-              "row": 6,
+              "row": 5,
               "colspan": 96,
               "rowspan": 5
             },
             {
-              "name": "w_INS_KPI_Claims",
+              "name": "k_claims",
               "column": 0,
-              "row": 11,
+              "row": 10,
               "colspan": 24,
-              "rowspan": 9
+              "rowspan": 16
             },
             {
-              "name": "w_INS_KPI_Loss_Ratio",
+              "name": "k_lr",
               "column": 24,
-              "row": 11,
+              "row": 10,
               "colspan": 24,
-              "rowspan": 9
+              "rowspan": 16
             },
             {
-              "name": "w_INS_KPI_Cycle",
+              "name": "k_cycle",
               "column": 48,
-              "row": 11,
+              "row": 10,
               "colspan": 24,
-              "rowspan": 9
+              "rowspan": 16
             },
             {
-              "name": "w_INS_KPI_Premium",
+              "name": "k_open",
               "column": 72,
-              "row": 11,
+              "row": 10,
               "colspan": 24,
-              "rowspan": 9
+              "rowspan": 16
+            },
+            {
+              "name": "x_map",
+              "column": 0,
+              "row": 26,
+              "colspan": 60,
+              "rowspan": 38
+            },
+            {
+              "name": "t_INS_Loss_Ratio_By_State",
+              "column": 60,
+              "row": 26,
+              "colspan": 36,
+              "rowspan": 6
+            },
+            {
+              "name": "w_INS_Loss_Ratio_By_State",
+              "column": 60,
+              "row": 32,
+              "colspan": 36,
+              "rowspan": 32
+            },
+            {
+              "name": "t_INS_Claims_Trend",
+              "column": 0,
+              "row": 64,
+              "colspan": 96,
+              "rowspan": 6
             },
             {
               "name": "w_INS_Claims_Trend",
               "column": 0,
-              "row": 20,
+              "row": 70,
               "colspan": 96,
-              "rowspan": 30
+              "rowspan": 24
+            },
+            {
+              "name": "t_INS_Cycle_By_CAT",
+              "column": 0,
+              "row": 94,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_INS_Cycle_By_CAT",
               "column": 0,
-              "row": 50,
+              "row": 100,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_INS_Loss_Ratio_By_LOB",
+              "column": 32,
+              "row": 94,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_INS_Loss_Ratio_By_LOB",
               "column": 32,
-              "row": 50,
+              "row": 100,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_INS_Claims_By_Status",
+              "column": 64,
+              "row": 94,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_INS_Claims_By_Status",
               "column": 64,
-              "row": 50,
+              "row": 100,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_INS_Renewals_By_Producer",
+              "column": 0,
+              "row": 124,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_INS_Renewals_By_Producer",
               "column": 0,
-              "row": 78,
+              "row": 130,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_INS_Cases_Agentforce",
+              "column": 32,
+              "row": 124,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_INS_Cases_Agentforce",
               "column": 32,
-              "row": 78,
+              "row": 130,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_INS_Claims_By_State",
+              "column": 64,
+              "row": 124,
+              "colspan": 32,
+              "rowspan": 6
+            },
+            {
+              "name": "w_INS_Claims_By_State",
+              "column": 64,
+              "row": 130,
+              "colspan": 32,
+              "rowspan": 24
             }
           ]
         }
       ],
       "rowHeight": 10,
       "style": {
-        "backgroundColor": "#EEF2F7",
-        "cellSpacingX": 12,
-        "cellSpacingY": 12,
-        "gutterColor": "#EEF2F7"
+        "backgroundColor": "#F5F0FB",
+        "cellSpacingX": 14,
+        "cellSpacingY": 14,
+        "gutterColor": "#F5F0FB"
       }
     }
   ],
   "style": {
     "widgetStyle": {
       "backgroundColor": "#FFFFFF",
-      "borderColor": "#D9E1EC",
+      "borderColor": "#E3E9F1",
       "borderEdges": [],
-      "borderRadius": 12,
+      "borderRadius": 16,
       "borderWidth": 1
     }
   },
@@ -135,11 +226,11 @@
         "content": [
           {
             "attributes": {
-              "color": "#032D60",
-              "size": "22px",
+              "color": "#4C1D95",
+              "size": "26px",
               "bold": true
             },
-            "insert": "Cumulus Insurance Overview",
+            "insert": "Claims Service Command Center",
             "rules": []
           },
           {
@@ -151,10 +242,10 @@
           },
           {
             "attributes": {
-              "color": "#5C6B82",
+              "color": "#6B4FA3",
               "size": "13px"
             },
-            "insert": "",
+            "insert": "Claims service manager view \u2014 loss ratio, cycle time, catastrophe impact, renewals",
             "rules": []
           },
           {
@@ -164,7 +255,76 @@
             "insert": "\n",
             "rules": []
           }
-        ]
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#ECE2F8",
+          "borderColor": "#ECE2F8",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      }
+    },
+    "flt_LineOfBusiness": {
+      "actions": [],
+      "label": "Line of Business",
+      "name": "flt_LineOfBusiness",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}"
+      },
+      "parameters": {
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "LineOfBusiness",
+          "objectName": "INS_Policies",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "viewType": "list",
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
+    },
+    "flt_State": {
+      "actions": [],
+      "label": "State",
+      "name": "flt_State",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}"
+      },
+      "parameters": {
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "State",
+          "objectName": "INS_Claims",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "viewType": "list",
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
       }
     },
     "x_banner": {
@@ -196,9 +356,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#E5E5E5",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 8,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -209,9 +369,272 @@
       },
       "type": "extension"
     },
-    "w_INS_KPI_Claims": {
+    "k_claims": {
       "actions": [],
-      "name": "w_INS_KPI_Claims",
+      "name": "k_claims",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Claim_Count",
+            "aggregation": "UserAgg",
+            "label": "Claims"
+          },
+          "title": "Claims Reported",
+          "accentColor": "#7C3AED",
+          "sentiment": "UpIsBad",
+          "format": "number",
+          "target": "",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "INS_Claims.LossMonth",
+            "label": "Loss Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_lr": {
+      "actions": [],
+      "name": "k_lr",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Loss_Ratio",
+            "aggregation": "UserAgg",
+            "label": "Loss Ratio"
+          },
+          "title": "Loss Ratio",
+          "accentColor": "#DB2777",
+          "sentiment": "UpIsBad",
+          "format": "percent",
+          "target": "0.6",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "INS_Claims.LossMonth",
+            "label": "Loss Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_cycle": {
+      "actions": [],
+      "name": "k_cycle",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Avg_Claim_Cycle_Time",
+            "aggregation": "UserAgg",
+            "label": "Avg Claim Cycle Time"
+          },
+          "title": "Avg Claim Cycle (days)",
+          "accentColor": "#A855F7",
+          "sentiment": "UpIsBad",
+          "format": "number",
+          "target": "20",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "INS_Claims.LossMonth",
+            "label": "Loss Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_open": {
+      "actions": [],
+      "name": "k_open",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Open_Claims",
+            "aggregation": "UserAgg",
+            "label": "Open Claims"
+          },
+          "title": "Open Claims",
+          "accentColor": "#C026D3",
+          "sentiment": "UpIsBad",
+          "format": "number",
+          "target": "",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "Report_Month",
+            "label": "Report Month"
+          },
+          "trendMeasureField": {
+            "name": "Claim_Count",
+            "aggregation": "UserAgg",
+            "label": "Claims"
+          },
+          "trendLabel": "claims reported per month",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "x_map": {
+      "actions": [],
+      "name": "x_map",
+      "label": "cumulusStateMap",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusStateMap",
+        "properties": {
+          "dimensionField": {
+            "name": "INS_Claims.State",
+            "label": "State"
+          },
+          "measureField": {
+            "name": "Loss_Ratio",
+            "aggregation": "UserAgg",
+            "label": "Loss Ratio"
+          },
+          "title": "Loss ratio and catastrophe exposure by state",
+          "subtitle": "Shade = loss ratio \u00b7 bubble = catastrophe claims",
+          "format": "percent",
+          "lowColor": "#EDE4FA",
+          "highColor": "#A855F7",
+          "bubbleColor": "#F59E0B",
+          "showLabels": true,
+          "bubbleMeasureField": {
+            "name": "CAT_Claims",
+            "aggregation": "UserAgg",
+            "label": "Catastrophe Claims"
+          },
+          "bubbleFormat": "number",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusStateMap",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "t_INS_Loss_Ratio_By_State": {
+      "actions": [],
+      "name": "t_INS_Loss_Ratio_By_State",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Worst loss ratios by state",
+          "subtitle": "Paid claims over written premium",
+          "accentColor": "#BE123C",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_INS_Loss_Ratio_By_State": {
+      "actions": [],
+      "name": "w_INS_Loss_Ratio_By_State",
       "parameters": {
         "legendPosition": "Bottom",
         "receiveFilterSource": {
@@ -220,86 +643,48 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
       "source": {
-        "id": "${App.Visualizations.INS_KPI_Claims.Id}",
-        "name": "${App.Visualizations.INS_KPI_Claims.Name}"
+        "id": "${App.Visualizations.INS_Loss_Ratio_By_State.Id}",
+        "name": "${App.Visualizations.INS_Loss_Ratio_By_State.Name}"
       },
       "type": "visualization"
     },
-    "w_INS_KPI_Loss_Ratio": {
+    "t_INS_Claims_Trend": {
       "actions": [],
-      "name": "w_INS_KPI_Loss_Ratio",
+      "name": "t_INS_Claims_Trend",
+      "label": "cumulusChartHeadline",
       "parameters": {
-        "legendPosition": "Bottom",
-        "receiveFilterSource": {
-          "filterMode": "all",
-          "widgetIds": []
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "June 2026 hail: six times the normal month",
+          "subtitle": "Claims by loss month",
+          "accentColor": "#7C3AED",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#FFFFFF",
           "borderEdges": [],
-          "borderRadius": 12,
-          "borderWidth": 1
+          "borderRadius": 16,
+          "borderWidth": 0
         }
       },
       "source": {
-        "id": "${App.Visualizations.INS_KPI_Loss_Ratio.Id}",
-        "name": "${App.Visualizations.INS_KPI_Loss_Ratio.Name}"
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
       },
-      "type": "visualization"
-    },
-    "w_INS_KPI_Cycle": {
-      "actions": [],
-      "name": "w_INS_KPI_Cycle",
-      "parameters": {
-        "legendPosition": "Bottom",
-        "receiveFilterSource": {
-          "filterMode": "all",
-          "widgetIds": []
-        },
-        "widgetStyle": {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
-          "borderEdges": [],
-          "borderRadius": 12,
-          "borderWidth": 1
-        }
-      },
-      "source": {
-        "id": "${App.Visualizations.INS_KPI_Cycle.Id}",
-        "name": "${App.Visualizations.INS_KPI_Cycle.Name}"
-      },
-      "type": "visualization"
-    },
-    "w_INS_KPI_Premium": {
-      "actions": [],
-      "name": "w_INS_KPI_Premium",
-      "parameters": {
-        "legendPosition": "Bottom",
-        "receiveFilterSource": {
-          "filterMode": "all",
-          "widgetIds": []
-        },
-        "widgetStyle": {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
-          "borderEdges": [],
-          "borderRadius": 12,
-          "borderWidth": 1
-        }
-      },
-      "source": {
-        "id": "${App.Visualizations.INS_KPI_Premium.Id}",
-        "name": "${App.Visualizations.INS_KPI_Premium.Name}"
-      },
-      "type": "visualization"
+      "type": "extension"
     },
     "w_INS_Claims_Trend": {
       "actions": [],
@@ -312,9 +697,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -323,6 +708,37 @@
         "name": "${App.Visualizations.INS_Claims_Trend.Name}"
       },
       "type": "visualization"
+    },
+    "t_INS_Cycle_By_CAT": {
+      "actions": [],
+      "name": "t_INS_Cycle_By_CAT",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Catastrophe claims take 5 days longer to settle",
+          "subtitle": "Average cycle time in days by state, CAT vs normal",
+          "accentColor": "#A855F7",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_INS_Cycle_By_CAT": {
       "actions": [],
@@ -335,9 +751,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -346,6 +762,37 @@
         "name": "${App.Visualizations.INS_Cycle_By_CAT.Name}"
       },
       "type": "visualization"
+    },
+    "t_INS_Loss_Ratio_By_LOB": {
+      "actions": [],
+      "name": "t_INS_Loss_Ratio_By_LOB",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Personal Auto runs the highest loss ratio",
+          "subtitle": "Paid claims over written premium, by line",
+          "accentColor": "#DB2777",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_INS_Loss_Ratio_By_LOB": {
       "actions": [],
@@ -358,9 +805,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -369,6 +816,37 @@
         "name": "${App.Visualizations.INS_Loss_Ratio_By_LOB.Name}"
       },
       "type": "visualization"
+    },
+    "t_INS_Claims_By_Status": {
+      "actions": [],
+      "name": "t_INS_Claims_By_Status",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "67 claims still open \u2014 most awaiting review",
+          "subtitle": "Open claims by status",
+          "accentColor": "#6D28D9",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_INS_Claims_By_Status": {
       "actions": [],
@@ -381,9 +859,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -392,6 +870,37 @@
         "name": "${App.Visualizations.INS_Claims_By_Status.Name}"
       },
       "type": "visualization"
+    },
+    "t_INS_Renewals_By_Producer": {
+      "actions": [],
+      "name": "t_INS_Renewals_By_Producer",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Renewal rates are flat across producer types",
+          "subtitle": "Policies by producer type and status",
+          "accentColor": "#C026D3",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_INS_Renewals_By_Producer": {
       "actions": [],
@@ -404,9 +913,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -415,6 +924,37 @@
         "name": "${App.Visualizations.INS_Renewals_By_Producer.Name}"
       },
       "type": "visualization"
+    },
+    "t_INS_Cases_Agentforce": {
+      "actions": [],
+      "name": "t_INS_Cases_Agentforce",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Agentforce-handled claim cases score higher CSAT",
+          "subtitle": "Average CSAT, Agentforce vs human",
+          "accentColor": "#0F766E",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_INS_Cases_Agentforce": {
       "actions": [],
@@ -427,15 +967,69 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
       "source": {
         "id": "${App.Visualizations.INS_Cases_Agentforce.Id}",
         "name": "${App.Visualizations.INS_Cases_Agentforce.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_INS_Claims_By_State": {
+      "actions": [],
+      "name": "t_INS_Claims_By_State",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Claims concentrate in the hail-belt states",
+          "subtitle": "Claims by state",
+          "accentColor": "#B45309",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Insurance_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Insurance_SDM.Id}",
+            "label": "Cumulus Insurance Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_INS_Claims_By_State": {
+      "actions": [],
+      "name": "w_INS_Claims_By_State",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.INS_Claims_By_State.Id}",
+        "name": "${App.Visualizations.INS_Claims_By_State.Name}"
       },
       "type": "visualization"
     }

@@ -20,97 +20,181 @@
               "name": "hdr",
               "column": 0,
               "row": 0,
-              "colspan": 96,
-              "rowspan": 6
+              "colspan": 64,
+              "rowspan": 5
+            },
+            {
+              "name": "flt_Region",
+              "column": 64,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 5
+            },
+            {
+              "name": "flt_Channel",
+              "column": 80,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 5
             },
             {
               "name": "x_banner",
               "column": 0,
-              "row": 6,
+              "row": 5,
               "colspan": 96,
               "rowspan": 5
             },
             {
-              "name": "w_LN_KPI_Apps",
+              "name": "k_apps",
               "column": 0,
-              "row": 11,
+              "row": 10,
               "colspan": 24,
-              "rowspan": 9
+              "rowspan": 16
             },
             {
-              "name": "w_LN_KPI_Volume",
+              "name": "k_pt",
               "column": 24,
-              "row": 11,
+              "row": 10,
               "colspan": 24,
-              "rowspan": 9
+              "rowspan": 16
             },
             {
-              "name": "w_LN_KPI_TTC",
+              "name": "k_ttc",
               "column": 48,
-              "row": 11,
+              "row": 10,
               "colspan": 24,
-              "rowspan": 9
+              "rowspan": 16
             },
             {
-              "name": "w_LN_KPI_Stage",
+              "name": "k_vol",
               "column": 72,
-              "row": 11,
+              "row": 10,
               "colspan": 24,
-              "rowspan": 9
+              "rowspan": 16
+            },
+            {
+              "name": "x_map",
+              "column": 0,
+              "row": 26,
+              "colspan": 60,
+              "rowspan": 38
+            },
+            {
+              "name": "t_LN_Time_To_Close_By_State",
+              "column": 60,
+              "row": 26,
+              "colspan": 36,
+              "rowspan": 6
+            },
+            {
+              "name": "w_LN_Time_To_Close_By_State",
+              "column": 60,
+              "row": 32,
+              "colspan": 36,
+              "rowspan": 32
+            },
+            {
+              "name": "t_LN_Apps_Trend",
+              "column": 0,
+              "row": 64,
+              "colspan": 96,
+              "rowspan": 6
             },
             {
               "name": "w_LN_Apps_Trend",
               "column": 0,
-              "row": 20,
+              "row": 70,
               "colspan": 96,
-              "rowspan": 30
+              "rowspan": 24
+            },
+            {
+              "name": "t_LN_Days_By_Stage",
+              "column": 0,
+              "row": 94,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_LN_Days_By_Stage",
               "column": 0,
-              "row": 50,
+              "row": 100,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_LN_Status_By_Channel",
+              "column": 32,
+              "row": 94,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_LN_Status_By_Channel",
               "column": 32,
-              "row": 50,
+              "row": 100,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_LN_Volume_By_Product",
+              "column": 64,
+              "row": 94,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_LN_Volume_By_Product",
               "column": 64,
-              "row": 50,
+              "row": 100,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_LN_LO_Leaderboard",
+              "column": 0,
+              "row": 124,
+              "colspan": 32,
+              "rowspan": 6
             },
             {
               "name": "w_LN_LO_Leaderboard",
               "column": 0,
-              "row": 78,
+              "row": 130,
               "colspan": 32,
-              "rowspan": 28
+              "rowspan": 24
+            },
+            {
+              "name": "t_LN_Pull_Through_By_Channel",
+              "column": 32,
+              "row": 124,
+              "colspan": 32,
+              "rowspan": 6
+            },
+            {
+              "name": "w_LN_Pull_Through_By_Channel",
+              "column": 32,
+              "row": 130,
+              "colspan": 32,
+              "rowspan": 24
             }
           ]
         }
       ],
       "rowHeight": 10,
       "style": {
-        "backgroundColor": "#EEF2F7",
-        "cellSpacingX": 12,
-        "cellSpacingY": 12,
-        "gutterColor": "#EEF2F7"
+        "backgroundColor": "#EEF6F8",
+        "cellSpacingX": 14,
+        "cellSpacingY": 14,
+        "gutterColor": "#EEF6F8"
       }
     }
   ],
   "style": {
     "widgetStyle": {
       "backgroundColor": "#FFFFFF",
-      "borderColor": "#D9E1EC",
+      "borderColor": "#E3E9F1",
       "borderEdges": [],
-      "borderRadius": 12,
+      "borderRadius": 16,
       "borderWidth": 1
     }
   },
@@ -128,11 +212,11 @@
         "content": [
           {
             "attributes": {
-              "color": "#032D60",
-              "size": "22px",
+              "color": "#0E4A5C",
+              "size": "26px",
               "bold": true
             },
-            "insert": "Cumulus Lending Overview",
+            "insert": "Loan Operations Command Center",
             "rules": []
           },
           {
@@ -144,10 +228,10 @@
           },
           {
             "attributes": {
-              "color": "#5C6B82",
+              "color": "#2F6E80",
               "size": "13px"
             },
-            "insert": "",
+            "insert": "Loan operations manager view \u2014 volume, pull-through, cycle time, stage bottlenecks",
             "rules": []
           },
           {
@@ -157,7 +241,76 @@
             "insert": "\n",
             "rules": []
           }
-        ]
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#CFF3F9",
+          "borderColor": "#CFF3F9",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      }
+    },
+    "flt_Region": {
+      "actions": [],
+      "label": "Region",
+      "name": "flt_Region",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}"
+      },
+      "parameters": {
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "Region",
+          "objectName": "LN_Applications",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "viewType": "list",
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
+    },
+    "flt_Channel": {
+      "actions": [],
+      "label": "Channel",
+      "name": "flt_Channel",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}"
+      },
+      "parameters": {
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "Channel",
+          "objectName": "LN_Applications",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "viewType": "list",
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
       }
     },
     "x_banner": {
@@ -189,9 +342,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#E5E5E5",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 8,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -202,9 +355,266 @@
       },
       "type": "extension"
     },
-    "w_LN_KPI_Apps": {
+    "k_apps": {
       "actions": [],
-      "name": "w_LN_KPI_Apps",
+      "name": "k_apps",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Applications",
+            "aggregation": "UserAgg",
+            "label": "Applications"
+          },
+          "title": "Applications",
+          "accentColor": "#0891B2",
+          "sentiment": "UpIsGood",
+          "format": "number",
+          "target": "",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "LN_Applications.SubmittedMonth",
+            "label": "Submitted Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_pt": {
+      "actions": [],
+      "name": "k_pt",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Pull_Through_Rate",
+            "aggregation": "UserAgg",
+            "label": "Pull-Through Rate"
+          },
+          "title": "Pull-Through Rate",
+          "accentColor": "#C026D3",
+          "sentiment": "UpIsGood",
+          "format": "percent",
+          "target": "0.7",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "LN_Applications.SubmittedMonth",
+            "label": "Submitted Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_ttc": {
+      "actions": [],
+      "name": "k_ttc",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Avg_Time_To_Close",
+            "aggregation": "UserAgg",
+            "label": "Avg Time to Close"
+          },
+          "title": "Avg Time to Close (days)",
+          "accentColor": "#DB2777",
+          "sentiment": "UpIsBad",
+          "format": "number",
+          "target": "30",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "LN_Applications.SubmittedMonth",
+            "label": "Submitted Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_vol": {
+      "actions": [],
+      "name": "k_vol",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Requested_Volume",
+            "aggregation": "UserAgg",
+            "label": "Requested Volume"
+          },
+          "title": "Requested Volume",
+          "accentColor": "#0E7490",
+          "sentiment": "UpIsGood",
+          "format": "currency",
+          "target": "",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "LN_Applications.SubmittedMonth",
+            "label": "Submitted Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "x_map": {
+      "actions": [],
+      "name": "x_map",
+      "label": "cumulusStateMap",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusStateMap",
+        "properties": {
+          "dimensionField": {
+            "name": "Application_State",
+            "label": "Application State"
+          },
+          "measureField": {
+            "name": "Pull_Through_Rate",
+            "aggregation": "UserAgg",
+            "label": "Pull-Through Rate"
+          },
+          "title": "Pull-through by state",
+          "subtitle": "Shade = share of applications funded \u00b7 bubble = application volume",
+          "format": "percent",
+          "lowColor": "#CFEFF6",
+          "highColor": "#0891B2",
+          "bubbleColor": "#C026D3",
+          "showLabels": true,
+          "bubbleMeasureField": {
+            "name": "Applications",
+            "aggregation": "UserAgg",
+            "label": "Applications"
+          },
+          "bubbleFormat": "number",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusStateMap",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "t_LN_Time_To_Close_By_State": {
+      "actions": [],
+      "name": "t_LN_Time_To_Close_By_State",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Slowest states to close",
+          "subtitle": "Average days to close by state",
+          "accentColor": "#BE123C",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_LN_Time_To_Close_By_State": {
+      "actions": [],
+      "name": "w_LN_Time_To_Close_By_State",
       "parameters": {
         "legendPosition": "Bottom",
         "receiveFilterSource": {
@@ -213,86 +623,48 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
       "source": {
-        "id": "${App.Visualizations.LN_KPI_Apps.Id}",
-        "name": "${App.Visualizations.LN_KPI_Apps.Name}"
+        "id": "${App.Visualizations.LN_Time_To_Close_By_State.Id}",
+        "name": "${App.Visualizations.LN_Time_To_Close_By_State.Name}"
       },
       "type": "visualization"
     },
-    "w_LN_KPI_Volume": {
+    "t_LN_Apps_Trend": {
       "actions": [],
-      "name": "w_LN_KPI_Volume",
+      "name": "t_LN_Apps_Trend",
+      "label": "cumulusChartHeadline",
       "parameters": {
-        "legendPosition": "Bottom",
-        "receiveFilterSource": {
-          "filterMode": "all",
-          "widgetIds": []
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Application volume holds steady month to month",
+          "subtitle": "Applications submitted per month",
+          "accentColor": "#0891B2",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#FFFFFF",
           "borderEdges": [],
-          "borderRadius": 12,
-          "borderWidth": 1
+          "borderRadius": 16,
+          "borderWidth": 0
         }
       },
       "source": {
-        "id": "${App.Visualizations.LN_KPI_Volume.Id}",
-        "name": "${App.Visualizations.LN_KPI_Volume.Name}"
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
       },
-      "type": "visualization"
-    },
-    "w_LN_KPI_TTC": {
-      "actions": [],
-      "name": "w_LN_KPI_TTC",
-      "parameters": {
-        "legendPosition": "Bottom",
-        "receiveFilterSource": {
-          "filterMode": "all",
-          "widgetIds": []
-        },
-        "widgetStyle": {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
-          "borderEdges": [],
-          "borderRadius": 12,
-          "borderWidth": 1
-        }
-      },
-      "source": {
-        "id": "${App.Visualizations.LN_KPI_TTC.Id}",
-        "name": "${App.Visualizations.LN_KPI_TTC.Name}"
-      },
-      "type": "visualization"
-    },
-    "w_LN_KPI_Stage": {
-      "actions": [],
-      "name": "w_LN_KPI_Stage",
-      "parameters": {
-        "legendPosition": "Bottom",
-        "receiveFilterSource": {
-          "filterMode": "all",
-          "widgetIds": []
-        },
-        "widgetStyle": {
-          "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
-          "borderEdges": [],
-          "borderRadius": 12,
-          "borderWidth": 1
-        }
-      },
-      "source": {
-        "id": "${App.Visualizations.LN_KPI_Stage.Id}",
-        "name": "${App.Visualizations.LN_KPI_Stage.Name}"
-      },
-      "type": "visualization"
+      "type": "extension"
     },
     "w_LN_Apps_Trend": {
       "actions": [],
@@ -305,9 +677,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -316,6 +688,37 @@
         "name": "${App.Visualizations.LN_Apps_Trend.Name}"
       },
       "type": "visualization"
+    },
+    "t_LN_Days_By_Stage": {
+      "actions": [],
+      "name": "t_LN_Days_By_Stage",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Document collection is 56% of the cycle",
+          "subtitle": "Average days in each stage",
+          "accentColor": "#C026D3",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_LN_Days_By_Stage": {
       "actions": [],
@@ -328,9 +731,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -339,6 +742,37 @@
         "name": "${App.Visualizations.LN_Days_By_Stage.Name}"
       },
       "type": "visualization"
+    },
+    "t_LN_Status_By_Channel": {
+      "actions": [],
+      "name": "t_LN_Status_By_Channel",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Pull-through is similar across channels (60\u201366%)",
+          "subtitle": "Applications by channel and status",
+          "accentColor": "#0E7490",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_LN_Status_By_Channel": {
       "actions": [],
@@ -351,9 +785,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -362,6 +796,37 @@
         "name": "${App.Visualizations.LN_Status_By_Channel.Name}"
       },
       "type": "visualization"
+    },
+    "t_LN_Volume_By_Product": {
+      "actions": [],
+      "name": "t_LN_Volume_By_Product",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "30-year fixed is 57% of requested volume",
+          "subtitle": "Requested volume by product",
+          "accentColor": "#DB2777",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_LN_Volume_By_Product": {
       "actions": [],
@@ -374,9 +839,9 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
@@ -385,6 +850,37 @@
         "name": "${App.Visualizations.LN_Volume_By_Product.Name}"
       },
       "type": "visualization"
+    },
+    "t_LN_LO_Leaderboard": {
+      "actions": [],
+      "name": "t_LN_LO_Leaderboard",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Top loan officers fund $26\u201339M each",
+          "subtitle": "Requested volume by loan officer, funded vs not",
+          "accentColor": "#0F766E",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
     },
     "w_LN_LO_Leaderboard": {
       "actions": [],
@@ -397,15 +893,69 @@
         },
         "widgetStyle": {
           "backgroundColor": "#FFFFFF",
-          "borderColor": "#D9E1EC",
+          "borderColor": "#E3E9F1",
           "borderEdges": [],
-          "borderRadius": 12,
+          "borderRadius": 16,
           "borderWidth": 1
         }
       },
       "source": {
         "id": "${App.Visualizations.LN_LO_Leaderboard.Id}",
         "name": "${App.Visualizations.LN_LO_Leaderboard.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_LN_Pull_Through_By_Channel": {
+      "actions": [],
+      "name": "t_LN_Pull_Through_By_Channel",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Pull-through by channel",
+          "subtitle": "Share of applications funded",
+          "accentColor": "#B45309",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Lending_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Lending_SDM.Id}",
+            "label": "Cumulus Lending Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_LN_Pull_Through_By_Channel": {
+      "actions": [],
+      "name": "w_LN_Pull_Through_By_Channel",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.LN_Pull_Through_By_Channel.Id}",
+        "name": "${App.Visualizations.LN_Pull_Through_By_Channel.Name}"
       },
       "type": "visualization"
     }

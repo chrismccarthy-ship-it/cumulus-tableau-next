@@ -1,0 +1,80 @@
+<template>
+    <div class="root" style={rootStyle}>
+        <template lwc:if={isConfigured}>
+            <div class="topbar">
+                <div class="brand"><div class="bt">{headerTitle}</div><template lwc:if={isAdvisorView}><button class="back" onclick={backToTeam}>← Team view</button></template></div>
+                <div class="tabs"><template for:each={tabs} for:item="t"><button key={t.key} class={t.cls} data-tab={t.key} onclick={setTab}>{t.label}</button></template></div>
+            </div>
+            <template lwc:if={error}><div class="error">{error}</div></template>
+            <div class="layout">
+                <!-- rail -->
+                <div class="rail">
+                    <div class="railhead">{headerTitle}</div>
+                    <button class="ai" onclick={regenerate}>✦ Refresh AI Insights</button>
+                    <label>Date<select onchange={onPeriod}><template for:each={periodOptions} for:item="o"><option key={o.value} value={o.value} selected={o.selected}>{o.label}</option></template></select></label>
+                    <label>Advisor<select onchange={onAdvisor}><template for:each={advisorOptions} for:item="o"><option key={o.value} value={o.value} selected={o.selected}>{o.label}</option></template></select></label>
+                    <template lwc:if={hasReport}><button class="back" onclick={openReportModal}>▤ Open last report</button></template>
+                </div>
+                <div class="main">
+                    <div class="banner"><span class="chip">✦ AGENTFORCE INSIGHT</span><div class="btitle">{banner.title}</div><div class="bsub">{banner.sub}</div></div>
+                    <div class="kpis">
+                        <template for:each={kpis} for:item="k">
+                            <div class={k.cls} key={k.key}><div class="kl">{k.label}</div><div class="kv">{k.text}</div><div class="ks">{k.sub}</div>
+                                <template lwc:if={k.hasSpark}><svg class="spark" viewBox="0 0 200 40" preserveAspectRatio="none"><path class="area" d={k.area}></path><path class="line" d={k.line}></path><circle class="end" cx={k.endx} cy={k.endy} r="2.5"></circle></svg><div class="kc">{k.spark}</div></template>
+                            </div>
+                        </template>
+                    </div>
+                    <div class="split">
+                        <div class="left">
+                            <div class="card chart"><div class="ctitle">{chart.title}</div><div class="csub">{chart.sub}</div>
+                                <template for:each={chart.items} for:item="r"><div class="hb" key={r.label}><span class="hl">{r.label}</span><span class="track"><span class="fill" style={r.style}></span></span><span class="hv">{r.value}</span></div></template>
+                            </div>
+                            <div class="lhead">AI-driven insights</div>
+                            <template for:each={insightCards} for:item="i">
+                                <div class={i.cls} key={i.id}>
+                                    <template lwc:if={i.isEditing}>
+                                        <input class="edit" type="text" value={editing.title} oninput={onEditTitle} data-bind="title"/><textarea class="edit" rows="5" value={editing.body} oninput={onEditBody} data-bind="body"></textarea>
+                                        <div class="acts"><button class="act go" onclick={saveInsight}>Save</button><button class="act" onclick={cancelEdit}>Cancel</button></div>
+                                    </template>
+                                    <template lwc:else>
+                                        <div class="ihead"><span class="iicon">{i.icon}</span><span class="ititle">{i.title}</span><button class="pencil" data-id={i.id} onclick={editInsight} title="Edit insight">✎</button></div>
+                                        <p class="ibody">{i.body}</p>
+                                        <div class="acts">
+                                            <template lwc:if={i.btnCase}><button class="act red" data-action="case" data-id={i.id} onclick={insightAction}>⚑ Escalate</button></template>
+                                            <template lwc:if={i.btnSchedule}><button class="act amber" data-action="schedule" data-id={i.id} onclick={insightAction}>📅 Schedule Review</button></template>
+                                            <button class="act" data-action="task" data-id={i.id} onclick={insightAction}>👤 {i.taskLabel}</button>
+                                            <button class="act" data-action="flow" data-id={i.id} onclick={insightAction}>⇶ Launch Flow</button>
+                                        </div>
+                                    </template>
+                                </div>
+                            </template>
+                        </div>
+                        <div class="card right">
+                            <div class="ctitle">{tableTitle}</div><div class="csub">Click Analyze to deep-dive · {periodLabel}</div>
+                            <div class="tscroll"><table>
+                                <thead><tr><th>Status</th><th>{colLabel}</th><th>{colTier}</th><th class="r">PTD AUM</th><th class="r">Net flows</th><th class="r">Revenue</th><th class="r">Goals</th><th class="r">Interactions</th><th>{colChurn}</th><th>Actions</th></tr></thead>
+                                <tbody><template for:each={rows} for:item="b">
+                                    <tr key={b.key}>
+                                        <td><span class={b.badgeClass}>{b.badge}</span></td>
+                                        <td class="bname"><template lwc:if={b.canDrill}><button class="link" data-advisor={b.key} onclick={drill}>{b.key}</button></template><template lwc:else>{b.key}</template></td>
+                                        <td class="muted">{b.tierText}</td><td class="r">{b.aumText}</td><td class="r"><span class={b.netClass}>{b.netText}</span></td><td class="r">{b.revText}</td><td class="r"><span class={b.goalsClass}>{b.goalsText}</span></td><td class="r">{b.interText}</td><td class="muted">{b.churnText}</td>
+                                        <td class="actions">
+                                            <button class="act blue" data-action="analyze" data-key={b.key} onclick={rowAction}>✦ Analyze</button>
+                                            <button class="act" data-action="schedule" data-key={b.key} onclick={rowAction}>📅 Review</button>
+                                            <button class="act" data-action="case" data-key={b.key} onclick={rowAction}>⊕ Case</button>
+                                            <button class="act" data-action="flow" data-key={b.key} onclick={rowAction}>⇶ Flow</button>
+                                            <button class="act" data-action="report" data-key={b.key} onclick={rowAction}>▤ Report</button>
+                                        </td>
+                                    </tr>
+                                </template></tbody>
+                            </table></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <template lwc:if={modalOpen}><c-cumulus-action-modal mode={modalMode} context={modalContext} accent={accent} onclose={closeModal} onreask={onReask}></c-cumulus-action-modal></template>
+            <div class="footnote">Data 360 · Cumulus Wealth Management Tableau Next semantic model · insights generated from the live model (Agentforce simulation) — edit any card with ✎</div>
+        </template>
+        <template lwc:else><div class="configure">Select the Cumulus Wealth Management semantic model in the widget panel.</div></template>
+    </div>
+</template>
