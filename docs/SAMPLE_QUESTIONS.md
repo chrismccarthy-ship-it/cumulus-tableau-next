@@ -1,8 +1,10 @@
 # Sample questions and results
 
+Dollar amounts are written as USD so they render on GitHub and in the Google Doc.
+
 Ten questions per industry for the Tableau Next analytics agent (70 in total), plus what happened when 15 of them were run against the semantic models.
 
-**Google Doc version (with the same charts and notes):** GOOGLE_DOC_LINK
+**Google Doc version (with the same charts and notes):** [Cumulus Tableau Next: sample questions and results](https://docs.google.com/document/d/1-jTewKieCs9LpO4OyayeAP0K2x8PzaXeZ-WflnmY1vc/edit)
 
 ## How the results were produced
 
@@ -22,7 +24,7 @@ Ten questions per industry for the Tableau Next analytics agent (70 in total), p
 - **Date filter rejected.** The Retail Banking dispute query with a `CreatedDate >= 2026-05-01` filter failed (`Cannot find field: filters in message`). The Postman collection's filter example uses that shape, so it is likely wrong. The question was re-run without the date filter.
 - **Retail dispute spike not visible.** Without the date filter, the top 10 branches sit between 42 and 54 dispute cases and BR-003 is not standing out.
 - **Insurance hail story is weaker than described.** Catastrophe claims took 25.8 days against 20.5 (about 26% longer), not the 40% in the demo narrative.
-- **Flat charts.** Retail deposits by region ($21.4M to $24.0M) and Retail CSAT, Agentforce vs human (within 0.12 on every case type), show little.
+- **Flat charts.** Retail deposits by region (USD 21.4M to USD 24.0M) and Retail CSAT, Agentforce vs human (within 0.12 on every case type), show little.
 - **Not tested:** the analytics agent, dashboard rendering in the UI, and any question that names a person or account.
 
 ## Questions by industry
@@ -48,7 +50,7 @@ Semantic model template: `Cumulus_Wealth_SDM` | Persona: Advisor team lead
 
 1. What is total AUM by advisor, and who grew the most this year?
 2. Compare interaction frequency for churned versus retained households.
-3. Which households have had fewer than two interactions in the last quarter and more than $1M AUM?
+3. Which households have had fewer than two interactions in the last quarter and more than 1M USD AUM?
 4. Show net new assets by month for the last 12 months.
 5. What percentage of financial goals are At Risk or Off Track, by goal type?
 6. What is the asset allocation of Growth-profile households versus Conservative?
@@ -114,7 +116,7 @@ Semantic model template: `Cumulus_Advisors_SDM` | Persona: Financial advisor
 6. Which households have not had an annual review in the last 12 months?
 7. What is the total opportunity value of life events detected by Agentforce signals?
 8. Rank advisors by referral conversion rate.
-9. Which clients with more than $1M AUM hold fewer than three products?
+9. Which clients with more than 1M USD AUM hold fewer than three products?
 10. What is the average days-to-first-contact for referrals by source?
 
 ### Lending
@@ -154,7 +156,7 @@ Semantic model template: `Cumulus_Lending_SDM` | Persona: Loan operations manage
 
 ![What is total deposit balance by region?](sample-queries/img/03-retail-banking-what-is-total-deposit-balance-by-re.png)
 
-- Finding: Evenly spread: $21.4M to $24.0M per region, Northeast highest.
+- Finding: Evenly spread: USD 21.4M to USD 24.0M per region, Northeast highest.
 - Chart fit: Low. Five near-equal bars show no story.
 
 ### Wealth
@@ -163,7 +165,7 @@ Semantic model template: `Cumulus_Lending_SDM` | Persona: Loan operations manage
 
 ![What is total AUM by advisor?](sample-queries/img/04-wealth-what-is-total-aum-by-advisor.png)
 
-- Finding: Wide spread across the top 20 advisors: AUM ranges from $7M to $115M, with the top two above $100M.
+- Finding: Wide spread across the top 20 advisors: AUM ranges from USD 7M to USD 115M, with the top two above USD 100M.
 - Chart fit: High. Ranked bars show the spread at a glance.
 
 **Compare interactions per household, churned vs retained**
@@ -193,14 +195,14 @@ Semantic model template: `Cumulus_Lending_SDM` | Persona: Loan operations manage
 
 ![What is AUM by strategy?](sample-queries/img/08-asset-management-what-is-aum-by-strategy.png)
 
-- Finding: Private Credit ($16.3B) and Liability-Driven Investing ($14.9B) lead.
+- Finding: Private Credit (USD 16.3B) and Liability-Driven Investing (USD 14.9B) lead.
 - Chart fit: High. Ranked bars with 8 clear categories.
 
 **Pipeline by stage with total amount**
 
 ![Pipeline by stage with total amount](sample-queries/img/09-asset-management-pipeline-by-stage-with-total-amount.png)
 
-- Finding: RFP Received holds the largest pipeline ($14.0B), then Finals Presentation ($7.6B).
+- Finding: RFP Received holds the largest pipeline (USD 14.0B), then Finals Presentation (USD 7.6B).
 - Chart fit: High. Reads like a funnel when ordered by stage.
 
 ### Commercial Banking
@@ -216,14 +218,14 @@ Semantic model template: `Cumulus_Lending_SDM` | Persona: Loan operations manage
 
 ![Deal pipeline by stage](sample-queries/img/11-commercial-banking-deal-pipeline-by-stage.png)
 
-- Finding: Closed Won is the largest stage ($433M), then Qualification ($367M).
+- Finding: Closed Won is the largest stage (USD 433M), then Qualification (USD 367M).
 - Chart fit: High. Ranked bars with 6 stages.
 
 **Credit exposure by risk rating**
 
 ![Credit exposure by risk rating](sample-queries/img/12-commercial-banking-credit-exposure-by-risk-rating.png)
 
-- Finding: 2-Pass carries $2.2B. Watch and Substandard together total about $630M.
+- Finding: 2-Pass carries USD 2.2B. Watch and Substandard together total about USD 630M.
 - Chart fit: High. Bars ordered by rating show risk concentration.
 
 ### Insurance
@@ -232,7 +234,7 @@ Semantic model template: `Cumulus_Lending_SDM` | Persona: Loan operations manage
 
 ![Paid claims by line of business](sample-queries/img/13-insurance-paid-claims-by-line-of-business.png)
 
-- Finding: Personal Auto ($2.6M) and Homeowners ($2.2M) account for most paid claims.
+- Finding: Personal Auto (USD 2.6M) and Homeowners (USD 2.2M) account for most paid claims.
 - Chart fit: High. Ranked bars, clear leaders.
 
 **Average claim cycle time by catastrophe code**
