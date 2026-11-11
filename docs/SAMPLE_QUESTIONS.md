@@ -4,9 +4,9 @@ Dollar amounts are written as USD so they render on GitHub and in the Google Doc
 
 Ten questions per industry for the Tableau Next analytics agent (70 in total), plus what happened when 15 of them were run against the semantic models.
 
-**Google Doc version (with the same charts and notes):** [Cumulus Tableau Next: sample questions and results](https://docs.google.com/document/d/1-jTewKieCs9LpO4OyayeAP0K2x8PzaXeZ-WflnmY1vc/edit)
+**Google Doc version (with the same charts and notes):** [Cumulus Tableau Next: talk track, questions and results](https://docs.google.com/document/d/1Pztv5_-NQVt2l8yb9eHrE31YpOmTTZkRNqrQLegepos/edit)
 
-Talk track based on these results: [TALK_TRACK.md](TALK_TRACK.md) | [Google Doc](https://docs.google.com/document/d/1YrYKeli1kvOCJNczs_ZHAkeDhqqWGD6qh9t9p8G02y8/edit)
+Talk track based on these results: [TALK_TRACK.md](TALK_TRACK.md) | [Google Doc](https://docs.google.com/document/d/1Pztv5_-NQVt2l8yb9eHrE31YpOmTTZkRNqrQLegepos/edit)
 
 ## How the results were produced
 
@@ -257,4 +257,4 @@ Semantic model template: `Cumulus_Lending_SDM` | Persona: Loan operations manage
 
 - Set up the External Client App (`mcp/README.md`) and run all 70 questions through `analyze_data` to compare the agent's answers and charts with the above.
 - Find the right filter syntax for the Semantic Query API and re-run the date-filtered questions.
-- Query Financial Advisors and Lending once those apps are confirmed built.
+- Query Financial Advisors and Lending, which are now built.

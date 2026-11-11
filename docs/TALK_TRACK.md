@@ -2,7 +2,7 @@
 
 A fresh draft written from the sample query results in [SAMPLE_QUESTIONS.md](SAMPLE_QUESTIONS.md). It is not based on any earlier talk track. Every number below came from queries run on 2026-11-09 against the Cumulus semantic models in org `sdo1010`. Dollar amounts are written as USD.
 
-**Google Doc version:** [Cumulus Tableau Next: talk track](https://docs.google.com/document/d/1YrYKeli1kvOCJNczs_ZHAkeDhqqWGD6qh9t9p8G02y8/edit)
+**Google Doc version:** [Cumulus Tableau Next: talk track, questions and results](https://docs.google.com/document/d/1Pztv5_-NQVt2l8yb9eHrE31YpOmTTZkRNqrQLegepos/edit)
 
 ## How to use it
 
