@@ -6,6 +6,8 @@ Companion to the *Tableau Next for Builders* enablement deck (Service Solutions 
 
 Sample agent questions (10 per industry) and results of 15 test queries, with charts: [docs/SAMPLE_QUESTIONS.md](docs/SAMPLE_QUESTIONS.md) | [Google Doc](https://docs.google.com/document/d/1-jTewKieCs9LpO4OyayeAP0K2x8PzaXeZ-WflnmY1vc/edit)
 
+Talk track for presenting the demos, grounded in the query results: [docs/TALK_TRACK.md](docs/TALK_TRACK.md) | [Google Doc](https://docs.google.com/document/d/1YrYKeli1kvOCJNczs_ZHAkeDhqqWGD6qh9t9p8G02y8/edit)
+
 ## Quick start (30 minutes)
 
 ```bash

@@ -6,6 +6,8 @@ Ten questions per industry for the Tableau Next analytics agent (70 in total), p
 
 **Google Doc version (with the same charts and notes):** [Cumulus Tableau Next: sample questions and results](https://docs.google.com/document/d/1-jTewKieCs9LpO4OyayeAP0K2x8PzaXeZ-WflnmY1vc/edit)
 
+Talk track based on these results: [TALK_TRACK.md](TALK_TRACK.md) | [Google Doc](https://docs.google.com/document/d/1YrYKeli1kvOCJNczs_ZHAkeDhqqWGD6qh9t9p8G02y8/edit)
+
 ## How the results were produced
 
 - Run on 2026-11-09 against org `sdo1010` through the Semantic Query API (`semantic-engine/gateway`), not through the analytics agent. The hosted Tableau Next MCP needs an External Client App that is not set up yet, so the agent itself has not been tested. See `mcp/README.md` for the setup steps.
