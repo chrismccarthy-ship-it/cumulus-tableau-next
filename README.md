@@ -4,9 +4,9 @@ Seven financial-services line-of-business examples for Tableau Next (retail bank
 
 Companion to the *Tableau Next for Builders* enablement deck (Service Solutions org). Fictional data; synthetic people; no PII.
 
-Sample agent questions (10 per industry) and results of 15 test queries, with charts: [docs/SAMPLE_QUESTIONS.md](docs/SAMPLE_QUESTIONS.md) | [Google Doc](https://docs.google.com/document/d/1Pztv5_-NQVt2l8yb9eHrE31YpOmTTZkRNqrQLegepos/edit)
+Sample agent questions (10 per industry) and results of 15 test queries, with charts: [docs/SAMPLE_QUESTIONS.md](docs/SAMPLE_QUESTIONS.md) | [Google Doc](https://docs.google.com/document/d/1Oztn3BPWviZMHVJuy8-J0g43C9CjfKyCkLXrvtDgsss/edit)
 
-Talk track for presenting the demos, grounded in the query results: [docs/TALK_TRACK.md](docs/TALK_TRACK.md) | [Google Doc](https://docs.google.com/document/d/1Pztv5_-NQVt2l8yb9eHrE31YpOmTTZkRNqrQLegepos/edit)
+Talk track for presenting the demos, grounded in the query results: [docs/TALK_TRACK.md](docs/TALK_TRACK.md) | [Google Doc](https://docs.google.com/document/d/1Oztn3BPWviZMHVJuy8-J0g43C9CjfKyCkLXrvtDgsss/edit)
 
 ## Quick start (30 minutes)
 

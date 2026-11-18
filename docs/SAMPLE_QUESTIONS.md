@@ -4,9 +4,9 @@ Dollar amounts are written as USD so they render on GitHub and in the Google Doc
 
 Ten questions per industry for the Tableau Next analytics agent (70 in total), plus what happened when 15 of them were run against the semantic models.
 
-**Google Doc version (with the same charts and notes):** [Cumulus Tableau Next: talk track, questions and results](https://docs.google.com/document/d/1Pztv5_-NQVt2l8yb9eHrE31YpOmTTZkRNqrQLegepos/edit)
+**Google Doc version (with the same charts and notes):** [Cumulus Tableau Next: talk track, questions and results](https://docs.google.com/document/d/1Oztn3BPWviZMHVJuy8-J0g43C9CjfKyCkLXrvtDgsss/edit)
 
-Talk track based on these results: [TALK_TRACK.md](TALK_TRACK.md) | [Google Doc](https://docs.google.com/document/d/1Pztv5_-NQVt2l8yb9eHrE31YpOmTTZkRNqrQLegepos/edit)
+Talk track based on these results: [TALK_TRACK.md](TALK_TRACK.md) | [Google Doc](https://docs.google.com/document/d/1Oztn3BPWviZMHVJuy8-J0g43C9CjfKyCkLXrvtDgsss/edit)
 
 ## How the results were produced
 
