@@ -40,170 +40,177 @@
             {
               "name": "x_banner",
               "column": 0,
-              "row": 5,
+              "row": 17,
               "colspan": 96,
               "rowspan": 5
             },
             {
               "name": "k_pipe",
               "column": 0,
-              "row": 10,
+              "row": 22,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_commit",
               "column": 24,
-              "row": 10,
+              "row": 22,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_util",
               "column": 48,
-              "row": 10,
+              "row": 22,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_onb",
               "column": 72,
-              "row": 10,
+              "row": 22,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 26,
+              "row": 38,
               "colspan": 60,
               "rowspan": 38
             },
             {
               "name": "t_CB_Utilization_By_Region",
               "column": 60,
-              "row": 26,
+              "row": 38,
               "colspan": 36,
               "rowspan": 6
             },
             {
               "name": "w_CB_Utilization_By_Region",
               "column": 60,
-              "row": 32,
+              "row": 44,
               "colspan": 36,
               "rowspan": 32
             },
             {
               "name": "t_CB_Pipeline_By_Stage",
               "column": 0,
-              "row": 64,
+              "row": 76,
               "colspan": 96,
               "rowspan": 6
             },
             {
               "name": "w_CB_Pipeline_By_Stage",
               "column": 0,
-              "row": 70,
+              "row": 82,
               "colspan": 96,
               "rowspan": 24
             },
             {
               "name": "t_CB_Onboarding_Treasury",
               "column": 0,
-              "row": 94,
+              "row": 106,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_CB_Onboarding_Treasury",
               "column": 0,
-              "row": 100,
+              "row": 112,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_CB_Utilization_By_Rating",
               "column": 32,
-              "row": 94,
+              "row": 106,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_CB_Utilization_By_Rating",
               "column": 32,
-              "row": 100,
+              "row": 112,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_CB_Treasury_Penetration",
               "column": 64,
-              "row": 94,
+              "row": 106,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_CB_Treasury_Penetration",
               "column": 64,
-              "row": 100,
+              "row": 112,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_CB_Cases_By_Type",
               "column": 0,
-              "row": 124,
+              "row": 136,
               "colspan": 32,
               "rowspan": 7
             },
             {
               "name": "w_CB_Cases_By_Type",
               "column": 0,
-              "row": 131,
+              "row": 143,
               "colspan": 32,
               "rowspan": 23
             },
             {
               "name": "t_CB_Deal_Flow",
               "column": 32,
-              "row": 124,
+              "row": 136,
               "colspan": 32,
               "rowspan": 7
             },
             {
               "name": "w_CB_Deal_Flow",
               "column": 32,
-              "row": 131,
+              "row": 143,
               "colspan": 32,
               "rowspan": 23
             },
             {
               "name": "t_CB_Winrate_By_Segment",
               "column": 64,
-              "row": 124,
+              "row": 136,
               "colspan": 32,
               "rowspan": 7
             },
             {
               "name": "w_CB_Winrate_By_Segment",
               "column": 64,
-              "row": 131,
+              "row": 143,
               "colspan": 32,
               "rowspan": 23
             },
             {
               "name": "t_CB_Commitments_By_Industry",
               "column": 0,
-              "row": 154,
+              "row": 166,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_CB_Commitments_By_Industry",
               "column": 0,
-              "row": 160,
+              "row": 172,
               "colspan": 32,
               "rowspan": 24
+            },
+            {
+              "name": "summary",
+              "column": 0,
+              "row": 5,
+              "colspan": 96,
+              "rowspan": 12
             }
           ]
         }
@@ -1126,6 +1133,103 @@
         "name": "${App.Visualizations.CB_Commitments_By_Industry.Name}"
       },
       "type": "visualization"
+    },
+    "summary": {
+      "actions": [],
+      "name": "summary",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#1E3A8A",
+              "size": "16px",
+              "bold": true
+            },
+            "insert": "Key insights: Commercial banking",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Clients without treasury products take 43.8 days to onboard against 22.3 days with them, about 2x.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Credit exposure is $5.0B outstanding; Watch and Substandard ratings hold $631M (12.5%).",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  The deal pipeline totals $1.62B; Closed Won is the largest stage at $433M.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Share of deals won is highest for Credit + Treasury (25.5%) and lowest for Treasury (22.9%).",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
     }
   },
   "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Commercial_WS.Name}"

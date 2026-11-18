@@ -40,142 +40,149 @@
             {
               "name": "k_aum",
               "column": 0,
-              "row": 5,
+              "row": 17,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_req",
               "column": 24,
-              "row": 5,
+              "row": 17,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_sla",
               "column": 48,
-              "row": 5,
+              "row": 17,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_cycle",
               "column": 72,
-              "row": 5,
+              "row": 17,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 21,
+              "row": 33,
               "colspan": 60,
               "rowspan": 38
             },
             {
               "name": "t_AM_Breach_By_Region",
               "column": 60,
-              "row": 21,
+              "row": 33,
               "colspan": 36,
               "rowspan": 6
             },
             {
               "name": "w_AM_Breach_By_Region",
               "column": 60,
-              "row": 27,
+              "row": 39,
               "colspan": 36,
               "rowspan": 32
             },
             {
               "name": "x_bars",
               "column": 0,
-              "row": 59,
+              "row": 71,
               "colspan": 28,
               "rowspan": 34
             },
             {
               "name": "t_AM_Flows_Trend",
               "column": 28,
-              "row": 59,
+              "row": 71,
               "colspan": 68,
               "rowspan": 6
             },
             {
               "name": "w_AM_Flows_Trend",
               "column": 28,
-              "row": 65,
+              "row": 77,
               "colspan": 68,
               "rowspan": 28
             },
             {
               "name": "t_AM_Cycle_By_Type",
               "column": 0,
-              "row": 93,
+              "row": 105,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_AM_Cycle_By_Type",
               "column": 0,
-              "row": 99,
+              "row": 111,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_AM_SLA_Breaches",
               "column": 32,
-              "row": 93,
+              "row": 105,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_AM_SLA_Breaches",
               "column": 32,
-              "row": 99,
+              "row": 111,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_AM_Pipeline_By_Stage",
               "column": 64,
-              "row": 93,
+              "row": 105,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_AM_Pipeline_By_Stage",
               "column": 64,
-              "row": 99,
+              "row": 111,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_AM_AUM_By_Strategy",
               "column": 0,
-              "row": 123,
+              "row": 135,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_AM_AUM_By_Strategy",
               "column": 0,
-              "row": 129,
+              "row": 141,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_AM_Requests_Trend",
               "column": 32,
-              "row": 123,
+              "row": 135,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_AM_Requests_Trend",
               "column": 32,
-              "row": 129,
+              "row": 141,
               "colspan": 32,
               "rowspan": 24
+            },
+            {
+              "name": "summary",
+              "column": 0,
+              "row": 5,
+              "colspan": 96,
+              "rowspan": 12
             }
           ]
         }
@@ -962,6 +969,103 @@
         "name": "${App.Visualizations.AM_Requests_Trend.Name}"
       },
       "type": "visualization"
+    },
+    "summary": {
+      "actions": [],
+      "name": "summary",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#2B2A26",
+              "size": "16px",
+              "bold": true
+            },
+            "insert": "Key insights: Asset management",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  AUM totals about $92B; Private Credit ($16.3B) and Multi-Asset Balanced ($15.2B) are the largest strategies.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Reconciliation has the lowest SLA attainment at 64.4%; other request types run 68.7% to 71.3%.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  The deal pipeline totals $42.1B across all stages; RFP Received is the largest at $14.0B.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Direct deals are lost most often: 19.2% against 11.8% overall (220 deals).",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
     }
   },
   "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Asset_Management_WS.Name}"

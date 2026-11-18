@@ -40,156 +40,163 @@
             {
               "name": "x_banner",
               "column": 0,
-              "row": 5,
+              "row": 19,
               "colspan": 96,
               "rowspan": 5
             },
             {
               "name": "k_claims",
               "column": 0,
-              "row": 10,
+              "row": 24,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_lr",
               "column": 24,
-              "row": 10,
+              "row": 24,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_cycle",
               "column": 48,
-              "row": 10,
+              "row": 24,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_open",
               "column": 72,
-              "row": 10,
+              "row": 24,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 26,
+              "row": 40,
               "colspan": 60,
               "rowspan": 38
             },
             {
               "name": "t_INS_Loss_Ratio_By_State",
               "column": 60,
-              "row": 26,
+              "row": 40,
               "colspan": 36,
               "rowspan": 6
             },
             {
               "name": "w_INS_Loss_Ratio_By_State",
               "column": 60,
-              "row": 32,
+              "row": 46,
               "colspan": 36,
               "rowspan": 32
             },
             {
               "name": "t_INS_Claims_Trend",
               "column": 0,
-              "row": 64,
+              "row": 78,
               "colspan": 96,
               "rowspan": 6
             },
             {
               "name": "w_INS_Claims_Trend",
               "column": 0,
-              "row": 70,
+              "row": 84,
               "colspan": 96,
               "rowspan": 24
             },
             {
               "name": "t_INS_Cycle_By_CAT",
               "column": 0,
-              "row": 94,
+              "row": 108,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_INS_Cycle_By_CAT",
               "column": 0,
-              "row": 100,
+              "row": 114,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_INS_Loss_Ratio_By_LOB",
               "column": 32,
-              "row": 94,
+              "row": 108,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_INS_Loss_Ratio_By_LOB",
               "column": 32,
-              "row": 100,
+              "row": 114,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_INS_Claims_By_Status",
               "column": 64,
-              "row": 94,
+              "row": 108,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_INS_Claims_By_Status",
               "column": 64,
-              "row": 100,
+              "row": 114,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_INS_Renewals_By_Producer",
               "column": 0,
-              "row": 124,
+              "row": 138,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_INS_Renewals_By_Producer",
               "column": 0,
-              "row": 130,
+              "row": 144,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_INS_Cases_Agentforce",
               "column": 32,
-              "row": 124,
+              "row": 138,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_INS_Cases_Agentforce",
               "column": 32,
-              "row": 130,
+              "row": 144,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_INS_Claims_By_State",
               "column": 64,
-              "row": 124,
+              "row": 138,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_INS_Claims_By_State",
               "column": 64,
-              "row": 130,
+              "row": 144,
               "colspan": 32,
               "rowspan": 24
+            },
+            {
+              "name": "summary",
+              "column": 0,
+              "row": 5,
+              "colspan": 96,
+              "rowspan": 14
             }
           ]
         }
@@ -1032,6 +1039,118 @@
         "name": "${App.Visualizations.INS_Claims_By_State.Name}"
       },
       "type": "visualization"
+    },
+    "summary": {
+      "actions": [],
+      "name": "summary",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#4C1D95",
+              "size": "16px",
+              "bold": true
+            },
+            "insert": "Key insights: Insurance claims",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  June 2026 hail season: 146 claims, 5.0x the median month of 29.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Catastrophe claims take 25.8 days to finalize against 20.5 for other claims, 26% longer.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Personal Auto and Homeowners account for 71% of the $6.8M paid.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Commercial Auto closes the fewest claims: 85.2% against 92.6% overall.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Mobile App is the top first-notice channel: 353 of 911 claims (39%).",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
     }
   },
   "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Insurance_WS.Name}"

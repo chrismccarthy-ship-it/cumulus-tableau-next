@@ -40,142 +40,149 @@
             {
               "name": "x_banner",
               "column": 0,
-              "row": 5,
+              "row": 17,
               "colspan": 96,
               "rowspan": 5
             },
             {
               "name": "k_apps",
               "column": 0,
-              "row": 10,
+              "row": 22,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_pt",
               "column": 24,
-              "row": 10,
+              "row": 22,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_ttc",
               "column": 48,
-              "row": 10,
+              "row": 22,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_vol",
               "column": 72,
-              "row": 10,
+              "row": 22,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 26,
+              "row": 38,
               "colspan": 60,
               "rowspan": 38
             },
             {
               "name": "t_LN_Time_To_Close_By_State",
               "column": 60,
-              "row": 26,
+              "row": 38,
               "colspan": 36,
               "rowspan": 6
             },
             {
               "name": "w_LN_Time_To_Close_By_State",
               "column": 60,
-              "row": 32,
+              "row": 44,
               "colspan": 36,
               "rowspan": 32
             },
             {
               "name": "t_LN_Apps_Trend",
               "column": 0,
-              "row": 64,
+              "row": 76,
               "colspan": 96,
               "rowspan": 6
             },
             {
               "name": "w_LN_Apps_Trend",
               "column": 0,
-              "row": 70,
+              "row": 82,
               "colspan": 96,
               "rowspan": 24
             },
             {
               "name": "t_LN_Days_By_Stage",
               "column": 0,
-              "row": 94,
+              "row": 106,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_LN_Days_By_Stage",
               "column": 0,
-              "row": 100,
+              "row": 112,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_LN_Status_By_Channel",
               "column": 32,
-              "row": 94,
+              "row": 106,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_LN_Status_By_Channel",
               "column": 32,
-              "row": 100,
+              "row": 112,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_LN_Volume_By_Product",
               "column": 64,
-              "row": 94,
+              "row": 106,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_LN_Volume_By_Product",
               "column": 64,
-              "row": 100,
+              "row": 112,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_LN_LO_Leaderboard",
               "column": 0,
-              "row": 124,
+              "row": 136,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_LN_LO_Leaderboard",
               "column": 0,
-              "row": 130,
+              "row": 142,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_LN_Pull_Through_By_Channel",
               "column": 32,
-              "row": 124,
+              "row": 136,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_LN_Pull_Through_By_Channel",
               "column": 32,
-              "row": 130,
+              "row": 142,
               "colspan": 32,
               "rowspan": 24
+            },
+            {
+              "name": "summary",
+              "column": 0,
+              "row": 5,
+              "colspan": 96,
+              "rowspan": 12
             }
           ]
         }
@@ -958,6 +965,103 @@
         "name": "${App.Visualizations.LN_Pull_Through_By_Channel.Name}"
       },
       "type": "visualization"
+    },
+    "summary": {
+      "actions": [],
+      "name": "summary",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#0E4A5C",
+              "size": "16px",
+              "bold": true
+            },
+            "insert": "Key insights: Lending",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  4,200 applications: 63.8% funded, 12.0% withdrawn, 9.6% denied, 1.8% abandoned, 12.8% still in progress.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Auto Loan funds most often (75.3%); Refinance least (54.8%).",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Document Collection is the longest stage at 19.4 days on average (52% of time in stage).",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  All 77 abandoned applications came through the Digital channel.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
     }
   },
   "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Lending_WS.Name}"

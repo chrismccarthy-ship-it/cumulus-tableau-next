@@ -40,142 +40,149 @@
             {
               "name": "k_aum",
               "column": 0,
-              "row": 5,
+              "row": 13,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_events",
               "column": 24,
-              "row": 5,
+              "row": 13,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_fu",
               "column": 48,
-              "row": 5,
+              "row": 13,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_opp",
               "column": 72,
-              "row": 5,
+              "row": 13,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 21,
+              "row": 29,
               "colspan": 60,
               "rowspan": 38
             },
             {
               "name": "t_FA_Opportunity_By_State",
               "column": 60,
-              "row": 21,
+              "row": 29,
               "colspan": 36,
               "rowspan": 6
             },
             {
               "name": "w_FA_Opportunity_By_State",
               "column": 60,
-              "row": 27,
+              "row": 35,
               "colspan": 36,
               "rowspan": 32
             },
             {
               "name": "x_nba",
               "column": 0,
-              "row": 59,
+              "row": 67,
               "colspan": 28,
               "rowspan": 34
             },
             {
               "name": "t_FA_Life_Events_Followup",
               "column": 28,
-              "row": 59,
+              "row": 67,
               "colspan": 68,
               "rowspan": 6
             },
             {
               "name": "w_FA_Life_Events_Followup",
               "column": 28,
-              "row": 65,
+              "row": 73,
               "colspan": 68,
               "rowspan": 28
             },
             {
               "name": "t_FA_Book_By_Stage",
               "column": 0,
-              "row": 93,
+              "row": 101,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_FA_Book_By_Stage",
               "column": 0,
-              "row": 99,
+              "row": 107,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_FA_Activities_By_Advisor",
               "column": 32,
-              "row": 93,
+              "row": 101,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_FA_Activities_By_Advisor",
               "column": 32,
-              "row": 99,
+              "row": 107,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_FA_Referral_Funnel",
               "column": 64,
-              "row": 93,
+              "row": 101,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_FA_Referral_Funnel",
               "column": 64,
-              "row": 99,
+              "row": 107,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_FA_Life_Events_Source",
               "column": 0,
-              "row": 123,
+              "row": 131,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_FA_Life_Events_Source",
               "column": 0,
-              "row": 129,
+              "row": 137,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_FA_Activities_Trend",
               "column": 32,
-              "row": 123,
+              "row": 131,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_FA_Activities_Trend",
               "column": 32,
-              "row": 129,
+              "row": 137,
               "colspan": 32,
               "rowspan": 24
+            },
+            {
+              "name": "summary",
+              "column": 0,
+              "row": 5,
+              "colspan": 96,
+              "rowspan": 8
             }
           ]
         }
@@ -963,6 +970,73 @@
         "name": "${App.Visualizations.FA_Activities_Trend.Name}"
       },
       "type": "visualization"
+    },
+    "summary": {
+      "actions": [],
+      "name": "summary",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#14532D",
+              "size": "16px",
+              "bold": true
+            },
+            "insert": "Key insights: Financial advisors",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  New Child life events are followed up within 14 days 61.9% of the time against 72.3% overall (585 events).",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Existing Client referrals convert least (19.5%); Event referrals convert most (31.7%); 26.2% overall across 900 referrals.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
     }
   },
   "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Advisors_WS.Name}"

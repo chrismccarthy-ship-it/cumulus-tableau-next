@@ -40,156 +40,163 @@
             {
               "name": "k_aum",
               "column": 0,
-              "row": 5,
+              "row": 17,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_nna",
               "column": 24,
-              "row": 5,
+              "row": 17,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_churn",
               "column": 48,
-              "row": 5,
+              "row": 17,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "k_int",
               "column": 72,
-              "row": 5,
+              "row": 17,
               "colspan": 24,
               "rowspan": 16
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 21,
+              "row": 33,
               "colspan": 60,
               "rowspan": 38
             },
             {
               "name": "t_WM_Churn_By_State",
               "column": 60,
-              "row": 21,
+              "row": 33,
               "colspan": 36,
               "rowspan": 6
             },
             {
               "name": "w_WM_Churn_By_State",
               "column": 60,
-              "row": 27,
+              "row": 39,
               "colspan": 36,
               "rowspan": 32
             },
             {
               "name": "x_bars",
               "column": 0,
-              "row": 59,
+              "row": 71,
               "colspan": 28,
               "rowspan": 34
             },
             {
               "name": "t_WM_Net_Flows_Trend",
               "column": 28,
-              "row": 59,
+              "row": 71,
               "colspan": 68,
               "rowspan": 6
             },
             {
               "name": "w_WM_Net_Flows_Trend",
               "column": 28,
-              "row": 65,
+              "row": 77,
               "colspan": 68,
               "rowspan": 28
             },
             {
               "name": "t_WM_Inflows_Trend",
               "column": 0,
-              "row": 93,
+              "row": 105,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_WM_Inflows_Trend",
               "column": 0,
-              "row": 99,
+              "row": 111,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_WM_Outflows_Trend",
               "column": 32,
-              "row": 93,
+              "row": 105,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_WM_Outflows_Trend",
               "column": 32,
-              "row": 99,
+              "row": 111,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_WM_Interactions_Churn",
               "column": 64,
-              "row": 93,
+              "row": 105,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_WM_Interactions_Churn",
               "column": 64,
-              "row": 99,
+              "row": 111,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_WM_Goals_Status",
               "column": 0,
-              "row": 123,
+              "row": 135,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_WM_Goals_Status",
               "column": 0,
-              "row": 129,
+              "row": 141,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_WM_Allocation",
               "column": 32,
-              "row": 123,
+              "row": 135,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_WM_Allocation",
               "column": 32,
-              "row": 129,
+              "row": 141,
               "colspan": 32,
               "rowspan": 24
             },
             {
               "name": "t_WM_AUM_By_Tier",
               "column": 64,
-              "row": 123,
+              "row": 135,
               "colspan": 32,
               "rowspan": 6
             },
             {
               "name": "w_WM_AUM_By_Tier",
               "column": 64,
-              "row": 129,
+              "row": 141,
               "colspan": 32,
               "rowspan": 24
+            },
+            {
+              "name": "summary",
+              "column": 0,
+              "row": 5,
+              "colspan": 96,
+              "rowspan": 12
             }
           ]
         }
@@ -1042,6 +1049,103 @@
         "name": "${App.Visualizations.WM_AUM_By_Tier.Name}"
       },
       "type": "visualization"
+    },
+    "summary": {
+      "actions": [],
+      "name": "summary",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#2E1F8F",
+              "size": "16px",
+              "bold": true
+            },
+            "insert": "Key insights: Wealth management",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Net new assets total $113.8M over the last 12 months; 2026-07 alone added $45.5M (inflows of $67.4M against about $28M in a normal month).",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Churned households averaged 9.1 interactions against 35.0 for retained households, about 3.8x fewer.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  AUM is concentrated: advisor books range from $7M to $128M, and 3 of 40 advisors hold more than $100M.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  About half of client goals are on track; Major Purchase is lowest at 44.8%.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
     }
   },
   "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Wealth_WS.Name}"

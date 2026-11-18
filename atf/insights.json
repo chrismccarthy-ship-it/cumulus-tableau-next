@@ -1,0 +1,73 @@
+{
+  "Cumulus_Retail_Banking_Overview": {
+    "use": "Retail Banking service",
+    "bullets": [
+      "5,296 cases: Voice and Chat carry 63% of the load.",
+      "Card Dispute scores lowest on CSAT (3.42), below the 3.5 target; Fee Inquiry is highest (3.74).",
+      "First-contact resolution sits in a narrow 64% to 68% band across channels, so no channel stands out.",
+      "Deposits total $115.1M, spread evenly across the five regions."
+    ]
+  },
+  "Cumulus_Wealth_Overview": {
+    "use": "Wealth management",
+    "bullets": [
+      "Net new assets total $113.8M over the last 12 months; 2026-07 alone added $45.5M (inflows of $67.4M against about $28M in a normal month).",
+      "Churned households averaged 9.1 interactions against 35.0 for retained households, about 3.8x fewer.",
+      "AUM is concentrated: advisor books range from $7M to $128M, and 3 of 40 advisors hold more than $100M.",
+      "About half of client goals are on track; Major Purchase is lowest at 44.8%."
+    ]
+  },
+  "Cumulus_Asset_Management_Overview": {
+    "use": "Asset management",
+    "bullets": [
+      "AUM totals about $92B; Private Credit ($16.3B) and Multi-Asset Balanced ($15.2B) are the largest strategies.",
+      "Reconciliation has the lowest SLA attainment at 64.4%; other request types run 68.7% to 71.3%.",
+      "The deal pipeline totals $42.1B across all stages; RFP Received is the largest at $14.0B.",
+      "Direct deals are lost most often: 19.2% against 11.8% overall (220 deals)."
+    ]
+  },
+  "Cumulus_Insurance_Overview": {
+    "use": "Insurance claims",
+    "bullets": [
+      "June 2026 hail season: 146 claims, 5.0x the median month of 29.",
+      "Catastrophe claims take 25.8 days to finalize against 20.5 for other claims, 26% longer.",
+      "Personal Auto and Homeowners account for 71% of the $6.8M paid.",
+      "Commercial Auto closes the fewest claims: 85.2% against 92.6% overall.",
+      "Mobile App is the top first-notice channel: 353 of 911 claims (39%)."
+    ]
+  },
+  "Cumulus_Commercial_Overview": {
+    "use": "Commercial banking",
+    "bullets": [
+      "Clients without treasury products take 43.8 days to onboard against 22.3 days with them, about 2x.",
+      "Credit exposure is $5.0B outstanding; Watch and Substandard ratings hold $631M (12.5%).",
+      "The deal pipeline totals $1.62B; Closed Won is the largest stage at $433M.",
+      "Share of deals won is highest for Credit + Treasury (25.5%) and lowest for Treasury (22.9%)."
+    ]
+  },
+  "Cumulus_Advisors_Overview": {
+    "use": "Financial advisors",
+    "bullets": [
+      "New Child life events are followed up within 14 days 61.9% of the time against 72.3% overall (585 events).",
+      "Existing Client referrals convert least (19.5%); Event referrals convert most (31.7%); 26.2% overall across 900 referrals."
+    ]
+  },
+  "Cumulus_Lending_Overview": {
+    "use": "Lending",
+    "bullets": [
+      "4,200 applications: 63.8% funded, 12.0% withdrawn, 9.6% denied, 1.8% abandoned, 12.8% still in progress.",
+      "Auto Loan funds most often (75.3%); Refinance least (54.8%).",
+      "Document Collection is the longest stage at 19.4 days on average (52% of time in stage).",
+      "All 77 abandoned applications came through the Digital channel."
+    ]
+  },
+  "Cumulus_Contact_Center_Overview": {
+    "use": "Contact center",
+    "bullets": [
+      "18,201 contacts; 77.5% meet their response-time SLA.",
+      "Dallas attainment fell from 80% to 54% in March 2026 and is 69.5% overall; Phoenix leads at 86.1%.",
+      "Fraud alerts are the most negative reason: 59.2% end negative, then card disputes at 53.6%.",
+      "Chatbot meets SLA 88% of the time, email 65%; call center scores lowest on CSAT (5.3 of 10, 5.5 overall)."
+    ]
+  }
+}
