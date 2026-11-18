@@ -1,5 +1,5 @@
 import { LightningElement, api, track } from 'lwc';
-import { SDK_EVENTS, notify, buildQuery, normalizeRows, formatValue } from 'c/cumulusSdkUtils';
+import { notify, buildQuery, normalizeRows, formatValue, onFilterChange, fetchWithFilters } from 'c/cumulusSdkUtils';
 
 /**
  * Cumulus Ranked Bars — Top-N horizontal bars for any dimension/measure pair.
@@ -43,7 +43,7 @@ export default class CumulusRankedBars extends LightningElement {
     connectedCallback() {
         notify(this.sdk, 'INIT');
         if (this.sdk && typeof this.sdk.on === 'function') {
-            this._unsubscribe = this.sdk.on(SDK_EVENTS.FILTER_CHANGE, () => this.load());
+            this._unsubscribe = onFilterChange(this.sdk, () => this.load());
         }
         this.load();
     }
@@ -68,7 +68,7 @@ export default class CumulusRankedBars extends LightningElement {
         try {
             const limit = Math.max(1, Math.min(50, Number(this.topN) || 10));
             const query = buildQuery({ dimensionField: this.dimensionField, measureField: this.measureField, limit: limit + 1 });
-            const result = await this.sdk.fetchDataUsingQueryAndSource(query, this.sdmName.apiName);
+            const result = await fetchWithFilters(this.sdk, query, this.sdmName.apiName);
             const rows = normalizeRows(result).filter((r) => r.dim !== null && r.dim !== undefined && r.dim !== '');
             rows.sort((a, b) => Number(b.val) - Number(a.val));
             this.rows = rows.slice(0, limit);

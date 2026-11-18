@@ -28,5 +28,8 @@
         <template lwc:else>
             <div class="configure">Select a semantic model and a measure in the widget panel.</div>
         </template>
+        <template lwc:if={filterDiag}>
+            <div class="diag">{filterDiag}</div>
+        </template>
     </div>
 </template>

@@ -1,5 +1,5 @@
 import { LightningElement, api, track } from 'lwc';
-import { SDK_EVENTS, notify, buildQuery, normalizeRows, formatValue, fieldExpression, aggregationMethod } from 'c/cumulusSdkUtils';
+import { notify, buildQuery, normalizeRows, formatValue, fieldExpression, aggregationMethod, onFilterChange, fetchWithFilters } from 'c/cumulusSdkUtils';
 import { VIEWBOX, PATHS, CENTROIDS, NAMES, REGIONS, toStateCode } from 'c/cumulusUsStates';
 
 /**
@@ -106,7 +106,7 @@ export default class CumulusStateMap extends LightningElement {
     connectedCallback() {
         notify(this.sdk, 'INIT');
         if (this.sdk && typeof this.sdk.on === 'function') {
-            this._unsubscribe = this.sdk.on(SDK_EVENTS.FILTER_CHANGE, () => this.load());
+            this._unsubscribe = onFilterChange(this.sdk, () => this.load());
         }
         this.load();
     }
@@ -141,7 +141,7 @@ export default class CumulusStateMap extends LightningElement {
         if (!this.sdk || typeof this.sdk.fetchDataUsingQueryAndSource !== 'function') return;
         this.error = undefined;
         try {
-            const result = await this.sdk.fetchDataUsingQueryAndSource(this.buildMapQuery(), this.sdmName.apiName);
+            const result = await fetchWithFilters(this.sdk, this.buildMapQuery(), this.sdmName.apiName);
             // rows come back as [dim, val(, bub)]; normalizeRows keeps first and last, so read the raw shape when a bubble is present
             const raw = this.hasBubble ? this.rawRows(result) : normalizeRows(result).map((r) => ({ dim: r.dim, val: r.val, bub: undefined }));
             const rows = [];

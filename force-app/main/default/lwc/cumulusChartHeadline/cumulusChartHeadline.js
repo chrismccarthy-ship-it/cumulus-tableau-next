@@ -1,5 +1,5 @@
 import { LightningElement, api, track } from 'lwc';
-import { SDK_EVENTS, notify, buildQuery, normalizeRows, formatValue } from 'c/cumulusSdkUtils';
+import { notify, buildQuery, normalizeRows, formatValue, onFilterChange, fetchWithFilters } from 'c/cumulusSdkUtils';
 
 /**
  * Cumulus Chart Headline — the centred title block that sits above a chart: a short, impactful
@@ -35,7 +35,7 @@ export default class CumulusChartHeadline extends LightningElement {
     connectedCallback() {
         notify(this.sdk, 'INIT');
         if (this.sdk && typeof this.sdk.on === 'function') {
-            this._unsubscribe = this.sdk.on(SDK_EVENTS.FILTER_CHANGE, () => this.load());
+            this._unsubscribe = onFilterChange(this.sdk, () => this.load());
         }
         this.load();
     }
@@ -56,7 +56,7 @@ export default class CumulusChartHeadline extends LightningElement {
         }
         if (!this.sdk || typeof this.sdk.fetchDataUsingQueryAndSource !== 'function') return;
         try {
-            const r = await this.sdk.fetchDataUsingQueryAndSource(buildQuery({ measureField: this.measureField, limit: 1 }), this.sdmName.apiName);
+            const r = await fetchWithFilters(this.sdk, buildQuery({ measureField: this.measureField, limit: 1 }), this.sdmName.apiName);
             const rows = normalizeRows(r);
             this.value = rows.length ? rows[0].val : null;
         } catch (e) {

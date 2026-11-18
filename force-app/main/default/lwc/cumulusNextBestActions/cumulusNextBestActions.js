@@ -1,5 +1,5 @@
 import { LightningElement, api, track } from 'lwc';
-import { SDK_EVENTS, notify, fieldExpression, aggregationMethod, normalizeRows, formatValue } from 'c/cumulusSdkUtils';
+import { notify, fieldExpression, aggregationMethod, normalizeRows, formatValue, onFilterChange, fetchWithFilters } from 'c/cumulusSdkUtils';
 
 /**
  * Cumulus Next Best Actions — a ranked worklist built from any semantic model:
@@ -49,7 +49,7 @@ export default class CumulusNextBestActions extends LightningElement {
     connectedCallback() {
         notify(this.sdk, 'INIT');
         if (this.sdk && typeof this.sdk.on === 'function') {
-            this._unsubscribe = this.sdk.on(SDK_EVENTS.FILTER_CHANGE, () => this.load());
+            this._unsubscribe = onFilterChange(this.sdk, () => this.load());
         }
         this.load();
     }
@@ -78,7 +78,7 @@ export default class CumulusNextBestActions extends LightningElement {
             if (String(this.scoreField.name).includes('.')) score.semanticAggregationMethod = aggregationMethod(this.scoreField);
             fields.push(score);
             const query = { fields, options: { limitOptions: { limit: 200 } } };
-            const result = await this.sdk.fetchDataUsingQueryAndSource(query, this.sdmName.apiName);
+            const result = await fetchWithFilters(this.sdk, query, this.sdmName.apiName);
             const raw = this.rowsOf(result);
             const dir = this.lowestFirst === true || this.lowestFirst === 'true' ? 1 : -1;
             raw.sort((a, b) => dir * (Number(a.score) - Number(b.score)));

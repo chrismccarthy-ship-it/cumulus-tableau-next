@@ -1,5 +1,5 @@
 import { LightningElement, api, track } from 'lwc';
-import { SDK_EVENTS, notify, buildQuery, normalizeRows, formatValue } from 'c/cumulusSdkUtils';
+import { notify, buildQuery, normalizeRows, formatValue, onFilterChange, fetchWithFilters, filterDiagnostics, SHOW_FILTER_DIAGNOSTICS } from 'c/cumulusSdkUtils';
 
 /**
  * Cumulus Threshold Banner — compares a bound measure with a threshold and turns the banner
@@ -51,7 +51,7 @@ export default class CumulusThresholdBanner extends LightningElement {
     connectedCallback() {
         notify(this.sdk, 'INIT');
         if (this.sdk && typeof this.sdk.on === 'function') {
-            this._unsubscribe = this.sdk.on(SDK_EVENTS.FILTER_CHANGE, () => this.load());
+            this._unsubscribe = onFilterChange(this.sdk, () => this.load());
         }
         this.load();
     }
@@ -66,6 +66,8 @@ export default class CumulusThresholdBanner extends LightningElement {
         }
     }
 
+    filterDiag = '';
+
     async load() {
         if (!this.isConfigured) {
             notify(this.sdk, 'ERROR', { message: 'Map a semantic model, a measure and a threshold in the widget panel.' });
@@ -74,13 +76,15 @@ export default class CumulusThresholdBanner extends LightningElement {
         if (!this.sdk || typeof this.sdk.fetchDataUsingQueryAndSource !== 'function') return;
         this.error = undefined;
         try {
-            const result = await this.sdk.fetchDataUsingQueryAndSource(buildQuery({ measureField: this.measureField, limit: 1 }), this.sdmName.apiName);
+            const result = await fetchWithFilters(this.sdk, buildQuery({ measureField: this.measureField, limit: 1 }), this.sdmName.apiName);
             const rows = normalizeRows(result);
             this.value = rows.length ? rows[0].val : null;
             notify(this.sdk, rows.length ? 'LOADED' : 'NODATA');
         } catch (e) {
             this.error = (e && e.message) || 'Query failed';
             notify(this.sdk, 'ERROR', { message: this.error });
+        } finally {
+            this.filterDiag = SHOW_FILTER_DIAGNOSTICS ? filterDiagnostics(this.sdk) : '';
         }
     }
 

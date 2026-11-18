@@ -1,5 +1,5 @@
 import { LightningElement, api, track } from 'lwc';
-import { SDK_EVENTS, notify, buildQuery, normalizeRows, formatValue } from 'c/cumulusSdkUtils';
+import { notify, buildQuery, normalizeRows, formatValue, onFilterChange, fetchWithFilters, filterDiagnostics, SHOW_FILTER_DIAGNOSTICS } from 'c/cumulusSdkUtils';
 
 /**
  * Cumulus KPI Tile — a dynamically bound call-out card: centred big number, monthly trend
@@ -33,6 +33,7 @@ export default class CumulusKpiTile extends LightningElement {
     @track series = []; // [{dim, val}] ascending by dim
     @track error;
     loading = false;
+    filterDiag = '';
     _unsubscribe;
     _lastKey;
 
@@ -149,7 +150,7 @@ export default class CumulusKpiTile extends LightningElement {
     connectedCallback() {
         notify(this.sdk, 'INIT');
         if (this.sdk && typeof this.sdk.on === 'function') {
-            this._unsubscribe = this.sdk.on(SDK_EVENTS.FILTER_CHANGE, () => this.load());
+            this._unsubscribe = onFilterChange(this.sdk, () => this.load());
         }
         this.load();
     }
@@ -177,7 +178,7 @@ export default class CumulusKpiTile extends LightningElement {
         this.loading = true;
         this.error = undefined;
         try {
-            const total = await this.sdk.fetchDataUsingQueryAndSource(buildQuery({ measureField: this.measureField, limit: 1 }), this.sdmName.apiName);
+            const total = await fetchWithFilters(this.sdk, buildQuery({ measureField: this.measureField, limit: 1 }), this.sdmName.apiName);
             const rows = normalizeRows(total);
             this.value = rows.length ? rows[0].val : null;
             this.series = [];
@@ -185,7 +186,7 @@ export default class CumulusKpiTile extends LightningElement {
                 // the sparkline is decoration: a trend-query failure must never take the whole tile down
                 try {
                     const q = buildQuery({ dimensionField: this.trendDimension, measureField: this.trendMeasure, limit: 60, sortByDim: true });
-                    const trend = await this.sdk.fetchDataUsingQueryAndSource(q, this.sdmName.apiName);
+                    const trend = await fetchWithFilters(this.sdk, q, this.sdmName.apiName);
                     // drop null / blank months (e.g. households that never churned have no Churn Month)
                     this.series = normalizeRows(trend).filter((r) => r.dim !== null && r.dim !== undefined && String(r.dim).trim() !== '' && !/^null$/i.test(String(r.dim)));
                 } catch (e) {
@@ -200,6 +201,7 @@ export default class CumulusKpiTile extends LightningElement {
             notify(this.sdk, 'NODATA');
         } finally {
             this.loading = false;
+            this.filterDiag = SHOW_FILTER_DIAGNOSTICS ? filterDiagnostics(this.sdk) : '';
         }
     }
 }
