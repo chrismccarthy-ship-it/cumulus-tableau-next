@@ -1,0 +1,124 @@
+{
+  "name": "CC_Call_Centers_DS",
+  "label": "CC Call Centers DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "CallCenterId"
+    },
+    {
+      "dataType": "Text",
+      "name": "CallCenterName"
+    },
+    {
+      "dataType": "Text",
+      "name": "City"
+    },
+    {
+      "dataType": "Text",
+      "name": "State"
+    },
+    {
+      "dataType": "Text",
+      "name": "Region"
+    },
+    {
+      "dataType": "Number",
+      "name": "Headcount"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.CC_Call_Centers_DLO.Name}",
+    "label": "CC Call Centers DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "CallCenterId",
+        "label": "Call Center ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CallCenterName",
+        "label": "Call Center Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "City",
+        "label": "City"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "State",
+        "label": "State"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Region",
+        "label": "Region"
+      },
+      {
+        "dataType": "Number",
+        "isPrimaryKey": false,
+        "name": "Headcount",
+        "label": "Headcount"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "CallCenterId",
+      "targetFieldName": "CallCenterId"
+    },
+    {
+      "sourceFieldLabel": "CallCenterName",
+      "targetFieldName": "CallCenterName"
+    },
+    {
+      "sourceFieldLabel": "City",
+      "targetFieldName": "City"
+    },
+    {
+      "sourceFieldLabel": "State",
+      "targetFieldName": "State"
+    },
+    {
+      "sourceFieldLabel": "Region",
+      "targetFieldName": "Region"
+    },
+    {
+      "sourceFieldLabel": "Headcount",
+      "targetFieldName": "Headcount"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.CC_Call_Centers_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.CC_Call_Centers_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.CC_Call_Centers_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.CC_Call_Centers_CSV.FileType}"
+  }
+}

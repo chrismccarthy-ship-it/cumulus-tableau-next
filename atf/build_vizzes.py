@@ -128,16 +128,19 @@ def paint(v, hex_color):
 
 def viz(tname, name, label, fields, rows, cols, mark, encodings=(), stacked=False, sort_desc_by=None, style=None):
     ws = f"{tname}_WS"
-    return {"label": label, "name": name,
+    legends = {e["fieldKey"]: {"isVisible": True, "position": "Right" if mark == "Donut" else "Bottom", "title": {"isVisible": False}}
+               for e in encodings if e["type"] == "Color"}
+    v = {"label": label, "name": name,
             "dataSource": {"name": f"${{App.SemanticModels.{tname}_SDM.Name}}", "id": f"${{App.SemanticModels.{tname}_SDM.Id}}", "type": "SemanticModel"},
             "fields": fields, "interactions": [],
             "view": {"label": "default", "name": f"{name}_default", "viewSpecification": {
                      "sortOrders": {"columns": [], "rows": [], "fields": ({sort_desc_by[0]: {"type": "Nested", "order": "Descending", "byField": sort_desc_by[1]}} if sort_desc_by else {})}}},
-            "visualSpecification": {"columns": cols, "forecasts": {}, "layout": "Vizql", "legends": {},
+            "visualSpecification": {"columns": cols, "forecasts": {}, "layout": "Vizql", "legends": legends,
                                     "marks": {"fields": {}, "headers": {"encodings": [], "isAutomatic": True, "stack": {"isAutomatic": True, "isStacked": False}, "type": "Text"},
                                               "panes": {"encodings": list(encodings), "isAutomatic": not encodings, "stack": {"isAutomatic": not stacked, "isStacked": stacked}, "type": mark}},
                                     "measureValues": [], "referenceLines": {}, "rows": rows, "style": style or base_style()},
             "workspace": {"label": tname.replace("_", " "), "name": f"${{App.Workspaces.{ws}.Name}}"}}
+    return v
 
 
 def kpi(t, name, label, measure, fn=None):
@@ -153,6 +156,8 @@ def bar(t, name, label, dim, measure, fn=None, color=None, horizontal=True, stac
     enc = []
     if color:
         f["F3"] = field(color, "Dimension"); enc.append({"fieldKey": "F3", "type": "Color"})
+    else:  # no series field: color each bar by its own category so the chart gets a legend and one color per category
+        f["F3"] = field(dim, "Dimension"); enc.append({"fieldKey": "F3", "type": "Color"})
     rows, cols = (["F1"], ["F2"]) if horizontal else (["F2"], ["F1"])
     st = base_style(axis_keys=("F2",), pane_keys=("F2",), header_keys=("F1",))
     v = viz(t, name, label, f, rows, cols, "Bar", enc, stacked=bool(color) or stacked, sort_desc_by=("F1", "F2"), style=st)
@@ -180,6 +185,61 @@ def donut(t, name, label, dim, measure, fn=None):
     f = {"F1": field(measure, "Measure", fn), "F2": field(dim, "Dimension"), "F3": field(dim, "Dimension")}
     enc = [{"fieldKey": "F1", "type": "Angle"}, {"fieldKey": "F2", "type": "Color"}, {"fieldKey": "F3", "type": "Label"}]
     return viz(t, name, label, f, [], [], "Donut", enc, style=base_style(pane_keys=("F1",)))
+
+
+def area(t, name, label, time_dim, measure, fn=None, color=None):
+    v = line(t, name, label, time_dim, measure, fn, color)
+    v["visualSpecification"]["marks"]["panes"]["type"] = "Area"
+    return v
+
+
+def dot(t, name, label, dim, measure, fn=None, color=None):
+    v = bar(t, name, label, dim, measure, fn, color)
+    v["visualSpecification"]["marks"]["panes"]["type"] = "Circle"
+    return v
+
+
+def vcol(t, name, label, dim, measure, fn=None, color=None):
+    """Vertical columns (bar() with rows and columns swapped)."""
+    v = bar(t, name, label, dim, measure, fn, color)
+    vs = v["visualSpecification"]
+    vs["rows"], vs["columns"] = vs["columns"], vs["rows"]
+    return v
+
+
+def heat(t, name, label, row_dim, col_dim, measure, fn=None):
+    """Heat map: Square marks, rows x columns, colour = measure."""
+    f = {"F1": field(row_dim, "Dimension"), "F2": field(col_dim, "Dimension"), "F3": field(measure, "Measure", fn)}
+    st = base_style(pane_keys=("F3",), header_keys=("F1", "F2"))
+    v = viz(t, name, label, f, ["F1"], ["F2"], "Square", [{"fieldKey": "F3", "type": "Color"}], style=st)
+    v["visualSpecification"]["legends"] = {"F3": {"isVisible": True, "position": "Bottom", "title": {"isVisible": False}}}
+    return v
+
+
+def radial(t, name, label, dim, measure_ref, fn=None):
+    """Radial bar (Radial layout): one ring per category, length = measure. Spec copied from a rose built in the UI (atf/radial_spec.json). Needs API v68."""
+    spec = json.load(open(os.path.join(HERE, "radial_spec.json"), encoding="utf-8"))
+    spec["slices"], spec["rings"] = ["F1"], ["F2"]
+    spec["marks"]["panes"]["encodings"] = [{"fieldKey": "F3", "type": "Color"}]
+    spec["legends"] = {"F3": {"isVisible": True, "position": "Bottom", "title": {"isVisible": False}}}
+    f = {"F1": field(dim, "Dimension"), "F2": field(measure_ref, "Measure", fn), "F3": field(dim, "Dimension")}
+    return {"label": label, "name": name,
+            "dataSource": {"name": f"${{App.SemanticModels.{t}_SDM.Name}}", "id": f"${{App.SemanticModels.{t}_SDM.Id}}", "type": "SemanticModel"},
+            "fields": f, "interactions": [],
+            "view": {"label": "default", "name": f"{name}_default", "viewSpecification": {"sortOrders": {"columns": [], "rows": [], "fields": {}}}},
+            "visualSpecification": spec, "workspace": {"label": t.replace("_", " "), "name": f"${{App.Workspaces.{t}_WS.Name}}"}}
+
+
+def sankey(t, name, label, dim1, dim2, measure_ref, fn=None):
+    """Sankey (Flow layout): two dimension levels and a link-width measure. Spec copied from a Sankey built in the Tableau Next UI (atf/flow_spec.json)."""
+    spec = json.load(open(os.path.join(HERE, "flow_spec.json"), encoding="utf-8"))
+    spec["legends"] = {"F2": {"isVisible": True, "position": "Bottom", "title": {"isVisible": False}}}
+    f = {"F1": field(dim1, "Dimension"), "F2": field(dim2, "Dimension"), "F3": field(measure_ref, "Measure", fn)}
+    return {"label": label, "name": name,
+            "dataSource": {"name": f"${{App.SemanticModels.{t}_SDM.Name}}", "id": f"${{App.SemanticModels.{t}_SDM.Id}}", "type": "SemanticModel"},
+            "fields": f, "interactions": [],
+            "view": {"label": "default", "name": f"{name}_default", "viewSpecification": {"sortOrders": {"columns": [], "rows": [], "fields": {}}}},
+            "visualSpecification": spec, "workspace": {"label": t.replace("_", " "), "name": f"${{App.Workspaces.{t}_WS.Name}}"}}
 
 
 # ---------------------------------------------------------------------------------
@@ -393,6 +453,54 @@ EXTENSIONS = {
 }
 
 
+# ---------------------------------------------------------------------------------
+# Cumulus Contact Center (Nov 2026). Titles quote numbers from data/gen_contact_center.py output (seed 7); re-check them if the data is regenerated.
+# ---------------------------------------------------------------------------------
+THEMES["Cumulus_Contact_Center"] = {"bg": "#F6F8FC", "hdr": "#E8EEF9", "title": "#1F3A5F", "sub": "#5B6F8F",
+                                    "palette": ["#6BA3E0", "#E58FB8", "#7FC79A", "#9C8AD6", "#6BA3E0", "#E58FB8"], "map": ("#E1ECF9", "#4A7BB7", "#E58FB8")}
+MAPS["Cumulus_Contact_Center"] = ("CC_Contacts.CustomerState", ("Contacts", "UserAgg", "Contacts", "number"), ("Negative_Share", "UserAgg", "Negative Sentiment", "percent"),
+                                  "Where do contacts come from?", "Shade = contacts by customer state · bubble = share of contacts that end negative · click a state to filter",
+                                  ("bar", "CC_Contacts_By_State", "Contacts by State", "CC_Contacts.CustomerState", "calc:Contacts", None))
+SPECS["Cumulus_Contact_Center"] = {
+    "title": "Contact Center Overview", "subtitle": "Contact center manager view: volume, response time against SLA, sentiment, satisfaction",
+    "filters": [("CC_Contacts.CallCenterName", "Call Center"), ("CC_Contacts.Channel", "Channel")],
+    "titles": {"CC_Contacts_Trend": ("Contact volume is up 41% in two years", "Contacts per month, Sep 2024 (595) to Aug 2026 (840)"),
+               "CC_Reason_Mix": ("Billing, payments and account access are 48% of contacts", "Contacts by reason"),
+               "CC_SLA_Share": ("77.5% of contacts meet their response-time SLA", "Share of contacts by response vs SLA"),
+               "CC_Channel_SLA": ("Chatbot meets SLA 88% of the time, email only 65%", "Contacts by channel and response vs SLA"),
+               "CC_Center_SLA_Trend": ("Dallas fell from 80% to 54% SLA attainment in March 2026", "SLA attainment per month by call center"),
+               "CC_Sentiment": ("35% of contacts end negative", "Contacts by sentiment"),
+               "CC_Reason_Negative": ("Fraud alerts are the most negative: 59% end badly", "Share of contacts with negative sentiment, by reason and channel"),
+               "CC_CSAT_By_Channel": ("Call center scores lowest on satisfaction (5.3 of 10)", "Average CSAT by channel"),
+               "CC_Contacts_By_State": ("Texas, California and Florida send the most contacts", "Contacts by customer state"),
+               "CC_SLA_By_Center_Radial": ("Dallas trails at 69.5% SLA attainment, Phoenix leads at 86.1%", "Share of contacts that meet their response-time SLA, by call center"),
+               "CC_Reason_Sentiment_Sankey": ("Fraud alerts and card disputes drive the negative sentiment", "Contacts by reason and sentiment")},
+    "kpis": [],
+    "kpi_tiles": [("contacts", "Contacts", ("Contacts", "UserAgg", "Contacts"), "#4A7BB7", "UpIsGood", "number", "", "CC_Contacts.ContactMonth"),
+                  ("sla", "SLA Attainment", ("SLA_Attainment", "UserAgg", "SLA Attainment"), "#4FA878", "UpIsGood", "percent", "0.8", "CC_Contacts.ContactMonth"),
+                  ("csat", "Avg CSAT (1-10)", ("Avg_CSAT", "UserAgg", "Avg CSAT"), "#9C8AD6", "UpIsGood", "number", "6", "CC_Contacts.ContactMonth"),
+                  ("aht", "Avg Handle Time (min)", ("Avg_Handle_Time", "UserAgg", "Avg Handle Time"), "#E58FB8", "UpIsBad", "number", "9", "CC_Contacts.ContactMonth")],
+    "compact": True,
+    "charts": [("area", "CC_Contacts_Trend", "Contacts by Month", "CC_Contacts.ContactMonth", "calc:Contacts", None),
+               ("bar", "CC_Reason_Mix", "Contacts by Reason", "CC_Contacts.Reason", "calc:Contacts", None),
+               ("vcol", "CC_Channel_SLA", "Response vs SLA by Channel", "CC_Contacts.Channel", "calc:Contacts", "CC_Contacts.SLAStatus"),
+               ("donut", "CC_SLA_Share", "Response vs SLA", "CC_Contacts.SLAStatus", "calc:Contacts"),
+               ("vcol", "CC_Sentiment", "Sentiment", "CC_Contacts.Sentiment", "calc:Contacts", None),
+               ("heat", "CC_Reason_Negative", "Negative Sentiment by Reason and Channel", "CC_Contacts.Reason", "calc:Negative_Share", "CC_Contacts.Channel"),
+               ("radial", "CC_SLA_By_Center_Radial", "SLA Attainment by Call Center", "CC_Contacts.CallCenterName", "calc:SLA_Attainment", None),
+               ("line", "CC_Center_SLA_Trend", "SLA Attainment by Call Center Over Time", "CC_Contacts.ContactMonth", "calc:SLA_Attainment", "CC_Contacts.CallCenterName"),
+               ("dot", "CC_CSAT_By_Channel", "CSAT by Channel", "CC_Contacts.Channel", "calc:Avg_CSAT", None),
+               ("sankey", "CC_Reason_Sentiment_Sankey", "Reason to Sentiment", "CC_Contacts.Reason", "calc:Contacts", "CC_Contacts.Sentiment")],
+}
+EXTENSIONS["Cumulus_Contact_Center"] = [
+    ("banner", "cumulusThresholdBanner", 3, {"measureField": measure("SLA_Attainment", "UserAgg", "SLA Attainment"), "threshold": "0.8", "belowIsBad": True,
+                                             "alertMessage": "SLA attainment is below 80%: Dallas has missed its response target since March 2026",
+                                             "okMessage": "SLA attainment at or above 80%", "format": "percent",
+                                             "focusDimension": dimension("CC_Contacts.CallCenterName", "Call Center"), "focusValue": "Dallas Contact Center"}),
+    ("bars", "cumulusRankedBars", 10, {"dimensionField": dimension("CC_Contacts.Reason", "Reason"), "measureField": measure("CC_Contacts.DurationMinutes", "Avg", "Avg Handle Time"),
+                                      "title": "Handle time by reason, minutes (click to filter)", "topN": 9, "format": "number"})]
+
+
 def ext_widget(tname, wname, comp, props):
     p = dict(props); p["sdmName"] = SDM(tname)
     return {"actions": [], "name": wname, "label": comp, "parameters": {"fullyQualifiedName": f"c:{comp}", "properties": p,
@@ -431,14 +539,19 @@ def build(tname):
         m, fn = split_fn(m)
         v = {"line": lambda: line(tname, n, lab, dim, m, fn, color), "bar": lambda: bar(tname, n, lab, dim, m, fn, color),
              "line2": lambda: line(tname, n, lab, dim, m, fn, None, second=color), "bartop": lambda: bar(tname, n, lab, dim, m, fn, None, top=color),
-             "col": lambda: bar(tname, n, lab, dim, m, fn, color, horizontal=False), "donut": lambda: donut(tname, n, lab, dim, m, fn)}[kind]()
+             "col": lambda: bar(tname, n, lab, dim, m, fn, color, horizontal=False), "donut": lambda: donut(tname, n, lab, dim, m, fn),
+             "sankey": lambda: sankey(tname, n, lab, dim, color, m, fn), "area": lambda: area(tname, n, lab, dim, m, fn, color),
+             "dot": lambda: dot(tname, n, lab, dim, m, fn, color), "vcol": lambda: vcol(tname, n, lab, dim, m, fn, color),
+             "heat": lambda: heat(tname, n, lab, dim, color, m, fn), "radial": lambda: radial(tname, n, lab, dim, m, fn)}[kind]()
         hue = next_hue(tname, used_hues); used_hues.append(hue); CHART_COLOR[n] = hue
-        if kind != "donut":
+        if kind not in ("donut", "sankey", "heat", "radial"):
             paint(v, hue)
         json.dump(v, open(os.path.join(vdir, n + ".json"), "w"), indent=2); names.append(n)
     # Dashboard on the 96-column, 0-indexed grid Tableau Next uses (rowHeight 10px):
     #   title + filters | alert banner (extension) | 4 KPIs | list/tile extension + trend | charts, 3 per band
     W = 96
+    cp = spec.get("compact")
+    H_HEAD, H_BANNER, H_KPI, H_BAND, H_MAP, H_TITLE = (4, 3, 10, 26, 30, 4) if cp else (5, 5, 16, 30, 38, None)
     widgets, layout = {}, []
     def vis(n, extra=None):
         w = {"actions": [], "name": f"w_{n}", "parameters": {"legendPosition": "Bottom", "receiveFilterSource": {"filterMode": "all", "widgetIds": []},
@@ -465,7 +578,7 @@ def build(tname):
         w = ext_widget(tname, f"t_{n}", "cumulusChartHeadline", props)
         w["parameters"]["widgetStyle"]["borderWidth"] = 0; w["parameters"]["widgetStyle"]["borderColor"] = "#FFFFFF"
         widgets[f"t_{n}"] = w
-        hrows = 7 if stat else 6
+        hrows = H_TITLE if (cp and not stat) else (7 if stat else 6)
         place(f"t_{n}", col, row, colspan, hrows)
         place(vis(n), col, row + hrows, colspan, rowspan - hrows)
     row = 0
@@ -478,7 +591,7 @@ def build(tname):
                       "widgetStyle": {"backgroundColor": th["hdr"], "borderColor": th["hdr"], "borderEdges": [], "borderRadius": 16, "borderWidth": 0}}}
     filters = spec.get("filters", [])
     fw = 16
-    place("hdr", 0, row, W - fw * len(filters), 5)
+    place("hdr", 0, row, W - fw * len(filters), H_HEAD)
     for i, (ref, lab) in enumerate(filters):
         obj, fld = ref.split(".", 1)
         wn = f"flt_{fld}"
@@ -486,14 +599,14 @@ def build(tname):
                        "parameters": {"filterOption": {"dataType": "Text", "fieldName": fld, "objectName": obj, "selectionType": "multiple"}, "isLabelHidden": False,
                                       "receiveFilterSource": {"filterMode": "all", "widgetIds": []}, "viewType": "list",
                                       "widgetStyle": {"backgroundColor": "#FFFFFF", "borderColor": "#E3E9F1", "borderEdges": [], "borderRadius": 16, "borderWidth": 1}}}
-        place(wn, W - fw * (len(filters) - i), row, fw, 5)
-    row += 5
+        place(wn, W - fw * (len(filters) - i), row, fw, H_HEAD)
+    row += H_HEAD
     exts = EXTENSIONS.get(tname, [])
     banners = [e for e in exts if e[1] == "cumulusThresholdBanner"]
     sides = [e for e in exts if e[1] != "cumulusThresholdBanner"]
     for wname, comp, height, props in banners:
         widgets[f"x_{wname}"] = ext_widget(tname, f"x_{wname}", comp, props)
-        place(f"x_{wname}", 0, row, W, 5); row += 5
+        place(f"x_{wname}", 0, row, W, H_BANNER); row += H_BANNER
     # KPI band: cumulusKpiTile extensions (big number, colour, sparkline, delta) or plain Text vizzes
     tiles = spec.get("kpi_tiles", [])
     if tiles:
@@ -514,8 +627,8 @@ def build(tname):
             if trend_label:
                 props["trendLabel"] = trend_label
             widgets[f"k_{wn}"] = ext_widget(tname, f"k_{wn}", "cumulusKpiTile", props)
-            place(f"k_{wn}", i * kw, row, kw, 16)
-        row += 16
+            place(f"k_{wn}", i * kw, row, kw, H_KPI)
+        row += H_KPI
     # map band: cumulusStateMap extension (left ~60%) + a supporting ranked bar chart
     mp = MAPS.get(tname)
     if mp:
@@ -527,15 +640,15 @@ def build(tname):
             b_name, b_agg, b_lab, b_fmt = bub
             props["bubbleMeasureField"] = measure(b_name, b_agg, b_lab); props["bubbleFormat"] = b_fmt
         widgets["x_map"] = ext_widget(tname, "x_map", "cumulusStateMap", props)
-        place("x_map", 0, row, 60, 38)
+        place("x_map", 0, row, 60, H_MAP)
         kind, n, lab, dim, m, color = side_chart
         m, fn = split_fn(m)
         v = bar(tname, n, lab, dim, m, fn, color)
         hue = next_hue(tname, used_hues); used_hues.append(hue); CHART_COLOR[n] = hue
         paint(v, hue)
         json.dump(v, open(os.path.join(vdir, n + ".json"), "w"), indent=2); names.append(n)
-        place_chart(n, 60, row, W - 60, 38, lab)
-        row += 38
+        place_chart(n, 60, row, W - 60, H_MAP, lab)
+        row += H_MAP
     elif spec["kpis"]:
         kw = W // len(spec["kpis"])
         for i, (n, _, _) in enumerate(spec["kpis"]):
@@ -548,20 +661,25 @@ def build(tname):
         wname, comp, height, props = sides[0]
         widgets[f"x_{wname}"] = ext_widget(tname, f"x_{wname}", comp, props)
         place(f"x_{wname}", 0, row, 28, 34)
-        place_chart(first, 28, row, W - 28, 34, first_label)
+        place_chart(first, 28, row, W - 28, H_BAND if cp else 34, first_label)
     else:
         place_chart(first, 0, row, W, 30, first_label)
-    row += 34 if sides else 30
+    row += (H_BAND if cp else 34) if sides else 30
     # remaining charts, three per band
     per = 3
+    flows = [c for c in charts if c[0] == "sankey"]
+    charts = [c for c in charts if c[0] != "sankey"]
     for j, c in enumerate(charts):
         cw = W // per
-        place_chart(c[1], (j % per) * cw, row + (j // per) * 30, cw, 30, c[2])
+        place_chart(c[1], (j % per) * cw, row + (j // per) * H_BAND, cw, H_BAND, c[2])
+    row += ((len(charts) + per - 1) // per) * H_BAND
+    for c in flows:   # Sankeys need width: one per band, full row
+        place_chart(c[1], 0, row, W, 36, c[2]); row += 36
     dash = {"name": f"{tname}_Overview", "label": f"{tname.replace('_', ' ')} Overview ${{Variables.LabelSuffix}}",
             "description": f"{tname.replace('_', ' ')} — service and business KPIs for the Cumulus Financial Group demo.",
             "customConfig": {"queryCacheEnabled": True, "queryCacheStaleness": "30min"},
             "layouts": [{"columnCount": W, "maxWidth": 1600, "name": "default", "pages": [{"label": "Overview", "name": "overview", "widgets": layout}], "rowHeight": 10,
-                         "style": {"backgroundColor": th["bg"], "cellSpacingX": 14, "cellSpacingY": 14, "gutterColor": th["bg"]}}],
+                         "style": {"backgroundColor": th["bg"], "cellSpacingX": 8 if cp else 14, "cellSpacingY": 8 if cp else 14, "gutterColor": th["bg"]}}],
             "style": {"widgetStyle": {"backgroundColor": "#FFFFFF", "borderColor": "#E3E9F1", "borderEdges": [], "borderRadius": 16, "borderWidth": 1}},
             "widgets": widgets, "workspaceIdOrApiName": f"${{App.Workspaces.{tname}_WS.Name}}"}
     json.dump(dash, open(os.path.join(ddir, f"{tname}_Overview.json"), "w"), indent=2)

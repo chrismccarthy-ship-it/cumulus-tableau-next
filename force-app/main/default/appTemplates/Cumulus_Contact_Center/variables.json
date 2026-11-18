@@ -1,0 +1,20 @@
+{
+  "LabelSuffix": {
+    "label": "Asset Label Suffix",
+    "description": "Appended to every created asset label (useful when installing more than once).",
+    "defaultValue": "",
+    "required": false,
+    "variableType": {
+      "type": "StringType"
+    }
+  },
+  "CreateDashboard": {
+    "label": "Create visualizations and dashboard",
+    "description": "Turn off to install only the data and semantic model.",
+    "defaultValue": true,
+    "required": true,
+    "variableType": {
+      "type": "BooleanType"
+    }
+  }
+}

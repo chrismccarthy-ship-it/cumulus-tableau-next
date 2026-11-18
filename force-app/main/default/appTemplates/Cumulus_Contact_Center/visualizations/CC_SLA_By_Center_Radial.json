@@ -1,0 +1,198 @@
+{
+  "label": "SLA Attainment by Call Center",
+  "name": "CC_SLA_By_Center_Radial",
+  "dataSource": {
+    "name": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+    "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+    "type": "SemanticModel"
+  },
+  "fields": {
+    "F1": {
+      "fieldName": "CallCenterName",
+      "objectName": "CC_Contacts",
+      "role": "Dimension",
+      "type": "Field",
+      "label": "Call Center Name",
+      "displayCategory": "Discrete"
+    },
+    "F2": {
+      "displayCategory": "Continuous",
+      "fieldName": "SLA_Attainment",
+      "function": "UserAgg",
+      "role": "Measure",
+      "type": "Field",
+      "label": "SLA Attainment"
+    },
+    "F3": {
+      "fieldName": "CallCenterName",
+      "objectName": "CC_Contacts",
+      "role": "Dimension",
+      "type": "Field",
+      "label": "Call Center Name",
+      "displayCategory": "Discrete"
+    }
+  },
+  "interactions": [],
+  "view": {
+    "label": "default",
+    "name": "CC_SLA_By_Center_Radial_default",
+    "viewSpecification": {
+      "sortOrders": {
+        "columns": [],
+        "rows": [],
+        "fields": {}
+      }
+    }
+  },
+  "visualSpecification": {
+    "layout": "Radial",
+    "legends": {
+      "F3": {
+        "isVisible": true,
+        "position": "Bottom",
+        "title": {
+          "isVisible": false
+        }
+      }
+    },
+    "marks": {
+      "panes": {
+        "encodings": [
+          {
+            "fieldKey": "F3",
+            "type": "Color"
+          }
+        ],
+        "isAutomatic": false,
+        "stack": {
+          "isAutomatic": true,
+          "isStacked": true
+        },
+        "type": "Bar"
+      }
+    },
+    "rings": [
+      "F2"
+    ],
+    "slices": [
+      "F1"
+    ],
+    "style": {
+      "encodings": {
+        "fields": {
+          "F2": {
+            "defaults": {
+              "format": {
+                "numberFormatInfo": {
+                  "decimalPlaces": 2,
+                  "displayUnits": "Auto",
+                  "includeThousandSeparator": true,
+                  "negativeValuesFormat": "Auto",
+                  "prefix": "",
+                  "suffix": "",
+                  "type": "Number"
+                }
+              }
+            }
+          }
+        }
+      },
+      "fieldLabels": {
+        "columns": {
+          "showDividerLine": false,
+          "showLabels": false
+        },
+        "rows": {
+          "showDividerLine": false,
+          "showLabels": false
+        }
+      },
+      "fonts": {
+        "actionableHeaders": {
+          "color": "--slds-g-color-palette-electric-blue-40",
+          "size": 13
+        },
+        "axisTickLabels": {
+          "color": "--slds-g-color-palette-neutral-20",
+          "size": 13
+        },
+        "fieldLabels": {
+          "color": "--slds-g-color-palette-neutral-20",
+          "size": 13
+        },
+        "headers": {
+          "color": "--slds-g-color-palette-neutral-20",
+          "size": 13
+        },
+        "legendLabels": {
+          "color": "--slds-g-color-palette-neutral-20",
+          "size": 13
+        },
+        "markLabels": {
+          "color": "--slds-g-color-palette-neutral-20",
+          "size": 13
+        },
+        "marks": {
+          "color": "--slds-g-color-palette-neutral-20",
+          "size": 13
+        }
+      },
+      "lines": {
+        "axisLine": {
+          "color": "--slds-g-color-palette-neutral-80"
+        },
+        "fieldLabelDividerLine": {
+          "color": "--slds-g-color-palette-neutral-80"
+        },
+        "separatorLine": {
+          "color": "--slds-g-color-palette-neutral-80"
+        },
+        "zeroLine": {
+          "color": "--slds-g-color-palette-neutral-80"
+        }
+      },
+      "marks": {
+        "panes": {
+          "color": {
+            "color": ""
+          },
+          "isAutomaticOpacity": true,
+          "isAutomaticSize": true,
+          "isStackingAxisCentered": false,
+          "label": {
+            "canOverlapLabels": false,
+            "marksToLabel": {
+              "type": "All"
+            },
+            "showMarkLabels": false,
+            "textDirection": "Horizontal"
+          },
+          "opacity": 100,
+          "range": {
+            "reverse": true
+          },
+          "size": {
+            "isAutomatic": true,
+            "type": "Percentage",
+            "value": 80
+          }
+        }
+      },
+      "shading": {
+        "backgroundColor": "--slds-g-color-palette-neutral-100",
+        "banding": {
+          "rows": {
+            "color": "--slds-g-color-palette-neutral-90"
+          }
+        }
+      },
+      "title": {
+        "isVisible": true
+      }
+    }
+  },
+  "workspace": {
+    "label": "Cumulus Contact Center",
+    "name": "${App.Workspaces.Cumulus_Contact_Center_WS.Name}"
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "name": "CC_Customers_DS",
+  "label": "CC Customers DS ${Variables.LabelSuffix}",
+  "datastreamType": "CONNECTORSFRAMEWORK",
+  "connectorInfo": {
+    "connectorType": "DataConnector",
+    "connectorDetails": {
+      "name": "UploadedFiles"
+    }
+  },
+  "sourceFields": [
+    {
+      "dataType": "Text",
+      "name": "CustomerId"
+    },
+    {
+      "dataType": "Text",
+      "name": "CustomerName"
+    },
+    {
+      "dataType": "Text",
+      "name": "State"
+    },
+    {
+      "dataType": "Text",
+      "name": "Segment"
+    },
+    {
+      "dataType": "Date",
+      "name": "CustomerSince",
+      "format": "yyyy-MM-dd"
+    }
+  ],
+  "dataLakeObjectInfo": {
+    "name": "${App.DataLakeObjects.CC_Customers_DLO.Name}",
+    "label": "CC Customers DLO ${Variables.LabelSuffix}",
+    "category": "OTHER",
+    "dataspaceInfo": [
+      {
+        "name": "default"
+      }
+    ],
+    "fields": [
+      {
+        "dataType": "Text",
+        "isPrimaryKey": true,
+        "name": "CustomerId",
+        "label": "Customer ID"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "CustomerName",
+        "label": "Customer Name"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "State",
+        "label": "State"
+      },
+      {
+        "dataType": "Text",
+        "isPrimaryKey": false,
+        "name": "Segment",
+        "label": "Segment"
+      },
+      {
+        "dataType": "Date",
+        "isPrimaryKey": false,
+        "name": "CustomerSince",
+        "label": "Customer Since"
+      }
+    ]
+  },
+  "mappings": [
+    {
+      "sourceFieldLabel": "CustomerId",
+      "targetFieldName": "CustomerId"
+    },
+    {
+      "sourceFieldLabel": "CustomerName",
+      "targetFieldName": "CustomerName"
+    },
+    {
+      "sourceFieldLabel": "State",
+      "targetFieldName": "State"
+    },
+    {
+      "sourceFieldLabel": "Segment",
+      "targetFieldName": "Segment"
+    },
+    {
+      "sourceFieldLabel": "CustomerSince",
+      "targetFieldName": "CustomerSince"
+    }
+  ],
+  "refreshConfig": {
+    "refreshMode": "TOTAL_REPLACE",
+    "frequency": {
+      "frequencyType": "None"
+    }
+  },
+  "advancedAttributes": {
+    "importDirectory": "${App.CSVs.CC_Customers_CSV.ImportDirectory}",
+    "fileName": "${App.CSVs.CC_Customers_CSV.FileName}",
+    "delimiter": ",",
+    "parentDirectory": "${App.CSVs.CC_Customers_CSV.ParentDirectory}",
+    "fileType": "${App.CSVs.CC_Customers_CSV.FileType}"
+  }
+}

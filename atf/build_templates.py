@@ -345,9 +345,37 @@ def lob_lending(shared):
     }
 
 
+def lob_contact_center(shared):
+    """Cumulus Contact Center (added Nov 2026): a retail bank's contact centers. Data from data/gen_contact_center.py."""
+    ct = load("contact_center", "cc_contacts"); cu = load("contact_center", "cc_customers"); ce = load("contact_center", "cc_call_centers")
+    cei = index(ce, "CallCenterId"); cui = index(cu, "CustomerId")
+    ct = merge(ct, cei, "CallCenterId", {"CallCenterName": "CallCenterName", "Region": "Region", "CenterState": "State"})
+    ct = merge(ct, cui, "CustomerId", {"CustomerName": "CustomerName", "CustomerState": "State", "Segment": "Segment"})
+    dates_only(ct, ["ContactDate", "ContactMonth"]); dates_only(cu, ["CustomerSince"])  # metric time dimension must be Date, not a timestamp string
+    flag = lambda col, api: "COUNT(IF [CC_Contacts].[%s] = true THEN [CC_Contacts].[ContactId] END) / COUNT([CC_Contacts].[ContactId])" % col
+    return {
+        "label": "Cumulus Contact Center", "description": "Contact center view for a retail bank: contact volume, response time against SLA, sentiment, satisfaction, first-contact resolution, Agentforce share, and where customers are.",
+        "tables": [T("CC_Contacts", ct, "ContactId", measures=["ResponseMinutes", "SLATargetMinutes", "DurationMinutes", "CSAT"]),
+                   T("CC_Customers", cu, "CustomerId", measures=[]),
+                   T("CC_Call_Centers", ce, "CallCenterId", measures=["Headcount"])],
+        "relationships": [("CC_Contacts", "CallCenterId", "CC_Call_Centers", "CallCenterId"), ("CC_Contacts", "CustomerId", "CC_Customers", "CustomerId")],
+        "calcs": [("Contacts", "Contacts", "count([CC_Contacts])", "SentimentTypeUpIsGood"),
+                  ("Avg_Handle_Time", "Avg Handle Time (min)", "AVG([CC_Contacts].[DurationMinutes])", "SentimentTypeUpIsBad"),
+                  ("Avg_CSAT", "Avg CSAT (1-10)", "AVG([CC_Contacts].[CSAT])", "SentimentTypeUpIsGood"),
+                  ("Avg_Response_Time", "Avg Response Time (min)", "AVG([CC_Contacts].[ResponseMinutes])", "SentimentTypeUpIsBad"),
+                  ("SLA_Attainment", "SLA Attainment", flag("SLAMet", "SLA_Attainment"), "SentimentTypeUpIsGood"),
+                  ("FCR_Rate", "First-Contact Resolution", flag("FirstContactResolved", "FCR_Rate"), "SentimentTypeUpIsGood"),
+                  ("Negative_Share", "Negative Sentiment Share", flag("IsNegative", "Negative_Share"), "SentimentTypeUpIsBad"),
+                  ("Agentforce_Share", "Agentforce Share", flag("AgentforceHandled", "Agentforce_Share"), "SentimentTypeUpIsGood")],
+        "metrics": [("Contacts_M", "Contacts", "CC_Contacts", "calc:Contacts", "UserAgg", "ContactDate", ["Reason", "Channel", "CallCenterName"], "SentimentTypeUpIsGood"),
+                    ("Avg_CSAT_M", "Average CSAT", "CC_Contacts", "CSAT", "Average", "ContactDate", ["Reason", "Channel", "CallCenterName"], "SentimentTypeUpIsGood")],
+    }
+
+
 LOBS = OrderedDict([("retail_banking", ("Cumulus_Retail_Banking", lob_retail)), ("wealth", ("Cumulus_Wealth", lob_wealth)),
                     ("asset_management", ("Cumulus_Asset_Management", lob_asset_mgmt)), ("insurance", ("Cumulus_Insurance", lob_insurance)),
-                    ("commercial", ("Cumulus_Commercial", lob_commercial)), ("advisors", ("Cumulus_Advisors", lob_advisors)), ("lending", ("Cumulus_Lending", lob_lending))])
+                    ("commercial", ("Cumulus_Commercial", lob_commercial)), ("advisors", ("Cumulus_Advisors", lob_advisors)), ("lending", ("Cumulus_Lending", lob_lending)),
+                    ("contact_center", ("Cumulus_Contact_Center", lob_contact_center))])
 
 # --------------------------------------------------------------------------------
 # emitters

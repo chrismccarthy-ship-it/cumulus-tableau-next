@@ -1,0 +1,904 @@
+{
+  "label": "Cumulus Contact Center Model ${Variables.LabelSuffix}",
+  "agentEnabled": true,
+  "app": "${App.Name}",
+  "dataspace": "default",
+  "categories": [],
+  "currency": {
+    "useOrgDefault": true
+  },
+  "fieldsOverrides": [],
+  "hasUnmapped": false,
+  "isLocked": false,
+  "lockedActions": {},
+  "queryUnrelatedDataObjects": "Union",
+  "businessPreferences": "# Cumulus Contact Center semantic model for the Cumulus Financial Group demo. Synthetic data, 2024-09 to 2026-08.\n# Contact center view for a retail bank: contact volume, response time against SLA, sentiment, satisfaction, first-contact resolution, Agentforce share, and where customers are.\n# Ratio measures that divide across objects (e.g. Loss Ratio) should be grouped by dimensions of the denominator object.",
+  "semanticCalculatedDimensions": [],
+  "semanticCalculatedDimensionsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/calculated-dimensions",
+  "semanticCalculatedMeasurements": [
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Contacts",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "count([CC_Contacts])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Contacts",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsGood",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Avg_Handle_Time",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "AVG([CC_Contacts].[DurationMinutes])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Avg Handle Time (min)",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsBad",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Avg_CSAT",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "AVG([CC_Contacts].[CSAT])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Avg CSAT (1-10)",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsGood",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Avg_Response_Time",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "AVG([CC_Contacts].[ResponseMinutes])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Avg Response Time (min)",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsBad",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "SLA_Attainment",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "COUNT(IF [CC_Contacts].[SLAMet] = true THEN [CC_Contacts].[ContactId] END) / COUNT([CC_Contacts].[ContactId])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "SLA Attainment",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsGood",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "FCR_Rate",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "COUNT(IF [CC_Contacts].[FirstContactResolved] = true THEN [CC_Contacts].[ContactId] END) / COUNT([CC_Contacts].[ContactId])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "First-Contact Resolution",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsGood",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Negative_Share",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "COUNT(IF [CC_Contacts].[IsNegative] = true THEN [CC_Contacts].[ContactId] END) / COUNT([CC_Contacts].[ContactId])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Negative Sentiment Share",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsBad",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    },
+    {
+      "aggregationType": "UserAgg",
+      "apiName": "Agentforce_Share",
+      "dataType": "Number",
+      "decimalPlace": 2,
+      "directionality": "Up",
+      "displayCategory": "Continuous",
+      "expression": "COUNT(IF [CC_Contacts].[AgentforceHandled] = true THEN [CC_Contacts].[ContactId] END) / COUNT([CC_Contacts].[ContactId])",
+      "filters": [],
+      "isOverrideBase": false,
+      "isQueryable": "Queryable",
+      "isVisible": true,
+      "label": "Agentforce Share",
+      "level": "AggregateFunction",
+      "overriddenProperties": [],
+      "semanticDataType": "None",
+      "sentiment": "SentimentTypeUpIsGood",
+      "shouldTreatNullsAsZeros": false,
+      "sortOrder": "None",
+      "totalAggregationType": "Sum"
+    }
+  ],
+  "semanticCalculatedMeasurementsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/calculated-measurements",
+  "semanticDataObjects": [
+    {
+      "apiName": "CC_Contacts",
+      "dataObjectName": "${App.DataLakeObjects.CC_Contacts_DLO.Name}",
+      "dataObjectType": "Dlo",
+      "description": "CC Contacts \u2014 one row per contact.",
+      "filters": [],
+      "isQueryable": "Queryable",
+      "label": "CC Contacts",
+      "overriddenProperties": [],
+      "primaryNameField": "ContactId",
+      "semanticDimensions": [
+        {
+          "apiName": "ContactId",
+          "dataObjectFieldName": "ContactId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Contact ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "ContactDate",
+          "dataObjectFieldName": "ContactDate__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Contact Date",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        },
+        {
+          "apiName": "ContactMonth",
+          "dataObjectFieldName": "ContactMonth__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Contact Month",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        },
+        {
+          "apiName": "CallCenterId",
+          "dataObjectFieldName": "CallCenterId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Call Center ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "CustomerId",
+          "dataObjectFieldName": "CustomerId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Customer ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Channel",
+          "dataObjectFieldName": "Channel__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Channel",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Reason",
+          "dataObjectFieldName": "Reason__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Reason",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Sentiment",
+          "dataObjectFieldName": "Sentiment__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Sentiment",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "IsNegative",
+          "dataObjectFieldName": "IsNegative__c",
+          "dataType": "Boolean",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Is Negative",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Boolean"
+        },
+        {
+          "apiName": "SLAStatus",
+          "dataObjectFieldName": "SLAStatus__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "SLAStatus",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "SLAMet",
+          "dataObjectFieldName": "SLAMet__c",
+          "dataType": "Boolean",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "SLAMet",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Boolean"
+        },
+        {
+          "apiName": "FirstContactResolved",
+          "dataObjectFieldName": "FirstContactResolved__c",
+          "dataType": "Boolean",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "First Contact Resolved",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Boolean"
+        },
+        {
+          "apiName": "AgentforceHandled",
+          "dataObjectFieldName": "AgentforceHandled__c",
+          "dataType": "Boolean",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Agentforce Handled",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Boolean"
+        },
+        {
+          "apiName": "IsFirstContact",
+          "dataObjectFieldName": "IsFirstContact__c",
+          "dataType": "Boolean",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Is First Contact",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Boolean"
+        },
+        {
+          "apiName": "CallCenterName",
+          "dataObjectFieldName": "CallCenterName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Call Center Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Region",
+          "dataObjectFieldName": "Region__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Region",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "CenterState",
+          "dataObjectFieldName": "CenterState__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Center State",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "CustomerName",
+          "dataObjectFieldName": "CustomerName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Customer Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "CustomerState",
+          "dataObjectFieldName": "CustomerState__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Customer State",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Segment",
+          "dataObjectFieldName": "Segment__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Segment",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        }
+      ],
+      "semanticDimensionsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/data-objects/CC_Contacts/dimensions",
+      "semanticMeasurements": [
+        {
+          "aggregationType": "Sum",
+          "apiName": "ResponseMinutes",
+          "dataObjectFieldName": "ResponseMinutes__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Response Minutes",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "SLATargetMinutes",
+          "dataObjectFieldName": "SLATargetMinutes__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "SLATarget Minutes",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "DurationMinutes",
+          "dataObjectFieldName": "DurationMinutes__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Duration Minutes",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        },
+        {
+          "aggregationType": "Sum",
+          "apiName": "CSAT",
+          "dataObjectFieldName": "CSAT__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "CSAT",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        }
+      ],
+      "semanticMeasurementsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/data-objects/CC_Contacts/measurements",
+      "shouldIncludeAllFields": true,
+      "tableType": "Standard"
+    },
+    {
+      "apiName": "CC_Customers",
+      "dataObjectName": "${App.DataLakeObjects.CC_Customers_DLO.Name}",
+      "dataObjectType": "Dlo",
+      "description": "CC Customers \u2014 one row per customer.",
+      "filters": [],
+      "isQueryable": "Queryable",
+      "label": "CC Customers",
+      "overriddenProperties": [],
+      "primaryNameField": "CustomerId",
+      "semanticDimensions": [
+        {
+          "apiName": "CustomerId",
+          "dataObjectFieldName": "CustomerId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Customer ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "CustomerName",
+          "dataObjectFieldName": "CustomerName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Customer Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "State",
+          "dataObjectFieldName": "State__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "State",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Segment",
+          "dataObjectFieldName": "Segment__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Segment",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "CustomerSince",
+          "dataObjectFieldName": "CustomerSince__c",
+          "dataType": "Date",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Customer Since",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Date"
+        }
+      ],
+      "semanticDimensionsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/data-objects/CC_Customers/dimensions",
+      "semanticMeasurements": [],
+      "semanticMeasurementsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/data-objects/CC_Customers/measurements",
+      "shouldIncludeAllFields": true,
+      "tableType": "Standard"
+    },
+    {
+      "apiName": "CC_Call_Centers",
+      "dataObjectName": "${App.DataLakeObjects.CC_Call_Centers_DLO.Name}",
+      "dataObjectType": "Dlo",
+      "description": "CC Call Centers \u2014 one row per call center.",
+      "filters": [],
+      "isQueryable": "Queryable",
+      "label": "CC Call Centers",
+      "overriddenProperties": [],
+      "primaryNameField": "CallCenterId",
+      "semanticDimensions": [
+        {
+          "apiName": "CallCenterId",
+          "dataObjectFieldName": "CallCenterId__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Call Center ID",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "CallCenterName",
+          "dataObjectFieldName": "CallCenterName__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Call Center Name",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "City",
+          "dataObjectFieldName": "City__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "City",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "State",
+          "dataObjectFieldName": "State__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "State",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        },
+        {
+          "apiName": "Region",
+          "dataObjectFieldName": "Region__c",
+          "dataType": "Text",
+          "displayCategory": "Discrete",
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Region",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "sortOrder": "None",
+          "storageDataType": "Text"
+        }
+      ],
+      "semanticDimensionsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/data-objects/CC_Call_Centers/dimensions",
+      "semanticMeasurements": [
+        {
+          "aggregationType": "Sum",
+          "apiName": "Headcount",
+          "dataObjectFieldName": "Headcount__c",
+          "dataType": "Number",
+          "decimalPlace": 2,
+          "displayCategory": "Continuous",
+          "isAggregatable": true,
+          "isPrimaryKey": false,
+          "isQueryable": "Queryable",
+          "isVisible": true,
+          "label": "Headcount",
+          "overriddenProperties": [],
+          "semanticDataType": "None",
+          "shouldTreatNullsAsZeros": false,
+          "sortOrder": "None",
+          "storageDataType": "Number"
+        }
+      ],
+      "semanticMeasurementsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/data-objects/CC_Call_Centers/measurements",
+      "shouldIncludeAllFields": true,
+      "tableType": "Standard"
+    }
+  ],
+  "semanticDataObjectsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/data-objects",
+  "semanticGroupings": [],
+  "semanticGroupingsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/groupings",
+  "semanticLogicalViews": [],
+  "semanticMetrics": [
+    {
+      "apiName": "Contacts_M",
+      "label": "Contacts",
+      "description": "Contacts over time, sliceable by Reason, Channel, Call Center Name.",
+      "measurementReference": {
+        "calculatedFieldApiName": "Contacts"
+      },
+      "aggregationType": "UserAgg",
+      "timeDimensionReference": {
+        "tableFieldReference": {
+          "fieldApiName": "ContactDate",
+          "tableApiName": "CC_Contacts"
+        }
+      },
+      "timeGrains": [
+        "Day",
+        "Week",
+        "Month",
+        "Quarter"
+      ],
+      "additionalDimensions": [
+        {
+          "tableFieldReference": {
+            "fieldApiName": "Reason",
+            "tableApiName": "CC_Contacts"
+          }
+        },
+        {
+          "tableFieldReference": {
+            "fieldApiName": "Channel",
+            "tableApiName": "CC_Contacts"
+          }
+        },
+        {
+          "tableFieldReference": {
+            "fieldApiName": "CallCenterName",
+            "tableApiName": "CC_Contacts"
+          }
+        }
+      ],
+      "insightsSettings": {
+        "sentiment": "SentimentTypeUpIsGood"
+      }
+    },
+    {
+      "apiName": "Avg_CSAT_M",
+      "label": "Average CSAT",
+      "description": "Average CSAT over time, sliceable by Reason, Channel, Call Center Name.",
+      "measurementReference": {
+        "tableFieldReference": {
+          "fieldApiName": "CSAT",
+          "tableApiName": "CC_Contacts"
+        }
+      },
+      "aggregationType": "Average",
+      "timeDimensionReference": {
+        "tableFieldReference": {
+          "fieldApiName": "ContactDate",
+          "tableApiName": "CC_Contacts"
+        }
+      },
+      "timeGrains": [
+        "Day",
+        "Week",
+        "Month",
+        "Quarter"
+      ],
+      "additionalDimensions": [
+        {
+          "tableFieldReference": {
+            "fieldApiName": "Reason",
+            "tableApiName": "CC_Contacts"
+          }
+        },
+        {
+          "tableFieldReference": {
+            "fieldApiName": "Channel",
+            "tableApiName": "CC_Contacts"
+          }
+        },
+        {
+          "tableFieldReference": {
+            "fieldApiName": "CallCenterName",
+            "tableApiName": "CC_Contacts"
+          }
+        }
+      ],
+      "insightsSettings": {
+        "sentiment": "SentimentTypeUpIsGood"
+      }
+    }
+  ],
+  "semanticModelFilters": [],
+  "semanticModelInfo": {
+    "definitionsCount": 3,
+    "maxDefinitionCount": 5000,
+    "modelHierarchyDepth": 1
+  },
+  "semanticParameters": [],
+  "semanticParametersUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/parameters",
+  "semanticRelationships": [
+    {
+      "apiName": "CC_Contacts_CC_Call_Centers",
+      "cardinality": "ManyToOne",
+      "criteria": [
+        {
+          "joinOperator": "Equals",
+          "leftFieldType": "TableField",
+          "leftSemanticFieldApiName": "CallCenterId",
+          "rightFieldType": "TableField",
+          "rightSemanticFieldApiName": "CallCenterId"
+        }
+      ],
+      "isEnabled": true,
+      "isQueryable": "Queryable",
+      "joinType": "Auto",
+      "label": "CC Contacts : CC Call Centers",
+      "leftSemanticDefinitionApiName": "CC_Contacts",
+      "rightSemanticDefinitionApiName": "CC_Call_Centers"
+    },
+    {
+      "apiName": "CC_Contacts_CC_Customers",
+      "cardinality": "ManyToOne",
+      "criteria": [
+        {
+          "joinOperator": "Equals",
+          "leftFieldType": "TableField",
+          "leftSemanticFieldApiName": "CustomerId",
+          "rightFieldType": "TableField",
+          "rightSemanticFieldApiName": "CustomerId"
+        }
+      ],
+      "isEnabled": true,
+      "isQueryable": "Queryable",
+      "joinType": "Auto",
+      "label": "CC Contacts : CC Customers",
+      "leftSemanticDefinitionApiName": "CC_Contacts",
+      "rightSemanticDefinitionApiName": "CC_Customers"
+    }
+  ],
+  "semanticRelationshipsUrl": "/services/data/v67.0/ssot/semantic/models/Cumulus_Contact_Center_SDM/relationships",
+  "sourceCreation": "Workspace"
+}

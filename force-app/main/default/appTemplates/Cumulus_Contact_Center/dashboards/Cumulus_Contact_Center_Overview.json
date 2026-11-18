@@ -1,0 +1,1388 @@
+{
+  "name": "Cumulus_Contact_Center_Overview",
+  "label": "Cumulus Contact Center Overview ${Variables.LabelSuffix}",
+  "description": "Cumulus Contact Center \u2014 service and business KPIs for the Cumulus Financial Group demo.",
+  "customConfig": {
+    "queryCacheEnabled": true,
+    "queryCacheStaleness": "30min"
+  },
+  "layouts": [
+    {
+      "columnCount": 96,
+      "maxWidth": 1600,
+      "name": "default",
+      "pages": [
+        {
+          "label": "Overview",
+          "name": "overview",
+          "widgets": [
+            {
+              "name": "hdr",
+              "column": 0,
+              "row": 0,
+              "colspan": 64,
+              "rowspan": 4
+            },
+            {
+              "name": "flt_CallCenterName",
+              "column": 64,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 4
+            },
+            {
+              "name": "flt_Channel",
+              "column": 80,
+              "row": 0,
+              "colspan": 16,
+              "rowspan": 4
+            },
+            {
+              "name": "x_banner",
+              "column": 0,
+              "row": 16,
+              "colspan": 96,
+              "rowspan": 3
+            },
+            {
+              "name": "k_contacts",
+              "column": 0,
+              "row": 19,
+              "colspan": 24,
+              "rowspan": 10
+            },
+            {
+              "name": "k_sla",
+              "column": 24,
+              "row": 19,
+              "colspan": 24,
+              "rowspan": 10
+            },
+            {
+              "name": "k_csat",
+              "column": 48,
+              "row": 19,
+              "colspan": 24,
+              "rowspan": 10
+            },
+            {
+              "name": "k_aht",
+              "column": 72,
+              "row": 19,
+              "colspan": 24,
+              "rowspan": 10
+            },
+            {
+              "name": "x_map",
+              "column": 0,
+              "row": 29,
+              "colspan": 60,
+              "rowspan": 30
+            },
+            {
+              "name": "t_CC_Contacts_By_State",
+              "column": 60,
+              "row": 29,
+              "colspan": 36,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_Contacts_By_State",
+              "column": 60,
+              "row": 33,
+              "colspan": 36,
+              "rowspan": 26
+            },
+            {
+              "name": "x_bars",
+              "column": 0,
+              "row": 59,
+              "colspan": 28,
+              "rowspan": 34
+            },
+            {
+              "name": "t_CC_Contacts_Trend",
+              "column": 28,
+              "row": 59,
+              "colspan": 68,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_Contacts_Trend",
+              "column": 28,
+              "row": 63,
+              "colspan": 68,
+              "rowspan": 22
+            },
+            {
+              "name": "t_CC_Reason_Mix",
+              "column": 0,
+              "row": 85,
+              "colspan": 32,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_Reason_Mix",
+              "column": 0,
+              "row": 89,
+              "colspan": 32,
+              "rowspan": 22
+            },
+            {
+              "name": "t_CC_Channel_SLA",
+              "column": 32,
+              "row": 85,
+              "colspan": 32,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_Channel_SLA",
+              "column": 32,
+              "row": 89,
+              "colspan": 32,
+              "rowspan": 22
+            },
+            {
+              "name": "t_CC_SLA_Share",
+              "column": 64,
+              "row": 85,
+              "colspan": 32,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_SLA_Share",
+              "column": 64,
+              "row": 89,
+              "colspan": 32,
+              "rowspan": 22
+            },
+            {
+              "name": "t_CC_Sentiment",
+              "column": 0,
+              "row": 111,
+              "colspan": 32,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_Sentiment",
+              "column": 0,
+              "row": 115,
+              "colspan": 32,
+              "rowspan": 22
+            },
+            {
+              "name": "t_CC_Reason_Negative",
+              "column": 32,
+              "row": 111,
+              "colspan": 32,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_Reason_Negative",
+              "column": 32,
+              "row": 115,
+              "colspan": 32,
+              "rowspan": 22
+            },
+            {
+              "name": "t_CC_SLA_By_Center_Radial",
+              "column": 64,
+              "row": 111,
+              "colspan": 32,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_SLA_By_Center_Radial",
+              "column": 64,
+              "row": 115,
+              "colspan": 32,
+              "rowspan": 22
+            },
+            {
+              "name": "t_CC_Center_SLA_Trend",
+              "column": 0,
+              "row": 137,
+              "colspan": 32,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_Center_SLA_Trend",
+              "column": 0,
+              "row": 141,
+              "colspan": 32,
+              "rowspan": 22
+            },
+            {
+              "name": "t_CC_CSAT_By_Channel",
+              "column": 32,
+              "row": 137,
+              "colspan": 32,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_CSAT_By_Channel",
+              "column": 32,
+              "row": 141,
+              "colspan": 32,
+              "rowspan": 22
+            },
+            {
+              "name": "t_CC_Reason_Sentiment_Sankey",
+              "column": 0,
+              "row": 163,
+              "colspan": 96,
+              "rowspan": 4
+            },
+            {
+              "name": "w_CC_Reason_Sentiment_Sankey",
+              "column": 0,
+              "row": 167,
+              "colspan": 96,
+              "rowspan": 32
+            },
+            {
+              "name": "summary",
+              "column": 0,
+              "row": 4,
+              "colspan": 96,
+              "rowspan": 12
+            }
+          ]
+        }
+      ],
+      "rowHeight": 10,
+      "style": {
+        "backgroundColor": "#F6F8FC",
+        "cellSpacingX": 8,
+        "cellSpacingY": 8,
+        "gutterColor": "#F6F8FC"
+      }
+    }
+  ],
+  "style": {
+    "widgetStyle": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E3E9F1",
+      "borderEdges": [],
+      "borderRadius": 16,
+      "borderWidth": 1
+    }
+  },
+  "widgets": {
+    "hdr": {
+      "actions": [],
+      "name": "hdr",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#1F3A5F",
+              "size": "26px",
+              "bold": true
+            },
+            "insert": "Contact Center Overview",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#5B6F8F",
+              "size": "13px"
+            },
+            "insert": "Contact center manager view: volume, response time against SLA, sentiment, satisfaction",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#E8EEF9",
+          "borderColor": "#E8EEF9",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      }
+    },
+    "flt_CallCenterName": {
+      "actions": [],
+      "label": "Call Center",
+      "name": "flt_CallCenterName",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}"
+      },
+      "parameters": {
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "CallCenterName",
+          "objectName": "CC_Contacts",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "viewType": "list",
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
+    },
+    "flt_Channel": {
+      "actions": [],
+      "label": "Channel",
+      "name": "flt_Channel",
+      "type": "filter",
+      "source": {
+        "name": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+        "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}"
+      },
+      "parameters": {
+        "filterOption": {
+          "dataType": "Text",
+          "fieldName": "Channel",
+          "objectName": "CC_Contacts",
+          "selectionType": "multiple"
+        },
+        "isLabelHidden": false,
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "viewType": "list",
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
+    },
+    "x_banner": {
+      "actions": [],
+      "name": "x_banner",
+      "label": "cumulusThresholdBanner",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusThresholdBanner",
+        "properties": {
+          "measureField": {
+            "name": "SLA_Attainment",
+            "aggregation": "UserAgg",
+            "label": "SLA Attainment"
+          },
+          "threshold": "0.8",
+          "belowIsBad": true,
+          "alertMessage": "SLA attainment is below 80%: Dallas has missed its response target since March 2026",
+          "okMessage": "SLA attainment at or above 80%",
+          "format": "percent",
+          "focusDimension": {
+            "name": "CC_Contacts.CallCenterName",
+            "label": "Call Center"
+          },
+          "focusValue": "Dallas Contact Center",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusThresholdBanner",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_contacts": {
+      "actions": [],
+      "name": "k_contacts",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Contacts",
+            "aggregation": "UserAgg",
+            "label": "Contacts"
+          },
+          "title": "Contacts",
+          "accentColor": "#4A7BB7",
+          "sentiment": "UpIsGood",
+          "format": "number",
+          "target": "",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "CC_Contacts.ContactMonth",
+            "label": "Contact Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_sla": {
+      "actions": [],
+      "name": "k_sla",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "SLA_Attainment",
+            "aggregation": "UserAgg",
+            "label": "SLA Attainment"
+          },
+          "title": "SLA Attainment",
+          "accentColor": "#4FA878",
+          "sentiment": "UpIsGood",
+          "format": "percent",
+          "target": "0.8",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "CC_Contacts.ContactMonth",
+            "label": "Contact Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_csat": {
+      "actions": [],
+      "name": "k_csat",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Avg_CSAT",
+            "aggregation": "UserAgg",
+            "label": "Avg CSAT"
+          },
+          "title": "Avg CSAT (1-10)",
+          "accentColor": "#9C8AD6",
+          "sentiment": "UpIsGood",
+          "format": "number",
+          "target": "6",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "CC_Contacts.ContactMonth",
+            "label": "Contact Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "k_aht": {
+      "actions": [],
+      "name": "k_aht",
+      "label": "cumulusKpiTile",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusKpiTile",
+        "properties": {
+          "measureField": {
+            "name": "Avg_Handle_Time",
+            "aggregation": "UserAgg",
+            "label": "Avg Handle Time"
+          },
+          "title": "Avg Handle Time (min)",
+          "accentColor": "#E58FB8",
+          "sentiment": "UpIsBad",
+          "format": "number",
+          "target": "9",
+          "strongThreshold": 10,
+          "moderateThreshold": 3,
+          "trendDimension": {
+            "name": "CC_Contacts.ContactMonth",
+            "label": "Contact Month"
+          },
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusKpiTile",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "x_map": {
+      "actions": [],
+      "name": "x_map",
+      "label": "cumulusStateMap",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusStateMap",
+        "properties": {
+          "dimensionField": {
+            "name": "CC_Contacts.CustomerState",
+            "label": "Customer State"
+          },
+          "measureField": {
+            "name": "Contacts",
+            "aggregation": "UserAgg",
+            "label": "Contacts"
+          },
+          "title": "Where do contacts come from?",
+          "subtitle": "Shade = contacts by customer state \u00b7 bubble = share of contacts that end negative \u00b7 click a state to filter",
+          "format": "number",
+          "lowColor": "#E1ECF9",
+          "highColor": "#4A7BB7",
+          "bubbleColor": "#E58FB8",
+          "showLabels": true,
+          "bubbleMeasureField": {
+            "name": "Negative_Share",
+            "aggregation": "UserAgg",
+            "label": "Negative Sentiment"
+          },
+          "bubbleFormat": "percent",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusStateMap",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "t_CC_Contacts_By_State": {
+      "actions": [],
+      "name": "t_CC_Contacts_By_State",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Texas, California and Florida send the most contacts",
+          "subtitle": "Contacts by customer state",
+          "accentColor": "#9333EA",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_Contacts_By_State": {
+      "actions": [],
+      "name": "w_CC_Contacts_By_State",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_Contacts_By_State.Id}",
+        "name": "${App.Visualizations.CC_Contacts_By_State.Name}"
+      },
+      "type": "visualization"
+    },
+    "x_bars": {
+      "actions": [],
+      "name": "x_bars",
+      "label": "cumulusRankedBars",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusRankedBars",
+        "properties": {
+          "dimensionField": {
+            "name": "CC_Contacts.Reason",
+            "label": "Reason"
+          },
+          "measureField": {
+            "name": "CC_Contacts.DurationMinutes",
+            "aggregation": "Avg",
+            "label": "Avg Handle Time"
+          },
+          "title": "Handle time by reason, minutes (click to filter)",
+          "topN": 9,
+          "format": "number",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "name": "c:cumulusRankedBars",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "t_CC_Contacts_Trend": {
+      "actions": [],
+      "name": "t_CC_Contacts_Trend",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Contact volume is up 41% in two years",
+          "subtitle": "Contacts per month, Sep 2024 (595) to Aug 2026 (840)",
+          "accentColor": "#6BA3E0",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_Contacts_Trend": {
+      "actions": [],
+      "name": "w_CC_Contacts_Trend",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_Contacts_Trend.Id}",
+        "name": "${App.Visualizations.CC_Contacts_Trend.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_CC_Reason_Mix": {
+      "actions": [],
+      "name": "t_CC_Reason_Mix",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Billing, payments and account access are 48% of contacts",
+          "subtitle": "Contacts by reason",
+          "accentColor": "#E58FB8",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_Reason_Mix": {
+      "actions": [],
+      "name": "w_CC_Reason_Mix",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_Reason_Mix.Id}",
+        "name": "${App.Visualizations.CC_Reason_Mix.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_CC_Channel_SLA": {
+      "actions": [],
+      "name": "t_CC_Channel_SLA",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Chatbot meets SLA 88% of the time, email only 65%",
+          "subtitle": "Contacts by channel and response vs SLA",
+          "accentColor": "#7FC79A",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_Channel_SLA": {
+      "actions": [],
+      "name": "w_CC_Channel_SLA",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_Channel_SLA.Id}",
+        "name": "${App.Visualizations.CC_Channel_SLA.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_CC_SLA_Share": {
+      "actions": [],
+      "name": "t_CC_SLA_Share",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "77.5% of contacts meet their response-time SLA",
+          "subtitle": "Share of contacts by response vs SLA",
+          "accentColor": "#9C8AD6",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_SLA_Share": {
+      "actions": [],
+      "name": "w_CC_SLA_Share",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_SLA_Share.Id}",
+        "name": "${App.Visualizations.CC_SLA_Share.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_CC_Sentiment": {
+      "actions": [],
+      "name": "t_CC_Sentiment",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "35% of contacts end negative",
+          "subtitle": "Contacts by sentiment",
+          "accentColor": "#0F766E",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_Sentiment": {
+      "actions": [],
+      "name": "w_CC_Sentiment",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_Sentiment.Id}",
+        "name": "${App.Visualizations.CC_Sentiment.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_CC_Reason_Negative": {
+      "actions": [],
+      "name": "t_CC_Reason_Negative",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Fraud alerts are the most negative: 59% end badly",
+          "subtitle": "Share of contacts with negative sentiment, by reason and channel",
+          "accentColor": "#B45309",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_Reason_Negative": {
+      "actions": [],
+      "name": "w_CC_Reason_Negative",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_Reason_Negative.Id}",
+        "name": "${App.Visualizations.CC_Reason_Negative.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_CC_SLA_By_Center_Radial": {
+      "actions": [],
+      "name": "t_CC_SLA_By_Center_Radial",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Dallas trails at 69.5% SLA attainment, Phoenix leads at 86.1%",
+          "subtitle": "Share of contacts that meet their response-time SLA, by call center",
+          "accentColor": "#BE123C",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_SLA_By_Center_Radial": {
+      "actions": [],
+      "name": "w_CC_SLA_By_Center_Radial",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_SLA_By_Center_Radial.Id}",
+        "name": "${App.Visualizations.CC_SLA_By_Center_Radial.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_CC_Center_SLA_Trend": {
+      "actions": [],
+      "name": "t_CC_Center_SLA_Trend",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Dallas fell from 80% to 54% SLA attainment in March 2026",
+          "subtitle": "SLA attainment per month by call center",
+          "accentColor": "#4F46E5",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_Center_SLA_Trend": {
+      "actions": [],
+      "name": "w_CC_Center_SLA_Trend",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_Center_SLA_Trend.Id}",
+        "name": "${App.Visualizations.CC_Center_SLA_Trend.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_CC_CSAT_By_Channel": {
+      "actions": [],
+      "name": "t_CC_CSAT_By_Channel",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Call center scores lowest on satisfaction (5.3 of 10)",
+          "subtitle": "Average CSAT by channel",
+          "accentColor": "#65A30D",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_CSAT_By_Channel": {
+      "actions": [],
+      "name": "w_CC_CSAT_By_Channel",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_CSAT_By_Channel.Id}",
+        "name": "${App.Visualizations.CC_CSAT_By_Channel.Name}"
+      },
+      "type": "visualization"
+    },
+    "t_CC_Reason_Sentiment_Sankey": {
+      "actions": [],
+      "name": "t_CC_Reason_Sentiment_Sankey",
+      "label": "cumulusChartHeadline",
+      "parameters": {
+        "fullyQualifiedName": "c:cumulusChartHeadline",
+        "properties": {
+          "title": "Fraud alerts and card disputes drive the negative sentiment",
+          "subtitle": "Contacts by reason and sentiment",
+          "accentColor": "#0891B2",
+          "sdmName": {
+            "apiName": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Name}",
+            "id": "${App.SemanticModels.Cumulus_Contact_Center_SDM.Id}",
+            "label": "Cumulus Contact Center Model"
+          }
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#FFFFFF",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 0
+        }
+      },
+      "source": {
+        "name": "c:cumulusChartHeadline",
+        "namespace": "c",
+        "type": "LightningWebComponent"
+      },
+      "type": "extension"
+    },
+    "w_CC_Reason_Sentiment_Sankey": {
+      "actions": [],
+      "name": "w_CC_Reason_Sentiment_Sankey",
+      "parameters": {
+        "legendPosition": "Bottom",
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      },
+      "source": {
+        "id": "${App.Visualizations.CC_Reason_Sentiment_Sankey.Id}",
+        "name": "${App.Visualizations.CC_Reason_Sentiment_Sankey.Name}"
+      },
+      "type": "visualization"
+    },
+    "summary": {
+      "actions": [],
+      "name": "summary",
+      "type": "text",
+      "parameters": {
+        "conditionalFormattingRules": [],
+        "receiveFilterSource": {
+          "filterMode": "all",
+          "widgetIds": []
+        },
+        "content": [
+          {
+            "attributes": {
+              "color": "#1F3A5F",
+              "size": "16px",
+              "bold": true
+            },
+            "insert": "Key insights: Contact center",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  18,201 contacts; 77.5% meet their response-time SLA.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Dallas attainment fell from 80% to 54% in March 2026 and is 69.5% overall; Phoenix leads at 86.1%.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Fraud alerts are the most negative reason: 59.2% end negative, then card disputes at 53.6%.",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "color": "#2E2E2E",
+              "size": "13px"
+            },
+            "insert": "\u2022  Chatbot meets SLA 88% of the time, email 65%; call center scores lowest on CSAT (5.3 of 10, 5.5 overall).",
+            "rules": []
+          },
+          {
+            "attributes": {
+              "align": "left"
+            },
+            "insert": "\n",
+            "rules": []
+          }
+        ],
+        "widgetStyle": {
+          "backgroundColor": "#FFFFFF",
+          "borderColor": "#E3E9F1",
+          "borderEdges": [],
+          "borderRadius": 16,
+          "borderWidth": 1
+        }
+      }
+    }
+  },
+  "workspaceIdOrApiName": "${App.Workspaces.Cumulus_Contact_Center_WS.Name}"
+}

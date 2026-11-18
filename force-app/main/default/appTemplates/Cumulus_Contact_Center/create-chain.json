@@ -1,0 +1,458 @@
+{
+  "name": "Cumulus_Contact_Center_create",
+  "label": "Create Cumulus Contact Center",
+  "description": null,
+  "parameters": {},
+  "dominoVariant": "sfdc_internal__UnifiedAnalyticsDominoVariant",
+  "definition": {
+    "nodes": {
+      "upload_CC_Contacts": {
+        "referenceId": "upload_CC_Contacts",
+        "sources": [],
+        "parameters": {
+          "name": "CC_Contacts_CSV",
+          "file": "csvs/CC_Contacts.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_CC_Contacts": {
+        "referenceId": "upsert_CC_Contacts",
+        "sources": [
+          "upload_CC_Contacts"
+        ],
+        "parameters": {
+          "name": "CC_Contacts_DS",
+          "file": "datastreams/CC_Contacts.json",
+          "dataLakeObject": {
+            "name": "CC_Contacts_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_CC_Contacts": {
+        "referenceId": "run_CC_Contacts",
+        "sources": [
+          "upsert_CC_Contacts"
+        ],
+        "parameters": {
+          "name": "CC_Contacts_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_CC_Customers": {
+        "referenceId": "upload_CC_Customers",
+        "sources": [
+          "run_CC_Contacts"
+        ],
+        "parameters": {
+          "name": "CC_Customers_CSV",
+          "file": "csvs/CC_Customers.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_CC_Customers": {
+        "referenceId": "upsert_CC_Customers",
+        "sources": [
+          "upload_CC_Customers"
+        ],
+        "parameters": {
+          "name": "CC_Customers_DS",
+          "file": "datastreams/CC_Customers.json",
+          "dataLakeObject": {
+            "name": "CC_Customers_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_CC_Customers": {
+        "referenceId": "run_CC_Customers",
+        "sources": [
+          "upsert_CC_Customers"
+        ],
+        "parameters": {
+          "name": "CC_Customers_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_CC_Call_Centers": {
+        "referenceId": "upload_CC_Call_Centers",
+        "sources": [
+          "run_CC_Customers"
+        ],
+        "parameters": {
+          "name": "CC_Call_Centers_CSV",
+          "file": "csvs/CC_Call_Centers.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload a CSV file"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_CC_Call_Centers": {
+        "referenceId": "upsert_CC_Call_Centers",
+        "sources": [
+          "upload_CC_Call_Centers"
+        ],
+        "parameters": {
+          "name": "CC_Call_Centers_DS",
+          "file": "datastreams/CC_Call_Centers.json",
+          "dataLakeObject": {
+            "name": "CC_Call_Centers_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create/Update a DataStream from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_CC_Call_Centers": {
+        "referenceId": "run_CC_Call_Centers",
+        "sources": [
+          "upsert_CC_Call_Centers"
+        ],
+        "parameters": {
+          "name": "CC_Call_Centers_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Refresh a DataStream created from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upload_CC_Clock": {
+        "referenceId": "upload_CC_Clock",
+        "sources": [
+          "run_CC_Call_Centers"
+        ],
+        "parameters": {
+          "name": "CC_Clock_CSV",
+          "file": "csvs/CC_Clock.csv"
+        },
+        "graphNodeType": {
+          "name": "CSVUpsert",
+          "label": "Upload the settle clock CSV"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_CC_Clock": {
+        "referenceId": "upsert_CC_Clock",
+        "sources": [
+          "upload_CC_Clock"
+        ],
+        "parameters": {
+          "name": "CC_Clock_DS",
+          "file": "datastreams/CC_Clock.json",
+          "dataLakeObject": {
+            "name": "CC_Clock_DLO"
+          }
+        },
+        "graphNodeType": {
+          "name": "DataStreamUpsert",
+          "label": "Create the settle clock stream"
+        },
+        "runAs": "CurrentUser"
+      },
+      "run_CC_Clock": {
+        "referenceId": "run_CC_Clock",
+        "sources": [
+          "upsert_CC_Clock"
+        ],
+        "parameters": {
+          "name": "CC_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 1: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "settle_CC_Clock": {
+        "referenceId": "settle_CC_Clock",
+        "sources": [
+          "run_CC_Clock"
+        ],
+        "parameters": {
+          "name": "CC_Clock_DS"
+        },
+        "graphNodeType": {
+          "name": "DataStreamRun",
+          "label": "Settle 2: wait for DLO schemas to become readable"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_workspace": {
+        "referenceId": "upsert_workspace",
+        "sources": [
+          "settle_CC_Clock"
+        ],
+        "parameters": {
+          "name": "Cumulus_Contact_Center_WS",
+          "label": "Cumulus Contact Center",
+          "file": "workspaces/workspace.json",
+          "condition": "true",
+          "assets": [
+            {
+              "name": "Cumulus_Contact_Center_SDM",
+              "assetType": "SemanticModel",
+              "usageType": "Referenced"
+            }
+          ]
+        },
+        "graphNodeType": {
+          "name": "WorkspaceUpsert",
+          "label": "Create/Update a Workspace from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_sdm": {
+        "referenceId": "upsert_sdm",
+        "sources": [
+          "upsert_workspace"
+        ],
+        "parameters": {
+          "name": "Cumulus_Contact_Center_SDM",
+          "label": "Cumulus Contact Center Model",
+          "file": "sdms/sdm.json",
+          "condition": "true"
+        },
+        "graphNodeType": {
+          "name": "SemanticModelUpsert",
+          "label": null
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_CSAT_By_Channel": {
+        "referenceId": "upsert_viz_CC_CSAT_By_Channel",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_CSAT_By_Channel",
+          "file": "visualizations/CC_CSAT_By_Channel.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_Center_SLA_Trend": {
+        "referenceId": "upsert_viz_CC_Center_SLA_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_Center_SLA_Trend",
+          "file": "visualizations/CC_Center_SLA_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_Channel_SLA": {
+        "referenceId": "upsert_viz_CC_Channel_SLA",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_Channel_SLA",
+          "file": "visualizations/CC_Channel_SLA.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_Contacts_By_State": {
+        "referenceId": "upsert_viz_CC_Contacts_By_State",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_Contacts_By_State",
+          "file": "visualizations/CC_Contacts_By_State.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_Contacts_Trend": {
+        "referenceId": "upsert_viz_CC_Contacts_Trend",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_Contacts_Trend",
+          "file": "visualizations/CC_Contacts_Trend.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_Reason_Mix": {
+        "referenceId": "upsert_viz_CC_Reason_Mix",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_Reason_Mix",
+          "file": "visualizations/CC_Reason_Mix.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_Reason_Negative": {
+        "referenceId": "upsert_viz_CC_Reason_Negative",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_Reason_Negative",
+          "file": "visualizations/CC_Reason_Negative.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_Reason_Sentiment_Sankey": {
+        "referenceId": "upsert_viz_CC_Reason_Sentiment_Sankey",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_Reason_Sentiment_Sankey",
+          "file": "visualizations/CC_Reason_Sentiment_Sankey.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_SLA_By_Center_Radial": {
+        "referenceId": "upsert_viz_CC_SLA_By_Center_Radial",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_SLA_By_Center_Radial",
+          "file": "visualizations/CC_SLA_By_Center_Radial.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_SLA_Share": {
+        "referenceId": "upsert_viz_CC_SLA_Share",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_SLA_Share",
+          "file": "visualizations/CC_SLA_Share.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_viz_CC_Sentiment": {
+        "referenceId": "upsert_viz_CC_Sentiment",
+        "sources": [
+          "upsert_sdm"
+        ],
+        "parameters": {
+          "name": "CC_Sentiment",
+          "file": "visualizations/CC_Sentiment.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "VisualizationUpsert",
+          "label": "Create/Update a Visualization from a Template"
+        },
+        "runAs": "CurrentUser"
+      },
+      "upsert_dash_Cumulus_Contact_Center_Overview": {
+        "referenceId": "upsert_dash_Cumulus_Contact_Center_Overview",
+        "sources": [
+          "upsert_viz_CC_CSAT_By_Channel",
+          "upsert_viz_CC_Center_SLA_Trend",
+          "upsert_viz_CC_Channel_SLA",
+          "upsert_viz_CC_Contacts_By_State",
+          "upsert_viz_CC_Contacts_Trend",
+          "upsert_viz_CC_Reason_Mix",
+          "upsert_viz_CC_Reason_Negative",
+          "upsert_viz_CC_Reason_Sentiment_Sankey",
+          "upsert_viz_CC_SLA_By_Center_Radial",
+          "upsert_viz_CC_SLA_Share",
+          "upsert_viz_CC_Sentiment"
+        ],
+        "parameters": {
+          "name": "Cumulus_Contact_Center_Overview",
+          "label": "Cumulus Contact Center Overview",
+          "file": "dashboards/Cumulus_Contact_Center_Overview.json",
+          "condition": "${Variables.CreateDashboard}"
+        },
+        "graphNodeType": {
+          "name": "DashboardUpsert",
+          "label": "Create/Update a Dashboard from a Template"
+        },
+        "runAs": "CurrentUser"
+      }
+    }
+  },
+  "finallyDefinition": {
+    "nodes": {}
+  }
+}

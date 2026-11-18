@@ -1,0 +1,29 @@
+{
+  "label": "Cumulus Contact Center",
+  "description": "Contact center view for a retail bank: contact volume, response time against SLA, sentiment, satisfaction, first-contact resolution, Agentforce share, and where customers are.",
+  "releaseInfo": {
+    "templateVersion": "1.0",
+    "notesFile": null
+  },
+  "templateType": "App",
+  "templateSubtype": null,
+  "name": "Cumulus_Contact_Center",
+  "namespace": null,
+  "assetVersion": 67.0,
+  "maxAppCount": null,
+  "icons": {
+    "templatePreviews": [],
+    "layoutImages": []
+  },
+  "variableDefinition": "variables.json",
+  "layoutDefinition": "layout.json",
+  "tags": {},
+  "chainDefinitions": [
+    {
+      "type": "Create",
+      "name": null,
+      "file": "create-chain.json"
+    }
+  ],
+  "templateStatus": null
+}

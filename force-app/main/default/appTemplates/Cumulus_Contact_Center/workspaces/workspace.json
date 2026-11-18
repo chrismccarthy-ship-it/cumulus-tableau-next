@@ -1,0 +1,4 @@
+{
+  "label": "Cumulus Contact Center ${Variables.LabelSuffix}",
+  "name": "Cumulus_Contact_Center_WS"
+}

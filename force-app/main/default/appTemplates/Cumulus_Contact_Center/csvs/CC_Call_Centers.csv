@@ -1,0 +1,6 @@
+CallCenterId,CallCenterName,City,State,Region,Headcount
+CC-01,Charlotte Contact Center,Charlotte,NC,Southeast,120
+CC-02,Dallas Contact Center,Dallas,TX,Southwest,105
+CC-03,Phoenix Contact Center,Phoenix,AZ,Mountain West,70
+CC-04,Columbus Contact Center,Columbus,OH,Midwest,55
+CC-05,Tampa Contact Center,Tampa,FL,Southeast,40
