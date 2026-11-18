@@ -21,6 +21,13 @@
       "role": "Measure",
       "type": "Field",
       "label": "Avg Time To Close"
+    },
+    "F3": {
+      "displayCategory": "Discrete",
+      "fieldName": "Application_State",
+      "role": "Dimension",
+      "type": "Field",
+      "label": "Application State"
     }
   },
   "interactions": [],
@@ -47,7 +54,15 @@
     ],
     "forecasts": {},
     "layout": "Vizql",
-    "legends": {},
+    "legends": {
+      "F3": {
+        "isVisible": true,
+        "position": "Bottom",
+        "title": {
+          "isVisible": false
+        }
+      }
+    },
     "marks": {
       "fields": {},
       "headers": {
@@ -60,8 +75,13 @@
         "type": "Text"
       },
       "panes": {
-        "encodings": [],
-        "isAutomatic": true,
+        "encodings": [
+          {
+            "fieldKey": "F3",
+            "type": "Color"
+          }
+        ],
+        "isAutomatic": false,
         "stack": {
           "isAutomatic": true,
           "isStacked": false

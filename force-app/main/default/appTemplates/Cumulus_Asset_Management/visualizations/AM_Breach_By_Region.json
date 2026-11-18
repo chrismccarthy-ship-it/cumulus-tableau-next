@@ -22,6 +22,14 @@
       "role": "Measure",
       "type": "Field",
       "label": "SLA Breach Rate"
+    },
+    "F3": {
+      "fieldName": "Region",
+      "objectName": "AM_Service_Requests",
+      "role": "Dimension",
+      "type": "Field",
+      "label": "Region",
+      "displayCategory": "Discrete"
     }
   },
   "interactions": [],
@@ -48,7 +56,15 @@
     ],
     "forecasts": {},
     "layout": "Vizql",
-    "legends": {},
+    "legends": {
+      "F3": {
+        "isVisible": true,
+        "position": "Bottom",
+        "title": {
+          "isVisible": false
+        }
+      }
+    },
     "marks": {
       "fields": {},
       "headers": {
@@ -61,8 +77,13 @@
         "type": "Text"
       },
       "panes": {
-        "encodings": [],
-        "isAutomatic": true,
+        "encodings": [
+          {
+            "fieldKey": "F3",
+            "type": "Color"
+          }
+        ],
+        "isAutomatic": false,
         "stack": {
           "isAutomatic": true,
           "isStacked": false

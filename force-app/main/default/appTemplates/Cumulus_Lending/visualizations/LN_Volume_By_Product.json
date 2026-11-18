@@ -49,7 +49,15 @@
     "columns": [],
     "forecasts": {},
     "layout": "Vizql",
-    "legends": {},
+    "legends": {
+      "F2": {
+        "isVisible": true,
+        "position": "Right",
+        "title": {
+          "isVisible": false
+        }
+      }
+    },
     "marks": {
       "fields": {},
       "headers": {

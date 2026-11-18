@@ -23,6 +23,14 @@
       "label": "CSAT",
       "displayCategory": "Continuous",
       "function": "Avg"
+    },
+    "F3": {
+      "fieldName": "AgentforceHandled",
+      "objectName": "INS_Claim_Cases",
+      "role": "Dimension",
+      "type": "Field",
+      "label": "Agentforce Handled",
+      "displayCategory": "Discrete"
     }
   },
   "interactions": [],
@@ -49,7 +57,15 @@
     ],
     "forecasts": {},
     "layout": "Vizql",
-    "legends": {},
+    "legends": {
+      "F3": {
+        "isVisible": true,
+        "position": "Bottom",
+        "title": {
+          "isVisible": false
+        }
+      }
+    },
     "marks": {
       "fields": {},
       "headers": {
@@ -62,8 +78,13 @@
         "type": "Text"
       },
       "panes": {
-        "encodings": [],
-        "isAutomatic": true,
+        "encodings": [
+          {
+            "fieldKey": "F3",
+            "type": "Color"
+          }
+        ],
+        "isAutomatic": false,
         "stack": {
           "isAutomatic": true,
           "isStacked": false

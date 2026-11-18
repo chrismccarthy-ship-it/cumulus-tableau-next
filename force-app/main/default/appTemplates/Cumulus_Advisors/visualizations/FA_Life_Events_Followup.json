@@ -56,7 +56,15 @@
     ],
     "forecasts": {},
     "layout": "Vizql",
-    "legends": {},
+    "legends": {
+      "F3": {
+        "isVisible": true,
+        "position": "Bottom",
+        "title": {
+          "isVisible": false
+        }
+      }
+    },
     "marks": {
       "fields": {},
       "headers": {
