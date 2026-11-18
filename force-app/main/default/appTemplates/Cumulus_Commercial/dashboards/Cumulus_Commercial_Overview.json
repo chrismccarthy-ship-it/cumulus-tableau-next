@@ -21,196 +21,196 @@
               "column": 0,
               "row": 0,
               "colspan": 64,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_Region",
               "column": 64,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_Segment",
               "column": 80,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "x_banner",
               "column": 0,
-              "row": 17,
+              "row": 11,
               "colspan": 96,
-              "rowspan": 5
+              "rowspan": 3
             },
             {
               "name": "k_pipe",
               "column": 0,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_commit",
               "column": 24,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_util",
               "column": 48,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_onb",
               "column": 72,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 38,
+              "row": 24,
               "colspan": 60,
-              "rowspan": 38
+              "rowspan": 34
             },
             {
               "name": "t_CB_Utilization_By_Region",
               "column": 60,
-              "row": 38,
+              "row": 24,
               "colspan": 36,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_CB_Utilization_By_Region",
               "column": 60,
-              "row": 44,
+              "row": 28,
               "colspan": 36,
-              "rowspan": 32
+              "rowspan": 30
             },
             {
               "name": "t_CB_Pipeline_By_Stage",
               "column": 0,
-              "row": 76,
+              "row": 58,
               "colspan": 96,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_CB_Pipeline_By_Stage",
               "column": 0,
-              "row": 82,
+              "row": 62,
               "colspan": 96,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_CB_Onboarding_Treasury",
               "column": 0,
-              "row": 106,
+              "row": 84,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_CB_Onboarding_Treasury",
               "column": 0,
-              "row": 112,
+              "row": 88,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_CB_Utilization_By_Rating",
               "column": 32,
-              "row": 106,
+              "row": 84,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_CB_Utilization_By_Rating",
               "column": 32,
-              "row": 112,
+              "row": 88,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_CB_Treasury_Penetration",
               "column": 64,
-              "row": 106,
+              "row": 84,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_CB_Treasury_Penetration",
               "column": 64,
-              "row": 112,
+              "row": 88,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_CB_Cases_By_Type",
               "column": 0,
-              "row": 136,
+              "row": 110,
               "colspan": 32,
-              "rowspan": 7
+              "rowspan": 5
             },
             {
               "name": "w_CB_Cases_By_Type",
               "column": 0,
-              "row": 143,
+              "row": 115,
               "colspan": 32,
-              "rowspan": 23
+              "rowspan": 21
             },
             {
               "name": "t_CB_Deal_Flow",
               "column": 32,
-              "row": 136,
+              "row": 110,
               "colspan": 32,
-              "rowspan": 7
+              "rowspan": 5
             },
             {
               "name": "w_CB_Deal_Flow",
               "column": 32,
-              "row": 143,
+              "row": 115,
               "colspan": 32,
-              "rowspan": 23
+              "rowspan": 21
             },
             {
               "name": "t_CB_Winrate_By_Segment",
               "column": 64,
-              "row": 136,
+              "row": 110,
               "colspan": 32,
-              "rowspan": 7
+              "rowspan": 5
             },
             {
               "name": "w_CB_Winrate_By_Segment",
               "column": 64,
-              "row": 143,
+              "row": 115,
               "colspan": 32,
-              "rowspan": 23
+              "rowspan": 21
             },
             {
               "name": "t_CB_Commitments_By_Industry",
               "column": 0,
-              "row": 166,
+              "row": 136,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_CB_Commitments_By_Industry",
               "column": 0,
-              "row": 172,
+              "row": 140,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "summary",
               "column": 0,
-              "row": 5,
+              "row": 4,
               "colspan": 96,
-              "rowspan": 12
+              "rowspan": 7
             }
           ]
         }
@@ -218,8 +218,8 @@
       "rowHeight": 10,
       "style": {
         "backgroundColor": "#F0F3F8",
-        "cellSpacingX": 14,
-        "cellSpacingY": 14,
+        "cellSpacingX": 8,
+        "cellSpacingY": 8,
         "gutterColor": "#F0F3F8"
       }
     }

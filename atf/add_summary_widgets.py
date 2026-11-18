@@ -38,7 +38,7 @@ def main():
                   "parameters": {"conditionalFormattingRules": [], "receiveFilterSource": {"filterMode": "all", "widgetIds": []}, "content": content,
                                  "widgetStyle": {"backgroundColor": "#FFFFFF", "borderColor": "#E3E9F1", "borderEdges": [], "borderRadius": 16, "borderWidth": 1}}}
         page = d["layouts"][0]["pages"][0]
-        h = 4 + 2 * len(info["bullets"])
+        h = 3 + len(info["bullets"])
         if "summary" in d["widgets"]:
             d["widgets"]["summary"] = widget
             action = "updated"

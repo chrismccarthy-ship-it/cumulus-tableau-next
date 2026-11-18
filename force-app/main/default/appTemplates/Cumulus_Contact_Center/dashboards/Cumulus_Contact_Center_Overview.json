@@ -40,203 +40,203 @@
             {
               "name": "x_banner",
               "column": 0,
-              "row": 16,
+              "row": 11,
               "colspan": 96,
               "rowspan": 3
             },
             {
               "name": "k_contacts",
               "column": 0,
-              "row": 19,
+              "row": 14,
               "colspan": 24,
               "rowspan": 10
             },
             {
               "name": "k_sla",
               "column": 24,
-              "row": 19,
+              "row": 14,
               "colspan": 24,
               "rowspan": 10
             },
             {
               "name": "k_csat",
               "column": 48,
-              "row": 19,
+              "row": 14,
               "colspan": 24,
               "rowspan": 10
             },
             {
               "name": "k_aht",
               "column": 72,
-              "row": 19,
+              "row": 14,
               "colspan": 24,
               "rowspan": 10
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 29,
+              "row": 24,
               "colspan": 60,
               "rowspan": 30
             },
             {
               "name": "t_CC_Contacts_By_State",
               "column": 60,
-              "row": 29,
+              "row": 24,
               "colspan": 36,
               "rowspan": 4
             },
             {
               "name": "w_CC_Contacts_By_State",
               "column": 60,
-              "row": 33,
+              "row": 28,
               "colspan": 36,
               "rowspan": 26
             },
             {
               "name": "x_bars",
               "column": 0,
-              "row": 59,
+              "row": 54,
               "colspan": 28,
               "rowspan": 34
             },
             {
               "name": "t_CC_Contacts_Trend",
               "column": 28,
-              "row": 59,
+              "row": 54,
               "colspan": 68,
               "rowspan": 4
             },
             {
               "name": "w_CC_Contacts_Trend",
               "column": 28,
-              "row": 63,
+              "row": 58,
               "colspan": 68,
               "rowspan": 22
             },
             {
               "name": "t_CC_Reason_Mix",
               "column": 0,
-              "row": 85,
+              "row": 80,
               "colspan": 32,
               "rowspan": 4
             },
             {
               "name": "w_CC_Reason_Mix",
               "column": 0,
-              "row": 89,
+              "row": 84,
               "colspan": 32,
               "rowspan": 22
             },
             {
               "name": "t_CC_Channel_SLA",
               "column": 32,
-              "row": 85,
+              "row": 80,
               "colspan": 32,
               "rowspan": 4
             },
             {
               "name": "w_CC_Channel_SLA",
               "column": 32,
-              "row": 89,
+              "row": 84,
               "colspan": 32,
               "rowspan": 22
             },
             {
               "name": "t_CC_SLA_Share",
               "column": 64,
-              "row": 85,
+              "row": 80,
               "colspan": 32,
               "rowspan": 4
             },
             {
               "name": "w_CC_SLA_Share",
               "column": 64,
-              "row": 89,
+              "row": 84,
               "colspan": 32,
               "rowspan": 22
             },
             {
               "name": "t_CC_Sentiment",
               "column": 0,
-              "row": 111,
+              "row": 106,
               "colspan": 32,
               "rowspan": 4
             },
             {
               "name": "w_CC_Sentiment",
               "column": 0,
-              "row": 115,
+              "row": 110,
               "colspan": 32,
               "rowspan": 22
             },
             {
               "name": "t_CC_Reason_Negative",
               "column": 32,
-              "row": 111,
+              "row": 106,
               "colspan": 32,
               "rowspan": 4
             },
             {
               "name": "w_CC_Reason_Negative",
               "column": 32,
-              "row": 115,
+              "row": 110,
               "colspan": 32,
               "rowspan": 22
             },
             {
               "name": "t_CC_SLA_By_Center_Radial",
               "column": 64,
-              "row": 111,
+              "row": 106,
               "colspan": 32,
               "rowspan": 4
             },
             {
               "name": "w_CC_SLA_By_Center_Radial",
               "column": 64,
-              "row": 115,
+              "row": 110,
               "colspan": 32,
               "rowspan": 22
             },
             {
               "name": "t_CC_Center_SLA_Trend",
               "column": 0,
-              "row": 137,
+              "row": 132,
               "colspan": 32,
               "rowspan": 4
             },
             {
               "name": "w_CC_Center_SLA_Trend",
               "column": 0,
-              "row": 141,
+              "row": 136,
               "colspan": 32,
               "rowspan": 22
             },
             {
               "name": "t_CC_CSAT_By_Channel",
               "column": 32,
-              "row": 137,
+              "row": 132,
               "colspan": 32,
               "rowspan": 4
             },
             {
               "name": "w_CC_CSAT_By_Channel",
               "column": 32,
-              "row": 141,
+              "row": 136,
               "colspan": 32,
               "rowspan": 22
             },
             {
               "name": "t_CC_Reason_Sentiment_Sankey",
               "column": 0,
-              "row": 163,
+              "row": 158,
               "colspan": 96,
               "rowspan": 4
             },
             {
               "name": "w_CC_Reason_Sentiment_Sankey",
               "column": 0,
-              "row": 167,
+              "row": 162,
               "colspan": 96,
               "rowspan": 32
             },
@@ -245,7 +245,7 @@
               "column": 0,
               "row": 4,
               "colspan": 96,
-              "rowspan": 12
+              "rowspan": 7
             }
           ]
         }

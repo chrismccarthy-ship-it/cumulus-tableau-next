@@ -21,168 +21,168 @@
               "column": 0,
               "row": 0,
               "colspan": 64,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_Region",
               "column": 64,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_LifeStage",
               "column": 80,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "k_aum",
               "column": 0,
-              "row": 13,
+              "row": 9,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_events",
               "column": 24,
-              "row": 13,
+              "row": 9,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_fu",
               "column": 48,
-              "row": 13,
+              "row": 9,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_opp",
               "column": 72,
-              "row": 13,
+              "row": 9,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 29,
+              "row": 19,
               "colspan": 60,
-              "rowspan": 38
+              "rowspan": 34
             },
             {
               "name": "t_FA_Opportunity_By_State",
               "column": 60,
-              "row": 29,
+              "row": 19,
               "colspan": 36,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_FA_Opportunity_By_State",
               "column": 60,
-              "row": 35,
+              "row": 23,
               "colspan": 36,
-              "rowspan": 32
+              "rowspan": 30
             },
             {
               "name": "x_nba",
               "column": 0,
-              "row": 67,
+              "row": 53,
               "colspan": 28,
-              "rowspan": 34
+              "rowspan": 30
             },
             {
               "name": "t_FA_Life_Events_Followup",
               "column": 28,
-              "row": 67,
+              "row": 53,
               "colspan": 68,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_FA_Life_Events_Followup",
               "column": 28,
-              "row": 73,
+              "row": 57,
               "colspan": 68,
-              "rowspan": 28
+              "rowspan": 26
             },
             {
               "name": "t_FA_Book_By_Stage",
               "column": 0,
-              "row": 101,
+              "row": 83,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_FA_Book_By_Stage",
               "column": 0,
-              "row": 107,
+              "row": 87,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_FA_Activities_By_Advisor",
               "column": 32,
-              "row": 101,
+              "row": 83,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_FA_Activities_By_Advisor",
               "column": 32,
-              "row": 107,
+              "row": 87,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_FA_Referral_Funnel",
               "column": 64,
-              "row": 101,
+              "row": 83,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_FA_Referral_Funnel",
               "column": 64,
-              "row": 107,
+              "row": 87,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_FA_Life_Events_Source",
               "column": 0,
-              "row": 131,
+              "row": 109,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_FA_Life_Events_Source",
               "column": 0,
-              "row": 137,
+              "row": 113,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_FA_Activities_Trend",
               "column": 32,
-              "row": 131,
+              "row": 109,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_FA_Activities_Trend",
               "column": 32,
-              "row": 137,
+              "row": 113,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "summary",
               "column": 0,
-              "row": 5,
+              "row": 4,
               "colspan": 96,
-              "rowspan": 8
+              "rowspan": 5
             }
           ]
         }
@@ -190,8 +190,8 @@
       "rowHeight": 10,
       "style": {
         "backgroundColor": "#F2F6F1",
-        "cellSpacingX": 14,
-        "cellSpacingY": 14,
+        "cellSpacingX": 8,
+        "cellSpacingY": 8,
         "gutterColor": "#F2F6F1"
       }
     }

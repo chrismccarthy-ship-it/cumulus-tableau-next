@@ -21,203 +21,203 @@
               "column": 0,
               "row": 0,
               "colspan": 64,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_Region",
               "column": 64,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_Channel",
               "column": 80,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "x_banner",
               "column": 0,
-              "row": 17,
+              "row": 11,
               "colspan": 96,
-              "rowspan": 5
+              "rowspan": 3
             },
             {
               "name": "k_cases",
               "column": 0,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_fcr",
               "column": 24,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_aht",
               "column": 48,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_csat",
               "column": 72,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 38,
+              "row": 24,
               "colspan": 60,
-              "rowspan": 38
+              "rowspan": 34
             },
             {
               "name": "t_RB_FCR_By_State",
               "column": 60,
-              "row": 38,
+              "row": 24,
               "colspan": 36,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_RB_FCR_By_State",
               "column": 60,
-              "row": 44,
+              "row": 28,
               "colspan": 36,
-              "rowspan": 32
+              "rowspan": 30
             },
             {
               "name": "x_nba",
               "column": 0,
-              "row": 76,
+              "row": 58,
               "colspan": 28,
-              "rowspan": 34
+              "rowspan": 30
             },
             {
               "name": "t_RB_Disputes_Trend",
               "column": 28,
-              "row": 76,
+              "row": 58,
               "colspan": 68,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_RB_Disputes_Trend",
               "column": 28,
-              "row": 82,
+              "row": 62,
               "colspan": 68,
-              "rowspan": 28
+              "rowspan": 26
             },
             {
               "name": "t_RB_Cases_Trend",
               "column": 0,
-              "row": 110,
+              "row": 88,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_RB_Cases_Trend",
               "column": 0,
-              "row": 116,
+              "row": 92,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_RB_Disputes_By_Branch",
               "column": 32,
-              "row": 110,
+              "row": 88,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_RB_Disputes_By_Branch",
               "column": 32,
-              "row": 116,
+              "row": 92,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_RB_Cases_By_Channel",
               "column": 64,
-              "row": 110,
+              "row": 88,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_RB_Cases_By_Channel",
               "column": 64,
-              "row": 116,
+              "row": 92,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_RB_CSAT_By_Type",
               "column": 0,
-              "row": 140,
+              "row": 114,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_RB_CSAT_By_Type",
               "column": 0,
-              "row": 146,
+              "row": 118,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_RB_AHT_By_Agentforce",
               "column": 32,
-              "row": 140,
+              "row": 114,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_RB_AHT_By_Agentforce",
               "column": 32,
-              "row": 146,
+              "row": 118,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_RB_Deposits_By_Segment",
               "column": 64,
-              "row": 140,
+              "row": 114,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_RB_Deposits_By_Segment",
               "column": 64,
-              "row": 146,
+              "row": 118,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_RB_Channel_Trend",
               "column": 0,
-              "row": 170,
+              "row": 140,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_RB_Channel_Trend",
               "column": 0,
-              "row": 176,
+              "row": 144,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "summary",
               "column": 0,
-              "row": 5,
+              "row": 4,
               "colspan": 96,
-              "rowspan": 12
+              "rowspan": 7
             }
           ]
         }
@@ -225,8 +225,8 @@
       "rowHeight": 10,
       "style": {
         "backgroundColor": "#F3F5F9",
-        "cellSpacingX": 14,
-        "cellSpacingY": 14,
+        "cellSpacingX": 8,
+        "cellSpacingY": 8,
         "gutterColor": "#F3F5F9"
       }
     }

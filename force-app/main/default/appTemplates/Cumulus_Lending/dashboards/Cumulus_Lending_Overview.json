@@ -21,168 +21,168 @@
               "column": 0,
               "row": 0,
               "colspan": 64,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_Region",
               "column": 64,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_Channel",
               "column": 80,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "x_banner",
               "column": 0,
-              "row": 17,
+              "row": 11,
               "colspan": 96,
-              "rowspan": 5
+              "rowspan": 3
             },
             {
               "name": "k_apps",
               "column": 0,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_pt",
               "column": 24,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_ttc",
               "column": 48,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_vol",
               "column": 72,
-              "row": 22,
+              "row": 14,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 38,
+              "row": 24,
               "colspan": 60,
-              "rowspan": 38
+              "rowspan": 34
             },
             {
               "name": "t_LN_Time_To_Close_By_State",
               "column": 60,
-              "row": 38,
+              "row": 24,
               "colspan": 36,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_LN_Time_To_Close_By_State",
               "column": 60,
-              "row": 44,
+              "row": 28,
               "colspan": 36,
-              "rowspan": 32
+              "rowspan": 30
             },
             {
               "name": "t_LN_Apps_Trend",
               "column": 0,
-              "row": 76,
+              "row": 58,
               "colspan": 96,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_LN_Apps_Trend",
               "column": 0,
-              "row": 82,
+              "row": 62,
               "colspan": 96,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_LN_Days_By_Stage",
               "column": 0,
-              "row": 106,
+              "row": 84,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_LN_Days_By_Stage",
               "column": 0,
-              "row": 112,
+              "row": 88,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_LN_Status_By_Channel",
               "column": 32,
-              "row": 106,
+              "row": 84,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_LN_Status_By_Channel",
               "column": 32,
-              "row": 112,
+              "row": 88,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_LN_Volume_By_Product",
               "column": 64,
-              "row": 106,
+              "row": 84,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_LN_Volume_By_Product",
               "column": 64,
-              "row": 112,
+              "row": 88,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_LN_LO_Leaderboard",
               "column": 0,
-              "row": 136,
+              "row": 110,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_LN_LO_Leaderboard",
               "column": 0,
-              "row": 142,
+              "row": 114,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_LN_Pull_Through_By_Channel",
               "column": 32,
-              "row": 136,
+              "row": 110,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_LN_Pull_Through_By_Channel",
               "column": 32,
-              "row": 142,
+              "row": 114,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "summary",
               "column": 0,
-              "row": 5,
+              "row": 4,
               "colspan": 96,
-              "rowspan": 12
+              "rowspan": 7
             }
           ]
         }
@@ -190,8 +190,8 @@
       "rowHeight": 10,
       "style": {
         "backgroundColor": "#EEF6F8",
-        "cellSpacingX": 14,
-        "cellSpacingY": 14,
+        "cellSpacingX": 8,
+        "cellSpacingY": 8,
         "gutterColor": "#EEF6F8"
       }
     }

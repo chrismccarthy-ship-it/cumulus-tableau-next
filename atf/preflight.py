@@ -179,7 +179,7 @@ def check_template(d):
                 if sdm.get("apiName") != f"${{App.SemanticModels.{name}_SDM.Name}}":
                     fails.append(f"dashboard {dash['name']} extension widget {w['name']} not bound to the SDM token")
                 continue
-            if w.get("type") == "text":
+            if w.get("type") in ("text", "summary"):   # text and the native Agentforce Summary widget carry no data source
                 continue
             if w.get("type") == "filter":
                 if w["source"]["name"] != f"${{App.SemanticModels.{name}_SDM.Name}}":

@@ -21,182 +21,182 @@
               "column": 0,
               "row": 0,
               "colspan": 64,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_Region",
               "column": 64,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "flt_ServiceTier",
               "column": 80,
               "row": 0,
               "colspan": 16,
-              "rowspan": 5
+              "rowspan": 4
             },
             {
               "name": "k_aum",
               "column": 0,
-              "row": 17,
+              "row": 11,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_nna",
               "column": 24,
-              "row": 17,
+              "row": 11,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_churn",
               "column": 48,
-              "row": 17,
+              "row": 11,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "k_int",
               "column": 72,
-              "row": 17,
+              "row": 11,
               "colspan": 24,
-              "rowspan": 16
+              "rowspan": 10
             },
             {
               "name": "x_map",
               "column": 0,
-              "row": 33,
+              "row": 21,
               "colspan": 60,
-              "rowspan": 38
+              "rowspan": 34
             },
             {
               "name": "t_WM_Churn_By_State",
               "column": 60,
-              "row": 33,
+              "row": 21,
               "colspan": 36,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_WM_Churn_By_State",
               "column": 60,
-              "row": 39,
+              "row": 25,
               "colspan": 36,
-              "rowspan": 32
+              "rowspan": 30
             },
             {
               "name": "x_bars",
               "column": 0,
-              "row": 71,
+              "row": 55,
               "colspan": 28,
-              "rowspan": 34
+              "rowspan": 30
             },
             {
               "name": "t_WM_Net_Flows_Trend",
               "column": 28,
-              "row": 71,
+              "row": 55,
               "colspan": 68,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_WM_Net_Flows_Trend",
               "column": 28,
-              "row": 77,
+              "row": 59,
               "colspan": 68,
-              "rowspan": 28
+              "rowspan": 26
             },
             {
               "name": "t_WM_Inflows_Trend",
               "column": 0,
-              "row": 105,
+              "row": 85,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_WM_Inflows_Trend",
               "column": 0,
-              "row": 111,
+              "row": 89,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_WM_Outflows_Trend",
               "column": 32,
-              "row": 105,
+              "row": 85,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_WM_Outflows_Trend",
               "column": 32,
-              "row": 111,
+              "row": 89,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_WM_Interactions_Churn",
               "column": 64,
-              "row": 105,
+              "row": 85,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_WM_Interactions_Churn",
               "column": 64,
-              "row": 111,
+              "row": 89,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_WM_Goals_Status",
               "column": 0,
-              "row": 135,
+              "row": 111,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_WM_Goals_Status",
               "column": 0,
-              "row": 141,
+              "row": 115,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_WM_Allocation",
               "column": 32,
-              "row": 135,
+              "row": 111,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_WM_Allocation",
               "column": 32,
-              "row": 141,
+              "row": 115,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "t_WM_AUM_By_Tier",
               "column": 64,
-              "row": 135,
+              "row": 111,
               "colspan": 32,
-              "rowspan": 6
+              "rowspan": 4
             },
             {
               "name": "w_WM_AUM_By_Tier",
               "column": 64,
-              "row": 141,
+              "row": 115,
               "colspan": 32,
-              "rowspan": 24
+              "rowspan": 22
             },
             {
               "name": "summary",
               "column": 0,
-              "row": 5,
+              "row": 4,
               "colspan": 96,
-              "rowspan": 12
+              "rowspan": 7
             }
           ]
         }
@@ -204,8 +204,8 @@
       "rowHeight": 10,
       "style": {
         "backgroundColor": "#EEF0FB",
-        "cellSpacingX": 14,
-        "cellSpacingY": 14,
+        "cellSpacingX": 8,
+        "cellSpacingY": 8,
         "gutterColor": "#EEF0FB"
       }
     }
