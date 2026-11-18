@@ -167,7 +167,7 @@ Semantic model template: `Cumulus_Lending_SDM` | Persona: Loan operations manage
 
 ![What is total AUM by advisor?](sample-queries/img/04-wealth-what-is-total-aum-by-advisor.png)
 
-- Finding: Wide spread across the top 20 advisors: AUM ranges from USD 7M to USD 115M, with the top two above USD 100M.
+- Finding: Wide spread across all 40 advisors: AUM ranges from USD 7M to USD 128M, and 3 advisors hold more than USD 100M. The chart shows the top 20 of 40.
 - Chart fit: High. Ranked bars show the spread at a glance.
 
 **Compare interactions per household, churned vs retained**
@@ -197,7 +197,7 @@ Semantic model template: `Cumulus_Lending_SDM` | Persona: Loan operations manage
 
 ![What is AUM by strategy?](sample-queries/img/08-asset-management-what-is-aum-by-strategy.png)
 
-- Finding: Private Credit (USD 16.3B) and Liability-Driven Investing (USD 14.9B) lead.
+- Finding: Private Credit (USD 16.3B) and Multi-Asset Balanced (USD 15.2B) lead.
 - Chart fit: High. Ranked bars with 8 clear categories.
 
 **Pipeline by stage with total amount**

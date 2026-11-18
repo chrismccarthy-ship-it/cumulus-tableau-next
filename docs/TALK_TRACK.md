@@ -28,7 +28,7 @@ A fresh draft written from the sample query results in [SAMPLE_QUESTIONS.md](SAM
 
 **Follow-up ask:** "Which households have had fewer than two interactions in the last quarter and more than 1M USD AUM?"
 
-**Also available:** total AUM by advisor ranges from 7M USD to 115M USD across the top 20, with two advisors above 100M USD. Use it to show where an advisor's attention is concentrated.
+**Also available:** total AUM by advisor ranges from 7M USD to 128M USD across 40 advisors, with three above 100M USD. Use it to show where an advisor's attention is concentrated.
 
 **Land it:** "This turns a retention problem into a list of households to call this week."
 
@@ -54,7 +54,7 @@ A fresh draft written from the sample query results in [SAMPLE_QUESTIONS.md](SAM
 
 **Ask:** "What is AUM by strategy?"
 
-**What the data shows:** Private Credit leads at 16.3B USD, then Liability-Driven Investing at 14.9B USD.
+**What the data shows:** Private Credit leads at 16.3B USD, then Multi-Asset Balanced at 15.2B USD.
 
 **Second ask:** "Show the pipeline by stage with total amount." RFP Received holds the most at 14.0B USD, then Finals Presentation at 7.6B USD.
 
